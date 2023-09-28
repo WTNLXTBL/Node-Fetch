@@ -38,9 +38,9 @@
 - [加速链接 4](https://cdn.staticaly.com/gh/WTNLXTBL/Node-Fetch/main/list.txt)
 
 或添加 Clash 订阅：
-- [原始链接](https://raw.githubusercontent.com/WTNLXTBL/Node-Fetch/main/list.txt)
-- [加速链接 1](https://ghproxy.com/https://raw.githubusercontent.com/WTNLXTBL/Node-Fetch/main/list.txt)
-- [加速链接 2](https://ghproxy.net/https://raw.githubusercontent.com/WTNLXTBL/Node-Fetch/main/list.txt)
+- [原始链接](https://raw.githubusercontent.com/WTNLXTBL/Node-Fetch/main/list.yml)
+- [加速链接 1](https://ghproxy.com/https://raw.githubusercontent.com/WTNLXTBL/Node-Fetch/main/list.yml)
+- [加速链接 2](https://ghproxy.net/https://raw.githubusercontent.com/WTNLXTBL/Node-Fetch/main/list.yml)
 - [加速链接 3](https://fastly.jsdelivr.net/gh/WTNLXTBL/Node-Fetch@main/list.yml)
 - [加速链接 4](https://cdn.staticaly.com/gh/WTNLXTBL/Node-Fetch/main/list.yml)
 
