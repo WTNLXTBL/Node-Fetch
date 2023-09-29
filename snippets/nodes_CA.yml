@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|加拿大01 优选（1倍率）
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  tls: false
+  type: vmess
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
+  ws-opts:
+    headers:
+      Host: ca-01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 177
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
 - name: 1|_CA_
   network: tcp
   password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
@@ -10,19 +37,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 12|加拿大02（1倍率）
-  network: ws
-  port: '8080'
-  server: ca-02.gujuji.top
-  tls: false
-  type: vmess
-  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -30,7 +44,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e3d2b5e9-6f64-4d13-93a6-ed2e4b64feb9
+  uuid: df20f5af-11fa-4180-807c-c4b3d08ff07c
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 153
@@ -47,16 +61,16 @@ proxies:
     path: /odelia.autos:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 12|加拿大01 优选（1倍率）
+  name: 7,8|🇨🇦 Canada 01 @nodpai
   network: ws
   port: '8080'
-  server: go.gujuji.top
+  server: ca-02.gujuji.top
   tls: false
   type: vmess
   uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
   ws-opts:
     headers:
-      Host: ca-01.gujuji.top
+      Host: ca-02.gujuji.top
     path: /
 - alterId: 0
   cipher: auto
@@ -67,18 +81,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49eaace6-7755-424f-b08c-1ef6db468f8e
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 177
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
+  uuid: 4d026c18-bddc-4e7f-9496-d1823b95e997
