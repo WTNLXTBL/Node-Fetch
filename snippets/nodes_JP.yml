@@ -15,14 +15,29 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.138.93
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 16 @nodpai
+  network: ws
+  port: '30866'
+  server: v4.heduian.online
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v4.heduian.online
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇯🇵 日本R|@ripaojiedian
@@ -37,41 +52,34 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-053
+  name: 9|🇯🇵日本04
   network: tcp
-  port: 1069
-  server: 152.69.197.60
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 81abbc58-c4e1-4969-8340-322bcd403432
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 JP(AzadNet.t.me)_024
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
   servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,流媒体全解锁」🇯🇵 JP 01
-  password: e00a00ef-cea7-4036-99d3-6dcc6218301a
-  port: 25854
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- alterId: 0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
   cipher: auto
-  name: 9|🇯🇵日本06
+  name: 12|🇯🇵 JP(AzadNet.t.me)_023
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 20a8d49a-f52f-4b13-9e06-b3bc7a07f2f6
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇯🇵 东京特殊|@ripaojiedian
@@ -82,31 +90,35 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本 04  | 1x JP
+  name: 9|🇯🇵日本06
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 20a8d49a-f52f-4b13-9e06-b3bc7a07f2f6
+  uuid: 81abbc58-c4e1-4969-8340-322bcd403432
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.138.93
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
+  name: 7,8|🇯🇵 Japan 15 @nodpai
+  network: ws
+  port: '2052'
+  server: c52dn20.1145114.me
+  tls: false
   type: vmess
-  uuid: 20a8d49a-f52f-4b13-9e06-b3bc7a07f2f6
-- cipher: chacha20-ietf-poly1305
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇯...
-  password: e5a825ad-f138-488c-881d-f92fed06a635
-  port: 28445
-  server: 193.123.246.186
-  type: ss
-  udp: true
+  uuid: 0c89cb9f-1b84-4741-9805-33998d49492b
+  ws-opts:
+    headers:
+      Host: c52dn20.1145114.me
+    path: /91819299-acb0-4f6c-db61-bdc8d7d41d97xianyu
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -123,36 +135,16 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 JP(AzadNet.t.me)_024
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
+  name: 13|日本 06  | 1x JP
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 JP(AzadNet.t.me)_023
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -162,4 +154,14 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
+  uuid: 81abbc58-c4e1-4969-8340-322bcd403432
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f06631c7-ee66-4c95-b181-99f036489048
