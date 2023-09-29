@@ -1,14 +1,73 @@
 proxies:
+- name: 1|_CA_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦_CA_加拿大_2_22@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
+  name: 12|加拿大02（1倍率）
+  network: ws
+  port: '8080'
+  server: ca-02.gujuji.top
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e3d2b5e9-6f64-4d13-93a6-ed2e4b64feb9
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 153
+  network: ws
+  port: 443
+  server: auth0.openai.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /odelia.autos:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|加拿大01 优选（1倍率）
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  tls: false
+  type: vmess
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
+  ws-opts:
+    headers:
+      Host: ca-01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 49eaace6-7755-424f-b08c-1ef6db468f8e
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 177
@@ -23,32 +82,3 @@ proxies:
     headers:
       Host: 51vfly1.win
     path: /myblog
-- name: 1|_CA_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 899509ce-6243-4139-9fae-beccb08c15db
