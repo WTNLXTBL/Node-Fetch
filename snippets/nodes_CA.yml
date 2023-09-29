@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fbd36ed9-8250-47a0-8ce6-9782f3ea0333
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -18,21 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ab473472-5369-4c91-95f7-edd2479db56c
+  uuid: 48d30cf2-d172-428f-bebf-3bb224249e0e
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 177
+  name: 12|🇨🇦 加拿大 24
   network: ws
-  port: 443
-  server: 51vfly1.win
+  port: 8080
+  server: dongtaiwang3.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  uuid: c5f81634-cd34-47fa-ace6-69300539e051
   ws-opts:
     headers:
-      Host: 51vfly1.win
-    path: /myblog
+      Host: dongtaiwang.dtku47.xyz
+    path: /oX7MJ0Fj/
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 12|🇨🇦 加拿大 156
@@ -49,6 +39,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12|🇨🇦 加拿大 177
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦_CA_加拿大_2_22@11
   network: tcp
   port: 22324
@@ -57,3 +61,35 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 20a8d49a-f52f-4b13-9e06-b3bc7a07f2f6
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: dld.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: dld.shabijichang.com
+    path: /
+- name: 1|_CA_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
