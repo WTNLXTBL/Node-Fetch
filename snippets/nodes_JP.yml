@@ -1,20 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20022
-  server: 183.232.170.32
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 JP(AzadNet.t.me)_023
@@ -25,36 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 15|日本B|@ripaojiedian
-  network: tcp
-  port: '46222'
-  server: 141.147.146.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d457977a-24a4-41fa-9924-b52925c66a24
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 30fd33e8-f41d-4090-ae2b-f321fa354f2c
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 JP(AzadNet.t.me)_024
@@ -67,14 +21,23 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本06
+  name: 12,15|🇯🇵 Japan 01 @nodpai
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '46222'
+  server: 141.147.146.29
+  tls: false
+  type: vmess
+  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d457977a-24a4-41fa-9924-b52925c66a24
+  uuid: 23f9858a-3cba-4860-8223-bdbc6198664f
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -84,27 +47,17 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d457977a-24a4-41fa-9924-b52925c66a24
+  uuid: 9bb6333a-73dd-4f2b-aae8-32cafebd800c
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵_JP_日本_11@10
+  name: 9|🇯🇵日本05
   network: tcp
-  port: 23234
-  server: jp6.lianpi.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a0043275-5033-4923-9f22-b2f466a8794a
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 30fd33e8-f41d-4090-ae2b-f321fa354f2c
+  uuid: 9bb6333a-73dd-4f2b-aae8-32cafebd800c
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT2|@ripaojiedian
@@ -121,13 +74,75 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20022
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本 06  | 1x JP
+  name: 12|🇻🇳_VN_越南_分享日记_48
+  network: ws
+  port: 80
+  server: hcm01.4ghatde.com
+  tls: false
+  type: vmess
+  uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d
+  ws-opts:
+    headers:
+      Host: hcm01.4ghatde.com
+    path: /svip1.4ghatde.com
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
   network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 30fd33e8-f41d-4090-ae2b-f321fa354f2c
+  uuid: 23f9858a-3cba-4860-8223-bdbc6198664f
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇷_CR_哥斯达黎加_分享日记_31
+  network: ws
+  port: 8880
+  server: tunneltransfer.bpyjc.com
+  tls: false
+  type: vmess
+  uuid: 941525d7-ff7b-4c4c-bac5-d8bd85c56275
+  ws-opts:
+    headers:
+      Host: us.bpyjc.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 23f9858a-3cba-4860-8223-bdbc6198664f
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9bb6333a-73dd-4f2b-aae8-32cafebd800c
