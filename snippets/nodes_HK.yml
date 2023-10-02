@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e887a564-c237-4c56-b4cc-dabcd6a50cc1
+- alterId: 64
+  cipher: auto
+  name: 15,17|香港A|@ripaojiedian
+  network: tcp
+  port: '51165'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 11,14|github.com/freefq - 香港电讯盈科有限公司...
   network: ws
   port: '55455'
@@ -14,20 +34,107 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港05
+  name: 9|🇭🇰香港04
   network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
+  uuid: d776c36e-ad49-49f6-9875-ff02789b298a
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e887a564-c237-4c56-b4cc-dabcd6a50cc1
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d776c36e-ad49-49f6-9875-ff02789b298a
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.3.32
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 17|🇭🇰_HK_香港_2_48
+  network: tcp
+  port: 42952
+  server: 156.245.8.144
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e887a564-c237-4c56-b4cc-dabcd6a50cc1
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇭🇰 Hong Kong 07 @nodpai
+  network: ws
+  port: '443'
+  server: 162.159.134.54
+  tls: true
+  type: vmess
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    headers:
+      Host: ''
+    path: /db00
 - alterId: 64
   cipher: auto
   name: 1,2,3,4,6|_HK__1
   network: tcp
   port: 42952
   server: 156.245.8.145
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 0
+  cipher: auto
+  name: 7,15|「节点冠名招商 @nodpai」🇭🇰 HK 01
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 1,2,3,4,6,17|_HK__2
+  network: tcp
+  port: 42952
+  server: 156.245.8.146
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -51,61 +158,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|香港 06 | 1x HK
+  name: 9|🇭🇰香港05
   network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
-- alterId: 64
-  cipher: auto
-  name: 17|🇭🇰_HK_香港_2_48
-  network: tcp
-  port: 42952
-  server: 156.245.8.144
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- name: 8,14|「蛋挞云,超低价格,超高体验」🇭🇰 HK 01
-  password: 3f0e8ecd-f30f-4881-acf6-b5037b3c99a9
-  port: 10808
-  server: hk.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 1,2,3,4,6,17|_HK__2
-  network: tcp
-  port: 42952
-  server: 156.245.8.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
-- alterId: 64
-  cipher: auto
-  name: 15|香港直连|@ripaojiedian
-  network: tcp
-  port: '39971'
-  server: 183.240.232.82
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d776c36e-ad49-49f6-9875-ff02789b298a
 - alterId: 64
   cipher: auto
   name: 15|香港2|@ripaojiedian
@@ -118,57 +178,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: afc8d430-089f-4271-a29f-9e666f9c7e19
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 47a5ef0f-0a7c-4198-a6f3-75ddcf0edef7
-- alterId: 64
-  cipher: auto
-  name: 15,17|香港A|@ripaojiedian
-  network: tcp
-  port: '51165'
-  server: 183.233.187.214
-  servername: ''
+  name: '8,14|「节点冠名招商 @nodpai」🇭🇰 HK 01 #1'
+  port: 53737
+  server: 112.29.94.22
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.3.32
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8|「蛋挞云,流媒体全解锁」🇭🇰 HK 02
+  network: ws
+  port: '41197'
+  server: 120.241.47.4
+  tls: true
+  type: vmess
+  uuid: 29fb10c5-562a-34d4-a0ba-cdd368116854
+  ws-opts:
+    headers:
+      Host: ''
+    path: /db00
