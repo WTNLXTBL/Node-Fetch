@@ -1,14 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  name: 12|🇨🇦 加拿大 139
+  network: ws
+  port: 443
+  server: laravel.com
+  servername: ''
   tls: true
   type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 192
+  network: ws
+  port: 8880
+  server: 172.67.139.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -18,7 +36,21 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 194
+  network: ws
+  port: 8880
+  server: 172.67.230.115
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 133
@@ -35,15 +67,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 139
+  name: 12|🇨🇦 加拿大 196
   network: ws
-  port: 443
-  server: laravel.com
+  port: 8880
+  server: 172.67.93.134
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
   ws-opts:
     headers:
-      Host: sub.yifenjichang.top
-    path: /octavi.cfd:443/linkvws
+      Host: vcus1.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b

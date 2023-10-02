@@ -1,29 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,18|🇭🇰 香港|@ripaojiedian
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
+- alterId: 0
+  cipher: auto
+  name: 15|香港|@ripaojiedian
   network: ws
-  port: 46001
+  port: '46001'
   server: mf01fx.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
+  uuid: 81fbdd06-6aa2-42f7-b71a-2f71253d8bd3
   ws-opts:
     headers:
-      Host: mf01fx.micloud.buzz
+      Host: ''
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  name: 18|🇭🇰_HK_香港_2_48
+  name: 15,17|香港A|@ripaojiedian
   network: tcp
-  port: 42952
-  server: 156.245.8.144
+  port: '51165'
+  server: 183.233.187.214
+  servername: ''
   tls: false
   type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -42,83 +51,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
-- alterId: 64
-  cipher: auto
-  name: 11,12,18|github.com/freefq - 香港  15
-  network: tcp
-  port: '42952'
-  server: 156.245.8.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇭🇰 Hong Kong 06 @nodpai
-  network: ws
-  port: '4443'
-  server: hkbn1.411api-snisajdnjkndd.com
-  tls: true
-  type: vmess
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-opts:
-    headers:
-      Host: hkbn1.411api-snisajdnjkndd.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇭🇰 Hong Kong 05 @nodpai
-  network: ws
-  port: '4443'
-  server: 183.178.194.228
-  tls: true
-  type: vmess
-  uuid: f15ca202-7edc-4e36-bf34-fe29db9ec305
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 586009bb-b993-4c5c-8f32-c523040fdf34
-- alterId: 0
-  cipher: auto
-  name: 7,8,11,12,14|🇭🇰 Hong Kong 02 @nodpai
+  name: 7,8,11,12,14|🇭🇰 Hong Kong 03 @nodpai
   network: ws
   port: '55455'
   server: hkt.123ddns.xyz
@@ -131,30 +64,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|香港|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mf01fx.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
-- alterId: 0
-  cipher: auto
   name: 13|香港 04 | 1x HK
   network: tcp
   port: '31601'
@@ -162,4 +71,149 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 909c1c71-ccbd-4659-a9cc-e1930744a9b9
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇭🇰 香港T|@ripaojiedian
+  network: ws
+  port: 443
+  server: 118.107.245.19
+  servername: www.50918290.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.50918290.xyz
+    path: /path/143534141104
+- alterId: 64
+  cipher: auto
+  name: 15|香港直连|@ripaojiedian
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 6,7,11,12,17|🇭🇰_HK_香港
+  network: tcp
+  port: 42952
+  server: 156.245.8.146
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
+- alterId: 64
+  cipher: auto
+  name: 15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '6,12|🇭🇰_HK_香港 #1'
+  network: tcp
+  port: 42952
+  server: 156.245.8.145
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,17|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mf01fx.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 81fbdd06-6aa2-42f7-b71a-2f71253d8bd3
+  ws-opts:
+    headers:
+      Host: mf01fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇭🇰 香港Z|@ripaojiedian
+  network: ws
+  port: 55455
+  server: 112.120.244.81
+  servername: hkt.123ddns.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: hkt.123ddns.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇭🇰 香港X|@ripaojiedian
+  network: ws
+  port: 443
+  server: 27.124.6.148
+  servername: www.65210162.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65210162.xyz
+    path: /path/143534141104
