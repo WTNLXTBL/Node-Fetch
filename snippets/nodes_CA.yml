@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1a1a4dc9-6cf7-4643-92f0-6894c316b6ee
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -18,4 +8,27 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1502f2ac-3244-4d55-ab55-12df5378475f
+  uuid: b8eab1c4-a666-4c4a-aed3-d87592b3210e
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: 172.67.98.182
+  tls: false
+  type: vmess
+  uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: dd97dfa5-5b8c-4106-b4e3-ce9e877ce907
