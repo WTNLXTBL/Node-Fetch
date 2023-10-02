@@ -1,6 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 888ea678-0b4a-49b5-ad4c-e25a447046cd
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 133
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 17f95700-628b-49d5-8904-6f47c5d36d36
+- alterId: 0
+  cipher: auto
   name: 12|🇨🇦 加拿大 139
   network: ws
   port: 443
@@ -15,30 +49,6 @@ proxies:
     path: /octavi.cfd:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 192
-  network: ws
-  port: 8880
-  server: 172.67.139.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
-  ws-opts:
-    headers:
-      Host: vcus1.vpn66.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fe410c59-4808-40a3-ad60-f8704663f37a
-- alterId: 0
-  cipher: auto
   name: 12|🇨🇦 加拿大 194
   network: ws
   port: 8880
@@ -50,20 +60,6 @@ proxies:
   ws-opts:
     headers:
       Host: vcus1.vpn66.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 133
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
     path: /
 - alterId: 0
   cipher: auto
@@ -81,11 +77,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 12|🇨🇦 加拿大 192
+  network: ws
+  port: 8880
+  server: 172.67.139.6
+  servername: ''
+  tls: false
   type: vmess
-  uuid: cee592a6-e6d9-43a3-ae06-89318a50426b
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
