@@ -1,10 +1,37 @@
 proxies:
-- name: 1|_FR_
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 1,4|_FR_
   network: tcp
-  password: 0ddff0f8-04d6-4eae-a5a6-5af7746bb30d
-  port: 443
-  server: 57.128.173.6
+  port: 54885
+  server: 156.249.18.204
   skip-cert-verify: true
-  sni: fifa.com
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 03 @nodpai
+  network: ws
+  port: '80'
+  server: ms.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: ms.shabijichang.com
+    path: /
