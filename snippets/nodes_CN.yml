@@ -1,7 +1,39 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11,15|github.com/freefq - 广东省广州市移动 7
+  network: tcp
+  port: 51165
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 01
+  network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇨🇳 China 04 @nodpai
+  network: tcp
+  port: '37399'
+  server: 137.175.86.189
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,8|「蛋挞云,超低价格,超高体验」🇨🇳 CN 03
   network: ws
   port: '8886'
   server: 39.164.141.100
@@ -16,7 +48,7 @@ proxies:
   cipher: auto
   name: 7,8|「eggtartcloud.shop 自选入口,速度保证」🇨...
   network: ws
-  port: '80'
+  port: '443'
   server: 36.150.27.31
   tls: false
   type: vmess
