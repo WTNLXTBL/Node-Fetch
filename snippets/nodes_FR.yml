@@ -15,20 +15,6 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 12|🔒FR-🇫🇷-VM-WS-TLS🌎_4
-  network: ws
-  port: 80
-  server: fr2-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 12|🔒FR-🇫🇷-VM-TCP-TLS🌍_5
   network: ws
   port: 443
@@ -41,3 +27,17 @@ proxies:
     headers:
       Host: ''
     path: /nimvws
+- alterId: 0
+  cipher: auto
+  name: 12|🔒FR-🇫🇷-VM-WS-TLS🌎_4
+  network: ws
+  port: 80
+  server: fr2-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
