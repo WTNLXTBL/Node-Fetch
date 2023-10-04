@@ -1,1 +1,43 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|🔒FR-🇫🇷-VM-WS-TLS🌎_5
+  network: ws
+  port: 443
+  server: ophelia.mom
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🔒FR-🇫🇷-VM-WS-TLS🌎_4
+  network: ws
+  port: 80
+  server: fr2-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🔒FR-🇫🇷-VM-TCP-TLS🌍_5
+  network: ws
+  port: 443
+  server: 51.15.105.39
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /nimvws
