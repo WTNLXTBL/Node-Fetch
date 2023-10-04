@@ -1,27 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|🇸🇬 Singapore 08 @nodpai
-  network: ws
-  port: '443'
-  server: welfare.kk-proxy.pro
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
-  ws-opts:
-    headers:
-      Host: welfare.kk-proxy.pro
-    path: /ec3a017507e0/
+  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
+  name: 13|新加坡 06 | 1x SG
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a0603c01-1b76-4da7-bf05-dd19024f4788
+  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 02 @nodpai
+  password: f5d95005-be14-40fc-bedc-e4a1133a5701
+  port: 22749
+  server: sg3.gophers.gay
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1004105
+  network: ws
+  port: 80
+  server: 18.142.178.225
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9f70798-a478-45c5-9dfb-9a4357dc7df7
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -31,7 +49,17 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f0443818-3d33-4682-84b8-f2af699dc50a
+  uuid: c6e259cb-0033-48e5-93a9-4911f26a685f
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 893cb0df-1c75-4c94-b2b4-9c9973842d66
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡|@ripaojiedian
@@ -42,16 +70,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f0443818-3d33-4682-84b8-f2af699dc50a
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -59,37 +77,28 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0603c01-1b76-4da7-bf05-dd19024f4788
+  uuid: 893cb0df-1c75-4c94-b2b4-9c9973842d66
 - alterId: 0
   cipher: auto
-  name: 7,8|🇸🇬 Singapore 03 @nodpai
-  network: ws
-  port: '3331'
-  server: 46caadb.f2.gladns.com
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  uuid: 893cb0df-1c75-4c94-b2b4-9c9973842d66
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1004104
+  network: ws
+  port: 80
+  server: 18.142.239.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a273629-3069-487f-d222-3c603f56f7c8
   ws-opts:
     headers:
-      Host: 46caadb.f2.gladns.com
-    path: /s/46caadb.fm.apple.com:60980
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f0443818-3d33-4682-84b8-f2af699dc50a
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a0603c01-1b76-4da7-bf05-dd19024f4788
+      Host: tms.dingtalk.com
+    path: /
