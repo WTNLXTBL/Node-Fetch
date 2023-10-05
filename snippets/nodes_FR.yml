@@ -1,16 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|法国(由快嘴科技提供;kkzui.com)_49
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
+  name: 7,8|🇫🇷 France 06 @nodpai
+  network: ws
+  port: '80'
+  server: bl.shabijichang.com
+  tls: false
   type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 03 @nodpai
+  name: 7,8|🇫🇷 France 04 @nodpai
   network: ws
   port: '443'
   server: 104.24.176.7
@@ -20,19 +24,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 04 @nodpai
-  network: ws
-  port: '443'
-  server: bobbykotick.rip
-  tls: true
-  type: vmess
-  uuid: 2f094845-e2bd-ebf7-deb7-995992436faf
-  ws-opts:
-    headers:
-      Host: bobbykotick.rip
     path: /speedtest
 - alterId: 64
   cipher: auto
@@ -44,9 +35,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇫🇷 France 02 @nodpai
+  password: 977a1372-18fe-4bae-8616-9a59497b810a
+  port: 42018
+  server: as.al19.cf
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 02 @nodpai
+  name: 7,8|🇫🇷 France 03 @nodpai
   network: ws
   port: '443'
   server: 104.31.16.213
@@ -57,11 +55,12 @@ proxies:
     headers:
       Host: ''
     path: /speedtest
-- name: 8,14|🇫🇷 France 01 @nodpai
-  password: 4cf9259e-cd09-4f38-9293-db448c116a47
+- alterId: 0
+  cipher: auto
+  name: 17|法国(由快嘴科技提供;kkzui.com)_49
+  network: grpc
   port: 443
-  server: 51.255.49.192
-  skip-cert-verify: true
-  sni: fifa.com
-  type: trojan
-  udp: true
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
