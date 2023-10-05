@@ -1,24 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 09 @nodpai
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 39045
+  server: 13.213.14.148
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1004105
@@ -43,14 +30,37 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|@ripaojiedian
-  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
-  port: 26906
-  server: ydyh.nanbei.info
-  tfo: false
+  name: 8|🇸🇬 Singapore 03 @nodpai
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 56138
+  server: sg1.lianpi.xyz
   type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
+  password: 8868d533-e657-48c2-afc9-c219a1ab6135
+  port: 26963
+  server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 08 @nodpai
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 56138
+  server: 13.213.14.148
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -87,11 +97,43 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1004113
+  network: ws
+  port: 80
+  server: sgp01.4ghatde.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d
+  ws-opts:
+    headers:
+      Host: sgp01.4ghatde.com
+    path: /lq.4ghatde.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡|@ripaojiedian
+  password: 7dee6bcb-0d47-4f50-97b7-a1af2566bc96
+  port: 26906
+  server: ydyh.nanbei.info
+  tfo: false
+  type: ss
