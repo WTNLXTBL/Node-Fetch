@@ -1,4 +1,30 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30008
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 日本_1004044
@@ -11,41 +37,53 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-053
+  name: 12|🇯🇵白嫖-061
   network: tcp
-  port: 1069
-  server: 152.69.197.60
+  port: 20081
+  server: 138.2.44.211
   servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
-- alterId: 0
-  cipher: auto
-  name: 7|「蛋挞云,流媒体全解锁」🇯🇵 JP 01
-  network: tcp
-  port: '50029'
-  server: 29.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: e41e26de-cfa3-4583-8b9d-76492906ade0
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇯...
   password: amazonskr05
   port: 443
-  server: 18.183.235.192
+  server: 13.112.114.31
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.72.2.46
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本_1005052
+  network: ws
+  port: 888
+  server: jhryx-1087-v2-0.d-kcd.tuil.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本 57
@@ -68,49 +106,43 @@ proxies:
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
-  name: '8,14|「蛋挞云,流媒体全解锁」🇯🇵 JP 01 #1'
-  port: 50029
-  server: 29.kccic2pa.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e41e26de-cfa3-4583-8b9d-76492906ade0
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 JP 58
+  name: 12|JP_speednode_0026
   network: ws
-  port: 8080
-  server: 146.56.174.31
+  port: 80
+  server: fd.cfcdn.giize.com
   servername: ''
   tls: false
   type: vmess
-  uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c
+  uuid: 11111189-0502-48ab-f493-5e0f663a700c
   ws-opts:
     headers:
-      Host: 146.56.174.31
-    path: /tg@herhero6
+      Host: us04.cctvvip.tk
+    path: /cctv13.m3u8
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.72.2.46
+  server: 18.183.235.192
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|JP_speednode_0025
+  network: ws
+  port: 80
+  server: fd.cfcdn.giize.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11111ad6-32cd-4bbb-9247-421878e0c7bd
+  ws-opts:
+    headers:
+      Host: us05.cctvvip.tk
+    path: /cctv13.m3u8
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
   plugin: v2ray-plugin
   plugin-opts:
@@ -120,7 +152,7 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 30008
+  port: 20022
   server: 183.232.170.32
   tfo: false
   type: ss
@@ -146,30 +178,38 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
+  name: 12|🇯🇵白嫖-053
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 12|JP_speednode_0027
+  network: ws
+  port: 80
+  server: fd.cfcdn.giize.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11111e30-51e7-4bbe-a8f6-9c1834b66c8d
+  ws-opts:
+    headers:
+      Host: us06.cctvvip.tk
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20022
-  server: 183.232.170.32
-  tfo: false
-  type: ss
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
