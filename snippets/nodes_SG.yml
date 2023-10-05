@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  name: 7,8|🇸🇬 Singapore 02 @nodpai
+  network: ws
+  port: '3331'
+  server: 46caadb.f2.gladns.com
   tls: true
   type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: 46caadb.f2.gladns.com
+    path: /s/46caadb.fm.apple.com:60980
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -19,6 +22,14 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡|@ripaojiedian
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 39045
+  server: 13.213.14.148
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -29,40 +40,24 @@ proxies:
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡2|@ripaojiedian
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 64578
+  server: sg3.lianpi.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1004113
-  network: ws
-  port: 80
-  server: sgp01.4ghatde.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d
-  ws-opts:
-    headers:
-      Host: sgp01.4ghatde.com
-    path: /lq.4ghatde.com
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1004105
@@ -79,6 +74,26 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
   name: 12|🇸🇬 新加坡_1004104
   network: ws
   port: 80
@@ -91,42 +106,21 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
+  password: 79d50396-8f7b-4481-b34f-0f102a62cfc0
+  port: 14001
+  server: south.steamdownload.top
+  skip-cert-verify: true
+  sni: datasg.steamdownload.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|「蛋挞云,超低价格,超高体验」🇸🇬 SG 01
-  network: ws
-  port: '51456'
-  server: 146.190.96.165
-  tls: false
-  type: vmess
-  uuid: 69074afd-87ca-40e3-bd50-0e2214a27e82
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡2|@ripaojiedian
-  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-  port: 64578
-  server: sg3.lianpi.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|@ripaojiedian
-  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-  port: 39045
-  server: 13.213.14.148
-  tfo: false
-  type: ss
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
