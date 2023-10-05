@@ -1,17 +1,66 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡2|@ripaojiedian
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 64578
+  server: sg3.lianpi.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8|🇸🇬 Singapore 02 @nodpai
+  name: 12|🇸🇬 新加坡_1004104
   network: ws
-  port: '3331'
-  server: 46caadb.f2.gladns.com
-  tls: true
+  port: 80
+  server: 18.142.239.88
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  uuid: 2a273629-3069-487f-d222-3c603f56f7c8
   ws-opts:
     headers:
-      Host: 46caadb.f2.gladns.com
-    path: /s/46caadb.fm.apple.com:60980
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 13|新加坡 04 | 1x SG
@@ -30,34 +79,6 @@ proxies:
   server: 13.213.14.148
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡2|@ripaojiedian
-  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-  port: 64578
-  server: sg3.lianpi.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1004105
@@ -79,48 +100,6 @@ proxies:
   port: '36201'
   server: 9s5g04.abzoones.xyz
   servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1004104
-  network: ws
-  port: 80
-  server: 18.142.239.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a273629-3069-487f-d222-3c603f56f7c8
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
-  password: 79d50396-8f7b-4481-b34f-0f102a62cfc0
-  port: 14001
-  server: south.steamdownload.top
-  skip-cert-verify: true
-  sni: datasg.steamdownload.top
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7

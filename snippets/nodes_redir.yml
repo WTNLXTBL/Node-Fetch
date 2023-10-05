@@ -15,37 +15,13 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇺🇸 United States 02 @nodpai
-  network: ws
-  port: '46033'
-  server: mf33fx.micloud.buzz
+  name: 0,1,2,3,4,6|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: '50017'
+  server: 17.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
-  ws-opts:
-    headers:
-      Host: mf33fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供：kkz...
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 01 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41026
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
 - alterId: 0
   cipher: auto
   name: '0,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
@@ -59,94 +35,45 @@ proxies:
     headers:
       Host: de2.biqibao.site
     path: /public?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 1|_US_->_NL_
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  name: 6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡
   network: ws
-  port: '80'
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '50009'
-  server: 09.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_BR_
-  network: ws
-  port: 80
-  server: sbl4.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,11,12,14,15|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2052'
-  server: cf.yx.alue.link
+  port: 2052
+  server: 104.16.68.38
   tls: false
   type: vmess
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: us.wx.alue.link
+      Host: lu.wx.alue.link
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  name: 1|_US_->_IR_
   network: ws
-  port: 8080
-  server: 162.159.129.245
+  port: 2052
+  server: cf.yx.alue.link
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: eu5.vpn66.eu.org
+      host: us.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '8880'
+  server: yd1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -177,29 +104,57 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 1|_US_->_BR_
   network: ws
-  port: '8880'
-  server: yd1.992688.xyz
+  port: 80
+  server: sbl4.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
+      host: sbl4.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 1|_US_->_NL_
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: 0,2,3,4,6,11,12,14,15,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗
   network: ws
-  port: 2052
-  server: 104.16.68.38
+  port: '2052'
+  server: cf.yx.alue.link
   tls: false
   type: vmess
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: lu.wx.alue.link
+      Host: us.wx.alue.link
     path: /
 - alterId: 0
   cipher: auto
@@ -217,24 +172,23 @@ proxies:
     path: /public?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IR_
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇧🇷_BR_巴西
   network: ws
-  port: 2052
-  server: cf.yx.alue.link
-  skip-cert-verify: true
+  port: '80'
+  server: sbl4.shabijichang.com
   tls: false
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      host: us.wx.alue.link
+      Host: sbl4.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6|🇺🇸 _CN_中国->🇺🇸_US_美国
+  name: 0,1,2,3,4,6|🇬🇧 _CN_中国->🇬🇧_GB_英国
   network: tcp
-  port: '50017'
-  server: 17.kccic2pa.xyz
+  port: '50009'
+  server: 09.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
