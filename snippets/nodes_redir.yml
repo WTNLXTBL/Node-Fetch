@@ -14,43 +14,58 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
+  name: 1|_CR_->_US_
   network: ws
-  port: '8880'
-  server: lt1.992688.xyz
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
   ws-opts:
     headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
+      host: ssrsub.v003.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇨🇳 China 01 @nodpai
+  name: 1|_US_->_DE__1
   network: ws
-  port: '80'
-  server: 36.150.27.31
-  tls: false
-  type: vmess
-  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '8880'
+  port: 8880
   server: yd1.992688.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      Host: vceu3.vpn66.eu.org
+      host: vceu3.vpn66.eu.org
     path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,6,12,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 2,4,6,18|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  ws-opts:
+    headers:
+      Host: ssrsub.v003.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 64
   cipher: auto
   name: 1|_US_->_NL_
@@ -67,31 +82,52 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 2,4,6,18|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+  name: '0,3,6|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
   network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
+  port: '2082'
+  server: 104.17.88.252
   tls: false
   type: vmess
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
   ws-opts:
     headers:
-      Host: ssrsub.v003.ssrsub.com
-    path: /api/v3/download.getFile
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /phosphorylative.aurorainiceland.com/nimvws
+- name: 1|_JP_->_IN_
+  network: tcp
+  password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4
+  port: 443
+  server: in01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|_CR_->_US_
+  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
   network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
+  port: '8880'
+  server: lt1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_DE__2
+  network: ws
+  port: 8880
+  server: lt1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      host: ssrsub.v003.ssrsub.com
-    path: /api/v3/download.getFile
+      host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国
@@ -105,32 +141,6 @@ proxies:
     headers:
       Host: vceu3.vpn66.eu.org
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '0,3,6|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '2082'
-  server: 104.17.88.252
-  tls: false
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /phosphorylative.aurorainiceland.com/nimvws
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,12,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
 - alterId: 0
   cipher: auto
   name: 1|_US_->_AU_
@@ -147,46 +157,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: '8880'
+  server: yd1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_DE__3
   network: ws
   port: 8880
   server: dx1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__2
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- name: 1|_JP_->_IN_
-  network: tcp
-  password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4
-  port: 443
-  server: in01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__1
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
