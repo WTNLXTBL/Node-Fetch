@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.142.181.176
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡04
@@ -19,6 +11,24 @@ proxies:
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.142.181.176
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -29,14 +39,14 @@ proxies:
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
+  name: 9|🇸🇬新加坡06
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1004104
@@ -51,29 +61,6 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 01 @nodpai
-  network: ws
-  port: '3331'
-  server: 46caadb.f2.gladns.com
-  tls: true
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: 46caadb.f2.gladns.com
-    path: /s/46caadb.fm.apple.com:60980
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
