@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 2
   cipher: auto
   name: 15|台湾|tg频道:@ripaojiedian
@@ -11,34 +21,14 @@ proxies:
   uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
+  name: 9|🇹🇼台湾05
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -51,11 +41,21 @@ proxies:
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾05
+  name: 13|台湾 05  | 1x TWN
   network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
@@ -69,3 +69,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  name: 18|🇹🇼_TW_台湾_24
+  network: ws
+  port: 3331
+  server: 46caadb.f2.gladns.com
+  tls: true
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: 46caadb.f2.gladns.com
+    path: /s/46caadb.fm.apple.com:60980
