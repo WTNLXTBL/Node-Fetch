@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 12|🇨🇦 加拿大 212
+  network: ws
+  port: 443
+  server: aidarostami.ddns.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+  uuid: 6B21EBEE-17AD-4B04-B498-561D5B4CA0EB
+  ws-opts:
+    headers:
+      Host: fn.mostafago.tk
+    path: /speedtest
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 4
@@ -23,19 +27,6 @@ proxies:
     headers:
       Host: dongtaiwang5.dtku47.xyz
     path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '80'
-  server: mtlr.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mtlr.shabijichang.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇨🇦加拿大04
@@ -62,15 +53,11 @@ proxies:
     path: /526-dekDP6Otf
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大 212
-  network: ws
-  port: 443
-  server: aidarostami.ddns.net
-  servername: ''
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6B21EBEE-17AD-4B04-B498-561D5B4CA0EB
-  ws-opts:
-    headers:
-      Host: fn.mostafago.tk
-    path: /speedtest
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095

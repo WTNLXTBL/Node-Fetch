@@ -11,7 +11,17 @@ proxies:
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - alterId: 0
   cipher: auto
-  name: 6|🇹🇼_TW_台湾
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
+- alterId: 0
+  cipher: auto
+  name: 6,7,8|🇹🇼_TW_台湾
   network: ws
   port: 3331
   server: 46caadb.f2.gladns.com
@@ -24,17 +34,7 @@ proxies:
     path: /s/46caadb.fm.apple.com:60980
 - alterId: 0
   cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇹🇼 Taiwan 02 @nodpai
+  name: 7,8|🇹🇼 Taiwan 01 @nodpai
   network: ws
   port: '443'
   server: ub3.kq1.dynu.net
@@ -47,14 +47,17 @@ proxies:
     path: /vbub3
 - alterId: 0
   cipher: auto
-  name: '11|github.com/freefq - 台湾省中华电信(Hi... #1'
-  network: tcp
-  port: 23000
-  server: sneed-a.v2ok.cc
-  servername: ''
-  tls: false
+  name: 7,8|🇹🇼 Taiwan 03 @nodpai
+  network: ws
+  port: '443'
+  server: ub2.kq1.dynu.net
+  tls: true
   type: vmess
-  uuid: 4811dbb8-2f9b-3289-8fac-05f6daf7cb19
+  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
+  ws-opts:
+    headers:
+      Host: ub2.kq1.dynu.net
+    path: /vbub2
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -65,6 +68,56 @@ proxies:
   tls: true
   type: vmess
   uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 台湾省中华电信(Hi...
+  network: ws
+  port: 3331
+  server: 46caadb.f2.gladns.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /s/46caadb.fm.apple.com:60980
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇹🇼 Taiwan 02 @nodpai
+  network: ws
+  port: '443'
+  server: b1u2.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
+  ws-opts:
+    headers:
+      Host: b1u2.ntbq.dynu.net
+    path: /b12
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇹🇼 Taiwan 04 @nodpai
+  network: ws
+  port: '443'
+  server: b1u1.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
+  ws-opts:
+    headers:
+      Host: b1u1.ntbq.dynu.net
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -85,40 +138,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
-- alterId: 0
-  cipher: auto
-  name: 7,8|「蛋挞云,超低价格,超高体验」🇹🇼 TW 01
-  network: ws
-  port: '443'
-  server: ub2.kq1.dynu.net
-  tls: true
-  type: vmess
-  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
-  ws-opts:
-    headers:
-      Host: ub2.kq1.dynu.net
-    path: /vbub2
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 台湾省中华电信(Hi...
-  network: ws
-  port: 3331
-  server: 46caadb.f2.gladns.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /s/46caadb.fm.apple.com:60980
