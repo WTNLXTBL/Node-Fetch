@@ -1,7 +1,69 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: '8880'
+  server: yd1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 6|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 61001
+  server: 112.29.156.248
+  tls: false
+  type: vmess
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
+  ws-opts:
+    headers:
+      Host: a.cn-db.top
+    path: /dabai.in
+- name: 1|_CN_->_US_
+  network: tcp
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 41929
+  server: 14.18.106.137
+  skip-cert-verify: true
+  sni: nl01.lovehjq.xyz
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_LU_
+  network: ws
+  port: 2052
+  server: 104.16.68.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,18|🇭🇰 _HK_香港->🇮🇱_IL_以色列
+  network: ws
+  port: '57754'
+  server: 103.48.169.166
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
 - alterId: 64
   cipher: auto
-  name: 1|_US_->_NL__2
+  name: 1|_US_->_NL_
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -15,17 +77,18 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  name: 1|_US_->_DE__2
   network: ws
-  port: '80'
-  server: fd.shabijichang.com
+  port: 8880
+  server: yd1.992688.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      Host: mrb.shabijichang.com
-    path: /
+      host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IR_
@@ -42,10 +105,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
   network: ws
   port: '8880'
-  server: dx1.992688.xyz
+  server: lt1.992688.xyz
   tls: false
   type: vmess
   uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
@@ -55,32 +118,17 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_US__1
+  name: 6,18|🇨🇳_CN_中国->🇭🇰_HK_香港
   network: ws
-  port: 61001
-  server: 112.29.156.248
-  skip-cert-verify: true
+  port: 61004
+  server: 112.29.156.251
   tls: false
   type: vmess
   uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
   ws-opts:
     headers:
-      host: a.cn-db.top
+      Host: a.db-link.in
     path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__2
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 1|_US_->_AU_
@@ -97,41 +145,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2052'
-  server: cf.yx.alue.link
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: ws
-  port: '61001'
-  server: 112.29.156.248
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-opts:
-    headers:
-      Host: a.cn-db.top
-    path: /dabai.in
-- name: 1|_CN_->_US__2
-  network: tcp
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 41929
-  server: 14.18.106.137
-  skip-cert-verify: true
-  sni: nl01.lovehjq.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_DE__1
   network: ws
   port: 8880
@@ -144,33 +157,82 @@ proxies:
     headers:
       host: vceu3.vpn66.eu.org
     path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 18|🇭🇰_HK_香港->🇮🇱_IL_以色列_由快嘴科技提供;kk...
+  name: 1|_HK_->_IL_
   network: ws
   port: 57754
   server: 103.48.169.166
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
   ws-opts:
     headers:
-      Host: ylsl.kxking.eu.org
+      host: ylsl.kxking.eu.org
     path: /vm?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_NL__1
+  name: 0,2,3,4,6,11|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
   network: ws
-  port: 2082
-  server: 104.17.88.252
+  port: '80'
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  ws-opts:
+    headers:
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇮🇳_IN_印度_4
+  network: tcp
+  port: 25018
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,18|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '8880'
+  server: dx1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_DE__3
+  network: ws
+  port: 8880
+  server: lt1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /phosphorylative.aurorainiceland.com/nimvws
+      host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 18|🇭🇰_HK_香港->🇳🇱_NL_荷兰_20
@@ -184,24 +246,24 @@ proxies:
     headers:
       Host: www.81678034.xyz
     path: /path/1696598013851
-- alterId: 64
-  cipher: auto
-  name: '0,2,3,4,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: 0,2,3,4,6,11,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗
   network: ws
-  port: 2052
+  port: '2052'
+  server: cf.yx.alue.link
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,12|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
   server: 104.16.68.38
   tls: false
   type: vmess
@@ -210,51 +272,3 @@ proxies:
     headers:
       Host: lu.wx.alue.link
     path: /
-- alterId: 2
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇮🇳_IN_印度_4
-  network: tcp
-  port: 25018
-  server: leonis.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '8880'
-  server: lt1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '2082'
-  server: 104.17.88.252
-  tls: false
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /phosphorylative.aurorainiceland.com/nimvws
-- alterId: 0
-  cipher: auto
-  name: 6,18|🇨🇳_CN_中国->🇭🇰_HK_香港
-  network: ws
-  port: 61004
-  server: 112.29.156.251
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-opts:
-    headers:
-      Host: a.db-link.in
-    path: /dabai.in
