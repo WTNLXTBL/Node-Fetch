@@ -1,57 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2,3,4|🇭🇰_HK_香港->🇮🇱_IL_以色列
+  name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
   network: ws
-  port: 57754
-  server: 103.48.169.166
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,16|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大
-  network: ws
-  port: '80'
-  server: direct-ca1.xn--pzypc.store
+  port: 8880
+  server: yd1.992688.xyz
   tls: false
   type: vmess
-  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      Host: ca1.xn--pzypc.store
-    path: /akile?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 16|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_24
-  network: ws
-  port: 80
-  server: direct-ca3.xn--pzypc.store
-  tls: false
-  type: vmess
-  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
-  ws-opts:
-    headers:
-      Host: ca3.xn--pzypc.store
-    path: /akile?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 1,11|_US_->_NL_
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1696251522438
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_4_20
@@ -65,44 +25,6 @@ proxies:
     headers:
       Host: de.biqibao.site
     path: /public?ed=4096
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_LU_
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR_
-  network: ws
-  port: 2052
-  server: cf.yx.alue.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,13|中转 🇮🇳 India 01 @nodpai #1'
-  port: 15018
-  server: 15018.kuaiyin.win
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: 1|_US_->_AU_
@@ -119,37 +41,38 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_HK_->_IL_
+  name: 1|_SG_->_CA__1
   network: ws
-  port: 57754
-  server: 103.48.169.166
+  port: 80
+  server: direct-ca1.xn--pzypc.store
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      host: ca1.xn--pzypc.store
+    path: /akile?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 1|_US_->_NL__1
+  network: ws
+  port: 30000
+  server: 45.199.138.152
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
   ws-opts:
     headers:
-      host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
+      host: www.32522178.xyz
+    path: /path/1696598013851
 - alterId: 0
   cipher: auto
-  name: 2,3,4,10,11|🇺🇸_US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: 2052
-  server: cf.yx.alue.link
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__1
+  name: 1|_US_->_DE_
   network: ws
   port: 8880
-  server: dx1.992688.xyz
+  server: lt1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -160,7 +83,42 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '2,3,4,16|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  name: 2,4,16|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: 80
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  ws-opts:
+    headers:
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 162.159.140.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|🇨🇳_CN_中国->🇺🇸_US_美国_2
+  network: tcp
+  port: 50022
+  server: 22.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: f8677789-d06f-48bd-abda-d48534c883bf
+- alterId: 0
+  cipher: auto
+  name: 2,4,16|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 8880
   server: lt1.992688.xyz
@@ -171,19 +129,45 @@ proxies:
     headers:
       Host: vceu3.vpn66.eu.org
     path: /?ed=2048
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '2,3,4,16|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: 2,4,10,16|🇺🇸_US_美国->🇳🇱_NL_荷兰
   network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  tls: false
+  port: 30000
+  server: 45.199.138.152
+  tls: true
   type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
   ws-opts:
     headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
+      Host: www.32522178.xyz
+    path: /path/1696598013851
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,16|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: '80'
+  server: direct-ca4.xn--pzypc.store
+  tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      Host: ca4.xn--pzypc.store
+    path: /akile?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 6,7|中转 🇨🇳 China 02 @nodpai
+  network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 5|🇺🇸_US_美国->🇮🇳_IN_印度
@@ -199,30 +183,43 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 2,3,4,5,16|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  name: 1,11|_US_->_NL__2
   network: ws
   port: 30000
   server: 45.199.138.191
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.42077230.xyz
+      host: www.42077230.xyz
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE__3
+  name: 2,4,16|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大
+  network: ws
+  port: 80
+  server: direct-ca3.xn--pzypc.store
+  tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      Host: ca3.xn--pzypc.store
+    path: /akile?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 16|🇺🇸_US_美国->🇩🇪_DE_德国_2_由快嘴科技提供：k...
   network: ws
   port: 8880
-  server: lt1.992688.xyz
-  skip-cert-verify: true
+  server: dx1.992688.xyz
   tls: false
   type: vmess
   uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      host: vceu3.vpn66.eu.org
+      Host: vceu3.vpn66.eu.org
     path: /?ed=2048
 - alterId: 0
   cipher: auto
@@ -239,107 +236,55 @@ proxies:
     path: /public?ed=4096
 - alterId: 0
   cipher: auto
-  name: 2,3,4,16|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+  name: 1|_SG_->_CA__3
   network: ws
   port: 80
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      Host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|中转 🇮🇳 India 01 @nodpai
-  network: tcp
-  port: '15018'
-  server: 15018.kuaiyin.win
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  name: '0,16|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: '80'
   server: direct-ca4.xn--pzypc.store
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      Host: ca4.xn--pzypc.store
+      host: ca4.xn--pzypc.store
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 2,3,4,11|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: 1|_SG_->_CA__2
   network: ws
-  port: 2052
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__2
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
+  port: 80
+  server: direct-ca3.xn--pzypc.store
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- name: 1|_CN_->_US_
-  network: tcp
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 41929
-  server: 14.18.106.137
-  skip-cert-verify: true
-  sni: nl01.lovehjq.xyz
-  type: trojan
-  udp: true
+      host: ca3.xn--pzypc.store
+    path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 6|中转 🇭🇰 Hong Kong 01 @nodpai
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
+  name: 0,2,3,4,16|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大
+  network: ws
+  port: '80'
+  server: direct-ca1.xn--pzypc.store
   tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      Host: ca1.xn--pzypc.store
+    path: /akile?ed=2048
+- alterId: 64
+  cipher: auto
+  name: '2,4,5,16|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: 162.159.140.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,16|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 8880
-  server: dx1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
+      Host: www.42077230.xyz
+    path: /path/1696251522438
