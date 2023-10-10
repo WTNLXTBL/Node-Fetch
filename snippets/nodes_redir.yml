@@ -1,30 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3|🇮🇱 _SC_塞舌尔->🇮🇱_IL_以色列
-  network: ws
-  port: '31008'
-  server: 154.198.227.62
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸 _GB_英国->🇺🇸_US_美国
-  network: ws
-  port: '2096'
-  server: best.fakeopen.link
-  tls: true
-  type: vmess
-  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
-  ws-opts:
-    headers:
-      Host: us2.fakeopen.link
-    path: /us
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇦🇺 Australia 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10704
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 01 @nodpai
+  password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4
+  port: 17345
+  server: aliyun.ws
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: 1|_US_->_NL__1
@@ -39,59 +27,19 @@ proxies:
     headers:
       host: www.32522178.xyz
     path: /path/1696598013851
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 3,6,18|🇮🇱 _CN_中国->🇮🇱_IL_以色列
+  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
-  port: '10005'
-  server: 103.235.18.2
+  port: '30000'
+  server: 45.199.138.152
   tls: true
   type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
   ws-opts:
     headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1|_GB_->_US_
-  network: ws
-  port: 2096
-  server: best.fakeopen.link
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
-  ws-opts:
-    headers:
-      host: us2.fakeopen.link
-    path: /us
-- alterId: 0
-  cipher: auto
-  name: 3,6,12,18|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: 162.159.152.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰 _HK_香港->🇮🇱_IL_以色列
-  network: ws
-  port: '2083'
-  server: 8.218.105.223
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
+      Host: www.32522178.xyz
+    path: /path/1696598013851
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
@@ -104,6 +52,26 @@ proxies:
   ws-opts:
     headers:
       Host: mrb.shabijichang.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇰🇷 South Korea 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10703
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,6,18|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
     path: /
 - alterId: 64
   cipher: auto
@@ -120,7 +88,49 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 3,11,12|🇰🇷 _KR_韩国->🇺🇸_US_美国
+  name: 18|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 80
+  server: 104.18.203.232
+  tls: false
+  type: vmess
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray،@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 3|🇮🇱 _SC_塞舌尔->🇮🇱_IL_以色列
+  network: ws
+  port: '31008'
+  server: 154.198.227.62
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇮🇹 Italy 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10718
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,18|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+  network: tcp
+  port: '50007'
+  server: 07.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
+- alterId: 0
+  cipher: auto
+  name: 3,11|🇰🇷 _KR_韩国->🇺🇸_US_美国
   network: ws
   port: '31235'
   server: kr-cdn-6273819.starnetcn.top
@@ -131,6 +141,26 @@ proxies:
     headers:
       Host: jxhoisldy718922.starnetcn.top
     path: /315d825893fc34aca0231ab967157986
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇨🇦 Canada 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10712
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,18|🇺🇸 _GB_英国->🇺🇸_US_美国
+  network: ws
+  port: '2096'
+  server: best.fakeopen.link
+  tls: true
+  type: vmess
+  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
+  ws-opts:
+    headers:
+      Host: us2.fakeopen.link
+    path: /us
 - alterId: 64
   cipher: auto
   name: 1|_US_->_NL__2
@@ -145,19 +175,74 @@ proxies:
     headers:
       host: www.42077230.xyz
     path: /path/1696251522438
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇯🇵 Japan 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10701
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: 1|_GB_->_US_
   network: ws
-  port: 80
-  server: 104.18.203.232
-  tls: false
+  port: 2096
+  server: best.fakeopen.link
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
   ws-opts:
     headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
+      host: us2.fakeopen.link
+    path: /us
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇬🇧 United Kingdom 01 @nodpa...
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10713
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10716
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇭🇰 Hong Kong 02 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10726
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3|🇭🇰 _HK_香港->🇮🇱_IL_以色列
+  network: ws
+  port: '2083'
+  server: 8.218.105.223
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 3,6,18|🇮🇱 _CN_中国->🇮🇱_IL_以色列
+  network: ws
+  port: '10005'
+  server: 103.235.18.2
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 1|_US_->_AU_
@@ -172,25 +257,3 @@ proxies:
     headers:
       host: mrb.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 3,18|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
-  network: tcp
-  port: '50007'
-  server: 07.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,12,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.152
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  ws-opts:
-    headers:
-      Host: www.32522178.xyz
-    path: /path/1696598013851
