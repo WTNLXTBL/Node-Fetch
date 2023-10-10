@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|FR_youtube@资源分享师_29
-  network: ws
-  port: '80'
-  server: pl1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 26cd2459-4f68-4e56-b19c-b0b26f6ff843
-  ws-opts:
-    headers:
-      Host: pl1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: bl.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 81fc114e-44d7-44c7-9912-942453b03154
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - name: 1|_FR_
   network: tcp
   password: telegram-id-directvpn
@@ -34,3 +7,30 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: ms.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: ms.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇫🇷France 5
+  network: ws
+  port: 443
+  server: 51.255.49.192
+  servername: sourceforge.net
+  tls: true
+  type: vmess
+  uuid: 39cae475-403f-4c47-9c2b-434d3d335182
+  ws-opts:
+    headers:
+      Host: ''
+    path: /freevmess
