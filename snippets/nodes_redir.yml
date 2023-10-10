@@ -1,17 +1,17 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  name: 3|🇭🇰 _HK_香港->🇮🇱_IL_以色列
   network: ws
-  port: '30000'
-  server: 45.199.138.152
+  port: '2083'
+  server: 8.218.105.223
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
   ws-opts:
     headers:
-      Host: www.32522178.xyz
-    path: /path/1696598013851
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 1|_GB_->_US_
@@ -26,46 +26,6 @@ proxies:
     headers:
       host: us2.fakeopen.link
     path: /us
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _GB_英国->🇺🇸_US_美国
-  network: ws
-  port: '2096'
-  server: best.fakeopen.link
-  tls: true
-  type: vmess
-  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
-  ws-opts:
-    headers:
-      Host: us2.fakeopen.link
-    path: /us
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      Host: mrb.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 1,18|_US_->_NL__1
-  network: ws
-  port: 30000
-  server: 45.199.138.152
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
-  ws-opts:
-    headers:
-      host: www.32522178.xyz
-    path: /path/1696598013851
 - alterId: 64
   cipher: auto
   name: 1|_US_->_NL__2
@@ -82,111 +42,17 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_6_6
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_由快嘴科技提供...
   network: ws
   port: 80
-  server: direct-ca4.xn--pzypc.store
+  server: direct-ca3.xn--pzypc.store
   tls: false
   type: vmess
   uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      Host: ca4.xn--pzypc.store
+      Host: ca3.xn--pzypc.store
     path: /akile?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_55_55
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇨🇳 China 02 @nodpai
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰 _HK_香港->🇮🇱_IL_以色列
-  network: ws
-  port: '2083'
-  server: 8.218.105.223
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 01 @nodpai
-  password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4
-  port: 17345
-  server: aliyun.ws
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
-  network: ws
-  port: 80
-  server: direct-ca1.xn--pzypc.store
-  tls: false
-  type: vmess
-  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
-  ws-opts:
-    headers:
-      Host: ca1.xn--pzypc.store
-    path: /akile?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
-  network: tcp
-  port: '50007'
-  server: 07.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
-- alterId: 0
-  cipher: auto
-  name: 3|🇮🇱 _SC_塞舌尔->🇮🇱_IL_以色列
-  network: ws
-  port: '31008'
-  server: 154.198.227.62
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3,6,12|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: 162.159.152.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
 - alterId: 0
   cipher: auto
   name: 1|_US_->_AU_
@@ -203,6 +69,45 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 3,11,12|🇰🇷 _KR_韩国->🇺🇸_US_美国
+  network: ws
+  port: '31235'
+  server: kr-cdn-6273819.starnetcn.top
+  tls: false
+  type: vmess
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
+- alterId: 0
+  cipher: auto
+  name: 3|🇮🇱 _SC_塞舌尔->🇮🇱_IL_以色列
+  network: ws
+  port: '31008'
+  server: 154.198.227.62
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_2_6_6
+  network: ws
+  port: 80
+  server: direct-ca4.xn--pzypc.store
+  tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      Host: ca4.xn--pzypc.store
+    path: /akile?ed=2048
+- alterId: 0
+  cipher: auto
   name: 3,6|🇮🇱 _CN_中国->🇮🇱_IL_以色列
   network: ws
   port: '10005'
@@ -214,19 +119,66 @@ proxies:
     headers:
       Host: ylsl.kxking.eu.org
     path: /vm?ed=2048
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_3_由快嘴科技提供...
+  name: 1,18|_US_->_NL__1
   network: ws
-  port: 80
-  server: direct-ca3.xn--pzypc.store
-  tls: false
+  port: 30000
+  server: 45.199.138.152
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
   ws-opts:
     headers:
-      Host: ca3.xn--pzypc.store
-    path: /akile?ed=2048
+      host: www.32522178.xyz
+    path: /path/1696598013851
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇨🇳 China 02 @nodpai
+  network: ws
+  port: '443'
+  server: 198.2.202.84
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1694859605321
+- alterId: 0
+  cipher: auto
+  name: 3,6,12|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _GB_英国->🇺🇸_US_美国
+  network: ws
+  port: '2096'
+  server: best.fakeopen.link
+  tls: true
+  type: vmess
+  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
+  ws-opts:
+    headers:
+      Host: us2.fakeopen.link
+    path: /us
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 01 @nodpai
+  password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4
+  port: 17345
+  server: aliyun.ws
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: '0,2,3,4,12,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
@@ -242,14 +194,62 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 3|🇰🇷 _KR_韩国->🇺🇸_US_美国
+  name: 0,2,3,4,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
   network: ws
-  port: '31235'
-  server: kr-cdn-6273819.starnetcn.top
+  port: '80'
+  server: fd.shabijichang.com
   tls: false
   type: vmess
-  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
   ws-opts:
     headers:
-      Host: jxhoisldy718922.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+  network: tcp
+  port: '50007'
+  server: 07.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_55_55
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,6,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.152
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca4690dd24
+  ws-opts:
+    headers:
+      Host: www.32522178.xyz
+    path: /path/1696598013851
+- alterId: 0
+  cipher: auto
+  name: 18|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大_由快嘴科技提供：k...
+  network: ws
+  port: 80
+  server: direct-ca1.xn--pzypc.store
+  tls: false
+  type: vmess
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  ws-opts:
+    headers:
+      Host: ca1.xn--pzypc.store
+    path: /akile?ed=2048
