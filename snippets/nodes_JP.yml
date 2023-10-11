@@ -1,7 +1,92 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4|🇯🇵 _JP_日本
+  network: ws
+  port: '55959'
+  server: 178.173.230.174
+  tls: false
+  type: vmess
+  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '8,14|「节点冠名招商 @nodpai」🇯🇵 JP 01 #1'
+  port: 40792
+  server: shct.pmxu.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e2f2e172-d95f-41b1-8f33-7e9755353ebc
+- alterId: 0
+  cipher: auto
+  name: 1|_JP_
+  network: ws
+  port: 55959
+  server: 178.173.230.174
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
+  ws-opts:
+    headers:
+      host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5ffea934-838d-4a1b-8487-7b45b87dc57c
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,流媒体全解锁」🇯🇵 JP 02
+  network: tcp
+  port: '55906'
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
+- alterId: 0
+  cipher: auto
+  name: 7|「节点冠名招商 @nodpai」🇯🇵 JP 01
+  network: tcp
+  port: '40792'
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
   plugin: v2ray-plugin
   plugin-opts:
@@ -11,30 +96,20 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 30007
+  port: 20013
   server: 183.232.170.32
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-061
+  name: 13|日本 06  | 1x JP
   network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 5ffea934-838d-4a1b-8487-7b45b87dc57c
 - alterId: 0
   cipher: auto
   name: 11|github.com/freefq - 日本  12
@@ -61,43 +136,14 @@ proxies:
   uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4|🇯🇵 _JP_日本
-  network: ws
-  port: '55959'
-  server: 178.173.230.174
-  tls: false
-  type: vmess
-  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20013
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
+  name: 9|🇯🇵日本06
   network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ab165a4d-c78d-423a-b519-2b0f60dd5356
+  uuid: e2f2e172-d95f-41b1-8f33-7e9755353ebc
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04
@@ -107,68 +153,50 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43ac0f61-51d1-47e9-826f-4e92d1346c8d
-- alterId: 0
-  cipher: auto
-  name: 1|_JP_
-  network: ws
-  port: 55959
-  server: 178.173.230.174
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
-  ws-opts:
-    headers:
-      host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ab165a4d-c78d-423a-b519-2b0f60dd5356
+  uuid: e2f2e172-d95f-41b1-8f33-7e9755353ebc
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30007
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
+  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
   network: tcp
   port: 51801
-  server: 45.88.43.163
+  server: 45.88.43.143
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本05
+  name: 13|日本 05  | 1x JP
   network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 43ac0f61-51d1-47e9-826f-4e92d1346c8d
+  uuid: 5ffea934-838d-4a1b-8487-7b45b87dc57c
 - alterId: 0
   cipher: auto
-  name: 13|日本 06  | 1x JP
+  name: 12|🇯🇵白嫖-061
   network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
   type: vmess
-  uuid: ab165a4d-c78d-423a-b519-2b0f60dd5356
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 43ac0f61-51d1-47e9-826f-4e92d1346c8d
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
