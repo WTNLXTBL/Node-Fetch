@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09442b45-77db-43fc-936e-bbe88117b3ba
-- alterId: 0
-  cipher: auto
   name: 9|🇭🇰香港06
   network: tcp
   port: '36611'
@@ -18,7 +8,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d2e569dc-fa62-4617-8f2e-ebe6386b8121
+  uuid: 7f614155-24b0-42ba-ba02-1ab736e993dd
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 香港 024
+  network: ws
+  port: 4431
+  server: 152.32.190.239
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: hk1.kxking.eu.org
+    path: /vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -28,17 +32,70 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09442b45-77db-43fc-936e-bbe88117b3ba
+  uuid: 91c96109-818b-4932-9207-5792199a0cf0
+- cipher: chacha20-ietf-poly1305
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇭...
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10726
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
+  client-fingerprint: chrome
+  name: 14,15|🇭🇰 香港C|@ripaojiedian
+  network: ws
+  port: 2086
+  server: 8.218.143.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: hk1.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 15|香港A|@ripaojiedian
   network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '53300'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 09442b45-77db-43fc-936e-bbe88117b3ba
+  uuid: 7f614155-24b0-42ba-ba02-1ab736e993dd
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 91c96109-818b-4932-9207-5792199a0cf0
+- alterId: 64
+  cipher: auto
+  name: 15|香港Y|@ripaojiedian
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -64,71 +121,14 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d2e569dc-fa62-4617-8f2e-ebe6386b8121
-- alterId: 64
-  cipher: auto
-  name: 15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇭...
-  password: '!!str 123456'
-  port: 31101
-  server: cm1-go.go001.buzz
-  type: ss
-  udp: true
+  uuid: 7f614155-24b0-42ba-ba02-1ab736e993dd
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港05
+  name: 13|香港 05 | 1x HK
   network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d2e569dc-fa62-4617-8f2e-ebe6386b8121
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰 香港 024
-  network: ws
-  port: 4431
-  server: 152.32.190.239
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: hk1.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 15|香港A|@ripaojiedian
-  network: tcp
-  port: '53300'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇭🇰 香港C|@ripaojiedian
-  network: ws
-  port: 2086
-  server: 8.218.143.10
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: hk1.kxking.eu.org
-    path: /vm?ed=2048
+  uuid: 91c96109-818b-4932-9207-5792199a0cf0

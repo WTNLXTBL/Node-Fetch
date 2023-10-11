@@ -1,14 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 12|🇯🇵 日本 57
+  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
   network: tcp
-  port: 46222
-  server: 141.147.146.29
+  port: 51801
+  server: 45.88.43.163
   servername: ''
   tls: false
   type: vmess
-  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -27,34 +27,72 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
+  name: 11|github.com/freefq - 日本  19
+  network: ws
+  port: 31235
+  server: kr-cdn-6273819.starnetcn.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
-  name: 13|日本 04  | 1x JP
+  name: 13|日本 06  | 1x JP
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09442b45-77db-43fc-936e-bbe88117b3ba
+  uuid: 91c96109-818b-4932-9207-5792199a0cf0
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 91c96109-818b-4932-9207-5792199a0cf0
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 57
+  network: tcp
+  port: 46222
+  server: 141.147.146.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7f614155-24b0-42ba-ba02-1ab736e993dd
+- alterId: 0
+  cipher: auto
+  name: 1|_JP_
+  network: ws
+  port: 55959
+  server: 178.173.230.174
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
+  ws-opts:
+    headers:
+      host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -64,27 +102,24 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d2e569dc-fa62-4617-8f2e-ebe6386b8121
-- alterId: 64
-  cipher: auto
-  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 7f614155-24b0-42ba-ba02-1ab736e993dd
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本05
+  name: 13|日本 04  | 1x JP
   network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d2e569dc-fa62-4617-8f2e-ebe6386b8121
+  uuid: 91c96109-818b-4932-9207-5792199a0cf0
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,超低价格,超高体验」🇯🇵 JP 01
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10701
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 JP 58
@@ -101,24 +136,37 @@ proxies:
     path: /tg@herhero6
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
+  name: 12|🇯🇵日本高速接入点-01
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  tls: false
   type: vmess
-  uuid: d2e569dc-fa62-4617-8f2e-ebe6386b8121
+  uuid: 70dd3daa-b963-4dd9-acd9-13d86ed38f19
+  ws-opts:
+    headers:
+      Host: jp17aab72a7.chvsifetrj.xyz
+    path: /video/uubCdJtK
+- alterId: 64
+  cipher: auto
+  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|日本 05  | 1x JP
+  name: 12|🇯🇵白嫖-061
   network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 09442b45-77db-43fc-936e-bbe88117b3ba
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT2|@ripaojiedian
@@ -137,14 +185,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本 06  | 1x JP
+  name: 9|🇯🇵日本05
   network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 09442b45-77db-43fc-936e-bbe88117b3ba
+  uuid: 7f614155-24b0-42ba-ba02-1ab736e993dd
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 4
@@ -157,14 +205,14 @@ proxies:
   uuid: d47d7135-0954-46ab-a190-17b6c8630a85
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵日本高速接入点-01
+  name: 0,2,3,4|🇯🇵 _JP_日本
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
+  port: '55959'
+  server: 178.173.230.174
   tls: false
   type: vmess
-  uuid: 70dd3daa-b963-4dd9-acd9-13d86ed38f19
+  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
   ws-opts:
     headers:
-      Host: jp17aab72a7.chvsifetrj.xyz
-    path: /video/uubCdJtK
+      Host: tms.dingtalk.com
+    path: /
