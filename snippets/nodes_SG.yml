@@ -1,6 +1,34 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊3|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.221.184.140
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
@@ -16,7 +44,25 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b7248522-7a00-4df8-81ca-1b3e36d85595
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡|@ripaojiedian
+  password: 9e4426ef-db75-4370-bb70-0deb491a46c1
+  port: 34501
+  server: shdx.85413.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -43,52 +89,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b7248522-7a00-4df8-81ca-1b3e36d85595
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b7248522-7a00-4df8-81ca-1b3e36d85595
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊3|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.221.184.140
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|@ripaojiedian
-  password: 9e4426ef-db75-4370-bb70-0deb491a46c1
-  port: 34501
-  server: shdx.85413.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -97,16 +97,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 01 @nodpai
-  network: ws
-  port: '443'
-  server: welfare.kk-proxy.pro
-  tls: true
-  type: vmess
-  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
-  ws-opts:
-    headers:
-      Host: welfare.kk-proxy.pro
-    path: /ec3a017507e0/

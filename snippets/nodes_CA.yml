@@ -15,24 +15,17 @@ proxies:
     path: /decf
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: mtlr.shabijichang.com
+  tls: false
   type: vmess
-  uuid: b7248522-7a00-4df8-81ca-1b3e36d85595
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mtlr.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 12|🇨🇦 加拿大 165 2
@@ -61,3 +54,23 @@ proxies:
     headers:
       Host: v118a.ai88888.top
     path: /526-dekDP6Otf
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
