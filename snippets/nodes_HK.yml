@@ -1,60 +1,24 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|香港 06 | 1x HK
+  name: 15|香港Y|@ripaojiedian
   network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e94d976c-3c1b-4c5a-9925-17a9dc12d99a
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e94d976c-3c1b-4c5a-9925-17a9dc12d99a
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c961d0b9-365b-4ac0-931b-6d9ca2fa54d6
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c961d0b9-365b-4ac0-931b-6d9ca2fa54d6
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇭🇰 香港B|@ripaojiedian
-  network: ws
-  port: 80
-  server: hktddns.aikun.online
-  skip-cert-verify: false
-  tfo: false
+  port: '53737'
+  server: 112.29.94.22
+  servername: ''
   tls: false
   type: vmess
-  uuid: ee484d37-3168-4a63-a0c3-72e96ea02508
-  ws-opts:
-    headers:
-      Host: sanmao17.hkbn.n.optage.moe
-    path: /hkbn
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -73,13 +37,44 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7,15|「蛋挞云,超低价格,超高体验」🇭🇰 HK 02
+  name: 9|🇭🇰香港06
   network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  tls: false
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 38debc07-d0c8-43e2-9c7c-539f6171e9d7
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
 - alterId: 0
   cipher: auto
   name: 12|🇭🇰 香港 023
@@ -94,14 +89,31 @@ proxies:
     headers:
       Host: hk1.kxking.eu.org
     path: /vm?ed=2048
-- name: 8,14|「节点冠名招商 @nodpai」🇭🇰 HK 01
-  password: 79d50396-8f7b-4481-b34f-0f102a62cfc0
-  port: 11006
-  server: south.steamdownload.top
-  skip-cert-verify: true
-  sni: datahk.steamdownload.top
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇭🇰 香港B|@ripaojiedian
+  network: ws
+  port: 80
+  server: hktddns.aikun.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ee484d37-3168-4a63-a0c3-72e96ea02508
+  ws-opts:
+    headers:
+      Host: sanmao17.hkbn.n.optage.moe
+    path: /hkbn
+- client-fingerprint: chrome
+  name: 14|🇭🇰 香港慢|@ripaojiedian
+  password: QHhbhwe6lj
+  port: 33058
+  server: 103.15.217.182
+  skip-cert-verify: false
+  sni: 103.15.217.182
+  tfo: false
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK
@@ -111,14 +123,4 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e94d976c-3c1b-4c5a-9925-17a9dc12d99a
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c961d0b9-365b-4ac0-931b-6d9ca2fa54d6
+  uuid: c0f5787b-ea73-424d-b92b-cbc725049695
