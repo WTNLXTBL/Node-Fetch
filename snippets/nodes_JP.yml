@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|日本 04  | 1x JP
+  name: 9|🇯🇵日本04
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 256653cf-d987-4141-b670-31129da2b1d8
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵白嫖-061
@@ -21,24 +21,46 @@ proxies:
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
+  name: 0|🇯🇵 _JP_日本
+  network: ws
+  port: '55959'
+  server: 178.173.230.174
+  tls: false
   type: vmess
-  uuid: 3812dc4e-573b-437c-81f0-89adb1f57ec4
+  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
+  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 4
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 256653cf-d987-4141-b670-31129da2b1d8
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: 152.69.197.74
+    path: /bb
+- client-fingerprint: chrome
+  name: 14|🇯🇵 日本快|@ripaojiedian
+  network: ws
+  password: faf42aa0a9ad4c1e
+  port: 3306
+  server: 3.113.215.86
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT2|@ripaojiedian
@@ -55,6 +77,26 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
+- alterId: 64
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 64
   cipher: auto
   name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
@@ -65,87 +107,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4|🇯🇵 _JP_日本
-  network: ws
-  port: '55959'
-  server: 178.173.230.174
-  tls: false
-  type: vmess
-  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 256653cf-d987-4141-b670-31129da2b1d8
-- alterId: 0
-  cipher: auto
-  name: 1|_JP_
-  network: ws
-  port: 55959
-  server: 178.173.230.174
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
-  ws-opts:
-    headers:
-      host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|日本A|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 35.220.140.58
-  servername: dj.kxking.eu.org
-  tls: true
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: dj.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3812dc4e-573b-437c-81f0-89adb1f57ec4
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3812dc4e-573b-437c-81f0-89adb1f57ec4
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 日本 57
-  network: tcp
-  port: 46222
-  server: 141.147.146.29
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -164,18 +125,54 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 4
-  network: ws
-  port: 12345
-  server: 152.69.197.74
+  name: 13|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵 日本 57
+  network: tcp
+  port: 46222
+  server: 141.147.146.29
   servername: ''
   tls: false
   type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: 152.69.197.74
-    path: /bb
+  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
 - alterId: 64
   cipher: auto
   name: 12|⚡️@DeamNet_🔻 🇯🇵Japan 13
@@ -186,13 +183,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇯🇵Japan
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 14,15|🇯🇵 日本A|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 35.220.140.58
+  servername: dj.kxking.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: dj.kxking.eu.org
+    path: /vm?ed=2048

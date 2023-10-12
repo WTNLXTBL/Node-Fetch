@@ -1,24 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 15|香港Y|@ripaojiedian
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3812dc4e-573b-437c-81f0-89adb1f57ec4
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -28,45 +8,31 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 256653cf-d987-4141-b670-31129da2b1d8
-- alterId: 0
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 32
   cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3812dc4e-573b-437c-81f0-89adb1f57ec4
-- alterId: 0
-  cipher: auto
-  name: 15|香港B|@ripaojiedian
+  name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong
   network: ws
-  port: '80'
-  server: hktddns.aikun.online
+  port: 80
+  server: hrgdvpn.flycdnedc55.vip
   servername: ''
   tls: false
   type: vmess
-  uuid: ee484d37-3168-4a63-a0c3-72e96ea02508
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
     headers:
-      Host: sanmao17.hkbn.n.optage.moe
-    path: /hkbn
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /opt/video/images
 - alterId: 0
   cipher: auto
-  name: 12,14|🇭🇰 14,15|香港C|@ripaojiedian
-  network: ws
-  port: 2086
-  server: 8.218.143.10
-  servername: ''
+  name: '8,14|「节点冠名招商 @nodpai」🇭🇰 HK 01 #1'
+  port: 53737
+  server: 112.29.94.22
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: hk1.kxking.eu.org
-    path: /vm?ed=2048
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|HK_speednode_0058
@@ -81,49 +47,6 @@ proxies:
     headers:
       Host: t.zhulida.cc
     path: /c6d6b130f9?ed=2048
-- alterId: 32
-  cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 2
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: 182.16.1.194
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 256653cf-d987-4141-b670-31129da2b1d8
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 256653cf-d987-4141-b670-31129da2b1d8
-- client-fingerprint: chrome
-  name: 14|🇭🇰 香港B|@ripaojiedian
-  password: 9e4426ef-db75-4370-bb70-0deb491a46c1
-  port: 443
-  server: 43.198.98.185
-  skip-cert-verify: false
-  sni: ap-east-cht.lnaspiring.com
-  tfo: false
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 12|HK_speednode_0057
@@ -140,6 +63,26 @@ proxies:
     path: /c6d6b130f9?ed=2048
 - alterId: 0
   cipher: auto
+  name: 13|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 0
+  cipher: auto
   name: 9|🇭🇰香港06
   network: tcp
   port: '36611'
@@ -147,21 +90,21 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3812dc4e-573b-437c-81f0-89adb1f57ec4
-- alterId: 32
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
+- alterId: 0
   cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong
+  name: 12|🇭🇰 14,15|香港C|@ripaojiedian
   network: ws
-  port: 80
-  server: hrgdvpn.flycdnedc55.vip
+  port: 2086
+  server: 8.218.143.10
   servername: ''
   tls: false
   type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
   ws-opts:
     headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /opt/video/images
+      Host: hk1.kxking.eu.org
+    path: /vm?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -178,3 +121,62 @@ proxies:
   server: 47.243.182.168
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,15|「节点冠名招商 @nodpai」🇭🇰 HK 01
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇭🇰 香港B|@ripaojiedian
+  network: ws
+  port: 80
+  server: hktddns.aikun.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ee484d37-3168-4a63-a0c3-72e96ea02508
+  ws-opts:
+    headers:
+      Host: sanmao17.hkbn.n.optage.moe
+    path: /hkbn
+- alterId: 32
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 2
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: 182.16.1.194
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
