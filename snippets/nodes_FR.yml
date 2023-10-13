@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|🇫🇷 法国
+  network: ws
+  port: '2082'
+  server: fr-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: d08cf983-754c-410d-b877-aac54ae43ac1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 12|V1C | 法国 01
+  network: ws
+  port: 51236
+  server: kr-cdn-6273819.starnetcn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: fd98201dijmasadj.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986.m3u8
 - name: 1|_FR_
   network: tcp
   password: telegram-id-directvpn
@@ -10,14 +37,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: fr2-vmess.greenssh.xyz
+  name: 15|法国|@ripaojiedian
+  network: tcp
+  port: '55448'
+  server: 188.165.194.100
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9a555ca5-111c-4a88-a893-ed9b25b817a2
-  ws-opts:
-    headers:
-      Host: fr2-vmess.greenssh.xyz
-    path: /vmess
+  uuid: 9de32e59-d621-41da-8266-280fe35987b0
