@@ -1,7 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 3,6,11,18|_CN_中国
+  network: ws
+  port: '80'
+  server: 175.178.65.137
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /neimenggu001
 - alterId: 64
   cipher: auto
-  name: 11,12,15|github.com/freefq - 广东省移动 7
+  name: 11,12,15|github.com/freefq - 广东省移动 8
   network: tcp
   port: '51904'
   server: 183.238.202.173
@@ -11,7 +24,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,6,17|_CN_中国 #1'
+  name: '3,6,18|_CN_中国 #1'
   network: ws
   port: '80'
   server: 1.117.69.235
@@ -24,23 +37,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  name: 18|🇨🇳_CN_中国_由夸嘴科技提供;kkzui.com_37
   network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,6,11,17|_CN_中国
-  network: ws
-  port: '80'
-  server: 175.178.65.137
+  port: 10052
+  server: 111.67.201.33
   tls: false
   type: vmess
   uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
