@@ -1,6 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 15|法国|@ripaojiedian
+  network: tcp
+  port: '55448'
+  server: 188.165.194.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9de32e59-d621-41da-8266-280fe35987b0
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.188.9.170
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 12|🇫🇷 法国
   network: ws
   port: '2082'
@@ -26,22 +45,3 @@ proxies:
     headers:
       Host: fd98201dijmasadj.starnetcn.top
     path: /315d825893fc34aca0231ab967157986.m3u8
-- name: 1|_FR_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.188.9.170
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 15|法国|@ripaojiedian
-  network: tcp
-  port: '55448'
-  server: 188.165.194.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9de32e59-d621-41da-8266-280fe35987b0

@@ -1,50 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,6,18|_CN_中国 #2'
+  name: '2,4|🇨🇳_CN_中国 #1'
   network: ws
-  port: '80'
-  server: 1.117.69.235
+  port: 80
+  server: 124.220.57.75
   tls: false
   type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
   ws-opts:
     headers:
       Host: tms.dingtalk.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CN__1
+  name: 3,6,18|_CN_中国
   network: ws
-  port: 10052
-  server: 111.67.201.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-opts:
-    headers:
-      host: tms.dingtalk.com
-    path: /neimenggu001
-- alterId: 0
-  cipher: auto
-  name: 6,18|🇨🇳_CN_中国
-  network: ws
-  port: 80
+  port: '80'
   server: 175.178.65.137
-  tls: false
-  type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /neimenggu001
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,11,18|_CN_中国
-  network: ws
-  port: '10052'
-  server: 111.67.201.33
   tls: false
   type: vmess
   uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
@@ -64,19 +37,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|_CN_中国 #1'
-  network: ws
-  port: '80'
-  server: 124.220.57.75
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_CN__2
   network: ws
   port: 80
@@ -88,4 +48,44 @@ proxies:
   ws-opts:
     headers:
       host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,4,11,18|🇨🇳_CN_中国
+  network: ws
+  port: 10052
+  server: 111.67.201.33
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /neimenggu001
+- alterId: 0
+  cipher: auto
+  name: 1|_CN__1
+  network: ws
+  port: 10052
+  server: 111.67.201.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
+    headers:
+      host: tms.dingtalk.com
+    path: /neimenggu001
+- alterId: 0
+  cipher: auto
+  name: '3,6,18|_CN_中国 #1'
+  network: ws
+  port: '80'
+  server: 1.117.69.235
+  tls: false
+  type: vmess
+  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
     path: /
