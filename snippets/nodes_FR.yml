@@ -8,6 +8,15 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
+- name: 1|_FR__1
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.39.200.15
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 15|法国|@ripaojiedian
@@ -18,26 +27,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
-- alterId: 0
-  cipher: auto
-  name: 12|FR_speednode_0022
-  network: ws
-  port: 8880
-  server: 54.38.79.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 232b4c10-666c-11ee-b939-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /mowdu3x9
-- name: 1|_FR__1
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.39.200.15
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
