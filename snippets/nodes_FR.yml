@@ -1,4 +1,27 @@
 proxies:
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.231.182
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 法国国际航空电讯集团...
+  network: ws
+  port: 53782
+  server: kr-cdn-6273819.starnetcn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: 127.0.0.1
+    path: /1c1791euidqihd
 - alterId: 0
   cipher: auto
   name: 12|🇫🇷 法国 17
@@ -9,12 +32,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
-- name: 1|_FR_
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.231.182
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
