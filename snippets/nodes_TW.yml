@@ -8,7 +8,7 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 75b4748e-1211-4e97-9b49-d3d727be6c58
+  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾06
@@ -18,17 +18,7 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43b9383f-56f9-400c-8429-1d86c85e720d
-- alterId: 0
-  cipher: auto
-  name: 15|台湾A|@ripaojiedian
-  network: tcp
-  port: '50008'
-  server: 08.kccic2pa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 90e645b5-2d12-4709-9d58-7c5fa272f21d
+  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
 - alterId: 0
   cipher: auto
   name: 13|台湾 04  | 1x TWN
@@ -38,7 +28,16 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 75b4748e-1211-4e97-9b49-d3d727be6c58
+  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
+- alterId: 0
+  cipher: auto
+  name: 7,15|「蛋挞云,超低价格,超高体验」🇹🇼 TW 02
+  network: tcp
+  port: '25010'
+  server: b.baozinet.top
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
   name: 13|台湾 05  | 1x TWN
@@ -48,7 +47,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 75b4748e-1211-4e97-9b49-d3d727be6c58
+  uuid: 6b0fc1ff-cb8e-49c1-9976-e5d9e5418eb7
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -58,7 +57,17 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43b9383f-56f9-400c-8429-1d86c85e720d
+  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+- alterId: 0
+  cipher: auto
+  name: '8,14|「蛋挞云,超低价格,超高体验」🇹🇼 TW 02 #1'
+  port: 25010
+  server: b.baozinet.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾04
@@ -68,4 +77,25 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 43b9383f-56f9-400c-8429-1d86c85e720d
+  uuid: c1eba6b7-8a91-4361-8988-ded22c723c8e
+- alterId: 0
+  cipher: auto
+  name: 12|🇹🇼TG频道 @oeo12 =6
+  network: ws
+  port: 80
+  server: ap-east-cht.lnaspiring.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e1b82442-c4fa-4fce-801e-5f5836c0e866
+  ws-opts:
+    headers:
+      Host: ''
+    path: /coco/13
+- cipher: chacha20-ietf-poly1305
+  name: 8,14|「eggtartcloud.shop 自选入口,速度保证」🇹...
+  password: 3525588ee14ea924
+  port: 41020
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
