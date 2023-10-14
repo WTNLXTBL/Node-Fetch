@@ -1,18 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '6,7,8|🇨🇳_CN_中国 #1'
+  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
   network: ws
-  port: 10052
-  server: 111.67.201.33
+  port: '20036'
+  server: 222.187.238.9
   tls: false
   type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
   ws-opts:
-    path: /neimenggu001
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,8|🇨🇳_CN_中国
+  name: 6|🇨🇳_CN_中国
   network: ws
   port: 80
   server: 124.220.57.75
@@ -23,16 +25,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|「蛋挞云,流媒体全解锁」🇨🇳 CN 02
+  name: 17|🇨🇳_CN_中国_2_35
   network: ws
-  port: '80'
+  port: 80
   server: 175.178.65.137
   tls: false
   type: vmess
   uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
   ws-opts:
     headers:
-      Host: ''
+      Host: tms.dingtalk.com
+    path: /neimenggu001
+- alterId: 0
+  cipher: auto
+  name: 7|「蛋挞云,超低价格,超高体验」🇨🇳 CN 03
+  network: tcp
+  port: '50002'
+  server: 175.27.154.61
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '8,14|「蛋挞云,流媒体全解锁」🇨🇳 CN 02 #1'
+  port: 56002
+  server: 39.103.165.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '6,7,8|🇨🇳_CN_中国 #1'
+  network: ws
+  port: 10052
+  server: 111.67.201.33
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
     path: /neimenggu001
 - alterId: 0
   cipher: auto
@@ -49,14 +81,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|「eggtartcloud.shop 自选入口,速度保证」🇨...
-  network: ws
-  port: '80'
-  server: 1.117.69.235
+  name: 7|「蛋挞云,流媒体全解锁」🇨🇳 CN 02
+  network: tcp
+  port: '56002'
+  server: 39.103.165.178
   tls: false
   type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
