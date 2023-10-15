@@ -1,17 +1,20 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11,15|github.com/freefq - 广东省移动 12
-  network: tcp
-  port: '51904'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国_2_35
+  name: 17|🇨🇳_CN_中国_由快嘴科技提供;kkzui.com_29
+  network: ws
+  port: 80
+  server: 1.117.69.235
+  tls: false
+  type: vmess
+  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 17|🇨🇳_CN_中国_2_35
   network: ws
   port: 80
   server: 175.178.65.137
@@ -24,31 +27,7 @@ proxies:
     path: /neimenggu001
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国_由快嘴科技提供;kkzui.com_29
-  network: ws
-  port: 80
-  server: 1.117.69.235
-  tls: false
-  type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,7,8|🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 1.117.69.235
-  tls: false
-  type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,2,3,4,6|_CN_
+  name: 1,2,3,4,6,7,8|_CN_
   network: ws
   port: 80
   server: 124.220.57.75
@@ -71,3 +50,14 @@ proxies:
     headers:
       Host: ''
     path: /neimenggu001
+- alterId: 0
+  cipher: auto
+  name: 6,7,8|🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 1.117.69.235
+  tls: false
+  type: vmess
+  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
+  ws-opts:
+    path: /
