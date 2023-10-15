@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
   plugin: v2ray-plugin
   plugin-opts:
@@ -11,7 +11,7 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 30015
+  port: 20014
   server: 183.232.170.32
   tfo: false
   type: ss
@@ -37,23 +37,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
@@ -63,22 +47,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵白嫖-053
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 46.51.233.234
+  name: 14|🇯🇵 日本B|@ripaojiedian
+  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
+  port: 32412
+  server: sh-zz-xx.newbluecloud.top
   tfo: false
   type: ss
 - alterId: 0
@@ -90,17 +64,41 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
-- alterId: 0
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30015
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 13|日本 05  | 1x JP
+  name: 12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan
   network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.65.211.149
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -110,17 +108,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -130,4 +118,48 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 日本东京都Amazo...
+  network: ws
+  port: 53782
+  server: kr-cdn-6273819.starnetcn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: 127.0.0.1
+    path: /1c1791euidqihd
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf

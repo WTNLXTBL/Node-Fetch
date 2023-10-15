@@ -1,64 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 07 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 13.212.11.28
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.140.55.251
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-43.134.36.18...
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
+  port: '50769'
+  server: 43.134.36.186
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
-- cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
-  password: 3525588ee14ea924
-  port: 41009
-  server: gzcm01.celerlink.one
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|@ripaojiedian
-  password: e099f4a1-934d-4c18-b3d4-7786a22e2403
-  port: 26963
-  server: starspeed.tbh.iosds.com
-  tfo: false
-  type: ss
+  uuid: 5d9a54f1-d209-4a43-974c-f79bc68d49d9
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -73,6 +23,24 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡A|@ripaojiedian
+  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
+  port: 40399
+  server: drus.hkforwardban.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
 - alterId: 0
   cipher: auto
   name: 13|新加坡 06 | 1x SG
@@ -82,22 +50,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
-- cipher: chacha20-ietf-poly1305
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇸...
-  password: 3525588ee14ea924
-  port: 41040
-  server: gzcm01.celerlink.one
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.213.38.208
-  tfo: false
-  type: ss
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1012102
@@ -114,6 +67,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
+  password: 3525588ee14ea924
+  port: 41039
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -121,14 +101,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
+  name: 13|新加坡 04 | 1x SG
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
+- cipher: chacha20-ietf-poly1305
+  name: 8,14|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
+  password: 3525588ee14ea924
+  port: 41009
+  server: gzcm01.celerlink.one
+  type: ss
+  udp: true

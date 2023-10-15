@@ -1,4 +1,38 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 9,18|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9d29e299-9cf0-4c15-87ef-7229e4ad5321
+- alterId: 1
+  cipher: auto
+  name: 12|🇨🇦 加拿大 134
+  network: ws
+  port: 443
+  server: octavi.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 1
   cipher: auto
   name: 12|Channel id @ShadowProxy66🇨🇦
@@ -22,38 +56,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8df765d2-8542-414a-85da-a36cecfc6d83
-- alterId: 0
-  cipher: auto
-  name: 9,18|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 1
-  cipher: auto
-  name: 12|🇨🇦 加拿大 134
-  network: ws
-  port: 443
-  server: octavi.cfd
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: octavi.cfd
-    path: linkvws
+  uuid: 80a5f543-bfe3-427c-b484-4aa2fa3867eb
