@@ -1,9 +1,63 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 481b2642-1981-4fee-b73f-0d352d3a2aac
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1015127
+  network: ws
+  port: 55599
+  server: 146.190.96.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdbca266-10d9-4018-e99e-c561497d6542
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /isuru
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4721422f-b770-4171-a006-5769c893372f
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4721422f-b770-4171-a006-5769c893372f
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-43.134.36.18...
+  network: tcp
+  port: '50769'
+  server: 43.134.36.186
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d9a54f1-d209-4a43-974c-f79bc68d49d9
 - cipher: chacha20-ietf-poly1305
-  name: 8|「节点冠名招商 @nodpai」🇸🇬 SG 01
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇸...
   password: 3525588ee14ea924
-  port: 41039
-  server: jscm01.celerlink.one
+  port: 41040
+  server: gzcm01.celerlink.one
   type: ss
   udp: true
 - alterId: 0
@@ -22,16 +76,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 71d67752-314c-4ac5-945b-b9e70407d3b1
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -39,7 +83,32 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c293931-78e3-4534-8331-c144229b13d6
+  uuid: 481b2642-1981-4fee-b73f-0d352d3a2aac
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡A|@ripaojiedian
+  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
+  port: 40399
+  server: drus.hkforwardban.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4721422f-b770-4171-a006-5769c893372f
+- cipher: chacha20-ietf-poly1305
+  name: 8|「节点冠名招商 @nodpai」🇸🇬 SG 01
+  password: aee17208-293c-4d78-add6-6d5bbdebdfcf
+  port: 26963
+  server: starspeed.tbh.iosds.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡04
@@ -49,48 +118,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6c293931-78e3-4534-8331-c144229b13d6
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-43.134.36.18...
-  network: tcp
-  port: '50769'
-  server: 43.134.36.186
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d9a54f1-d209-4a43-974c-f79bc68d49d9
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 09 @nodpai
-  network: ws
-  port: '80'
-  server: xjp3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: xjp3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 71d67752-314c-4ac5-945b-b9e70407d3b1
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡A|@ripaojiedian
-  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
-  port: 40399
-  server: drus.hkforwardban.xyz
-  tfo: false
-  type: ss
+  uuid: 481b2642-1981-4fee-b73f-0d352d3a2aac
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1012102
@@ -105,57 +133,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8,14|「eggtartcloud.shop 自选入口,速度保证」🇸...
-  password: 3525588ee14ea924
-  port: 41009
-  server: gzcm01.celerlink.one
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1015127
-  network: ws
-  port: 55599
-  server: 146.190.96.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cdbca266-10d9-4018-e99e-c561497d6542
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /isuru
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 06 @nodpai
-  network: ws
-  port: '80'
-  server: xjp2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: xjp2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 71d67752-314c-4ac5-945b-b9e70407d3b1
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6c293931-78e3-4534-8331-c144229b13d6
