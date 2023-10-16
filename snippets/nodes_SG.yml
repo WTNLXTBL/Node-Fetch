@@ -15,14 +15,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
+  name: 13|新加坡 04 | 1x SG
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0321f075-2fae-431c-9d0e-df7a40e6281c
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
+- alterId: 0
+  cipher: auto
+  name: 15|新加坡C|@ripaojiedian
+  network: tcp
+  port: '26022'
+  server: 120.233.43.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -32,41 +42,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5fe1b470-b4f8-4854-9f2c-38df53cf6da4
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0321f075-2fae-431c-9d0e-df7a40e6281c
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_1012102
-  network: ws
-  port: 80
-  server: 18.142.51.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 484e15da-0666-486d-b138-78622e795fed
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fe1b470-b4f8-4854-9f2c-38df53cf6da4
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -76,7 +52,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0321f075-2fae-431c-9d0e-df7a40e6281c
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1016213
@@ -93,6 +69,48 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡B|@ripaojiedian
+  password: 3525588ee14ea924
+  port: 41009
+  server: gzcm01.celerlink.one
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡_1012102
+  network: ws
+  port: 80
+  server: 18.142.51.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 484e15da-0666-486d-b138-78622e795fed
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -100,21 +118,4 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5fe1b470-b4f8-4854-9f2c-38df53cf6da4
-- alterId: 0
-  cipher: auto
-  name: 15|新加坡C|@ripaojiedian
-  network: tcp
-  port: '26022'
-  server: 120.233.43.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
-- cipher: chacha20-ietf-poly1305
-  name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
-  password: 3525588ee14ea924
-  port: 41009
-  server: gzcm01.celerlink.one
-  type: ss
-  udp: true
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
