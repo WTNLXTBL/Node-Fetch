@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 0,14,15|🇨🇦 _CA_加拿大
   network: ws
   port: '80'
@@ -14,7 +24,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 加拿大  13
+  name: 9,17|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 加拿大  10
   network: ws
   port: '80'
   server: 108.181.10.17
@@ -28,26 +48,6 @@ proxies:
     path: /u6o5txhi
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9,17|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -56,17 +56,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 180
-  network: ws
-  port: 443
-  server: main.animelover.ir
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
-  ws-opts:
-    headers:
-      Host: main.animelover.ir
-    path: /amstd.digires.shop/12796
