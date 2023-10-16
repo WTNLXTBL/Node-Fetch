@@ -1,13 +1,4 @@
 proxies:
-- name: 1|_FR__1
-  network: tcp
-  password: e4f288433b
-  port: 443
-  server: 54.36.173.159
-  skip-cert-verify: true
-  sni: pol1.connecton.surf
-  type: trojan
-  udp: true
 - name: 1|_FR__2
   network: tcp
   password: telegram-id-privatevpns
@@ -17,6 +8,37 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
+- name: 1|_FR__1
+  network: tcp
+  password: e4f288433b
+  port: 443
+  server: 54.36.173.159
+  skip-cert-verify: true
+  sni: pol1.connecton.surf
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
+  network: tcp
+  port: 26126
+  server: 188.165.61.68
+  tls: false
+  type: vmess
+  uuid: b09b111e-f41c-4145-83c9-029027a5a745
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_yui科技_16
+  network: ws
+  port: 30000
+  server: 156.249.18.4
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    headers:
+      Host: www.57424349.xyz
+    path: /path/1697288722266
 - alterId: 0
   cipher: auto
   name: 12|🇫🇷 法国 17
@@ -27,3 +49,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_yui科技_65
+  network: ws
+  port: 30000
+  server: 156.249.18.48
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1697288722266
