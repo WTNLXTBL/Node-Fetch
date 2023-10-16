@@ -1,31 +1,37 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 8,14|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
-  password: 3525588ee14ea924
-  port: 41009
-  server: gzcm01.celerlink.one
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 56fae67c-bce1-41a1-83d0-57e383a58465
+  uuid: e23e28ef-88d1-48d1-a675-40f282e0d00e
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
+  name: 13|新加坡 05 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 56fae67c-bce1-41a1-83d0-57e383a58465
+  uuid: 82c097ad-91b7-403d-bfe7-92b1e2bc1d41
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|🇸🇬 Singapore 13 @nodpai
+  network: ws
+  port: '80'
+  server: xjp3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: xjp3.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1012102
@@ -41,30 +47,35 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡A|@ripaojiedian
-  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
-  port: 40399
-  server: drus.hkforwardban.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇸...
+  name: 8,14|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
   password: 3525588ee14ea924
-  port: 41040
+  port: 41009
   server: gzcm01.celerlink.one
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 9|🇸🇬新加坡06
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6de9e032-7585-40c6-9b97-b12725bff640
+  uuid: e23e28ef-88d1-48d1-a675-40f282e0d00e
+- alterId: 0
+  cipher: auto
+  name: 7,8,12|🇸🇬 Singapore 11 @nodpai
+  network: ws
+  port: '80'
+  server: xjp2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: xjp2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -74,7 +85,17 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6de9e032-7585-40c6-9b97-b12725bff640
+  uuid: e23e28ef-88d1-48d1-a675-40f282e0d00e
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 82c097ad-91b7-403d-bfe7-92b1e2bc1d41
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -91,28 +112,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
+  name: 13|新加坡 04 | 1x SG
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6de9e032-7585-40c6-9b97-b12725bff640
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 56fae67c-bce1-41a1-83d0-57e383a58465
-- cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 08 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 52.221.184.140
+  uuid: 82c097ad-91b7-403d-bfe7-92b1e2bc1d41
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01
+  password: 3525588ee14ea924
+  port: 41040
+  server: gzcm01.celerlink.one
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.96....
+  network: ws
+  port: '55599'
+  server: 146.190.96.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdbca266-10d9-4018-e99e-c561497d6542
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /isuru
