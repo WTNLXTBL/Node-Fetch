@@ -1,4 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
+  network: tcp
+  port: 26126
+  server: 188.165.61.68
+  tls: false
+  type: vmess
+  uuid: b09b111e-f41c-4145-83c9-029027a5a745
+- name: 1|_FR__1
+  network: tcp
+  password: e4f288433b
+  port: 443
+  server: 54.36.173.159
+  skip-cert-verify: true
+  sni: pol1.connecton.surf
+  type: trojan
+  udp: true
 - name: 1|_FR__2
   network: tcp
   password: telegram-id-privatevpns
@@ -10,15 +28,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
-  network: tcp
-  port: 26126
-  server: 188.165.61.68
-  tls: false
-  type: vmess
-  uuid: b09b111e-f41c-4145-83c9-029027a5a745
-- alterId: 0
-  cipher: auto
   name: 12|🇫🇷 FR 𝗙𝗿𝗲𝗲𝗻𝗲𝘁 86
   network: tcp
   port: 55448
@@ -26,12 +35,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
-- name: 1|_FR__1
-  network: tcp
-  password: e4f288433b
-  port: 443
-  server: 54.36.173.159
-  skip-cert-verify: true
-  sni: pol1.connecton.surf
-  type: trojan
-  udp: true
