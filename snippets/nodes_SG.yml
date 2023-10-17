@@ -11,32 +11,38 @@ proxies:
   uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 04 | 1x SG
+  name: 13|新加坡 06 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
   uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 05 | 1x SG
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.217.205
-  tfo: false
-  type: ss
+  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 VM-WS-NONE 🇸🇬 SG-146.190.96...
+  network: ws
+  port: 55599
+  server: 146.190.96.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdbca266-10d9-4018-e99e-c561497d6542
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /isuru
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1012102
@@ -63,40 +69,6 @@ proxies:
   uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡 310
-  network: ws
-  port: 47936
-  server: 138.2.99.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 62a8c6c3-1804-42cb-aab0-074ce3102145
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9e826390-5f9e-4a0c-a61c-827d16748500
-- alterId: 0
-  cipher: auto
   name: 12|🇸🇬 新加坡_1011095
   network: ws
   port: 8080
@@ -111,15 +83,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.96....
-  network: ws
-  port: '55599'
-  server: 146.190.96.141
-  servername: ''
-  tls: false
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: cdbca266-10d9-4018-e99e-c561497d6542
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /isuru
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.139.217.205
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7d2bd8f2-27ae-424a-a543-bcdb310b5015
