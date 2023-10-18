@@ -1,4 +1,24 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11,15|github.com/freefq - 广东省移动 4
+  network: tcp
+  port: '51904'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 广东省移动 10
+  network: tcp
+  port: '11002'
+  server: tg_mfbpn_d4.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
 - alterId: 0
   cipher: auto
   name: 12|CN_speednode_0005
@@ -9,59 +29,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d40d976d-d569-3e7d-9396-132dea60cf28
-- alterId: 2
-  cipher: auto
-  name: 11|github.com/freefq - 浙江省移动 13
-  network: tcp
-  port: '49044'
-  server: tg_mfbpn_d1.52vpn.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07981f7e-d4c6-3bcc-93a7-ec0228325236
-- alterId: 0
-  cipher: auto
-  name: 12|CN_speednode_0030
-  network: tcp
-  port: 26062
-  server: 110.72.101.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d40d976d-d569-3e7d-9396-132dea60cf28
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 广东省移动 9
-  network: tcp
-  port: '12580'
-  server: www.lp-airdrop.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
-- alterId: 0
-  cipher: auto
-  name: 0,6,7,8,18|_CN_中国
-  network: ws
-  port: '80'
-  server: 124.220.57.75
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11,15|github.com/freefq - 广东省移动 19
-  network: tcp
-  port: '51904'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳_CN_中国_2_9
@@ -73,3 +40,26 @@ proxies:
   uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
   ws-opts:
     path: /
+- alterId: 0
+  cipher: auto
+  name: 0,6,18|_CN_中国
+  network: ws
+  port: '80'
+  server: 124.220.57.75
+  tls: false
+  type: vmess
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|CN_speednode_0030
+  network: tcp
+  port: 26062
+  server: 110.72.101.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d40d976d-d569-3e7d-9396-132dea60cf28

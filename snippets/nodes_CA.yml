@@ -1,17 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|TG频道:@hkaa0||加拿大
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -19,7 +8,17 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ad56841e-9c2f-4393-b730-e656306eb974
+  uuid: f984e22d-73ac-4bc6-b33e-3f0775fde247
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 1|_CA_
@@ -36,9 +35,19 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 2,3,4,11|🇨🇦_CA_加拿大
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f6a77c53-c256-4429-a4b1-c9d81bc94964
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,11|🇨🇦 _CA_加拿大
   network: ws
-  port: 8080
+  port: '8080'
   server: dongtaiwang3.com
   tls: false
   type: vmess
@@ -49,21 +58,12 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 20416d70-1643-4ef2-8033-3af351b43ee5
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  name: 12|TG频道:@hkaa0||加拿大
+  network: ws
+  port: 80
+  server: 108.181.10.17
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    path: /
