@@ -1,61 +1,126 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
+  name: 1|_US_->_IN__1
   network: ws
-  port: '80'
+  port: 80
+  server: hdlb3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  ws-opts:
+    headers:
+      host: hdlb3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_SA_
+  network: ws
+  port: 80
   server: jd3.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: jd3.shabijichang.com
+      host: jd3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 01 @nodpai
-  network: tcp
-  port: '11014'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 09 @nodpai
-  network: tcp
-  port: '11005'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇭🇰 Hong Kong 05 @nodpai
+  name: 6,12,18|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: '13002'
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 80
+  server: 104.18.202.232
   tls: false
   type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
   ws-opts:
     headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray،@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 04 @nodpai
+  name: 2,3,4,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡
   network: ws
-  port: '14109'
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 80
+  server: 104.31.16.14
   tls: false
   type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
+  uuid: 755840b0-6c4e-11ee-b132-205c6d5f5d78
   ws-opts:
     headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
+      Host: lu.0rd.net
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_AE_
+  network: ws
+  port: 80
+  server: db5.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: db5.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,12,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '2096'
+  server: 104.25.254.162
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_NL_
+  network: ws
+  port: 2096
+  server: 104.25.254.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_LU__1
+  network: ws
+  port: 80
+  server: 104.31.16.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 755840b0-6c4e-11ee-b132-205c6d5f5d78
+  ws-opts:
+    headers:
+      host: lu.0rd.net
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: '0,6,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #2'
+  network: ws
+  port: '2052'
+  server: 162.159.137.9
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,6|🇺🇸 _US_美国->🇩🇪_DE_德国
@@ -69,26 +134,178 @@ proxies:
     headers:
       Host: vceu3.vpn66.eu.org
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇻🇳 Viet Nam 01 @nodpai
-  password: 5bf51ab5-306c-46be-bbb1-6d535037703d
-  port: 27110
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6|🇺🇸_US_美国->🇦🇪_AE_阿联酋
+  name: 0,2,3,4,18|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
-  port: 80
-  server: db5.shabijichang.com
+  port: '80'
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: db5.shabijichang.com
+      Host: mrb2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB__1
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,18|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '2052'
+  server: 162.159.137.86
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #3'
+  network: ws
+  port: 2052
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: 80
+  server: sbl4.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,12|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: 2087
+  server: 198.41.217.5
+  tls: true
+  type: vmess
+  uuid: 9c7de3e8-c2aa-4fe0-b689-9b26d21e9786
+  ws-opts:
+    headers:
+      Host: docs2.obneh247.ir
+    path: /2v2rayTEAM
+- alterId: 0
+  cipher: auto
+  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_3_3由快嘴科技提供：...
+  network: ws
+  port: 80
+  server: hdlb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: hdlb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,6,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
+  network: ws
+  port: '2052'
+  server: 162.159.143.241
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_DE_
+  network: ws
+  port: 2052
+  server: yd1.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7
+  ws-opts:
+    headers:
+      host: vceu3.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_LU__2
+  network: ws
+  port: 443
+  server: 104.31.16.61
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 755840b0-6c4e-11ee-b132-205c6d5f5d78
+  ws-opts:
+    headers:
+      host: lu.0rd.net
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 0|🇰🇷 _KR_韩国->🇬🇧_GB_英国
+  network: ws
+  port: '443'
+  server: 130.162.154.209
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
   name: 1|_US_->_BR__2
@@ -105,132 +322,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,6|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #2'
-  network: ws
-  port: '2052'
-  server: 162.159.137.9
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇸🇬 Singapore 02 @nodpai
-  network: ws
-  port: '12001'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,18|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
   network: ws
   port: '80'
-  server: hdlb3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
-  ws-opts:
-    headers:
-      Host: hdlb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇭🇰 Hong Kong 06 @nodpai
-  network: ws
-  port: '17002'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /af483582-6269-468c-93af-c512ec2b1a61
-- alterId: 0
-  cipher: auto
-  name: 7,15|中转 🇺🇸 United States 03 @nodpai
-  network: tcp
-  port: '25006'
-  server: b.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR_
-  network: ws
-  port: 2052
-  server: 162.159.137.86
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇩🇪_DE_德国_8
-  network: ws
-  port: 2087
-  server: x10.mehdimoghaddam.fun
-  tls: true
-  type: vmess
-  uuid: b4d5538c-3119-478a-b4c5-c59c330eb88b
-  ws-opts:
-    headers:
-      Host: x10.mehdimoghaddam.fun
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇹🇼 Taiwan 02 @nodpai
-  network: ws
-  port: '14099'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__2
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  skip-cert-verify: true
+  server: jd3.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mm3.shabijichang.com
+      Host: jd3.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇸🇬 Singapore 03 @nodpai
-  network: ws
-  port: '12002'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5
 - alterId: 0
   cipher: auto
   name: 1|_US_->_GB__2
@@ -247,17 +349,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇺🇸 United States 07 @nodpai
-  network: ws
-  port: '11301'
-  server: cdn.node.user-sub.pddns-usersdk.com
+  name: 1,2,3,4,6|_CN_->_FR_
+  network: tcp
+  port: 50041
+  server: 41.kccic2pa.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
+  uuid: 5c3d60c1-ec2b-41f4-bd22-b7336d7e37bb
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IN__2
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c512ec2b8a61
+      host: mm3.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '2,3,4,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #1'
@@ -286,296 +399,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,15|中转 🇹🇼 Taiwan 03 @nodpai
-  network: tcp
-  port: '25010'
-  server: b.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2052'
-  server: 162.159.137.86
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇨🇭 Switzerland 01 @nodpai
-  password: 5bf51ab5-306c-46be-bbb1-6d535037703d
-  port: 27119
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇰🇷 _KR_韩国->🇬🇧_GB_英国
-  network: ws
-  port: '443'
-  server: 130.162.154.209
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: cf.tonyluk.link
-    path: /ophelia.mom:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 10 @nodpai
-  network: tcp
-  port: '11003'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 0
-  cipher: auto
-  name: '6,12|🇺🇸_US_美国->🇱🇺_LU_卢森堡 #3'
-  network: ws
-  port: 2052
-  server: 162.159.152.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇭🇰 Hong Kong 04 @nodpai
-  network: ws
-  port: '13004'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_SA_
-  network: ws
-  port: 80
-  server: jd3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: jd3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 02 @nodpai
-  network: tcp
-  port: '25002'
-  server: b.baozinet.top
-  tls: false
-  type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB__1
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 11 @nodpai
-  network: tcp
-  port: '11004'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 0
-  cipher: auto
-  name: 1,2,3,4,6|_CN_->_FR_
-  network: tcp
-  port: 50041
-  server: 41.kccic2pa.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5c3d60c1-ec2b-41f4-bd22-b7336d7e37bb
-- alterId: 0
-  cipher: auto
-  name: 6,12|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 80
-  server: 104.18.202.232
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '2096'
-  server: 104.25.254.162
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: 80
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,18|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
   port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇺🇸_US_美国->🇮🇳_IN_印度_3_29
-  network: ws
-  port: 80
-  server: hdlb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: hdlb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_AE_
-  network: ws
-  port: 80
-  server: db5.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: db5.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,12,18|🇺🇸_US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: 80
-  server: 104.31.16.14
-  tls: false
-  type: vmess
-  uuid: 755840b0-6c4e-11ee-b132-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: lu.0rd.net
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_LU__1
-  network: ws
-  port: 80
-  server: 104.31.16.14
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 755840b0-6c4e-11ee-b132-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: lu.0rd.net
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__1
-  network: ws
-  port: 80
   server: hdlb3.shabijichang.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
   ws-opts:
     headers:
-      host: hdlb3.shabijichang.com
+      Host: hdlb3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_LU__2
-  network: ws
-  port: 443
-  server: 104.31.16.61
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 755840b0-6c4e-11ee-b132-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: lu.0rd.net
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 6,12|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 2087
-  server: 198.41.217.5
-  tls: true
-  type: vmess
-  uuid: 9c7de3e8-c2aa-4fe0-b689-9b26d21e9786
-  ws-opts:
-    headers:
-      Host: docs2.obneh247.ir
-    path: /2v2rayTEAM
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  name: 2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
-  server: mm2.shabijichang.com
+  server: ld2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm2.shabijichang.com
+      Host: ld2.shabijichang.com
     path: /
 - alterId: 64
   cipher: auto
@@ -592,6 +438,20 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
+  name: 1|_US_->_IR_
+  network: ws
+  port: 2052
+  server: 162.159.137.86
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      host: us.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_BR__1
   network: ws
   port: 80
@@ -604,73 +464,16 @@ proxies:
     headers:
       host: sbl4.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '2,3,4,18|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
+  name: 18|🇺🇸_US_美国->🇳🇱_NL_荷兰_2_由快嘴科技提供：k...
   network: ws
-  port: 80
-  server: 104.21.75.246
-  tls: false
+  port: 30000
+  server: 45.199.138.191
+  tls: true
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇺🇸 United States 08 @nodpai
-  network: ws
-  port: '11302'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c512ec2b8a61
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 05 @nodpai
-  network: ws
-  port: '14110'
-  server: cdn.node.user-sub.pddns-usersdk.com
-  tls: false
-  type: vmess
-  uuid: d068eb23-678d-3a2b-8663-be6da17cc188
-  ws-opts:
-    headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇷🇺 Russia 01 @nodpai
-  password: 5bf51ab5-306c-46be-bbb1-6d535037703d
-  port: 27116
-  server: hefei.chiguayun.cc
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇬🇷 Greece 01 @nodpai
-  password: 5bf51ab5-306c-46be-bbb1-6d535037703d
-  port: 27134
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE_
-  network: ws
-  port: 2052
-  server: yd1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 2,3,4,12,18|🇺🇸_US_美国->🇮🇳_IN_印度
@@ -686,48 +489,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_NL_
-  network: ws
-  port: 2096
-  server: 104.25.254.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,6|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
-  network: ws
-  port: '2052'
-  server: 162.159.143.241
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇹 Italy 02 @nodpai
-  password: 5bf51ab5-306c-46be-bbb1-6d535037703d
-  port: 27141
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 2,3,4,6|🇺🇸_US_美国->🇦🇪_AE_阿联酋
   network: ws
   port: 80
-  server: ld2.shabijichang.com
+  server: db5.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ld2.shabijichang.com
+      Host: db5.shabijichang.com
     path: /
