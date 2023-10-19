@@ -1,6 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: eada7ace-1ba8-4b8f-b355-40e800dbc542
+- name: 1|_CA_
+  network: tcp
+  password: e869fbd0-6d5f-11ee-90fd-1239d0255272
+  port: 443
+  server: 51.222.15.68
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-159.89.120.1...
   network: tcp
   port: '3389'
@@ -11,53 +29,6 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ec1def61-6c4b-4a06-945b-f4225b907b00
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4|🇨🇦 _CA_加拿大
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang8.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 1|_CA_
-  network: ws
-  port: 8080
-  server: dongtaiwang3.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      host: dongtaiwang8.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7f6c7ac-5001-48b5-b6c7-2aeec7fdc9cd
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
   network: tcp
   port: '22324'
@@ -66,3 +37,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 04628e29-32b0-4878-bd55-ed2719fec1f3
+- alterId: 0
+  cipher: auto
+  name: 3,12|🇨🇦 _CA_加拿大
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
