@@ -1,35 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 广东省移动 14
-  network: tcp
-  port: '11002'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-- alterId: 64
-  cipher: auto
-  name: 11,15|github.com/freefq - 广东省移动 3
-  network: tcp
-  port: '51904'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|_CN_
-  network: tcp
-  password: 48bad1cc-4ba4-48bd-9e5f-b73999b40ced
-  port: 10826
-  server: us.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 3,6|_CN_中国
   network: ws
   port: '80'
@@ -41,3 +12,22 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 广东省移动 12
+  network: tcp
+  port: '11002'
+  server: tg_mfbpn_d4.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
+- name: 1|_CN_
+  network: tcp
+  password: 48bad1cc-4ba4-48bd-9e5f-b73999b40ced
+  port: 10826
+  server: us.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
