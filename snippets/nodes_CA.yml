@@ -1,6 +1,49 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12,18|加拿大new01优选（1倍率）
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
+  ws-opts:
+    headers:
+      Host: ca-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e8a3317e-4a5c-47b3-8cc9-096055eeada1
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
+  network: tcp
+  port: '3389'
+  server: 134.122.38.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b2ba2ecb-09d0-4c12-bd8f-f93590412bb1
+- alterId: 0
+  cipher: auto
   name: 12|加拿大new01（1倍率）
   network: ws
   port: '8080'
@@ -12,16 +55,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d64f8300-64d0-4b79-8dc4-4991cb8e57f7
 - name: 1|_CA_
   network: tcp
   password: e869fbd0-6d5f-11ee-90fd-1239d0255272
@@ -42,41 +75,4 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0387fa87-8e3d-4c28-97d7-8b6cb34f378e
-- alterId: 0
-  cipher: auto
-  name: 12|V1C | 加拿大 01
-  network: ws
-  port: 28391
-  server: kr-cdn-6273819.starnetcn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: xgui2agy3dq8y.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大new01优选（1倍率）
-  network: ws
-  port: '8080'
-  server: go.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
-  ws-opts:
-    headers:
-      Host: ca-new01.gujuji.top
     path: /

@@ -1,9 +1,9 @@
 proxies:
-- name: 1|_FR__2
+- name: 1|_FR__1
   network: tcp
-  password: telegram-id-directvpn
+  password: telegram-id-privatevpns
   port: 22222
-  server: 15.237.104.194
+  server: 15.236.116.176
   skip-cert-verify: true
   sni: trj.rollingnext.co.uk
   type: trojan
@@ -34,15 +34,6 @@ proxies:
     headers:
       Host: de1-vmess.greenssh.xyz
     path: /vmess
-- name: 1|_FR__1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.116.176
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 1|_FR__3
@@ -57,6 +48,15 @@ proxies:
     headers:
       host: de1-vmess.greenssh.xyz
     path: /vmess
+- name: 1|_FR__2
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.237.104.194
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇫🇷_FR_法国_yui科技_364
