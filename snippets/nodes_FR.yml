@@ -1,13 +1,4 @@
 proxies:
-- name: 1|_FR__1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.116.176
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 12|法国new01（1倍率）
@@ -21,33 +12,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 0,2,4,12|🇫🇷 _FR_法国
-  network: ws
-  port: '80'
-  server: de1-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-opts:
-    headers:
-      Host: de1-vmess.greenssh.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 1|_FR__3
-  network: ws
-  port: 80
-  server: de1-vmess.greenssh.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-opts:
-    headers:
-      host: de1-vmess.greenssh.xyz
-    path: /vmess
 - name: 1|_FR__2
   network: tcp
   password: telegram-id-directvpn
@@ -70,3 +34,39 @@ proxies:
     headers:
       Host: pl1-vmess.greenssh.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_FR__3
+  network: ws
+  port: 80
+  server: de1-vmess.greenssh.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      host: de1-vmess.greenssh.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 0,2,4,12|🇫🇷 _FR_法国
+  network: ws
+  port: '80'
+  server: de1-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      Host: de1-vmess.greenssh.xyz
+    path: /vmess
+- name: 1|_FR__1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.116.176
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
