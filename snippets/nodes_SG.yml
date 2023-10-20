@@ -1,28 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 VM-WS-NONE 🇸🇬 SG-146.190.96...
-  network: ws
-  port: 55599
-  server: 146.190.96.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cdbca266-10d9-4018-e99e-c561497d6542
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /isuru
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城特殊|@ripaojiedian
@@ -31,6 +7,49 @@ proxies:
   server: 13.229.61.108
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6ebd8e5a-388f-43ec-8225-38a072a4f354
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 04 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.blizzard.com:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.h3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 06 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.nintendo.com:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.h1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 08 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.fastly.net:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.s1.glados-config.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡_1011095
@@ -47,26 +66,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
-- alterId: 0
-  cipher: auto
   name: 13|新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -74,27 +73,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
+  uuid: 6ebd8e5a-388f-43ec-8225-38a072a4f354
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 14,15|新加坡|@ripaojiedian
@@ -109,3 +88,112 @@ proxies:
     headers:
       Host: do1.kxking.eu.org
     path: /vm?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 03 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.nintendo.de:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.t2.glados-config.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6ebd8e5a-388f-43ec-8225-38a072a4f354
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6a6f6b6a-1a59-4c5a-94e0-0e0a3250ee67
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 05 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.microsoft.ch:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.t5.glados-config.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6a6f6b6a-1a59-4c5a-94e0-0e0a3250ee67
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 13 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.nintendo.net:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.e3.glados-config.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6a6f6b6a-1a59-4c5a-94e0-0e0a3250ee67
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 VM-WS-NONE 🇸🇬 SG-146.190.96...
+  network: ws
+  port: 55599
+  server: 146.190.96.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdbca266-10d9-4018-e99e-c561497d6542
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /isuru
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 07 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.fastly.net:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.s3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 09 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.blizzard.com:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.s2.glados-config.net
+  type: ss
+  udp: true
