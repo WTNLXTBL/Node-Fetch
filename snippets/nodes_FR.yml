@@ -13,16 +13,6 @@ proxies:
     headers:
       Host: teams.microsoft.com
     path: /1g305wr4
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-172.232.37.5...
-  network: tcp
-  port: '31018'
-  server: 172.232.37.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1ac0576-8943-48d0-d9e0-b3b7913da620
 - name: 1|_FR_
   network: tcp
   password: telegram-id-privatevpns
@@ -34,14 +24,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷_FR_法国
-  network: ws
-  port: 80
-  server: de1-vmess.greenssh.xyz
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-172.232.37.5...
+  network: tcp
+  port: '31018'
+  server: 172.232.37.51
+  servername: ''
   tls: false
   type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-opts:
-    headers:
-      Host: de1-vmess.greenssh.xyz
-    path: /vmess
+  uuid: b1ac0576-8943-48d0-d9e0-b3b7913da620
