@@ -1,17 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,12|🇨🇦 _CA_加拿大
-  network: ws
-  port: '80'
-  server: 108.181.10.17
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
+  network: tcp
+  port: '3389'
+  server: 134.122.38.104
+  servername: ''
   tls: false
   type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3e30c525-5af8-4d9a-b7be-fbe20d6172cf
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e81a03b6-842d-474e-9c5c-a5458d4dd135
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -24,45 +41,14 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 877a8d2f-c587-4695-90c3-de27d1d47b90
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇦 加拿大 206
+  name: 3,12|🇨🇦 _CA_加拿大
   network: ws
-  port: 443
-  server: main.animelover.ir
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
-  ws-opts:
-    headers:
-      Host: main.animelover.ir
-    path: /amstd.digires.shop/12796
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9352726a-8fcb-4b97-bbc1-ea66128d7474
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
-  network: tcp
-  port: '3389'
-  server: 134.122.38.104
-  servername: ''
+  port: '80'
+  server: 108.181.10.17
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
