@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6dda21ec-dc5c-4823-b45c-c1459c0c3f87
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
   network: tcp
   port: '22324'
@@ -21,17 +11,30 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
+  name: 13|加拿大 02 | 1x CA
   network: tcp
-  port: '3389'
-  server: 134.122.38.104
-  servername: ''
-  tls: false
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 6323ef30-9257-492d-8f7f-4b98d1760dda
 - alterId: 0
   cipher: auto
-  name: 3,12|🇨🇦 _CA_加拿大
+  name: 12|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '56301'
+  server: ca-000.xiaoxiaobujidao.xyz
+  tls: true
+  type: vmess
+  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
+  ws-opts:
+    headers:
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 3|🇨🇦 _CA_加拿大
   network: ws
   port: '80'
   server: 108.181.10.17
@@ -44,11 +47,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
+  name: 9|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c5e2e775-3ad0-4dc5-b856-e3ec5f1418a5
+  uuid: 8333c388-aa0b-4dee-bcca-9bc335a699fe
