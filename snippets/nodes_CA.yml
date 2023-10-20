@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 180671bc-13d4-4830-a505-7a49a48e4e08
+- alterId: 0
+  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -8,20 +18,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ae84236e-ac73-41e7-af3a-df36ebdc405b
-- alterId: 0
-  cipher: auto
-  name: 3,7,8,11,12|🇨🇦 _CA_加拿大
-  network: ws
-  port: '80'
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: a4df4490-6581-45a0-9ad6-1d5bb138325c
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.38.1...
@@ -32,20 +29,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 12|V1C | 加拿大 01
-  network: ws
-  port: 28391
-  server: kr-cdn-6273819.starnetcn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: xgui2agy3dq8y.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
 - name: 1|_CA_
   network: tcp
   password: e869fbd0-6d5f-11ee-90fd-1239d0255272
@@ -56,11 +39,24 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 8e2bcd0a-0cf8-49be-b4ef-6b9ea75213ba
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 3,12|🇨🇦 _CA_加拿大
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
