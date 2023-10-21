@@ -10,10 +10,15 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-188.165.61...
-  network: tcp
-  port: 26126
-  server: 188.165.61.68
+  name: 12|FR_speednode_0050
+  network: ws
+  port: 80
+  server: de1-vmess.greenssh.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: 753732ae-f85c-4e4d-bc31-863bb2d693fb
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      Host: de1-vmess.greenssh.xyz
+    path: /vmess

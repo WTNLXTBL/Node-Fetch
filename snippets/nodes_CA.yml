@@ -8,7 +8,20 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7678e08b-df79-4642-816f-0e8e881b4894
+  uuid: 128843a0-8418-4d22-adee-a2b9e75db49b
+- alterId: 0
+  cipher: auto
+  name: 7,8,11|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '56301'
+  server: ca-000.xiaoxiaobujidao.xyz
+  tls: true
+  type: vmess
+  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
+  ws-opts:
+    headers:
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
   name: 3|🇨🇦 _CA_加拿大
@@ -24,16 +37,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 03c6e4af-6e0d-4fe2-b462-03747114e7b3
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
   network: tcp
   port: '22324'
@@ -42,3 +45,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 206
+  network: ws
+  port: 443
+  server: main.animelover.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+  ws-opts:
+    headers:
+      Host: main.animelover.ir
+    path: /amstd.digires.shop/12796
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e837818b-9567-41a5-a6eb-dd50151d3ab8
