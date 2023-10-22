@@ -1,17 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|_CN_中国
-  network: ws
-  port: '80'
-  server: 1.117.69.235
+  name: 7|「蛋挞云,超低价格,超高体验」🇨🇳 CN 03
+  network: tcp
+  port: '50002'
+  server: 111.230.252.149
   tls: false
   type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '8,14|「节点冠名招商 @nodpai」🇨🇳 CN 01 #1'
+  port: 56002
+  server: 39.103.165.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '3,6|_CN_中国 #1'
@@ -27,13 +33,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
+  name: 7|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  network: tcp
+  port: '56002'
+  server: 39.103.165.178
   tls: false
   type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|「eggtartcloud.shop 自选入口,速度保证」🇨...
+  network: tcp
+  port: '50002'
+  server: 175.27.154.61
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 3|_CN_中国
+  network: ws
+  port: '80'
+  server: 1.117.69.235
+  tls: false
+  type: vmess
+  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
   ws-opts:
     headers:
       Host: ''
