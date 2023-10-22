@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 6,12|🇨🇦_CA_加拿大
+  network: ws
+  port: 56301
+  server: ca-000.xiaoxiaobujidao.xyz
   tls: true
   type: vmess
-  uuid: bf7fa934-e930-4fac-902f-103f2d2d4036
+  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
+  ws-opts:
+    headers:
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
   name: 12|🇨🇦 加拿大 240
@@ -25,6 +28,16 @@ proxies:
     path: /xtsmol
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ab9eb19f-441f-4506-903b-e3dc76707f5e
+- alterId: 0
+  cipher: auto
   name: 9|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -32,17 +45,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8fcc3d43-be0a-4660-8d1c-d9298d177ac6
-- alterId: 0
-  cipher: auto
-  name: 6,12|🇨🇦_CA_加拿大
-  network: ws
-  port: 56301
-  server: ca-000.xiaoxiaobujidao.xyz
-  tls: true
-  type: vmess
-  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
-  ws-opts:
-    headers:
-      Host: ca-000.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
+  uuid: fdde34ba-1e1b-43a4-979a-a081083ca6e9
