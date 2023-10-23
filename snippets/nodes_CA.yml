@@ -1,24 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇦 加拿大_1022001
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
+  name: 1|_CA_
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 378be3cd-49fb-4c1b-b085-69c2c2d7629b
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      host: teams.microsoft.com
+    path: /0vixdm74
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -28,7 +22,17 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2dcab051-7479-41e5-a951-35c8413886d4
+  uuid: dd523fad-dd4c-4fae-bb0d-1c4130cd883e
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 59633517-6210-4bcf-836c-2c367747ecc4
 - alterId: 0
   cipher: auto
   name: 2,3,4,12|🇨🇦_CA_加拿大
@@ -44,15 +48,11 @@ proxies:
     path: /0vixdm74
 - alterId: 0
   cipher: auto
-  name: 1|_CA_
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  skip-cert-verify: true
+  name: 12|🇨🇦 加拿大_1022001
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
   tls: false
   type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: teams.microsoft.com
-    path: /0vixdm74
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002

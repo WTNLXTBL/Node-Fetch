@@ -1,17 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: '6|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
-  port: 80
-  server: mm3.shabijichang.com
+  port: 2052
+  server: 104.16.181.135
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
+      Host: vceu3.vpn66.eu.org
     path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_BR__2
+  network: ws
+  port: 2052
+  server: 104.26.1.116
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /42.5@natdcibot
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_BR__4
+  network: ws
+  port: 8880
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /42.5@natdcibot
 - alterId: 0
   cipher: auto
   name: 1|_US_->_BR__6
@@ -28,93 +56,18 @@ proxies:
     path: /42.5@natdcibot
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_BR__5
-  network: ws
-  port: 2082
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /42.5@natdcibot
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB__1
+  name: 1|_US_->_DE_
   network: ws
   port: 80
-  server: mrb2.shabijichang.com
+  server: flkf2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mrb2.shabijichang.com
+      host: flkf2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_BR__2
-  network: ws
-  port: 2052
-  server: 104.26.1.116
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /42.5@natdcibot
-- alterId: 64
-  cipher: auto
-  name: 1,11,19|_US_->_NL_
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1696251522438
-- cipher: aes-256-cfb
-  name: 8|「线路包含IEPL，中转，覆盖冷门地区」🇰🇷 KR 01
-  password: amazonskr05
-  port: 443
-  server: 43.200.7.213
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #3'
-  network: ws
-  port: 8880
-  server: freeyx.cloudflare88.eu.org
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
   name: 7,8|中转 🇺🇸 United States 02 @nodpai
@@ -130,9 +83,48 @@ proxies:
     path: /path/1691750259012
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_BR__3
+  name: 0,2,3,4|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: '2086'
+  server: freeyx.cloudflare88.eu.org
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /服务器4元月，节点2.5元月@natdcibot
+- alterId: 0
+  cipher: auto
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #3'
+  network: ws
+  port: 8880
+  server: freeyx.cloudflare88.eu.org
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /服务器4元月，节点2.5元月@natdcibot
+- alterId: 0
+  cipher: auto
+  name: 2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_BR__7
+  network: ws
+  port: 8080
   server: freeyx.cloudflare88.eu.org
   skip-cert-verify: true
   tls: false
@@ -144,9 +136,22 @@ proxies:
     path: /42.5@natdcibot
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
   network: ws
-  port: '2086'
+  port: 2052
+  server: 104.26.1.116
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /服务器4元月，节点2.5元月@natdcibot
+- alterId: 0
+  cipher: auto
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #4'
+  network: ws
+  port: 2082
   server: freeyx.cloudflare88.eu.org
   tls: false
   type: vmess
@@ -171,42 +176,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_BR__7
+  name: '2,3,4,6|🇺🇸_US_美国->🇧🇷_BR_巴西 #2'
   network: ws
-  port: 8080
+  port: 80
   server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   ws-opts:
     headers:
-      host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /42.5@natdcibot
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE_
-  network: ws
-  port: 80
-  server: flkf2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: flkf2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 12,15|中转 3
-  network: tcp
-  port: 53300
-  server: 112.29.94.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /服务器4元月，节点2.5元月@natdcibot
 - alterId: 0
   cipher: auto
   name: '0,2,3,4,6|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
@@ -222,96 +202,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6|🇺🇸_US_美国->🇧🇷_BR_巴西 #2'
+  name: 1|_US_->_GB__1
   network: ws
   port: 80
-  server: freeyx.cloudflare88.eu.org
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #5'
-  network: ws
-  port: 8080
-  server: freeyx.cloudflare88.eu.org
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
-- alterId: 0
-  cipher: auto
-  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
-  network: ws
-  port: 2052
-  server: 104.26.1.116
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_BR__1
-  network: ws
-  port: 2052
-  server: freeyx.cloudflare88.eu.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
-  ws-opts:
-    headers:
-      host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /42.5@natdcibot
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: 104.17.18.26
-  tls: false
-  type: vmess
-  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
-  ws-opts:
-    headers:
-      Host: a.109420.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB__2
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
+  server: mrb2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: ld2.shabijichang.com
+      host: mrb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -328,22 +229,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #4'
+  name: 6|🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
-  port: 2082
-  server: freeyx.cloudflare88.eu.org
+  port: 80
+  server: mm3.shabijichang.com
   tls: false
   type: vmess
-  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
+      Host: mm3.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_BR__4
+  name: '6|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
   network: ws
-  port: 8880
+  port: 80
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_BR__3
+  network: ws
+  port: 80
   server: freeyx.cloudflare88.eu.org
   skip-cert-verify: true
   tls: false
@@ -355,30 +269,44 @@ proxies:
     path: /42.5@natdcibot
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 2052
-  server: 104.16.181.135
-  tls: false
-  type: vmess
-  uuid: 6963920a-8bb3-4f87-b231-56ccb9f9b3a7
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西
+  name: 1|_US_->_BR__1
   network: ws
   port: 2052
   server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
   ws-opts:
     headers:
-      Host: jd2kuai5yuan.cloudflare88.eu.org
-    path: /服务器4元月，节点2.5元月@natdcibot
+      host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /42.5@natdcibot
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,6,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: 104.17.18.26
+  tls: false
+  type: vmess
+  uuid: 5180444a-4756-43b4-960b-49eb9052e4e8
+  ws-opts:
+    headers:
+      Host: a.109420.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,6|🇺🇸 _US_美国->🇸🇦_SA_沙特阿拉伯
@@ -394,41 +322,89 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 1|_US_->_GB__2
   network: ws
   port: 80
   server: ld2.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ld2.shabijichang.com
+      host: ld2.shabijichang.com
     path: /
+- cipher: aes-256-cfb
+  name: 8|「线路包含IEPL，中转，覆盖冷门地区」🇰🇷 KR 01
+  password: amazonskr05
+  port: 443
+  server: 43.200.7.213
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵 _US_美国->🇯🇵_JP_日本_15@28 2
+  name: '2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西 #5'
   network: ws
-  port: 443
-  server: ming2.kiwireich.com
-  servername: ''
+  port: 8080
+  server: freeyx.cloudflare88.eu.org
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /服务器4元月，节点2.5元月@natdcibot
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_BR__5
+  network: ws
+  port: 2082
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /42.5@natdcibot
+- alterId: 64
+  cipher: auto
+  name: 1,19|_US_->_NL_
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: ming2.kiwireich.com
-    path: /ray
+      host: www.42077230.xyz
+    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '6|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  name: 2,3,4|🇺🇸_US_美国->🇧🇷_BR_巴西
   network: ws
-  port: 80
-  server: mm2.shabijichang.com
+  port: 2052
+  server: freeyx.cloudflare88.eu.org
+  tls: false
+  type: vmess
+  uuid: 8a6fb1b7-d939-4030-a4da-1c0b2637c865
+  ws-opts:
+    headers:
+      Host: jd2kuai5yuan.cloudflare88.eu.org
+    path: /服务器4元月，节点2.5元月@natdcibot
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm2.shabijichang.com
+      Host: mrb2.shabijichang.com
     path: /
