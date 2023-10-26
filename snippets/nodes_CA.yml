@@ -13,27 +13,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇨🇦加拿大04
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 38c1ea7a-17e7-4c37-aec8-1af4ae53edb0
-- alterId: 0
-  cipher: auto
-  name: 0,14|🇨🇦 _CA_加拿大
-  network: ws
-  port: '21106'
-  server: cadld2.gophers.gay
+  port: '3389'
+  server: 146.190.248.140
+  servername: ''
   tls: false
   type: vmess
-  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
-  ws-opts:
-    headers:
-      Host: cadld2.gophers.gay
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 13|加拿大 02 | 1x CA
@@ -43,7 +30,17 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9e3f918c-cffb-4234-96be-08fa8948e5e4
+  uuid: 453bd5cc-c7cb-4c72-9003-c1565036cb81
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0aebfbb8-d42d-4612-ac80-366cfeb04372
 - alterId: 0
   cipher: auto
   name: '3,6,12|🇨🇦 _CA_加拿大 #1'
@@ -59,26 +56,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
-  network: tcp
-  port: '3389'
-  server: 146.190.248.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
-  network: tcp
-  port: '3389'
-  server: 142.93.144.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
   name: 12|🇨🇦 加拿大 172
   network: ws
   port: 8443
@@ -90,4 +67,45 @@ proxies:
   ws-opts:
     headers:
       Host: nomore.hideip.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 260
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦 加拿大 173
+  network: ws
+  port: 8443
+  server: 172.67.153.179
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 874a60cd-f099-499a-8aee-e4606ccf3e86
+  ws-opts:
+    headers:
+      Host: nomore.hideip.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,14|🇨🇦 _CA_加拿大
+  network: ws
+  port: '21106'
+  server: cadld2.gophers.gay
+  tls: false
+  type: vmess
+  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
+  ws-opts:
+    headers:
+      Host: cadld2.gophers.gay
     path: /
