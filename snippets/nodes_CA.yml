@@ -1,6 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 871c3922-cb74-49e7-bdfb-87f66afd27ca
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 0,14|🇨🇦 _CA_加拿大
   network: ws
   port: '21106'
@@ -14,9 +44,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,12|🇨🇦_CA_加拿大
+  name: '3,6,12|🇨🇦 _CA_加拿大 #1'
   network: ws
-  port: 80
+  port: '80'
   server: 108.181.10.17
   tls: false
   type: vmess
@@ -27,26 +57,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0efb1e8-e9cd-4a73-ae9c-30422fa0dd16
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b10aa744-a30d-4bab-a3e1-46a32502a1c3
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇨🇦 CA-146.190.248....
   network: tcp
   port: '3389'
@@ -55,13 +65,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
