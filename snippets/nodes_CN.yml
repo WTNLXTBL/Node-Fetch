@@ -1,33 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 19|🇨🇳_CN_中国_33
-  network: ws
-  port: 80
-  server: 124.220.57.75
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: 124.220.57.75
-    path: /
-- cipher: rc4-md5
-  name: 12|TGFyZ2Ug6aaZ5rivMDEgLSBhbGxtZW...
-  obfs: tls1.2_ticket_auth
-  obfs-param: ZjY5ZWIyMDY2NTEud3d3Lmdvdi5oaw%3D%3D
-  password: di15PV
-  port: '6001'
-  protocol: auth_aes128_md5
-  protocol-param: MjA2NjUxOnRlc3QxMjM0
-  server: mysql.accessconnect.cc
-  type: ssr
 - cipher: rc4-md5
   name: 12|TGFyZ2Ug5pel5pysMDEgLSBhbGwgfC...
   obfs: plain
   obfs-param: ZjY5ZWIyMDY2NTEud3d3Lmdvdi5oaw%3D%3D
   password: di15PV
   port: '6301'
+  protocol: auth_aes128_md5
+  protocol-param: MjA2NjUxOnRlc3QxMjM0
+  server: mysql.accessconnect.cc
+  type: ssr
+- cipher: rc4-md5
+  name: 12|TGFyZ2Ug5paw5Yqg5Z2hMDcgLSBhbG...
+  obfs: plain
+  obfs-param: ZjY5ZWIyMDY2NTEud3d3Lmdvdi5oaw%3D%3D
+  password: di15PV
+  port: '1003'
   protocol: auth_aes128_md5
   protocol-param: MjA2NjUxOnRlc3QxMjM0
   server: mysql.accessconnect.cc
@@ -43,11 +30,11 @@ proxies:
   server: mysql.accessconnect.cc
   type: ssr
 - cipher: rc4-md5
-  name: 12|TGFyZ2Ug5paw5Yqg5Z2hMDcgLSBhbG...
-  obfs: plain
+  name: 12|TGFyZ2Ug6aaZ5rivMDEgLSBhbGxtZW...
+  obfs: tls1.2_ticket_auth
   obfs-param: ZjY5ZWIyMDY2NTEud3d3Lmdvdi5oaw%3D%3D
   password: di15PV
-  port: '1003'
+  port: '6001'
   protocol: auth_aes128_md5
   protocol-param: MjA2NjUxOnRlc3QxMjM0
   server: mysql.accessconnect.cc
