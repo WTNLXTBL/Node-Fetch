@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 广东省移动 13
-  network: tcp
-  port: '12580'
-  server: www.lp-airdrop.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇳_CN_中国
+  name: 2,3,4,6|🇨🇳_CN_中国
   network: ws
   port: 80
   server: 124.220.57.75
@@ -32,3 +22,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 广东省移动 13
+  network: tcp
+  port: '12580'
+  server: www.lp-airdrop.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
+- alterId: 0
+  cipher: auto
+  name: 1|_CN_
+  network: ws
+  port: 80
+  server: 124.220.57.75
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
+  ws-opts:
+    headers:
+      host: 124.220.57.75
+    path: /
