@@ -1,33 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 13|新加坡 06 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: aed210c7-20da-456d-b368-4791e33d5e76
+  uuid: 45c9b878-0ecd-4dd3-81ee-d0269f6a333a
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡06
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: aed210c7-20da-456d-b368-4791e33d5e76
+  uuid: 2193081c-2f51-4d29-8439-fc5c38eabe79
+- cipher: aes-256-cfb
+  name: 8|🇸🇬 Singapore 02 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 18.143.182.115
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|🇸🇬 Singapore 01 @nodpai
+  name: 12|🇸🇬 新加坡_102611087
   network: ws
-  port: '18154'
-  server: 146.190.104.67
+  port: 8080
+  server: 139.180.143.251
+  servername: ''
   tls: false
   type: vmess
-  uuid: 24c3f5e2-7b6a-46f1-821f-2449f48bfbe3
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
   ws-opts:
     headers:
       Host: ''
@@ -45,16 +53,14 @@ proxies:
     headers:
       Host: m.linkedin.com
     path: /alpha
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 451b0b47-dfe0-450d-945e-0b49c2f2228a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.0.101.124
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: 8|🇸🇬 Singapore 03 @nodpai
   password: amazonskr05
@@ -64,29 +70,47 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
+  name: 7,8|🇸🇬 Singapore 01 @nodpai
+  network: ws
+  port: '18154'
+  server: 146.190.104.67
+  tls: false
+  type: vmess
+  uuid: 24c3f5e2-7b6a-46f1-821f-2449f48bfbe3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: aed210c7-20da-456d-b368-4791e33d5e76
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.114.97
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 8|🇸🇬 Singapore 02 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 18.143.182.115
-  type: ss
-  udp: true
+  uuid: 2193081c-2f51-4d29-8439-fc5c38eabe79
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2193081c-2f51-4d29-8439-fc5c38eabe79
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 45c9b878-0ecd-4dd3-81ee-d0269f6a333a
 - alterId: 0
   cipher: auto
   name: 13|新加坡 05 | 1x SG
@@ -96,28 +120,4 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 451b0b47-dfe0-450d-945e-0b49c2f2228a
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 451b0b47-dfe0-450d-945e-0b49c2f2228a
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 新加坡_102611087
-  network: ws
-  port: 8080
-  server: 139.180.143.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 45c9b878-0ecd-4dd3-81ee-d0269f6a333a
