@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|德国 - 法兰克福 - DigitalOcean, LLC
-  network: tcp
-  port: 8443
-  server: germany.yourdisha.in
+  name: 12|法国 002
+  network: ws
+  port: 80
+  server: 4fr2.09vpn.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 97323aa5-5716-43b8-c463-86587f22e8ef
+  uuid: 3a19be40-cf8c-4347-b474-3a2eb9d4b230
+  ws-opts:
+    headers:
+      Host: 4fr2.09vpn.com
+    path: /vmess/
 - name: 1|_FR_
   network: tcp
   password: telegram-id-privatevpns
@@ -20,11 +24,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NONE 🇫🇷 FR-51.210.110...
+  name: 12|德国 - 法兰克福 - DigitalOcean, LLC
   network: tcp
-  port: '34310'
-  server: 51.210.110.248
+  port: 8443
+  server: germany.yourdisha.in
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 03873ff8-7e49-434e-8024-a92b6f1d2d7d
+  uuid: 97323aa5-5716-43b8-c463-86587f22e8ef

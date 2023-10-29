@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
+  name: 11,12|github.com/freefq - 台湾省安源通讯股份有...
+  network: ws
+  port: 80
+  server: 103.122.140.137
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 258b4daa-1065-4cb8-973a-9c7473abbf2c
+  uuid: 46764e31-8e0d-4dd7-afc9-0617cf9d0798
+  ws-opts:
+    headers:
+      Host: ''
+    path: /viefast.vn
 - alterId: 0
   cipher: auto
   name: 9|🇹🇼台湾05
@@ -18,37 +22,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3b46b34a-8392-407a-bd2b-ba2fb001a29a
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3b46b34a-8392-407a-bd2b-ba2fb001a29a
-- alterId: 0
-  cipher: auto
-  name: 9|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3b46b34a-8392-407a-bd2b-ba2fb001a29a
-- alterId: 0
-  cipher: auto
-  name: 13|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 258b4daa-1065-4cb8-973a-9c7473abbf2c
+  uuid: 2bf77c1b-9050-477a-8453-b73e90d2a19e
 - alterId: 0
   cipher: auto
   name: 13|台湾 06  | 1x TWN
@@ -58,7 +32,7 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 258b4daa-1065-4cb8-973a-9c7473abbf2c
+  uuid: 178c6071-9b3d-43f7-a039-51fed0d415a1
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾2|@ripaojiedian
@@ -67,6 +41,46 @@ proxies:
   server: ydyh.nanbei.info
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 178c6071-9b3d-43f7-a039-51fed0d415a1
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2bf77c1b-9050-477a-8453-b73e90d2a19e
+- alterId: 0
+  cipher: auto
+  name: 9|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2bf77c1b-9050-477a-8453-b73e90d2a19e
+- alterId: 0
+  cipher: auto
+  name: 13|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 178c6071-9b3d-43f7-a039-51fed0d415a1
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾1|@ripaojiedian
