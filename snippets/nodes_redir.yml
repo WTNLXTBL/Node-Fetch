@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 80
-  server: flkf2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: flkf2.shabijichang.com
-    path: /
 - name: 1|_JP_->_US_
   network: tcp
   password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
@@ -21,20 +8,6 @@ proxies:
   sni: ceshii.1234567890spcloud.com
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 12|🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1696251522438
 - alterId: 0
   cipher: auto
   name: 2,4|🇺🇸_US_美国->🇬🇧_GB_英国
@@ -61,6 +34,33 @@ proxies:
     headers:
       Host: hdlb2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 80
+  server: flkf2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: flkf2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 12|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1696251522438
 - alterId: 0
   cipher: auto
   name: 1|_US_->_GB_
