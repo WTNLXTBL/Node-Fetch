@@ -1,7 +1,123 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 新加坡_102611087
+  name: 7,8|🇸🇬 Singapore 554 @nodpai
+  network: ws
+  port: '443'
+  server: a5.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 14f82e70-0493-4463-9b3a-53f6cb4b885e
+  ws-opts:
+    headers:
+      Host: a5.wuxianliulianng.xyz
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG PRO
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1a4531f8-7fee-49ff-9ead-e63933393d20
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 89060492-8bb9-4655-9486-57416a9d6ada
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 89060492-8bb9-4655-9486-57416a9d6ada
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 131 @nodpai
+  password: cc90e910-590c-4fe9-bf12-0e777a798506
+  port: 24352
+  server: sg.fanqiecloud.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1a4531f8-7fee-49ff-9ead-e63933393d20
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1a4531f8-7fee-49ff-9ead-e63933393d20
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 265 @nodpai
+  password: ca9ad5cb-e118-4cd7-adef-377f494a423c
+  port: 20252
+  server: sgggg.doushimeng.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡|@ripaojiedian
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 56138
+  server: sg1.lianpi.xyz
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 8|🇸🇬 Singapore 02 @nodpai
+  password: 3cc507510e1e301a9d93
+  plugin: obfs
+  plugin-opts:
+    host: b86ef18a78a90d6e987d.microsoft.com
+    mode: http
+  port: 9527
+  server: sg-singtel.tag-global-ddns.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04 PRO
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 89060492-8bb9-4655-9486-57416a9d6ada
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - Oracle Corporation
+  network: tcp
+  port: 23502
+  server: ora-sg4.cou.gay
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03f71ac7-f8d3-4ba9-9323-f7afa53c2775
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - Choopa
   network: ws
   port: 8080
   server: 139.180.143.251
@@ -13,79 +129,28 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04 PRO
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fa8b3db3-66c7-420a-bea1-b5c8831096f6
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fa8b3db3-66c7-420a-bea1-b5c8831096f6
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 125 @nodpai
+  password: ca9ad5cb-e118-4cd7-adef-377f494a423c
+  port: 20052
+  server: sg3.doushimeng.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  name: 8,14|🇸🇬 Singapore 132 @nodpai
   password: amazonskr05
   port: 443
   server: 13.212.19.180
-  tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡|@ripaojiedian
-  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-  port: 56138
-  server: sg1.lianpi.xyz
-  tfo: false
+  udp: true
+- cipher: aes-128-gcm
+  name: 8|🇸🇬 Singapore 03 @nodpai
+  password: 71a9d8c2d1dee1a5a5ad
+  plugin: obfs
+  plugin-opts:
+    host: b86ef18a78a90d6e987d.microsoft.com
+    mode: http
+  port: 9527
+  server: sg-m1.tag-global-ddns.top
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG PRO
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: dbfd77b3-0fbc-4c26-b194-96b22edb5053
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: dbfd77b3-0fbc-4c26-b194-96b22edb5053
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: dbfd77b3-0fbc-4c26-b194-96b22edb5053
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fa8b3db3-66c7-420a-bea1-b5c8831096f6
+  udp: true
