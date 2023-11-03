@@ -1,102 +1,117 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_BR_
+  name: '0,2,3,4|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
   network: ws
-  port: 80
-  server: sbl4.shabijichang.com
-  skip-cert-verify: true
+  port: '16648'
+  server: yes.cnmjcn.net
+  tls: false
+  type: vmess
+  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  ws-opts:
+    headers:
+      Host: yes.cnmjcn.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,9|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
+  network: tcp
+  port: 36871
+  server: 8u9a04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,9|🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
+  network: tcp
+  port: '36864'
+  server: 2h4u04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,9|🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+  network: tcp
+  port: '36868'
+  server: 2t1u04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #5'
+  network: tcp
+  port: '36501'
+  server: 3u1s04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: 7,12,15|中转 🇬🇧 United Kingdom 01 @nodpa...
+  network: tcp
+  port: '49884'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: '80'
+  server: hdlb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: sbl4.shabijichang.com
+      Host: hdlb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|中转 🇯🇵 Japan 04 @nodpai
+  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
-  port: 14110
-  server: userpd.haitunvip.vip
-  skip-cert-verify: true
+  port: '80'
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
-  udp: true
-  uuid: 2ee09265-de80-3355-a95d-ccb34fe46ac4
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: userpd.haitunvip.vip
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- name: 1|_JP_->_CA_
-  network: tcp
-  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  port: 443
-  server: usla.mjt000.com
-  skip-cert-verify: true
-  sni: usla.mjt000.com
-  type: trojan
-  udp: true
-- name: 1|_JP_->_PT_
-  network: tcp
-  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  port: 443
-  server: pt.mjt000.com
-  skip-cert-verify: true
-  sni: pt.mjt000.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇭🇰 Hong Kong 17 @nodpai
-  network: ws
-  port: 13002
-  server: userpd.haitunvip.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ee09265-de80-3355-a95d-ccb34fe46ac4
-  ws-opts:
-    headers:
-      Host: userpd.haitunvip.vip
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇯🇵 Japan 03 @nodpai
-  network: ws
-  port: 14109
-  server: userpd.haitunvip.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ee09265-de80-3355-a95d-ccb34fe46ac4
-  ws-opts:
-    headers:
-      Host: userpd.haitunvip.vip
-    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇹🇼 Taiwan 149 @nodpai
-  network: ws
-  port: 14000
-  server: userpd.haitunvip.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ee09265-de80-3355-a95d-ccb34fe46ac4
-  ws-opts:
-    headers:
-      Host: userpd.haitunvip.vip
-    path: /ef483582-6269-468c-93af-c511eccb8a69
+      Host: mrb2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,6,9|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
   network: tcp
   port: '36701'
   server: 5c1a04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: 1|_CN_->_US__3
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  ws-opts:
+    headers:
+      host: t.cnmjcn.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,9|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '36811'
+  server: 2u3k04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
@@ -113,6 +128,70 @@ proxies:
     headers:
       Host: t.cnmjcn.cyou
     path: /
+- name: 1|_JP_->_PT_
+  network: tcp
+  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  port: 443
+  server: pt.mjt000.com
+  skip-cert-verify: true
+  sni: pt.mjt000.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,9|🇮🇳 _CN_中国->🇮🇳_IN_印度
+  network: tcp
+  port: '36831'
+  server: 7i4n04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- name: 1|_JP_->_UA_
+  network: tcp
+  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  port: 443
+  server: ua.mjt000.com
+  skip-cert-verify: true
+  sni: ua.mjt000.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
+  network: tcp
+  port: '36511'
+  server: 3u1s06.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IN__2
+  network: ws
+  port: 80
+  server: hdlb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: hdlb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mrb2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国
@@ -122,10 +201,46 @@ proxies:
   tls: true
   type: vmess
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- name: 1|_CN_->_US__9
+- alterId: 0
+  cipher: auto
+  name: 12|中转 🇯🇵 Japan 01 @nodpai
+  network: ws
+  port: '443'
+  server: 103.232.213.241
+  tls: false
+  type: vmess
+  uuid: d0fa8fa7-e217-4fb9-fed3-34c6a17851db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '8,14|中转 🇬🇧 United Kingdom 01 @nodpa... #1'
+  port: 49884
+  server: 112.29.94.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: '80'
+  server: sbl4.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl4.shabijichang.com
+    path: /
+- name: 1|_CN_->_US__5
   network: tcp
-  password: bd5ad33d-d267-4393-928a-50f425d1b68c
-  port: 10850
+  password: 3e3cd44f-a06f-4571-8721-ce06a5fc12b7
+  port: 10837
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
@@ -133,39 +248,56 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 6,9|🇨🇳_CN_中国->🇺🇦_UA_乌克兰
-  network: tcp
-  port: 36871
-  server: 8u9a04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇭🇰 Hong Kong 1224 @nodpai
+  name: '0,2,3,4|🇺🇸 _CN_中国->🇺🇸_US_美国 #6'
   network: ws
-  port: 63091
-  server: 120.241.46.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fdd13305-5dcb-3926-ad0c-0e38d028ddd0
-  ws-opts:
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_US__8
-  network: ws
-  port: 16648
+  port: '16648'
   server: m.cnmjcn.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
   ws-opts:
     headers:
-      host: m.cnmjcn.com
+      Host: m.cnmjcn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_BR_
+  network: ws
+  port: 80
+  server: sbl4.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4|🇺🇸 _CN_中国->🇺🇸_US_美国 #4'
+  network: ws
+  port: '16626'
+  server: yes.cnmjcn.net
+  tls: false
+  type: vmess
+  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  ws-opts:
+    headers:
+      Host: yes.cnmjcn.net
     path: /
 - alterId: 0
   cipher: auto
@@ -183,27 +315,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_US__6
+  name: 1|_US_->_IN__1
   network: ws
-  port: 16626
-  server: yes.cnmjcn.net
+  port: 80
+  server: mm2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: yes.cnmjcn.net
+      host: mm2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,9|🇮🇳 _CN_中国->🇮🇳_IN_印度
+- name: 1|_JP_->_AR_
   network: tcp
-  port: '36831'
-  server: 7i4n04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  port: 443
+  server: ar.mjt000.com
+  skip-cert-verify: true
+  sni: ar.mjt000.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_US__9
+  network: tcp
+  password: bd5ad33d-d267-4393-928a-50f425d1b68c
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,6,9|🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
@@ -215,77 +356,10 @@ proxies:
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,9|🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
+  name: 0,1,2,3,4,6,9|🇧🇷 _CN_中国->🇧🇷_BR_巴西
   network: tcp
-  port: '36861'
-  server: 9a8r04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇭🇰 Hong Kong 01 @nodpai
-  network: ws
-  port: 63082
-  server: 120.241.46.223
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fdd13305-5dcb-3926-ad0c-0e38d028ddd0
-  ws-opts:
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB_
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,9|🇨🇳_CN_中国->🇪🇸_ES_西班牙
-  network: tcp
-  port: 36884
-  server: 6e2s04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: '80'
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,9|🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-  network: tcp
-  port: '36868'
-  server: 2t1u04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,9|🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
-  network: tcp
-  port: '36864'
-  server: 2h4u04.abzoones.xyz
+  port: '36877'
+  server: 6i2r04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
@@ -300,227 +374,56 @@ proxies:
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__1
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,9|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '36811'
-  server: 2u3k04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #5'
-  network: tcp
-  port: '36501'
-  server: 3u1s04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- name: 1|_JP_->_AR_
-  network: tcp
-  password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  port: 443
-  server: ar.mjt000.com
-  skip-cert-verify: true
-  sni: ar.mjt000.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 12|中转 🇯🇵 Japan 01 @nodpai
-  network: ws
-  port: '443'
-  server: 103.232.213.241
-  tls: false
-  type: vmess
-  uuid: d0fa8fa7-e217-4fb9-fed3-34c6a17851db
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__2
-  network: ws
-  port: 80
-  server: hdlb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: hdlb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_US__3
+  name: 1|_CN_->_US__8
   network: ws
   port: 16648
-  server: t.cnmjcn.cyou
+  server: m.cnmjcn.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
   ws-opts:
     headers:
-      host: t.cnmjcn.cyou
+      host: m.cnmjcn.com
     path: /
-- name: 1|_JP_->_UA_
+- alterId: 0
+  cipher: auto
+  name: 1|_CN_->_US__6
+  network: ws
+  port: 16626
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
+  ws-opts:
+    headers:
+      host: yes.cnmjcn.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,9|🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
+  network: tcp
+  port: '36861'
+  server: 9a8r04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- name: 1|_JP_->_CA_
   network: tcp
   password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
   port: 443
-  server: ua.mjt000.com
+  server: usla.mjt000.com
   skip-cert-verify: true
-  sni: ua.mjt000.com
+  sni: usla.mjt000.com
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: '16648'
-  server: yes.cnmjcn.net
-  tls: false
-  type: vmess
-  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  ws-opts:
-    headers:
-      Host: yes.cnmjcn.net
-    path: /
-- name: 1|_CN_->_US__5
+  name: 6,9|🇨🇳_CN_中国->🇪🇸_ES_西班牙
   network: tcp
-  password: 3e3cd44f-a06f-4571-8721-ce06a5fc12b7
-  port: 10837
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇹🇼 Taiwan 28 @nodpai
-  network: ws
-  port: 14099
-  server: userpd.haitunvip.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ee09265-de80-3355-a95d-ccb34fe46ac4
-  ws-opts:
-    headers:
-      Host: userpd.haitunvip.vip
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #3'
-  network: tcp
-  port: '36511'
-  server: 3u1s06.abzoones.xyz
+  port: 36884
+  server: 6e2s04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4|🇺🇸 _CN_中国->🇺🇸_US_美国 #4'
-  network: ws
-  port: '16626'
-  server: yes.cnmjcn.net
-  tls: false
-  type: vmess
-  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  ws-opts:
-    headers:
-      Host: yes.cnmjcn.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: hdlb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: hdlb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4|🇺🇸 _CN_中国->🇺🇸_US_美国 #6'
-  network: ws
-  port: '16648'
-  server: m.cnmjcn.com
-  tls: false
-  type: vmess
-  uuid: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949
-  ws-opts:
-    headers:
-      Host: m.cnmjcn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,9|🇧🇷 _CN_中国->🇧🇷_BR_巴西
-  network: tcp
-  port: '36877'
-  server: 6i2r04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇭🇰 Hong Kong 1226 @nodpai
-  network: ws
-  port: 13004
-  server: userpd.haitunvip.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2ee09265-de80-3355-a95d-ccb34fe46ac4
-  ws-opts:
-    headers:
-      Host: userpd.haitunvip.vip
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
