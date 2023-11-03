@@ -1,35 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本3|@ripaojiedian
-  obfs: plain
-  obfs-param: 5e2e190048.baidu.com
-  password: iuo7tbw4ks
-  port: 12107
-  protocol: auth_aes128_sha1
-  protocol-param: 90048:xqUpRL
-  server: snxao52s.xn--8zrwc997j78ud7a.com
-  type: ssr
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP PRO
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5dc877dd-d239-4d66-8690-74d5fe20ec40
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
@@ -42,18 +11,14 @@ proxies:
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
-  name: 12|日本 003
-  network: ws
-  port: 38453
-  server: vn.zerodisk.site
-  servername: ''
+  name: 13|日本 04  | 1x JP PRO
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: vn.zerodisk.site
-    path: /
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -70,34 +35,33 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5dc877dd-d239-4d66-8690-74d5fe20ec40
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2c0f7e5b-e964-4495-928e-0226ac0365d5
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本4|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 193.182.144.65
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30017
+  server: 183.232.170.32
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本3|@ripaojiedian
+  obfs: plain
+  obfs-param: 5e2e190048.baidu.com
+  password: iuo7tbw4ks
+  port: 12107
+  protocol: auth_aes128_sha1
+  protocol-param: 90048:xqUpRL
+  server: snxao52s.xn--8zrwc997j78ud7a.com
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 12|日本 001
@@ -112,6 +76,58 @@ proxies:
     headers:
       Host: jpb.zerodisk.site
     path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04 PRO
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
+- alterId: 0
+  cipher: auto
+  name: 12|日本 002
+  network: ws
+  port: 48493
+  server: jpd.zerodisk.site
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: jpd.zerodisk.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇯🇵 日本4|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 193.182.144.65
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -130,58 +146,14 @@ proxies:
     path: /wo.img
 - alterId: 0
   cipher: auto
-  name: 12|日本 - 東京都 - xTom Pty Ltd
-  network: ws
-  port: 3306
-  server: iij2.csznet.eu.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 888ad13a-2e0d-4f6e-b5cf-6b06356f20c6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /sometimesnaive
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30017
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04 PRO
+  name: 9|🇯🇵日本05
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2c0f7e5b-e964-4495-928e-0226ac0365d5
-- alterId: 0
-  cipher: auto
-  name: 12|日本 002
-  network: ws
-  port: 48493
-  server: jpd.zerodisk.site
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: jpd.zerodisk.site
-    path: /
+  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -191,14 +163,28 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5dc877dd-d239-4d66-8690-74d5fe20ec40
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  name: 12|日本 003
+  network: ws
+  port: 38453
+  server: vn.zerodisk.site
+  servername: ''
   tls: true
   type: vmess
-  uuid: 2c0f7e5b-e964-4495-928e-0226ac0365d5
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: vn.zerodisk.site
+    path: /
