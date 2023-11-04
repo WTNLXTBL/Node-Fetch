@@ -1,14 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04 PRO
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.141.177.65
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 15|新加坡2|@ripaojiedian
@@ -21,6 +19,16 @@ proxies:
   uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡04 PRO
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -28,15 +36,25 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
+  uuid: c88cf69a-72f7-4cbf-9db4-5ac9c8338cfa
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.141.177.65
+  server: 3.1.200.50
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 04 | 1x SG PRO
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c88cf69a-72f7-4cbf-9db4-5ac9c8338cfa
 - alterId: 0
   cipher: auto
   name: 15|新加坡|@ripaojiedian
@@ -56,40 +74,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 04 | 1x SG PRO
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 新加坡  18
-  network: ws
-  port: 80
-  server: VIP20.5GTOCDOCAO.COM
-  tls: false
-  type: vmess
-  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
-  ws-opts:
-    headers:
-      Host: dl.ops.kgvn.garenanow.com
-    path: /5gtocdocao.com
+  uuid: c88cf69a-72f7-4cbf-9db4-5ac9c8338cfa
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -99,12 +84,12 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
+  uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬 新加坡_102611087
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-139.180.143.2...
   network: ws
-  port: 8080
+  port: '8080'
   server: 139.180.143.251
   servername: ''
   tls: false
@@ -112,13 +97,29 @@ proxies:
   uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
   ws-opts:
     headers:
-      Host: ''
+      Host: internet.life.com.by
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.1.200.50
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 新加坡  15
+  network: ws
+  port: '80'
+  server: vip20.5gtocdocao.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
+  ws-opts:
+    headers:
+      Host: vip20.5gtocdocao.com
+    path: /5gtocdocao.com
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
