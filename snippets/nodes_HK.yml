@@ -1,31 +1,50 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|香港 04 | 1x HK PRO
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港5|@ripaojiedian
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jyn42.xjhssba.today
+    mode: websocket
+    mux: true
+    path: /vtprtcemdw
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 123.254.105.107
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14,15|🇭🇰 香港3|@ripaojiedian
+  name: '14,15|🇭🇰 香港4|@ripaojiedian #1'
   network: ws
-  port: 443
-  server: n1698814076.izwhvan.cn
-  servername: n1698814076.izwhvan.cn
+  port: 8080
+  server: hytron.io
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 2484ab4b-e997-45f3-9f0d-456640d967ef
+  uuid: b24f87b1-d3d1-42d5-c909-e56ff77d4fef
   ws-opts:
     headers:
-      Host: n1698814076.izwhvan.cn
+      Host: hk2.daozhang.love
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|香港 005
+  network: ws
+  port: 80
+  server: pr13.5gtocdocao.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
+  ws-opts:
+    headers:
+      Host: dl.ops.kgvn.garenanow.com
+    path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港06
@@ -36,30 +55,51 @@ proxies:
   tls: true
   type: vmess
   uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
-- client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  password: 410158e9-944a-429f-a9e5-278c078ada1d
-  port: 10803
-  server: 120.233.30.219
-  skip-cert-verify: false
-  sni: alibaba-node.cn
-  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 443
-  server: n1698814075.aaigefm.cn
-  servername: n1698814075.aaigefm.cn
-  skip-cert-verify: false
-  tfo: false
+  name: 13|香港 04 | 1x HK PRO
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.218.147
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港直连|@ripaojiedian
+  network: tcp
+  port: '53902'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 443
+  server: 103.232.213.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d0fa8fa7-e217-4fb9-fed3-34c6a17851db
   ws-opts:
     headers:
-      Host: n1698814075.aaigefm.cn
+      Host: 103.232.213.241
     path: /
 - alterId: 0
   cipher: auto
@@ -77,32 +117,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港8|@ripaojiedian
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jyn42.xjhssba.today
-    mode: websocket
-    mux: true
-    path: /vtprtcemdw
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 123.254.105.107
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|香港 05 | 1x HK
   network: tcp
   port: '31606'
@@ -111,28 +125,34 @@ proxies:
   tls: true
   type: vmess
   uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.218.147
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  password: 726f982a-39d4-46d5-a124-4bc44e6a12a7
+  port: 10802
+  server: 183.233.187.201
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|香港 06 | 1x HK
+  name: 15|香港2|@ripaojiedian
   network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
+  port: '35009'
+  server: 120.233.43.54
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04 PRO
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -151,28 +171,29 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04 PRO
+  name: 13|香港 06 | 1x HK
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
   uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
-- alterId: 64
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14,15|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 443
-  server: 202.95.8.91
-  servername: www.88430956.xyz
-  skip-cert-verify: false
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: b3c8858a-5053-424c-b3bf-e769dc53bf56
+  port: 10001
+  server: gdyd.aikunapp.com
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.88430956.xyz
-    path: /path/143534141104
+  type: ss
