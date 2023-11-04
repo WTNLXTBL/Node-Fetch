@@ -1,4 +1,20 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港5|@ripaojiedian
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jyn42.xjhssba.today
+    mode: websocket
+    mux: true
+    path: /vtprtcemdw
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 123.254.105.107
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT1|@ripaojiedian
@@ -13,14 +29,52 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港05
+  name: 13|香港 06 | 1x HK
   network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
   tls: true
   type: vmess
   uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
+- client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  password: 726f982a-39d4-46d5-a124-4bc44e6a12a7
+  port: 10802
+  server: 183.233.187.201
+  skip-cert-verify: false
+  sni: alibaba-node.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
+- alterId: 0
+  cipher: auto
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '35009'
+  server: 120.233.43.54
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -47,14 +101,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  password: 726f982a-39d4-46d5-a124-4bc44e6a12a7
-  port: 10802
-  server: 183.233.187.201
-  skip-cert-verify: false
-  sni: alibaba-node.cn
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04 PRO
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -69,52 +125,6 @@ proxies:
     tls: false
   port: 20297
   server: 223.95.40.85
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
-- alterId: 0
-  cipher: auto
-  name: 15|香港2|@ripaojiedian
-  network: tcp
-  port: '35009'
-  server: 120.233.43.54
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港5|@ripaojiedian
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jyn42.xjhssba.today
-    mode: websocket
-    mux: true
-    path: /vtprtcemdw
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 123.254.105.107
   tfo: false
   type: ss
 - alterId: 0
@@ -137,21 +147,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04 PRO
+  name: 9|🇭🇰香港05
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
   uuid: fb786c6e-87ab-4ae0-8a69-bad567b41812
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9bbff72a-187a-4ecf-b114-42810ce77e9d
