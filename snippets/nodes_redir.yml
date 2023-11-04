@@ -1,4 +1,40 @@
 proxies:
+- name: 1|_CN_->_AT_
+  network: tcp
+  password: 5c97ca4b-8640-423d-9d50-ba025e15729f
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '12|美国中转 #2'
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5b3d1b6-be81-451f-8053-f8ad9b175920
+  ws-opts:
+    headers:
+      Host: us-02.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: '8080'
+  server: de-new01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 55e28ab0-012e-4a70-9154-820f562fd4e2
+  ws-opts:
+    headers:
+      Host: de-new01.gujuji.top
+    path: /
 - name: 1|_CN_->_US_
   network: tcp
   password: 5c97ca4b-8640-423d-9d50-ba025e15729f
@@ -23,7 +59,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,18|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 0,3,6|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '2082'
+  server: 104.31.16.164
+  tls: false
+  type: vmess
+  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /franc.digires.shop/11201
+- alterId: 64
+  cipher: auto
+  name: 1|_US_->_NL_
+  network: ws
+  port: 30000
+  server: 156.225.67.106
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  ws-opts:
+    headers:
+      host: www.41758112.xyz
+    path: /path/1698671600986
+- alterId: 0
+  cipher: auto
+  name: 0,3,19|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: '80'
   server: mrb2.shabijichang.com
@@ -34,6 +97,42 @@ proxies:
     headers:
       Host: mrb2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|美国中转
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
+  ws-opts:
+    headers:
+      Host: us8cdf74064.pkmkwvxqnn.xyz
+    path: /video/xwjorKTk
+- alterId: 0
+  cipher: auto
+  name: '0,3,6|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  network: ws
+  port: '80'
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- name: 1|_CN_->_UA_
+  network: tcp
+  password: 5c97ca4b-8640-423d-9d50-ba025e15729f
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 0,3|🇺🇸 _US_美国->🇫🇷_FR_法国
@@ -49,17 +148,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,6|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: '12|美国中转 #1'
   network: ws
-  port: '2082'
-  server: 104.31.16.164
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+  uuid: 506d93ec-ffdb-41cd-bbc3-367039c4b18f
   ws-opts:
     headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /franc.digires.shop/11201
+      Host: jp441fd46a7.chvsifetrj.xyz
+    path: /video/hJdpbDKj
 - alterId: 0
   cipher: auto
   name: 1|_US_->_BR_
@@ -74,41 +174,6 @@ proxies:
     headers:
       host: sbl4.shabijichang.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,11|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 156.225.67.106
-  tls: true
-  type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  ws-opts:
-    headers:
-      Host: www.41758112.xyz
-    path: /path/1698671600986
-- alterId: 0
-  cipher: auto
-  name: '0,3|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '8080'
-  server: de-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 55e28ab0-012e-4a70-9154-820f562fd4e2
-  ws-opts:
-    headers:
-      Host: de-new01.gujuji.top
-    path: /
-- name: 1|_CN_->_UA_
-  network: tcp
-  password: 5c97ca4b-8640-423d-9d50-ba025e15729f
-  port: 10845
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 1,2,4,6|_IR_->_TR_
@@ -121,6 +186,19 @@ proxies:
   uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87
   ws-opts:
     path: /
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,6,11,12|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 156.225.67.106
+  tls: true
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  ws-opts:
+    headers:
+      Host: www.41758112.xyz
+    path: /path/1698671600986
 - alterId: 0
   cipher: auto
   name: 2,4|🇺🇸_US_美国->🇧🇷_BR_巴西
@@ -134,39 +212,3 @@ proxies:
     headers:
       Host: sbl4.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,6|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
-  network: ws
-  port: '80'
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 1|_US_->_NL_
-  network: ws
-  port: 30000
-  server: 156.225.67.106
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  ws-opts:
-    headers:
-      host: www.41758112.xyz
-    path: /path/1698671600986
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: 5c97ca4b-8640-423d-9d50-ba025e15729f
-  port: 10848
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
