@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港04 PRO
+  name: 9|🇭🇰香港06
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b6869619-d65a-4b80-9758-187af0060c77
+  uuid: c7e3de3c-62ac-4ada-806b-eaae986ad601
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 13
+  name: 11|github.com/freefq - 香港阿里云 5
   network: ws
   port: '443'
   server: n1697685464.aaigefm.cn
@@ -40,14 +40,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港 06 | 1x HK
+  name: 9|🇭🇰香港04 PRO
   network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 664a40e8-491a-4be3-bee1-23be119a8059
+  uuid: c7e3de3c-62ac-4ada-806b-eaae986ad601
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -63,20 +63,6 @@ proxies:
   server: 223.95.40.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 17
-  network: ws
-  port: '443'
-  server: n1698814075.aaigefm.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
-  ws-opts:
-    headers:
-      Host: n1698814075.aaigefm.cn
-    path: /
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -88,16 +74,22 @@ proxies:
   server: 47.76.32.230
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|香港 04 | 1x HK PRO
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
+  name: 14,15|🇭🇰 香港1|@ripaojiedian
+  network: ws
+  port: 443
+  server: 27.50.59.175
+  servername: www.25606586.xyz
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
-  uuid: 664a40e8-491a-4be3-bee1-23be119a8059
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.25606586.xyz
+    path: /path/143534141104
 - alterId: 0
   cipher: auto
   name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 3
@@ -121,43 +113,37 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b6869619-d65a-4b80-9758-187af0060c77
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-8.217.4.110:...
-  network: tcp
-  port: '31013'
-  server: 8.217.4.110
-  servername: 'null'
-  tls: false
-  type: vmess
-  uuid: 66440943-8bcf-4832-a5b7-694c466c5fd7
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b6869619-d65a-4b80-9758-187af0060c77
+  uuid: c7e3de3c-62ac-4ada-806b-eaae986ad601
 - alterId: 64
   cipher: auto
-  name: 14,15|🇭🇰 香港1|@ripaojiedian
-  network: ws
-  port: 443
-  server: 27.50.59.175
-  servername: www.25606586.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 15|香港直连|@ripaojiedian
+  network: tcp
+  port: '53902'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.25606586.xyz
-    path: /path/143534141104
+- alterId: 0
+  cipher: auto
+  name: 13|香港 04 | 1x HK PRO
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ca9030ec-b5eb-4cf5-b552-d2a80ad15412
+- alterId: 0
+  cipher: auto
+  name: 13|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ca9030ec-b5eb-4cf5-b552-d2a80ad15412
 - alterId: 0
   cipher: auto
   name: 13|香港 05 | 1x HK
@@ -167,18 +153,4 @@ proxies:
   servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 664a40e8-491a-4be3-bee1-23be119a8059
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 18
-  network: ws
-  port: '443'
-  server: n1698119642.izwhvan.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fe57e1f2-704b-4896-92b6-c256737e9739
-  ws-opts:
-    headers:
-      Host: n1698119642.izwhvan.cn
-    path: /
+  uuid: ca9030ec-b5eb-4cf5-b552-d2a80ad15412
