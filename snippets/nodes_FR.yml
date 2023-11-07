@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.124.2...
+  network: ws
+  port: '26830'
+  server: 146.59.124.245
+  servername: v-nl1.ngvip.net
+  tls: true
+  type: vmess
+  uuid: d7ac450b-a858-493b-8c77-d6abb58e9113
+  ws-opts:
+    headers:
+      Host: v-nl1.ngvip.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇫🇷 FR-51.210.110.2...
   network: tcp
   port: '34310'
@@ -10,9 +24,24 @@ proxies:
   type: vmess
   uuid: 03873ff8-7e49-434e-8024-a92b6f1d2d7d
 - cipher: aes-256-cfb
-  name: 14|🇫🇷 法国|@ripaojiedian
+  name: 14|🇫🇷 法国|@ripaojiedian 2
   password: asdKkaskJKfnsa
   port: 110
   server: 51.158.195.96
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|🇫🇷 法国|@ripaojiedian
+  network: ws
+  port: 80
+  server: 13.38.23.174
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3a354261-a8c1-4da1-a4b1-5fd2cabc8c48
+  ws-opts:
+    headers:
+      Host: 13.38.23.174
+    path: /
