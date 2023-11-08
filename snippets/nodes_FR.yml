@@ -12,6 +12,20 @@ proxies:
     headers:
       Host: www.64440956.xyz
     path: /path/1699193100388
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.124.2...
+  network: ws
+  port: '26830'
+  server: 146.59.124.245
+  servername: v-nl1.ngvip.net
+  tls: true
+  type: vmess
+  uuid: d7ac450b-a858-493b-8c77-d6abb58e9113
+  ws-opts:
+    headers:
+      Host: v-nl1.ngvip.net
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|🇫🇷_FR_法国_yui科技_11
@@ -38,24 +52,12 @@ proxies:
     headers:
       Host: www.69414502.xyz
     path: /path/1699280099138
-- cipher: aes-256-cfb
-  name: 14|🇫🇷 法国|@ripaojiedian 2
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.124.2...
-  network: ws
-  port: '26830'
-  server: 146.59.124.245
-  servername: v-nl1.ngvip.net
-  tls: true
-  type: vmess
-  uuid: d7ac450b-a858-493b-8c77-d6abb58e9113
-  ws-opts:
-    headers:
-      Host: v-nl1.ngvip.net
-    path: /
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.39.3.114
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
