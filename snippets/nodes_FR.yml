@@ -1,13 +1,17 @@
 proxies:
-- name: 1|_FR_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.39.3.114
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
+- alterId: 64
+  cipher: auto
+  name: 12|🇫🇷_FR_法国_yui科技_2
+  network: ws
+  port: 30000
+  server: 156.249.18.58
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.64440956.xyz
+    path: /path/1699193100388
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.124.2...
@@ -22,16 +26,12 @@ proxies:
     headers:
       Host: v-nl1.ngvip.net
     path: /
-- alterId: 64
-  cipher: auto
-  name: 12|🇫🇷_FR_法国_yui科技_2
-  network: ws
-  port: 30000
-  server: 156.249.18.58
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.64440956.xyz
-    path: /path/1699193100388
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.39.3.114
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
