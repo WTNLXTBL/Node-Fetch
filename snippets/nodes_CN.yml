@@ -1,25 +1,7 @@
 proxies:
-- name: 1|_CN_
-  network: tcp
-  password: bef35a85-22a4-47d6-856b-a612a7ce50c4
-  port: 10837
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 6,9,19|🇨🇳_CN_中国
-  network: tcp
-  port: 36868
-  server: 2t1u04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 30c91362-3af1-432b-99ae-8c4334d7b503
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 广东省移动 20
+  name: 11|github.com/freefq - 广东省移动 21
   network: tcp
   port: '11002'
   server: tg_mfbpn_d4.52vpn.eu.org
@@ -29,7 +11,7 @@ proxies:
   uuid: 85db6652-a747-3a0a-a170-422736076410
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 广东省移动 19
+  name: 11|github.com/freefq - 广东省移动 15
   network: tcp
   port: '11013'
   server: 120.233.43.47
@@ -37,3 +19,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 85db6652-a747-3a0a-a170-422736076410
+- name: 1|_CN_
+  network: tcp
+  password: bef35a85-22a4-47d6-856b-a612a7ce50c4
+  port: 10837
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 12,15|🇨🇳TG频道 @oeo12  =CN_5
+  network: tcp
+  port: 49006
+  server: 112.29.94.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 中国阿里云 10
+  network: ws
+  port: '80'
+  server: 8.222.235.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
+    path: /
