@@ -1,10 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 广东省移动 14
+  name: 6|🇨🇳_CN_中国
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 中国阿里云 13
+  network: ws
+  port: '80'
+  server: 8.222.235.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 广东省移动 19
   network: tcp
   port: '11013'
   server: 120.233.43.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85db6652-a747-3a0a-a170-422736076410
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 广东省移动 17
+  network: tcp
+  port: '11013'
+  server: tg_mfbpn_d4.52vpn.eu.org
   servername: ''
   tls: false
   type: vmess
@@ -20,7 +55,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 11,12,15|github.com/freefq - 广东省广州市移动 2
+  name: 11,12,15|github.com/freefq - 广东省广州市移动 6
   network: tcp
   port: 38262
   server: 183.233.187.214
@@ -28,13 +63,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 广东省移动 15
-  network: tcp
-  port: '11013'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85db6652-a747-3a0a-a170-422736076410
