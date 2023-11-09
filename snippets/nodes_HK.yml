@@ -1,14 +1,19 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f0773226-6afe-41c5-a9f1-897d6606df59
+- cipher: aes-256-gcm
+  name: 14|🇭🇰 香港6|@ripaojiedian
+  password: 3cda32d5cda5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jjy11.jurtcs.com
+    mode: websocket
+    mux: true
+    path: /dxlvkpmlvqsi
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 43.240.15.69
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -26,30 +31,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰香港-备用
-  network: ws
-  port: '80'
-  server: cfzl1.freeapp.buzz
-  tls: false
-  type: vmess
-  uuid: 52a21829-3f61-442c-be77-2e5984b20869
-  ws-opts:
-    headers:
-      Host: cfhk.freeapp.buzz
-    path: /gddseeeew4@gr
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.44.217
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|香港 06 | 1x HK
   network: tcp
   port: '31611'
@@ -57,17 +38,14 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a5b02f46-65f0-46b2-af06-fc7f3d022378
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04 PRO
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f0773226-6afe-41c5-a9f1-897d6606df59
+  uuid: ad396490-4d00-4505-bf83-5b4b776bd790
+- name: 14|🇭🇰 香港4|@ripaojiedian
+  password: 85db6652-a747-3a0a-a170-422736076410
+  port: 11009
+  server: 120.233.43.47
+  skip-cert-verify: false
+  sni: tg_mfbpn_d4.52vpn.eu.org
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 15|香港2|@ripaojiedian
@@ -87,22 +65,27 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f0773226-6afe-41c5-a9f1-897d6606df59
-- cipher: aes-256-gcm
-  name: 14|🇭🇰 香港6|@ripaojiedian
-  password: 3cda32d5cda5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jjy11.jurtcs.com
-    mode: websocket
-    mux: true
-    path: /dxlvkpmlvqsi
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 43.240.15.69
-  tfo: false
-  type: ss
+  uuid: fe402c7e-8311-46eb-8578-eb1768a7c89e
+- alterId: 0
+  cipher: auto
+  name: 9|🇭🇰香港04 PRO
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fe402c7e-8311-46eb-8578-eb1768a7c89e
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ad396490-4d00-4505-bf83-5b4b776bd790
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK PRO
@@ -112,24 +95,17 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a5b02f46-65f0-46b2-af06-fc7f3d022378
-- name: 14|🇭🇰 香港4|@ripaojiedian
-  password: 85db6652-a747-3a0a-a170-422736076410
-  port: 11009
-  server: 120.233.43.47
-  skip-cert-verify: false
-  sni: tg_mfbpn_d4.52vpn.eu.org
-  type: trojan
+  uuid: ad396490-4d00-4505-bf83-5b4b776bd790
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-8.217.4.110:...
+  name: 9|🇭🇰香港06
   network: tcp
-  port: '31013'
-  server: 8.217.4.110
-  servername: ''
-  tls: false
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 66440943-8bcf-4832-a5b7-694c466c5fd7
+  uuid: fe402c7e-8311-46eb-8578-eb1768a7c89e
 - alterId: 64
   cipher: auto
   name: 14,15|🇭🇰 香港|@ripaojiedian
@@ -146,13 +122,14 @@ proxies:
     headers:
       Host: www.52948386.xyz
     path: /path/080218162423
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a5b02f46-65f0-46b2-af06-fc7f3d022378
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.44.217
+  tfo: false
+  type: ss
