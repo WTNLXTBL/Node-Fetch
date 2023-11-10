@@ -1,132 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_FR__1
+  name: 0,2,3,4|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
-  port: 2082
+  port: '2082'
   server: 162.159.25.25
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 1F7C900A-6AD7-41CF-A37E-85873E566C40
   ws-opts:
     headers:
-      host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site
-- alterId: 64
-  cipher: auto
-  name: 1,2,4|_US_->_NL__2
-  network: ws
-  port: 30000
-  server: 45.199.138.146
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-- alterId: 1
-  cipher: auto
-  name: 12|🇬🇧 _NL_荷兰->🇬🇧_GB_英国
-  network: ws
-  port: '443'
-  server: 188.114.97.1
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: odelia.autos
-    path: linkvws
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN_
+  name: 1|_SG_->_US__1
   network: ws
   port: 80
-  server: mm2.shabijichang.com
+  server: 8.222.235.92
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
   ws-opts:
     headers:
-      host: mm2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,6,10,11,12,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '49006'
-  server: 112.29.94.23
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  name: '12|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #2'
-  network: ws
-  port: '2096'
-  server: 162.159.138.232
-  tls: true
-  type: vmess
-  uuid: c58c0655-d722-4ad1-8ad5-2452c77a753a
-  ws-opts:
-    headers:
-      Host: stiyUs6usw.pouriya.cf
-    path: /Amsterdam
-- alterId: 1
-  cipher: auto
-  name: 0,2,3,4,6,12,19|🇨🇦 _CA_加拿大->🇬🇧_GB_英国
-  network: ws
-  port: '443'
-  server: 64.68.192.77
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ophelia.mom
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 19|🇮🇷_IR_伊朗->🇩🇪_DE_德国_28
-  network: ws
-  port: 2083
-  server: de1.cloudfa.pw
-  tls: false
-  type: vmess
-  uuid: 212bf56c-2203-40ee-abc7-9bdb6c39eca4
-  ws-opts:
-    headers:
-      Host: de1.cloudfa.pw
+      host: warp.chigua.tk
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇮🇳_IN_印度_2由快嘴科技提供：kk...
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2082
-  server: main.doctorweb.sbs
-  tls: false
-  type: vmess
-  uuid: 137b3288-0fbe-4ac1-b73e-a2de0c543635
-  ws-opts:
-    headers:
-      Host: main.doctorweb.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
   port: '80'
   server: mm2.shabijichang.com
@@ -137,18 +39,28 @@ proxies:
     headers:
       Host: mm2.shabijichang.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,10,11,15,18|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '49006'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12|🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: 1|_US_->_FR__2
   network: ws
-  port: '2082'
-  server: 162.159.25.25
+  port: 2095
+  server: 172.67.215.230
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 1F7C900A-6AD7-41CF-A37E-85873E566C40
   ws-opts:
     headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+      host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site
 - alterId: 0
   cipher: auto
@@ -164,25 +76,23 @@ proxies:
     headers:
       host: mrb2.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,19|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+  name: 6,18|🇺🇸_US_美国->🇳🇱_NL_荷兰
   network: ws
-  port: '80'
-  server: 8.222.235.92
-  tls: false
+  port: 30000
+  server: 45.199.138.146
+  tls: true
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
   ws-opts:
-    headers:
-      Host: warp.chigua.tk
-    path: /
+    path: /path/1699193100388
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_FR__2
+  name: 1|_US_->_FR__1
   network: ws
-  port: 2095
-  server: 172.67.215.230
+  port: 2082
+  server: 162.159.25.25
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -191,19 +101,46 @@ proxies:
     headers:
       host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '0,3|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  name: '0,2,3,4,6,10,11,18|🇸🇬 _SG_新加坡->🇺🇸_US_美国 #1'
   network: ws
-  port: '30000'
-  server: 45.199.138.146
-  tls: true
+  port: '80'
+  server: 8.222.198.105
+  tls: false
   type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
   ws-opts:
     headers:
-      Host: ''
+      Host: warp.chigua.tk
     path: /
+- alterId: 64
+  cipher: auto
+  name: 1|_US_->_NL__1
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.42077230.xyz
+    path: /path/1699280099138
+- alterId: 1
+  cipher: auto
+  name: 0,2,3,4,6,12,18|🇨🇦 _CA_加拿大->🇬🇧_GB_英国
+  network: ws
+  port: '443'
+  server: 64.68.192.77
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ophelia.mom
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 1|_SG_->_US__2
@@ -220,55 +157,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,10,11|🇸🇬 _SG_新加坡->🇺🇸_US_美国 #1'
+  name: '12|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #2'
   network: ws
-  port: '80'
-  server: 8.222.198.105
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      Host: warp.chigua.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_SG_->_US__1
-  network: ws
-  port: 80
-  server: 8.222.235.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      host: warp.chigua.tk
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 30000
-  server: 45.199.138.146
+  port: '2096'
+  server: 162.159.138.232
   tls: true
   type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
-  ws-opts:
-    path: /path/1699193100388
-- alterId: 0
-  cipher: auto
-  name: 6,10,11,12|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 8080
-  server: 172.67.123.23
-  tls: false
-  type: vmess
-  uuid: 62b024bb-3e45-41eb-e8ff-60502a4e791d
+  uuid: c58c0655-d722-4ad1-8ad5-2452c77a753a
   ws-opts:
     headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /a5.mianfenyun012.eu.org/vui2
+      Host: stiyUs6usw.pouriya.cf
+    path: /Amsterdam
+- alterId: 2
+  cipher: auto
+  name: 0,1,2,3,4,6,18|_CN_中国->🇬🇮_GI_直布罗陀
+  network: tcp
+  port: '60010'
+  server: cnah2.lanyunshi.cc
+  tls: false
+  type: vmess
+  uuid: 0b192ff2-7718-3206-93f4-6a260a422cc8
 - alterId: 1
   cipher: auto
   name: 1|_CA_->_GB_
@@ -285,20 +193,20 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 0,2,3,4,6,18|🇸🇬 _SG_新加坡->🇺🇸_US_美国
   network: ws
   port: '80'
-  server: mrb2.shabijichang.com
+  server: 8.222.235.92
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
   ws-opts:
     headers:
-      Host: mrb2.shabijichang.com
+      Host: warp.chigua.tk
     path: /
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,10,11,19|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  name: 0,2,3,4,6,10,11,18|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
   port: '30000'
   server: 45.199.138.191
@@ -311,7 +219,96 @@ proxies:
     path: /path/1699280099138
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,12,19|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
+  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IN_
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 1,2,4|_US_->_NL__2
+  network: ws
+  port: 30000
+  server: 45.199.138.146
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+- alterId: 64
+  cipher: auto
+  name: '0,3|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '30000'
+  server: 45.199.138.146
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2082
+  server: main.doctorweb.sbs
+  tls: false
+  type: vmess
+  uuid: 137b3288-0fbe-4ac1-b73e-a2de0c543635
+  ws-opts:
+    headers:
+      Host: main.doctorweb.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,10,11,12,18|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 8080
+  server: 172.67.123.23
+  tls: false
+  type: vmess
+  uuid: 62b024bb-3e45-41eb-e8ff-60502a4e791d
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /a5.mianfenyun012.eu.org/vui2
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸_US_美国->🇮🇳_IN_印度_2由快嘴科技提供：kk...
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,18|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
   network: ws
   port: '2095'
   server: 172.67.215.230
@@ -322,26 +319,3 @@ proxies:
     headers:
       Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /surfboardv2ray.jilino2325.workers.dev/speedtest/Lille.Kotick.site
-- alterId: 2
-  cipher: auto
-  name: 0,1,2,3,4,6|_CN_中国->🇬🇮_GI_直布罗陀
-  network: tcp
-  port: '60010'
-  server: cnah2.lanyunshi.cc
-  tls: false
-  type: vmess
-  uuid: 0b192ff2-7718-3206-93f4-6a260a422cc8
-- alterId: 64
-  cipher: auto
-  name: 1|_US_->_NL__1
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1699280099138
