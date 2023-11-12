@@ -1,29 +1,78 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,10,11|🇺🇸 _US_美国->🇿🇦_ZA_南非
+  name: 0,3,19|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
   port: '80'
-  server: yhnsb3.shabijichang.com
+  server: mm2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: yhnsb3.shabijichang.com
+      Host: mm2.shabijichang.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 1|_US_->_NL_
+  network: ws
+  port: 30000
+  server: 45.199.138.146
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  ws-opts:
+    headers:
+      host: www.19229362.xyz
+    path: /path/1699193100388
+- alterId: 64
+  cipher: auto
+  name: '0,3,19|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1699280099138
 - alterId: 0
   cipher: auto
-  name: 2,4,6,19|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: 0,3,11|🇸🇬 _SG_新加坡->🇺🇸_US_美国
   network: ws
-  port: 80
-  server: mm3.shabijichang.com
+  port: '80'
+  server: 8.222.235.92
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,10,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '49056'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 0,3,19|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
+      Host: mrb2.shabijichang.com
     path: /
 - alterId: 64
   cipher: auto
@@ -40,58 +89,10 @@ proxies:
     path: /path/1699193100388
 - alterId: 0
   cipher: auto
-  name: 0,3,19|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: '0,3,10,11|🇸🇬 _SG_新加坡->🇺🇸_US_美国 #1'
   network: ws
   port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,19|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,6,10,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '49056'
-  server: 112.29.94.23
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 64
-  cipher: auto
-  name: '0,3,19|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1699280099138
-- alterId: 0
-  cipher: auto
-  name: 0,3|🇸🇬 _SG_新加坡->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: 8.222.235.92
+  server: 8.222.198.105
   tls: false
   type: vmess
   uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
@@ -115,16 +116,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,10|🇸🇬 _SG_新加坡->🇺🇸_US_美国 #1'
+  name: 2,4,6,19|🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
-  port: '80'
-  server: 8.222.198.105
+  port: 80
+  server: mm3.shabijichang.com
   tls: false
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: warp.chigua.tk
+      Host: mm3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -139,17 +140,16 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 1|_US_->_NL_
+  name: 0,3,10,11|🇺🇸 _US_美国->🇿🇦_ZA_南非
   network: ws
-  port: 30000
-  server: 45.199.138.146
-  skip-cert-verify: true
-  tls: true
+  port: '80'
+  server: yhnsb3.shabijichang.com
+  tls: false
   type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: www.19229362.xyz
-    path: /path/1699193100388
+      Host: yhnsb3.shabijichang.com
+    path: /
