@@ -1,34 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cb154491-dca5-40d7-937b-7962241296d5
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP PRO
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cb154491-dca5-40d7-937b-7962241296d5
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 45ae97d6-711f-4cab-94fa-0221807bd91b
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -41,6 +11,84 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 20022
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3da39809-0113-4cb9-8e4c-597e2a8aa2cf
+- alterId: 0
+  cipher: auto
+  name: 10|日本 东京Fastly节点
+  network: ws
+  port: 80
+  server: live.kozoom.net
+  tls: false
+  type: vmess
+  uuid: 6e7911ef-e064-44ca-e5f6-c76c0d7db288
+  ws-opts:
+    headers:
+      Host: krshouer.com
+    path: /@blue-Youtube
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP PRO
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3da39809-0113-4cb9-8e4c-597e2a8aa2cf
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30009
   server: 183.232.170.32
   tfo: false
   type: ss
@@ -61,39 +109,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本06
+  name: 13|日本 05  | 1x JP
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 45ae97d6-711f-4cab-94fa-0221807bd91b
-- cipher: aes-128-gcm
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30009
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cb154491-dca5-40d7-937b-7962241296d5
+  uuid: 3da39809-0113-4cb9-8e4c-597e2a8aa2cf
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵白嫖-053
@@ -106,43 +129,6 @@ proxies:
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: 15|日本|@ripaojiedian
-  network: ws
-  port: '48493'
-  server: jpd.zerodisk.site
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10,11|日本 东京Fastly节点
-  network: ws
-  port: 80
-  server: live.kozoom.net
-  tls: false
-  type: vmess
-  uuid: 6e7911ef-e064-44ca-e5f6-c76c0d7db288
-  ws-opts:
-    headers:
-      Host: krshouer.com
-    path: /@blue-Youtube
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本04 PRO
   network: tcp
   port: '36116'
@@ -150,4 +136,4 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 45ae97d6-711f-4cab-94fa-0221807bd91b
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
