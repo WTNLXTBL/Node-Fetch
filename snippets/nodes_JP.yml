@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP PRO
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2463c29d-8ce9-40e5-9bb8-f5e7f003f839
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -26,14 +16,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本05
+  name: 13|日本 05  | 1x JP
   network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2b439dad-e43b-4f7d-ba6d-79047f6ee631
+  uuid: f616bcd3-71c5-406f-be5c-071bdfb140bf
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP PRO
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f616bcd3-71c5-406f-be5c-071bdfb140bf
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本04 PRO
@@ -43,7 +43,28 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2b439dad-e43b-4f7d-ba6d-79047f6ee631
+  uuid: b7e0c4c4-020c-4af4-a855-53f67e1c1d52
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.162.1
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15|日本|浏览器输入 翻墙.com
+  network: ws
+  port: '48493'
+  server: jpd.zerodisk.site
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵白嫖-053
@@ -54,6 +75,31 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b7e0c4c4-020c-4af4-a855-53f67e1c1d52
+- alterId: 0
+  cipher: auto
+  name: 14|🇯🇵 日本|浏览器输入 翻墙.com
+  network: ws
+  port: 48493
+  server: jpd.zerodisk.site
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: jpd.zerodisk.site
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
@@ -73,14 +119,17 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2b439dad-e43b-4f7d-ba6d-79047f6ee631
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.162.1
-  tfo: false
-  type: ss
+  uuid: b7e0c4c4-020c-4af4-a855-53f67e1c1d52
+- alterId: 0
+  cipher: auto
+  name: 13|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f616bcd3-71c5-406f-be5c-071bdfb140bf
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -96,52 +145,3 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2463c29d-8ce9-40e5-9bb8-f5e7f003f839
-- alterId: 0
-  cipher: auto
-  name: 15|日本|浏览器输入 翻墙.com
-  network: ws
-  port: '48493'
-  server: jpd.zerodisk.site
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|🇯🇵 日本|浏览器输入 翻墙.com
-  network: ws
-  port: 48493
-  server: jpd.zerodisk.site
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: jpd.zerodisk.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2463c29d-8ce9-40e5-9bb8-f5e7f003f839
