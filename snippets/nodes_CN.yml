@@ -3,8 +3,18 @@ proxies:
   cipher: auto
   name: '10|广东省 移动 #1'
   network: tcp
-  port: '11014'
+  port: '11011'
   server: tg_mfbpn_d4.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85db6652-a747-3a0a-a170-422736076410
+- alterId: 0
+  cipher: auto
+  name: 10,11|广东省移动 23
+  network: tcp
+  port: '11013'
+  server: 120.233.43.47
   servername: ''
   tls: false
   type: vmess
@@ -19,36 +29,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 85db6652-a747-3a0a-a170-422736076410
-- alterId: 0
-  cipher: auto
-  name: 10|广东省 移动
-  network: tcp
-  port: '11003'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85db6652-a747-3a0a-a170-422736076410
-- alterId: 64
-  cipher: auto
-  name: 10,15|广东省广州市 移动
-  network: tcp
-  port: '38962'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- alterId: 0
-  cipher: auto
-  name: '10|广东省 移动 #3'
-  network: tcp
-  port: '11012'
-  server: tg_mfbpn_d4.52vpn.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85db6652-a747-3a0a-a170-422736076410
 - name: 1|_CN__2
   network: tcp
   password: b7de227d-9f33-4edf-822d-9006a3b74787
@@ -58,6 +38,26 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 10|广东省 移动
+  network: tcp
+  port: '11004'
+  server: tg_mfbpn_d4.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85db6652-a747-3a0a-a170-422736076410
+- alterId: 0
+  cipher: auto
+  name: '10|广东省 移动 #2'
+  network: tcp
+  port: '11014'
+  server: tg_mfbpn_d4.52vpn.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85db6652-a747-3a0a-a170-422736076410
 - name: 1|_CN__1
   network: tcp
   password: b7de227d-9f33-4edf-822d-9006a3b74787
@@ -69,10 +69,10 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '10,11|广东省 移动 #2'
+  name: '10|广东省 移动 #3'
   network: tcp
-  port: '11013'
-  server: 120.233.43.47
+  port: '11005'
+  server: tg_mfbpn_d4.52vpn.eu.org
   servername: ''
   tls: false
   type: vmess
