@@ -1,4 +1,44 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '40095'
+  server: 183.237.20.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|付费版推荐 翻墙.com
+  network: tcp
+  port: '38962'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+- alterId: 0
+  cipher: auto
+  name: 12|香港 003
+  network: tcp
+  port: 80
+  server: 194.156.98.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2463c29d-8ce9-40e5-9bb8-f5e7f003f839
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -14,6 +54,47 @@ proxies:
   server: 223.95.40.85
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港6|@ripaojiedian
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jyn42.xjhssba.today
+    mode: websocket
+    mux: true
+    path: /vtprtcemdw
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 123.254.105.107
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14,15|🇭🇰 香港B|@ripaojiedian
+  network: ws
+  port: 443
+  server: n1699253769.aaigefm.cn
+  servername: n1699253769.aaigefm.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 982fadd1-3e5f-4aa3-8552-ed6fda23414a
+  ws-opts:
+    headers:
+      Host: n1699253769.aaigefm.cn
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 14|🇭🇰 香港1|付费版推荐 翻墙.com
+  port: 38962
+  server: 183.233.187.214
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -34,53 +115,7 @@ proxies:
   servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1a731f4f-3c6d-404e-b391-bce49589f950
-- alterId: 0
-  cipher: auto
-  name: 12|香港 003
-  network: tcp
-  port: 80
-  server: 194.156.98.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
-- alterId: 0
-  cipher: auto
-  name: 13|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 3d858e0b-d3c1-4e3e-a69c-bac74e89e003
-- alterId: 0
-  cipher: auto
-  name: 14,15|🇭🇰 香港B|@ripaojiedian
-  network: ws
-  port: 443
-  server: n1699253769.aaigefm.cn
-  servername: n1699253769.aaigefm.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 982fadd1-3e5f-4aa3-8552-ed6fda23414a
-  ws-opts:
-    headers:
-      Host: n1699253769.aaigefm.cn
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 15|香港2|@ripaojiedian
-  network: tcp
-  port: '40095'
-  server: 183.237.20.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2b439dad-e43b-4f7d-ba6d-79047f6ee631
 - alterId: 0
   cipher: auto
   name: 9|🇭🇰香港04 PRO
@@ -90,30 +125,31 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1a731f4f-3c6d-404e-b391-bce49589f950
+  uuid: 2b439dad-e43b-4f7d-ba6d-79047f6ee631
 - alterId: 0
   cipher: auto
-  name: '10,11|香港 阿里云 #1'
+  name: 10|香港阿里云 20
   network: ws
-  port: 443
-  server: n1697685464.aaigefm.cn
+  port: '443'
+  server: n1697555560.aaigefm.cn
+  servername: ''
   tls: true
   type: vmess
-  uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2
+  uuid: 56691c3c-b9a5-440f-a678-478618854e75
   ws-opts:
     headers:
-      Host: n1697685464.aaigefm.cn
+      Host: n1697555560.aaigefm.cn
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|香港 05 | 1x HK
+  name: 13|香港 06 | 1x HK
   network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d858e0b-d3c1-4e3e-a69c-bac74e89e003
+  uuid: 2463c29d-8ce9-40e5-9bb8-f5e7f003f839
 - alterId: 0
   cipher: auto
   name: 10|香港 阿里云
@@ -136,46 +172,20 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1a731f4f-3c6d-404e-b391-bce49589f950
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港6|@ripaojiedian
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jyn42.xjhssba.today
-    mode: websocket
-    mux: true
-    path: /vtprtcemdw
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 123.254.105.107
-  tfo: false
-  type: ss
+  uuid: 2b439dad-e43b-4f7d-ba6d-79047f6ee631
 - alterId: 0
   cipher: auto
-  name: 10,11|香港阿里云 20
+  name: '10|香港 阿里云 #1'
   network: ws
-  port: '443'
-  server: n1697555560.aaigefm.cn
-  servername: ''
+  port: 443
+  server: n1697685464.aaigefm.cn
   tls: true
   type: vmess
-  uuid: 56691c3c-b9a5-440f-a678-478618854e75
+  uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2
   ws-opts:
     headers:
-      Host: n1697555560.aaigefm.cn
+      Host: n1697685464.aaigefm.cn
     path: /
-- alterId: 64
-  cipher: auto
-  name: 14|🇭🇰 香港1|付费版推荐 翻墙.com
-  port: 38962
-  server: 183.233.187.214
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
   name: 13|香港 04 | 1x HK PRO
@@ -185,14 +195,4 @@ proxies:
   servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3d858e0b-d3c1-4e3e-a69c-bac74e89e003
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|付费版推荐 翻墙.com
-  network: tcp
-  port: '38962'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 2463c29d-8ce9-40e5-9bb8-f5e7f003f839
