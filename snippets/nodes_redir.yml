@@ -1,33 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,19|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
   network: ws
-  port: '30000'
-  server: 45.199.138.191
+  port: 30000
+  server: 45.199.138.146
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
   ws-opts:
     headers:
-      Host: www.42077230.xyz
-    path: /path/1699280099138
+      Host: www.19229362.xyz
+    path: /path/1699193100388
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6,19|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 2,4,6,10,19|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
   server: ld2.shabijichang.com
@@ -37,6 +24,19 @@ proxies:
   ws-opts:
     headers:
       Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '2,4,19|🇸🇬_SG_新加坡->🇺🇸_US_美国 #1'
+  network: ws
+  port: 80
+  server: 8.222.235.92
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
     path: /
 - alterId: 0
   cipher: auto
@@ -52,15 +52,6 @@ proxies:
     headers:
       host: warp.chigua.tk
     path: /
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇮🇳 _CN_中国->🇮🇳_IN_印度
-  network: tcp
-  port: '36831'
-  server: 7i4n04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
 - alterId: 64
   cipher: auto
   name: 1|_US_->_NL_
@@ -77,103 +68,30 @@ proxies:
     path: /path/1699280099138
 - alterId: 0
   cipher: auto
-  name: 0,6,9|🇧🇷 _CN_中国->🇧🇷_BR_巴西
+  name: 0,3,6,9|🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
   network: tcp
-  port: '36877'
-  server: 6i2r04.abzoones.xyz
+  port: '36861'
+  server: 9a8r04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
 - alterId: 0
   cipher: auto
-  name: 1,2,3,4,19|_CN_->_US_
-  network: tcp
-  port: 50020
-  server: 20.kccic2pa.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a24d165e-408c-41cb-9997-0fcb012cb138
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
-  network: tcp
-  port: '36864'
-  server: 2h4u04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB__1
+  name: 1|_US_->_IN__1
   network: ws
   port: 80
-  server: ld2.shabijichang.com
+  server: mm2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: ld2.shabijichang.com
+      host: mm2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,6,9|🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
-  network: tcp
-  port: '36881'
-  server: 4p2t01.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB__2
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
-  network: tcp
-  port: '36821'
-  server: 5a4u04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '36811'
-  server: 2u3k04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: '80'
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  name: '0,3,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
   network: tcp
   port: '36501'
   server: 3u1s04.abzoones.xyz
@@ -182,64 +100,10 @@ proxies:
   uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
 - alterId: 0
   cipher: auto
-  name: 0,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国
+  name: 0,3,6,9|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
   network: tcp
-  port: '36511'
-  server: 3u1s06.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: '0,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: '36506'
-  server: 3u1s05.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_BR_
-  network: ws
-  port: 80
-  server: sbl4.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl4.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇹🇷 _CN_中国->🇹🇷_TR_土耳其
-  network: tcp
-  port: '36868'
-  server: 2t1u04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
-  name: '2,3,4,19|🇸🇬_SG_新加坡->🇺🇸_US_美国 #1'
-  network: ws
-  port: 80
-  server: 8.222.235.92
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      Host: warp.chigua.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇪🇸 _CN_中国->🇪🇸_ES_西班牙
-  network: tcp
-  port: '36884'
-  server: 6e2s04.abzoones.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
@@ -259,15 +123,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,6,9|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  tls: true
-  type: vmess
-  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_IN__2
   network: ws
   port: 80
@@ -282,63 +137,171 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,2,3,4,19|_CN_->_GB_
-  network: tcp
-  port: 50009
-  server: 09.kccic2pa.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a24d165e-408c-41cb-9997-0fcb012cb138
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__1
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,6,9|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  name: 0,3,6,9|🇩🇪 _CN_中国->🇩🇪_DE_德国
   network: tcp
   port: '36841'
   server: 3d6e04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 19|🇺🇸_US_美国->🇳🇱_NL_荷兰_由快嘴科技提供;kkz...
+  name: 1|_US_->_GB__2
   network: ws
-  port: 30000
-  server: 45.199.138.146
-  tls: true
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: www.19229362.xyz
-    path: /path/1699193100388
+      host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇪🇸 _CN_中国->🇪🇸_ES_西班牙
+  network: tcp
+  port: '36884'
+  server: 6e2s04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: '80'
+  server: sbl4.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇧🇷 _CN_中国->🇧🇷_BR_巴西
+  network: tcp
+  port: '36877'
+  server: 6i2r04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
+  network: tcp
+  port: '36864'
+  server: 2h4u04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇹🇷 _CN_中国->🇹🇷_TR_土耳其
+  network: tcp
+  port: '36868'
+  server: 2t1u04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 1,10|_US_->_BR_
+  network: ws
+  port: 80
+  server: sbl4.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
+  network: tcp
+  port: '36881'
+  server: 4p2t01.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB__1
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,4,19|🇸🇬_SG_新加坡->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: 8.222.198.105
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,2,4,19|_CN_->_US_
+  network: tcp
+  port: 50020
+  server: 20.kccic2pa.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a24d165e-408c-41cb-9997-0fcb012cb138
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,10,19|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1699280099138
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: '36511'
+  server: 3u1s06.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
@@ -354,23 +317,60 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,6,9|🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
+  name: 0,3,6,9|🇬🇧 _CN_中国->🇬🇧_GB_英国
   network: tcp
-  port: '36861'
-  server: 9a8r04.abzoones.xyz
+  port: '36811'
+  server: 2u3k04.abzoones.xyz
   tls: true
   type: vmess
   uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
 - alterId: 0
   cipher: auto
-  name: 2,3,4,19|🇸🇬_SG_新加坡->🇺🇸_US_美国
-  network: ws
-  port: 80
-  server: 8.222.198.105
+  name: 1,2,4,19|_CN_->_GB_
+  network: tcp
+  port: 50009
+  server: 09.kccic2pa.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  uuid: a24d165e-408c-41cb-9997-0fcb012cb138
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+  network: tcp
+  port: '36821'
+  server: 5a4u04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: '80'
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: warp.chigua.tk
+      Host: mm2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3,6,9|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: '36506'
+  server: 3u1s05.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,9|🇮🇳 _CN_中国->🇮🇳_IN_印度
+  network: tcp
+  port: '36831'
+  server: 7i4n04.abzoones.xyz
+  tls: true
+  type: vmess
+  uuid: 19881474-b3da-45e7-a99b-9afdafecb10a
