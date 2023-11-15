@@ -1,30 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
+  name: 15|日本|浏览器输入 翻墙.com
+  network: ws
+  port: '48493'
+  server: jpd.zerodisk.site
+  servername: ''
   tls: true
   type: vmess
-  uuid: fa68d4d1-ee57-4aa2-8e4b-39ea03a7236c
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-140.83.63.38...
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 52.194.205.164
-  tfo: false
-  type: ss
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -34,91 +22,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fa68d4d1-ee57-4aa2-8e4b-39ea03a7236c
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 13|日本 04  | 1x JP PRO
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9dcbcada-6a29-4b88-b41b-092f55fe71fd
-- alterId: 0
-  cipher: auto
-  name: 14|🇯🇵 日本|浏览器输入 翻墙.com
-  network: ws
-  port: 48493
-  server: jpd.zerodisk.site
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: jpd.zerodisk.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04 PRO
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fa68d4d1-ee57-4aa2-8e4b-39ea03a7236c
-- alterId: 0
-  cipher: auto
-  name: 14,15|🇯🇵 日本|低价实惠 翻墙.com
-  network: ws
-  port: 8880
-  server: 25.namesilo123.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6b56be2c-4aaf-4177-8218-fca4102fd3cd
-  ws-opts:
-    headers:
-      Host: japan.sanfen002.top
-    path: /grdohhgrdh4hhhhhj?ed
-- cipher: aes-128-gcm
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30009
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 03cfc877-4c50-4f4b-a9e9-a56ca7b0cf58
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -136,18 +40,54 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 15|日本|浏览器输入 翻墙.com
-  network: ws
-  port: '48493'
-  server: jpd.zerodisk.site
-  servername: ''
+  name: 9|🇯🇵日本04 PRO
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f8ef7c47-9735-439c-a42b-355bae224656
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 03cfc877-4c50-4f4b-a9e9-a56ca7b0cf58
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 52.194.205.164
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30009
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-140.83.63.38...
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 13|日本 05  | 1x JP
@@ -157,7 +97,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9dcbcada-6a29-4b88-b41b-092f55fe71fd
+  uuid: e41b91d0-9a22-4c57-a9e3-dae32a244636
 - alterId: 0
   cipher: auto
   name: 13|日本 06  | 1x JP
@@ -167,4 +107,64 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9dcbcada-6a29-4b88-b41b-092f55fe71fd
+  uuid: e41b91d0-9a22-4c57-a9e3-dae32a244636
+- alterId: 0
+  cipher: auto
+  name: 14|🇯🇵 日本|浏览器输入 翻墙.com
+  network: ws
+  port: 48493
+  server: jpd.zerodisk.site
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: f8ef7c47-9735-439c-a42b-355bae224656
+  ws-opts:
+    headers:
+      Host: jpd.zerodisk.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|日本 04  | 1x JP PRO
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e41b91d0-9a22-4c57-a9e3-dae32a244636
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 14,15|🇯🇵 日本|低价实惠 翻墙.com
+  network: ws
+  port: 8880
+  server: 25.namesilo123.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6b56be2c-4aaf-4177-8218-fca4102fd3cd
+  ws-opts:
+    headers:
+      Host: japan.sanfen002.top
+    path: /grdohhgrdh4hhhhhj?ed
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 03cfc877-4c50-4f4b-a9e9-a56ca7b0cf58
