@@ -1,45 +1,14 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '58602'
-  server: 183.237.20.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.212.41
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港06
+  name: 9|🇭🇰香港04 PRO
   network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 03cfc877-4c50-4f4b-a9e9-a56ca7b0cf58
-- alterId: 0
-  cipher: auto
-  name: 13|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e41b91d0-9a22-4c57-a9e3-dae32a244636
+  uuid: d39efd59-98c0-4b2e-8a43-5456f52a4f47
 - alterId: 0
   cipher: auto
   name: 13|香港 06 | 1x HK
@@ -49,17 +18,17 @@ proxies:
   servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e41b91d0-9a22-4c57-a9e3-dae32a244636
+  uuid: 0cd36e7b-5c48-4ed0-9edc-bac53b7e896d
 - alterId: 0
   cipher: auto
-  name: 13|香港 04 | 1x HK PRO
+  name: 9|🇭🇰香港05
   network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e41b91d0-9a22-4c57-a9e3-dae32a244636
+  uuid: d39efd59-98c0-4b2e-8a43-5456f52a4f47
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -77,20 +46,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,12|香港 ADCDATA数据中心
-  network: tcp
-  port: 80
-  server: 194.156.98.179
-  servername: ''
-  tls: false
+  name: 10|香港 阿里云
+  network: ws
+  port: 443
+  server: n1697685464.aaigefm.cn
+  tls: true
   type: vmess
-  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
+  uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2
+  ws-opts:
+    headers:
+      Host: n1697685464.aaigefm.cn
+    path: /
 - alterId: 64
   cipher: auto
-  name: 15|香港3|@ripaojiedian
+  name: 15|香港1|@ripaojiedian
   network: tcp
-  port: '40095'
-  server: 183.237.20.154
+  port: '58602'
+  server: 183.237.20.146
   servername: ''
   tls: false
   type: vmess
@@ -113,17 +85,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|香港阿里云 17
-  network: ws
-  port: 443
-  server: n1698814075.aaigefm.cn
+  name: 13|香港 04 | 1x HK PRO
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
-  ws-opts:
-    headers:
-      Host: n1698814075.aaigefm.cn
-    path: /
+  uuid: 0cd36e7b-5c48-4ed0-9edc-bac53b7e896d
 - alterId: 0
   cipher: auto
   name: '10,14,15|香港 阿里云 #1'
@@ -139,14 +108,37 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
+  name: 10,11|香港阿里云 17
+  network: ws
+  port: 443
+  server: n1698814075.aaigefm.cn
   tls: true
   type: vmess
-  uuid: 03cfc877-4c50-4f4b-a9e9-a56ca7b0cf58
+  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
+  ws-opts:
+    headers:
+      Host: n1698814075.aaigefm.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,12|香港 ADCDATA数据中心
+  network: tcp
+  port: 80
+  server: 194.156.98.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
+- alterId: 0
+  cipher: auto
+  name: 13|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0cd36e7b-5c48-4ed0-9edc-bac53b7e896d
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港6|@ripaojiedian
   password: 20544f92a1fb
@@ -164,24 +156,22 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|香港 阿里云
-  network: ws
-  port: 443
-  server: n1697685464.aaigefm.cn
-  tls: true
-  type: vmess
-  uuid: 187002fd-b8ad-4d36-b4fb-1a3224cc99e2
-  ws-opts:
-    headers:
-      Host: n1697685464.aaigefm.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇭🇰香港04 PRO
+  name: 9|🇭🇰香港06
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 03cfc877-4c50-4f4b-a9e9-a56ca7b0cf58
+  uuid: d39efd59-98c0-4b2e-8a43-5456f52a4f47
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.212.41
+  tfo: false
+  type: ss
