@@ -1,14 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 10,11,12,15|广东省移动 14
-  network: tcp
-  port: '40095'
-  server: 183.237.20.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 1|_CN__1
   network: tcp
   password: b7de227d-9f33-4edf-822d-9006a3b74787
@@ -18,9 +8,19 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 10,11,15|广东省移动 14
+  network: tcp
+  port: '40095'
+  server: 183.237.20.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 10,15|广东省 移动
+  name: 10,11,15|广东省 移动
   network: tcp
   port: '15025'
   server: 15025.kuaiyin02.top
