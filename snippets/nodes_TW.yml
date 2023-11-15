@@ -1,4 +1,38 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 15|台湾|@ripaojiedian
+  network: ws
+  port: '443'
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b23
 - cipher: aes-256-gcm
   name: 14|🇹🇼 台湾2|@ripaojiedian
   password: a0068c048cb0
@@ -16,51 +50,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: aca7904a-d37e-4699-b624-98cbb7eddddc
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: aca7904a-d37e-4699-b624-98cbb7eddddc
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: aca7904a-d37e-4699-b624-98cbb7eddddc
-- alterId: 0
-  cipher: auto
-  name: 14|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  port: 443
-  server: b23.ntbq.dynu.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- alterId: 0
-  cipher: auto
   name: 10|台湾省中华电信 16
   network: ws
   port: 443
@@ -75,15 +64,26 @@ proxies:
     path: /b24
 - alterId: 0
   cipher: auto
-  name: 15|台湾|@ripaojiedian
+  name: 13|【BGP】台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 14|🇹🇼 台湾|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: b23.ntbq.dynu.net
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8
   ws-opts:
     headers:
-      Host: ''
+      Host: b23.ntbq.dynu.net
     path: /b23

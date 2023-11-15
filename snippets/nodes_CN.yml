@@ -1,13 +1,4 @@
 proxies:
-- name: 1|_CN__1
-  network: tcp
-  password: b7de227d-9f33-4edf-822d-9006a3b74787
-  port: 10838
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: 10,11,15|广东省移动 14
@@ -20,7 +11,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 10,11,15|广东省 移动
+  name: 10,15|广东省 移动
   network: tcp
   port: '15025'
   server: 15025.kuaiyin02.top
@@ -28,6 +19,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 67830257-a174-328f-9b63-84c66a94a1a7
+- name: 1|_CN__1
+  network: tcp
+  password: b7de227d-9f33-4edf-822d-9006a3b74787
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - name: 1|_CN__2
   network: tcp
   password: b7de227d-9f33-4edf-822d-9006a3b74787
