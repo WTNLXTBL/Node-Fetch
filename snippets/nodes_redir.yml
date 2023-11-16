@@ -1,19 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,13|🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+  name: 0,1,2,3,4,6,13|🇧🇷 _CN_中国->🇧🇷_BR_巴西
   network: tcp
-  port: '31821'
-  server: 4o5a3u04.mcfront.xyz
-  tls: true
-  type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,13|🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
-  network: tcp
-  port: '31861'
-  server: 7c1a1r04.mcfront.xyz
+  port: '31877'
+  server: 7c6i2r04.mcfront.xyz
   tls: true
   type: vmess
   uuid: 89e249d2-d316-49fe-b22e-2d1361361253
@@ -28,28 +19,24 @@ proxies:
   uuid: 89e249d2-d316-49fe-b22e-2d1361361253
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,13|🇩🇪 _CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: '31841'
-  server: 9t1d5e04.mcfront.xyz
-  tls: true
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mrb2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,4,6,13|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  name: 0,1,2,3,4,6,13|🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
   network: tcp
-  port: '31501'
-  server: 4a2u0a04.mcfront.xyz
-  tls: true
-  type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,6,13|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: '31506'
-  server: 4a2u0a05.mcfront.xyz
+  port: '31881'
+  server: 4c3p1t01.mcfront.xyz
   tls: true
   type: vmess
   uuid: 89e249d2-d316-49fe-b22e-2d1361361253
@@ -69,13 +56,17 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,13|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  tls: true
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: '80'
+  server: sbl4.shabijichang.com
+  tls: false
   type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl4.shabijichang.com
+    path: /
 - alterId: 1
   cipher: auto
   name: 12|🇨🇦 _CA_加拿大->🇬🇧_GB_英国
@@ -91,37 +82,10 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,13|🇵🇹 _CN_中国->🇵🇹_PT_葡萄牙
+  name: '0,1,2,3,4,6,13|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
   network: tcp
-  port: '31881'
-  server: 4c3p1t01.mcfront.xyz
-  tls: true
-  type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,13|🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
-  network: tcp
-  port: '31864'
-  server: 3c2h4u04.mcfront.xyz
-  tls: true
-  type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,13|🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
-  network: tcp
-  port: '31871'
-  server: 4w7u4a04.mcfront.xyz
-  tls: true
-  type: vmess
-  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,13|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '31811'
-  server: 3a4u0k04.mcfront.xyz
+  port: '31501'
+  server: 4a2u0a04.mcfront.xyz
   tls: true
   type: vmess
   uuid: 89e249d2-d316-49fe-b22e-2d1361361253
@@ -140,6 +104,73 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,13|🇺🇦 _CN_中国->🇺🇦_UA_乌克兰
+  network: tcp
+  port: '31871'
+  server: 4w7u4a04.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,13|🇦🇷 _CN_中国->🇦🇷_AR_阿根廷
+  network: tcp
+  port: '31861'
+  server: 7c1a1r04.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,13|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: '31841'
+  server: 9t1d5e04.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,13|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '31811'
+  server: 3a4u0k04.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,13|🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
+  network: tcp
+  port: '31864'
+  server: 3c2h4u04.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,6,13|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: '31506'
+  server: 4a2u0a05.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_BR_
   network: ws
   port: 80
@@ -154,37 +185,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_GB_
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,13|🇧🇷 _CN_中国->🇧🇷_BR_巴西
+  name: 0,1,2,3,4,6,13|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
   network: tcp
-  port: '31877'
-  server: 7c6i2r04.mcfront.xyz
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  tls: true
+  type: vmess
+  uuid: 89e249d2-d316-49fe-b22e-2d1361361253
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,13|🇦🇺 _CN_中国->🇦🇺_AU_澳大利亚
+  network: tcp
+  port: '31821'
+  server: 4o5a3u04.mcfront.xyz
   tls: true
   type: vmess
   uuid: 89e249d2-d316-49fe-b22e-2d1361361253
@@ -197,16 +210,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 89e249d2-d316-49fe-b22e-2d1361361253
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: '80'
-  server: sbl4.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: sbl4.shabijichang.com
-    path: /
