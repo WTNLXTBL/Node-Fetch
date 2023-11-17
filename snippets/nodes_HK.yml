@@ -12,6 +12,16 @@ proxies:
     headers:
       Host: n1698814075.aaigefm.cn
     path: /
+- alterId: 64
+  cipher: auto
+  name: 15|香港|浏览器输入 翻墙.com
+  network: tcp
+  port: '49223'
+  server: 112.29.94.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -25,27 +35,6 @@ proxies:
     tls: false
   port: 20295
   server: 223.95.40.85
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港|浏览器输入 翻墙.com
-  network: tcp
-  port: '49223'
-  server: 112.29.94.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.51.110
   tfo: false
   type: ss
 - alterId: 0
@@ -71,5 +60,16 @@ proxies:
     tls: true
   port: 443
   server: 123.254.105.107
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.51.110
   tfo: false
   type: ss
