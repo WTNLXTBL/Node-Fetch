@@ -1,13 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6|🇷🇴 _RO_罗马尼亚->🇺🇦_UA_乌克兰
-  network: http
-  port: '18785'
-  server: ss.wwww.htttbbx.alirezashhamraz.tk
+  name: 1|_US_->_IN_
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6|🇺🇸_US_美国->🇬🇧_GB_英国 #2'
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 6|🇺🇸_US_美国->🇮🇳_IN_印度
@@ -20,6 +38,28 @@ proxies:
   ws-opts:
     headers:
       Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6|🇷🇴 _RO_罗马尼亚->🇺🇦_UA_乌克兰
+  network: http
+  port: '18785'
+  server: ss.wwww.htttbbx.alirezashhamraz.tk
+  tls: false
+  type: vmess
+  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
+- alterId: 0
+  cipher: auto
+  name: 6,12|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 2052
+  server: family.mgtajhiz.ir
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -46,44 +86,4 @@ proxies:
   ws-opts:
     headers:
       Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN_
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,12|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 2052
-  server: family.mgtajhiz.ir
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国->🇬🇧_GB_英国 #2'
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
     path: /
