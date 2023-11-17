@@ -1,40 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|Anycast [1.0x] V0 新加坡 05
+  name: 12|Anycast [1.0x] V0 新加坡 04
   network: ws
   port: '80'
-  server: 198.41.223.61
-  tls: false
-  type: vmess
-  uuid: 182d5857-231e-4fa0-8b58-ea31b4c83ac1
-  ws-opts:
-    headers:
-      Host: freewhoringinkoreasg01.360ddns.online
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6a99a64b-7a31-4fbe-92c5-93d6c54748ae
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 新加坡特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 3.1.222.119
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|Anycast [1.0x] V0 新加坡 01
-  network: ws
-  port: '80'
-  server: 190.93.244.211
+  server: 172.67.75.33
   tls: false
   type: vmess
   uuid: 52614954-6b1b-408d-9c12-bb67f0d21a80
@@ -44,27 +14,77 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 12|Anycast [1.0x] V0 新加坡 04
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f856eddd-d2b3-40d1-8487-e0d30d57d446
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d66d3dfe-59ed-4826-8292-2a3b1e75a6dd
+- alterId: 0
+  cipher: auto
+  name: 12|Anycast [1.0x] V0 新加坡 05
   network: ws
   port: '80'
-  server: 172.67.75.33
+  server: 198.41.223.61
   tls: false
   type: vmess
-  uuid: 182d5857-231e-4fa0-8b58-ea31b4c83ac1
+  uuid: 52614954-6b1b-408d-9c12-bb67f0d21a80
+  ws-opts:
+    headers:
+      Host: freewhoringinkoreasg01.360ddns.online
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 新加坡特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 3.1.222.119
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|Anycast [1.0x] V0 新加坡 03
+  network: ws
+  port: '80'
+  server: 172.64.84.214
+  tls: false
+  type: vmess
+  uuid: 52614954-6b1b-408d-9c12-bb67f0d21a80
   ws-opts:
     headers:
       Host: freewhoringinkoreasg01.360ddns.online
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-146.190.96.1...
+  name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '8081'
-  server: 146.190.96.182
-  servername: ''
-  tls: false
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 06660b7f-46e7-4182-a41e-9e1d1b00b7b4
+  uuid: f856eddd-d2b3-40d1-8487-e0d30d57d446
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d66d3dfe-59ed-4826-8292-2a3b1e75a6dd
 - alterId: 0
   cipher: auto
   name: 14,15|🇸🇬 新加坡|@ripaojiedian
@@ -83,26 +103,6 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6a99a64b-7a31-4fbe-92c5-93d6c54748ae
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: de92899a-5fb8-4bb0-bb7f-b6d955984a65
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -110,30 +110,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6a99a64b-7a31-4fbe-92c5-93d6c54748ae
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: de92899a-5fb8-4bb0-bb7f-b6d955984a65
-- alterId: 0
-  cipher: auto
-  name: 12|Anycast [1.0x] V0 新加坡 02
-  network: ws
-  port: '80'
-  server: 172.67.143.201
-  tls: false
-  type: vmess
-  uuid: 52614954-6b1b-408d-9c12-bb67f0d21a80
-  ws-opts:
-    headers:
-      Host: freewhoringinkoreasg01.360ddns.online
-    path: /?ed=2048
+  uuid: d66d3dfe-59ed-4826-8292-2a3b1e75a6dd
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -143,17 +120,18 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: de92899a-5fb8-4bb0-bb7f-b6d955984a65
+  uuid: f856eddd-d2b3-40d1-8487-e0d30d57d446
 - alterId: 0
   cipher: auto
-  name: 12|Anycast [1.0x] V0 新加坡 03
+  name: 12|新加坡 003
   network: ws
-  port: '80'
-  server: 172.64.84.214
-  tls: false
+  port: 443
+  server: 170.187.230.221
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 52614954-6b1b-408d-9c12-bb67f0d21a80
+  uuid: b0437ccd-08aa-4c74-8f31-27cbed8a2de6
   ws-opts:
     headers:
-      Host: freewhoringinkoreasg01.360ddns.online
-    path: /?ed=2048
+      Host: us02web.zoom.us
+    path: /worryfree
