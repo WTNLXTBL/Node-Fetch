@@ -1,5 +1,29 @@
 proxies:
 - cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.51.110
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10,11|香港阿里云 2
+  network: ws
+  port: 443
+  server: n1698814075.aaigefm.cn
+  tls: true
+  type: vmess
+  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
+  ws-opts:
+    headers:
+      Host: n1698814075.aaigefm.cn
+    path: /
+- cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -12,27 +36,6 @@ proxies:
     tls: false
   port: 20295
   server: 223.95.40.85
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '58602'
-  server: 183.237.20.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.51.110
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -50,6 +53,16 @@ proxies:
   server: 123.254.105.107
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|@ripaojiedian
+  network: tcp
+  port: '58602'
+  server: 183.237.20.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 香港ADCDATA数...
@@ -60,16 +73,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
-- alterId: 0
-  cipher: auto
-  name: 10,11|香港阿里云 2
-  network: ws
-  port: 443
-  server: n1698814075.aaigefm.cn
-  tls: true
-  type: vmess
-  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
-  ws-opts:
-    headers:
-      Host: n1698814075.aaigefm.cn
-    path: /
