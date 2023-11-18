@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 15|香港|浏览器输入 翻墙.com
+  network: tcp
+  port: '50011'
+  server: 11.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0e9179c8-abbe-4e5b-aaa4-6e1f4f528eb0
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -14,16 +24,6 @@ proxies:
   server: 223.95.40.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10,11,12|香港ADCDATA数据中心 6
-  network: tcp
-  port: 80
-  server: 194.156.98.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -35,16 +35,6 @@ proxies:
   server: 47.76.51.110
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|香港|浏览器输入 翻墙.com
-  network: tcp
-  port: '50011'
-  server: 11.kccic2pa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0e9179c8-abbe-4e5b-aaa4-6e1f4f528eb0
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港6|@ripaojiedian
   password: 20544f92a1fb
@@ -60,3 +50,24 @@ proxies:
   server: 123.254.105.107
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰|HK|香港|@wxgqlfx|3
+  network: ws
+  port: 80
+  server: 3ab83739-e995-4f97-9629-41faac2255c9.xn--9kq12xdq7a.com
+  tls: false
+  type: vmess
+  uuid: caa995ed-86a9-4968-a332-9c11e7e13107
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,12|香港ADCDATA数据中心 6
+  network: tcp
+  port: 80
+  server: 194.156.98.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
