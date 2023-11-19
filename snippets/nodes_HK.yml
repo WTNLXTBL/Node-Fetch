@@ -14,6 +14,21 @@ proxies:
   server: 123.254.105.107
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20295
+  server: 223.95.40.85
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 15|香港3|浏览器输入 翻墙.com
@@ -24,16 +39,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 15|香港2|@ripaojiedian
-  network: tcp
-  port: '30972'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - cipher: chacha20-ietf
   name: 14|🇭🇰 香港1|浏览器输入 翻墙.com
   obfs: plain
@@ -55,18 +60,13 @@ proxies:
   server: 47.76.51.110
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20295
-  server: 223.95.40.85
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '30972'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
