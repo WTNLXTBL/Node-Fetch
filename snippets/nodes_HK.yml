@@ -1,34 +1,54 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 14|🇭🇰 香港1|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@wangcai_1
-  password: bxsnucrgk6hfish
-  port: 5953
-  protocol: auth_aes128_sha1
-  protocol-param: 40575:fV3Nxq
-  server: 122.193.251.200
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 15|香港4|浏览器输入 翻墙.com
+  network: tcp
+  port: '50011'
+  server: 11.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d5dc15e-0b62-4e7a-821c-d462d8e35ea2
 - alterId: 2
   cipher: auto
-  name: 12|[vip1]︱V2ray︱⑧香港 1000M｜×1倍率｜限速...
+  name: 12|[vip1]︱V2ray︱⑨香港 600M｜×1倍率｜限速1...
   network: tcp
-  port: 11210
-  server: 10.wogg1.top
+  port: 11211
+  server: 11.wogg1.top
   servername: ''
   tls: false
   type: vmess
   uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
-- alterId: 2
-  cipher: auto
-  name: 12|[vip1]︱V2ray︱⑦香港NTT 1000M｜×1倍率...
-  network: tcp
-  port: 11209
-  server: 9.wogg1.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20295
+  server: 223.95.40.85
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港6|@ripaojiedian
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jyn42.xjhssba.today
+    mode: websocket
+    mux: true
+    path: /vtprtcemdw
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 123.254.105.107
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 15|香港5|@ripaojiedian
@@ -43,6 +63,16 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 15|香港2|@ripaojiedian
+  network: tcp
+  port: '30972'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
   name: 14|🇭🇰 香港5|@ripaojiedian
@@ -68,21 +98,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20295
-  server: 223.95.40.85
-  tfo: false
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 12|[vip1]︱V2ray︱⑧香港 1000M｜×1倍率｜限速...
+  network: tcp
+  port: 11210
+  server: 10.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
+- alterId: 2
+  cipher: auto
+  name: 12|[vip1]︱V2ray︱⑦香港NTT 1000M｜×1倍率...
+  network: tcp
+  port: 11209
+  server: 9.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -94,48 +129,13 @@ proxies:
   server: 47.76.51.110
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港2|@ripaojiedian
-  network: tcp
-  port: '30972'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港6|@ripaojiedian
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jyn42.xjhssba.today
-    mode: websocket
-    mux: true
-    path: /vtprtcemdw
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 123.254.105.107
-  tfo: false
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 12|[vip1]︱V2ray︱⑨香港 600M｜×1倍率｜限速1...
-  network: tcp
-  port: 11211
-  server: 11.wogg1.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
-- alterId: 0
-  cipher: auto
-  name: 15|香港4|浏览器输入 翻墙.com
-  network: tcp
-  port: '50011'
-  server: 11.kccic2pa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d5dc15e-0b62-4e7a-821c-d462d8e35ea2
+- cipher: chacha20-ietf
+  name: 14|🇭🇰 香港1|浏览器输入 翻墙.com
+  obfs: plain
+  obfs-param: TG@wangcai_1
+  password: bxsnucrgk6hfish
+  port: 5953
+  protocol: auth_aes128_sha1
+  protocol-param: 40575:fV3Nxq
+  server: 122.193.251.200
+  type: ssr
