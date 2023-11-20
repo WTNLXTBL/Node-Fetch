@@ -12,15 +12,32 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,6,10,11,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '49223'
-  server: 112.29.94.23
+  name: 0,3|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '2053'
+  server: 104.26.13.8
+  tls: true
+  type: vmess
+  uuid: a4089f68-2bb1-4734-d77a-8b049a80ae8c
+  ws-opts:
+    headers:
+      Host: BAmIlo.ONlINeviSioNsTore.sITE
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,10,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: mm2.shabijichang.com
   tls: false
   type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IN_
@@ -37,32 +54,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2053'
-  server: 104.26.13.8
-  tls: true
-  type: vmess
-  uuid: a4089f68-2bb1-4734-d77a-8b049a80ae8c
-  ws-opts:
-    headers:
-      Host: BAmIlo.ONlINeviSioNsTore.sITE
-    path: /
-- alterId: 0
-  cipher: auto
   name: '0,3,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
   network: ws
   port: '80'
@@ -76,20 +67,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,10,11,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: 0,3,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: '80'
-  server: mm2.shabijichang.com
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm2.shabijichang.com
+      Host: mrb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,12|🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: 0,3|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
   port: '2096'
   server: web.parspack.com
@@ -100,3 +91,12 @@ proxies:
     headers:
       Host: tElEWebIOn.onlIneVIsioNStorE.sITE
     path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,10,11,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '49223'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
