@@ -1,30 +1,57 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|TW-板桥1-3
+  name: '10|台湾省 中华电信(HiNet)数据中心 #1'
   network: ws
   port: '443'
-  server: nbq13.ntbq.dynu.net
+  server: b24.ntbq.dynu.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
   ws-opts:
     headers:
-      Host: nbq13.ntbq.dynu.net
-    path: /b13
+      Host: b24.ntbq.dynu.net
+    path: /b24
 - alterId: 0
   cipher: auto
-  name: 12|TW-板桥1-2
+  name: 12|🇹🇼_TW_@ZDYZ2_133
   network: ws
-  port: '443'
-  server: nbq12.ntbq.dynu.net
+  port: 443
+  server: b23.ntbq.dynu.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+  uuid: 450cd674-1411-4ea1-979b-bf56da87b21d
   ws-opts:
     headers:
-      Host: nbq12.ntbq.dynu.net
-    path: /b12
+      Host: ''
+    path: /b23
+- cipher: aes-256-gcm
+  name: 14|🇹🇼 台湾2|@ripaojiedian
+  password: d7570e231c78
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn300mtw015.flybirdline.xyz
+    mode: websocket
+    mux: true
+    path: /uanrmeers
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn300mtw015.flybirdline.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  name: 14|🇹🇼 台湾|浏览器输入 翻墙.com
+  obfs: plain
+  obfs-param: TG@ripapojiedian
+  password: bxsnucrgk6hfish
+  port: 1073
+  protocol: auth_aes128_sha1
+  protocol-param: 40575:fV3Nxq
+  server: 120.232.177.250
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 10|台湾省 中华电信(HiNet)数据中心
@@ -38,16 +65,6 @@ proxies:
     headers:
       Host: b23.ntbq.dynu.net
     path: /b23
-- cipher: chacha20-ietf
-  name: 14|🇹🇼 台湾|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@ripapojiedian
-  password: bxsnucrgk6hfish
-  port: 1073
-  protocol: auth_aes128_sha1
-  protocol-param: 40575:fV3Nxq
-  server: 120.232.177.250
-  type: ssr
 - alterId: 0
   cipher: auto
   name: '10,11|台湾省 中华电信(HiNet)数据中心 #2'
@@ -64,20 +81,7 @@ proxies:
     path: /b24
 - alterId: 0
   cipher: auto
-  name: 12|TW-板桥2-1
-  network: ws
-  port: '443'
-  server: b21.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
-  ws-opts:
-    headers:
-      Host: b21.ntbq.dynu.net
-    path: /b21
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾省中华电信(HiNet)数据中心 6
+  name: 10|台湾省中华电信(HiNet)数据中心 6
   network: ws
   port: 443
   server: tc11.kq1.dynu.net
@@ -89,32 +93,3 @@ proxies:
     headers:
       Host: ''
     path: /vbub1
-- alterId: 0
-  cipher: auto
-  name: '10,11|台湾省 中华电信(HiNet)数据中心 #1'
-  network: ws
-  port: '443'
-  server: b24.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
-- cipher: aes-256-gcm
-  name: 14|🇹🇼 台湾2|@ripaojiedian
-  password: d7570e231c78
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn300mtw015.flybirdline.xyz
-    mode: websocket
-    mux: true
-    path: /uanrmeers
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: fn300mtw015.flybirdline.xyz
-  tfo: false
-  type: ss
