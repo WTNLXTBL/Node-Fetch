@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '0,3,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
   network: ws
   port: '80'
@@ -11,6 +24,32 @@ proxies:
   ws-opts:
     headers:
       Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,11,19|🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '2053'
+  server: 104.26.13.8
+  tls: true
+  type: vmess
+  uuid: a4089f68-2bb1-4734-d77a-8b049a80ae8c
+  ws-opts:
+    headers:
+      Host: BAmIlo.ONlINeviSioNsTore.sITE
     path: /
 - alterId: 0
   cipher: auto
@@ -25,19 +64,6 @@ proxies:
   ws-opts:
     headers:
       host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,19|🇺🇸_US_美国->🇮🇳_IN_印度
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -63,19 +89,6 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: 0,3|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2053'
-  server: 104.26.13.8
-  tls: true
-  type: vmess
-  uuid: a4089f68-2bb1-4734-d77a-8b049a80ae8c
-  ws-opts:
-    headers:
-      Host: BAmIlo.ONlINeviSioNsTore.sITE
-    path: /
-- alterId: 0
-  cipher: auto
   name: 0,3,6,19|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: '80'
@@ -86,17 +99,4 @@ proxies:
   ws-opts:
     headers:
       Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
     path: /
