@@ -1,24 +1,25 @@
 proxies:
-- name: 1|_HK_->_US_
-  network: tcp
-  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
-  port: 443
-  server: usa.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,10,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: 19|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰_22
+  network: http
+  port: 18785
+  server: ss.wwww.htttbbx.alirezashhamraz.tk
+  tls: false
+  type: vmess
+  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
   network: ws
   port: '80'
-  server: mm3.shabijichang.com
+  server: mm2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
+      Host: mm2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -36,34 +37,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  name: 0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
-  port: '2052'
-  server: family.mgtajhiz.ir
+  port: '80'
+  server: mm3.shabijichang.com
   tls: false
   type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: family.mgtajhiz.ir
+      Host: mm3.shabijichang.com
     path: /
-- name: 1|_HK_->_FR_
-  network: tcp
-  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
-  port: 443
-  server: uk.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰_22
-  network: http
-  port: 18785
-  server: ss.wwww.htttbbx.alirezashhamraz.tk
-  tls: false
-  type: vmess
-  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IN__2
@@ -78,14 +62,6 @@ proxies:
     headers:
       host: mm2.shabijichang.com
     path: /
-- name: 1|_HK_->_CA_
-  network: tcp
-  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
-  port: 443
-  server: ca.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IN__1
@@ -100,32 +76,14 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
+- name: 1|_HK_->_CA_
+  network: tcp
+  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
+  port: 443
+  server: ca.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|_US_->_GB__1
@@ -139,4 +97,46 @@ proxies:
   ws-opts:
     headers:
       host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,12|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  network: ws
+  port: '2052'
+  server: family.mgtajhiz.ir
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- name: 1|_HK_->_US_
+  network: tcp
+  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
+  port: 443
+  server: usa.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 1|_HK_->_FR_
+  network: tcp
+  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
+  port: 443
+  server: uk.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
     path: /
