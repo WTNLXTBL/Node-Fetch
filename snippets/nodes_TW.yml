@@ -1,6 +1,44 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,14,15|github.com/freefq - 台湾省台北市中华电信...
+  network: ws
+  port: 443
+  server: nbq11.ntbq.dynu.net
+  servername: nbq11.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 10|台湾省南投县 中华电信
+  network: ws
+  port: 443
+  server: tc12.kq1.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 42246552-d778-440f-bbb5-8f0f14139c50
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vbub2
+- cipher: chacha20-ietf
+  name: 14|🇹🇼 台湾|浏览器输入 翻墙.com
+  obfs: plain
+  obfs-param: TG@ripapojiedian
+  password: bxsnucrgk6hfish
+  port: 1073
+  protocol: auth_aes128_sha1
+  protocol-param: 40575:fV3Nxq
+  server: 120.232.177.250
+  type: ssr
+- alterId: 0
+  cipher: auto
   name: 10,11,12|台湾省桃园市 中华电信
   network: ws
   port: 443
@@ -15,21 +53,46 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: 10,11|台湾省 中华电信(HiNet)数据中心
+  name: 12|🇹🇼|TW|台湾|@wxgqlfx|31
+  network: ws
+  port: 443
+  server: b21.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 44209e14-2acf-4d62-ac06-5f7fe43e3591
+  ws-opts:
+    path: /b21
+- alterId: 0
+  cipher: auto
+  name: 12,14|TW台湾(mibei77.com 米贝节点分享)
   network: ws
   port: '443'
-  server: b24.ntbq.dynu.net
+  server: nbq13.ntbq.dynu.net
   servername: ''
   tls: true
   type: vmess
-  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
+  uuid: b3d43a0b-9ef8-4f87-a5c6-8da062e02620
   ws-opts:
     headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
+      Host: nbq13.ntbq.dynu.net
+    path: /b13
 - alterId: 0
   cipher: auto
-  name: 10,11,12,15|台湾省台北市中华电信 2
+  name: 12|🇹🇼|TW|台湾|@wxgqlfx|64
+  network: ws
+  port: '443'
+  server: b22.ntbq.dynu.net
+  servername: b22.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
+  ws-opts:
+    headers:
+      Host: b22.ntbq.dynu.net
+    path: /b22
+- alterId: 0
+  cipher: auto
+  name: 10,11,15|台湾省台北市中华电信 2
   network: ws
   port: 443
   server: nbq13.ntbq.dynu.net
@@ -41,6 +104,17 @@ proxies:
     headers:
       Host: ''
     path: /b13
+- alterId: 0
+  cipher: auto
+  name: 12|🇹🇼|TW|台湾|@wxgqlfx|65
+  network: ws
+  port: 443
+  server: b22.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 2e3f1868-eeff-4a5c-995e-9e1a2cdf1bf3
+  ws-opts:
+    path: /b22
 - cipher: aes-256-gcm
   name: 14|🇹🇼 台湾2|@ripaojiedian
   password: d7570e231c78
@@ -58,7 +132,21 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|台湾省新北市中华电信 12
+  name: 10,12|台湾省 中华电信(HiNet)数据中心
+  network: ws
+  port: '443'
+  server: b24.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|台湾省新北市中华电信 12
   network: ws
   port: 443
   server: b21.ntbq.dynu.net
@@ -70,16 +158,6 @@ proxies:
     headers:
       Host: b21.ntbq.dynu.net
     path: /b21
-- cipher: chacha20-ietf
-  name: 14|🇹🇼 台湾|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@ripapojiedian
-  password: bxsnucrgk6hfish
-  port: 1073
-  protocol: auth_aes128_sha1
-  protocol-param: 40575:fV3Nxq
-  server: 120.232.177.250
-  type: ssr
 - alterId: 0
   cipher: auto
   name: '10,11,12|台湾省桃园市 中华电信 #1'
@@ -93,17 +171,3 @@ proxies:
     headers:
       Host: ''
     path: /b11
-- alterId: 0
-  cipher: auto
-  name: 10,11,12|台湾省南投县 中华电信
-  network: ws
-  port: 443
-  server: tc12.kq1.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 42246552-d778-440f-bbb5-8f0f14139c50
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vbub2
