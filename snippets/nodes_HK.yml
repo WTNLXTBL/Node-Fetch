@@ -1,7 +1,46 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.178.215
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|香港 特别行政区
+  name: 12|香港05｜⚡️
+  network: ws
+  port: 24336
+  server: 199.15.77.157
+  servername: hk-hy02.changding.tech
+  tls: true
+  type: vmess
+  uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f
+  ws-opts:
+    headers:
+      Host: hk-hy02.changding.tech
+    path: /vm-tls1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 12|香港03
+  network: ws
+  port: 10086
+  server: 47.243.98.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f
+  ws-opts:
+    headers:
+      Host: hk-hy.changding.tech
+    path: /changding-tls0?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 10,11|香港 特别行政区
   network: ws
   port: '443'
   server: aa8.wuxianliulianng.xyz
@@ -13,21 +52,6 @@ proxies:
     headers:
       Host: 4444.golinkwuxian.top
     path: /apple
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港6|@ripaojiedian
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jyn42.xjhssba.today
-    mode: websocket
-    mux: true
-    path: /vtprtcemdw
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 123.254.105.107
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -43,20 +67,6 @@ proxies:
   server: 223.95.40.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰|HK|香港|@wxgqlfx|59
-  network: ws
-  port: '443'
-  server: aa2.wuxianliulianng.xyz
-  servername: 111.golinkwuxian.top
-  tls: true
-  type: vmess
-  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
-  ws-opts:
-    headers:
-      Host: 111.golinkwuxian.top
-    path: /apple
 - cipher: chacha20-ietf
   name: 14|🇭🇰 香港1|浏览器输入 翻墙.com
   obfs: plain
@@ -67,14 +77,18 @@ proxies:
   protocol-param: 40575:fV3Nxq
   server: 122.193.251.200
   type: ssr
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港6|@ripaojiedian
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
   plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.178.215
+    host: jyn42.xjhssba.today
+    mode: websocket
+    mux: true
+    path: /vtprtcemdw
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 123.254.105.107
   tfo: false
   type: ss
