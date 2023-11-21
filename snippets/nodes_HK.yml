@@ -9,6 +9,16 @@ proxies:
   protocol-param: 40575:fV3Nxq
   server: 122.193.251.200
   type: ssr
+- alterId: 64
+  cipher: auto
+  name: 15|香港3|浏览器输入 翻墙.com
+  network: tcp
+  port: '34996'
+  server: 36.141.40.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港6|@ripaojiedian
   password: 20544f92a1fb
@@ -24,20 +34,17 @@ proxies:
   server: 123.254.105.107
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|香港5|@ripaojiedian
-  network: ws
-  port: '46005'
-  server: mf805f.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.178.215
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -49,33 +56,7 @@ proxies:
     path: ''
     skip-cert-verify: true
     tls: false
-  port: 20295
+  port: 20297
   server: 223.95.40.85
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 46005
-  server: mf805f.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: bc230344-14d9-4922-9fb7-2e6513c5593e
-  ws-opts:
-    headers:
-      Host: mf805f.micloud.buzz
-    path: /zh-cn
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.51.110
   tfo: false
   type: ss
