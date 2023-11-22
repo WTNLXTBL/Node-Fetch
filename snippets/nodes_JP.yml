@@ -1,36 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 297c1643-7510-447a-ae9b-ff1f72eee469
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 671fad9a-1025-4e92-83aa-e7213b9646f9
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 297c1643-7510-447a-ae9b-ff1f72eee469
-- alterId: 0
-  cipher: auto
   name: 12|🇯🇵日本5丨电报群@bp520
   network: ws
   port: '80'
@@ -44,17 +14,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵日本6丨电报群@bp520
+  name: 14,15|🇯🇵 日本|浏览器输入 翻墙.com
   network: ws
-  port: '80'
-  server: 162.159.142.236
+  port: 32201
+  server: free-relay.themars.top
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
+  uuid: afdc69bd-67a1-46e9-9211-c544fe83a755
   ws-opts:
     headers:
-      Host: jp3.visaapp.top
-    path: /
+      Host: www.cctv.com
+    path: /cctv1.m3u8
 - cipher: aes-256-cfb
   name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
   password: amazonskr05
@@ -62,16 +34,6 @@ proxies:
   server: 43.207.109.28
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -89,6 +51,26 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 13e36dcb-1911-4bb0-ae54-a67e43b08542
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ec11aea1-551a-465f-b299-401fb6fe5672
+- alterId: 0
+  cipher: auto
   name: 9|🇯🇵日本06
   network: tcp
   port: '36111'
@@ -96,7 +78,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 671fad9a-1025-4e92-83aa-e7213b9646f9
+  uuid: 13e36dcb-1911-4bb0-ae54-a67e43b08542
 - alterId: 0
   cipher: auto
   name: 12|[vmess]日本a10
@@ -111,27 +93,70 @@ proxies:
     headers:
       Host: 4444.golinkwuxian.top
     path: /apple
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10016
+  server: 139.227.182.207
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14,15|🇯🇵 日本|浏览器输入 翻墙.com
-  network: ws
-  port: 32201
-  server: free-relay.themars.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 13|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: afdc69bd-67a1-46e9-9211-c544fe83a755
-  ws-opts:
-    headers:
-      Host: www.cctv.com
-    path: /cctv1.m3u8
+  uuid: ec11aea1-551a-465f-b299-401fb6fe5672
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ec11aea1-551a-465f-b299-401fb6fe5672
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵日本3丨电报群@bp520
   network: ws
   port: '80'
   server: 162.159.142.233
+  tls: false
+  type: vmess
+  uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵日本2丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.232
   tls: false
   type: vmess
   uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
@@ -154,52 +179,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 671fad9a-1025-4e92-83aa-e7213b9646f9
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 297c1643-7510-447a-ae9b-ff1f72eee469
-- cipher: aes-128-gcm
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 10016
-  server: 139.227.182.207
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本2丨电报群@bp520
+  name: 12|🇯🇵日本6丨电报群@bp520
   network: ws
   port: '80'
-  server: 162.159.142.232
+  server: 162.159.142.236
   tls: false
   type: vmess
   uuid: d1be15e3-947d-43b6-9002-39b5f9635bf4
   ws-opts:
     headers:
-      Host: jp3.889611.com
+      Host: jp3.visaapp.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵日本1丨电报群@bp520
@@ -215,10 +214,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  name: 9|🇯🇵日本04
   network: tcp
-  port: 1069
-  server: 152.69.197.60
-  tls: false
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: 13e36dcb-1911-4bb0-ae54-a67e43b08542
