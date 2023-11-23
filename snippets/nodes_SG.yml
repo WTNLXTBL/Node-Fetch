@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3e4ffcb5-f5cf-4540-af59-c4afae3cda67
+- alterId: 0
+  cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -8,7 +18,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d6d5470-400a-4256-9d0a-e962edbc44d8
+  uuid: 7f305ea7-2c12-4513-ad7e-a221477564ec
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -18,27 +28,30 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d6d5470-400a-4256-9d0a-e962edbc44d8
+  uuid: 7f305ea7-2c12-4513-ad7e-a221477564ec
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9d6d5470-400a-4256-9d0a-e962edbc44d8
+  uuid: 3e4ffcb5-f5cf-4540-af59-c4afae3cda67
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
+  name: '12|🇸🇬新加坡05 #1'
+  network: ws
+  port: '80'
+  server: sg2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  tls: false
   type: vmess
-  uuid: fc8af368-f768-480d-af05-25e25ba39de9
+  uuid: da89a49f-3a20-4de1-94b9-06690121e926
+  ws-opts:
+    headers:
+      Host: dl.delivery.mp.microsoft.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
   password: 01358ab4-3522-4233-b6a6-c8edb073b9a1
@@ -55,14 +68,57 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc8af368-f768-480d-af05-25e25ba39de9
+  uuid: 3e4ffcb5-f5cf-4540-af59-c4afae3cda67
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.87.59...
+  network: ws
+  port: '48022'
+  server: 146.190.87.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ebb0ca35-4379-485a-a46f-02df666ac96b
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /ADMIN_SHALANA
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fc8af368-f768-480d-af05-25e25ba39de9
+  uuid: 7f305ea7-2c12-4513-ad7e-a221477564ec
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬新加坡02
+  network: ws
+  port: '80'
+  server: sg1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  tls: false
+  type: vmess
+  uuid: da89a49f-3a20-4de1-94b9-06690121e926
+  ws-opts:
+    headers:
+      Host: dl.delivery.mp.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 443
+  server: c6.wuxianliulianng.xyz
+  servername: golinkwuxian.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 1389986a-6eb6-4f7b-839c-9cfb83ab700d
+  ws-opts:
+    headers:
+      Host: 6666.golinkwuxian.top
+    path: /apple
