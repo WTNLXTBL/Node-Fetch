@@ -1,20 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  name: 0,3,6,12|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: '80'
   server: ld2.shabijichang.com
@@ -27,18 +14,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸 _US_美国->🇫🇷_FR_法国 8
+  name: '3|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
   network: ws
-  port: 2095
-  server: 172.67.229.25
-  servername: ''
+  port: '80'
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+      Host: mrb2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|🇮🇷_IR_伊朗->🇫🇮_FI_芬兰_由快嘴科技提供：kkz...
@@ -49,3 +35,21 @@ proxies:
   type: vmess
   uuid: a0ca0796-3f90-4908-8f78-8f5922908dd8
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 0,6|🇩🇪 _FI_芬兰->🇩🇪_DE_德国
+  network: http
+  port: '2053'
+  server: bia-kanal-telegram.freev2alpha.cfd
+  tls: false
+  type: vmess
+  uuid: 4a923b7d-7f20-4e8a-81e3-1e7eaf9cc504
+- alterId: 64
+  cipher: auto
+  name: 0,6,10,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '43526'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
