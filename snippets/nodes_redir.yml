@@ -1,16 +1,43 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6|🇮🇷_IR_伊朗->🇩🇪_DE_德国
+  name: '6|🇮🇷_IR_伊朗->🇩🇪_DE_德国 #1'
   network: http
   port: 443
-  server: 91.107.157.61
+  server: 128.140.65.147
   tls: false
   type: vmess
-  uuid: d20e38ef-1a4d-4009-a00d-2f0d44e3c65a
+  uuid: 3cd02bd2-8ee0-448a-e553-692d0ec31173
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
-  name: 0,1,2,3,4,6,10,11,12,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  name: 0,1,2,3,4,6,10,11,15,18|🇬🇧 _CN_中国->🇬🇧_GB_英国
   network: tcp
   port: '43526'
   server: 112.29.94.23
@@ -29,37 +56,10 @@ proxies:
   uuid: d20e38ef-1a4d-4009-a00d-2f0d44e3c65a
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_GB_
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇮🇳_IN_印度
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6|🇮🇷_IR_伊朗->🇩🇪_DE_德国 #1'
+  name: 6|🇮🇷_IR_伊朗->🇩🇪_DE_德国
   network: http
   port: 443
-  server: 128.140.65.147
+  server: 91.107.157.61
   tls: false
   type: vmess
-  uuid: 3cd02bd2-8ee0-448a-e553-692d0ec31173
+  uuid: d20e38ef-1a4d-4009-a00d-2f0d44e3c65a
