@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.250.241.238
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 05  | 1x JP
@@ -8,28 +15,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 76897c04-cd02-45de-b393-0c514e9c1bce
-- alterId: 0
-  cipher: auto
-  name: 10,12|日本 东京Digital VM
-  network: ws
-  port: '80'
-  server: rbtow.yunjisuan.cf
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 43.206.224.156
-  tfo: false
-  type: ss
+  uuid: 9866e842-bd78-47a7-8d0f-aca2e613a336
 - alterId: 0
   cipher: auto
   name: 10|日本 东京Amazon数据中心
@@ -46,19 +32,6 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 12|JP-日本 01 | ws | 倍率x1
-  network: ws
-  port: '80'
-  server: rb.yunjisuan.cf
-  tls: false
-  type: vmess
-  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -66,50 +39,47 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cf36c9d3-7b2f-49ff-9da4-d71ae7632460
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
-  network: tcp
-  port: '20081'
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c410124c-7db9-443c-95ce-219bc5613892
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵 _JP_日本
-  network: ws
-  port: '443'
-  server: 103.35.190.65
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
   tls: false
   type: vmess
-  uuid: ed531ebe-4971-47f9-a881-636d0b101a45
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 06  | 1x JP
+  name: 13|【BGP】日本 04  | 1x JP
   network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 76897c04-cd02-45de-b393-0c514e9c1bce
+  uuid: 9866e842-bd78-47a7-8d0f-aca2e613a336
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本|@ripaojiedian
+  password: a58024d9-e277-49df-91aa-2fdad751f76d
+  port: 50005
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|日本 东京Digital VM
+  network: ws
+  port: '80'
+  server: rbtow.yunjisuan.cf
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -125,29 +95,6 @@ proxies:
   server: 139.227.182.207
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|JP-日本 03 | ws | 倍率x1
-  network: ws
-  port: '80'
-  server: rbthree.yunjisuan.cf
-  tls: false
-  type: vmess
-  uuid: c75b345e-bb05-4a44-88e1-ca026ffe965d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 76897c04-cd02-45de-b393-0c514e9c1bce
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -165,6 +112,36 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 12|🇯🇵 _JP_日本
+  network: ws
+  port: '443'
+  server: 103.35.190.65
+  tls: false
+  type: vmess
+  uuid: ed531ebe-4971-47f9-a881-636d0b101a45
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 52.196.208.208
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9866e842-bd78-47a7-8d0f-aca2e613a336
+- alterId: 0
+  cipher: auto
   name: 9|🇯🇵日本05
   network: tcp
   port: '36106'
@@ -172,28 +149,12 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cf36c9d3-7b2f-49ff-9da4-d71ae7632460
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本|@ripaojiedian
-  password: a58024d9-e277-49df-91aa-2fdad751f76d
-  port: 50005
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  uuid: c410124c-7db9-443c-95ce-219bc5613892
 - cipher: aes-256-cfb
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  name: 14|🇯🇵 东京特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
-  server: 54.250.241.238
+  server: 43.206.224.156
   tfo: false
   type: ss
 - alterId: 0
@@ -205,11 +166,27 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cf36c9d3-7b2f-49ff-9da4-d71ae7632460
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-  password: amazonskr05
+  uuid: c410124c-7db9-443c-95ce-219bc5613892
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵|JP|日本|@wxgqlfx|1
+  network: ws
   port: 443
-  server: 52.196.208.208
-  tfo: false
-  type: ss
+  server: jp2.jidexufei.top
+  tls: false
+  type: vmess
+  uuid: 8ab61f8b-2d9f-4105-90ad-9ab1540bbdda
+  ws-opts:
+    headers:
+      Host: jp2.jidexufei.top
+    path: /cctv13/hd.m3u8
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
