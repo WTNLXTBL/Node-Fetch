@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 0,3,6|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '12|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
   network: ws
   port: '80'
@@ -11,34 +24,6 @@ proxies:
   ws-opts:
     headers:
       Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇺🇸_US_美国->🇮🇳_IN_印度_3
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB_
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: ld2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -64,7 +49,21 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: 0,12|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  name: 12|🇺🇸_US_美国->🇮🇳_IN_印度_3
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,12|🇸🇬 _US_美国->🇸🇬_SG_新加坡
   network: ws
   port: '2052'
   server: us.lonan.can.1145114.me
@@ -77,7 +76,20 @@ proxies:
     path: /lonan
 - alterId: 0
   cipher: auto
-  name: 0,6,19|🇯🇵 _JP_日本->🇺🇸_US_美国
+  name: 0,3,10,11,12,19|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: '80'
+  server: upload.ir
+  tls: false
+  type: vmess
+  uuid: 085f6281-5c4c-4a34-8b44-d65bc2e2b069
+  ws-opts:
+    headers:
+      Host: is3-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,19|🇯🇵 _JP_日本->🇺🇸_US_美国
   network: ws
   port: '443'
   server: aa1.wuxianliulianng.xyz
@@ -90,7 +102,7 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 0,6,12|🇺🇸 _US_美国->🇧🇷_BR_巴西
+  name: 0,3,6,12|🇺🇸 _US_美国->🇧🇷_BR_巴西
   network: ws
   port: '2052'
   server: snmxw.qkhbyf.tech
@@ -103,6 +115,20 @@ proxies:
     path: /lonanhis
 - alterId: 0
   cipher: auto
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1,2,4|_IR_->_DE_
   network: http
   port: 443
@@ -111,29 +137,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d20e38ef-1a4d-4009-a00d-2f0d44e3c65a
-- alterId: 0
-  cipher: auto
-  name: 0,6,10|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,10,11,12,19|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: '80'
-  server: upload.ir
-  tls: false
-  type: vmess
-  uuid: 085f6281-5c4c-4a34-8b44-d65bc2e2b069
-  ws-opts:
-    headers:
-      Host: is3-vmess.sshmax.xyz
-    path: /vmess
