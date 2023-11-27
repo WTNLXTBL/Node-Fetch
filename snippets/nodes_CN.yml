@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,15|github.com/freefq - 广东省移动 11
+  name: 11,15|github.com/freefq - 广东省移动 23
   network: tcp
   port: '49502'
   server: 183.237.20.146
@@ -11,11 +11,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|🇨🇳_CN_中国_472
-  network: tcp
-  port: 3507
-  server: 183.232.238.77
+  name: 11,12|github.com/freefq - 广东省广州市移动 2
+  network: ws
+  port: 16790
+  server: 120.232.242.45
   servername: ''
   tls: false
   type: vmess
-  uuid: ab537195-b74c-3df5-a3a1-d504345e80bb
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: china.bing123.com
+    path: /soda

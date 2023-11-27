@@ -1,31 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
+  name: 12|新加坡 01 【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: 10010
+  server: 120.232.242.45
+  servername: ''
+  tls: false
   type: vmess
-  uuid: f15bd60f-9354-4657-8352-89ad886e38fe
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f15bd60f-9354-4657-8352-89ad886e38fe
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.163.30
-  tfo: false
-  type: ss
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: www.alidns.com
+    path: /soda
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -35,21 +22,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f15bd60f-9354-4657-8352-89ad886e38fe
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.87.59...
-  network: ws
-  port: '48022'
-  server: 146.190.87.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ebb0ca35-4379-485a-a46f-02df666ac96b
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /ADMIN_SHALANA
+  uuid: 43c59bd2-40b3-4419-bd28-bb80a093504f
 - cipher: aes-256-cfb
   name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
   password: amazonskr05
@@ -57,23 +30,68 @@ proxies:
   server: 13.229.64.27
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: d49dd50e-d1b9-4815-a938-7886bae110b8
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
+  name: '12|新加坡 01 【TG：@ccbaohe】定时更新节点订阅 #1'
+  network: ws
+  port: '10010'
+  server: 112.28.245.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: www.alidns.com
+    path: /soda
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 03 【TG：@ccbaohe】定时更新节点订阅 2
+  network: ws
+  port: 18079
+  server: 221.131.165.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: www.alidns.com
+    path: /soda
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 11ce4f98-c01f-42df-ac0b-74c17e505a52
+  uuid: 43c59bd2-40b3-4419-bd28-bb80a093504f
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 03 【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: '18079'
+  server: 112.28.245.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: www.alidns.com
+    path: /soda
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 43c59bd2-40b3-4419-bd28-bb80a093504f
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -83,21 +101,65 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 11ce4f98-c01f-42df-ac0b-74c17e505a52
+  uuid: 042b7e2c-ac63-4406-aff8-479da0d7e03e
 - alterId: 0
   cipher: auto
-  name: 12|新加坡AkileCloud-1-没有CDN
+  name: 12|【直连】狮城 - TLS - 2 - B Group
   network: ws
-  port: '80'
-  server: 185.81.28.11
-  servername: ''
-  tls: false
+  port: '443'
+  server: tls.0000000056b.node-for-bigairport.win
+  tls: true
   type: vmess
-  uuid: 93f4273e-e45a-49f4-fb8d-0308e0290128
+  uuid: 965cb04b-1dc7-4f6b-afbf-dd5c038da0c3
   ws-opts:
     headers:
       Host: ''
-    path: /xiaoxiaoqwerty_sg2_lol_begin_suiji_sguwgwuehf68yhhggjwgwjwvshwjgwndhsjj676rwhuqgusjrbejqkhwjw686bsiwgiwgsizhaiqjgaiahakwloqpdodgdiwgei_end
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 042b7e2c-ac63-4406-aff8-479da0d7e03e
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 02 【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: 19011
+  server: 221.131.165.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: www.alidns.com
+    path: /soda
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 02 ·{TG：@ccbaohe}定时更新节点订阅·...
+  network: ws
+  port: '19011'
+  server: 221.131.165.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: 221.131.165.182
+    path: /soda
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.139.163.30
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
@@ -107,4 +169,25 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 11ce4f98-c01f-42df-ac0b-74c17e505a52
+  uuid: 042b7e2c-ac63-4406-aff8-479da0d7e03e
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
+  password: d49dd50e-d1b9-4815-a938-7886bae110b8
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 03 ·{TG：@ccbaohe}定时更新节点订阅·...
+  network: ws
+  port: '18079'
+  server: 221.131.165.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ea5594d5-9f6d-314a-bf93-3ce95b1d8635
+  ws-opts:
+    headers:
+      Host: 221.131.165.182
+    path: /soda
