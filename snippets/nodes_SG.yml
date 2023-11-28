@@ -1,14 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4968fa0-f512-44b3-a72c-c52db758285d
+  uuid: cb2dcbfa-bee4-4378-a0d3-59c1273e6e19
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
+  password: 64e1703a-ce4d-499a-8353-56c656d9bdf8
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|新加坡 - 新加坡 - Shenzhen Tencent C...
@@ -25,16 +32,6 @@ proxies:
     path: /yongdong
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 64f96c93-b3fd-49a9-8d0d-5ee8facb3b29
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -42,52 +39,17 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e4968fa0-f512-44b3-a72c-c52db758285d
+  uuid: 85ace3c5-8bb1-48ec-a716-5c4c3c345d3c
 - alterId: 0
   cipher: auto
-  name: '12|新加坡 - 新加坡 - Shenzhen Tencent C... #1'
-  network: ws
-  port: 20001
-  server: xjp.yongdong.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 73d18f8b-4517-4d69-8087-57516f487044
-  ws-opts:
-    headers:
-      Host: yongdong.xyz
-    path: /yongdong
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 64f96c93-b3fd-49a9-8d0d-5ee8facb3b29
-- alterId: 0
-  cipher: auto
-  name: '12|新加坡 - 新加坡 - Shenzhen Tencent C... #2'
-  network: ws
-  port: 20002
-  server: xjp.yongdong.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 73d18f8b-4517-4d69-8087-57516f487044
-  ws-opts:
-    headers:
-      Host: yongdong.xyz
-    path: /yongdong
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: 64e1703a-ce4d-499a-8353-56c656d9bdf8
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  uuid: cb2dcbfa-bee4-4378-a0d3-59c1273e6e19
 - alterId: 0
   cipher: auto
   name: 14,15|🇸🇬 新加坡|浏览器输入 翻墙.com
@@ -103,13 +65,6 @@ proxies:
     headers:
       Host: sg2.jiedian.stream
     path: /
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 13.213.1.132
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -119,7 +74,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 64f96c93-b3fd-49a9-8d0d-5ee8facb3b29
+  uuid: cb2dcbfa-bee4-4378-a0d3-59c1273e6e19
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -129,4 +84,49 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e4968fa0-f512-44b3-a72c-c52db758285d
+  uuid: 85ace3c5-8bb1-48ec-a716-5c4c3c345d3c
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85ace3c5-8bb1-48ec-a716-5c4c3c345d3c
+- alterId: 0
+  cipher: auto
+  name: '12|新加坡 - 新加坡 - Shenzhen Tencent C... #1'
+  network: ws
+  port: 20001
+  server: xjp.yongdong.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 73d18f8b-4517-4d69-8087-57516f487044
+  ws-opts:
+    headers:
+      Host: yongdong.xyz
+    path: /yongdong
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 13.213.1.132
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|新加坡 - 新加坡 - Shenzhen Tencent C... #2'
+  network: ws
+  port: 20002
+  server: xjp.yongdong.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 73d18f8b-4517-4d69-8087-57516f487044
+  ws-opts:
+    headers:
+      Host: yongdong.xyz
+    path: /yongdong
