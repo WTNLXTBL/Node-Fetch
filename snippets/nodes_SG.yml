@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|新加坡 - 新加坡 - Amazon.com, Inc.
-  network: ws
-  port: 80
-  server: sg2.jiedian.stream
-  servername: gw.alicdn.com
-  tls: false
-  type: vmess
-  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -22,31 +8,14 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73a19200-b32a-4a44-bde4-a4ab6a5e3268
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8572cb9d-e922-4022-93d1-d788cf59cbad
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡 - 新加坡 - LINODE
-  network: ws
-  port: 80
-  server: sg3.jiedian.stream
-  servername: gw.alicdn.com
-  tls: false
-  type: vmess
-  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 79fc35a4-ff80-4d3a-88de-ba69b7920b26
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
+  password: 64e1703a-ce4d-499a-8353-56c656d9bdf8
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14,15|🇸🇬 新加坡|浏览器输入 翻墙.com
@@ -64,44 +33,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8572cb9d-e922-4022-93d1-d788cf59cbad
+  uuid: 79fc35a4-ff80-4d3a-88de-ba69b7920b26
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8572cb9d-e922-4022-93d1-d788cf59cbad
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: 64e1703a-ce4d-499a-8353-56c656d9bdf8
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬SINGAPORE
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.87.59...
   network: ws
-  port: 8443
-  server: v14.583182.xyz
-  tls: true
+  port: '48022'
+  server: 146.190.87.59
+  servername: ''
+  tls: false
   type: vmess
-  uuid: daa1dbbe-e0aa-4ee9-ae29-438e84667e1f
+  uuid: ebb0ca35-4379-485a-a46f-02df666ac96b
   ws-opts:
     headers:
-      Host: v14.583181.xyz
-    path: /
+      Host: media-exp1.licdn.com
+    path: /ADMIN_SHALANA
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡04
@@ -111,17 +64,27 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73a19200-b32a-4a44-bde4-a4ab6a5e3268
+  uuid: 79fc35a4-ff80-4d3a-88de-ba69b7920b26
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 73a19200-b32a-4a44-bde4-a4ab6a5e3268
+  uuid: f6846757-4420-4b04-8ebb-c011d1b3e7b3
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f6846757-4420-4b04-8ebb-c011d1b3e7b3
 - cipher: aes-256-cfb
   name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
   password: amazonskr05
@@ -129,3 +92,13 @@ proxies:
   server: 13.213.1.132
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f6846757-4420-4b04-8ebb-c011d1b3e7b3
