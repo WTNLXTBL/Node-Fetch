@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,19|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
+  name: 6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
   network: ws
   port: 2082
   server: au-01.jikuai.xyz
@@ -14,17 +14,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_GB_
+  name: 6|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: ld2.shabijichang.com
+      Host: mrb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -42,30 +41,44 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_FR_
+  name: 1|_US_->_IN__1
   network: ws
-  port: 2082
-  server: fr-01.jikuai.xyz
+  port: 80
+  server: mm2.shabijichang.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      host: fr-01.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
+      host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: fr-01.jikuai.xyz
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: fr-01.jikuai.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -82,29 +95,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,11,19|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: fr-01.jikuai.xyz
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: fr-01.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,19|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: '0,2,3,4,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
   network: ws
   port: '80'
-  server: mm2.shabijichang.com
+  server: mm3.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mm2.shabijichang.com
+      Host: mm3.shabijichang.com
     path: /
 - alterId: 64
   cipher: auto
@@ -117,28 +117,41 @@ proxies:
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN__1
+  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
-  port: 80
+  port: '80'
   server: mm2.shabijichang.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mm2.shabijichang.com
+      Host: mm2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,19|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 1|_US_->_FR_
   network: ws
-  port: 80
-  server: mrb2.shabijichang.com
+  port: 2082
+  server: fr-01.jikuai.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   ws-opts:
     headers:
-      Host: mrb2.shabijichang.com
+      host: fr-01.jikuai.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇨🇳_CN_中国->🇪🇸_ES_西班牙_2由快嘴科技提供;k...
+  network: ws
+  port: 30016
+  server: v01.gutingting.com
+  tls: false
+  type: vmess
+  uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b
+  ws-opts:
+    headers:
+      Host: v01.gutingting.com
+    path: /aceamedv
