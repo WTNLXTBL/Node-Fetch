@@ -1,4 +1,15 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.218.63.204
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14,15|🇭🇰 香港1|浏览器输入 翻墙.com
@@ -22,27 +33,21 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.218.63.204
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 14|🇭🇰 香港2|付费版推荐 翻墙.com
-  port: 53300
-  server: 112.29.94.23
+  name: 14,15|🇭🇰 香港4|频道:@ripaojiedian
+  network: ws
+  port: 30007
+  server: 183.232.159.153
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b
+  ws-opts:
+    headers:
+      Host: v01.gutingting.com
+    path: /aceamedv
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -58,6 +63,16 @@ proxies:
   server: 139.226.166.47
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 14|🇭🇰 香港2|付费版推荐 翻墙.com
+  port: 53300
+  server: 112.29.94.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 15|香港2|付费版推荐 翻墙.com
