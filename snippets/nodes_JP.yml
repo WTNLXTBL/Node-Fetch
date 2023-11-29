@@ -1,19 +1,24 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 10016
-  server: 139.227.182.207
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 395dafc0-84bf-4cc5-a432-02772d9a6c05
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 15eb4f43-2621-4799-9e88-3088cfc19cc3
 - alterId: 0
   cipher: auto
   name: 19|🇯🇵_JP_日本_2_由快嘴科技提供：kkzui.com9
@@ -36,40 +41,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7714fac1-5271-4193-927f-51122d7e9c37
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7714fac1-5271-4193-927f-51122d7e9c37
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6,19|🇯🇵 _JP_日本
-  network: ws
-  port: '443'
-  server: 103.13.208.159
-  tls: true
-  type: vmess
-  uuid: 0c42fcf1-3850-45e2-94b7-556440a0060d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /DI5aPORpOasXtsDDSw7kNJ4NXtP
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 15eb4f43-2621-4799-9e88-3088cfc19cc3
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -85,13 +57,63 @@ proxies:
   server: 139.227.182.207
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 18.183.76.16
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本|@ripaojiedian
+  password: 9d364a21-46f6-4242-8d91-7edaa1793dc9
+  port: 50001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.230.241.234
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 15eb4f43-2621-4799-9e88-3088cfc19cc3
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 395dafc0-84bf-4cc5-a432-02772d9a6c05
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,6,19|🇯🇵 _JP_日本
+  network: ws
+  port: '443'
+  server: 103.13.208.159
+  tls: true
+  type: vmess
+  uuid: 0c42fcf1-3850-45e2-94b7-556440a0060d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /DI5aPORpOasXtsDDSw7kNJ4NXtP
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -101,22 +123,12 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09799e83-28ed-472e-b67e-688ab9909883
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09799e83-28ed-472e-b67e-688ab9909883
+  uuid: 395dafc0-84bf-4cc5-a432-02772d9a6c05
 - cipher: aes-256-cfb
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
-  server: 13.230.241.234
+  server: 18.183.76.16
   tfo: false
   type: ss
 - alterId: 0
@@ -140,30 +152,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7714fac1-5271-4193-927f-51122d7e9c37
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本|@ripaojiedian
-  password: 9d364a21-46f6-4242-8d91-7edaa1793dc9
-  port: 50001
-  server: service.ouluyun9803.com
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10016
+  server: 139.227.182.207
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09799e83-28ed-472e-b67e-688ab9909883
