@@ -1,13 +1,70 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '43526'
-  server: 112.29.94.23
+  name: 19|🇨🇳_CN_中国->🇪🇸_ES_西班牙_2由快嘴科技提供;k...
+  network: ws
+  port: 30016
+  server: v01.gutingting.com
   tls: false
   type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+  uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b
+  ws-opts:
+    headers:
+      Host: v01.gutingting.com
+    path: /aceamedv
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇫🇷_FR_法国_7
+  network: ws
+  port: 80
+  server: 172.64.88.169
+  tls: false
+  type: vmess
+  uuid: ffbfc19a-6495-4d14-c95c-06a09d013309
+  ws-opts:
+    headers:
+      Host: tgdns68.9669.link
+    path: /ffbfc19a-6495-4d14-c95c-06a09d013309
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: '80'
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: fr-01.jikuai.xyz
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: fr-01.jikuai.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
@@ -20,33 +77,6 @@ proxies:
   ws-opts:
     headers:
       Host: au-01.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__1
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -64,33 +94,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: fr-01.jikuai.xyz
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: fr-01.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB_
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 6|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
@@ -101,6 +104,65 @@ proxies:
   ws-opts:
     headers:
       Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇩🇪_DE_德国_2_3由快嘴科技提供;...
+  network: ws
+  port: 2096
+  server: xyz29.forwardv2raytelegramchannel.fun
+  tls: true
+  type: vmess
+  uuid: 819f16dc-5632-42dd-8427-09a702867016
+  ws-opts:
+    path: /FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供;kkz...
+  network: ws
+  port: 8080
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: dfcdd618-cc97-4654-bbad-212050a916e7
+  ws-opts:
+    headers:
+      Host: gr-cl.whaleproject.tech
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '43526'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -118,40 +180,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 1|_US_->_IN__1
   network: ws
-  port: '80'
-  server: ld2.shabijichang.com
+  port: 80
+  server: mm2.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ld2.shabijichang.com
+      host: mm2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,19|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|🇨🇳_CN_中国->🇪🇸_ES_西班牙_2由快嘴科技提供;k...
-  network: ws
-  port: 30016
-  server: v01.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 2567bed8-e47a-4a8b-a336-244fdd203e9b
-  ws-opts:
-    headers:
-      Host: v01.gutingting.com
-    path: /aceamedv
