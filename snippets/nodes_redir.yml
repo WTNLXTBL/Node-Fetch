@@ -1,4 +1,13 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: '43526'
+  server: 112.29.94.23
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - alterId: 0
   cipher: auto
   name: 6|🇺🇸_US_美国->🇦🇺_AU_澳大利亚
@@ -14,30 +23,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
-  port: 80
-  server: mrb2.shabijichang.com
+  port: '80'
+  server: mm2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN__2
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm3.shabijichang.com
+      Host: mm2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -55,6 +50,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 1|_US_->_IN__2
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: fr-01.jikuai.xyz
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: fr-01.jikuai.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_GB_
   network: ws
   port: 80
@@ -69,16 +91,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: 6|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
-  port: '2082'
+  port: 80
+  server: mrb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_FR_
+  network: ws
+  port: 2082
   server: fr-01.jikuai.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   ws-opts:
     headers:
-      Host: fr-01.jikuai.xyz
+      host: fr-01.jikuai.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -105,42 +141,6 @@ proxies:
   ws-opts:
     headers:
       Host: mm3.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,15,19|🇬🇧 _CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: '43526'
-  server: 112.29.94.23
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_FR_
-  network: ws
-  port: 2082
-  server: fr-01.jikuai.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      host: fr-01.jikuai.xyz
     path: /
 - alterId: 0
   cipher: auto
