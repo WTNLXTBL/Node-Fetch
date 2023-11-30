@@ -1,47 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 台湾省新竹市中华电信...
-  network: ws
-  port: 443
-  server: b2u2.ntbq.dynu.net
-  servername: b2u2.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
-  ws-opts:
-    headers:
-      Host: ''
-    path: /b22
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 台湾省台北市中华电信...
-  network: ws
-  port: 443
-  server: nbq13.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d4d569d6-dbae-4ea3-bd7b-80f857b82f98
-  ws-opts:
-    headers:
-      Host: nbq13.ntbq.dynu.net
-    path: /b13
-- alterId: 0
-  cipher: auto
-  name: 14|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  port: 443
-  server: b24.ntbq.dynu.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
 - cipher: aes-256-gcm
   name: 14|🇹🇼 台湾3|@ripaojiedian
   password: 6cb1057882ee
@@ -59,6 +16,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 11|github.com/freefq - 台湾省中华电信(Hi...
+  network: ws
+  port: 443
+  server: b2u3.ntbq.dynu.net
+  servername: b2u3.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b23
+- alterId: 0
+  cipher: auto
   name: 15|台湾|@ripaojiedian
   network: ws
   port: '443'
@@ -73,15 +44,44 @@ proxies:
     path: /b24
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 台湾省中华电信(Hi...
+  name: 11|github.com/freefq - 台湾省新竹市中华电信...
   network: ws
   port: 443
-  server: b2u3.ntbq.dynu.net
-  servername: b2u3.ntbq.dynu.net
+  server: b2u2.ntbq.dynu.net
+  servername: b2u2.ntbq.dynu.net
   tls: true
   type: vmess
   uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
   ws-opts:
     headers:
       Host: ''
-    path: /b23
+    path: /b22
+- alterId: 0
+  cipher: auto
+  name: 14|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  port: 443
+  server: b24.ntbq.dynu.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 台湾省台北市中华电信...
+  network: ws
+  port: 443
+  server: nbq13.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d4d569d6-dbae-4ea3-bd7b-80f857b82f98
+  ws-opts:
+    headers:
+      Host: nbq13.ntbq.dynu.net
+    path: /b13
