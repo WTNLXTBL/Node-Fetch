@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,14,15|github.com/freefq - 台湾省台北市中华电信...
-  network: ws
-  port: 443
-  server: b24.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾3|@ripaojiedian
   password: 4d1e8cd03847
@@ -30,7 +16,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,12,14,15|github.com/freefq - 台湾省彰化县中华电信...
+  name: 11,14,15|github.com/freefq - 台湾省彰化县中华电信...
   network: ws
   port: 443
   server: tc11.twtc.dynu.net
@@ -42,3 +28,17 @@ proxies:
     headers:
       Host: tc11.twtc.dynu.net
     path: /vbub1
+- alterId: 0
+  cipher: auto
+  name: 11,12,14,15|github.com/freefq - 台湾省台北市中华电信...
+  network: ws
+  port: 443
+  server: b24.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
