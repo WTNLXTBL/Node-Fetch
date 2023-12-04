@@ -1,56 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰|HK|香港|@wxgqlfx|3
-  network: ws
-  port: 80
-  server: dl1.colacloud.free.hr
-  tls: false
-  type: vmess
-  uuid: 246c69c1-4977-4937-9298-2bfe754aca41
-  ws-opts:
-    headers:
-      Host: cf-hk.colacloud.free.hr
-    path: /sssddd
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,19|🇭🇰 _HK_香港
-  network: ws
-  port: '80'
-  server: nice2.xn-w1yu8o.xyz
-  tls: false
-  type: vmess
-  uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b
-  ws-opts:
-    headers:
-      Host: icu2.mac2win.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|香港 2【优选】
-  network: ws
-  port: '80'
-  server: 167.82.87.124
-  tls: false
-  type: vmess
-  uuid: 417df789-074f-4d97-b00d-83b266c3724b
-  ws-opts:
-    headers:
-      Host: nihaoyahk22.com
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 12|香港 4【优选】
-  network: ws
-  port: '80'
-  server: 104.156.81.29
-  tls: false
-  type: vmess
-  uuid: 417df789-074f-4d97-b00d-83b266c3724b
-  ws-opts:
-    headers:
-      Host: nihaoyahk44.com
-    path: /cctv13/hd.m3u8
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -68,27 +16,28 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12| 🇭🇰 香港 HK01
+  name: 12|香港 2【优选】
   network: ws
   port: '80'
-  server: hk01.xpoti.online
+  server: 167.82.87.124
   tls: false
   type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
+  uuid: 417df789-074f-4d97-b00d-83b266c3724b
   ws-opts:
     headers:
-      Host: hk01.xpoti.online
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 15|香港6|频道:@ripaojiedian
-  network: tcp
-  port: '41492'
-  server: 120.234.147.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: nihaoyahk22.com
+    path: /cctv13/hd.m3u8
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.210.85.62
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|香港 3【优选】
@@ -102,32 +51,6 @@ proxies:
     headers:
       Host: nihaoyahk33.com
     path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 12| 🇭🇰 香港 HK02
-  network: ws
-  port: '80'
-  server: hk02.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 226973d9-42db-4430-9bd0-d582dee7785c
-  ws-opts:
-    headers:
-      Host: hk02.xpoti.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|香港 1【优选】
-  network: ws
-  port: '80'
-  server: 167.82.89.32
-  tls: false
-  type: vmess
-  uuid: 417df789-074f-4d97-b00d-83b266c3724b
-  ws-opts:
-    headers:
-      Host: nihaoyahk11.com
-    path: /cctv13/hd.m3u8
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港3|@ripaojiedian
   password: 9159ffb5-af2f-4fd7-9dae-e4ec3dd674c4
@@ -135,14 +58,43 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
+- alterId: 0
+  cipher: auto
+  name: 12|2-🇭🇰 Hong Kong 01 2
+  network: ws
   port: 80
-  server: 8.210.85.62
-  tfo: false
-  type: ss
+  server: hk01.xpoti.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c89dc2c5-5243-44a4-9d37-07358eb37756
+  ws-opts:
+    headers:
+      Host: hk01.xpoti.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,6|🇭🇰 _HK_香港
+  network: ws
+  port: '80'
+  server: nice2.xn-w1yu8o.xyz
+  tls: false
+  type: vmess
+  uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b
+  ws-opts:
+    headers:
+      Host: icu2.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|香港 4【优选】
+  network: ws
+  port: '80'
+  server: 104.156.81.29
+  tls: false
+  type: vmess
+  uuid: 417df789-074f-4d97-b00d-83b266c3724b
+  ws-opts:
+    headers:
+      Host: nihaoyahk44.com
+    path: /cctv13/hd.m3u8
