@@ -9,15 +9,37 @@ proxies:
   tls: false
   type: vmess
   uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.210.85.62
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,19|🇭🇰 _HK_香港
+  network: ws
+  port: '80'
+  server: nice2.xn-w1yu8o.xyz
+  tls: false
+  type: vmess
+  uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b
+  ws-opts:
+    headers:
+      Host: icu2.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰|HK|香港|@wxgqlfx|41
+  network: ws
+  port: 8080
+  server: a.mac2win.top
+  tls: false
+  type: vmess
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: 9159ffb5-af2f-4fd7-9dae-e4ec3dd674c4
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -35,13 +57,44 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: 97b2338c-7390-4810-847f-7028d17ff938
-  port: 20001
-  server: service.ouluyun9803.com
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰|HK|香港|@wxgqlfx|17
+  network: ws
+  port: 8080
+  server: cover.mac2win.top
+  tls: false
+  type: vmess
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
+    path: /
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.210.85.62
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 香港阿里云 3
+  network: ws
+  port: 8080
+  server: d.mac2win.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
+    path: /
 - alterId: 64
   cipher: auto
   name: 15|香港6|频道:@ripaojiedian
