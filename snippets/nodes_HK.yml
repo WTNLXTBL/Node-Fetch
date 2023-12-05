@@ -1,4 +1,25 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 香港阿里云 4
+  network: ws
+  port: '8080'
+  server: a.mac2win.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 香港ADCDATA数...
@@ -9,37 +30,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: 9159ffb5-af2f-4fd7-9dae-e4ec3dd674c4
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港6|频道:@ripaojiedian
-  network: tcp
-  port: '41492'
-  server: 120.234.147.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|V4-4011|香港|x2.0 - 海豚云〖电报：@ccba...
-  network: ws
-  port: 17002
-  server: dnspsdhaitun.ncsuwei.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7365c5fc-5746-3f33-9ceb-cc08d2862431
-  ws-opts:
-    headers:
-      Host: dnspsdhaitun.ncsuwei.top
-    path: /af483582-6269-468c-93af-c512ec2b1a61
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -51,46 +41,6 @@ proxies:
   server: 8.210.85.62
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|V4-4010|香港|x2.0 - 海豚云〖电报：@ccba...
-  network: ws
-  port: '13002'
-  server: dnspsdhaitun.ncsuwei.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7365c5fc-5746-3f33-9ceb-cc08d2862431
-  ws-opts:
-    headers:
-      Host: dnspsdhaitun.ncsuwei.top
-    path: /ef483582-6269-468c-93af-c511eccb8a69
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 40
-  network: ws
-  port: 80
-  server: cm1.xn-w1yu8o.xyz
-  tls: false
-  type: vmess
-  uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b
-  ws-opts:
-    headers:
-      Host: icu2.mac2win.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,11|🇭🇰 _HK_香港
-  network: ws
-  port: '80'
-  server: nice2.xn-w1yu8o.xyz
-  tls: false
-  type: vmess
-  uuid: a5319baa-e846-43c7-91c2-d67a1e307c8b
-  ws-opts:
-    headers:
-      Host: icu2.mac2win.top
-    path: /
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
