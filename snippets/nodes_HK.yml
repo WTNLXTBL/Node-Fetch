@@ -1,4 +1,15 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.210.85.62
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港3|@ripaojiedian
   password: f8775cf7-3f4e-4112-abce-9c760709bc0d
@@ -19,16 +30,5 @@ proxies:
     tls: false
   port: 443
   server: 1.65.139.94
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.210.85.62
   tfo: false
   type: ss
