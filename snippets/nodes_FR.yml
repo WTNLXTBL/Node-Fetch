@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-57.129.7.139...
+  network: tcp
+  port: '60240'
+  server: 57.129.7.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
+- alterId: 0
+  cipher: auto
+  name: 12|法国
+  network: ws
+  port: 2082
+  server: fr-01.jikuai.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d3e67f9-b611-4076-9136-cc64fd234806
+  ws-opts:
+    headers:
+      Host: fr-01.jikuai.xyz
+    path: /
