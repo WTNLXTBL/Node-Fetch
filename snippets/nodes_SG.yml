@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9392abc9-6731-4b4e-adb0-afbe77721f8c
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -18,14 +8,37 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9392abc9-6731-4b4e-adb0-afbe77721f8c
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.92.129
-  tfo: false
-  type: ss
+  uuid: 32966928-98b8-437c-aaf1-65d990604a7a
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5885c76d-e758-4492-9dec-e85e0d9fdb9c
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 32966928-98b8-437c-aaf1-65d990604a7a
+- cipher: chacha20-ietf
+  name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
+  obfs: plain
+  obfs-param: TG@ripaojiedian
+  password: jFa4F1
+  port: 6702
+  protocol: auth_aes128_sha1
+  protocol-param: 84263:3gj7aB
+  server: cm03.newcome.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 3|🇸🇬 _SG_新加坡
@@ -41,43 +54,6 @@ proxies:
     path: 9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9392abc9-6731-4b4e-adb0-afbe77721f8c
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fa66c39d-44b1-44e9-93b3-2e6bbd56f70a
-- cipher: chacha20-ietf
-  name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@ripaojiedian
-  password: jFa4F1
-  port: 6702
-  protocol: auth_aes128_sha1
-  protocol-param: 84263:3gj7aB
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -85,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fa66c39d-44b1-44e9-93b3-2e6bbd56f70a
+  uuid: 5885c76d-e758-4492-9dec-e85e0d9fdb9c
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
@@ -95,11 +71,35 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fa66c39d-44b1-44e9-93b3-2e6bbd56f70a
+  uuid: 5885c76d-e758-4492-9dec-e85e0d9fdb9c
 - cipher: aes-256-cfb
   name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
   password: amazonskr05
   port: 443
   server: 54.151.131.43
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 32966928-98b8-437c-aaf1-65d990604a7a
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.92.129
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
+  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
+  port: 20009
+  server: service.ouluyun9803.com
   tfo: false
   type: ss

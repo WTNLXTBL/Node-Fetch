@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11|github.com/freefq - 香港阿里云 4
@@ -20,16 +13,6 @@ proxies:
     headers:
       Host: icu.mac2win.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 香港ADCDATA数...
-  network: tcp
-  port: 80
-  server: 194.156.98.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -41,6 +24,16 @@ proxies:
   server: 8.210.85.62
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 香港ADCDATA数...
+  network: tcp
+  port: 80
+  server: 194.156.98.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0855b410-0e96-4d0a-9b6e-80830edec462
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -54,5 +47,12 @@ proxies:
     tls: false
   port: 443
   server: 1.65.139.94
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
