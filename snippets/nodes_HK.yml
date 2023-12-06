@@ -8,7 +8,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇭🇰 _HK_香港
+  name: 0,2,3,4,6,11|🇭🇰 _HK_香港
   network: ws
   port: '80'
   server: cm3.xn-w1yu8o.xyz
@@ -18,6 +18,34 @@ proxies:
   ws-opts:
     headers:
       Host: icu3.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_HK_
+  network: ws
+  port: 80
+  server: cm3.xn-w1yu8o.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e759eadc-8e71-47b0-874e-871e3d8dc31e
+  ws-opts:
+    headers:
+      host: icu3.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|HK香港(mibei77.com 米贝节点分享)
+  network: ws
+  port: '8080'
+  server: b.mac2win.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
     path: /
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
@@ -45,17 +73,3 @@ proxies:
   server: 47.243.195.27
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 1|_HK_
-  network: ws
-  port: 80
-  server: cm3.xn-w1yu8o.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e759eadc-8e71-47b0-874e-871e3d8dc31e
-  ws-opts:
-    headers:
-      host: icu3.mac2win.top
-    path: /

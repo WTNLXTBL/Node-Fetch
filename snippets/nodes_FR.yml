@@ -1,43 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,4,6,10,11,12,19|🇫🇷 _FR_法国 #1'
-  network: tcp
-  port: '60240'
-  server: 57.129.7.139
-  tls: false
-  type: vmess
-  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
-- alterId: 0
-  cipher: auto
-  name: 1|_FR__1
-  network: ws
-  port: 443
-  server: s1.19kala.co
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
-  ws-opts:
-    headers:
-      host: s1.19kala.co
-    path: /OWTu4RMkF9V12oO5NLlQk
-- alterId: 0
-  cipher: auto
-  name: 12|法国 - 巴黎 - Online S.A.S.
-  network: ws
-  port: 2086
-  server: cp2.colacloud.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 44a05463-181b-4fc7-b324-1fe6b37247f7
-  ws-opts:
-    headers:
-      Host: cf-nls.colacloud.site
-    path: /sssddd
-- alterId: 0
-  cipher: auto
   name: 0,2,3,4,6,10,11,12|🇫🇷 _FR_法国
   network: ws
   port: '443'
@@ -61,6 +24,29 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: '0,1,2,3,4,6,10,12,19|🇫🇷 _FR_法国 #1'
+  network: tcp
+  port: '60240'
+  server: 57.129.7.139
+  tls: false
+  type: vmess
+  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
+- alterId: 0
+  cipher: auto
+  name: 1|_FR__1
+  network: ws
+  port: 443
+  server: s1.19kala.co
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
+  ws-opts:
+    headers:
+      host: s1.19kala.co
+    path: /OWTu4RMkF9V12oO5NLlQk
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇫🇷 FR-135.125.135....
   network: tcp
   port: '443'
@@ -69,31 +55,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 0d16efe1-cb91-45ba-914f-25047a51f4e7
-- alterId: 0
-  cipher: auto
-  name: 12|法国new01（1x） - 快狗云〖电报：@ccbaohe】...
-  network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 86dbca91-1a65-4a3c-90da-af1b54a1ac49
-  ws-opts:
-    headers:
-      Host: fr-new01.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|法国 - 巴黎 - Cloudflare, Inc.
-  network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
-  servername: fr-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 3c9e7f6d-0eb7-4176-83f7-6f80d3f87963
-  ws-opts:
-    headers:
-      Host: ''
-    path: /

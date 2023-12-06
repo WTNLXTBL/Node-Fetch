@@ -1,4 +1,135 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6dc4d2ef-0181-4469-8243-5ad34c59a563
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6dc4d2ef-0181-4469-8243-5ad34c59a563
+- alterId: 0
+  cipher: auto
+  name: 12|日本 - 東京都 - Shenzhen Tencent Co...
+  network: ws
+  port: 20009
+  server: rb.yongdong.xyz
+  servername: yongdong.xyz
+  tls: false
+  type: vmess
+  uuid: d60442cf-4942-4b22-868e-97b96e564709
+  ws-opts:
+    headers:
+      Host: ''
+    path: /yongdong
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10013
+  server: 139.227.182.207
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 18.176.61.138
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本|@ripaojiedian
+  password: 12d29bd8-3461-42c8-81af-897cf3dc15b0
+  port: 50001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8f4d16de-1419-4555-95b2-ac8f64ae9566
+- alterId: 0
+  cipher: auto
+  name: '12|日本 - 東京都 - Shenzhen Tencent Co... #1'
+  network: ws
+  port: 20007
+  server: rb.yongdong.xyz
+  servername: yongdong.xyz
+  tls: false
+  type: vmess
+  uuid: d60442cf-4942-4b22-868e-97b96e564709
+  ws-opts:
+    headers:
+      Host: ''
+    path: /yongdong
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8f4d16de-1419-4555-95b2-ac8f64ae9566
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 日本  28
+  network: ws
+  port: 20007
+  server: rb.yongdong.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 350fc26b-f3de-441c-9f3c-01028b2d067e
+  ws-opts:
+    headers:
+      Host: yongdong.xyz
+    path: /yongdong
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -16,29 +147,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
+  name: 12|🇯🇵|JP|日本|@wxgqlfx|5
+  network: ws
+  port: 25397
+  server: 20.48.98.247
+  tls: false
   type: vmess
-  uuid: c4fec387-c048-4d84-bcd1-3129110f32f3
-- cipher: aes-128-gcm
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 10013
-  server: 139.227.182.207
-  tfo: false
-  type: ss
+  uuid: 2b8b5328-86a4-475b-9f65-0e0ece8dcdb2
+  ws-opts:
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '12|日本 - 東京都 - Shenzhen Tencent Co... #2'
@@ -53,109 +170,6 @@ proxies:
     headers:
       Host: ''
     path: /yongdong
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2ce1935c-c1c8-403f-a0bc-faf7b7ea5ffb
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵|JP|日本|@wxgqlfx|5
-  network: ws
-  port: 25397
-  server: 20.48.98.247
-  tls: false
-  type: vmess
-  uuid: 2b8b5328-86a4-475b-9f65-0e0ece8dcdb2
-  ws-opts:
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 12|白银vip｜直链｜日本｜vv08 - 永动机〖电报：@ccb...
-  network: ws
-  port: 20008
-  server: rb.yongdong.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 350fc26b-f3de-441c-9f3c-01028b2d067e
-  ws-opts:
-    headers:
-      Host: yongdong.xyz
-    path: /yongdong
-- alterId: 64
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2ce1935c-c1c8-403f-a0bc-faf7b7ea5ffb
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c4fec387-c048-4d84-bcd1-3129110f32f3
-- alterId: 0
-  cipher: auto
-  name: 12|·日本·{TG：@ccbaohe}定时更新节点订阅·19
-  network: tcp
-  port: 20202
-  server: jpdj6.ip8.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a5de5eb3-5760-488a-9211-e5fbd9388905
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2ce1935c-c1c8-403f-a0bc-faf7b7ea5ffb
-- alterId: 0
-  cipher: auto
-  name: '12|🇯🇵_JP_日本 #1'
-  network: ws
-  port: 443
-  server: 103.35.190.65
-  tls: false
-  type: vmess
-  uuid: ed531ebe-4971-47f9-a881-636d0b101a45
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 18.176.61.138
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   name: 14|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
@@ -163,50 +177,6 @@ proxies:
   server: 43.206.229.73
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本|@ripaojiedian
-  password: 12d29bd8-3461-42c8-81af-897cf3dc15b0
-  port: 50001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵_JP_日本
-  network: ws
-  port: 80
-  server: 103.35.188.226
-  tls: false
-  type: vmess
-  uuid: 098e7cdd-03b4-435d-8c41-ea608fa637c2
-  ws-opts:
-    headers:
-      Host: 103.35.188.226
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '12|日本 - 東京都 - Shenzhen Tencent Co... #1'
-  network: ws
-  port: 20007
-  server: rb.yongdong.xyz
-  servername: yongdong.xyz
-  tls: false
-  type: vmess
-  uuid: d60442cf-4942-4b22-868e-97b96e564709
-  ws-opts:
-    headers:
-      Host: ''
-    path: /yongdong
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c4fec387-c048-4d84-bcd1-3129110f32f3
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
@@ -218,29 +188,35 @@ proxies:
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: 12|白银vip｜直链｜日本｜vv07 - 永动机〖电报：@ccb...
-  network: ws
-  port: 20007
-  server: rb.yongdong.xyz
-  servername: ''
-  tls: false
+  name: 9|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 350fc26b-f3de-441c-9f3c-01028b2d067e
-  ws-opts:
-    headers:
-      Host: yongdong.xyz
-    path: /yongdong
+  uuid: 8f4d16de-1419-4555-95b2-ac8f64ae9566
 - alterId: 0
   cipher: auto
-  name: 12|日本 - 東京都 - Shenzhen Tencent Co...
+  name: 13|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 6dc4d2ef-0181-4469-8243-5ad34c59a563
+- alterId: 0
+  cipher: auto
+  name: 11,12,14,15|github.com/freefq - 日本  40
   network: ws
-  port: 20009
-  server: rb.yongdong.xyz
-  servername: yongdong.xyz
+  port: 20026
+  server: ser.yongdong.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: d60442cf-4942-4b22-868e-97b96e564709
   ws-opts:
     headers:
-      Host: ''
+      Host: yongdong.xyz
     path: /yongdong
