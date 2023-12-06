@@ -1,6 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '0,1,2,3,4,6,10,12,19|🇫🇷 _FR_法国 #1'
+  network: tcp
+  port: '60240'
+  server: 57.129.7.139
+  tls: false
+  type: vmess
+  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,10,11,12,19|🇫🇷 _FR_法国
+  network: ws
+  port: '443'
+  server: s1.19kala.co
+  tls: true
+  type: vmess
+  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
+  ws-opts:
+    headers:
+      Host: s1.19kala.co
+    path: /OWTu4RMkF9V12oO5NLlQk
+- alterId: 0
+  cipher: auto
+  name: 12|法国new01（1x） - 快狗云〖电报：@ccbaohe】...
+  network: ws
+  port: 8080
+  server: fr-new01.gujuji.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86dbca91-1a65-4a3c-90da-af1b54a1ac49
+  ws-opts:
+    headers:
+      Host: fr-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇫🇷 FR-135.125.135....
   network: tcp
   port: '443'
@@ -11,13 +47,27 @@ proxies:
   uuid: 0d16efe1-cb91-45ba-914f-25047a51f4e7
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,4,6,10,12,19|🇫🇷 _FR_法国 #1'
-  network: tcp
-  port: '60240'
-  server: 57.129.7.139
+  name: 12|法国new01（1倍率）
+  network: ws
+  port: '8080'
+  server: fr-new01.gujuji.top
   tls: false
   type: vmess
-  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
+  uuid: c6f99669-7ff3-4a29-bc85-e22217ff1eee
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 法国  10
+  network: tcp
+  port: 32615
+  server: 141.11.211.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 28b0fbe9-3712-4daa-e52c-55f2f59841e9
 - alterId: 0
   cipher: auto
   name: 1|_FR__1
@@ -31,27 +81,4 @@ proxies:
   ws-opts:
     headers:
       host: s1.19kala.co
-    path: /OWTu4RMkF9V12oO5NLlQk
-- alterId: 0
-  cipher: auto
-  name: 19|🇫🇷_FR_法国_2_29
-  network: ws
-  port: 443
-  server: s1.19kala.co
-  tls: true
-  type: vmess
-  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,10,12|🇫🇷 _FR_法国
-  network: ws
-  port: '443'
-  server: s1.19kala.co
-  tls: true
-  type: vmess
-  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
-  ws-opts:
-    headers:
-      Host: s1.19kala.co
     path: /OWTu4RMkF9V12oO5NLlQk
