@@ -1,23 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a5c9289a-740a-4d49-ba10-cc50b413aa28
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -25,27 +8,20 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a5c9289a-740a-4d49-ba10-cc50b413aa28
+  uuid: 2ace3727-462a-42d0-bfd6-412b22dbe1e4
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
+  name: 12|限速50Mbps @BaiPiao_group 新加坡 03
+  network: ws
+  port: '80'
+  server: 172.64.84.214
+  tls: false
   type: vmess
-  uuid: a5c9289a-740a-4d49-ba10-cc50b413aa28
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9d5e2673-da08-4b22-8f1c-15cdda2949d4
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: freewhoringinkoreasg01.360ddns.online
+    path: /?ed=2048
 - cipher: chacha20-ietf
   name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
   obfs: plain
@@ -58,30 +34,6 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9d5e2673-da08-4b22-8f1c-15cdda2949d4
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 狮城特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 54.151.131.43
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.92.129
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -89,4 +41,110 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9d5e2673-da08-4b22-8f1c-15cdda2949d4
+  uuid: 703a41f5-8653-43c8-a794-bb699afc4325
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.60.49
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|限速50Mbps @BaiPiao_group 新加坡 02
+  network: ws
+  port: '80'
+  server: 172.67.143.201
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: freewhoringinkoreasg01.360ddns.online
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 703a41f5-8653-43c8-a794-bb699afc4325
+- alterId: 0
+  cipher: auto
+  name: 12|限速50Mbps @BaiPiao_group 新加坡 01
+  network: ws
+  port: '80'
+  server: 190.93.244.211
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: freewhoringinkoreasg01.360ddns.online
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 703a41f5-8653-43c8-a794-bb699afc4325
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2ace3727-462a-42d0-bfd6-412b22dbe1e4
+- alterId: 0
+  cipher: auto
+  name: 12|限速50Mbps @BaiPiao_group 新加坡 04
+  network: ws
+  port: '80'
+  server: 172.67.75.33
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: freewhoringinkoreasg01.360ddns.online
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2ace3727-462a-42d0-bfd6-412b22dbe1e4
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
+  password: 12d29bd8-3461-42c8-81af-897cf3dc15b0
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|限速50Mbps @BaiPiao_group 新加坡 05
+  network: ws
+  port: '80'
+  server: 198.41.223.61
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: freewhoringinkoreasg01.360ddns.online
+    path: /?ed=2048

@@ -1,15 +1,17 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.210.85.62
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0,6|🇭🇰 _HK_香港
+  network: ws
+  port: '80'
+  server: cm3.xn-w1yu8o.xyz
+  tls: false
+  type: vmess
+  uuid: e759eadc-8e71-47b0-874e-871e3d8dc31e
+  ws-opts:
+    headers:
+      Host: icu3.mac2win.top
+    path: /
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -27,8 +29,19 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰 香港3|@ripaojiedian
-  password: f8775cf7-3f4e-4112-abce-9c760709bc0d
+  password: 12d29bd8-3461-42c8-81af-897cf3dc15b0
   port: 20001
   server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.243.195.27
   tfo: false
   type: ss
