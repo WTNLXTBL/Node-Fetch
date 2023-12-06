@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11,12|法国  10
-  network: tcp
-  port: 32615
-  server: 141.11.211.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 28b0fbe9-3712-4daa-e52c-55f2f59841e9
-- alterId: 0
-  cipher: auto
   name: 1|_FR__1
   network: ws
   port: 443
@@ -25,27 +15,30 @@ proxies:
     path: /OWTu4RMkF9V12oO5NLlQk
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-135.125.135....
-  network: tcp
-  port: '443'
-  server: 135.125.135.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d16efe1-cb91-45ba-914f-25047a51f4e7
-- alterId: 0
-  cipher: auto
-  name: 12|法国new01（1倍率）
+  name: 0,2,3,4,6,10,11,19|🇫🇷 _FR_法国
   network: ws
-  port: '8080'
-  server: fr-new01.gujuji.top
-  tls: false
+  port: '443'
+  server: s1.19kala.co
+  tls: true
   type: vmess
-  uuid: c6f99669-7ff3-4a29-bc85-e22217ff1eee
+  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: s1.19kala.co
+    path: /OWTu4RMkF9V12oO5NLlQk
+- alterId: 0
+  cipher: auto
+  name: 12|FR_youtube@资源分享师_2
+  network: ws
+  port: 443
+  server: 94.176.183.6
+  tls: true
+  type: vmess
+  uuid: 71617e43-2715-4f7c-8db3-a5c854e2f188
+  ws-opts:
+    headers:
+      Host: teletv.onthewifi.com
+    path: /MEHDI
 - alterId: 0
   cipher: auto
   name: '0,1,2,3,4,6,12,19|🇫🇷 _FR_法国 #1'
@@ -57,28 +50,11 @@ proxies:
   uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
 - alterId: 0
   cipher: auto
-  name: 12|法国new01（1x） - 快狗云〖电报：@ccbaohe】...
-  network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
+  name: 10,11|法国  10
+  network: tcp
+  port: 32615
+  server: 141.11.211.17
   servername: ''
   tls: false
   type: vmess
-  uuid: 86dbca91-1a65-4a3c-90da-af1b54a1ac49
-  ws-opts:
-    headers:
-      Host: fr-new01.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,10,11,12,19|🇫🇷 _FR_法国
-  network: ws
-  port: '443'
-  server: s1.19kala.co
-  tls: true
-  type: vmess
-  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
-  ws-opts:
-    headers:
-      Host: s1.19kala.co
-    path: /OWTu4RMkF9V12oO5NLlQk
+  uuid: 28b0fbe9-3712-4daa-e52c-55f2f59841e9

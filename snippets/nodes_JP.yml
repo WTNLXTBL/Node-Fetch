@@ -1,14 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
+  name: 12|🇯🇵日本1丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.239
+  tls: false
   type: vmess
-  uuid: 834d2d5e-bd14-45a3-b296-cbb2b70f54cb
+  uuid: c0b72149-1064-400f-acb4-ec9fa76c78aa
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 14|🇯🇵 日本|@ripaojiedian
   password: 12d29bd8-3461-42c8-81af-897cf3dc15b0
@@ -16,53 +19,12 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.206.229.73
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 834d2d5e-bd14-45a3-b296-cbb2b70f54cb
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 834d2d5e-bd14-45a3-b296-cbb2b70f54cb
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇯🇵 JP-178.157.58.94...
+  name: 10|日本 东京Amazon数据中心
   network: ws
-  port: '39495'
-  server: 178.157.58.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95822f3c-42a5-4f35-b9ed-edd67a4724d0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '10|日本 东京Amazon数据中心 #1'
-  network: ws
-  port: '80'
-  server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  port: 80
+  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
   tls: false
   type: vmess
   uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
@@ -77,6 +39,26 @@ proxies:
   server: 18.176.61.138
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c4c1f6e4-6f2f-4ff3-a525-1b73868019db
+- alterId: 0
+  cipher: auto
+  name: 9|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 02995369-dbc8-4e61-a81a-bd1aee01aa4c
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -94,15 +76,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇯🇵|JP|日本|@wxgqlfx|5
+  name: 12|🇯🇵日本5丨电报群@bp520
   network: ws
-  port: 25397
-  server: 20.48.98.247
+  port: '80'
+  server: 162.159.142.235
   tls: false
   type: vmess
-  uuid: 2b8b5328-86a4-475b-9f65-0e0ece8dcdb2
+  uuid: c0b72149-1064-400f-acb4-ec9fa76c78aa
   ws-opts:
-    path: /?ed=2048
+    headers:
+      Host: jp3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本05
@@ -112,48 +96,165 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3cf4ef10-f3ff-475c-b6ef-af63d02a596f
+  uuid: 02995369-dbc8-4e61-a81a-bd1aee01aa4c
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
+  name: 13|【BGP】日本 05  | 1x JP
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3cf4ef10-f3ff-475c-b6ef-af63d02a596f
-- alterId: 64
+  uuid: c4c1f6e4-6f2f-4ff3-a525-1b73868019db
+- alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43.143...
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
+  name: 12|限速50Mbps @BaiPiao_group 日本 05
+  network: ws
+  port: '80'
+  server: 198.41.223.7
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: baipiaoriben01.360ddns.online
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵日本3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.233
+  tls: false
+  type: vmess
+  uuid: c0b72149-1064-400f-acb4-ec9fa76c78aa
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.206.229.73
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇯🇵 JP-38.47.126.36:...
+  network: ws
+  port: '14319'
+  server: 38.47.126.36
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a8a5e90b-e116-4d62-c826-1d38e8fa78f2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
+  name: 12|限速50Mbps @BaiPiao_group 日本 03
+  network: ws
+  port: '80'
+  server: 172.67.132.159
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: baipiaoriben01.360ddns.online
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 10|日本 东京Amazon数据中心
+  name: 12|限速50Mbps @BaiPiao_group 日本 04
   network: ws
-  port: 80
-  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  port: '80'
+  server: 172.67.73.156
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: baipiaoriben01.360ddns.online
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 12|限速50Mbps @BaiPiao_group 日本 02
+  network: ws
+  port: '80'
+  server: 172.64.106.177
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: baipiaoriben01.360ddns.online
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c4c1f6e4-6f2f-4ff3-a525-1b73868019db
+- alterId: 0
+  cipher: auto
+  name: '10|日本 东京Amazon数据中心 #1'
+  network: ws
+  port: '80'
+  server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
   tls: false
   type: vmess
   uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
   ws-opts:
     headers:
       Host: dl.delivery.mp.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇯🇵 JP-178.157.58.94...
+  network: ws
+  port: '39495'
+  server: 178.157.58.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95822f3c-42a5-4f35-b9ed-edd67a4724d0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵日本4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.234
+  tls: false
+  type: vmess
+  uuid: c0b72149-1064-400f-acb4-ec9fa76c78aa
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇯🇵日本2丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.232
+  tls: false
+  type: vmess
+  uuid: c0b72149-1064-400f-acb4-ec9fa76c78aa
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
     path: /
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT|@ripaojiedian
@@ -172,6 +273,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 12|🇯🇵日本6丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.236
+  tls: false
+  type: vmess
+  uuid: c0b72149-1064-400f-acb4-ec9fa76c78aa
+  ws-opts:
+    headers:
+      Host: jp3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 9|🇯🇵日本06
   network: tcp
   port: '36111'
@@ -179,4 +293,17 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3cf4ef10-f3ff-475c-b6ef-af63d02a596f
+  uuid: 02995369-dbc8-4e61-a81a-bd1aee01aa4c
+- alterId: 0
+  cipher: auto
+  name: 12|限速50Mbps @BaiPiao_group 日本 01
+  network: ws
+  port: '80'
+  server: 172.67.140.164
+  tls: false
+  type: vmess
+  uuid: 7cb019a1-f0b8-4afb-93ab-a89d53eed2e3
+  ws-opts:
+    headers:
+      Host: baipiaoriben01.360ddns.online
+    path: /?ed=2048
