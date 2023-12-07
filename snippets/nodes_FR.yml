@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,10,11,12,19|🇫🇷 _FR_法国
+  name: 0,2,3,4,10,19|🇫🇷 _FR_法国
   network: ws
   port: '443'
   server: s1.19kala.co
@@ -14,18 +14,14 @@ proxies:
     path: /OWTu4RMkF9V12oO5NLlQk
 - alterId: 0
   cipher: auto
-  name: 1|_FR_
-  network: ws
-  port: 443
-  server: s1.19kala.co
-  skip-cert-verify: true
-  tls: true
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
+  network: tcp
+  port: '29776'
+  server: 146.59.147.250
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
-  ws-opts:
-    headers:
-      host: s1.19kala.co
-    path: /OWTu4RMkF9V12oO5NLlQk
+  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
 - alterId: 0
   cipher: auto
   name: 12|法国(yudou66.com 玉豆免费节点)
@@ -42,34 +38,25 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 12|德国 - 法兰克福 - Ferdinand Zink tra...
+  name: 1|_FR_
   network: ws
   port: 443
-  server: 123456.aslirico3212.link
-  servername: ''
+  server: s1.19kala.co
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 800ffb89-3405-4b5d-be37-4c0212eab8f1
+  uuid: 5775de7e-0c2e-4e7c-8b9c-c48704d8facb
   ws-opts:
     headers:
-      Host: h320-fr2.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
+      host: s1.19kala.co
+    path: /OWTu4RMkF9V12oO5NLlQk
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷_FR_法国_7_37
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-51.75.162.19...
   network: tcp
-  port: 60240
-  server: 57.129.7.139
-  tls: false
-  type: vmess
-  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
-  network: tcp
-  port: '29776'
-  server: 146.59.147.250
+  port: '61570'
+  server: 51.75.162.199
   servername: ''
   tls: false
   type: vmess
-  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
+  uuid: e6aab1e0-ede0-47c3-b01c-f34a498db838
