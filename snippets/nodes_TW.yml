@@ -1,35 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12,14,15|台湾(yudou66.com 玉豆免费节点)
-  network: ws
-  port: '443'
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e854e7dd-350e-43d2-bdf2-95d839d8dd46
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- alterId: 0
-  cipher: auto
-  name: 10,11,12|台湾省台中市 中华电信
-  network: ws
-  port: '443'
-  server: tc12.twtc.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e5640ff5-eef4-443c-9608-d4397ba5320e
-  ws-opts:
-    headers:
-      Host: tc12.twtc.dynu.net
-    path: /vbub2
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾省台北市中华电信 18
+  name: 10,11|台湾省台北市中华电信 12
   network: ws
   port: 443
   server: nbq13.ntbq.dynu.net
@@ -69,7 +41,35 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|台湾省台北市 中华电信
+  name: 10|台湾省 中华电信(HiNet)数据中心
+  network: ws
+  port: '443'
+  server: nbq11.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d607492b-9880-4788-8ace-f6c066e3e3c4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|台湾省台中市中华电信 6
+  network: ws
+  port: 443
+  server: tc12.twtc.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 28e08966-170c-4b59-8756-14dfad41157a
+  ws-opts:
+    headers:
+      Host: tc12.twtc.dynu.net
+    path: /vbub2
+- alterId: 0
+  cipher: auto
+  name: '10,11|台湾省台北市 中华电信 #1'
   network: ws
   port: '443'
   server: nbq13.ntbq.dynu.net
@@ -82,63 +82,7 @@ proxies:
     path: /b13
 - alterId: 0
   cipher: auto
-  name: 10|台湾省新北市中华电信 3
-  network: ws
-  port: '443'
-  server: b21.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d607492b-9880-4788-8ace-f6c066e3e3c4
-  ws-opts:
-    headers:
-      Host: b21.ntbq.dynu.net
-    path: /b21
-- alterId: 0
-  cipher: auto
-  name: 10|台湾省南投县中华电信 7
-  network: ws
-  port: '443'
-  server: tc11.twtc.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: e5640ff5-eef4-443c-9608-d4397ba5320e
-  ws-opts:
-    headers:
-      Host: tc11.twtc.dynu.net
-    path: /vbub1
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 台湾省台北市中华电信...
-  network: ws
-  port: 443
-  server: b24.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d607492b-9880-4788-8ace-f6c066e3e3c4
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
-- alterId: 0
-  cipher: auto
-  name: 10|台湾省花莲县中华电信 2
-  network: ws
-  port: 443
-  server: nbq12.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 28e08966-170c-4b59-8756-14dfad41157a
-  ws-opts:
-    headers:
-      Host: nbq12.ntbq.dynu.net
-    path: /b12
-- alterId: 0
-  cipher: auto
-  name: 10,11,12,14,15|台湾省新北市 中华电信
+  name: 10,11,12,14,15|台湾省新北市中华电信 2
   network: ws
   port: '443'
   server: b22.ntbq.dynu.net
@@ -150,3 +94,44 @@ proxies:
     headers:
       Host: b22.ntbq.dynu.net
     path: /b22
+- alterId: 0
+  cipher: auto
+  name: 10|台湾省台北市 中华电信
+  network: ws
+  port: '443'
+  server: b21.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: e854e7dd-350e-43d2-bdf2-95d839d8dd46
+  ws-opts:
+    headers:
+      Host: b21.ntbq.dynu.net
+    path: /b21
+- alterId: 0
+  cipher: auto
+  name: 12,14,15|台湾(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '443'
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e854e7dd-350e-43d2-bdf2-95d839d8dd46
+  ws-opts:
+    headers:
+      Host: b23.ntbq.dynu.net
+    path: /b23
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|台湾省台北市中华电信 4
+  network: ws
+  port: 443
+  server: b24.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d607492b-9880-4788-8ace-f6c066e3e3c4
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
