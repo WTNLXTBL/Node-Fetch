@@ -1,39 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|新加坡 2【优选】
-  network: ws
-  port: '80'
-  server: 23.235.33.29
-  tls: false
-  type: vmess
-  uuid: 417df789-074f-4d97-b00d-83b266c3724b
-  ws-opts:
-    headers:
-      Host: nihaoyasg2.com
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 52c972ae-a11b-4610-af6e-46daf22c4d46
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡 4【直连】
+  name: 12|新加坡 1【直连】
   network: ws
   port: '443'
-  server: sg4.jidexufei.top
+  server: sg1.jidexufei.top
   tls: false
   type: vmess
   uuid: 417df789-074f-4d97-b00d-83b266c3724b
   ws-opts:
     headers:
-      Host: sg4.jidexufei.top
+      Host: sg1.jidexufei.top
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
@@ -50,16 +27,16 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 12|新加坡 1【优选】
+  name: 12|新加坡 4【直连】
   network: ws
-  port: '80'
-  server: 146.75.24.176
+  port: '443'
+  server: sg4.jidexufei.top
   tls: false
   type: vmess
   uuid: 417df789-074f-4d97-b00d-83b266c3724b
   ws-opts:
     headers:
-      Host: nihaoyasg11.com
+      Host: sg4.jidexufei.top
     path: /cctv13/hd.m3u8
 - cipher: chacha20-ietf
   name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
@@ -73,50 +50,24 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: dc664816-8802-4787-8a26-eadddba23878
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 52c972ae-a11b-4610-af6e-46daf22c4d46
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡 1【直连】
-  network: ws
-  port: '443'
-  server: sg1.jidexufei.top
-  tls: false
-  type: vmess
-  uuid: 417df789-074f-4d97-b00d-83b266c3724b
-  ws-opts:
-    headers:
-      Host: sg1.jidexufei.top
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡 3【优选】
+  name: 12|新加坡 2【优选】
   network: ws
   port: '80'
-  server: 151.101.195.131
+  server: 23.235.33.29
   tls: false
   type: vmess
   uuid: 417df789-074f-4d97-b00d-83b266c3724b
   ws-opts:
     headers:
-      Host: nihaoyasg3.com
+      Host: nihaoyasg2.com
     path: /cctv13/hd.m3u8
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.1.211.41
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
   password: 2062c83d-425d-43a6-ac99-78fbb1ed5db4
@@ -133,14 +84,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dc664816-8802-4787-8a26-eadddba23878
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.1.211.41
-  tfo: false
-  type: ss
+  uuid: fa9724cb-9a8d-4b9c-8c35-0732be520099
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -150,7 +94,30 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dc664816-8802-4787-8a26-eadddba23878
+  uuid: fa9724cb-9a8d-4b9c-8c35-0732be520099
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 1【优选】
+  network: ws
+  port: '80'
+  server: 146.75.24.176
+  tls: false
+  type: vmess
+  uuid: 417df789-074f-4d97-b00d-83b266c3724b
+  ws-opts:
+    headers:
+      Host: nihaoyasg11.com
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fa9724cb-9a8d-4b9c-8c35-0732be520099
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -160,4 +127,37 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 52c972ae-a11b-4610-af6e-46daf22c4d46
+  uuid: bb8052c7-ac83-4df0-9a81-8d885865ce18
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bb8052c7-ac83-4df0-9a81-8d885865ce18
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bb8052c7-ac83-4df0-9a81-8d885865ce18
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 3【优选】
+  network: ws
+  port: '80'
+  server: 151.101.195.131
+  tls: false
+  type: vmess
+  uuid: 417df789-074f-4d97-b00d-83b266c3724b
+  ws-opts:
+    headers:
+      Host: nihaoyasg3.com
+    path: /cctv13/hd.m3u8
