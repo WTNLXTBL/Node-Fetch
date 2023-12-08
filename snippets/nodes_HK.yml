@@ -1,44 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港|付费版推荐 翻墙.com
-  password: f40ad9c6-5d07-47a8-943b-8fc54ac28160
-  port: 38419
-  server: myyyds.76po.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.94
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.218.194.227
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|🇭🇰 香港B|浏览器输入 翻墙.com
@@ -56,17 +16,39 @@ proxies:
     path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
 - alterId: 0
   cipher: auto
-  name: 12|香港 4【优选】
+  name: 15|香港B|浏览器输入 翻墙.com
   network: ws
-  port: '80'
-  server: 104.156.81.29
+  port: '20632'
+  server: yyzgdv6.cdn.node.a.yddns-ounk.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 417df789-074f-4d97-b00d-83b266c3724b
+  uuid: e4046c80-6286-305f-ba68-8086d47ad7fe
   ws-opts:
     headers:
-      Host: nihaoyahk4444.com
-    path: /cctv13/hd.m3u8
+      Host: ''
+    path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.218.194.227
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港5|@ripaojiedian
+  network: tcp
+  port: '34001'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 14,15|🇭🇰 香港A|低价实惠 翻墙.com
@@ -83,27 +65,45 @@ proxies:
     headers:
       Host: www.59521894.xyz
     path: /path/143534141104
-- alterId: 64
-  cipher: auto
-  name: 15|香港5|@ripaojiedian
-  network: tcp
-  port: '34001'
-  server: 183.240.232.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.94
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港|付费版推荐 翻墙.com
+  password: f40ad9c6-5d07-47a8-943b-8fc54ac28160
+  port: 38419
+  server: myyyds.76po.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 15|香港B|浏览器输入 翻墙.com
+  name: 12|香港 4【优选】
   network: ws
-  port: '20632'
-  server: yyzgdv6.cdn.node.a.yddns-ounk.com
-  servername: ''
+  port: '80'
+  server: 104.156.81.29
   tls: false
   type: vmess
-  uuid: e4046c80-6286-305f-ba68-8086d47ad7fe
+  uuid: 417df789-074f-4d97-b00d-83b266c3724b
   ws-opts:
     headers:
-      Host: ''
-    path: /009c250b-54f5-43a8-8b18-dccbb5d8c66a.y.live01.m3u8
+      Host: nihaoyahk4444.com
+    path: /cctv13/hd.m3u8
