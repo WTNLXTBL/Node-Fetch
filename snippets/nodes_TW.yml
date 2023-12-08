@@ -16,6 +16,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 10,12,14,15|台湾省 中华电信
+  network: ws
+  port: '443'
+  server: b22.ntbq.dynu.net
+  servername: b22.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 28e08966-170c-4b59-8756-14dfad41157a
+  ws-opts:
+    headers:
+      Host: b22.ntbq.dynu.net
+    path: /b22
+- alterId: 0
+  cipher: auto
   name: 10|台湾省台北市中华电信 1
   network: ws
   port: 443
@@ -30,18 +44,32 @@ proxies:
     path: /b24
 - alterId: 0
   cipher: auto
-  name: 10,14,15|台湾省 中华电信
+  name: 12|TW-板桥2-1 - 麻雀加速器 Sparrow〖电报：@c...
   network: ws
-  port: '443'
-  server: b22.ntbq.dynu.net
-  servername: b22.ntbq.dynu.net
+  port: 443
+  server: b21.ntbq.dynu.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: 28e08966-170c-4b59-8756-14dfad41157a
+  uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a
   ws-opts:
     headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
+      Host: b21.ntbq.dynu.net
+    path: /b21
+- alterId: 0
+  cipher: auto
+  name: 12|TW-板桥2-3 - 麻雀加速器 Sparrow〖电报：@c...
+  network: ws
+  port: 443
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8e53b838-e5a4-45fb-94c2-f5dd7f7f729a
+  ws-opts:
+    headers:
+      Host: b23.ntbq.dynu.net
+    path: /b23
 - alterId: 0
   cipher: auto
   name: 10|台湾省台中市中华电信 7
