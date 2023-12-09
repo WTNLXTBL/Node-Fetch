@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11|中国阿里云 13
-  network: tcp
-  port: '44574'
-  server: 8.222.187.112
+  name: 11,12|github.com/freefq - 广东省移动 5
+  network: ws
+  port: '33561'
+  server: 183.240.222.171
   servername: ''
   tls: false
   type: vmess
-  uuid: b18dc5ba-62b7-4423-aacc-f184da15c033
+  uuid: e3a44078-5669-4232-a306-ffcd627f717b
+  ws-opts:
+    headers:
+      Host: 183.240.222.171
+    path: /awsjpB
 - alterId: 0
   cipher: auto
   name: 10,12|中国 阿里云
@@ -19,3 +23,13 @@ proxies:
   tls: false
   type: vmess
   uuid: b313e670-bfd4-4b62-d314-0d296e363192
+- alterId: 0
+  cipher: auto
+  name: 10,11|中国阿里云 13
+  network: tcp
+  port: '44574'
+  server: 8.222.187.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b18dc5ba-62b7-4423-aacc-f184da15c033

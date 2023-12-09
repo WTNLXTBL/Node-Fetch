@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|德国 - 法兰克福 - Akamai Technologie...
-  network: tcp
-  port: 18924
-  server: 172.104.240.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a
-- alterId: 0
-  cipher: auto
   name: 12|法国 - 格拉沃利讷 - OVH SAS
   network: ws
   port: 2095
@@ -25,6 +15,26 @@ proxies:
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-51.75.162.19...
+  network: tcp
+  port: '61570'
+  server: 51.75.162.199
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6aab1e0-ede0-47c3-b01c-f34a498db838
+- alterId: 0
+  cipher: auto
+  name: 12|德国 - 法兰克福 - Akamai Technologie...
+  network: tcp
+  port: 18924
+  server: 172.104.240.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a
+- alterId: 0
+  cipher: auto
   name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
   network: tcp
   port: '29776'
@@ -33,31 +43,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 法国巴黎Online...
-  network: ws
-  port: 10001
-  server: 51.159.70.15
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6356ddde-9540-11ee-a018-dbb296bff7e7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 12|法国 - 巴黎 - Cloudflare, Inc.
-  network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2b13230-2e75-4946-bd07-f700aef9e90d
-  ws-opts:
-    headers:
-      Host: fr-new01.gujuji.top
-    path: /
