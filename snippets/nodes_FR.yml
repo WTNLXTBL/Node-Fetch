@@ -1,14 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-23.247.130.2...
-  network: tcp
-  port: '17057'
-  server: 23.247.130.248
+  name: 12|法国 - 斯特拉斯堡 - OVH SAS
+  network: ws
+  port: 443
+  server: cdn.mlcat.tk
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 569a26ec-1a28-421d-df9a-e15aefc15531
+  uuid: 8c269947-2d6f-45f6-8f58-921b52b79820
+  ws-opts:
+    headers:
+      Host: h48-fr.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R
+- alterId: 0
+  cipher: auto
+  name: '12|德国 - 法兰克福 - Ferdinand Zink tra... #2'
+  network: ws
+  port: 443
+  server: cloudflare.cfgo.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8c269947-2d6f-45f6-8f58-921b52b79820
+  ws-opts:
+    headers:
+      Host: h185-fr2.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R
+- alterId: 0
+  cipher: auto
+  name: '12|德国 - 法兰克福 - Ferdinand Zink tra... #1'
+  network: ws
+  port: 443
+  server: www.wuda.cf
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 472f6769-ba21-4e93-852e-9e57e470b533
+  ws-opts:
+    headers:
+      Host: h449-fr2.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
@@ -21,11 +53,29 @@ proxies:
   uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-57.129.7.139...
-  network: tcp
-  port: '60240'
-  server: 57.129.7.139
+  name: 12|法国 - 巴黎 - Cloudflare, Inc.
+  network: ws
+  port: 8080
+  server: fr-new01.gujuji.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 84e92b93-93d0-40e4-8b2b-123801eeda44
+  uuid: e2b13230-2e75-4946-bd07-f700aef9e90d
+  ws-opts:
+    headers:
+      Host: fr-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|德国 - 法兰克福 - Ferdinand Zink tra...
+  network: ws
+  port: 443
+  server: zlcq520.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8c269947-2d6f-45f6-8f58-921b52b79820
+  ws-opts:
+    headers:
+      Host: h30-fr2.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R

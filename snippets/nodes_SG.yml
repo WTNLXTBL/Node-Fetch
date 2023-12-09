@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
-  network: ws
-  port: '46998'
-  server: 8.219.59.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5c9bed1a-716b-43e7-c807-9e0758186360
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -22,40 +8,34 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 29221f29-4538-432f-8dc2-b2b645c6a277
+  uuid: 78eb4792-ba79-47f4-88c1-6b812431f661
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.104...
-  network: ws
-  port: 35353
-  server: 146.190.104.50
-  tls: false
-  type: vmess
-  uuid: 40d08177-7358-4e46-b05a-7752d5d7619f
-  ws-opts:
-    headers:
-      Host: m.linkedin.com
-    path: /
-- cipher: chacha20-ietf
-  name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@ripaojiedian
-  password: jFa4F1
-  port: 6702
-  protocol: auth_aes128_sha1
-  protocol-param: 84263:3gj7aB
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-43.153.210.1...
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '666'
-  server: 43.153.210.169
-  servername: ''
-  tls: false
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 34a2f093-c236-4edc-eb6a-663f1bfaa136
+  uuid: 78eb4792-ba79-47f4-88c1-6b812431f661
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 78eb4792-ba79-47f4-88c1-6b812431f661
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.206.212.255
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
@@ -66,33 +46,6 @@ proxies:
   tls: true
   type: vmess
   uuid: af87ab6c-9f0a-45dc-b2ae-ae36786c7b24
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-8.219.240.12...
-  network: tcp
-  port: '32969'
-  server: 8.219.240.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|120
-  network: tcp
-  port: '23898'
-  server: 103.180.161.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
@@ -103,30 +56,13 @@ proxies:
   tls: true
   type: vmess
   uuid: af87ab6c-9f0a-45dc-b2ae-ae36786c7b24
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-47.236.18.250...
-  network: ws
-  port: '9220'
-  server: 47.236.18.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d1a3d65-edd6-43af-e63f-c87a89897f95
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 29221f29-4538-432f-8dc2-b2b645c6a277
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 26601
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -137,20 +73,13 @@ proxies:
   tls: true
   type: vmess
   uuid: af87ab6c-9f0a-45dc-b2ae-ae36786c7b24
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 29221f29-4538-432f-8dc2-b2b645c6a277
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.206.212.255
-  tfo: false
-  type: ss
+- cipher: chacha20-ietf
+  name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
+  obfs: plain
+  obfs-param: TG@ripaojiedian
+  password: jFa4F1
+  port: 6702
+  protocol: auth_aes128_sha1
+  protocol-param: 84263:3gj7aB
+  server: cm03.newcome.xyz
+  type: ssr
