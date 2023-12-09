@@ -1,70 +1,56 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
-  network: tcp
-  port: '29776'
-  server: 146.59.147.250
+  name: 11,12|github.com/freefq - 法国巴黎Online...
+  network: ws
+  port: 10001
+  server: 51.159.70.15
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6356ddde-9540-11ee-a018-dbb296bff7e7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vpnjantit
+- alterId: 0
+  cipher: auto
+  name: 12|法国 - 格拉沃利讷 - OVH SAS
+  network: ws
+  port: 2095
+  server: 104.20.173.1
   servername: ''
   tls: false
   type: vmess
-  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
-  name: 12|法国 - 斯特拉斯堡 - OVH SAS
+  name: 12|德国 - 法兰克福 - Akamai Technologie...
+  network: tcp
+  port: 18924
+  server: 172.104.240.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e96758e-8e77-47e1-8ca9-111892605b3a
+- alterId: 0
+  cipher: auto
+  name: 12|德国 - 法兰克福 - Global Internet So...
   network: ws
-  port: 443
-  server: cdn.mlcat.tk
+  port: 10001
+  server: 62.133.60.134
   servername: ''
   tls: true
   type: vmess
-  uuid: 8c269947-2d6f-45f6-8f58-921b52b79820
+  uuid: 998d0aea-9540-11ee-9111-3fe7c1d34d71
   ws-opts:
     headers:
-      Host: h48-fr.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
-- alterId: 0
-  cipher: auto
-  name: 12|德国 - 法兰克福 - Ferdinand Zink tra...
-  network: ws
-  port: 443
-  server: zlcq520.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8c269947-2d6f-45f6-8f58-921b52b79820
-  ws-opts:
-    headers:
-      Host: h30-fr2.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
-- alterId: 0
-  cipher: auto
-  name: '12|德国 - 法兰克福 - Ferdinand Zink tra... #1'
-  network: ws
-  port: 443
-  server: www.wuda.cf
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 472f6769-ba21-4e93-852e-9e57e470b533
-  ws-opts:
-    headers:
-      Host: h449-fr2.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
-- alterId: 0
-  cipher: auto
-  name: '12|德国 - 法兰克福 - Ferdinand Zink tra... #2'
-  network: ws
-  port: 443
-  server: cloudflare.cfgo.cc
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8c269947-2d6f-45f6-8f58-921b52b79820
-  ws-opts:
-    headers:
-      Host: h185-fr2.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
+      Host: ''
+    path: /vpnjantit
 - alterId: 0
   cipher: auto
   name: 12|法国 - 巴黎 - Cloudflare, Inc.
@@ -79,3 +65,13 @@ proxies:
     headers:
       Host: fr-new01.gujuji.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
+  network: tcp
+  port: '29776'
+  server: 146.59.147.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08

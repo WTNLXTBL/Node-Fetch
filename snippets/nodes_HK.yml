@@ -1,27 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|HK香港(mibei77.com 米贝节点分享)
-  network: ws
-  port: '8080'
-  server: b.mac2win.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
-  ws-opts:
-    headers:
-      Host: icu.mac2win.top
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 12|韩国 - 首尔特别市 - Kaopu Cloud HK Li...
   network: ws
   port: 42040
@@ -34,19 +13,124 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.94
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
-  network: tcp
-  port: '59638'
-  server: 91.149.236.70
+  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #2'
+  network: ws
+  port: 25189
+  server: 38.54.36.149
   servername: ''
   tls: false
   type: vmess
-  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
+  uuid: 3b9cc000-59ea-4cd2-f10e-91de3e69fe1c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 3
+  network: ws
+  port: 443
+  server: 47.242.109.138
+  servername: 47.242.109.138
+  tls: true
+  type: vmess
+  uuid: 9DC41E4B-53A8-A442-E911-4BC5F490F2CD
+  ws-opts:
+    headers:
+      Host: 47.242.109.138
+    path: /myblog
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 21001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #1'
+  network: ws
+  port: 58300
+  server: 38.54.36.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c1e5254-eab9-4c47-f749-a467019cf2ba
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 15|香港5|@ripaojiedian
+  network: tcp
+  port: '34001'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 10,11|香港腾讯云 6
+  network: tcp
+  port: '8002'
+  server: 43.132.164.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f
+- alterId: 0
+  cipher: auto
+  name: 10,11|香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二...
+  network: tcp
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
 - alterId: 0
   cipher: auto
   name: 12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
+  network: ws
+  port: 14163
+  server: 38.54.36.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 482a7849-2557-45de-e85c-95519c1b88e0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港1|浏览器输入 翻墙.com
+  password: kveALYbe1TZ5GAlAsf3XnjLNxoUmrr3Inbzumbt7BDAp
+  port: 52210
+  server: 91.229.132.214
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #3'
   network: ws
   port: 45589
   server: 38.54.36.74
@@ -69,79 +153,3 @@ proxies:
   server: 47.76.44.217
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港5|@ripaojiedian
-  network: tcp
-  port: '34001'
-  server: 183.240.232.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.94
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 3
-  network: ws
-  port: 443
-  server: 47.242.109.138
-  servername: 47.242.109.138
-  tls: true
-  type: vmess
-  uuid: 9DC41E4B-53A8-A442-E911-4BC5F490F2CD
-  ws-opts:
-    headers:
-      Host: 47.242.109.138
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 10,11|香港腾讯云 6
-  network: tcp
-  port: '8002'
-  server: 43.132.164.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f
-- alterId: 0
-  cipher: auto
-  name: 10,11|香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二...
-  network: tcp
-  port: '16399'
-  server: 115.126.50.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港1|浏览器输入 翻墙.com
-  password: kveALYbe1TZ5GAlAsf3XnjLNxoUmrr3Inbzumbt7BDAp
-  port: 52210
-  server: 91.229.132.214
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #1'
-  network: tcp
-  port: 56502
-  server: 38.54.86.217
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d20747ad-e689-4111-a46e-d5cf21ff4827
