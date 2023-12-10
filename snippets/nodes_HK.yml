@@ -1,24 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港3|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 12,13,17|香港 科盈电信集团有限公司(打砖坪街49-53号华基工业大厦...
-  network: tcp
-  port: '16399'
-  server: 115.126.50.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
-- alterId: 0
-  cipher: auto
-  name: 13,14|github.com/freefq - 香港亿万数据中心 5
+  name: 12,13,14|香港亿万数据中心 5
   network: ws
   port: 8888
   server: 107.151.250.29
@@ -31,13 +14,18 @@ proxies:
     path: /index.php
 - alterId: 0
   cipher: auto
-  name: 12|香港 腾讯云
-  network: tcp
-  port: '8002'
-  server: 43.132.164.99
-  tls: false
+  name: 12,13,17|香港阿里云 2
+  network: ws
+  port: '443'
+  server: n1701761456.gxpnmtg.cn
+  servername: n1701761456.gxpnmtg.cn
+  tls: true
   type: vmess
-  uuid: 75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f
+  uuid: bce406ed-1435-4afd-bb81-54ee21b696a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -53,6 +41,16 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12,13,17|香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二...
+  network: tcp
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -64,17 +62,10 @@ proxies:
   server: 47.76.44.217
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12,13,17|香港阿里云 31
-  network: ws
-  port: '443'
-  server: n1701761456.gxpnmtg.cn
-  servername: n1701761456.gxpnmtg.cn
-  tls: true
-  type: vmess
-  uuid: bce406ed-1435-4afd-bb81-54ee21b696a7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇭🇰 香港3|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 21001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
