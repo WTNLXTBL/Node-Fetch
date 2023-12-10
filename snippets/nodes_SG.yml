@@ -1,45 +1,58 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
+  name: 10,11|新加坡 腾讯云
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a05c76ce-4c96-4ba0-9a61-96910104f612
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 309e33a5-3ee7-483f-a685-96c35eb5fbb5
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.104.5...
-  network: ws
-  port: '35353'
-  server: 146.190.104.50
+  port: '666'
+  server: 43.153.210.169
   servername: ''
   tls: false
   type: vmess
-  uuid: 40d08177-7358-4e46-b05a-7752d5d7619f
+  uuid: 34a2f093-c236-4edc-eb6a-663f1bfaa136
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-8.219.240.12...
+  network: tcp
+  port: '32969'
+  server: 8.219.240.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fd3bd424-7f8f-4f93-8028-19deb28550db
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
+  network: ws
+  port: '46998'
+  server: 8.219.59.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5c9bed1a-716b-43e7-c807-9e0758186360
   ws-opts:
     headers:
-      Host: m.linkedin.com
+      Host: ''
     path: /
-- cipher: aes-256-cfb
-  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.206.212.255
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-47.236.22.3:...
+  network: tcp
+  port: '47885'
+  server: 47.236.22.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3
 - cipher: chacha20-ietf-poly1305
   name: 14|🇸🇬 新加坡3|浏览器输入 翻墙.com
   password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
@@ -49,17 +62,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|新加坡Amazon数据中心 62
-  network: ws
-  port: '80'
-  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  tls: false
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
-  ws-opts:
-    headers:
-      Host: dl.delivery.mp.microsoft.com
-    path: /
+  uuid: 056e2c34-0fd6-45c0-b14a-9a41dc3bb6c2
+- cipher: chacha20-ietf
+  name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
+  obfs: plain
+  obfs-param: TG@ripaojiedian
+  password: jFa4F1
+  port: 6702
+  protocol: auth_aes128_sha1
+  protocol-param: 84263:3gj7aB
+  server: cm03.newcome.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 10,11|新加坡Amazon数据中心 64
@@ -75,36 +95,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 309e33a5-3ee7-483f-a685-96c35eb5fbb5
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-47.236.22.3:...
-  network: tcp
-  port: '47885'
-  server: 47.236.22.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3
-- cipher: chacha20-ietf
-  name: 14|🇸🇬 狮城R|浏览器输入 翻墙.com
-  obfs: plain
-  obfs-param: TG@ripaojiedian
-  password: jFa4F1
-  port: 6702
-  protocol: auth_aes128_sha1
-  protocol-param: 84263:3gj7aB
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -112,27 +102,27 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a05c76ce-4c96-4ba0-9a61-96910104f612
+  uuid: 056e2c34-0fd6-45c0-b14a-9a41dc3bb6c2
 - alterId: 0
   cipher: auto
-  name: 10|新加坡 腾讯云
+  name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '666'
-  server: 43.153.210.169
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 34a2f093-c236-4edc-eb6a-663f1bfaa136
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a05c76ce-4c96-4ba0-9a61-96910104f612
+  uuid: 056e2c34-0fd6-45c0-b14a-9a41dc3bb6c2
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fd3bd424-7f8f-4f93-8028-19deb28550db
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -142,4 +132,24 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 309e33a5-3ee7-483f-a685-96c35eb5fbb5
+  uuid: fd3bd424-7f8f-4f93-8028-19deb28550db
+- cipher: aes-256-cfb
+  name: 14|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.125.29
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10,11|新加坡Amazon数据中心 62
+  network: ws
+  port: '80'
+  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  tls: false
+  type: vmess
+  uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
+  ws-opts:
+    headers:
+      Host: dl.delivery.mp.microsoft.com
+    path: /
