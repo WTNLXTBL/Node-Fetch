@@ -1,15 +1,28 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.44.217
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10,11,15|香港阿里云 31
+  network: ws
+  port: '443'
+  server: n1701761456.gxpnmtg.cn
+  servername: n1701761456.gxpnmtg.cn
+  tls: true
+  type: vmess
+  uuid: bce406ed-1435-4afd-bb81-54ee21b696a7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,11,15|香港 科盈电信集团有限公司(打砖坪街49-53号华基工业大厦...
+  network: tcp
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
 - alterId: 0
   cipher: auto
   name: 12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
@@ -24,22 +37,20 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|香港 腾讯云
-  network: tcp
-  port: '8002'
-  server: 43.132.164.99
+  name: 12|HK香港(mibei77.com 米贝节点分享)
+  network: ws
+  port: '8080'
+  server: d.mac2win.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: 75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f
+  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
+  ws-opts:
+    headers:
+      Host: icu.mac2win.top
+    path: /
 - alterId: 0
   cipher: auto
   name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #3'
@@ -56,28 +67,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11,15|香港科盈电信集团有限公司(打砖坪街49-53号华基工业大厦二...
+  name: 10,11|香港 腾讯云
   network: tcp
-  port: '16399'
-  server: 115.126.50.111
-  servername: ''
+  port: '8002'
+  server: 43.132.164.99
   tls: false
   type: vmess
-  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
-- alterId: 0
-  cipher: auto
-  name: 10,11,15|香港阿里云 1
-  network: ws
-  port: '443'
-  server: n1701761456.gxpnmtg.cn
-  servername: n1701761456.gxpnmtg.cn
-  tls: true
-  type: vmess
-  uuid: bce406ed-1435-4afd-bb81-54ee21b696a7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 75ed6c0d-cd32-4b10-f71f-cd0b9c6efa3f
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
@@ -88,16 +84,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 21001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #2'
+  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #1'
   network: ws
-  port: 45589
-  server: 38.54.36.74
+  port: 33890
+  server: 154.90.34.148
   servername: ''
   tls: false
   type: vmess
-  uuid: 1493d12a-5f0e-4094-9c74-08254fb9ed7c
+  uuid: f5c49819-07c3-4fb5-b7ca-395303d83417
   ws-opts:
     headers:
       Host: ''
@@ -119,31 +122,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #1'
+  name: '12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim... #2'
   network: ws
-  port: 33890
-  server: 154.90.34.148
+  port: 45589
+  server: 38.54.36.74
   servername: ''
   tls: false
   type: vmess
-  uuid: f5c49819-07c3-4fb5-b7ca-395303d83417
+  uuid: 1493d12a-5f0e-4094-9c74-08254fb9ed7c
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|HK香港(mibei77.com 米贝节点分享)
-  network: ws
-  port: '8080'
-  server: d.mac2win.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 65ae35d1-01b8-42e4-8373-00d01623c6ed
-  ws-opts:
-    headers:
-      Host: icu.mac2win.top
     path: /
 - alterId: 0
   cipher: auto
@@ -159,3 +148,14 @@ proxies:
     headers:
       Host: 47.242.109.138
     path: /myblog
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.44.217
+  tfo: false
+  type: ss
