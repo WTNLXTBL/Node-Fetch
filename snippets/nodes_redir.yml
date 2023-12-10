@@ -1,12 +1,4 @@
 proxies:
-- name: 1|_KR_->_US__2
-  network: tcp
-  password: cc05b267-2e17-4e73-92f0-2cf603aa5997
-  port: 40007
-  server: 146.56.179.67
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 1|_KR_->_AU__1
   network: tcp
   password: 57edfecf-5694-4a34-8072-54a4f0636a62
@@ -18,7 +10,50 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0,3,8|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 12|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
+  network: ws
+  port: 443
+  server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
+    path: /azumase.ren
+- name: 1|_KR_->_AU__2
+  network: tcp
+  password: cc05b267-2e17-4e73-92f0-2cf603aa5997
+  port: 40005
+  server: 146.56.179.67
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,18|🇺🇸 _US_美国->🇱🇹_LT_立陶宛
+  network: ws
+  port: '8080'
+  server: moon.chanell.mci.v-x4ssd.space
+  tls: false
+  type: vmess
+  uuid: 6ad7afd7-6958-478e-9fff-88f16f9a2008
+  ws-opts:
+    headers:
+      Host: moon.chanell.mci.v-x4ssd.space
+    path: /
+- name: 1|_KR_->_US__1
+  network: tcp
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,18|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: '80'
   server: ld2.shabijichang.com
@@ -31,33 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,8|🇺🇸 _US_美国->🇱🇹_LT_立陶宛
-  network: ws
-  port: '8080'
-  server: moon.chanell.mci.v-x4ssd.space
-  tls: false
-  type: vmess
-  uuid: 6ad7afd7-6958-478e-9fff-88f16f9a2008
-  ws-opts:
-    headers:
-      Host: moon.chanell.mci.v-x4ssd.space
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供：kk...
-  network: ws
-  port: 443
-  server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 1,12,13|_US_->_LT_
+  name: 1,10|_US_->_LT_
   network: ws
   port: 8080
   server: moon.chanell.mci.v-x4ssd.space
@@ -69,19 +78,10 @@ proxies:
     headers:
       host: moon.chanell.mci.v-x4ssd.space
     path: /
-- name: 1|_KR_->_US__1
-  network: tcp
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-  udp: true
-- name: 1|_KR_->_AU__2
+- name: 1|_KR_->_US__2
   network: tcp
   password: cc05b267-2e17-4e73-92f0-2cf603aa5997
-  port: 40005
+  port: 40007
   server: 146.56.179.67
   skip-cert-verify: true
   type: trojan
