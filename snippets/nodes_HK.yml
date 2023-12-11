@@ -1,15 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.210.85.62
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇭🇰 HK-47.242.76.125...
@@ -46,6 +35,17 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.210.85.62
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 14,15|🇭🇰 香港2|@ripaojiedian
@@ -62,3 +62,13 @@ proxies:
     headers:
       Host: www.73981772.xyz
     path: /path/143534141104
+- alterId: 64
+  cipher: auto
+  name: 15|香港4|浏览器输入 翻墙.com
+  network: tcp
+  port: '34001'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
