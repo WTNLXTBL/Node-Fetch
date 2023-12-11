@@ -1,50 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 74d44615-e7cc-44b9-807a-253ac7ab8085
-- name: 14|🇯🇵 日本|付费版推荐 翻墙.com
-  password: 8b625473-bcc1-42e7-b32c-586693816632
-  port: 443
-  server: microsoft-hk.85413.xyz
-  skip-cert-verify: false
-  sni: cs-cdn-cdn-cdn.zzzcccc.top
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 10|日本 东京Amazon数据中心
-  network: ws
-  port: '80'
-  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
-  tls: false
-  type: vmess
-  uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
-  ws-opts:
-    headers:
-      Host: dl.delivery.mp.microsoft.com
-    path: /
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 13.250.30.209
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20007
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 12|日本 - 东京 - Akamai Technologies
   network: tcp
   port: 36173
@@ -53,41 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 5de808d1-b707-462c-83f3-68739504ad70
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇯🇵 JP-64.176.58.15...
-  network: tcp
-  port: '46154'
-  server: 64.176.58.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: adcbe160-3010-483d-b438-d6057f465b1d
-- cipher: aes-128-gcm
-  name: 14|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 10013
-  server: 139.227.182.207
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b98a7d78-8e09-46e6-94cd-ef0fa0ecee5a
 - alterId: 64
   cipher: auto
   name: 12|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
@@ -100,16 +21,6 @@ proxies:
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 74d44615-e7cc-44b9-807a-253ac7ab8085
-- alterId: 0
-  cipher: auto
   name: 9|🇯🇵日本05
   network: tcp
   port: '36106'
@@ -117,7 +28,41 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b98a7d78-8e09-46e6-94cd-ef0fa0ecee5a
+  uuid: 544d1b3d-5fb2-4ca3-b00d-ca78dc9a82a2
+- name: 14|🇯🇵 日本|付费版推荐 翻墙.com
+  password: 8b625473-bcc1-42e7-b32c-586693816632
+  port: 443
+  server: microsoft-hk.85413.xyz
+  skip-cert-verify: false
+  sni: cs-cdn-cdn-cdn.zzzcccc.top
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 97ffe6dc-2ce1-4ca9-be68-c565f8ceeda7
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.110.52
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 97ffe6dc-2ce1-4ca9-be68-c565f8ceeda7
 - alterId: 0
   cipher: auto
   name: 9|🇯🇵日本06
@@ -127,7 +72,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b98a7d78-8e09-46e6-94cd-ef0fa0ecee5a
+  uuid: 544d1b3d-5fb2-4ca3-b00d-ca78dc9a82a2
 - cipher: aes-128-gcm
   name: 14|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -143,23 +88,16 @@ proxies:
   server: 139.227.182.207
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.110.52
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 12|日本 - 大阪市 - The Constant Compan...
+  name: 9|🇯🇵日本04
   network: tcp
-  port: 59350
-  server: 64.176.59.68
-  servername: ''
-  tls: false
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 5821ac21-8e3f-4c8b-832d-a55190c944e9
+  uuid: 544d1b3d-5fb2-4ca3-b00d-ca78dc9a82a2
 - alterId: 0
   cipher: auto
   name: 13|【BGP】日本 06  | 1x JP
@@ -169,4 +107,46 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 74d44615-e7cc-44b9-807a-253ac7ab8085
+  uuid: 97ffe6dc-2ce1-4ca9-be68-c565f8ceeda7
+- cipher: aes-128-gcm
+  name: 14|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10013
+  server: 139.227.182.207
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|🇯🇵 日本特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 13.250.30.209
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10,11|日本 东京Amazon数据中心
+  network: ws
+  port: '80'
+  server: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
+  tls: false
+  type: vmess
+  uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
+  ws-opts:
+    headers:
+      Host: dl.delivery.mp.microsoft.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20007
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
