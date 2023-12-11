@@ -1,46 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|TW台湾(mibei77.com 米贝节点分享)
+  name: 11,12|github.com/freefq - 台湾省中华电信(Hi...
   network: ws
-  port: '443'
-  server: 80.240.113.14
+  port: 443
+  server: b23.ntbq.dynu.net
   servername: ''
-  tls: true
-  type: vmess
-  uuid: d6d76607-603b-450f-b156-b3367f1b4558
-  ws-opts:
-    headers:
-      Host: teletv.onthewifi.com
-    path: /@FORWARDV2RAY
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾3|@ripaojiedian
-  password: 4d1e8cd03847
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /wlkldrkdzet
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: wtw1000mline004.chilines.club
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇹🇼|TW|台湾|@wxgqlfx|9
-  network: ws
-  port: 443
-  server: b24.ntbq.dynu.net
   tls: true
   type: vmess
   uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2
   ws-opts:
     headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
+      Host: b23.ntbq.dynu.net
+    path: /b23
+- alterId: 0
+  cipher: auto
+  name: 12|TW台湾(mibei77.com 米贝节点分享)
+  network: ws
+  port: '443'
+  server: 80.240.113.8
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315
+  ws-opts:
+    headers:
+      Host: software.myftp.biz
+    path: /@FORWARDV2RAY
+- alterId: 0
+  cipher: auto
+  name: '11,12|github.com/freefq - 台湾省中华电信(Hi... #2'
+  network: ws
+  port: 443
+  server: b21.ntbq.dynu.net
+  servername: b21.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2
+  ws-opts:
+    headers:
+      Host: b21.ntbq.dynu.net
+    path: /b21
 - alterId: 0
   cipher: auto
   name: 10|台湾省新北市 中华电信
@@ -57,7 +57,21 @@ proxies:
     path: /b13
 - alterId: 0
   cipher: auto
-  name: 10,12|台湾省台北市 中华电信
+  name: '11,12|github.com/freefq - 台湾省中华电信(Hi... #1'
+  network: ws
+  port: 443
+  server: b22.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2
+  ws-opts:
+    headers:
+      Host: b22.ntbq.dynu.net
+    path: /b22
+- alterId: 0
+  cipher: auto
+  name: 10|台湾省台北市 中华电信
   network: ws
   port: 443
   server: nbq12.ntbq.dynu.net
@@ -69,17 +83,18 @@ proxies:
     headers:
       Host: nbq12.ntbq.dynu.net
     path: /b12
-- alterId: 0
-  cipher: auto
-  name: '12|TW台湾(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '443'
-  server: 80.240.113.8
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 15eaa579-cf84-4792-8612-3f76fb1b6315
-  ws-opts:
-    headers:
-      Host: software.myftp.biz
-    path: /@FORWARDV2RAY
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾3|@ripaojiedian
+  password: 4d1e8cd03847
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /wlkldrkdzet
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
