@@ -1,19 +1,18 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾3|@ripaojiedian
-  password: 4d1e8cd03847
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /wlkldrkdzet
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: wtw1000mline004.chilines.club
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|TW-台中1-1 - 麻雀加速器 Sparrow〖电报：@c...
+  network: ws
+  port: '443'
+  server: tc11.twtc.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
+  ws-opts:
+    headers:
+      Host: tc11.twtc.dynu.net
+    path: /vbub1
 - alterId: 0
   cipher: auto
   name: 12|TW-板桥2-1 - 麻雀加速器 Sparrow〖电报：@c...
@@ -48,6 +47,7 @@ proxies:
   network: ws
   port: 443
   server: tc12.twtc.dynu.net
+  servername: ''
   tls: true
   type: vmess
   uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
@@ -57,46 +57,19 @@ proxies:
     path: /vbub2
 - alterId: 0
   cipher: auto
-  name: 15|台湾|低价实惠 翻墙.com
+  name: 14|🇹🇼 台湾|低价实惠 翻墙.com
   network: ws
-  port: '443'
+  port: 443
   server: nbq11.ntbq.dynu.net
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
   ws-opts:
     headers:
-      Host: ''
+      Host: nbq11.ntbq.dynu.net
     path: /b11
-- alterId: 0
-  cipher: auto
-  name: 12|TW-台中1-1 - 麻雀加速器 Sparrow〖电报：@c...
-  network: ws
-  port: '443'
-  server: tc11.twtc.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
-  ws-opts:
-    headers:
-      Host: tc11.twtc.dynu.net
-    path: /vbub1
-- alterId: 0
-  cipher: auto
-  name: 12|TW-板桥2-4 - 麻雀加速器 Sparrow〖电报：@c...
-  network: ws
-  port: '443'
-  server: b24.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
 - alterId: 0
   cipher: auto
   name: 12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
@@ -113,9 +86,9 @@ proxies:
     path: /b22
 - alterId: 0
   cipher: auto
-  name: 10,14|台湾省台北市中华电信 3
+  name: 15|台湾|低价实惠 翻墙.com
   network: ws
-  port: 443
+  port: '443'
   server: nbq11.ntbq.dynu.net
   servername: ''
   tls: true
@@ -123,13 +96,42 @@ proxies:
   uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
   ws-opts:
     headers:
-      Host: nbq11.ntbq.dynu.net
+      Host: ''
     path: /b11
 - alterId: 0
   cipher: auto
-  name: 10,12|台湾省新北市 中华电信
+  name: 12|TW-板桥2-4 - 麻雀加速器 Sparrow〖电报：@c...
   network: ws
+  port: '443'
+  server: b24.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾3|@ripaojiedian
+  password: 4d1e8cd03847
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /wlkldrkdzet
+    skip-cert-verify: false
+    tls: true
   port: 443
+  server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|TW-板桥2-3 - 麻雀加速器 Sparrow〖电报：@c...
+  network: ws
+  port: '443'
   server: b23.ntbq.dynu.net
   servername: ''
   tls: true

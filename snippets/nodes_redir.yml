@@ -1,4 +1,13 @@
 proxies:
+- name: 1|_CA_->_US_
+  network: tcp
+  password: 57edfecf-5694-4a34-8072-54a4f0636a62
+  port: 40007
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1,2,4,12|_IR_->_DE_
@@ -35,15 +44,6 @@ proxies:
     headers:
       Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
     path: /azumase.ren
-- name: 1|_CA_->_US_
-  network: tcp
-  password: 57edfecf-5694-4a34-8072-54a4f0636a62
-  port: 40007
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,6|🇫🇷 _IR_伊朗->🇫🇷_FR_法国
