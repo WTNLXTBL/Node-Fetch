@@ -1,19 +1,14 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.94
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
+  network: tcp
+  port: '59638'
+  server: 91.149.236.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
 - alterId: 64
   cipher: auto
   name: 15|香港4|浏览器输入 翻墙.com
@@ -42,16 +37,21 @@ proxies:
   server: 47.243.34.184
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
-  network: tcp
-  port: '59638'
-  server: 91.149.236.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港K|浏览器输入 翻墙.com
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.94
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 14|🇭🇰 香港4|浏览器输入 翻墙.com

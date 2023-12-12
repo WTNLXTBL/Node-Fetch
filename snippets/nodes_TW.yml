@@ -15,9 +15,9 @@ proxies:
     path: /vbub1
 - alterId: 0
   cipher: auto
-  name: 11,12,14|github.com/freefq - 台湾省台北市中华电信...
+  name: 15|台湾|低价实惠 翻墙.com
   network: ws
-  port: 443
+  port: '443'
   server: nbq11.ntbq.dynu.net
   servername: ''
   tls: true
@@ -25,7 +25,7 @@ proxies:
   uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
   ws-opts:
     headers:
-      Host: nbq11.ntbq.dynu.net
+      Host: ''
     path: /b11
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼 台湾3|@ripaojiedian
@@ -44,11 +44,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 台湾省中华电信(Hi...
+  name: 10,11,12|台湾省 中华电信(HiNet)数据中心
   network: ws
   port: 443
   server: tc12.twtc.dynu.net
-  servername: ''
   tls: true
   type: vmess
   uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
@@ -58,7 +57,21 @@ proxies:
     path: /vbub2
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 台湾省新北市中华电信...
+  name: 12|TW-板桥2-2 - 麻雀加速器 Sparrow〖电报：@c...
+  network: ws
+  port: 443
+  server: b22.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
+  ws-opts:
+    headers:
+      Host: b22.ntbq.dynu.net
+    path: /b22
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|台湾省新北市 中华电信
   network: ws
   port: 443
   server: b23.ntbq.dynu.net
@@ -72,9 +85,9 @@ proxies:
     path: /b23
 - alterId: 0
   cipher: auto
-  name: 15|台湾|低价实惠 翻墙.com
+  name: 10,11,12,14|台湾省台北市中华电信 3
   network: ws
-  port: '443'
+  port: 443
   server: nbq11.ntbq.dynu.net
   servername: ''
   tls: true
@@ -82,19 +95,5 @@ proxies:
   uuid: a879c622-37bf-4f3e-a8bf-a7f4a0daf465
   ws-opts:
     headers:
-      Host: ''
+      Host: nbq11.ntbq.dynu.net
     path: /b11
-- alterId: 0
-  cipher: auto
-  name: 10,12|台湾省 中华电信(HiNet)数据中心
-  network: ws
-  port: 443
-  server: b22.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 445405e7-8cb2-4a0f-be48-7714c8f233e2
-  ws-opts:
-    headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
