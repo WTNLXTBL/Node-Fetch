@@ -1,9 +1,44 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 17|香港4|浏览器输入 翻墙.com
+  network: tcp
+  port: '34001'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: 3f9dc5c4-85ad-461a-95af-68712eb6ad74
   port: 13907
   server: 91d71684cea0a49a.cdn.jiashule.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|香港
+  network: ws
+  port: '80'
+  server: kkyx.yydsii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f32fb637-67eb-48be-9f29-4523c4720de7
+  ws-opts:
+    headers:
+      Host: yxtw.651568.xyz
+    path: /
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.243.34.184
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -13,6 +48,16 @@ proxies:
   server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
+  network: tcp
+  port: '59638'
+  server: 91.149.236.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -28,24 +73,3 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.243.34.184
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 17|香港4|浏览器输入 翻墙.com
-  network: tcp
-  port: '34001'
-  server: 183.240.232.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
