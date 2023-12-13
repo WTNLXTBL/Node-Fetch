@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 0,2,3,4,8|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_GB_
   network: ws
   port: 80
@@ -15,14 +28,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,8|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 14|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: '80'
-  server: ld2.shabijichang.com
+  port: 2082
+  server: fr-01.jikuai.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
   ws-opts:
     headers:
-      Host: ld2.shabijichang.com
+      Host: ''
     path: /

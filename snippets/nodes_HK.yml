@@ -1,4 +1,42 @@
 proxies:
+- alterId: 0
+  cipher: none
+  name: 14|HK_youtube@资源分享师_11
+  network: ws
+  port: 2086
+  server: cdn.yifenjichang.top
+  tls: false
+  type: vmess
+  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
+  ws-opts:
+    headers:
+      Host: milk-challenged-apple-remain.trycloudflare.com
+    path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: 3f9dc5c4-85ad-461a-95af-68712eb6ad74
+  port: 13907
+  server: 91d71684cea0a49a.cdn.jiashule.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.243.34.184
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港3|浏览器输入 翻墙.com
+  password: 4fc77152e665415b9986d5b9b8f43601
+  port: 10086
+  server: 7690-hk45.hmbcloud-client.com
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -12,64 +50,5 @@ proxies:
     tls: false
   port: 443
   server: 1.65.139.94
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
-  network: tcp
-  port: '59638'
-  server: 91.149.236.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
-- alterId: 64
-  cipher: auto
-  name: 17|香港4|浏览器输入 翻墙.com
-  network: tcp
-  port: '34001'
-  server: 183.240.232.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.243.34.184
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: 3f9dc5c4-85ad-461a-95af-68712eb6ad74
-  port: 13907
-  server: 91d71684cea0a49a.cdn.jiashule.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NA 🇭🇰 HK-47.242.76.125...
-  network: ws
-  port: '45631'
-  server: 47.242.76.125
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港3|浏览器输入 翻墙.com
-  password: 4fc77152e665415b9986d5b9b8f43601
-  port: 10086
-  server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
