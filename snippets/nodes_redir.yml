@@ -1,17 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 20|🇺🇸_US_美国->🇦🇺_AU_澳大利亚_35
+  name: 1|_US_->_GB_
   network: ws
-  port: 443
-  server: www.wto.org
-  tls: true
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 539d1f3c-619c-4180-9603-d23e2b4db62f
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: copies-bandwidth-harold-tops.trycloudflare.com
-    path: 539d1f3c-619c-4180-9603-d23e2b4db62f-vm
+      host: ld2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,8|🇺🇸 _US_美国->🇬🇧_GB_英国
@@ -24,18 +25,4 @@ proxies:
   ws-opts:
     headers:
       Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_GB_
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: ld2.shabijichang.com
     path: /
