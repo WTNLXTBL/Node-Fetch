@@ -1,11 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡2|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 26602
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7a3705e8-de2c-441e-b73b-673636801209
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -15,7 +18,17 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c43e7a6b-ea16-4882-8005-a807bceebaf5
+  uuid: 93285c7c-92d4-4b9a-bad7-e87cfbd10a48
+- alterId: 0
+  cipher: auto
+  name: 15|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 93285c7c-92d4-4b9a-bad7-e87cfbd10a48
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
@@ -25,45 +38,21 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c43e7a6b-ea16-4882-8005-a807bceebaf5
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡2 - 一元云梯〖电报：@ccbaohe】免费节点定时...
-  network: ws
-  port: 80
-  server: cfcdn.996699.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35902aaf-cc24-45f5-99fb-798532ef91f5
-  ws-opts:
-    headers:
-      Host: yyjc-sg1.shaniugpt.top
-    path: /yyjc-sg1
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3d486d55-0e0c-428f-af5f-779c92565f25
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.104.5...
-  network: ws
-  port: '35353'
-  server: 146.190.104.50
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 40d08177-7358-4e46-b05a-7752d5d7619f
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /
+  uuid: 93285c7c-92d4-4b9a-bad7-e87cfbd10a48
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 新加坡2|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 26602
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- name: 16|🇸🇬 狮城|@ripaojiedian
+  password: 0497c82b-9fa6-391c-a6fd-42ff6f4c37ab
+  port: 30712
+  server: 111.47.212.119
+  skip-cert-verify: false
+  sni: x83.flybar.work
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
@@ -80,47 +69,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c43e7a6b-ea16-4882-8005-a807bceebaf5
-- name: 16|🇸🇬 狮城|@ripaojiedian
-  password: 0497c82b-9fa6-391c-a6fd-42ff6f4c37ab
-  port: 30712
-  server: 111.47.212.119
-  skip-cert-verify: false
-  sni: x83.flybar.work
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3d486d55-0e0c-428f-af5f-779c92565f25
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡
-  network: ws
-  port: '2'
-  server: 207.148.77.215
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
-  ws-opts:
-    headers:
-      Host: SG.linkedin.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.108...
   network: ws
   port: 30997
@@ -132,13 +80,6 @@ proxies:
     headers:
       Host: m.licdn.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡3|@ripaojiedian
-  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
-  port: 20109
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
@@ -155,11 +96,70 @@ proxies:
     path: /Shalana
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬新加坡05
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.104.5...
+  network: ws
+  port: '35353'
+  server: 146.190.104.50
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40d08177-7358-4e46-b05a-7752d5d7619f
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡2 - 一元云梯〖电报：@ccbaohe】免费节点定时...
+  network: ws
+  port: 80
+  server: cfcdn.996699.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35902aaf-cc24-45f5-99fb-798532ef91f5
+  ws-opts:
+    headers:
+      Host: yyjc-sg1.shaniugpt.top
+    path: /yyjc-sg1
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡
+  network: ws
+  port: '2'
+  server: 207.148.77.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
+  ws-opts:
+    headers:
+      Host: SG.linkedin.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 新加坡3|@ripaojiedian
+  password: d89ca371-e94b-4dfe-ad6f-02bd13edf7c4
+  port: 20109
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬新加坡06
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3d486d55-0e0c-428f-af5f-779c92565f25
+  uuid: 7a3705e8-de2c-441e-b73b-673636801209
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7a3705e8-de2c-441e-b73b-673636801209

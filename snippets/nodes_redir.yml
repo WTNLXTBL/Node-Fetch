@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2,3,4,8|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_GB_
   network: ws
   port: 80
@@ -28,7 +15,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,13|🇺🇸 _US_美国->🇱🇹_LT_立陶宛
+  name: 20|🇺🇸_US_美国->🇩🇪_DE_德国_2_39
+  network: ws
+  port: 8880
+  server: 162.159.134.234
+  tls: false
+  type: vmess
+  uuid: 2f1435e0-a3e6-40c7-bc4f-05f5befeb789
+  ws-opts:
+    headers:
+      Host: free.1alphaomega.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,4,8|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 20|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
+  network: ws
+  port: 80
+  server: cdn0.host-speed.net
+  tls: false
+  type: vmess
+  uuid: fd64710a-35ea-4b90-9fdd-9072e6c2ba71
+  ws-opts:
+    headers:
+      Host: cdn.vpnsell.beauty
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,12,13|🇺🇸 _US_美国->🇱🇹_LT_立陶宛
   network: ws
   port: '8080'
   server: cloud.dragonrzm.sbs
