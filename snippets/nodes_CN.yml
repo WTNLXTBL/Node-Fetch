@@ -1,10 +1,23 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 12,13,17|广东省 移动
+  name: 12,13,17|广东省移动 1
   network: tcp
-  port: 34001
+  port: '34001'
   server: 183.240.232.93
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|广东省广州市 移动
+  network: ws
+  port: '25242'
+  server: hk2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b50cfa49-c0d7-4e52-b489-364d7955aae9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''

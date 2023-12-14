@@ -1,4 +1,26 @@
 proxies:
+- name: 1|_CN_->_US__1
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 8|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
 - name: 1|_CA_->_US_
   network: tcp
   password: 57edfecf-5694-4a34-8072-54a4f0636a62
@@ -35,7 +57,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,12|🇺🇸 _US_美国->🇱🇹_LT_立陶宛
+  name: 0,2,3,4|🇺🇸 _US_美国->🇱🇹_LT_立陶宛
   network: ws
   port: '8080'
   server: cloud.dragonrzm.sbs
@@ -46,19 +68,15 @@ proxies:
     headers:
       Host: cloud.dragonrzm.sbs
     path: /
-- alterId: 0
-  cipher: auto
-  name: 8|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
+- name: 1|_CN_->_AT_
+  network: tcp
+  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - name: 1|_CN_->_US__2
   network: tcp
   password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
@@ -91,15 +109,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- name: 1|_CN_->_US__1
-  network: tcp
-  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 20|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
@@ -113,12 +122,3 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: 4de2e68e-3ffa-46a6-82f1-002ef5baab68
-  port: 10848
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true

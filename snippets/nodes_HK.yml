@@ -1,6 +1,27 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 17|香港5|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.243.34.184
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
   name: 16|🇭🇰 香港4|@ripaojiedian
   port: 34001
   server: 183.240.232.93
@@ -11,14 +32,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
+  name: 17|香港
   network: tcp
-  port: '59638'
-  server: 91.149.236.70
+  port: '20417'
+  server: 206.237.2.74
   servername: ''
   tls: false
   type: vmess
-  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
+  uuid: ebd0b86b-8aec-4d5f-9725-d35111dedfba
 - alterId: 0
   cipher: auto
   name: 16,17|🇭🇰 香港2|频道:@ripaojiedian
@@ -32,26 +53,6 @@ proxies:
   uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
   ws-opts:
     path: /eb6f75a1
-- alterId: 0
-  cipher: auto
-  name: 17|香港
-  network: tcp
-  port: '20417'
-  server: 206.237.2.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ebd0b86b-8aec-4d5f-9725-d35111dedfba
-- alterId: 64
-  cipher: auto
-  name: 17|香港5|@ripaojiedian
-  network: tcp
-  port: '42055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -67,14 +68,13 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.243.34.184
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-TCP-NA 🇭🇰 HK-91.149.236.7...
+  network: tcp
+  port: '59638'
+  server: 91.149.236.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
