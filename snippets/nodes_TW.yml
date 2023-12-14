@@ -12,83 +12,34 @@ proxies:
     headers:
       Host: cf-tww.doushimeng.com
     path: /asdas
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇹🇼 台湾3|@ripaojiedian
-  password: 4d1e8cd03847
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /wlkldrkdzet
-    skip-cert-verify: false
-    tls: true
+- alterId: 0
+  cipher: auto
+  name: 13,14|github.com/freefq - 台湾省中华电信(Hi...
+  network: ws
   port: 443
-  server: wtw1000mline004.chilines.club
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12,13,14|台湾省 中华电信(HiNet)数据中心
-  network: ws
-  port: '443'
-  server: b23.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- alterId: 0
-  cipher: auto
-  name: 14,16|-0565-TW【ccbaohe.com〗 永久免费节点机场
-  network: ws
-  port: '443'
   server: b22.ntbq.dynu.net
   servername: ''
   tls: true
   type: vmess
-  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
+  uuid: 44c8ddcc-5d3c-44b1-9250-eff4c8e2b903
   ws-opts:
     headers:
       Host: b22.ntbq.dynu.net
     path: /b22
-- alterId: 0
-  cipher: auto
-  name: 14|-1247-TW【ccbaohe.com〗 永久免费节点机场
-  network: ws
-  port: 443
-  server: nbq11.ntbq.dynu.net
+- alterId: 4
+  cipher: aes-128-gcm
+  h2-opts:
+    host:
+    - mirai.route76.net
+    path: /cache
+  name: 12|台湾省新北市 中华电信
+  network: h2
+  port: '443'
+  server: mirai.route76.net
   servername: ''
   tls: true
   type: vmess
-  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
-  ws-opts:
-    headers:
-      Host: nbq11.ntbq.dynu.net
-    path: /b11
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇹🇼 台湾1|@ripaojiedian
-  password: 0614d8af-e48f-40e3-8e56-47123606084c
-  port: 51051
-  server: apnep2erpyyj4ef86.makabaka740.com
-  tfo: false
-  type: ss
+  uuid: ccf295c0-cdb7-43f1-9dca-7f15752704b4
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-TCP-NA 🇹🇼 TW-152.32.167.1...
@@ -112,31 +63,59 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 4
-  cipher: aes-128-gcm
-  h2-opts:
-    host:
-    - mirai.route76.net
-    path: /cache
-  name: 12|台湾省新北市 中华电信
-  network: h2
-  port: '443'
-  server: mirai.route76.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ccf295c0-cdb7-43f1-9dca-7f15752704b4
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇹🇼 台湾3|@ripaojiedian
+  password: 4d1e8cd03847
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /wlkldrkdzet
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 17|台湾2|@ripaojiedian
+  name: 12,13,14|台湾省 中华电信(HiNet)数据中心
   network: ws
   port: '443'
-  server: b22.ntbq.dynu.net
-  servername: ''
+  server: b23.ntbq.dynu.net
   tls: true
   type: vmess
   uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
   ws-opts:
     headers:
+      Host: b23.ntbq.dynu.net
+    path: /b23
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
       Host: ''
-    path: /b22
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|-1247-TW【ccbaohe.com〗 永久免费节点机场
+  network: ws
+  port: 443
+  server: nbq11.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11

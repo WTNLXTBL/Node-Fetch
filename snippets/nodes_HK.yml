@@ -1,17 +1,25 @@
 proxies:
-- alterId: 0
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.243.34.184
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 14|香港05{优化1|V2ray}
-  network: ws
-  port: '25244'
-  server: hk1.awslcn.info
+  name: 16|🇭🇰 香港4|@ripaojiedian
+  port: 34001
+  server: 183.240.232.93
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: b50cfa49-c0d7-4e52-b489-364d7955aae9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇭🇰 HK-47.242.76.125...
@@ -26,34 +34,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.94
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|香港04{优化1|V2ray}
-  network: ws
-  port: '25250'
-  server: hk1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b50cfa49-c0d7-4e52-b489-364d7955aae9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - alterId: 64
   cipher: auto
   name: 17|香港5|@ripaojiedian
@@ -66,23 +46,9 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|香港【TG：@ccbaohe】定时更新节点订阅 2
+  name: 14|香港04{优化1|V2ray}
   network: ws
-  port: 2086
-  server: cdn.yifenjichang.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 900ceafc-30b8-4581-a305-31854f563e4f
-  ws-opts:
-    headers:
-      Host: pmid-mask-albums-heights.trycloudflare.com
-    path: 900ceafc-30b8-4581-a305-31854f563e4f-vm
-- alterId: 0
-  cipher: auto
-  name: 14|香港01{优化1|V2ray}
-  network: ws
-  port: '25242'
+  port: '25250'
   server: hk1.awslcn.info
   tls: false
   type: vmess
@@ -103,10 +69,33 @@ proxies:
   uuid: 828e30d3-fbe6-4607-bbd6-ba6eaba89d70
 - alterId: 0
   cipher: auto
-  name: 14|香港02{优化2|V2ray}
+  name: 17|香港
+  network: tcp
+  port: '20417'
+  server: 206.237.2.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ebd0b86b-8aec-4d5f-9725-d35111dedfba
+- alterId: 0
+  cipher: auto
+  name: 16,17|🇭🇰 香港2|频道:@ripaojiedian
   network: ws
-  port: '25242'
-  server: hk2.awslcn.info
+  port: 40400
+  server: 85.208.104.22
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
+  ws-opts:
+    path: /eb6f75a1
+- alterId: 0
+  cipher: auto
+  name: 14|香港05{优化1|V2ray}
+  network: ws
+  port: '25244'
+  server: hk1.awslcn.info
   tls: false
   type: vmess
   uuid: b50cfa49-c0d7-4e52-b489-364d7955aae9
@@ -115,29 +104,17 @@ proxies:
       Host: ''
     path: ''
 - cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT1|@ripaojiedian
+  name: 16|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
-  plugin: obfs
+  plugin: v2ray-plugin
   plugin-opts:
     host: ''
-    mode: http
-  port: 80
-  server: 47.243.34.184
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.94
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16,17|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 50000
-  server: 202.86.138.58
-  servername: hkt-ji.455773.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 33fef73f-cf19-4e70-b071-ddb0155a9556
-  ws-opts:
-    headers:
-      Host: hkt-ji.455773.xyz
-    path: /
