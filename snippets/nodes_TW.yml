@@ -1,31 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|🇹🇼台湾01
+  name: 12|台湾省 中华电信(HiNet)数据中心
   network: ws
-  port: '80'
-  server: dl1.doushimeng.com
-  tls: false
-  type: vmess
-  uuid: cbdc5a4d-1544-459b-b3fb-4b493b4cb5de
-  ws-opts:
-    headers:
-      Host: cf-tww.doushimeng.com
-    path: /asdas
-- alterId: 0
-  cipher: auto
-  name: 13,14|github.com/freefq - 台湾省中华电信(Hi...
-  network: ws
-  port: 443
-  server: b22.ntbq.dynu.net
-  servername: ''
+  port: '443'
+  server: b23.ntbq.dynu.net
   tls: true
   type: vmess
-  uuid: 44c8ddcc-5d3c-44b1-9250-eff4c8e2b903
+  uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
   ws-opts:
     headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
+      Host: b23.ntbq.dynu.net
+    path: /b23
 - alterId: 4
   cipher: aes-128-gcm
   h2-opts:
@@ -40,29 +26,6 @@ proxies:
   tls: true
   type: vmess
   uuid: ccf295c0-cdb7-43f1-9dca-7f15752704b4
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-TCP-NA 🇹🇼 TW-152.32.167.1...
-  network: tcp
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- alterId: 0
-  cipher: auto
-  name: 14|台湾02{移动|V2ray}
-  network: ws
-  port: '25233'
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b50cfa49-c0d7-4e52-b489-364d7955aae9
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - cipher: chacha20-ietf-poly1305
   name: 16|🇹🇼 台湾3|@ripaojiedian
   password: 4d1e8cd03847
@@ -80,42 +43,48 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12,13,14|台湾省 中华电信(HiNet)数据中心
-  network: ws
-  port: '443'
-  server: b23.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: f269e2fa-6c84-43fe-8e69-a240b8449e79
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|-1247-TW【ccbaohe.com〗 永久免费节点机场
+  name: 14|-0561-TW【ccbaohe.com〗 永久免费节点机场
   network: ws
   port: 443
   server: nbq11.ntbq.dynu.net
   servername: ''
   tls: true
   type: vmess
-  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
+  uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
   ws-opts:
     headers:
       Host: nbq11.ntbq.dynu.net
     path: /b11
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-TCP-NA 🇹🇼 TW-152.32.167.1...
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-TCP-NA 🇹🇼 TW-45.121.48.19...
+  network: tcp
+  port: 10001
+  server: 45.121.48.196
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 14|-1251-TW【ccbaohe.com〗 永久免费节点机场
+  network: ws
+  port: 443
+  server: b22.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
+  ws-opts:
+    headers:
+      Host: b22.ntbq.dynu.net
+    path: /b22
