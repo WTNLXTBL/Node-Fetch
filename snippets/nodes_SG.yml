@@ -8,17 +8,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6f96c71e-a532-48be-be33-14fb23883412
+  uuid: c32fd4f6-4c90-4a10-aa1d-3bbc7b25b319
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
+  network: ws
+  port: '2'
+  server: 207.148.77.215
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 6f96c71e-a532-48be-be33-14fb23883412
+  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
+  ws-opts:
+    headers:
+      Host: SG.linkedin.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 04 | 1x SG
@@ -28,40 +32,17 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 572c1f8d-2996-4555-9fbc-2f57cf2bc558
+  uuid: b62e7d8f-7b4d-45f8-a9e6-eb635d831a8a
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬新加坡05
+  name: 15|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f96c71e-a532-48be-be33-14fb23883412
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 572c1f8d-2996-4555-9fbc-2f57cf2bc558
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.108...
-  network: ws
-  port: 30997
-  server: 146.190.108.95
-  tls: false
-  type: vmess
-  uuid: d2a14469-8e8e-44da-8001-7864bd3f7121
-  ws-opts:
-    headers:
-      Host: m.licdn.com
-    path: /
+  uuid: b62e7d8f-7b4d-45f8-a9e6-eb635d831a8a
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
@@ -78,25 +59,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|【BGP】新加坡 06 | 1x SG
+  name: 15|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 572c1f8d-2996-4555-9fbc-2f57cf2bc558
+  uuid: b62e7d8f-7b4d-45f8-a9e6-eb635d831a8a
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
-  network: ws
-  port: '2'
-  server: 207.148.77.215
-  servername: ''
-  tls: false
+  name: 11|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
-  ws-opts:
-    headers:
-      Host: SG.linkedin.com
-    path: /
+  uuid: c32fd4f6-4c90-4a10-aa1d-3bbc7b25b319
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c32fd4f6-4c90-4a10-aa1d-3bbc7b25b319
