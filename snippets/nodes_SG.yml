@@ -1,6 +1,70 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 15|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8c9cd3fd-f377-4487-b639-0fc62dad862c
+- alterId: 0
+  cipher: auto
+  name: 15|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8c9cd3fd-f377-4487-b639-0fc62dad862c
+- alterId: 0
+  cipher: auto
+  name: 15|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8c9cd3fd-f377-4487-b639-0fc62dad862c
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
+  network: ws
+  port: '2'
+  server: 207.148.77.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
+  ws-opts:
+    headers:
+      Host: SG.linkedin.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 新加坡|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.108...
+  network: ws
+  port: 30997
+  server: 146.190.108.95
+  tls: false
+  type: vmess
+  uuid: d2a14469-8e8e-44da-8001-7864bd3f7121
+  ws-opts:
+    headers:
+      Host: m.licdn.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -8,16 +72,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c2a7453f-c554-4a94-8426-f73ee3ca405a
-- alterId: 0
-  cipher: auto
-  name: 14|🔒 VM-TCP-NA 🇸🇬 SG-47.236.2.149...
-  network: tcp
-  port: 6666
-  server: 47.236.2.149
-  tls: false
-  type: vmess
-  uuid: cd76100e-3a4a-4648-96c0-b22376dfafa1
+  uuid: f6b2879b-a146-4742-867d-854d3eb6891e
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
@@ -34,53 +89,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c2a7453f-c554-4a94-8426-f73ee3ca405a
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: caba0539-ce2b-434d-bf4b-8b79f066983d
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: caba0539-ce2b-434d-bf4b-8b79f066983d
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: caba0539-ce2b-434d-bf4b-8b79f066983d
-- alterId: 0
-  cipher: auto
   name: 11|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -88,31 +96,23 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c2a7453f-c554-4a94-8426-f73ee3ca405a
+  uuid: f6b2879b-a146-4742-867d-854d3eb6891e
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
-  network: ws
-  port: '2'
-  server: 207.148.77.215
-  servername: ''
-  tls: false
+  name: 11|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
-  ws-opts:
-    headers:
-      Host: SG.linkedin.com
-    path: /
+  uuid: f6b2879b-a146-4742-867d-854d3eb6891e
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.108...
-  network: ws
-  port: 30997
-  server: 146.190.108.95
+  name: 14|🔒 VM-TCP-NA 🇸🇬 SG-47.236.2.149...
+  network: tcp
+  port: 6666
+  server: 47.236.2.149
   tls: false
   type: vmess
-  uuid: d2a14469-8e8e-44da-8001-7864bd3f7121
-  ws-opts:
-    headers:
-      Host: m.licdn.com
-    path: /
+  uuid: cd76100e-3a4a-4648-96c0-b22376dfafa1
