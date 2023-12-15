@@ -1,16 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇨🇦 _CN_中国->🇨🇦_CA_加拿大 #1'
+  name: 1|_CN_->_CA__2
   network: ws
-  port: '16648'
+  port: 16648
   server: m.cnmjcn.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -28,30 +29,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-  network: ws
-  port: '16648'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2086
-  server: 51.15.19.206
-  tls: false
-  type: vmess
-  uuid: 6704eed0-97a6-11ee-b632-205c6d5f5d78
-  ws-opts:
-    path: /k487e2od
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_DE__1
   network: ws
   port: 2087
@@ -66,17 +43,16 @@ proxies:
     path: /kqlqqv
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_CA__2
+  name: 0,2,3,4|🇨🇦 _CN_中国->🇨🇦_CA_加拿大
   network: ws
-  port: 16648
-  server: m.cnmjcn.com
-  skip-cert-verify: true
+  port: '16648'
+  server: t.cnmjcn.cyou
   tls: false
   type: vmess
   uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -93,6 +69,32 @@ proxies:
     path: /kqlqqv
 - alterId: 0
   cipher: auto
+  name: 2,4|🇨🇳_CN_中国->🇨🇦_CA_加拿大
+  network: ws
+  port: 16648
+  server: yes.cnmjcn.net
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4|🇨🇦 _CN_中国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: '16648'
+  server: m.cnmjcn.com
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_CN_->_CA__3
   network: ws
   port: 16648
@@ -104,19 +106,6 @@ proxies:
   ws-opts:
     headers:
       host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,4|🇨🇳_CN_中国->🇨🇦_CA_加拿大
-  network: ws
-  port: 16648
-  server: yes.cnmjcn.net
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - name: 1|_US_->_DE__2
   network: ws
@@ -131,3 +120,14 @@ proxies:
     headers:
       host: pANeL159.moOkoMEilz.homeshttp/1.1
     path: /mskqq
+- alterId: 0
+  cipher: auto
+  name: 20|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2086
+  server: 51.15.19.206
+  tls: false
+  type: vmess
+  uuid: 6704eed0-97a6-11ee-b632-205c6d5f5d78
+  ws-opts:
+    path: /k487e2od
