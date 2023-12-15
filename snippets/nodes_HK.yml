@@ -1,4 +1,19 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.94
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 16|🇭🇰 香港5|@ripaojiedian
@@ -6,41 +21,6 @@ proxies:
   server: 112.28.208.10
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|🇭🇰 香港快|tg频道:@ripaojiedian
-  network: ws
-  port: 46005
-  server: mf805f.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: da97e052-4867-4401-af80-fe51e4d2fdca
-  ws-opts:
-    headers:
-      Host: mf805f.micloud.buzz
-    path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 17|香港3|@ripaojiedian
-  network: tcp
-  port: '50965'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 17|香港1|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 112.28.208.10
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -69,28 +49,16 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.94
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇭🇰 香港2|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 17|香港1|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 17|香港4|@ripaojiedian
@@ -101,3 +69,35 @@ proxies:
   tls: false
   type: vmess
   uuid: ebd0b86b-8aec-4d5f-9725-d35111dedfba
+- alterId: 64
+  cipher: auto
+  name: 17|香港3|@ripaojiedian
+  network: tcp
+  port: '50965'
+  server: 183.233.187.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰 香港快|tg频道:@ripaojiedian
+  network: ws
+  port: 46005
+  server: mf805f.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: da97e052-4867-4401-af80-fe51e4d2fdca
+  ws-opts:
+    headers:
+      Host: mf805f.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
