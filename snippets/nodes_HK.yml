@@ -1,40 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|🇭🇰 香港4|@ripaojiedian
-  port: 34001
-  server: 183.240.232.93
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16,17|🇭🇰 香港2|频道:@ripaojiedian
-  network: ws
-  port: 40400
-  server: 85.208.104.22
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
-  ws-opts:
-    path: /eb6f75a1
-- alterId: 0
-  cipher: auto
-  name: 14|YouTube面具人哈乐_香港_42
-  network: ws
-  port: 2380
-  server: xg01.pigvip.xyz
-  tls: false
-  type: vmess
-  uuid: 0747039a-d1fe-4d78-a439-9b771f916e5c
-  ws-opts:
-    headers:
-      Host: '{"Host":"ssmtt.com"}'
-    path: /
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -44,6 +8,13 @@ proxies:
     mode: http
   port: 80
   server: 47.243.34.184
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇭🇰 香港2|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -61,6 +32,16 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|🇭🇰 香港5|@ripaojiedian
+  port: 42055
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 17|香港
@@ -83,14 +64,30 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 14|YouTube面具人哈乐_香港_39
+  name: 17|香港2|频道:@ripaojiedian
   network: ws
-  port: 2380
-  server: xg02.pigvip.xyz
+  port: '40400'
+  server: 85.208.104.22
+  servername: ''
   tls: false
   type: vmess
-  uuid: 0747039a-d1fe-4d78-a439-9b771f916e5c
+  uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
   ws-opts:
     headers:
-      Host: '{"Host":"ssmtt.com"}'
-    path: /
+      Host: ''
+    path: /eb6f75a1
+- alterId: 0
+  cipher: auto
+  name: 16|🇭🇰 香港快|tg频道:@ripaojiedian
+  network: ws
+  port: 46005
+  server: mf805f.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: da97e052-4867-4401-af80-fe51e4d2fdca
+  ws-opts:
+    headers:
+      Host: mf805f.micloud.buzz
+    path: /zh-cn
