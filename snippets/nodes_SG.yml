@@ -1,14 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬新加坡05
+  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
+  network: ws
+  port: '21378'
+  server: 146.190.99.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /Shalana
+- alterId: 0
+  cipher: auto
+  name: 15|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
   uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
+- alterId: 0
+  cipher: auto
+  name: 15|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
 - alterId: 0
   cipher: auto
   name: 15|【BGP】新加坡 06 | 1x SG
@@ -19,6 +53,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+- alterId: 0
+  cipher: auto
+  name: 11|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - alterId: 0
   cipher: auto
   name: 14|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
@@ -35,14 +79,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15|【BGP】新加坡 05 | 1x SG
+  name: 11|🇸🇬新加坡05
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+  uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - cipher: chacha20-ietf-poly1305
   name: 16|🇸🇬 新加坡|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
@@ -50,33 +94,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
