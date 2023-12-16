@@ -1,31 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
-  network: ws
-  port: '46998'
-  server: 8.219.59.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5c9bed1a-716b-43e7-c807-9e0758186360
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 04 | 1x SG
+  name: 13|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
   uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
 - alterId: 0
   cipher: auto
-  name: 15|【BGP】新加坡 05 | 1x SG
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
   server: 1c7s2g05.mcfront.xyz
@@ -35,7 +31,7 @@ proxies:
   uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
 - alterId: 0
   cipher: auto
-  name: 11|🇸🇬新加坡06
+  name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
   server: 9s5g06.abzoones.xyz
@@ -45,7 +41,7 @@ proxies:
   uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-207.148.77.21...
   network: ws
   port: '2'
   server: 207.148.77.215
@@ -59,47 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NONE 🇸🇬 SG-146.190.108...
-  network: ws
-  port: 30976
-  server: 146.190.108.95
-  tls: false
-  type: vmess
-  uuid: d2a14469-8e8e-44da-8001-7864bd3f7121
-  ws-opts:
-    headers:
-      Host: m.licdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 15|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
-- cipher: chacha20-ietf-poly1305
-  name: 16|🇸🇬 新加坡|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|🇸🇬新加坡04
+  name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
   server: 9s5g04.abzoones.xyz
@@ -109,7 +65,38 @@ proxies:
   uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.109.2...
+  network: ws
+  port: '50007'
+  server: 146.190.109.208
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 73cd1d0e-9fce-4da4-94de-9a3963b59962
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
   network: ws
   port: '21378'
   server: 146.190.99.71
@@ -123,15 +110,15 @@ proxies:
     path: /Shalana
 - alterId: 0
   cipher: auto
-  name: 14|🔒 VM-WS-NA 🇸🇬 SG-146.190.109.2...
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-8.219.59.222:...
   network: ws
-  port: '50007'
-  server: 146.190.109.208
+  port: '46998'
+  server: 8.219.59.222
   servername: ''
   tls: false
   type: vmess
-  uuid: 73cd1d0e-9fce-4da4-94de-9a3963b59962
+  uuid: 5c9bed1a-716b-43e7-c807-9e0758186360
   ws-opts:
     headers:
-      Host: media-exp1.licdn.com
+      Host: ''
     path: /
