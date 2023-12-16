@@ -1,18 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13,14|github.com/freefq - 香港特别行政区 9
-  network: ws
-  port: 33890
-  server: 154.90.34.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f5c49819-07c3-4fb5-b7ca-395303d83417
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- cipher: aes-128-gcm
+  name: 16|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.243.34.184
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   name: 16|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -28,17 +25,6 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  name: 16|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.243.34.184
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 17|香港1|@ripaojiedian
@@ -49,6 +35,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12,13,14|香港特别行政区 9
+  network: ws
+  port: 33890
+  server: 154.90.34.148
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5c49819-07c3-4fb5-b7ca-395303d83417
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 16|🇭🇰 香港2|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
