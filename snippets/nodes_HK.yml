@@ -1,11 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-115.126.50.1...
+  network: tcp
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -15,6 +18,23 @@ proxies:
     mode: http
   port: 80
   server: 47.243.34.184
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-38.6.224.204...
+  network: tcp
+  port: '65055'
+  server: 38.6.224.204
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a0940b9-de34-4994-a07e-2f7fc7f6b197
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -32,3 +52,13 @@ proxies:
   server: 1.65.139.94
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 香港ADCDATA数...
+  network: tcp
+  port: 8443
+  server: 194.156.98.167
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8cb670df-17e8-4dab-bfd9-15c79d519bdd
