@@ -1,27 +1,86 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|【BGP】美国 04 | 1x US
+  name: 15|美国2|@ripaojiedian
   network: tcp
-  port: '31501'
-  server: 4a2u0a04.mcfront.xyz
-  servername: us04.lovemc.xyz
-  tls: true
+  port: '52629'
+  server: 120.233.43.37
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 9|🇺🇸美国06
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-172.234.17.3...
   network: tcp
-  port: '36511'
-  server: 3u1s06.abzoones.xyz
-  servername: us06.abpilot.xyz
+  port: '48771'
+  server: 172.234.17.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1c2be64-961b-407a-c4e0-b8919ca1253b
+- alterId: 0
+  cipher: auto
+  name: 9|🇺🇸美国05
+  network: tcp
+  port: '36506'
+  server: 3u1s05.abzoones.xyz
+  servername: us05.abpilot.xyz
   tls: true
   type: vmess
   uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #1'
+  name: 16|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '26611'
+  server: gdct002.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5b981688-9bf2-4e63-91d2-df870719e7ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-23.27.168.64...
+  network: tcp
+  port: '21426'
+  server: 23.27.168.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 716f1ed3-2b94-480f-9897-b3d297463c58
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇺🇸 US-38.54.104.191...
+  network: ws
+  port: '54033'
+  server: 38.54.104.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e67a298-bf2e-4211-bc9a-dccd0fe3320d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- grpc-opts:
+    grpc-service-name: '@apt_mahdi'
+  name: 1|_US__1
+  network: grpc
+  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
+  port: 8443
+  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
+  skip-cert-verify: true
+  sni: ams-trojan-grpc.carfin.tech
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇺🇸|US|美国|@wxgqlfx|9
   network: ws
   port: '2083'
   server: amini2.ddns.net
@@ -35,59 +94,6 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 美国  4
-  network: ws
-  port: 30976
-  server: 146.190.108.95
-  tls: false
-  type: vmess
-  uuid: d2a14469-8e8e-44da-8001-7864bd3f7121
-  ws-opts:
-    headers:
-      Host: m.licdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,11,12|美国 CloudFlare节点
-  network: ws
-  port: '8080'
-  server: us-new04.gujuji.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f
-  ws-opts:
-    headers:
-      Host: us-new04.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04【vip1】
-  network: ws
-  port: '62684'
-  server: gdct001.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 96165a00-4619-4173-b0cf-f6d495efa0f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国01【vip1】
-  network: ws
-  port: '38381'
-  server: gdct003.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 96165a00-4619-4173-b0cf-f6d495efa0f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 9|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -98,108 +104,107 @@ proxies:
   uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - alterId: 0
   cipher: auto
-  name: '10,11|美国 CloudFlare节点 #2'
-  network: ws
-  port: '2082'
-  server: us-02.jikuai.xyz
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: us-02.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-172.233.188....
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-156.251.190....
   network: tcp
-  port: '11397'
-  server: 172.233.188.166
+  port: '20624'
+  server: 156.251.190.252
   servername: ''
   tls: false
   type: vmess
-  uuid: 20e0d67d-f7aa-4bb1-daae-b7f217306bba
+  uuid: 4323758f-d0fd-466e-f500-0d9515bcd1cb
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,18|🇺🇸 _US_美国
-  network: ws
-  port: '80'
-  server: ns1.v2-vip.fun
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: 42598
+  server: 129.146.247.135
   tls: false
   type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '21036'
+  server: gdct003.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5b981688-9bf2-4e63-91d2-df870719e7ea
   ws-opts:
     headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 64
+      Host: ''
+    path: ''
+- alterId: 0
   cipher: auto
-  name: 12|美国(yudou66.com 玉豆免费节点)
+  name: 16|JCBB_ 美国 04【vip1】
   network: ws
-  port: '30000'
-  server: 45.58.153.24
+  port: '62684'
+  server: gdct001.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5b981688-9bf2-4e63-91d2-df870719e7ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 10,11|美国CloudFlare公司CDN节点 12
+  network: ws
+  port: '8080'
+  server: 104.17.129.28
   servername: ''
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    headers:
-      Host: www.77935707.xyz
-    path: /path/1702392255355
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 11,12|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: '80'
-  server: 190.93.246.119
-  servername: ''
   tls: false
   type: vmess
-  uuid: b7fdc31a-3f0b-45f1-aa0e-d5d883ac5c4e
+  uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6
   ws-opts:
     headers:
-      Host: m.iranspeed.shop
-    path: /QUeMEWutZAndOVVMwhRJqh28
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #1'
-  network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 19de9747-b4b0-4b6c-9697-26cb1310f2cf
-  ws-opts:
+      Host: eu4.openxai.link
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,4,12,14,15|_US__6
+  name: 10|美国CloudFlare节点 1
   network: ws
-  port: 51904
-  server: 23.166.24.63
-  skip-cert-verify: true
+  port: '2052'
+  server: 162.159.138.110
   tls: false
   type: vmess
-  uuid: ee25f36d-8501-4f94-d3f6-07baae27cc13
+  uuid: fe823d74-fa7e-4dc1-b16b-480bc201a153
   ws-opts:
-    path: /ee25f36d
+    headers:
+      Host: mg_cdn.yunjisuan.cf
+    path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇺🇸|US|美国|@wxgqlfx|15
+  name: 12|🔒 VM-WS-NA 🇺🇸 US-144.202.81.12...
   network: ws
-  port: '49459'
-  server: 146.190.99.209
+  port: '25514'
+  server: 144.202.81.122
   servername: ''
   tls: false
   type: vmess
-  uuid: abdedb94-89b9-4776-9b0a-d23869cd1d96
+  uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955
   ws-opts:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US__5
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
-  name: 10|美国 华盛顿Cogent通信公司
+  name: 10,12|美国 华盛顿Cogent通信公司
   network: ws
   port: '30000'
   server: 38.54.185.113
@@ -211,60 +216,6 @@ proxies:
     headers:
       Host: www.73664999.xyz
     path: /path/1702215223320
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: 42598
-  server: 129.146.247.135
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 64
-  cipher: auto
-  name: 15|美国2|@ripaojiedian
-  network: tcp
-  port: '52629'
-  server: 120.233.43.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- grpc-opts:
-    grpc-service-name: '@apt_mahdi'
-  name: 1|_US__1
-  network: grpc
-  password: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=
-  port: 8443
-  server: 8Ka1hu4r3g@cf.network383.online:8443?type=grpc&sni=ams-trojan-grpc.carfin.tech&allowInsecure=1&serviceName=@apt_mahdi
-  skip-cert-verify: true
-  sni: ams-trojan-grpc.carfin.tech
-  tls: true
-  type: trojan
-  udp: true
-- name: 1|_US__9
-  network: ws
-  password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86
-  port: 443
-  server: 167.68.5.183
-  skip-cert-verify: true
-  sni: 6us3.pqjc.buzz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 6us3.pqjc.buzz
-    path: /pq/us3
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-23.27.168.64...
-  network: tcp
-  port: '21426'
-  server: 23.27.168.64
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 716f1ed3-2b94-480f-9897-b3d297463c58
 - name: 1|_US__4
   network: ws
   password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86
@@ -280,14 +231,47 @@ proxies:
     path: /pq/us1
 - alterId: 0
   cipher: auto
-  name: 10|美国 加利福尼亚州洛杉矶RamNode数据中心
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-38.6.227.31:...
   network: tcp
-  port: 15551
-  server: 168.235.72.221
+  port: '10365'
+  server: 38.6.227.31
   servername: ''
   tls: false
   type: vmess
-  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
+  uuid: 3a150f47-4284-4472-bb17-908bec58e01a
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
+  network: tcp
+  port: '14432'
+  server: 104.237.128.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- alterId: 0
+  cipher: auto
+  name: 10|美国CloudFlare公司CDN节点 5
+  network: ws
+  port: 8080
+  server: us-new01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f
+  ws-opts:
+    headers:
+      Host: us-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,2,3,4,6,18|_US__7
+  network: http
+  port: 56333
+  server: 3.129.250.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
 - name: 1|_US__2
   network: ws
   password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86
@@ -303,6 +287,143 @@ proxies:
     path: /pq/us2
 - alterId: 0
   cipher: auto
+  name: '10|美国 CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: ca-new01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f
+  ws-opts:
+    headers:
+      Host: ca-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v004.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国02【vip1】
+  network: ws
+  port: '28204'
+  server: gdct001.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5b981688-9bf2-4e63-91d2-df870719e7ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国
+  network: ws
+  port: '443'
+  server: 162.159.192.244
+  tls: true
+  type: vmess
+  uuid: 673ba378-840f-4928-81f2-203148d07350
+  ws-opts:
+    headers:
+      Host: cowochtmtrkers.turbo021.link
+    path: /673ba378-840f-4928-81f2-203148d07350
+- alterId: 0
+  cipher: auto
+  name: '10|美国 CloudFlare节点 #1'
+  network: ws
+  port: 8080
+  server: fr-new01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 19de9747-b4b0-4b6c-9697-26cb1310f2cf
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】美国 05 | 1x US
+  network: tcp
+  port: '31506'
+  server: 4a2u0a05.mcfront.xyz
+  servername: us05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+- alterId: 0
+  cipher: auto
+  name: 10,11|美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: us-new04.gujuji.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f
+  ws-opts:
+    headers:
+      Host: us-new04.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- alterId: 0
+  cipher: auto
+  name: 1,2,4,12|_US__6
+  network: ws
+  port: 51904
+  server: 23.166.24.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ee25f36d-8501-4f94-d3f6-07baae27cc13
+  ws-opts:
+    path: /ee25f36d
+- alterId: 0
+  cipher: auto
+  name: 16|JCBB_ 美国01【vip1】
+  network: ws
+  port: '38381'
+  server: gdct003.jcnode.top
+  tls: false
+  type: vmess
+  uuid: 5b981688-9bf2-4e63-91d2-df870719e7ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇺🇸 US-132.145.132.2...
+  network: ws
+  port: '37121'
+  server: 132.145.132.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: 7,8|🇺🇸 United States 01 @nodpai
   network: ws
   port: '8080'
@@ -314,6 +435,20 @@ proxies:
     headers:
       Host: hytron.io
     path: /
+- alterId: 64
+  cipher: auto
+  name: 12|🔒 VM-WS-TLS 🇺🇸 US-38.54.185.11...
+  network: ws
+  port: '30000'
+  server: 38.54.185.111
+  servername: www.73664999.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.73664999.xyz
+    path: /path/1700571207277
 - alterId: 0
   cipher: auto
   name: 16|JCBB_ 美国02_1【vip1】
@@ -322,7 +457,7 @@ proxies:
   server: gdct002.jcnode.top
   tls: false
   type: vmess
-  uuid: 96165a00-4619-4173-b0cf-f6d495efa0f3
+  uuid: 5b981688-9bf2-4e63-91d2-df870719e7ea
   ws-opts:
     headers:
       Host: ''
@@ -343,9 +478,36 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,18|🇺🇸 _US_美国 #1'
+  name: '10,11|美国 CloudFlare节点 #2'
   network: ws
-  port: '80'
+  port: '2082'
+  server: us-02.jikuai.xyz
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: us-02.jikuai.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 12|美国(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '30000'
+  server: 45.58.153.24
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    headers:
+      Host: www.77935707.xyz
+    path: /path/1702392255355
+- alterId: 0
+  cipher: auto
+  name: '2,3,4,6,18|🇺🇸_US_美国 #1'
+  network: ws
+  port: 80
   server: 104.21.75.246
   tls: false
   type: vmess
@@ -356,116 +518,44 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇺🇸 US-38.6.227.31:...
+  name: 13|【BGP】美国 04 | 1x US
   network: tcp
-  port: '10365'
-  server: 38.6.227.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3a150f47-4284-4472-bb17-908bec58e01a
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇺🇸 US-144.202.81.12...
-  network: ws
-  port: '25514'
-  server: 144.202.81.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13bf827e-55cd-4b46-e9f1-b7f9ffbe7955
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇺🇸 US-172.67.173.1...
-  network: ws
-  port: '2083'
-  server: 172.67.173.143
-  servername: PAneljadid.mookoMEilz.homes
+  port: '31501'
+  server: 4a2u0a04.mcfront.xyz
+  servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
 - alterId: 0
   cipher: auto
-  name: 10|美国CloudFlare公司CDN节点 12
-  network: ws
-  port: '8080'
-  server: 104.17.129.28
+  name: 10,12|美国 加利福尼亚州洛杉矶RamNode数据中心
+  network: tcp
+  port: 15551
+  server: 168.235.72.221
   servername: ''
   tls: false
   type: vmess
-  uuid: 218996e0-5a6e-4806-8106-6b7b42e6d0d6
-  ws-opts:
-    headers:
-      Host: eu4.openxai.link
-    path: /
+  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
 - alterId: 0
   cipher: auto
-  name: 1|_US__5
-  network: ws
-  port: 80
-  server: 104.21.75.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,6,18|🇺🇸 _US_美国 #2'
-  network: http
-  port: '56333'
-  server: 3.129.250.63
-  tls: false
-  type: vmess
-  uuid: 610fcb1f-ffa6-4819-d313-cd530be44a3c
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-TLS 🇺🇸 US-172.67.70.14...
-  network: ws
-  port: '2053'
-  server: 172.67.70.147
-  servername: mahan-server101.online
+  name: 13|【BGP】美国 06 | 1x US
+  network: tcp
+  port: '31511'
+  server: 4a2u0a06.mcfront.xyz
+  servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3c430513-5ae1-4e9a-b182-afa6506f0d78
-  ws-opts:
-    headers:
-      Host: mahan-server101.online
-    path: /
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
 - alterId: 0
   cipher: auto
-  name: 15|美国3|@ripaojiedian
+  name: 12|🔒 VM-TCP-NA 🇺🇸 US-172.233.188....
   network: tcp
-  port: '11114'
-  server: 183.240.222.133
+  port: '11397'
+  server: 172.233.188.166
   servername: ''
   tls: false
   type: vmess
-  uuid: 07b3d36d-1bbb-3584-aabd-de2c77878934
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国 04_1【vip1】
-  network: ws
-  port: '26611'
-  server: gdct002.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 96165a00-4619-4173-b0cf-f6d495efa0f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: 20e0d67d-f7aa-4bb1-daae-b7f217306bba
 - name: 1|_US__8
   network: ws
   password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86
@@ -479,112 +569,83 @@ proxies:
     headers:
       host: p6us4.pqjc.buzz
     path: /pq/us4
-- alterId: 0
-  cipher: auto
-  name: '10|美国 CloudFlare节点 #3'
+- name: 1|_US__9
   network: ws
-  port: 8080
-  server: ca-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f
+  password: 097f6b5f-bcf9-4a24-9f0d-d1feaa638d86
+  port: 443
+  server: 167.68.5.183
+  skip-cert-verify: true
+  sni: 6us3.pqjc.buzz
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: ca-new01.gujuji.top
-    path: /
+      host: 6us3.pqjc.buzz
+    path: /pq/us3
 - alterId: 0
   cipher: auto
-  name: 16|JCBB_ 美国 03【vip1】
-  network: ws
-  port: '21036'
-  server: gdct003.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 96165a00-4619-4173-b0cf-f6d495efa0f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 12|美国【TG：@ccbaohe】定时更新节点订阅 8
-  network: ws
-  port: '2096'
-  server: amini2.ddns.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: c7ccf81e-2f35-4170-aeb8-f84fb2ec2b29
-  ws-opts:
-    headers:
-      Host: PAnEl128.MookomeIlz.Homes
-    path: /@FreeVPNHomes@FreeVPNHomes
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】美国 06 | 1x US
+  name: 9|🇺🇸美国06
   network: tcp
-  port: '31511'
-  server: 4a2u0a06.mcfront.xyz
-  servername: us06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
-- alterId: 0
-  cipher: auto
-  name: 16|JCBB_ 美国02【vip1】
-  network: ws
-  port: '28204'
-  server: gdct001.jcnode.top
-  tls: false
-  type: vmess
-  uuid: 96165a00-4619-4173-b0cf-f6d495efa0f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 10,12|美国CloudFlare公司CDN节点 5
-  network: ws
-  port: 8080
-  server: us-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 2dbd709e-ba48-4bb3-8181-40995c18fa1f
-  ws-opts:
-    headers:
-      Host: us-new01.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|美国CloudFlare节点 1
-  network: ws
-  port: '2052'
-  server: 162.159.138.110
-  tls: false
-  type: vmess
-  uuid: fe823d74-fa7e-4dc1-b16b-480bc201a153
-  ws-opts:
-    headers:
-      Host: mg_cdn.yunjisuan.cf
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇺🇸美国05
-  network: tcp
-  port: '36506'
-  server: 3u1s05.abzoones.xyz
-  servername: us05.abpilot.xyz
+  port: '36511'
+  server: 3u1s06.abzoones.xyz
+  servername: us06.abpilot.xyz
   tls: true
   type: vmess
   uuid: a759293e-2c47-4a58-ab37-374fe8b42b99
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】美国 05 | 1x US
-  network: tcp
-  port: '31506'
-  server: 4a2u0a05.mcfront.xyz
-  servername: us05.lovemc.xyz
-  tls: true
+  name: 2,3,4,6,18|🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: ns1.v2-vip.fun
+  tls: false
   type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: 12|US美国(mibei77.com 米贝节点分享)
+  network: tcp
+  port: '2087'
+  server: 217.144.105.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 99693bb7-4f71-4611-e664-0e9537c18a23
+- alterId: 64
+  cipher: auto
+  name: 14|🇺🇸 美国2|@ripaojiedian
+  port: 52629
+  server: 120.233.43.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '12|US美国(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '2052'
+  server: family.mgtajhiz.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '12|🔒 VM-TCP-NA 🇺🇸 US-172.233.188.... #1'
+  network: tcp
+  port: '55579'
+  server: 172.233.188.217
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e
