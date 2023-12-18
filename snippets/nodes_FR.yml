@@ -1,34 +1,38 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 12|5pel5pysIC0g5aSn6Ziq5biCIC0gQW...
+  obfs: tls1.2_ticket_auth
+  obfs-param: MGYyYTM1MDIuaWtlYS5jb20%3D
+  password: hrkycyiepu
+  port: '30204'
+  protocol: auth_aes128_sha1
+  protocol-param: NTAyOkR6ckg4TQ%3D%3D
+  server: jpd.ginf.me
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
-  network: tcp
-  port: '29776'
-  server: 146.59.147.250
+  name: 12|法国 - 巴黎 - Cloudflare, Inc.
+  network: ws
+  port: 8080
+  server: fr-new01.gujuji.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
+  uuid: f703b512-75a3-4339-bf71-fd2741343fc0
+  ws-opts:
+    headers:
+      Host: fr-new01.gujuji.top
+    path: /
 - alterId: 0
-  cipher: auto
-  name: 12|法国 - 格拉沃利讷 - OVH SAS
+  cipher: chacha20-poly1305
+  name: 12|FR_youtube@资源分享师_92
   network: tcp
-  port: 8080
+  port: '8080'
   server: 51.75.142.47
   servername: ''
   tls: false
   type: vmess
   uuid: 0225582e-d697-5cbf-86af-4b8cd3ccfb08
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-51.77.103.10...
-  network: tcp
-  port: '22919'
-  server: 51.77.103.107
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f300b3e0-3293-4c3c-a902-0538d997b3dd
 - alterId: 0
   cipher: auto
   name: 12|法国 - 巴黎 - Online S.A.S.
@@ -45,15 +49,11 @@ proxies:
     path: /sssddd
 - alterId: 0
   cipher: auto
-  name: 12|法国 - 巴黎 - Cloudflare, Inc.
-  network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
+  name: 12|🔒 VM-TCP-NA 🇫🇷 FR-146.59.147.2...
+  network: tcp
+  port: '29776'
+  server: 146.59.147.250
   servername: ''
   tls: false
   type: vmess
-  uuid: f703b512-75a3-4339-bf71-fd2741343fc0
-  ws-opts:
-    headers:
-      Host: fr-new01.gujuji.top
-    path: /
+  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
