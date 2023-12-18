@@ -1,9 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 17|🇺🇸_US_美国->🇩🇪_DE_德国
+  name: 0,6|🇭🇰 _HK_香港->🇺🇸_US_美国
   network: ws
-  port: 2096
+  port: '80'
+  server: 154.194.2.177
+  tls: false
+  type: vmess
+  uuid: de2b04f9-0374-4a93-8295-a9c4352efa94
+  ws-opts:
+    headers:
+      Host: v.nagisa.cyou
+    path: /de2b04f9
+- alterId: 0
+  cipher: auto
+  name: 0,12|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '2052'
+  server: 104.21.33.130
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,6,12,18|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '2096'
   server: 104.21.30.195
   tls: true
   type: vmess
@@ -12,3 +38,29 @@ proxies:
     headers:
       Host: PAnEl128.MookomeIlz.Homes
     path: /@FreeVPNHomes@FreeVPNHomes
+- alterId: 0
+  cipher: auto
+  name: 0,6|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: '80'
+  server: free.domain.photos
+  tls: false
+  type: vmess
+  uuid: 44ed6043-a70e-44ce-c1f9-649f69efce7c
+  ws-opts:
+    headers:
+      Host: free.domain.photos
+    path: /free
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,12,18|🇺🇸 _US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: '443'
+  server: 162.159.192.244
+  tls: true
+  type: vmess
+  uuid: 673ba378-840f-4928-81f2-203148d07350
+  ws-opts:
+    headers:
+      Host: cowochtmtrkers.turbo021.link
+    path: /673ba378-840f-4928-81f2-203148d07350
