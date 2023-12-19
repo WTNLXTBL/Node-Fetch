@@ -1,4 +1,57 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|香港
+  network: ws
+  port: '80'
+  server: 154.194.2.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: de2b04f9-0374-4a93-8295-a9c4352efa94
+  ws-opts:
+    headers:
+      Host: v.nagisa.cyou
+    path: /de2b04f9
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港4|@ripaojiedian
+  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
+  port: 19511
+  server: nc.cm.go002.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-115.126.50.1...
+  network: tcp
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
+- cipher: aes-128-gcm
+  name: 14|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.94
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 15|香港1|@ripaojiedian
@@ -9,13 +62,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14,15|🇭🇰 香港5|@ripaojiedian
@@ -31,30 +77,6 @@ proxies:
     headers:
       Host: data-hk-2.cn-db.top
     path: /db00
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇭🇰 HK-115.126.50.1...
-  network: tcp
-  port: '16399'
-  server: 115.126.50.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
-- alterId: 0
-  cipher: auto
-  name: 12|香港
-  network: ws
-  port: '80'
-  server: 154.194.2.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de2b04f9-0374-4a93-8295-a9c4352efa94
-  ws-opts:
-    headers:
-      Host: v.nagisa.cyou
-    path: /de2b04f9
 - cipher: aes-128-gcm
   name: 14|🇭🇰 香港KT1|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -64,27 +86,5 @@ proxies:
     mode: http
   port: 80
   server: 47.243.34.184
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港4|@ripaojiedian
-  password: dcbc1c7f-c323-4365-bd48-cf767f9081ce
-  port: 19511
-  server: nc.cm.go002.xyz
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: 14|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.94
   tfo: false
   type: ss
