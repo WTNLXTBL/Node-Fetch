@@ -1,26 +1,16 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 10,11,15|广东省移动 6
-  network: tcp
-  port: '52629'
-  server: 120.233.43.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '10|广东省广州市 移动 #2'
+  name: '10,11|广东省广州市 移动 #4'
   network: ws
-  port: '25285'
-  server: cm1.awslcn.info
+  port: '25270'
+  server: sg1.awslcn.info
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
+      Host: sg1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -34,6 +24,29 @@ proxies:
   ws-opts:
     headers:
       Host: cm1.awslcn.info
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 10,11,15|广东省移动 6
+  network: tcp
+  port: '52629'
+  server: 120.233.43.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #1'
+  network: ws
+  port: '25243'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: sg1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -51,29 +64,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '10|广东省广州市 移动 #1'
+  name: '10|广东省广州市 移动 #2'
   network: ws
-  port: '25243'
-  server: sg1.awslcn.info
+  port: '25285'
+  server: cm1.awslcn.info
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #4'
-  network: ws
-  port: '25270'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
+      Host: cm1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
