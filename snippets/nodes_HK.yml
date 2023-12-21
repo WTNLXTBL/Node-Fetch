@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|香港
-  network: ws
-  port: '80'
-  server: 154.194.2.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de2b04f9-0374-4a93-8295-a9c4352efa94
-  ws-opts:
-    headers:
-      Host: v.nagisa.cyou
-    path: /de2b04f9
 - alterId: 2
   cipher: auto
   name: 15|香港5|@ripaojiedian
@@ -35,6 +21,40 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: da0e6c09e0664d868b362c29624f93de
+  port: 10086
+  server: 7690-hk45.hmbcloud-client.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|香港
+  network: ws
+  port: '80'
+  server: 154.194.2.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: de2b04f9-0374-4a93-8295-a9c4352efa94
+  ws-opts:
+    headers:
+      Host: v.nagisa.cyou
+    path: /de2b04f9
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.9
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -47,25 +67,5 @@ proxies:
     tls: false
   port: 443
   server: 219.79.162.72
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: da0e6c09e0664d868b362c29624f93de
-  port: 10086
-  server: 7690-hk45.hmbcloud-client.com
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.9
   tfo: false
   type: ss
