@@ -1,63 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-158.178.227....
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 898415f6-55ae-41a8-8d38-6518fd9dbe9e
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 16618
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
+  port: '30839'
+  server: 158.178.227.16
+  servername: ''
   tls: false
   type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
+  uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d57ac3d2-07a3-4752-8fec-b4866c26c38a
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d57ac3d2-07a3-4752-8fec-b4866c26c38a
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 898415f6-55ae-41a8-8d38-6518fd9dbe9e
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.77.248.9...
+  name: 11|github.com/freefq - 新加坡Choopa数...
   network: ws
   port: '38938'
   server: 45.77.248.94
@@ -82,17 +36,73 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 12|新加坡 - 新加坡 - DigitalOcean, LLC
+  client-fingerprint: chrome
+  name: 14,15|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 16618
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: aaa20b92-aebc-4dd6-ad65-7ddee150b720
+- name: 1|_SG_
+  network: ws
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 89101f32-cf63-4dbf-9428-d0087602fb09
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: aaa20b92-aebc-4dd6-ad65-7ddee150b720
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-146.190.108...
   network: ws
   port: 17925
   server: 146.190.108.95
-  servername: m.licdn.com
   tls: false
   type: vmess
   uuid: 0bbdd929-a078-4d69-9f5e-09c39ee82a0f
   ws-opts:
     headers:
-      Host: ''
+      Host: m.licdn.com
     path: /
 - alterId: 0
   cipher: auto
@@ -103,21 +113,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d57ac3d2-07a3-4752-8fec-b4866c26c38a
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡 - 新加坡 - Oracle Corporation
-  network: ws
-  port: 57252
-  server: sg.xn--3iqt7ev49axf4a.shop
-  servername: microsoft.com
-  tls: false
-  type: vmess
-  uuid: 8d892b10-3be3-40a1-8246-36a977f36d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /?ed=2048
+  uuid: 89101f32-cf63-4dbf-9428-d0087602fb09
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -127,17 +123,17 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 898415f6-55ae-41a8-8d38-6518fd9dbe9e
+  uuid: aaa20b92-aebc-4dd6-ad65-7ddee150b720
 - alterId: 0
   cipher: auto
-  name: 12|新加坡 - 新加坡 - Amazon Technologie...
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-8.219.240.12...
   network: tcp
-  port: 12353
-  server: 00000000000000000000000000000000000000000000000000000000000045.bgroup-node-for-bigairport.sbs
-  servername: 00000000000000000000000000000000000000000000000000000000000045.bgroup-node-for-bigairport.sbs
+  port: '32969'
+  server: 8.219.240.120
+  servername: ''
   tls: false
   type: vmess
-  uuid: ded7f8b1-c9e0-430d-a0f0-34188f9a1265
+  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
@@ -152,3 +148,27 @@ proxies:
     headers:
       Host: media-exp1.licdn.com
     path: /Shalana
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 89101f32-cf63-4dbf-9428-d0087602fb09
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - Oracle Corporation
+  network: ws
+  port: 57252
+  server: sg.xn--3iqt7ev49axf4a.shop
+  servername: microsoft.com
+  tls: false
+  type: vmess
+  uuid: 8d892b10-3be3-40a1-8246-36a977f36d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048
