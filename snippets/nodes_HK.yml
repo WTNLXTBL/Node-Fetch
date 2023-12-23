@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|香港1 - 一元云梯〖电报：@ccbaohe】免费节点定时更...
-  network: ws
-  port: '8080'
-  server: cdn1.shaniugpt.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12db9da3-5a1a-495a-9769-fc0ad318c578
-  ws-opts:
-    headers:
-      Host: yyjc-hk-ipv6-1.shaniugpt.top
-    path: /20231217
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -29,16 +15,14 @@ proxies:
   server: 1.65.205.183
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -50,14 +34,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|香港1 - 一元云梯〖电报：@ccbaohe】免费节点定时更...
+  network: ws
+  port: '8080'
+  server: cdn1.shaniugpt.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 12db9da3-5a1a-495a-9769-fc0ad318c578
+  ws-opts:
+    headers:
+      Host: yyjc-hk-ipv6-1.shaniugpt.top
+    path: /20231217
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT1|@ripaojiedian
