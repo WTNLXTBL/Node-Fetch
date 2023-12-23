@@ -1,15 +1,24 @@
 proxies:
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡R|@ripaojiedian
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 6706
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm03.newcome.xyz
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9ddff7de-fde9-441b-b3f8-3f1920f860d8
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 84296273-4783-479b-824a-7fbf132d92ab
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -19,7 +28,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2e5ce635-99a0-42ae-a462-511333fd54da
+  uuid: 9ddff7de-fde9-441b-b3f8-3f1920f860d8
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡4|@ripaojiedian
@@ -30,40 +39,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
-  network: ws
-  port: '21378'
-  server: 146.190.99.71
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /Shalana
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2e5ce635-99a0-42ae-a462-511333fd54da
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 243c3d84-4d65-45f7-8dfe-b325a51b5802
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -71,20 +46,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2e5ce635-99a0-42ae-a462-511333fd54da
-- name: 1|_SG_
-  network: ws
-  password: d07a02a06191c99f
-  port: 3306
-  server: 185.230.245.213
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: n2.gladns.com
-    path: /gateway/connect
+  uuid: 9ddff7de-fde9-441b-b3f8-3f1920f860d8
 - alterId: 0
   cipher: auto
   name: 12|新加坡 - 新加坡 - Oracle Corporation
@@ -108,27 +70,65 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 243c3d84-4d65-45f7-8dfe-b325a51b5802
+  uuid: 84296273-4783-479b-824a-7fbf132d92ab
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 243c3d84-4d65-45f7-8dfe-b325a51b5802
+  uuid: 84296273-4783-479b-824a-7fbf132d92ab
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-47.236.22.3:...
-  network: tcp
-  port: '47885'
-  server: 47.236.22.3
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
+  network: ws
+  port: '21378'
+  server: 146.190.99.71
   servername: ''
   tls: false
   type: vmess
-  uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3
+  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /Shalana
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡R|@ripaojiedian
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 6706
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm03.newcome.xyz
+  type: ssr
+- name: 1|_SG_
+  network: ws
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: 12|SG_speednode_0060
+  network: tcp
+  port: 443
+  server: 146.190.105.71
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f9ba75d9-c306-4f9d-8503-37f86a9c5fd4
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
