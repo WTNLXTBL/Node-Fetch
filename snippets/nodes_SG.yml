@@ -1,30 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14,15|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 16618
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 70b53a37-bd9e-406c-8253-5a9d4bbdff40
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡R|@ripaojiedian
@@ -36,6 +10,16 @@ proxies:
   protocol-param: 45641:1119_jE165t
   server: cm03.newcome.xyz
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2e5ce635-99a0-42ae-a462-511333fd54da
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡4|@ripaojiedian
@@ -44,36 +28,6 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-47.236.22.3:...
-  network: tcp
-  port: '47885'
-  server: 47.236.22.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 09d32d48-691a-4f97-b615-8ad90c21044e
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 70b53a37-bd9e-406c-8253-5a9d4bbdff40
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
@@ -90,24 +44,24 @@ proxies:
     path: /Shalana
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
+  name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09d32d48-691a-4f97-b615-8ad90c21044e
+  uuid: 2e5ce635-99a0-42ae-a462-511333fd54da
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 70b53a37-bd9e-406c-8253-5a9d4bbdff40
+  uuid: 243c3d84-4d65-45f7-8dfe-b325a51b5802
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
@@ -117,4 +71,77 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 09d32d48-691a-4f97-b615-8ad90c21044e
+  uuid: 2e5ce635-99a0-42ae-a462-511333fd54da
+- name: 1|_SG_
+  network: ws
+  password: d07a02a06191c99f
+  port: 3306
+  server: 185.230.245.213
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - Oracle Corporation
+  network: ws
+  port: 57252
+  server: sg.xn--3iqt7ev49axf4a.shop
+  servername: microsoft.com
+  tls: false
+  type: vmess
+  uuid: 8d892b10-3be3-40a1-8246-36a977f36d9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 243c3d84-4d65-45f7-8dfe-b325a51b5802
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 243c3d84-4d65-45f7-8dfe-b325a51b5802
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇸🇬 SG-47.236.22.3:...
+  network: tcp
+  port: '47885'
+  server: 47.236.22.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 16618
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
