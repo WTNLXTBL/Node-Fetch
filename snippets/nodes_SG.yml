@@ -1,48 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 02d1f223-afa8-49cd-a1e4-bfa30cb21614
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 02d1f223-afa8-49cd-a1e4-bfa30cb21614
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
+  client-fingerprint: chrome
+  name: 14,15|🇸🇬 新加坡2|@ripaojiedian
   network: ws
-  port: '21378'
-  server: 146.190.99.71
-  servername: ''
+  port: 16618
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      Host: media-exp1.licdn.com
-    path: /Shalana
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 44e8f3d0-fcf7-4bf5-983e-06530cdd10e1
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -52,7 +24,18 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44e8f3d0-fcf7-4bf5-983e-06530cdd10e1
+  uuid: 70b53a37-bd9e-406c-8253-5a9d4bbdff40
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡R|@ripaojiedian
+  obfs: plain
+  obfs-param: 511df45641.microsoft.com
+  password: jFa4F1
+  port: 6706
+  protocol: auth_aes128_sha1
+  protocol-param: 45641:1119_jE165t
+  server: cm03.newcome.xyz
+  type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇸🇬 新加坡4|@ripaojiedian
@@ -73,6 +56,16 @@ proxies:
   uuid: 2fb7aa37-e195-44f1-f000-5727610d22e3
 - alterId: 0
   cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 09d32d48-691a-4f97-b615-8ad90c21044e
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -80,7 +73,21 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44e8f3d0-fcf7-4bf5-983e-06530cdd10e1
+  uuid: 70b53a37-bd9e-406c-8253-5a9d4bbdff40
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
+  network: ws
+  port: '21378'
+  server: 146.190.99.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /Shalana
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
@@ -90,15 +97,24 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 02d1f223-afa8-49cd-a1e4-bfa30cb21614
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡R|@ripaojiedian
-  obfs: plain
-  obfs-param: 511df45641.microsoft.com
-  password: jFa4F1
-  port: 6706
-  protocol: auth_aes128_sha1
-  protocol-param: 45641:1119_jE165t
-  server: cm03.newcome.xyz
-  type: ssr
+  uuid: 09d32d48-691a-4f97-b615-8ad90c21044e
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 70b53a37-bd9e-406c-8253-5a9d4bbdff40
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 09d32d48-691a-4f97-b615-8ad90c21044e
