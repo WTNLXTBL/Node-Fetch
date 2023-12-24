@@ -1,14 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 1,2,4|_CN_
-  network: ws
-  port: 47551
-  server: 159.75.178.50
-  skip-cert-verify: true
+  name: 10,11|广东省移动 20
+  network: tcp
+  port: '52629'
+  server: 120.233.43.37
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 10,11|广东省移动 17
@@ -23,41 +23,13 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- alterId: 64
-  cipher: auto
-  name: 10,11|广东省移动 20
-  network: tcp
-  port: '52629'
-  server: 120.233.43.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 12|中国 - 广州市 - PEG TECH INC
-  network: ws
-  port: 30000
-  server: 192.74.241.197
-  servername: www.17144479.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1702820136611
 - alterId: 0
   cipher: auto
-  name: 12|【VIP】🇰🇷 韩国2|CND|VMESS - 一元云梯〖电...
+  name: 1,2,4,6|_CN_
   network: ws
-  port: '2082'
-  server: cdn3.shaniugpt.top
-  servername: ''
+  port: 47551
+  server: 159.75.178.50
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 12db9da3-5a1a-495a-9769-fc0ad318c578
-  ws-opts:
-    headers:
-      Host: yyyt-vip-kr1.bzqjc.top
-    path: /yyyt-vip-kr1
+  uuid: 2500a228-8c00-4934-81e0-22281c015a33
