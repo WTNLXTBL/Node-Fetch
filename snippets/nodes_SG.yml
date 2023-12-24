@@ -1,14 +1,12 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Singapore 02
-  network: tcp
-  port: '30008'
-  server: monocerotis.weltknoten.xyz
-  servername: monocerotis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡4|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20109
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 12|v2ray-Singapore 02
@@ -21,6 +19,61 @@ proxies:
   uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b2f36a08-a8be-4464-8612-f48fde74895a
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7431ad12-ecb3-40f4-9068-6f7ac56f5870
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7431ad12-ecb3-40f4-9068-6f7ac56f5870
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.71...
+  network: ws
+  port: '21378'
+  server: 146.190.99.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9819b76-b627-4635-a9c5-c54c46a9db10
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /Shalana
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -28,7 +81,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a75bf9f0-ffb2-4139-8834-5abda6b9b505
+  uuid: b2f36a08-a8be-4464-8612-f48fde74895a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -45,35 +98,16 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡4|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20109
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
+  name: 12|VIP-v2ray-Singapore 01
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '30007'
+  server: andromedae.weltknoten.xyz
+  servername: andromedae.weltknoten.xyz
   tls: true
   type: vmess
-  uuid: a90c4621-87c4-44de-94e4-0d67b03a4171
+  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
 - alterId: 2
   cipher: auto
   name: 12|v2ray-Singapore 01
@@ -84,30 +118,6 @@ proxies:
   tls: true
   type: vmess
   uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 0
-  cipher: auto
-  name: 12|SG新加坡(mibei77.com 米贝节点分享)
-  network: ws
-  port: '443'
-  server: 195.14.146.81
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 56bb54b0-5cfc-4b35-bc81-0b300a08b46b
-  ws-opts:
-    headers:
-      Host: m3hdio1.servehalflife.com
-    path: /@FORWARDV2RAY
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a90c4621-87c4-44de-94e4-0d67b03a4171
 - name: 1|_SG_
   network: ws
   password: d07a02a06191c99f
@@ -121,18 +131,14 @@ proxies:
     path: /gateway/connect
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 新加坡Choopa数...
-  network: ws
-  port: '30349'
-  server: 45.77.35.241
-  servername: ''
-  tls: false
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 62124706-e21c-46fa-cfd1-314861461656
-  ws-opts:
-    headers:
-      Host: m.linkedin.com
-    path: /gagenema
+  uuid: 7431ad12-ecb3-40f4-9068-6f7ac56f5870
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -142,34 +148,14 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a75bf9f0-ffb2-4139-8834-5abda6b9b505
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a75bf9f0-ffb2-4139-8834-5abda6b9b505
+  uuid: b2f36a08-a8be-4464-8612-f48fde74895a
 - alterId: 2
   cipher: auto
-  name: 12|VIP-v2ray-Singapore 01
+  name: 12|VIP-v2ray-Singapore 02
   network: tcp
-  port: '30007'
-  server: andromedae.weltknoten.xyz
-  servername: andromedae.weltknoten.xyz
+  port: '30008'
+  server: monocerotis.weltknoten.xyz
+  servername: monocerotis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a90c4621-87c4-44de-94e4-0d67b03a4171
