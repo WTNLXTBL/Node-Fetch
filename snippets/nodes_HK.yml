@@ -1,76 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 12|v2ray-Hong Kong 02
-  network: tcp
-  port: '25025'
-  server: centauri.verdens.xyz
-  servername: centauri.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 04
-  network: tcp
-  port: '30004'
-  server: phoenicis.weltknoten.xyz
-  servername: phoenicis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 01
-  network: tcp
-  port: '30001'
-  server: andromedae.weltknoten.xyz
-  servername: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 02
-  network: tcp
-  port: '30002'
-  server: monocerotis.weltknoten.xyz
-  servername: monocerotis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.190.214
-  tfo: false
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 05
-  network: tcp
-  port: '30020'
-  server: scorpii.weltknoten.xyz
-  servername: scorpii.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
-  cipher: auto
-  name: 12|v2ray-Hong Kong 04
-  network: tcp
-  port: '25026'
-  server: ophiuchi.verdens.xyz
-  servername: ophiuchi.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
@@ -79,6 +7,19 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰香港3丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 162.159.142.213
+  tls: false
+  type: vmess
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -87,36 +28,6 @@ proxies:
   server: 112.28.208.10
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 06
-  network: tcp
-  port: '30021'
-  server: andromedae.weltknoten.xyz
-  servername: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 03
-  network: tcp
-  port: '30003'
-  server: orionis.weltknoten.xyz
-  servername: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 112.28.208.10
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -136,33 +47,38 @@ proxies:
   server: 42.2.116.58
   tfo: false
   type: ss
-- alterId: 2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.190.214
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 12|v2ray-Hong Kong 05
+  name: 15|香港1|@ripaojiedian
   network: tcp
-  port: '25023'
-  server: piscium.verdens.xyz
-  servername: piscium.verdens.xyz
-  tls: true
+  port: '46602'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
   type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
   cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 08
-  network: tcp
-  port: '30023'
-  server: orionis.weltknoten.xyz
-  servername: orionis.weltknoten.xyz
-  tls: true
+  name: 12|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 162.159.142.211
+  tls: false
   type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
-- alterId: 2
-  cipher: auto
-  name: 12|VIP-v2ray-Hong Kong 07
-  network: tcp
-  port: '30022'
-  server: monocerotis.weltknoten.xyz
-  servername: monocerotis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
