@@ -1,34 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9eb212a9-cfa3-424f-98e5-c0c88b57b5d6
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
   name: 12|🇸🇬 𝐒𝐊𝐘𝐇𝐓 𝐒𝐈𝐍𝐆𝐀𝐏𝐎𝐑𝐄 🇸🇬
   network: ws
   port: 80
   server: sg.vpndata.vn
   tls: false
   type: vmess
-  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
+  uuid: 41592d20-fb44-4399-b061-5d7eb175ba60
   ws-opts:
     headers:
       Host: dl.kgvn.garenanow.com
@@ -42,37 +21,25 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 81a10a3f-1bca-47eb-869f-682a2b08addf
+  uuid: ba0246e4-793e-4cef-b85a-131fcc3e9956
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
+  name: 13|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9eb212a9-cfa3-424f-98e5-c0c88b57b5d6
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9eb212a9-cfa3-424f-98e5-c0c88b57b5d6
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 81a10a3f-1bca-47eb-869f-682a2b08addf
+  uuid: 3da3c21d-f8d0-4b30-9eae-f92b1f3cfff4
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡4|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20109
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -82,10 +49,31 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 81a10a3f-1bca-47eb-869f-682a2b08addf
+  uuid: ba0246e4-793e-4cef-b85a-131fcc3e9956
 - alterId: 0
   cipher: auto
-  name: 10,11,12|新加坡Choopa数据中心 7
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ba0246e4-793e-4cef-b85a-131fcc3e9956
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 10|新加坡Choopa数据中心 7
   network: ws
   port: 80
   server: vn10.5gtocdocao.com
@@ -97,11 +85,23 @@ proxies:
     headers:
       Host: dl.kgvn.garenanow.com
     path: /5gtocdocao.com
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡4|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20109
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3da3c21d-f8d0-4b30-9eae-f92b1f3cfff4
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3da3c21d-f8d0-4b30-9eae-f92b1f3cfff4

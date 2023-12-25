@@ -1,10 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: b098ec55-ba4f-49d2-9e58-235cb25f0e6b
-  port: 33938
-  server: b.35.hk.open.ga
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.190.214
   tfo: false
   type: ss
 - alterId: 0
@@ -20,6 +24,27 @@ proxies:
     headers:
       Host: hk3.889611.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰香港3丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 162.159.142.213
+  tls: false
+  type: vmess
+  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -36,18 +61,19 @@ proxies:
   server: 42.2.116.58
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.190.214
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰 Hongkong
+  network: ws
+  port: '2052'
+  server: dl1.fanqiecloud.top
+  tls: false
+  type: vmess
+  uuid: 9af00329-2718-4377-8e6a-9aa3567546ce
+  ws-opts:
+    headers:
+      Host: cf-hk.fanqiecloud.top
+    path: /sssddd
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -61,22 +87,22 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20001
-  server: service.ouluyun9803.com
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: b098ec55-ba4f-49d2-9e58-235cb25f0e6b
+  port: 33938
+  server: b.35.hk.open.ga
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰香港3丨白嫖机场.com
+  name: 12|🇭🇰 Hongkong 2
   network: ws
-  port: '80'
-  server: 162.159.142.213
+  port: '2086'
+  server: dl1.fanqiecloud.top
   tls: false
   type: vmess
-  uuid: a5e17ba4-db0b-4096-b051-6160b4930f58
+  uuid: 9af00329-2718-4377-8e6a-9aa3567546ce
   ws-opts:
     headers:
-      Host: hk3.889611.com
-    path: /
+      Host: cf-hk2.fanqiecloud.top
+    path: /sssddd
