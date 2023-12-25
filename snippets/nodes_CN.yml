@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省广州市移动 13
+  name: 10|广东省广州市移动 3
+  network: ws
+  port: '25258'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|广东省广州市移动 13
   network: ws
   port: '25242'
   server: hk1.awslcn.info
@@ -27,21 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|广东省广州市 移动
-  network: ws
-  port: '25258'
-  server: cm.awslcn.info
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,11|广东省广州市移动 1
+  name: 10|广东省广州市移动 1
   network: ws
   port: '25233'
   server: cm.awslcn.info
@@ -54,14 +53,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11|广东省广州市移动 3
+  name: 10|广东省广州市 移动
   network: ws
   port: '25258'
-  server: cm1.awslcn.info
+  server: cm.awslcn.info
+  servername: ''
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
+      Host: cm.awslcn.info
     path: /
