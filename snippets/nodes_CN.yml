@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,2,4|_CN_
-  network: ws
-  port: 47551
-  server: 159.75.178.50
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-- alterId: 0
-  cipher: auto
-  name: 0,3|_CN_中国
+  name: 0|_CN_中国
   network: ws
   port: '47551'
   server: 159.75.178.50
@@ -22,32 +12,9 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 2
-  cipher: auto
-  name: 10|广东省广州市 电信
-  network: tcp
-  port: '25021'
-  server: aquaril.verdens.xyz
-  servername: aquaril.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: ce8d359d-d390-3ff8-a8d0-82e9bca1aeea
 - alterId: 0
-  cipher: auto
-  name: 10|广东省广州市 移动
-  network: ws
-  port: '25228'
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|广东省移动 8
+  cipher: aes-128-gcm
+  name: 10|广东省 移动
   network: ws
   port: '16616'
   server: m.cnmjcn.com
@@ -59,26 +26,3 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '10,18|广东省广州市 移动 #1'
-  network: ws
-  port: '25257'
-  server: us2.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- alterId: 64
-  cipher: aes-128-gcm
-  name: 10|广东省 移动
-  network: tcp
-  port: '52629'
-  server: 120.233.43.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
