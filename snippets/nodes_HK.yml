@@ -1,4 +1,80 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|HK_youtube@资源分享师_19
+  network: ws
+  port: 53331
+  server: 103.225.199.15
+  tls: true
+  type: vmess
+  uuid: ceb30839-9bee-40c4-a8af-5ae1f9d980be
+  ws-opts:
+    headers:
+      Host: dj.changding.tech
+    path: /vm-tls1?ed=2048
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  password: b098ec55-ba4f-49d2-9e58-235cb25f0e6b
+  port: 33938
+  server: b.35.hk.open.ga
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.190.214
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 46602
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|HK香港(mibei77.com 米贝节点分享)
+  network: ws
+  port: '80'
+  server: 154.194.2.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: de2b04f9-0374-4a93-8295-a9c4352efa94
+  ws-opts:
+    headers:
+      Host: v.nagisa.cyou
+    path: /de2b04f9
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -13,67 +89,5 @@ proxies:
     tls: false
   port: 443
   server: 42.2.116.58
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 46602
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰香港1丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.142.211
-  tls: false
-  type: vmess
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港3|@ripaojiedian
-  password: b098ec55-ba4f-49d2-9e58-235cb25f0e6b
-  port: 33938
-  server: b.35.hk.open.ga
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.190.214
   tfo: false
   type: ss
