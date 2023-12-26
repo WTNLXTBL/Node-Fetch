@@ -1,18 +1,44 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 15|香港3|@ripaojiedian
-  network: ws
-  port: '25242'
-  server: hk1.awslcn.info
-  servername: ''
+  name: 10,11|香港 特别行政区
+  network: tcp
+  port: 45343
+  server: 154.90.39.63
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 46602
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.190.214
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -29,44 +55,46 @@ proxies:
   server: 1.65.215.179
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 香港特别行政区 15
-  network: tcp
-  port: '45343'
-  server: 154.90.39.63
+  name: 10|香港 阿里云
+  network: ws
+  port: 45631
+  server: 47.242.76.125
+  tls: false
+  type: vmess
+  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|香港3|@ripaojiedian
+  network: ws
+  port: '25242'
+  server: hk1.awslcn.info
   servername: ''
   tls: false
   type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.190.214
-  tfo: false
-  type: ss
-- alterId: 64
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 46602
-  server: 112.28.208.10
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 25242
+  server: hk1.awslcn.info
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: hk1.awslcn.info
+    path: /
