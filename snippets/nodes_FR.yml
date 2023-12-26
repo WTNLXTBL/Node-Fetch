@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,11,12|🇫🇷 _FR_法国
+  name: 0,1,2,3,4,11,12,18|🇫🇷 _FR_法国
   network: tcp
   port: '29776'
   server: 146.59.147.250
@@ -10,10 +10,10 @@ proxies:
   uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
 - alterId: 0
   cipher: auto
-  name: 12|🇫🇷白嫖节点FR白嫖节点法国
+  name: '12|🇫🇷白嫖节点FR白嫖节点法国 #2'
   network: ws
   port: 80
-  server: 173.245.49.207
+  server: 173.245.49.112
   tls: false
   type: vmess
   uuid: abe963d7-02c9-403a-8b5e-23e075e68810
@@ -26,11 +26,24 @@ proxies:
   name: '12|🇫🇷白嫖节点FR白嫖节点法国 #1'
   network: ws
   port: 80
-  server: 173.245.49.22
+  server: 173.245.49.207
   tls: false
   type: vmess
-  uuid: 2959fcdd-3dc3-4edb-ec87-fd0cff71d212
+  uuid: abe963d7-02c9-403a-8b5e-23e075e68810
   ws-opts:
     headers:
-      Host: jp.kapacloud.eu.org
+      Host: sg.kapacloud.eu.org
+    path: /blue
+- alterId: 0
+  cipher: auto
+  name: 12|🇫🇷白嫖节点FR白嫖节点法国
+  network: ws
+  port: 80
+  server: 173.245.49.124
+  tls: false
+  type: vmess
+  uuid: abe963d7-02c9-403a-8b5e-23e075e68810
+  ws-opts:
+    headers:
+      Host: sg.kapacloud.eu.org
     path: /blue
