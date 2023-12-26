@@ -1,19 +1,95 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港3|@ripaojiedian
+  name: 10,11|香港 阿里云
   network: ws
-  port: 25242
-  server: hk1.awslcn.info
+  port: 45631
+  server: 47.242.76.125
+  tls: false
+  type: vmess
+  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|香港【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: '80'
+  server: 36.139.58.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0876403d-5467-4d9f-8d85-23d520e22e94
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|解锁... #2'
+  network: ws
+  port: '2052'
+  server: v4.cfnode.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  ws-opts:
+    headers:
+      Host: hkyx.651568.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 46602
+  server: 112.28.208.10
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|解锁...
+  network: ws
+  port: '8080'
+  server: v4.cfnode.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
   ws-opts:
     headers:
-      Host: hk1.awslcn.info
+      Host: kryx.651568.xyz
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.190.214
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|解锁... #1'
+  network: ws
+  port: 2052
+  server: zfc.windowsupdate1.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  ws-opts:
+    headers:
+      Host: hkyx.651568.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -29,29 +105,20 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.190.214
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 46602
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tfo: false
+  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
+  network: ws
+  port: '2095'
+  server: cm-cdn.kfcvme50.life
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 7b529a8b-d306-4744-b4e5-c29aaa42ec0b
+  ws-opts:
+    headers:
+      Host: hytron.kfcvme50.life
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -70,7 +137,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|香港 特别行政区
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 25242
+  server: hk1.awslcn.info
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: hk1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|香港 特别行政区
   network: tcp
   port: 45343
   server: 154.90.39.63
@@ -87,14 +170,29 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|香港 阿里云
+  name: 12|V4-4010|香港|x2.0 - 海豚云〖电报：@ccba...
   network: ws
-  port: 45631
-  server: 47.242.76.125
+  port: 13002
+  server: dnspsdhaitun.ncsuwei.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
+  uuid: 917a4ced-09da-3381-85f3-644ba8e36aaf
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: dnspsdhaitun.ncsuwei.top
+    path: /ef483582-6269-468c-93af-c511eccb8a69
+- alterId: 0
+  cipher: auto
+  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒... #1'
+  network: ws
+  port: '443'
+  server: 104.26.3.242
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 919e1a72-9720-3ea5-a9f8-80146afea7f7
+  ws-opts:
+    headers:
+      Host: tk-006.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
