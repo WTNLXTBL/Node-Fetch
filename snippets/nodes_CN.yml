@@ -1,13 +1,75 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '10|中国 阿里云 #1'
-  network: tcp
-  port: 12681
-  server: 8.219.59.63
+  name: '10|广东省广州市 移动 #2'
+  network: ws
+  port: '25240'
+  server: cm.awslcn.info
   tls: false
   type: vmess
-  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,3,4|🇨🇳_CN_中国
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,11|中国阿里云 2
+  network: tcp
+  port: '32969'
+  server: 8.219.240.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
+- alterId: 0
+  cipher: auto
+  name: 10|广东省广州市 移动
+  network: ws
+  port: '25285'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,11|广东省广州市移动 13
+  network: tcp
+  port: '45826'
+  server: cm-03.zhuanfa.link
+  tls: false
+  type: vmess
+  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #1'
+  network: ws
+  port: '25275'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_CN_
@@ -24,33 +86,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11|中国 阿里云
-  network: tcp
-  port: '32969'
-  server: 8.219.240.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇨🇳_CN_中国
+  name: '10|广东省广州市 移动 #3'
   network: ws
-  port: 25230
-  server: cm1.awslcn.info
+  port: '25243'
+  server: sg1.awslcn.info
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
+      Host: sg1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|github.com/freefq - 广东省广州市移动 1...
-  network: tcp
-  port: '45826'
-  server: cm-03.zhuanfa.link
+  name: 10|上海市 电信
+  network: ws
+  port: 32202
+  server: free-relay.themars.top
+  servername: www.cctv.com
   tls: false
   type: vmess
-  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+  uuid: 640d9903-11e2-436a-aa22-837e79c1aa33
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv1.m3u8

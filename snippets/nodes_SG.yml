@@ -1,60 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 46d09eb3-5542-494d-9cd8-af23866b45a0
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4c4a3caa-7df2-4c84-8606-e597b08e0e4e
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 Singapore 3 - 直连
-  network: ws
-  port: '80'
-  server: sg3.36routes.online
-  tls: false
-  type: vmess
-  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4c4a3caa-7df2-4c84-8606-e597b08e0e4e
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬 Singapore 1 - 直连
-  network: ws
-  port: '80'
-  server: sg1.36routes.online
-  tls: false
-  type: vmess
-  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian
@@ -68,6 +12,29 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
+  name: 10|新加坡 Amazon数据中心
+  network: ws
+  port: 80
+  server: sg1.s2fjeyeeyafe.bond
+  tls: true
+  type: vmess
+  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5dc2b5e2-b7d5-4e93-9937-97c40f38b101
+- alterId: 0
+  cipher: auto
   name: 9|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -75,7 +42,20 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 46d09eb3-5542-494d-9cd8-af23866b45a0
+  uuid: a6123be5-4dd7-4b0e-a070-2223afa9a844
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 Singapore 1 - 直连
+  network: ws
+  port: '80'
+  server: sg1.36routes.online
+  tls: false
+  type: vmess
+  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -85,7 +65,58 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 46d09eb3-5542-494d-9cd8-af23866b45a0
+  uuid: a6123be5-4dd7-4b0e-a070-2223afa9a844
+- alterId: 0
+  cipher: auto
+  name: 10|新加坡 亚马逊(Amazon)公司数据中心
+  network: ws
+  port: '80'
+  server: sg4.36routes.online
+  tls: false
+  type: vmess
+  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6123be5-4dd7-4b0e-a070-2223afa9a844
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 14|🇸🇬 新加坡4|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5dc2b5e2-b7d5-4e93-9937-97c40f38b101
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5dc2b5e2-b7d5-4e93-9937-97c40f38b101
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 Singapore 2 - 直连
@@ -99,21 +130,16 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇸🇬 新加坡4|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
+  name: 12|🇸🇬 Singapore 3 - 直连
+  network: ws
+  port: '80'
+  server: sg3.36routes.online
+  tls: false
   type: vmess
-  uuid: 4c4a3caa-7df2-4c84-8606-e597b08e0e4e
+  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /

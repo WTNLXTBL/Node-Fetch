@@ -1,18 +1,15 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
-  network: ws
-  port: 31682
-  server: 38.54.36.214
-  servername: ''
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 46602
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 217fdbc2-c062-4632-c440-36c3a4934713
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -29,6 +26,20 @@ proxies:
   server: 1.65.215.179
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
+  network: ws
+  port: 31682
+  server: 38.54.36.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 217fdbc2-c062-4632-c440-36c3a4934713
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
@@ -37,23 +48,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|香港 特别行政区
-  network: tcp
-  port: 45343
-  server: 154.90.39.63
-  tls: false
-  type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 46602
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
