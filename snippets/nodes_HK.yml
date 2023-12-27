@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 12|菲律宾 - 马尼拉 - Kaopu Cloud HK Lim...
+  network: ws
+  port: 31682
+  server: 38.54.36.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 217fdbc2-c062-4632-c440-36c3a4934713
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -15,17 +29,6 @@ proxies:
   server: 1.65.215.179
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 46602
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
@@ -43,17 +46,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|解锁...
-  network: ws
-  port: 80
-  server: kkyx.yydsii.com
-  servername: ''
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 46602
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
-  ws-opts:
-    headers:
-      Host: jpyx.651568.xyz
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
