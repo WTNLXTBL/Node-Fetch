@@ -1,16 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|中国 阿里云
-  network: tcp
-  port: 12681
-  server: 8.219.59.63
+  name: 2,3,4,18|🇨🇳_CN_中国
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
   tls: false
   type: vmess
-  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
-  name: '10,11,12|中国 阿里云 #1'
+  name: 1|_CN_
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,11,12|中国 阿里云
   network: tcp
   port: '32969'
   server: 8.219.240.120
@@ -20,26 +38,10 @@ proxies:
   uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
 - alterId: 0
   cipher: auto
-  name: 1,2,3,4|_CN_
-  network: ws
-  port: 47551
-  server: 159.75.178.50
-  skip-cert-verify: true
+  name: '10|中国 阿里云 #1'
+  network: tcp
+  port: 12681
+  server: 8.219.59.63
   tls: false
   type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|广东省广州市移动 9
-  network: ws
-  port: '25243'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
+  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
