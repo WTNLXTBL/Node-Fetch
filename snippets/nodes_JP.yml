@@ -1,41 +1,38 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本1|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20007
-  server: service.ouluyun9803.com
+  name: 13|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.36.92.179
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 04  | 1x JP
+  name: 9|日本 东京阿里云
+  network: ws
+  port: 80
+  server: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  ws-opts:
+    headers:
+      Host: jpyx.651568.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本06
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5dc2b5e2-b7d5-4e93-9937-97c40f38b101
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 10013
-  server: 61.224.81.248
-  tfo: false
-  type: ss
+  uuid: 81827eb0-95a1-47c8-9430-a82a46c6f8dc
 - alterId: 0
   cipher: auto
-  name: 10,12|日本 东京都Amazon数据中心
+  name: 9|日本 东京都Amazon数据中心
   network: ws
   port: 80
   server: jp2.36routes.online
@@ -46,35 +43,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 46.137.227.248
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 東京都 1 - 直結
-  network: ws
-  port: '80'
-  server: jp1.36routes.online
-  tls: false
-  type: vmess
-  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.36.92.179
-  tfo: false
-  type: ss
 - name: 1|_JP_
   network: ws
   password: d07a02a06191c99f
@@ -90,20 +58,61 @@ proxies:
     path: /gateway/connect
 - alterId: 0
   cipher: auto
-  name: 10|日本 东京阿里云
-  network: ws
-  port: 80
-  server: kkyx.yydsii.com
-  tls: false
+  name: 12|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
-  ws-opts:
-    headers:
-      Host: jpyx.651568.xyz
-    path: /
+  uuid: 52ba407d-85e7-42ae-8e78-20518ec82f61
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇯🇵 日本KT|@ripaojiedian
+  name: 13|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10013
+  server: 61.224.81.248
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 81827eb0-95a1-47c8-9430-a82a46c6f8dc
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.104.144
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 52ba407d-85e7-42ae-8e78-20518ec82f61
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
   plugin: v2ray-plugin
   plugin-opts:
@@ -119,162 +128,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇯🇵日本04
+  name: 10|github.com/freefq - 日本东京Linode...
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a6123be5-4dd7-4b0e-a070-2223afa9a844
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本专线200M♦
-  network: ws
-  port: '80'
-  server: jp200m.s2fjeyeeyafe.bond
-  servername: www.microsoft.com
-  tls: true
-  type: vmess
-  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a6123be5-4dd7-4b0e-a070-2223afa9a844
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 東京都 3 - 直結
-  network: ws
-  port: '80'
-  server: jp3.36routes.online
+  port: 36173
+  server: 172.105.226.166
   tls: false
   type: vmess
-  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 5de808d1-b707-462c-83f3-68739504ad70
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5dc2b5e2-b7d5-4e93-9937-97c40f38b101
-- alterId: 0
-  cipher: auto
-  name: 10,11,12|日本东京Amazon数据中心 24
-  network: ws
-  port: '80'
-  server: jp1.s2fjeyeeyafe.bond
-  servername: www.microsoft.com
-  tls: true
-  type: vmess
-  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.104.144
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '10|日本 东京Choopa数据中心 #1'
-  network: tcp
-  port: '42434'
-  server: 139.180.202.213
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9a7c529-f98b-429b-eb26-c90979c910a3
-- alterId: 0
-  cipher: auto
-  name: 9|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a6123be5-4dd7-4b0e-a070-2223afa9a844
-- alterId: 0
-  cipher: auto
-  name: 10|日本 东京Choopa数据中心
-  network: tcp
-  port: '42280'
-  server: 149.28.19.63
-  tls: false
-  type: vmess
-  uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5dc2b5e2-b7d5-4e93-9937-97c40f38b101
-- alterId: 0
-  cipher: auto
-  name: '10,11|日本 东京Choopa数据中心 #2'
-  network: tcp
-  port: '16142'
-  server: 45.77.176.217
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵日本3区1Gbps MAX♦
-  network: ws
-  port: '80'
-  server: jp3.s2fjeyeeyafe.bond
-  servername: www.microsoft.com
-  tls: true
-  type: vmess
-  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 12|🇯🇵 東京都 4 - 直結
-  network: ws
-  port: '80'
-  server: jp4.36routes.online
-  tls: false
-  type: vmess
-  uuid: 8efc7e9d-716e-440c-8573-5c52e8c503e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,11,12|日本东京阿里云 34
+  name: 9,10|日本东京阿里云 34
   network: ws
   port: '80'
   server: kkyx.yydsii.com
@@ -286,3 +149,82 @@ proxies:
     headers:
       Host: yxtw.651568.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: '9|日本 东京Choopa数据中心 #1'
+  network: tcp
+  port: '42434'
+  server: 139.180.202.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9a7c529-f98b-429b-eb26-c90979c910a3
+- alterId: 0
+  cipher: auto
+  name: 12|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 52ba407d-85e7-42ae-8e78-20518ec82f61
+- alterId: 0
+  cipher: auto
+  name: 9,10|日本 东京Choopa数据中心
+  network: tcp
+  port: '42280'
+  server: 149.28.19.63
+  tls: false
+  type: vmess
+  uuid: 823ca0d4-a7f8-4e99-8090-2351f718d106
+- alterId: 0
+  cipher: auto
+  name: 9|日本东京Amazon数据中心 24
+  network: ws
+  port: '80'
+  server: jp1.s2fjeyeeyafe.bond
+  servername: www.microsoft.com
+  tls: true
+  type: vmess
+  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '9|日本 东京Choopa数据中心 #2'
+  network: tcp
+  port: '16142'
+  server: 45.77.176.217
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f57a1cc-d395-4bde-bfcf-f62a8a4f9559
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 46.137.227.248
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 81827eb0-95a1-47c8-9430-a82a46c6f8dc
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 13|🇯🇵 日本1|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20007
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss

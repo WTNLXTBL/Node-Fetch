@@ -29,19 +29,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇿🇦_ZA_南非
-  network: ws
-  port: '80'
-  server: yhnsb3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_CN_->_US__1
   network: ws
   port: 25239
@@ -53,6 +40,19 @@ proxies:
   ws-opts:
     headers:
       host: us1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,3,4|🇨🇳_CN_中国->🇲🇽_MX_墨西哥
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -69,6 +69,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 0|🇺🇸 _US_美国->🇿🇦_ZA_南非
+  network: ws
+  port: '80'
+  server: yhnsb3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: yhnsb3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '2,3,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
   network: ws
   port: 25257
@@ -79,17 +92,4 @@ proxies:
   ws-opts:
     headers:
       Host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇨🇳_CN_中国->🇲🇽_MX_墨西哥
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
     path: /
