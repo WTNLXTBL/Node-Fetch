@@ -1,30 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
+  name: '10,11|台湾省 v2rayfree.eu.org #1'
   network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
+  port: 10001
+  server: 45.121.48.196
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 台湾省南投县中华电信...
+  network: tcp
+  port: '6899'
+  server: c11.twtc.dynu.net
   servername: ''
   tls: false
   type: vmess
   uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 台湾省中华电信(Hi...
-  network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
-- alterId: 0
-  cipher: auto
-  name: 10|台湾省 中华电信(HiNet)数据中心
+  name: 10,12|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 4211
   server: nb36.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 台湾省台北市中华电信...
+  network: tcp
+  port: 5643
+  server: b11.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -54,15 +63,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '10,11|台湾省 v2rayfree.eu.org #1'
-  network: tcp
-  port: 10001
-  server: 45.121.48.196
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
   name: 12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: 12002
@@ -73,21 +73,23 @@ proxies:
   uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 台湾省南投县中华电信...
+  name: 11,12|github.com/freefq - 台湾省中华电信(Hi...
   network: tcp
-  port: '6899'
-  server: c11.twtc.dynu.net
+  port: '4443'
+  server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
   uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 台湾省花莲县中华电信...
-  network: tcp
-  port: 5643
-  server: b11.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇹🇼 台湾KT|@ripaojiedian
+  password: oiwym4ovI4Yb
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 61.224.115.24
+  tfo: false
+  type: ss
