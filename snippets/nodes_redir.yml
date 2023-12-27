@@ -1,44 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 25239
-  server: us1.awslcn.info
+  name: 12|🇯🇵日本专线中转♦
+  network: tcp
+  port: '28820'
+  server: cm-03.zhuanfa.link
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
-  network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_US__2
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: us2.awslcn.info
-    path: /
+  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
 - alterId: 0
   cipher: auto
   name: 1|_CN_->_US__1
@@ -55,26 +24,57 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇿🇦_ZA_南非
+  name: 1|_CN_->_MX_
   network: ws
-  port: '80'
-  server: yhnsb3.shabijichang.com
+  port: 25284
+  server: cu.awslcn.info
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: yhnsb3.shabijichang.com
+      host: cu.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|🇻🇳越南1区中转
-  network: tcp
-  port: '45826'
-  server: cm-03.zhuanfa.link
+  name: '2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
   tls: false
   type: vmess
-  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇨🇦_CA_加拿大_由快嘴科技提供：kk...
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 25239
+  server: us1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 2,3,4,18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥
@@ -90,28 +90,37 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,11,18|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  name: 12|🇯🇵日本普通中转2区
+  network: tcp
+  port: '39788'
+  server: cm-03.zhuanfa.link
+  tls: false
+  type: vmess
+  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+- alterId: 0
+  cipher: auto
+  name: 1|_CN_->_US__2
   network: ws
   port: 25257
   server: us2.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_MX_
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      host: cu.awslcn.info
+      host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇿🇦_ZA_南非
+  network: ws
+  port: '80'
+  server: yhnsb3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: yhnsb3.shabijichang.com
     path: /
