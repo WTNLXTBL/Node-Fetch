@@ -28,6 +28,19 @@ proxies:
     path: /cctv1.m3u8
 - alterId: 0
   cipher: auto
+  name: 2,3,4|🇨🇳_CN_中国
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|广东省广州市移动 13
   network: tcp
   port: '45826'
@@ -35,6 +48,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #1'
+  network: ws
+  port: '25275'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|中国阿里云 2
@@ -60,20 +86,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CN_
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: '10|广东省广州市 移动 #3'
   network: ws
   port: '25243'
@@ -87,27 +99,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '10|广东省广州市 移动 #1'
-  network: ws
-  port: '25275'
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇨🇳_CN_中国
+  name: 1|_CN_
   network: ws
   port: 25230
   server: cm1.awslcn.info
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
+      host: cm1.awslcn.info
     path: /
