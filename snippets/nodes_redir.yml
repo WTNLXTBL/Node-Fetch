@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: fr-01.jikuai.xyz
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: fr-01.jikuai.xyz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_NL__3
   network: ws
   port: 2096
@@ -41,23 +28,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2'
+  name: 1|_US_->_NL__1
   network: ws
   port: 2096
-  server: 104.25.38.74
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_NL__2
-  network: ws
-  port: 2096
-  server: 162.159.129.87
+  server: 104.25.254.162
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -68,50 +42,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_IN_
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  name: 1|_US_->_NL__2
   network: ws
   port: 2096
-  server: 104.25.254.162
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供：kk...
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_NL__1
-  network: ws
-  port: 2096
-  server: 104.25.254.162
+  server: 162.159.129.87
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -135,6 +69,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供：kk...
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
   name: 18|🇭🇰_HK_香港->🇱🇺_LU_卢森堡_29
   network: ws
   port: 80
@@ -146,6 +93,59 @@ proxies:
     headers:
       Host: buyvm.nagisa.cyou
     path: /0ece175a
+- alterId: 0
+  cipher: auto
+  name: 1|_CN_->_IN_
+  network: ws
+  port: 16626
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: fr-01.jikuai.xyz
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: fr-01.jikuai.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '2,3,4|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2'
+  network: ws
+  port: 2096
+  server: 104.25.38.74
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,3,4|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 2096
+  server: 104.25.254.162
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
+    path: /
 - alterId: 0
   cipher: auto
   name: 2,3,4,10,11|🇨🇳_CN_中国->🇮🇳_IN_印度

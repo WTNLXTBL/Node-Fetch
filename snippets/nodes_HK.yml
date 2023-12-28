@@ -1,43 +1,23 @@
 proxies:
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
+  name: 14|🇭🇰 香港2|@ripaojiedian
+  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 12|香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%...
-  network: ws
-  port: '64002'
-  server: 112.26.46.141
-  servername: ''
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 46602
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: e3abb42a-5fff-3ad9-ba7b-1900b9ef43ab
-  ws-opts:
-    headers:
-      Host: cache-hk-1.cn-db.top
-    path: /db00
-- alterId: 0
-  cipher: auto
-  name: 10,11|香港 特别行政区
-  network: tcp
-  port: '45343'
-  server: 154.90.39.63
-  tls: false
-  type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 10,11|香港 阿里云
@@ -54,9 +34,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|香港|流量訂多了80TB白天給你們隨便用|公益 - 大白〖电...
+  name: 10|香港 特别行政区
+  network: tcp
+  port: '45343'
+  server: 154.90.39.63
+  tls: false
+  type: vmess
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+- alterId: 0
+  cipher: auto
+  name: 12|香港|专线2G|GPT+流媒体|【邀请用户】|最高返还40%...
   network: ws
-  port: '61001'
+  port: '64002'
   server: 112.26.46.141
   servername: ''
   tls: false
@@ -64,16 +53,8 @@ proxies:
   uuid: e3abb42a-5fff-3ad9-ba7b-1900b9ef43ab
   ws-opts:
     headers:
-      Host: cache-hk-2.cn-db.top
+      Host: cache-hk-1.cn-db.top
     path: /db00
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港2|@ripaojiedian
-  password: 057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -90,14 +71,19 @@ proxies:
   server: 47.76.189.253
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 46602
-  server: 112.28.208.10
-  skip-cert-verify: false
+  name: 14|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss

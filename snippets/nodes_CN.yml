@@ -1,6 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|中国阿里云 99
+  network: tcp
+  port: 12681
+  server: 8.219.59.63
+  tls: false
+  type: vmess
+  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
+- alterId: 0
+  cipher: auto
   name: '10,11,18|广东省广州市 移动 #2'
   network: ws
   port: '25257'
@@ -11,115 +20,6 @@ proxies:
   ws-opts:
     headers:
       Host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #7'
-  network: ws
-  port: '25233'
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|中国阿里云 99
-  network: tcp
-  port: 12681
-  server: 8.219.59.63
-  tls: false
-  type: vmess
-  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 广东省广州市移动 4...
-  network: ws
-  port: '25286'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|上海市电信 18
-  network: tcp
-  port: '24868'
-  server: zz101.maikcloud.com
-  tls: false
-  type: vmess
-  uuid: d81a4bd4-ba86-49ad-b6bd-6d57e6b07577
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #1'
-  network: ws
-  port: '25246'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #8'
-  network: ws
-  port: '25240'
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #3'
-  network: ws
-  port: '25283'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #6'
-  network: ws
-  port: '25258'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '10|广东省广州市 移动 #5'
-  network: ws
-  port: '25258'
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -136,9 +36,132 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11|github.com/freefq - 广东省广州市移动 7...
+  network: ws
+  port: '25286'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #7'
+  network: ws
+  port: '25233'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #6'
+  network: ws
+  port: '25258'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #8'
+  network: ws
+  port: '25240'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|广东省广州市 移动
   network: ws
   port: '25245'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: sg1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 上海市电信 14
+  network: ws
+  port: 32205
+  server: free-relay.themars.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b05ea31-f4bd-44a7-873f-94ebbe1ee941
+  ws-opts:
+    headers:
+      Host: www.cctv.com
+    path: /cctv1.m3u8
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 上海市电信 5
+  network: tcp
+  port: '44606'
+  server: zz101.maikcloud.com
+  tls: false
+  type: vmess
+  uuid: d81a4bd4-ba86-49ad-b6bd-6d57e6b07577
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #3'
+  network: ws
+  port: '25283'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: sg1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #5'
+  network: ws
+  port: '25258'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|上海市电信 18
+  network: tcp
+  port: '24868'
+  server: zz101.maikcloud.com
+  tls: false
+  type: vmess
+  uuid: d81a4bd4-ba86-49ad-b6bd-6d57e6b07577
+- alterId: 0
+  cipher: auto
+  name: '10|广东省广州市 移动 #1'
+  network: ws
+  port: '25246'
   server: sg1.awslcn.info
   tls: false
   type: vmess
