@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_NL__1
-  network: ws
-  port: 2096
-  server: 104.25.254.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  ws-opts:
-    headers:
-      host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
   name: '2,3,4,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
   network: ws
   port: 2096
@@ -25,19 +11,6 @@ proxies:
   ws-opts:
     headers:
       Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,10,11,18|🇨🇳_CN_中国->🇮🇳_IN_印度
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -54,17 +27,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_NL__3
+  name: 2,3,4,10,11|🇨🇳_CN_中国->🇮🇳_IN_印度
   network: ws
-  port: 2096
-  server: 104.25.38.74
-  skip-cert-verify: true
-  tls: true
+  port: 16626
+  server: yes.cnmjcn.net
+  tls: false
   type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      host: s1.shargh.shop
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -82,16 +54,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,11,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2'
+  name: 18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供：kk...
   network: ws
-  port: 2096
-  server: 104.25.38.74
-  tls: true
+  port: 25284
+  server: cu.awslcn.info
+  tls: false
   type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: s1.shargh.shop
+      Host: cu.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_39
+  network: ws
+  port: 25239
+  server: us1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -105,6 +90,73 @@ proxies:
   ws-opts:
     headers:
       Host: fr-01.jikuai.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_NL__3
+  network: ws
+  port: 2096
+  server: 104.25.38.74
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_37
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_NL__1
+  network: ws
+  port: 2096
+  server: 104.25.254.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '2,3,4,12|🇺🇸_US_美国->🇳🇱_NL_荷兰 #2'
+  network: ws
+  port: 2096
+  server: 104.25.38.74
+  tls: true
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
     path: /
 - alterId: 0
   cipher: auto
