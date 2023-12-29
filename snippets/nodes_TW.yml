@@ -1,23 +1,60 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇹🇼 台湾2|@ripaojiedian
+  name: 12|TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: '4211'
+  server: nb36.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 11|github.com/freefq - 台湾省  82
+  network: tcp
+  port: 10001
+  server: 45.121.48.172
+  tls: false
+  type: vmess
+  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
+- alterId: 0
+  cipher: auto
+  name: 12|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: 4443
+  server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 15|台湾2|@ripaojiedian
   network: ws
-  port: 25233
+  port: '25233'
   server: cm.awslcn.info
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: cm.awslcn.info
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,11,12|台湾省台中市中华电信 17
+  name: 10,11|台湾省台中市中华电信 17
   network: tcp
   port: '6122'
   server: c12.twtc.dynu.net
@@ -36,6 +73,16 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
+  name: 12|TW-板桥2-3(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: '2024'
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
   name: 15|台湾1|@ripaojiedian
   network: tcp
   port: '6122'
@@ -44,17 +91,3 @@ proxies:
   tls: false
   type: vmess
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
-  name: 15|台湾2|@ripaojiedian
-  network: ws
-  port: '25233'
-  server: cm.awslcn.info
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
