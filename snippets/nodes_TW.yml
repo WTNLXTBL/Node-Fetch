@@ -1,10 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|台湾省 中华电信(HiNet)数据中心
+  name: 11,12|github.com/freefq - 台湾省台中市中华电信...
   network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
+  port: '6122'
+  server: c12.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e27ab70e-7444-470c-a0fc-e49ec09ac02d
+- alterId: 0
+  cipher: auto
+  name: 10|台湾省中华电信(HiNet)数据中心 1
+  network: tcp
+  port: 4211
+  server: nb36.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+- alterId: 0
+  cipher: auto
+  name: 10,11|台湾省  113
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 15|台湾1|@ripaojiedian
+  network: tcp
+  port: '6122'
+  server: 36.232.130.218
+  servername: ''
   tls: false
   type: vmess
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
@@ -35,14 +65,13 @@ proxies:
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: 12|台湾
+  name: 10|台湾省 中华电信(HiNet)数据中心
   network: tcp
-  port: '6122'
-  server: c12.twtc.dynu.net
-  servername: ''
+  port: 2024
+  server: b23.ntbq.dynu.net
   tls: false
   type: vmess
-  uuid: e27ab70e-7444-470c-a0fc-e49ec09ac02d
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
   name: 15|台湾2|@ripaojiedian
@@ -57,35 +86,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 15|台湾1|@ripaojiedian
-  network: tcp
-  port: '6122'
-  server: 36.232.130.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾省  113
-  network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
-  name: 10|台湾省中华电信(HiNet)数据中心 1
-  network: tcp
-  port: 4211
-  server: nb36.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
   name: 10|台湾省  102
