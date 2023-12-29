@@ -1,27 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡06
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e88ec3f2-3461-480b-a18b-f1059138c75c
+  uuid: f685422c-fa6a-47f7-a2eb-bf23a31d5431
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.32.122.1...
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: edb586f0-f295-4989-9aa9-50d09b2ff012
+- alterId: 0
+  cipher: auto
+  name: 10,12|新加坡Choopa数据中心 52
   network: ws
-  port: '34187'
+  port: '46943'
   server: 45.32.122.135
   servername: ''
   tls: false
   type: vmess
-  uuid: 6e017fd4-0472-4772-a2cc-358a7ef55bdd
+  uuid: 8ce5953c-cf3a-4c82-b761-d5e83ee22607
   ws-opts:
     headers:
-      Host: android.googleapis.com
+      Host: m.zoom.us
     path: /
 - alterId: 0
   cipher: auto
@@ -39,6 +49,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 10,11,12|新加坡 Linode数据中心
+  network: tcp
+  port: 8443
+  server: sg3-v2ray.ipracevpn.com
+  tls: true
+  type: vmess
+  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f685422c-fa6a-47f7-a2eb-bf23a31d5431
+- alterId: 0
+  cipher: auto
   name: 13|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -46,17 +75,41 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4fb145c6-c5a0-4bfd-beb8-39f36f96c6a8
+  uuid: edb586f0-f295-4989-9aa9-50d09b2ff012
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
+  name: 9|🇸🇬新加坡04
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e88ec3f2-3461-480b-a18b-f1059138c75c
+  uuid: f685422c-fa6a-47f7-a2eb-bf23a31d5431
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.32.122.1...
+  network: ws
+  port: '34187'
+  server: 45.32.122.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e017fd4-0472-4772-a2cc-358a7ef55bdd
+  ws-opts:
+    headers:
+      Host: android.googleapis.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: edb586f0-f295-4989-9aa9-50d09b2ff012
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian
@@ -68,56 +121,3 @@ proxies:
   protocol-param: 46961:1210-Tha
   server: cm03.newcome.xyz
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4fb145c6-c5a0-4bfd-beb8-39f36f96c6a8
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e88ec3f2-3461-480b-a18b-f1059138c75c
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4fb145c6-c5a0-4bfd-beb8-39f36f96c6a8
-- alterId: 0
-  cipher: auto
-  name: 10,12|新加坡Choopa数据中心 52
-  network: ws
-  port: '46943'
-  server: 45.32.122.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8ce5953c-cf3a-4c82-b761-d5e83ee22607
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10,12|新加坡 Linode数据中心
-  network: tcp
-  port: 8443
-  server: sg3-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
