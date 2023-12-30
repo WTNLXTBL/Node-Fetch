@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f685422c-fa6a-47f7-a2eb-bf23a31d5431
-- alterId: 0
-  cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -18,21 +8,75 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: edb586f0-f295-4989-9aa9-50d09b2ff012
+  uuid: 3c989793-14a7-4c7a-afbe-b44975287281
 - alterId: 0
   cipher: auto
-  name: 10,12|新加坡Choopa数据中心 52
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3c989793-14a7-4c7a-afbe-b44975287281
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - Eons Data Communic...
   network: ws
-  port: '46943'
-  server: 45.32.122.135
+  port: 12001
+  server: dnspsdhaitun.ncsuwei.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 8ce5953c-cf3a-4c82-b761-d5e83ee22607
+  uuid: bda80a35-d90d-3711-940b-03058e55fed4
   ws-opts:
     headers:
-      Host: m.zoom.us
-    path: /
+      Host: dnspsdhaitun.ncsuwei.top
+    path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3c989793-14a7-4c7a-afbe-b44975287281
+- alterId: 0
+  cipher: auto
+  name: '12|新加坡 - 新加坡 - Eons Data Communic... #1'
+  network: ws
+  port: 12002
+  server: dnspsdhaitun.ncsuwei.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bda80a35-d90d-3711-940b-03058e55fed4
+  ws-opts:
+    headers:
+      Host: dnspsdhaitun.ncsuwei.top
+    path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 278c4767-1745-4bbf-bf8f-16afa81da947
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 278c4767-1745-4bbf-bf8f-16afa81da947
 - alterId: 0
   cipher: auto
   name: 10|新加坡Choopa数据中心 11
@@ -47,9 +91,20 @@ proxies:
     headers:
       Host: m.zoom.us
     path: /
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 10,11,12|新加坡 Linode数据中心
+  name: 10,12|新加坡 Linode数据中心
   network: tcp
   port: 8443
   server: sg3-v2ray.ipracevpn.com
@@ -58,34 +113,14 @@ proxies:
   uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡05
+  name: 9|🇸🇬新加坡06
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f685422c-fa6a-47f7-a2eb-bf23a31d5431
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: edb586f0-f295-4989-9aa9-50d09b2ff012
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f685422c-fa6a-47f7-a2eb-bf23a31d5431
+  uuid: 278c4767-1745-4bbf-bf8f-16afa81da947
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.32.122.1...
@@ -102,22 +137,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
+  name: 10,12|新加坡Choopa数据中心 52
+  network: ws
+  port: '46943'
+  server: 45.32.122.135
+  servername: ''
+  tls: false
   type: vmess
-  uuid: edb586f0-f295-4989-9aa9-50d09b2ff012
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr
+  uuid: 8ce5953c-cf3a-4c82-b761-d5e83ee22607
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /
