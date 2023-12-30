@@ -1,26 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_37
-  network: ws
-  port: 25239
-  server: us1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12,18|🇮🇷_IR_伊朗->🇷🇺_RU_俄罗斯联邦_26
-  network: tcp
-  port: 20404
-  server: 81.12.27.3
-  tls: false
-  type: vmess
-  uuid: 2825cac3-6acc-4468-ad31-b6d3a3e8fe6e
 - name: 1|_CN_->_GB_
   network: tcp
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
@@ -29,19 +7,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '80'
-  server: fr1e-unmetered.v2freevpn.com
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: fr1e-unmetered.v2freevpn.com
-    path: /v133PDXkklxLEcOvD
 - name: 1|_US_->_RU_
   network: ws
   password: qG9K8AGnn9XH5jUqeFu96g
@@ -68,6 +33,19 @@ proxies:
     headers:
       Host: us2.awslcn.info
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_37
+  network: ws
+  port: 25239
+  server: us1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us1.awslcn.info
+    path: /
 - name: 1|_GI_->_GB_
   network: tcp
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
@@ -79,7 +57,20 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '80'
+  server: fr1e-unmetered.v2freevpn.com
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: fr1e-unmetered.v2freevpn.com
+    path: /v133PDXkklxLEcOvD
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '8080'
   server: zula.ir
@@ -90,3 +81,16 @@ proxies:
     headers:
       Host: free.seyyedmt.shop
     path: /Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT
+- alterId: 0
+  cipher: auto
+  name: 12|美国洛杉矶-中转|1x
+  network: ws
+  port: '38888'
+  server: aws.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: be6139ca-822e-460a-acc3-e7e805b1cbad
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /daxun/us1
