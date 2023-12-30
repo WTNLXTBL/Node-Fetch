@@ -1,26 +1,13 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '8080'
-  server: zula.ir
+  name: 18|🇨🇳_CN_中国->🇩🇪_DE_德国_44
+  network: ''
+  port: 52707
+  server: 183.237.20.149
   tls: false
   type: vmess
-  uuid: 7b9c828a-27fe-4d61-9174-c138fce3da09
-  ws-opts:
-    headers:
-      Host: free.seyyedmt.shop
-    path: /Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT
-- name: 1|_GI_->_GB_
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: 95.164.69.115
-  skip-cert-verify: true
-  sni: gbs.pptv-tv.store
-  type: trojan
-  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
@@ -34,21 +21,34 @@ proxies:
     headers:
       Host: fr1e-unmetered.v2freevpn.com
     path: /v133PDXkklxLEcOvD
-- alterId: 64
-  cipher: auto
-  name: 17|🇨🇳_CN_中国->🇩🇪_DE_德国_44
-  network: ''
-  port: 52707
-  server: 183.237.20.149
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 1|_CN_->_GB_
   network: tcp
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
   port: 17728
   server: gbs.pptv-tv.store
   skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 18|🇬🇧_GB_英国->🇺🇸_US_美国_45
+  network: ws
+  port: 443
+  server: 18.openiisee.monster
+  tls: true
+  type: vmess
+  uuid: 112ede46-9880-3721-864b-b3ea0dac5cd2
+  ws-opts:
+    headers:
+      Host: lovemylive.top
+    path: /dkmfjfkmd239wq20
+- name: 1|_GI_->_GB_
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: 95.164.69.115
+  skip-cert-verify: true
+  sni: gbs.pptv-tv.store
   type: trojan
   udp: true
 - name: 1|_US_->_RU_
@@ -64,3 +64,16 @@ proxies:
     headers:
       host: cdn13.cdn2cdn.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '8080'
+  server: zula.ir
+  tls: false
+  type: vmess
+  uuid: 7b9c828a-27fe-4d61-9174-c138fce3da09
+  ws-opts:
+    headers:
+      Host: free.seyyedmt.shop
+    path: /Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT
