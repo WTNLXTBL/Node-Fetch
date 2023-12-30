@@ -1,14 +1,18 @@
 proxies:
-- name: 1|_HK_->_US_
-  network: tcp
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
+- name: 1|_US_->_RU_
+  network: ws
+  password: qG9K8AGnn9XH5jUqeFu96g
+  port: 2083
+  server: cdn-13.cdn2cdn.com
   skip-cert-verify: true
-  sni: us01.trojanyyds.xyz
+  sni: cdn13.cdn2cdn.com
   type: trojan
   udp: true
-- name: 1|_CN_->_SK_
+  ws-opts:
+    headers:
+      host: cdn13.cdn2cdn.com
+    path: /
+- name: 1|_CN_->_GB_
   network: tcp
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
   port: 17728
@@ -18,35 +22,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1,10|_CN_->_US__3
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_MX_
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,10,12|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 0,12|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '8080'
   server: zula.ir
@@ -57,79 +33,6 @@ proxies:
     headers:
       Host: free.seyyedmt.shop
     path: /Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT
-- name: 1|_GB_->_RU_
-  network: tcp
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: ru01.trojanyyds.xyz
-  skip-cert-verify: true
-  sni: ru01.trojanyyds.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,2,3,4|_IR_->_FR_
-  network: tcp
-  port: 20554
-  server: 81.12.27.4
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_US__1
-  network: ws
-  port: 25239
-  server: us1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4|🇨🇳_CN_中国->🇲🇽_MX_墨西哥
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '2,3,4|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 25256
-  server: us1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_US__2
-  network: ws
-  port: 25256
-  server: us1.awslcn.info
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: us1.awslcn.info
-    path: /
 - alterId: 0
   cipher: auto
   name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
@@ -145,7 +48,7 @@ proxies:
     path: /v133PDXkklxLEcOvD
 - alterId: 0
   cipher: auto
-  name: '2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
   network: ws
   port: 25257
   server: us2.awslcn.info
@@ -158,20 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,18|🇨🇳_CN_中国->🇺🇸_US_美国
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_37
   network: ws
   port: 25239
   server: us1.awslcn.info
@@ -182,17 +72,12 @@ proxies:
     headers:
       Host: us1.awslcn.info
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_RU_
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
+- name: 1|_GI_->_GB_
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: 95.164.69.115
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      host: cm1.awslcn.info
-    path: /
+  sni: gbs.pptv-tv.store
+  type: trojan
+  udp: true
