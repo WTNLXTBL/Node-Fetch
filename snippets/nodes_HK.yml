@@ -1,44 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
-  network: ws
-  port: 2096
-  server: www.visa.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3bf17c76-20ec-4769-d02b-caed1c005c2c
-  ws-opts:
-    headers:
-      Host: n.mahilu.site
-    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -64,19 +24,29 @@ proxies:
     headers:
       Host: ''
     path: /opt/video/images
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|github.com/freefq - 香港阿里云 86
-  network: ws
-  port: '80'
-  server: kkyx.yydsii.com
+  name: 15|香港3|@ripaojiedian
+  network: tcp
+  port: '50008'
+  server: ieplhk.lanyunshi.top
   servername: ''
   tls: false
   type: vmess
-  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  uuid: 9e5bb057-a232-389f-9793-bd44d32c0cd5
+- alterId: 0
+  cipher: auto
+  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
+  network: ws
+  port: 2096
+  server: www.visa.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3bf17c76-20ec-4769-d02b-caed1c005c2c
   ws-opts:
     headers:
-      Host: yxtw.651568.xyz
+      Host: n.mahilu.site
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -90,6 +60,22 @@ proxies:
   server: 8.217.217.138
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
@@ -98,13 +84,17 @@ proxies:
   server: 116.63.79.132
   tfo: false
   type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 15|香港3|@ripaojiedian
-  network: tcp
-  port: '50008'
-  server: ieplhk.lanyunshi.top
+  name: 10,11|香港 阿里云
+  network: ws
+  port: '80'
+  server: kkyx.yydsii.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 9e5bb057-a232-389f-9793-bd44d32c0cd5
+  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
+  ws-opts:
+    headers:
+      Host: yxtw.651568.xyz
+    path: /
