@@ -1,4 +1,45 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 1,2,3,4,17|_CN_->_DE_
+  network: ''
+  port: 52707
+  server: 183.237.20.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 1|_HK_->_RU_
+  network: tcp
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: ru01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|_CN_->_US__3
+  network: ws
+  port: 25239
+  server: us1.awslcn.info
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      host: us1.awslcn.info
+    path: /
+- name: 1|_CN_->_US__1
+  network: tcp
+  password: af84eec7-8324-30b9-89b8-a8a7e4fb5d3a
+  port: 19234
+  server: 19234tj.matrixxx888.com
+  skip-cert-verify: true
+  sni: eplcgame.com
+  type: trojan
+  udp: true
 - name: 1|_US_->_RU_
   network: ws
   password: qG9K8AGnn9XH5jUqeFu96g
@@ -12,37 +53,6 @@ proxies:
     headers:
       host: cdn13.cdn2cdn.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '80'
-  server: fr1e-unmetered.v2freevpn.com
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: fr1e-unmetered.v2freevpn.com
-    path: /v133PDXkklxLEcOvD
-- alterId: 64
-  cipher: auto
-  name: 17|🇨🇳_CN_中国->🇩🇪_DE_德国_44
-  network: ''
-  port: 52707
-  server: 183.237.20.149
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|_GI_->_GB_
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: 95.164.69.115
-  skip-cert-verify: true
-  sni: gbs.pptv-tv.store
-  type: trojan
-  udp: true
 - name: 1|_CN_->_GB_
   network: tcp
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
@@ -66,14 +76,31 @@ proxies:
     path: /dkmfjfkmd239wq20
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 2,3,4|🇨🇳_CN_中国->🇺🇸_US_美国
   network: ws
-  port: '8080'
-  server: zula.ir
+  port: 25239
+  server: us1.awslcn.info
   tls: false
   type: vmess
-  uuid: 7b9c828a-27fe-4d61-9174-c138fce3da09
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: free.seyyedmt.shop
-    path: /Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT-Telegram:@SeyyedMT
+      Host: us1.awslcn.info
+    path: /
+- name: 1|_HK_->_US_
+  network: tcp
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 1|_CN_->_US__2
+  network: tcp
+  password: af84eec7-8324-30b9-89b8-a8a7e4fb5d3a
+  port: 19235
+  server: 19235tj.matrixxx888.com
+  skip-cert-verify: true
+  sni: eplcgame.com
+  type: trojan
+  udp: true
