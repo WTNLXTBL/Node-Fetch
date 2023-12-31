@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供;kk...
-  network: ws
-  port: 25284
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
 - name: 1|_CN_->_US__2
   network: tcp
   password: af84eec7-8324-30b9-89b8-a8a7e4fb5d3a
@@ -31,27 +18,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 1|_CN_->_GB_
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 1|_US_->_RU_
-  network: ws
-  password: qG9K8AGnn9XH5jUqeFu96g
-  port: 2083
-  server: cdn-13.cdn2cdn.com
-  skip-cert-verify: true
-  sni: cdn13.cdn2cdn.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: cdn13.cdn2cdn.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_由快嘴科技提供;k...
@@ -64,6 +30,19 @@ proxies:
   ws-opts:
     headers:
       Host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_由快嘴科技提供;kk...
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
     path: /
 - name: 1|_HK_->_RU_
   network: tcp
@@ -86,6 +65,22 @@ proxies:
     headers:
       Host: us1.awslcn.info
     path: /
+- name: 1|_CN_->_GB_
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 1|_HK_->_US_
+  network: tcp
+  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 1|_CN_->_US__1
   network: tcp
   password: af84eec7-8324-30b9-89b8-a8a7e4fb5d3a
@@ -109,11 +104,16 @@ proxies:
     headers:
       host: us1.awslcn.info
     path: /
-- name: 1|_HK_->_US_
-  network: tcp
-  password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  port: 443
-  server: us01.trojanyyds.xyz
+- name: 1|_US_->_RU_
+  network: ws
+  password: qG9K8AGnn9XH5jUqeFu96g
+  port: 2083
+  server: cdn-13.cdn2cdn.com
   skip-cert-verify: true
+  sni: cdn13.cdn2cdn.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      host: cdn13.cdn2cdn.com
+    path: /
