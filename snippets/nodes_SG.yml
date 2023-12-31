@@ -1,30 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|191
-  network: ws
-  port: 80
-  server: 194.15.115.194
-  tls: false
-  type: vmess
-  uuid: 4b1bbd52-2281-469a-a547-a0b46fef6653
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|206
-  network: ws
-  port: 8080
-  server: 194.15.115.194
-  tls: false
-  type: vmess
-  uuid: 4b1bbd52-2281-469a-a547-a0b46fef6653
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 12|新加坡【TG：@ccbaohe】定时更新节点订阅
   network: tcp
   port: '8443'
@@ -35,14 +11,18 @@ proxies:
   uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  name: 12|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: 443
+  server: sg3-full.privateip.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: f1bcc5e0-2955-4efe-bb84-c6155751aa1f
+  uuid: 3a717129-4203-48b7-aeda-3376dc8776fb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
@@ -52,7 +32,41 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c86bc07d-8d8f-48d7-a6e3-f6e89dc0ee64
+  uuid: 3d3d7cd9-e14a-447e-8fa3-785ce985e445
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3d3d7cd9-e14a-447e-8fa3-785ce985e445
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 Singapore 3
+  network: ws
+  port: 2092
+  server: 157.245.52.0
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 26b592f4-b447-4de8-cbef-d517d17dfd76
+  ws-opts:
+    headers:
+      Host: ''
+    path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c2452144-9a1a-4408-b14b-e38930c98d9d
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -62,35 +76,32 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f1bcc5e0-2955-4efe-bb84-c6155751aa1f
+  uuid: c2452144-9a1a-4408-b14b-e38930c98d9d
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.111.6...
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.246.27:...
   network: ws
-  port: '37453'
-  server: 146.190.111.61
+  port: '28433'
+  server: 45.77.246.27
   servername: ''
   tls: false
   type: vmess
-  uuid: 5176ffae-af0a-4f8a-baab-7fa49042a4b8
+  uuid: d1528cbb-fa06-4659-cc25-c40387e7347e
   ws-opts:
     headers:
-      Host: m.twitter.com
-    path: /Mobitel 0
+      Host: media-exp1.licdn.com
+    path: /boonvpnzone
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
+  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-206.189.152...
   network: ws
-  port: '52990'
-  server: 45.77.245.47
-  servername: ''
+  port: 11032
+  server: 206.189.152.221
   tls: false
   type: vmess
-  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
+  uuid: 7e909f50-75a3-4c6f-ae59-e9875dd0670a
   ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /Dialog zoom
+    path: /
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian
@@ -111,24 +122,42 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c86bc07d-8d8f-48d7-a6e3-f6e89dc0ee64
+  uuid: 3d3d7cd9-e14a-447e-8fa3-785ce985e445
 - alterId: 0
   cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
+  network: ws
+  port: '52990'
+  server: 45.77.245.47
+  servername: ''
+  tls: false
   type: vmess
-  uuid: c86bc07d-8d8f-48d7-a6e3-f6e89dc0ee64
+  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /Dialog zoom
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  name: '12|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  network: ws
+  port: 443
+  server: sg2-full.privateip.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: f1bcc5e0-2955-4efe-bb84-c6155751aa1f
+  uuid: bde7932e-8f52-4f7e-b92e-ad1cd0908784
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c2452144-9a1a-4408-b14b-e38930c98d9d
