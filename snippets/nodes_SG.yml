@@ -1,6 +1,62 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3ff8f570-9bc7-4c93-984d-81a4074240b7
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e5c4d19f-7082-4b65-bba2-7f7ef6128350
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.215.184.165
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - HotRoute - 66
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
+  tls: false
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 新加坡Microso...
+  network: ws
+  port: '8080'
+  server: 20.188.112.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55ffbabb-ae7b-4d9a-80a0-99ac071ec6e0
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|【BGP】新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -8,10 +64,10 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 16d3760e-7c1d-45ac-997d-6786f021d41b
+  uuid: 3ff8f570-9bc7-4c93-984d-81a4074240b7
 - alterId: 0
   cipher: auto
-  name: '12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:... #1'
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
   network: ws
   port: 52990
   server: 45.77.245.47
@@ -23,20 +79,124 @@ proxies:
     headers:
       Host: m.zoom.us
     path: /Dialog zoom
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-206.189.152.2...
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e5c4d19f-7082-4b65-bba2-7f7ef6128350
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.77.44.14...
   network: ws
-  port: '11032'
-  server: 206.189.152.221
-  servername: ''
+  port: 29866
+  server: 45.77.44.147
   tls: false
   type: vmess
-  uuid: 7e909f50-75a3-4c6f-ae59-e9875dd0670a
+  uuid: 2aec22d5-c6a9-4c47-9ac2-1aabd0f8e70a
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-139.59.217.18...
+  network: ws
+  port: 58457
+  server: 139.59.217.181
+  servername: m.twitter.com
+  tls: false
+  type: vmess
+  uuid: 33eff9f8-2682-40fe-b841-be031bb5796a
   ws-opts:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|139
+  network: ws
+  port: 80
+  server: 167.71.216.22
+  tls: false
+  type: vmess
+  uuid: d3a54af3-c0b5-42ed-8348-387512c51834
+  ws-opts:
+    path: /5gsinhvien
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡 - 新加坡 - DigitalOcean, LLC ...
+  network: ws
+  port: 80
+  server: 178.128.63.225
+  servername: dl.kgvn.garenanow.com
+  tls: false
+  type: vmess
+  uuid: 0a26e60e-be28-4144-9cf9-6ac9b45a0754
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|158
+  network: ws
+  port: 80
+  server: sing6.5gsinhvien.com
+  tls: false
+  type: vmess
+  uuid: 9f23f41a-a18b-4b91-bd44-709f663df321
+  ws-opts:
+    path: /5gsinhvien
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3ff8f570-9bc7-4c93-984d-81a4074240b7
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.111.6...
+  network: ws
+  port: '37453'
+  server: 146.190.111.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5176ffae-af0a-4f8a-baab-7fa49042a4b8
+  ws-opts:
+    headers:
+      Host: m.twitter.com
+    path: /Mobitel 0
+- alterId: 0
+  cipher: auto
+  name: 12|新加坡【TG：@ccbaohe】定时更新节点订阅
+  network: tcp
+  port: 8443
+  server: sg3-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
 - alterId: 0
   cipher: auto
   name: 12|🔒 VM-WS-NA 🇸🇬 SG-157.245.52.0:...
@@ -53,155 +213,6 @@ proxies:
     path: /telegram:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
-  network: ws
-  port: '11622'
-  server: 45.77.245.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7c649673-4de1-4f78-9c37-cbf34fac2af4
-  ws-opts:
-    headers:
-      Host: m.twitter.com
-    path: /Mobitel 0
-- alterId: 0
-  cipher: auto
-  name: 12|🇸🇬|SG|新加坡|@wxgqlfx|139
-  network: ws
-  port: 80
-  server: 167.71.216.22
-  tls: false
-  type: vmess
-  uuid: d3a54af3-c0b5-42ed-8348-387512c51834
-  ws-opts:
-    path: /5gsinhvien
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-20.188.112.17...
-  network: ws
-  port: '8080'
-  server: 20.188.112.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55ffbabb-ae7b-4d9a-80a0-99ac071ec6e0
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡 - 新加坡 - DigitalOcean, LLC ...
-  network: ws
-  port: 80
-  server: sing6.5gsinhvien.com
-  servername: dl.kgvn.garenanow.com
-  tls: false
-  type: vmess
-  uuid: 9f23f41a-a18b-4b91-bd44-709f663df321
-  ws-opts:
-    headers:
-      Host: ''
-    path: /5gsinhvien
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: af19e750-075a-4f98-9bfc-78eddbb0ecbb
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-45.77.44.14...
-  network: ws
-  port: 29866
-  server: 45.77.44.147
-  tls: false
-  type: vmess
-  uuid: 2aec22d5-c6a9-4c47-9ac2-1aabd0f8e70a
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 16d3760e-7c1d-45ac-997d-6786f021d41b
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: af19e750-075a-4f98-9bfc-78eddbb0ecbb
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-139.59.217.18...
-  network: ws
-  port: 58457
-  server: 139.59.217.181
-  servername: m.twitter.com
-  tls: false
-  type: vmess
-  uuid: 33eff9f8-2682-40fe-b841-be031bb5796a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.215.184.165
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 16d3760e-7c1d-45ac-997d-6786f021d41b
-- alterId: 0
-  cipher: auto
-  name: 12|新加坡【TG：@ccbaohe】定时更新节点订阅
-  network: tcp
-  port: 8443
-  server: sg3-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: c090b5f3-e003-4328-a5f7-08af73d07ea0
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
   name: 9|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -209,18 +220,18 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: af19e750-075a-4f98-9bfc-78eddbb0ecbb
+  uuid: e5c4d19f-7082-4b65-bba2-7f7ef6128350
 - alterId: 0
   cipher: auto
-  name: 12|🔒 VM-WS-NA 🇸🇬 SG-146.190.111.6...
+  name: 12|🔒 VM-WS-NA 🇸🇬 SG-206.189.152.2...
   network: ws
-  port: '37453'
-  server: 146.190.111.61
+  port: '11032'
+  server: 206.189.152.221
   servername: ''
   tls: false
   type: vmess
-  uuid: 5176ffae-af0a-4f8a-baab-7fa49042a4b8
+  uuid: 7e909f50-75a3-4c6f-ae59-e9875dd0670a
   ws-opts:
     headers:
-      Host: m.twitter.com
-    path: /Mobitel 0
+      Host: ''
+    path: /
