@@ -1,17 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖...
+  name: 10|台湾省  95
   network: tcp
-  port: '6899'
-  server: c11.twtc.dynu.net
-  servername: ''
+  port: 10001
+  server: 45.121.48.172
   tls: false
   type: vmess
-  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
+  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
 - alterId: 0
   cipher: auto
-  name: 10,11,12,15|台湾省中华电信(HiNet)数据中心 54
+  name: 10,12,15|台湾省中华电信(HiNet)数据中心 54
   network: tcp
   port: 5643
   server: b11.ntbq.dynu.net
@@ -21,39 +20,23 @@ proxies:
   uuid: 847bfa48-992d-4634-904f-be77beb390ce
 - alterId: 0
   cipher: auto
-  name: 10,11|台湾省  95
-  network: tcp
-  port: 10001
-  server: 45.121.48.172
+  name: 10,11|台湾省益州化学工业股份有限公司 28
+  network: ws
+  port: 80
+  server: 103.131.57.203
   tls: false
   type: vmess
-  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
-- alterId: 0
-  cipher: auto
-  name: 12|🔒 VM-TCP-NA 🇹🇼 TW-118.167.78.2...
-  network: tcp
-  port: '2024'
-  server: 118.167.78.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+  uuid: a2f64274-749e-4036-b69b-3a6285563464
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /tenvpndata.io.vn
 - alterId: 0
   cipher: auto
   name: 12|TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖...
   network: tcp
   port: 4211
   server: nb36.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 台湾省中华电信(Hi...
-  network: tcp
-  port: '12002'
-  server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -70,43 +53,6 @@ proxies:
   uuid: e27ab70e-7444-470c-a0fc-e49ec09ac02d
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 台湾省中华电信(Hi... #1'
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1da841cf-678b-4c20-9d45-dad35ca15d3d
-- alterId: 0
-  cipher: auto
-  name: 11|github.com/freefq - 台湾省益州化学工业股...
-  network: ws
-  port: 80
-  server: 103.131.57.203
-  servername: dl.kgvn.garenanow.com
-  tls: false
-  type: vmess
-  uuid: e8dac0d3-9158-49ff-8201-00bb8263893b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /tenvpndata.io.vn
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾省益州化学工业股份有限公司 28
-  network: ws
-  port: 80
-  server: 103.131.57.203
-  tls: false
-  type: vmess
-  uuid: a2f64274-749e-4036-b69b-3a6285563464
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /tenvpndata.io.vn
-- alterId: 0
-  cipher: auto
   name: 10,11|台湾省  90
   network: tcp
   port: '10001'
@@ -114,3 +60,43 @@ proxies:
   tls: false
   type: vmess
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 12|TW-台中1-1(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: 6899
+  server: c11.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 12|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-TCP-NA 🇹🇼 TW-118.167.78.2...
+  network: tcp
+  port: '2024'
+  server: 118.167.78.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 12|台湾〖电报：@ccbaohe】免费节点定时更新
+  network: tcp
+  port: 2024
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1da841cf-678b-4c20-9d45-dad35ca15d3d
