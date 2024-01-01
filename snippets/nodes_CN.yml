@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|YouTube面具人哈乐_中国_225
-  network: tcp
-  port: 20002
-  server: jsyd.aikunapp.com
+  name: 0,1,2,3,4,6|_CN_中国
+  network: ws
+  port: '47551'
+  server: 159.75.178.50
   tls: false
   type: vmess
-  uuid: 5dbec975-54bf-4de2-b8c8-9abd3fd837ae
+  uuid: 2500a228-8c00-4934-81e0-22281c015a33
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   name: 12|中国 - 深圳 - PEG TECH INC - 25
@@ -22,52 +26,3 @@ proxies:
     headers:
       Host: www.37790958.xyz
     path: /path/1702215223320
-- alterId: 0
-  cipher: auto
-  name: 12|YouTube面具人哈乐_中国_251
-  network: tcp
-  port: 20005
-  server: jp.aikunapp.com
-  tls: false
-  type: vmess
-  uuid: 5dbec975-54bf-4de2-b8c8-9abd3fd837ae
-- alterId: 64
-  cipher: auto
-  name: 12|中国 - Lin'an - PEG TECH INC - 2...
-  network: ws
-  port: 30000
-  server: 198.2.202.24
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.94231160.xyz
-    path: /path/1702215223320
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,6|_CN_中国
-  network: ws
-  port: '47551'
-  server: 159.75.178.50
-  tls: false
-  type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|🇨🇳|CN|中国|@wxgqlfx|134
-  network: ws
-  port: 80
-  server: 185.74.222.218
-  tls: false
-  type: vmess
-  uuid: 4595291f-6e75-44f3-aece-ef56ee09b2b4
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /vmess
