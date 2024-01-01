@@ -1,18 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -25,6 +13,46 @@ proxies:
     tls: false
   port: 443
   server: 1.65.139.54
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
+  network: ws
+  port: '443'
+  server: hdfy7c1.cpionline.co
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 01596265-168b-46a7-bcb7-25662c7a9546
+  ws-opts:
+    headers:
+      Host: ''
+    path: /mrX5XBSsE4fQALebvMmvby47
+- alterId: 0
+  cipher: auto
+  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒... #1'
+  network: ws
+  port: 80
+  server: UK99.5GTOCDOCAO.COM
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a2c5296-683d-48db-9856-373cafac48b5
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /5gtocdocao.com
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
   tfo: false
   type: ss
 - alterId: 64
@@ -46,41 +74,3 @@ proxies:
   server: 116.63.79.132
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒... #1'
-  network: ws
-  port: 80
-  server: UK99.5GTOCDOCAO.COM
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a2c5296-683d-48db-9856-373cafac48b5
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
-  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
-  network: ws
-  port: '443'
-  server: hdfy7c1.cpionline.co
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 01596265-168b-46a7-bcb7-25662c7a9546
-  ws-opts:
-    headers:
-      Host: ''
-    path: /mrX5XBSsE4fQALebvMmvby47

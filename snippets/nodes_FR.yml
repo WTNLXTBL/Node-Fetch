@@ -1,4 +1,12 @@
 proxies:
+- name: 1|_FR_
+  network: tcp
+  password: d3de91a0-97d8-11ee-88ac-1239d0255272
+  port: 443
+  server: fr1.test3.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: chacha20-poly1305
   name: 12|FR_youtube@资源分享师_65
@@ -12,11 +20,3 @@ proxies:
     headers:
       Host: forwardv2ray.zapto.org
     path: /forwardv2raytelegramchannel1forwardv2raytelegramchannel4
-- name: 1|_FR_
-  network: tcp
-  password: d3de91a0-97d8-11ee-88ac-1239d0255272
-  port: 443
-  server: fr1.test3.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
