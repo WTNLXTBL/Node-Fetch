@@ -1,95 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|HK 香港07 NNC-HK | 原生流媒体解锁
+  name: 12|HK 香港13 AK-HKT动态1 | 解锁流媒体
   network: tcp
-  port: '33302'
-  server: nat22.xg-node.com
-  tls: false
-  type: vmess
-  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|香港 阿里云
-  network: ws
-  port: '80'
-  server: kkyx.yydsii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cef51002-47b0-4e48-9d91-850e15ff95e8
-  ws-opts:
-    headers:
-      Host: yxtw.651568.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
-  network: ws
-  port: 443
-  server: 70.34.205.59
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 01596265-168b-46a7-bcb7-25662c7a9546
-  ws-opts:
-    headers:
-      Host: hdfy7c1.cpionline.co
-    path: /mrX5XBSsE4fQALebvMmvby47
-- alterId: 0
-  cipher: auto
-  name: 12|HK 香港06 AK-BGP | DNS解锁流媒体
-  network: tcp
-  port: '33301'
+  port: '33323'
   server: nat11.xg-node.com
-  tls: false
-  type: vmess
-  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 45055
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|HK 香港15 4VPS-BGP
-  network: tcp
-  port: '33325'
-  server: nat22.xg-node.com
   tls: false
   type: vmess
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
@@ -107,6 +22,78 @@ proxies:
     headers:
       Host: ''
     path: /takeshi.wiki
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 45055
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|HK 香港07 NNC-HK | 原生流媒体解锁
+  network: tcp
+  port: '33302'
+  server: nat22.xg-node.com
+  tls: false
+  type: vmess
+  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+- alterId: 0
+  cipher: auto
+  name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
+  network: ws
+  port: 443
+  server: 70.34.205.59
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 01596265-168b-46a7-bcb7-25662c7a9546
+  ws-opts:
+    headers:
+      Host: hdfy7c1.cpionline.co
+    path: /mrX5XBSsE4fQALebvMmvby47
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒... #2'
@@ -123,27 +110,36 @@ proxies:
     path: /mrX5XBSsE4fQALebvMmvby47
 - alterId: 0
   cipher: auto
-  name: 12|HK 香港09 WAP-BGP | 原生解锁流媒体
+  name: 12|HK 香港08 PC-BGP | 解锁Netflix非自制剧
   network: tcp
-  port: '36489'
+  port: '33303'
   server: nat33.xg-node.com
   tls: false
   type: vmess
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
 - alterId: 0
   cipher: auto
-  name: 12|HK 香港13 AK-HKT动态1 | 解锁流媒体
+  name: 12|HK 香港06 AK-BGP | DNS解锁流媒体
   network: tcp
-  port: '33323'
+  port: '33301'
   server: nat11.xg-node.com
   tls: false
   type: vmess
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
 - alterId: 0
   cipher: auto
-  name: 12|HK 香港08 PC-BGP | 解锁Netflix非自制剧
+  name: 12|HK 香港15 4VPS-BGP
   network: tcp
-  port: '33303'
+  port: '33325'
+  server: nat22.xg-node.com
+  tls: false
+  type: vmess
+  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+- alterId: 0
+  cipher: auto
+  name: 12|HK 香港09 WAP-BGP | 原生解锁流媒体
+  network: tcp
+  port: '36489'
   server: nat33.xg-node.com
   tls: false
   type: vmess
@@ -156,29 +152,6 @@ proxies:
   server: 116.63.79.132
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒... #1'
-  network: ws
-  port: '80'
-  server: cz1-vmess.sshmax.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|HK 香港14 AK-HKT动态2 | 解锁流媒体
-  network: tcp
-  port: '33324'
-  server: nat22.xg-node.com
-  tls: false
-  type: vmess
-  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
 - alterId: 64
   cipher: auto
   name: 12|🇭🇰 Hong Kong 7
@@ -193,3 +166,26 @@ proxies:
     headers:
       Host: ''
     path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 12|HK 香港14 AK-HKT动态2 | 解锁流媒体
+  network: tcp
+  port: '33324'
+  server: nat22.xg-node.com
+  tls: false
+  type: vmess
+  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+- alterId: 0
+  cipher: auto
+  name: '12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒... #1'
+  network: ws
+  port: '80'
+  server: cz1-vmess.sshmax.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
