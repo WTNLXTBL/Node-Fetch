@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_CN_->_IN_
-  network: ws
-  port: 16626
-  server: yes.cnmjcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 0,2,3,4,10,11,18|🇮🇳 _CN_中国->🇮🇳_IN_印度
   network: ws
   port: '16626'
@@ -26,15 +12,19 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇩🇪_DE_德国_25
-  network: ''
-  port: 52707
-  server: 183.237.20.149
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
+  network: ws
+  port: 25239
+  server: us1.awslcn.info
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_US_->_FR_
@@ -49,6 +39,28 @@ proxies:
     headers:
       host: frsadubias.76898102.xyz
     path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,15|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: '52707'
+  server: 183.237.20.149
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 1|_CN_->_GI_
   network: tcp
   password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
@@ -57,6 +69,19 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 2,3,4,6|🇺🇸_US_美国->🇫🇷_FR_法国
@@ -70,12 +95,17 @@ proxies:
     headers:
       Host: frsadubias.76898102.xyz
     path: /funsdfrh
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 0,15|🇩🇪 _CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: '52707'
-  server: 183.237.20.149
+  name: 1|_CN_->_IN_
+  network: ws
+  port: 16626
+  server: yes.cnmjcn.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /

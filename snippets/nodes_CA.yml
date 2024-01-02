@@ -1,36 +1,46 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1|_CA__1
+  name: 0,2,3,4,10|🇨🇦 _CA_加拿大
   network: ws
-  port: 443
+  port: '443'
   server: 142.171.202.130
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      host: www.87981532.xyz
+      Host: www.87981532.xyz
     path: /path/1702650992491
-- name: 1|_CA__2
-  network: tcp
-  password: d71655f5-d095-4365-8796-4f52772c0cc6
-  port: 443
-  server: 138.197.152.9
-  skip-cert-verify: true
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf
   name: '12|5pel5pysIC0g5Lic5LqsIC0gRGF0YW... #2'
   obfs: plain
   obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
   password: jFa4F1
-  port: '3701'
+  port: '3709'
   protocol: auth_aes128_sha1
   protocol-param: NDY5NjE6MTIxMC1UaGE%3D
   server: cm01.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: '12|5pel5pysIC0g5Lic5LqsIC0gRGF0YW... #1'
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '3700'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm01.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: 12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC...
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '6709'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm03.newcome.xyz
   type: ssr
 - alterId: 0
   cipher: auto
@@ -46,58 +56,6 @@ proxies:
     headers:
       Host: dongtaiwang13.dtku47.xyz
     path: /1IKYjV0r/
-- alterId: 1
-  cipher: auto
-  name: 12|加拿大 265
-  network: ws
-  port: 443
-  server: 104.21.91.107
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0
-  ws-opts:
-    headers:
-      Host: pzl.p237875155.buzz
-    path: /pzl237875155
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 147
-  network: ws
-  port: 2086
-  server: join4.vmessprotocol.sbs
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: chacha20-ietf
-  name: '12|5pel5pysIC0g5Lic5LqsIC0gRGF0YW... #1'
-  obfs: plain
-  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
-  password: jFa4F1
-  port: '3709'
-  protocol: auth_aes128_sha1
-  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
-  server: cm01.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 188
-  network: ws
-  port: 2086
-  server: 172.67.229.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
   name: 13|【BGP】加拿大 02 | 1x CA
@@ -107,20 +65,126 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 204cfbfc-d5f2-41d6-94d1-72738dc668bc
+  uuid: d2f877fc-aa7e-4f53-b66c-d12172b36889
+- cipher: chacha20-ietf
+  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #3'
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '6702'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm03.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #2'
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '6701'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm03.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #5'
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '6707'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm03.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #4'
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '6703'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm03.newcome.xyz
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦加拿大4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.214
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c4586be0-050a-455d-b401-f6b83795c144
+- cipher: chacha20-ietf
+  name: 12|5pel5pysIC0g5Lic5LqsIC0gRGF0YW...
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '3701'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm01.newcome.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #1'
+  obfs: plain
+  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
+  password: jFa4F1
+  port: '6704'
+  protocol: auth_aes128_sha1
+  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
+  server: cm03.newcome.xyz
+  type: ssr
+- name: 1|_CA__2
+  network: tcp
+  password: d71655f5-d095-4365-8796-4f52772c0cc6
+  port: 443
+  server: 138.197.152.9
+  skip-cert-verify: true
+  sni: dl.kgvn.garenanow.com
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,10,18|🇨🇦 _CA_加拿大
+  name: 1|_CA__1
   network: ws
-  port: '443'
+  port: 443
   server: 142.171.202.130
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.87981532.xyz
+      host: www.87981532.xyz
     path: /path/1702650992491
+- alterId: 0
+  cipher: auto
+  name: 12|🇨🇦加拿大5丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.215
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 12|加拿大 045
@@ -134,148 +198,4 @@ proxies:
   ws-opts:
     headers:
       Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 042
-  network: ws
-  port: 2086
-  server: 172.67.229.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 041
-  network: ws
-  port: 2086
-  server: 172.67.229.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: chacha20-ietf
-  name: 12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC...
-  obfs: plain
-  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
-  password: jFa4F1
-  port: '6707'
-  protocol: auth_aes128_sha1
-  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 9|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4b4cb2a7-e13e-4345-a2ea-f01aaa746f3a
-- cipher: chacha20-ietf
-  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #2'
-  obfs: plain
-  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
-  password: jFa4F1
-  port: '6704'
-  protocol: auth_aes128_sha1
-  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
-  server: cm03.newcome.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  name: 12|5Lit5Zu9IC0g6aaZ5rivIC0gUENDVy...
-  obfs: plain
-  obfs-param: ''
-  password: mblank1port
-  port: '601'
-  protocol: auth_aes128_md5
-  protocol-param: MTU5Nzk6UjBjXVY3bC02SnltSjM%3D
-  server: cmlayer2.labtechs.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  name: 12|5pel5pysIC0g5Lic5LqsIC0gRGF0YW...
-  obfs: plain
-  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
-  password: jFa4F1
-  port: '3700'
-  protocol: auth_aes128_sha1
-  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
-  server: cm01.newcome.xyz
-  type: ssr
-- cipher: chacha20-ietf
-  name: '12|5paw5Yqg5Z2hIC0g5paw5Yqg5Z2hIC... #1'
-  obfs: plain
-  obfs-param: NWQzZWU0Njk2MS5taWNyb3NvZnQuY29t
-  password: jFa4F1
-  port: '6702'
-  protocol: auth_aes128_sha1
-  protocol-param: NDY5NjE6MTIxMC1UaGE%3D
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 152
-  network: ws
-  port: 2086
-  server: 14.vmessprotocol.telegram-vmessprotocol-channel.space
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 040
-  network: ws
-  port: 2086
-  server: 172.67.229.13
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 318
-  network: ws
-  port: 8880
-  server: fra.yj2022.gq
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: fra.yj2022.gq
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
-- alterId: 0
-  cipher: auto
-  name: 12|加拿大 237
-  network: ws
-  port: 80
-  server: 104.18.202.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca4.tehme2.fun
     path: /IOebhLMhl1CTbFHbL95myfRX2
