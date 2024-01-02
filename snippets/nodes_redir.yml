@@ -1,107 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  name: 2,3,4|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
-  port: '25256'
-  server: us1.awslcn.info
+  port: 2052
+  server: cdncdncdncdn.784654.xyz
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: 59a660f7-508f-476c-a38f-0a37de0ca415
   ws-opts:
     headers:
-      Host: us1.awslcn.info
-    path: /
-- name: 1|_US_->_CA__2
-  network: tcp
-  password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d
-  port: 40020
-  server: frontend.kuangbiaoyun.com
+      Host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_CA__1
+  network: ws
+  port: 2052
+  server: cdncdncdncdn.784654.xyz
   skip-cert-verify: true
-  sni: frontend.kuangbiaoyun.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: '80'
-  server: us-west-anycast.lnaspiring.com
   tls: false
   type: vmess
-  uuid: 7b0fd7b9-7c81-4fff-85e3-ce582b5d4e5b
+  uuid: 59a660f7-508f-476c-a38f-0a37de0ca415
   ws-opts:
     headers:
-      Host: uspz.edge.233.tw
-    path: /geg/44?ed=2048
-- name: 1|_US_->_AU_
-  network: tcp
-  password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d
-  port: 40005
-  server: frontend.kuangbiaoyun.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: ws
-  port: '25239'
-  server: us1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇷🇺 _CN_中国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: '25230'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇲🇽 _CN_中国->🇲🇽_MX_墨西哥
-  network: ws
-  port: '25284'
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- name: 1|_CN_->_GI_
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '0|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: ws
-  port: '25257'
-  server: us2.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
+      host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
 - alterId: 64
   cipher: auto
   name: 1,2,3,4,18|_CN_->_DE_
@@ -112,6 +36,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 1|_US_->_AU_
+  network: tcp
+  password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d
+  port: 40005
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|_US_->_CA__3
@@ -128,17 +60,38 @@ proxies:
     path: /geg/44?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  name: '2,3,4|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
-  port: '2052'
-  server: cdncdncdncdn.784654.xyz
+  port: 80
+  server: us-west-anycast.lnaspiring.com
   tls: false
   type: vmess
-  uuid: 59a660f7-508f-476c-a38f-0a37de0ca415
+  uuid: 7b0fd7b9-7c81-4fff-85e3-ce582b5d4e5b
   ws-opts:
     headers:
-      Host: ca-cfcdn.aikunapp.com
-    path: /index?ed=2048
+      Host: uspz.edge.233.tw
+    path: /geg/44?ed=2048
+- name: 1|_CN_->_GI_
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2095
+  server: frsadubiaa.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
+  ws-opts:
+    headers:
+      Host: frsadubias.76898102.xyz
+    path: /funsdfrh
 - name: 1|_US_->_GB_
   network: tcp
   password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d
@@ -148,20 +101,28 @@ proxies:
   sni: frontend.kuangbiaoyun.com
   type: trojan
   udp: true
+- name: 1|_US_->_CA__2
+  network: tcp
+  password: ad953998-e8ea-4d5b-8b2f-e63edd9d375d
+  port: 40020
+  server: frontend.kuangbiaoyun.com
+  skip-cert-verify: true
+  sni: frontend.kuangbiaoyun.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__1
+  name: 0,10,11,18|🇮🇳 _CN_中国->🇮🇳_IN_印度
   network: ws
-  port: 2052
-  server: cdncdncdncdn.784654.xyz
-  skip-cert-verify: true
+  port: '16626'
+  server: yes.cnmjcn.net
   tls: false
   type: vmess
-  uuid: 59a660f7-508f-476c-a38f-0a37de0ca415
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
   ws-opts:
     headers:
-      host: ca-cfcdn.aikunapp.com
-    path: /index?ed=2048
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 0,15|🇩🇪 _CN_中国->🇩🇪_DE_德国
