@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_CN_->_IN_
   network: ws
   port: 16626
@@ -15,19 +28,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
   name: 2,3,4,6|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2095
@@ -39,18 +39,9 @@ proxies:
     headers:
       Host: frsadubias.76898102.xyz
     path: /funsdfrh
-- alterId: 64
-  cipher: auto
-  name: 0,15|🇩🇪 _CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: '52707'
-  server: 183.237.20.149
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,10,18|🇮🇳 _CN_中国->🇮🇳_IN_印度
+  name: 0,2,3,4,10,11,18|🇮🇳 _CN_中国->🇮🇳_IN_印度
   network: ws
   port: '16626'
   server: yes.cnmjcn.net
@@ -85,6 +76,28 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：kkz...
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,15|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: '52707'
+  server: 183.237.20.149
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 18|🇨🇳_CN_中国->🇺🇸_US_美国_2_24
   network: ws
   port: 25239
@@ -95,17 +108,4 @@ proxies:
   ws-opts:
     headers:
       Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
-  network: ws
-  port: 25230
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: cm1.awslcn.info
     path: /
