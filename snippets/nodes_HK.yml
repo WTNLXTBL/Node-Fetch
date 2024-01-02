@@ -1,4 +1,25 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14|🇭🇰 香港1|@ripaojiedian
+  port: 45055
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 15|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
@@ -13,26 +34,6 @@ proxies:
     headers:
       Host: dl.kgvn.garenanow.com
     path: /5gtocdocao.com
-- alterId: 64
-  cipher: auto
-  name: 15|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 10|香港特别行政区 10
-  network: tcp
-  port: '45343'
-  server: 154.90.39.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT2|@ripaojiedian
@@ -45,33 +46,6 @@ proxies:
   server: 8.217.217.138
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|🇭🇰香港1丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.142.211
-  tls: false
-  type: vmess
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|HK香港(mibei77.com 米贝节点分享)
-  network: ws
-  port: '80'
-  server: 77.75.230.125
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  ws-opts:
-    headers:
-      Host: 77.75.230.125
-    path: /vmess
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 14|🇭🇰 香港2|@ripaojiedian
@@ -80,17 +54,6 @@ proxies:
   server: 103.47.113.226
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 14|🇭🇰 香港1|@ripaojiedian
-  port: 45055
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 14|🇭🇰 香港KT|@ripaojiedian
@@ -107,3 +70,30 @@ proxies:
   server: 1.65.139.54
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|HK香港(mibei77.com 米贝节点分享)
+  network: ws
+  port: '80'
+  server: 77.75.230.125
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  ws-opts:
+    headers:
+      Host: 77.75.230.125
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 162.159.142.211
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
