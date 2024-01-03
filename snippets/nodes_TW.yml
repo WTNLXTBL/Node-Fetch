@@ -1,7 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10,11,12|台湾省南投县中华电信 23
+  name: 10,11|台湾省  68
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 10,12|台湾省南投县中华电信 23
   network: tcp
   port: '6122'
   server: c12.twtc.dynu.net
@@ -11,7 +20,7 @@ proxies:
   uuid: e27ab70e-7444-470c-a0fc-e49ec09ac02d
 - alterId: 0
   cipher: auto
-  name: 10|台湾省台北市 UCloud
+  name: 10,11|台湾省台北市 UCloud
   network: ws
   port: '443'
   server: 123.58.197.70
@@ -31,22 +40,3 @@ proxies:
   server: tw02.graniterapids.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 台湾省新北市中华电信...
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c698ff1-ab96-4ce3-8c3a-e23ced87b441
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾省  68
-  network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
