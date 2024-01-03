@@ -1,24 +1,23 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9bc1fa22-9ea1-434f-bf89-d1049373ffce
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9bc1fa22-9ea1-434f-bf89-d1049373ffce
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.128.247.139
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡05
@@ -28,17 +27,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 177eed7f-d285-4716-9808-7e2e6ca15b5d
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 177eed7f-d285-4716-9808-7e2e6ca15b5d
+  uuid: f972fd7f-2c32-48ba-977f-ba931ce49fc2
 - alterId: 0
   cipher: auto
   name: 12|新加坡 - 新加坡 - HotRoute - 66
@@ -55,6 +44,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f972fd7f-2c32-48ba-977f-ba931ce49fc2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.72.52
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 974679b4-bbb9-4dfb-8fb7-bbb9e8242c20
+- alterId: 0
+  cipher: auto
   name: 12|新加坡 - 新加坡 - DigitalOcean, LLC ...
   network: ws
   port: 80
@@ -67,56 +84,6 @@ proxies:
     headers:
       Host: ''
     path: /5gsinhvien
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 10|新加坡 DigitalOcean数据中心
-  network: ws
-  port: 80
-  server: sing1.ht4gvpn.com
-  tls: false
-  type: vmess
-  uuid: 2b69324d-5fe2-48c2-923f-049c3093cd56
-  ws-opts:
-    headers:
-      Host: lienquan.garena.vn
-    path: /ht4gvpn.com
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9bc1fa22-9ea1-434f-bf89-d1049373ffce
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.72.52
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.128.247.139
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|🇸🇬新加坡06
@@ -126,4 +93,24 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 177eed7f-d285-4716-9808-7e2e6ca15b5d
+  uuid: f972fd7f-2c32-48ba-977f-ba931ce49fc2
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 974679b4-bbb9-4dfb-8fb7-bbb9e8242c20
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 974679b4-bbb9-4dfb-8fb7-bbb9e8242c20

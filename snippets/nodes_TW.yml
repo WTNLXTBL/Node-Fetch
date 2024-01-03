@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 10,11|台湾省 v2rayfree.eu.org
-  network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 14|🇹🇼 台湾|@ripaojiedian
@@ -18,16 +9,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,11|台湾省  64
-  network: tcp
-  port: '10001'
-  server: 45.121.48.172
-  tls: false
-  type: vmess
-  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
-- alterId: 0
-  cipher: auto
-  name: 11,12|github.com/freefq - 台湾省中华电信(Hi...
+  name: 10,11,12|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 5643
   server: b11.ntbq.dynu.net
@@ -45,3 +27,35 @@ proxies:
   tls: false
   type: vmess
   uuid: e6967991-7b0a-4d1a-a37b-5eb3b78d4c15
+- alterId: 0
+  cipher: auto
+  name: 10|台湾省台北市 UCloud
+  network: ws
+  port: '443'
+  server: 123.58.197.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '10,11|台湾省 v2rayfree.eu.org #1'
+  network: tcp
+  port: '10001'
+  server: 45.121.48.172
+  tls: false
+  type: vmess
+  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
+- alterId: 0
+  cipher: auto
+  name: 10,11|台湾省 v2rayfree.eu.org
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
