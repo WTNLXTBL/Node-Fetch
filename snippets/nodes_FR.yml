@@ -1,39 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 12|德国 - 法兰克福 - Stark Industries S...
-  network: ws
-  port: 80
-  server: 80.92.204.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '12|德国 - 法兰克福 - Stark Industries S... #2'
-  network: ws
-  port: 80
-  server: de1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- name: 1|_FR__2
+- name: 1|_FR__1
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.38.220
+  password: b77dd600-971b-11ee-956c-1239d0255272
+  port: 443
+  server: fr1.test3.net
   skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
+  sni: fr1.test3.net
   type: trojan
   udp: true
 - name: 1|_FR__3
@@ -45,36 +17,12 @@ proxies:
   sni: box.mtpmio.sbs
   type: trojan
   udp: true
-- name: 1|_FR__1
+- name: 1|_FR__2
   network: tcp
-  password: b77dd600-971b-11ee-956c-1239d0255272
-  port: 443
-  server: fr1.test3.net
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.38.220
   skip-cert-verify: true
-  sni: fr1.test3.net
+  sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '12|德国 - 法兰克福 - Stark Industries S... #1'
-  network: ws
-  port: 80
-  server: channel.hopev2ray.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e706ebb-a78f-4444-b95b-dd905df075d7
-  ws-opts:
-    headers:
-      Host: de1.xv2ray.net
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 12|德国 - 法兰克福 - Akamai Technologie...
-  network: tcp
-  port: 8443
-  server: 194.233.174.13
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 380d6ba2-11f1-43c9-9145-fb279f4e53bc
