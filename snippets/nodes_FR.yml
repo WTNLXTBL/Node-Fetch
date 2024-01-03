@@ -1,18 +1,56 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|法国new01（1x） - 快狗云〖电报：@ccbaohe】...
+  name: 12|德国 - 法兰克福 - Akamai Technologie...
+  network: tcp
+  port: 8443
+  server: 194.233.174.13
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 380d6ba2-11f1-43c9-9145-fb279f4e53bc
+- alterId: 0
+  cipher: auto
+  name: '12|德国 - 法兰克福 - Stark Industries S... #2'
   network: ws
-  port: 8080
-  server: fr-new01.gujuji.top
+  port: 80
+  server: de1-vmess.greenssh.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 2676e133-8486-4523-92c7-ece290064de6
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
   ws-opts:
     headers:
-      Host: fr-new01.gujuji.top
-    path: /
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '12|德国 - 法兰克福 - Stark Industries S... #1'
+  network: ws
+  port: 80
+  server: channel.hopev2ray.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e706ebb-a78f-4444-b95b-dd905df075d7
+  ws-opts:
+    headers:
+      Host: de1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 12|德国 - 法兰克福 - Stark Industries S...
+  network: ws
+  port: 80
+  server: 80.92.204.207
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 10,12|法国 国际航空电讯集团公司(SITA)
