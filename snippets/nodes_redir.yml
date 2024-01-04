@@ -1,17 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE__1
+  name: 17,21|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
   network: ws
-  port: 2083
-  server: 104.19.154.92
-  skip-cert-verify: true
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 17,21|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_28
+  network: ws
+  port: 25284
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cu.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,13,17,18,21|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: '2083'
+  server: 2bbiozh7wbc.servecounterstrike.com
   tls: true
   type: vmess
   uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      host: PAneljadid.mookoMEilz.homes
+      Host: PAneljadid.mookoMEilz.homes
+    path: /snsk
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,18|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: '52707'
+  server: 183.237.20.148
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,12,13,17,18,21|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '2083'
+  server: 104.19.154.92
+  tls: true
+  type: vmess
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
+  ws-opts:
+    headers:
+      Host: PAneljadid.mookoMEilz.homes
     path: /snsk
 - alterId: 0
   cipher: auto
@@ -29,88 +76,15 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,13,18|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  name: 1|_US_->_DE__1
   network: ws
-  port: '2083'
-  server: 2bbiozh7wbc.servecounterstrike.com
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 17,21|🇺🇸_US_美国->🇩🇪_DE_德国_3_24
-  network: ws
-  port: 8880
-  server: 104.21.69.44
-  tls: false
-  type: vmess
-  uuid: dc24ff42-30af-4dc4-8a7e-69d59e09d533
-  ws-opts:
-    headers:
-      Host: psnsisnsidbbh.libraryriazi.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 17,21|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技提供：kkz...
-  network: ws
-  port: 2087
-  server: 3aryrqo3jhw.servecounterstrike.com
-  tls: true
-  type: vmess
-  uuid: 8fada9c0-c348-4465-aade-ff0311454178
-  ws-opts:
-    headers:
-      Host: pAnel159.moOkomeILz.homes
-    path: /@FreeVPNHomes@FreeVPNHomes
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,13,18|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '2083'
+  port: 2083
   server: 104.19.154.92
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      Host: PAneljadid.mookoMEilz.homes
+      host: PAneljadid.mookoMEilz.homes
     path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 17,21|🇺🇸_US_美国->🇩🇪_DE_德国_2_22
-  network: ws
-  port: 8880
-  server: 172.67.204.84
-  tls: false
-  type: vmess
-  uuid: dc24ff42-30af-4dc4-8a7e-69d59e09d533
-  ws-opts:
-    headers:
-      Host: psnsisnsidbbh.libraryriazi.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 17,21|🇺🇸_US_美国->🇩🇪_DE_德国_4_25
-  network: ws
-  port: 2087
-  server: 104.21.69.44
-  tls: true
-  type: vmess
-  uuid: 8fada9c0-c348-4465-aade-ff0311454178
-  ws-opts:
-    headers:
-      Host: pAnel159.moOkomeILz.homes
-    path: /@FreeVPNHomes@FreeVPNHomes
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,6,17,18,21|🇩🇪 _CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: '52707'
-  server: 183.237.20.148
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
