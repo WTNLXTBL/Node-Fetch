@@ -3,26 +3,42 @@ proxies:
   cipher: auto
   name: '12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:... #1'
   network: ws
-  port: '21859'
+  port: '52990'
   server: 45.77.245.47
   servername: ''
   tls: false
   type: vmess
-  uuid: 5238f82a-c489-4d38-87ee-a7ebcc35f202
+  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
   ws-opts:
     headers:
-      Host: m.twitter.com
-    path: /Mobitel 145
+      Host: m.zoom.us
+    path: /Dialog zoom
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.35.231.162
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡04
+  name: 9|🇸🇬新加坡05
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cdaf7927-cabb-433e-b93b-678358794614
+  uuid: ae82471b-d97c-42e5-b95a-4e142b02c1eb
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 14|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.250.43.167
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 14|🇸🇬 狮城R|@ripaojiedian
@@ -36,74 +52,18 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 9|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cdaf7927-cabb-433e-b93b-678358794614
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.128.247.139
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cdaf7927-cabb-433e-b93b-678358794614
-- alterId: 0
-  cipher: auto
   name: 12|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
   network: ws
-  port: '52990'
+  port: '21859'
   server: 45.77.245.47
   servername: ''
   tls: false
   type: vmess
-  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
+  uuid: 5238f82a-c489-4d38-87ee-a7ebcc35f202
   ws-opts:
     headers:
-      Host: m.zoom.us
-    path: /Dialog zoom
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 14|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.72.52
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 57413587-f454-4c62-9240-29f14fac8a27
-- alterId: 0
-  cipher: auto
-  name: 13|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 57413587-f454-4c62-9240-29f14fac8a27
+      Host: m.twitter.com
+    path: /Mobitel 145
 - alterId: 0
   cipher: auto
   name: 13|【BGP】新加坡 04 | 1x SG
@@ -113,4 +73,74 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 57413587-f454-4c62-9240-29f14fac8a27
+  uuid: 2b5213b7-07fc-4c48-908a-c1d4c4b199c3
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ae82471b-d97c-42e5-b95a-4e142b02c1eb
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2b5213b7-07fc-4c48-908a-c1d4c4b199c3
+- alterId: 0
+  cipher: auto
+  name: 13|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2b5213b7-07fc-4c48-908a-c1d4c4b199c3
+- alterId: 0
+  cipher: auto
+  name: 9|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ae82471b-d97c-42e5-b95a-4e142b02c1eb
+- alterId: 0
+  cipher: auto
+  name: 12|🔒 VM-WS-NONE 🇸🇬 SG-20.198.217....
+  network: ws
+  port: '11619'
+  server: 20.198.217.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 378525e1-7dc2-4eaf-960e-c0a545e39a7a
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 14,15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 16500
+  server: nb-02.v2fei.co
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6F954C1E-B6D1-F450-6013-1BDACA6267C5
+  ws-opts:
+    headers:
+      Host: nb-02.v2fei.co
+    path: /video
