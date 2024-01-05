@@ -1,54 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
+  name: 13|🇸🇬新加坡3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.3
+  tls: false
   type: vmess
-  uuid: 4838e46c-7ed2-43e4-b30d-4cdd680ab915
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4838e46c-7ed2-43e4-b30d-4cdd680ab915
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 70a2dd60-7947-473f-958c-6c26fde4af5d
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 70a2dd60-7947-473f-958c-6c26fde4af5d
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 70a2dd60-7947-473f-958c-6c26fde4af5d
+  uuid: f46f5827-facb-4786-9bd3-24e4e5aedadc
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -59,6 +22,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
+  network: ws
+  port: 52990
+  server: 45.77.245.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /Dialog zoom
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: be8acec7-5d46-4b47-89e9-013dd0fd1e5e
+- alterId: 0
+  cipher: auto
   name: 10|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -66,20 +53,45 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4838e46c-7ed2-43e4-b30d-4cdd680ab915
+  uuid: cefc03ce-8a61-462b-bc76-6f8d3830d416
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 73637cec-699d-4d87-99af-0776ac880604
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-137.184.248...
-  network: ws
-  port: 24800
-  server: 137.184.248.66
-  tls: false
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: d03e5935-b3c4-4dea-8c03-3af578a913ce
-  ws-opts:
-    headers:
-      Host: scontent.whatsapp.net
-    path: /
+  uuid: cefc03ce-8a61-462b-bc76-6f8d3830d416
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cefc03ce-8a61-462b-bc76-6f8d3830d416
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: be8acec7-5d46-4b47-89e9-013dd0fd1e5e
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城R|@ripaojiedian
@@ -99,25 +111,40 @@ proxies:
   server: 13.229.70.7
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: be8acec7-5d46-4b47-89e9-013dd0fd1e5e
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-137.184.248...
   network: ws
-  port: '52990'
-  server: 45.77.245.47
+  port: 24800
+  server: 137.184.248.66
+  tls: false
+  type: vmess
+  uuid: d03e5935-b3c4-4dea-8c03-3af578a913ce
+  ws-opts:
+    headers:
+      Host: scontent.whatsapp.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|V4-4004|新加坡|x2.0 - 海豚云〖电报：@ccb...
+  network: ws
+  port: 12002
+  server: dnspsdhaitun.ncsuwei.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
+  uuid: 77caeaa8-b37d-390f-87ba-36ef860eacec
   ws-opts:
     headers:
-      Host: m.zoom.us
-    path: /Dialog zoom
+      Host: dnspsdhaitun.ncsuwei.top
+    path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5

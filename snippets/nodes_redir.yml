@@ -1,23 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,13,17,18,21|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '2083'
-  server: 104.19.154.92
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__1
+  name: 1|_US_->_DE__2
   network: ws
   port: 2083
-  server: 2bbiozh7wbc.servecounterstrike.com
+  server: 104.19.154.92
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -28,30 +15,16 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,11,12,13,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  name: 17,21|🇨🇳_CN_中国->🇺🇸_US_美国_6
   network: ws
-  port: '80'
-  server: web.parspack.com
+  port: 25257
+  server: us2.awslcn.info
   tls: false
   type: vmess
-  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: zUlA9.eSmAIlkORea.sHop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__2
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
-  ws-opts:
-    headers:
-      host: Quran14.eSmAIlkORea.sHop
+      Host: us2.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
@@ -68,17 +41,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,7,11,12,13,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  name: 0,2,3,4,6,13,17,18,21|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
-  port: '8080'
-  server: www.visa.com.sg
-  tls: false
+  port: '2083'
+  server: 2bbiozh7wbc.servecounterstrike.com
+  tls: true
   type: vmess
-  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      Host: icu4.mac2win.top
-    path: /
+      Host: PAneljadid.mookoMEilz.homes
+    path: /snsk
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IR__1
@@ -108,10 +81,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,13,17,18,21|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 0,2,3,4,6,11,12,13,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '80'
+  server: web.parspack.com
+  tls: false
+  type: vmess
+  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
+  ws-opts:
+    headers:
+      Host: zUlA9.eSmAIlkORea.sHop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,7,11,18|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: '8080'
+  server: www.visa.com.sg
+  tls: false
+  type: vmess
+  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
+  ws-opts:
+    headers:
+      Host: icu4.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,13,17,18,21|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: '2083'
-  server: 2bbiozh7wbc.servecounterstrike.com
+  server: 104.19.154.92
   tls: true
   type: vmess
   uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
@@ -119,6 +118,20 @@ proxies:
     headers:
       Host: PAneljadid.mookoMEilz.homes
     path: /snsk
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IR__2
+  network: ws
+  port: 80
+  server: 104.18.154.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
+  ws-opts:
+    headers:
+      host: Quran14.eSmAIlkORea.sHop
+    path: /
 - alterId: 0
   cipher: auto
   name: 17,21|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_由快嘴科技提供：...
@@ -134,6 +147,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 1|_US_->_DE__1
+  network: ws
+  port: 2083
+  server: 2bbiozh7wbc.servecounterstrike.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
+  ws-opts:
+    headers:
+      host: PAneljadid.mookoMEilz.homes
+    path: /snsk
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,11,12,13,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
+  network: ws
+  port: '80'
+  server: 104.18.154.42
+  tls: false
+  type: vmess
+  uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
+  ws-opts:
+    headers:
+      Host: Quran14.eSmAIlkORea.sHop
+    path: /
+- alterId: 0
+  cipher: auto
   name: 17,21|🇨🇳_CN_中国->🇲🇽_MX_墨西哥_28
   network: ws
   port: 25284
@@ -145,52 +185,3 @@ proxies:
     headers:
       Host: cu.awslcn.info
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__2
-  network: ws
-  port: 2083
-  server: 104.19.154.92
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 17,21|🇨🇳_CN_中国->🇺🇸_US_美国_6
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,11,12,13,18|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
-  network: ws
-  port: '80'
-  server: 104.18.154.42
-  tls: false
-  type: vmess
-  uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
-  ws-opts:
-    headers:
-      Host: Quran14.eSmAIlkORea.sHop
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 6|🇨🇳_CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: 52707
-  server: 183.237.20.148
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
