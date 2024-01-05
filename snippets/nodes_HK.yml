@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港
+  network: ws
+  port: '54222'
+  server: first.jinyuxiaowo.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5623a7eb-d3b1-4e97-9d0b-efa6f649ad52
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|HK香港(mibei77.com 米贝节点分享)
   network: ws
   port: '80'
@@ -13,46 +27,14 @@ proxies:
     headers:
       Host: 109.123.230.157
     path: /takeshi.wiki
-- alterId: 64
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  port: 45055
-  server: 112.28.208.10
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 73637cec-699d-4d87-99af-0776ac880604
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,12|香港特别行政区 72
-  network: tcp
-  port: 45343
-  server: 154.90.39.63
-  tls: false
-  type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
-- alterId: 64
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -69,6 +51,43 @@ proxies:
   server: 1.65.139.54
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港
+  network: ws
+  port: 54222
+  server: first.jinyuxiaowo.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5623a7eb-d3b1-4e97-9d0b-efa6f649ad52
+  ws-opts:
+    headers:
+      Host: first.jinyuxiaowo.net
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  port: 45055
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -81,3 +100,22 @@ proxies:
   server: 8.217.217.138
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '46602'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,12|香港特别行政区 72
+  network: tcp
+  port: 45343
+  server: 154.90.39.63
+  tls: false
+  type: vmess
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
