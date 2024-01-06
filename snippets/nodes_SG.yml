@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.180.23.155
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡04
@@ -11,25 +17,11 @@ proxies:
   uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.91.17...
-  network: ws
-  port: '25637'
-  server: 146.190.91.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b640af03-4af4-41cb-ae51-f708512dd72f
-  ws-opts:
-    headers:
-      Host: m.youtube.com
-    path: /notforsale
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
+  name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
   uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
@@ -58,27 +50,21 @@ proxies:
   server: cm03.newcome.xyz
   type: ssr
 - cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.23.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 26602
-  server: service.ouluyun9803.com
+  server: 18.139.228.226
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
+  name: 10|🇸🇬新加坡06
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
+  uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -91,6 +77,20 @@ proxies:
   uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.91.17...
+  network: ws
+  port: '25637'
+  server: 146.190.91.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b640af03-4af4-41cb-ae51-f708512dd72f
+  ws-opts:
+    headers:
+      Host: m.youtube.com
+    path: /notforsale
+- alterId: 0
+  cipher: auto
   name: 10|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -101,17 +101,17 @@ proxies:
   uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡06
+  name: 14|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
-- cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.228.226
+  uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 73637cec-699d-4d87-99af-0776ac880604
+  port: 26602
+  server: service.ouluyun9803.com
   type: ss
