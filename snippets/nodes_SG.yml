@@ -1,6 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.91.17...
+  network: ws
+  port: '25637'
+  server: 146.190.91.176
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b640af03-4af4-41cb-ae51-f708512dd72f
+  ws-opts:
+    headers:
+      Host: m.youtube.com
+    path: /notforsale
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -11,19 +35,39 @@ proxies:
   uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
+  network: ws
+  port: 52990
+  server: 45.77.245.47
+  servername: ''
+  tls: false
   type: vmess
-  uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
+  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /Dialog zoom
+- cipher: chacha20-ietf
+  name: 15|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
 - cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.139.228.226
+  server: 57.180.23.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 73637cec-699d-4d87-99af-0776ac880604
+  port: 26602
+  server: service.ouluyun9803.com
   type: ss
 - alterId: 0
   cipher: auto
@@ -47,16 +91,6 @@ proxies:
   uuid: d9ba81f0-328b-4a51-9780-99310a9bf8e1
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
-- alterId: 0
-  cipher: auto
   name: 10|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -67,37 +101,17 @@ proxies:
   uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.77.245.47:...
-  network: ws
-  port: 52990
-  server: 45.77.245.47
-  servername: ''
-  tls: false
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 370f8dfc-73b2-4d13-a3ea-7330f0333a69
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /Dialog zoom
+  uuid: b9fb8ecd-bcc6-4f16-b62a-2398ab6e2b12
 - cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.23.155
+  server: 18.139.228.226
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 26602
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: chacha20-ietf
-  name: 15|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr

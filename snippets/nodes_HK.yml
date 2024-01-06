@@ -1,14 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -19,9 +9,18 @@ proxies:
   port: 80
   server: 8.217.217.138
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  port: 45055
+  server: 112.28.208.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,12|香港特别行政区 31
+  name: 11|香港特别行政区 31
   network: tcp
   port: 45343
   server: 154.90.39.63
@@ -34,15 +33,6 @@ proxies:
   port: 20001
   server: service.ouluyun9803.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰|HK|香港|@wxgqlfx|7
-  network: tcp
-  port: 26389
-  server: 34.92.50.99
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -59,10 +49,11 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  port: 45055
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
   server: 112.28.208.10
-  skip-cert-verify: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
