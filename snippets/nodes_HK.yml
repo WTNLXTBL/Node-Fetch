@@ -1,10 +1,11 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  port: 45055
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
   server: 112.28.208.10
-  skip-cert-verify: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -20,13 +21,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|github.com/freefq - 香港特别行政区 31
+  name: 11,12|香港特别行政区 31
   network: tcp
   port: 45343
   server: 154.90.39.63
   tls: false
   type: vmess
   uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 73637cec-699d-4d87-99af-0776ac880604
+  port: 20001
+  server: service.ouluyun9803.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰|HK|香港|@wxgqlfx|7
@@ -52,27 +59,10 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '46602'
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  port: 45055
   server: 112.28.208.10
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20001
-  server: service.ouluyun9803.com
-  type: ss
