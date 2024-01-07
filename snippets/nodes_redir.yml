@@ -1,45 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IR_
-  network: ws
-  port: 80
-  server: web.parspack.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
-  ws-opts:
-    headers:
-      host: zUlA9.eSmAIlkORea.sHop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,2,3,4,6,7,17|_CN_->_US_
-  network: ws
-  port: 10002
-  server: us.he.07.nekocloud.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9c2b64eb-03d8-3cc7-9ba6-2e25002f59b5
-  ws-opts:
-    path: /catnet
-- alterId: 0
-  cipher: auto
-  name: '2,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 2083
-  server: 2bbiozh7wbc.servecounterstrike.com
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
   name: 7|🇺🇸_US_美国->🇿🇦_ZA_南非
   network: ws
   port: 80
@@ -53,16 +14,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,3,4,6,17|_CN_->_CA_
+  name: 2,3,4,6,17|🇺🇸_US_美国->🇮🇷_IR_伊朗
   network: ws
-  port: 19043
-  server: us.he.01.nekocloud.cn
+  port: 80
+  server: web.parspack.com
+  tls: false
+  type: vmess
+  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
+  ws-opts:
+    headers:
+      Host: zUlA9.eSmAIlkORea.sHop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IR_
+  network: ws
+  port: 80
+  server: web.parspack.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9c2b64eb-03d8-3cc7-9ba6-2e25002f59b5
+  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
   ws-opts:
-    path: /catnet
+    headers:
+      host: zUlA9.eSmAIlkORea.sHop
+    path: /
 - alterId: 0
   cipher: auto
   name: 2,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国
@@ -92,6 +68,18 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
+  name: 1,2,3,4,6,17|_CN_->_CA_
+  network: ws
+  port: 19043
+  server: us.he.01.nekocloud.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c2b64eb-03d8-3cc7-9ba6-2e25002f59b5
+  ws-opts:
+    path: /catnet
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_DE__2
   network: ws
   port: 2083
@@ -106,17 +94,29 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6,17|🇺🇸_US_美国->🇮🇷_IR_伊朗
+  name: '2,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
-  port: 80
-  server: web.parspack.com
-  tls: false
+  port: 2083
+  server: 2bbiozh7wbc.servecounterstrike.com
+  tls: true
   type: vmess
-  uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      Host: zUlA9.eSmAIlkORea.sHop
-    path: /
+      Host: PAneljadid.mookoMEilz.homes
+    path: /snsk
+- alterId: 0
+  cipher: auto
+  name: 1,2,3,4,6,7,17|_CN_->_US_
+  network: ws
+  port: 10002
+  server: us.he.07.nekocloud.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9c2b64eb-03d8-3cc7-9ba6-2e25002f59b5
+  ws-opts:
+    path: /catnet
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
