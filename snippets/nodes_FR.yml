@@ -1,7 +1,16 @@
 proxies:
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.39.1.177
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 12,13|github.com/freefq - 法国  7
+  name: 11,12,13|法国  7
   network: ws
   port: '32902'
   server: 141.11.123.205
@@ -27,12 +36,3 @@ proxies:
     headers:
       Host: mizban888.servecounterstrike.com
     path: /@forwardv2ray
-- name: 1|_FR_
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.39.1.177
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
