@@ -1,50 +1,23 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  port: 45055
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰香港2丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.142.212
-  tls: false
-  type: vmess
-  uuid: afbcaa39-6654-45a8-998f-2ea6935faa30
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
+  name: 11|香港特别行政区 15
   network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
+  port: 45343
+  server: 154.90.39.63
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰香港1丨白嫖机场.com
@@ -58,31 +31,47 @@ proxies:
     headers:
       Host: hk3.889611.com
     path: /
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 0cb14ab8-b3b8-44a1-8b4a-5a6f8317de01
+  port: 20001
+  server: service.ouluyun9803.com
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|香港特别行政区 15
-  network: tcp
-  port: 45343
-  server: 154.90.39.63
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  port: 45055
+  server: 112.28.208.10
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
+  server: 112.28.208.10
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰香港4丨白嫖机场.com
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港2丨白嫖机场.com
   network: ws
   port: '80'
-  server: 162.159.200.5
+  server: 162.159.142.212
   tls: false
   type: vmess
   uuid: afbcaa39-6654-45a8-998f-2ea6935faa30
@@ -90,9 +79,17 @@ proxies:
     headers:
       Host: hk3.889611.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 0cb14ab8-b3b8-44a1-8b4a-5a6f8317de01
-  port: 20001
-  server: service.ouluyun9803.com
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
   type: ss

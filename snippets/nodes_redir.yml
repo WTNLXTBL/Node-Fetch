@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '2083'
-  server: 2bbiozh7wbc.servecounterstrike.com
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
   name: 0,7,11,12,13|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
   network: ws
   port: '80'
@@ -27,17 +14,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,7,11|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  name: 0,2,3,4,6,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
-  port: '8080'
-  server: cover.mac2win.top
-  tls: false
+  port: '2083'
+  server: 2bbiozh7wbc.servecounterstrike.com
+  tls: true
   type: vmess
-  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      Host: icu4.mac2win.top
-    path: /
+      Host: PAneljadid.mookoMEilz.homes
+    path: /snsk
 - alterId: 0
   cipher: auto
   name: '0,2,3,4,6,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
@@ -53,24 +40,37 @@ proxies:
     path: /snsk
 - alterId: 0
   cipher: auto
+  name: 1|_US_->_GB_
+  network: ws
+  port: 80
+  server: 104.17.110.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f9ab87c5-c542-4c10-a486-b59c91550787
+  ws-opts:
+    headers:
+      host: PARspacK51.eSMAIlkOrEA.sHoP
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 0,7,11|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: '8080'
+  server: cover.mac2win.top
+  tls: false
+  type: vmess
+  uuid: 54d4d640-731c-4572-d0d4-e8a617816470
+  ws-opts:
+    headers:
+      Host: icu4.mac2win.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_US_->_DE__2
   network: ws
   port: 2083
   server: 2bbiozh7wbc.servecounterstrike.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__1
-  network: ws
-  port: 2083
-  server: 104.19.154.92
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -94,15 +94,15 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_GB_
+  name: 1|_US_->_DE__1
   network: ws
-  port: 80
-  server: 104.17.110.63
+  port: 2083
+  server: 104.19.154.92
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: f9ab87c5-c542-4c10-a486-b59c91550787
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      host: PARspacK51.eSMAIlkOrEA.sHoP
-    path: /?ed=2048
+      host: PAneljadid.mookoMEilz.homes
+    path: /snsk

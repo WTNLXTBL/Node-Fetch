@@ -1,14 +1,24 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
+  name: 10|🇯🇵日本04
   network: tcp
-  port: '20081'
-  server: 138.2.44.211
-  servername: ''
-  tls: false
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: 87ffa089-5819-4dfb-bc63-298e2de2b880
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.m1k2s.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2f41df4a-6fa8-428a-8515-be724091e79d
 - cipher: aes-128-gcm
   name: 15|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
@@ -25,24 +35,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
+  name: '13|Japan #1'
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.m1k2s.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
+  port: 20081
+  server: 138.2.44.211
+  tls: false
   type: vmess
-  uuid: 5a81b75e-901f-424f-bac3-96435796a932
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.m1k2s.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5a81b75e-901f-424f-bac3-96435796a932
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -52,17 +51,51 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5713d347-e625-48de-8d75-621f3c07886a
+  uuid: 87ffa089-5819-4dfb-bc63-298e2de2b880
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
+  name: 10|🇯🇵日本06
   network: tcp
-  port: '31106'
-  server: 6w7j3p05.m1k2s.xyz
-  servername: jp05.lovemc.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5a81b75e-901f-424f-bac3-96435796a932
+  uuid: 87ffa089-5819-4dfb-bc63-298e2de2b880
+- alterId: 0
+  cipher: auto
+  name: 13|Japan
+  network: tcp
+  port: 49499
+  server: 139.162.125.97
+  tls: false
+  type: vmess
+  uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6
+- cipher: aes-256-cfb
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.156.251
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m1k2s.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2f41df4a-6fa8-428a-8515-be724091e79d
+- alterId: 0
+  cipher: auto
+  name: 11,13|日本 东京Choopa数据中心
+  network: tcp
+  port: 14935
+  server: 167.179.111.237
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - cipher: chacha20-ietf-poly1305
   name: 15|🇯🇵 日本2|@ripaojiedian
   password: 0cb14ab8-b3b8-44a1-8b4a-5a6f8317de01
@@ -81,20 +114,14 @@ proxies:
   uuid: 604010bd-80fa-36e7-8095-23aef19529bb
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵日本06
+  name: 14|【BGP】日本 04  | 1x JP
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '31116'
+  server: 6w7j3p04.m1k2s.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5713d347-e625-48de-8d75-621f3c07886a
-- cipher: aes-256-cfb
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.156.251
-  type: ss
+  uuid: 2f41df4a-6fa8-428a-8515-be724091e79d
 - cipher: aes-128-gcm
   name: 15|🇯🇵 日本KT2|@ripaojiedian
   password: g12sQi#ss#&1
@@ -109,32 +136,3 @@ proxies:
   port: 10012
   server: 61.224.79.211
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5713d347-e625-48de-8d75-621f3c07886a
-- alterId: 0
-  cipher: auto
-  name: 11,13|日本 东京Choopa数据中心
-  network: tcp
-  port: 14935
-  server: 167.179.111.237
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: 13|日本99〖电报：@ccbaohe】免费节点定时更新
-  network: tcp
-  port: '49499'
-  server: 139.162.125.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ce1d2e3-0e1b-4b00-921b-fcc0f8abe1f6
