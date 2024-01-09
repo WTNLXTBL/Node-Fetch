@@ -1,23 +1,55 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12|【BGP】新加坡 05 | 1x SG
+  name: 10|🇸🇬新加坡05
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2e9efd3b-fc80-44c4-bb1c-f5d67b18af4e
+  uuid: b775afbb-fed1-40cf-bca1-68e60b711472
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b775afbb-fed1-40cf-bca1-68e60b711472
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.29.118
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 307d2ab0-7cec-4750-9b4d-1fe0601fb56f
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.52.93
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇸🇬 新加坡|@ripaojiedian
+  name: 15|🇸🇬 新加坡|@ripaojiedian
   password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
   port: 20009
   server: service.ouluyun9803.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|🔒 VM-WS-NA 🇸🇬 SG-139.180.211.1...
+  name: '13|🔒 VM-WS-NA 🇸🇬 SG-139.180.211.1... #1'
   network: ws
   port: '18063'
   server: 139.180.211.152
@@ -31,103 +63,58 @@ proxies:
     path: /Dialog Zoom
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1369851e-368e-465d-ab02-1e03069444e7
-- alterId: 0
-  cipher: auto
-  name: 11|🔒 VM-WS-NA 🇸🇬 SG-146.190.105.6...
-  network: ws
-  port: '2024'
-  server: 146.190.105.66
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c28a9de-395c-42e5-9303-969294441cbc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  name: 13|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.52.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|【BGP】新加坡 06 | 1x SG
+  name: 14|【BGP】新加坡 06 | 1x SG
   network: tcp
   port: '31211'
   server: 1c7s2g06.m1k2s.xyz
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2e9efd3b-fc80-44c4-bb1c-f5d67b18af4e
+  uuid: 307d2ab0-7cec-4750-9b4d-1fe0601fb56f
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡04
+  name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1369851e-368e-465d-ab02-1e03069444e7
-- cipher: aes-256-cfb
-  name: 13|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.29.118
-  type: ss
+  uuid: 307d2ab0-7cec-4750-9b4d-1fe0601fb56f
 - alterId: 0
   cipher: auto
-  name: 11|新加坡vmess③
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b775afbb-fed1-40cf-bca1-68e60b711472
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.6.1...
   network: ws
-  port: '8080'
-  server: v4.cfnode.eu.org
+  port: 3258
+  server: 146.190.6.145
   tls: false
   type: vmess
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  uuid: dea87af2-8de2-4f72-948c-27f34d98b207
   ws-opts:
     headers:
-      Host: oiicsg.yydsii.com
-    path: /
+      Host: m.twitter.com
+    path: /diniru
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1369851e-368e-465d-ab02-1e03069444e7
-- alterId: 0
-  cipher: auto
-  name: 12|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 2e9efd3b-fc80-44c4-bb1c-f5d67b18af4e
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡vmess⑤
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-139.180.211.1...
   network: ws
-  port: '8080'
-  server: zfc.windowsupdate1.com
+  port: '16737'
+  server: 139.180.211.152
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  uuid: 1458e38c-9f71-4c3c-aa70-aaccda6789dd
   ws-opts:
     headers:
-      Host: oiicsg.yydsii.com
+      Host: m.zoom.us
     path: /
