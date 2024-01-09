@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇫🇷 FR-141.94.86.92...
-  network: tcp
-  port: '10050'
-  server: 141.94.86.92
+  name: 16|法国|频道:@ripaojiedian
+  network: ws
+  port: '2082'
+  server: fr-01.jikuai.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 9b3b40c1-3b11-4094-8553-a02f2e01f24c
+  uuid: 2108facb-cddc-4c62-88b3-26c79f308d2e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 15|🇫🇷 法国|频道:@ripaojiedian
@@ -25,18 +29,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|法国|频道:@ripaojiedian
-  network: ws
-  port: '2082'
-  server: fr-01.jikuai.xyz
+  name: 13|🔒 VM-TCP-NA 🇫🇷 FR-141.94.86.92...
+  network: tcp
+  port: '10050'
+  server: 141.94.86.92
   servername: ''
   tls: false
   type: vmess
-  uuid: 2108facb-cddc-4c62-88b3-26c79f308d2e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 9b3b40c1-3b11-4094-8553-a02f2e01f24c
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇫🇷 FR-51.91.39.11:3...
