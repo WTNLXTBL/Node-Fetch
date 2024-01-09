@@ -1,15 +1,61 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 13|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.52.93
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c18c005f-91a5-46c3-a07f-3873ad7ef6ee
+- alterId: 0
+  cipher: auto
+  name: 12|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c1fa44a5-6c99-4415-827a-057b0dee1d79
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c18c005f-91a5-46c3-a07f-3873ad7ef6ee
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇸🇬 新加坡|@ripaojiedian
+  password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+  port: 20009
+  server: service.ouluyun9803.com
   type: ss
 - cipher: aes-256-cfb
   name: 13|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.112.29.118
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c18c005f-91a5-46c3-a07f-3873ad7ef6ee
+- cipher: aes-256-cfb
+  name: 13|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.52.93
   type: ss
 - alterId: 0
   cipher: auto
@@ -27,34 +73,38 @@ proxies:
     path: /diniru
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
+  name: 11|🔒 VM-WS-NA 🇸🇬 SG-139.180.211.1...
+  network: ws
+  port: '18063'
+  server: 139.180.211.152
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 21e1af95-391d-4be9-aba1-1434ebeda8a4
+  uuid: 0d4f647b-0d96-4820-9de8-0186156185dd
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /Dialog Zoom
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡06
+  name: 12|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 21e1af95-391d-4be9-aba1-1434ebeda8a4
+  uuid: c1fa44a5-6c99-4415-827a-057b0dee1d79
 - alterId: 0
   cipher: auto
-  name: 8|🇸🇬新加坡05
+  name: 12|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 21e1af95-391d-4be9-aba1-1434ebeda8a4
+  uuid: c1fa44a5-6c99-4415-827a-057b0dee1d79
 - alterId: 0
   cipher: auto
   name: 11|🔒 VM-WS-NA 🇸🇬 SG-146.190.105.6...
@@ -69,53 +119,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fd529459-f695-44bc-a27d-e6da13bab6c6
-- alterId: 0
-  cipher: auto
-  name: 12|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fd529459-f695-44bc-a27d-e6da13bab6c6
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇸🇬 新加坡|@ripaojiedian
-  password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
-  port: 20009
-  server: service.ouluyun9803.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fd529459-f695-44bc-a27d-e6da13bab6c6
-- alterId: 0
-  cipher: auto
-  name: 11|🔒 VM-WS-NA 🇸🇬 SG-139.180.211.1...
-  network: ws
-  port: '18063'
-  server: 139.180.211.152
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d4f647b-0d96-4820-9de8-0186156185dd
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /Dialog Zoom
