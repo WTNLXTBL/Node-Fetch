@@ -1,22 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 13|🇭🇰 香港1|@ripaojiedian
-  port: 45055
-  server: 112.28.208.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9|香港 特别行政区
-  network: tcp
-  port: '45343'
-  server: 154.90.39.63
-  tls: false
-  type: vmess
-  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
 - cipher: aes-128-gcm
   name: 13|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -27,6 +9,54 @@ proxies:
   port: 80
   server: 8.217.217.138
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 14|香港2|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.28.208.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 13|🇭🇰 香港|@ripaojiedian
+  port: 53942
+  server: 183.240.232.93
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 14|香港|@ripaojiedian
+  network: tcp
+  port: '53942'
+  server: 183.240.232.93
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+- alterId: 0
+  cipher: auto
+  name: 9|香港 特别行政区
+  network: tcp
+  port: '45343'
+  server: 154.90.39.63
+  tls: false
+  type: vmess
+  uuid: 08aa8499-d616-4ff1-d6ab-ce0c522824aa
 - cipher: aes-128-gcm
   name: 13|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -41,39 +71,3 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 14|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇭🇰 香港2|@ripaojiedian
-  password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
-  port: 20001
-  server: service.ouluyun9803.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
-- alterId: 64
-  cipher: auto
-  name: 14|香港3|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

@@ -1,4 +1,40 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇹🇼 台湾|频道:@ripaojiedian
+  password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+  port: 20005
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+- alterId: 0
+  cipher: auto
+  name: 11|TW-板桥3-6(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: 4211
+  server: nb36.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+- alterId: 0
+  cipher: auto
+  name: 9,10|台湾省  24
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
   name: 11|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
@@ -9,36 +45,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
-- alterId: 0
-  cipher: auto
-  name: 11|TW-板桥2-2(TCP) - 麻雀加速器 Sparrow〖...
-  network: tcp
-  port: '12002'
-  server: nb22.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
-- alterId: 0
-  cipher: auto
-  name: 11|TW-板桥2-4(TCP) - 麻雀加速器 Sparrow〖...
-  network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
-- alterId: 0
-  cipher: auto
-  name: 9|台湾省  24
-  network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
   name: 9,11|台湾省 中华电信(HiNet)数据中心
@@ -53,8 +59,8 @@ proxies:
   cipher: auto
   name: 11|台湾【TG：@ccbaohe】定时更新节点订阅
   network: tcp
-  port: '4211'
-  server: nb36.ntbq.dynu.net
+  port: 4443
+  server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
