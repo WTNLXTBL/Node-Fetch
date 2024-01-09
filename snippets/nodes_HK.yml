@@ -1,50 +1,36 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
-- alterId: 0
-  cipher: auto
-  name: 13|香港vmess③
-  network: ws
-  port: '2052'
-  server: scadn.yydsii.com
-  tls: false
-  type: vmess
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
-  ws-opts:
-    headers:
-      Host: oiichk.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|香港vmess⑤
-  network: ws
-  port: '2052'
-  server: kkyx.yydsii.com
-  tls: false
-  type: vmess
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
-  ws-opts:
-    headers:
-      Host: oiichk.yydsii.com
-    path: /
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '53300'
-  server: 112.28.208.11
+  port: '53942'
+  server: 183.240.232.93
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 53942
+  server: 183.240.232.93
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港vmess②
+  network: ws
+  port: '2052'
+  server: v4.cfnode.eu.org
+  tls: false
+  type: vmess
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  ws-opts:
+    headers:
+      Host: oiichk.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
@@ -69,16 +55,6 @@ proxies:
   port: 80
   server: 8.217.217.138
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '53942'
-  server: 183.240.232.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -95,10 +71,34 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 53942
-  server: 183.240.232.93
-  skip-cert-verify: false
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.28.208.11
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港vmess①
+  network: ws
+  port: '2052'
+  server: zfc.windowsupdate1.com
+  tls: false
+  type: vmess
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  ws-opts:
+    headers:
+      Host: oiichk.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
