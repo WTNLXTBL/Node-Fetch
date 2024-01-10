@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省台北市中华电信 3
-  network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
 - cipher: aes-128-gcm
   name: 15|🇹🇼 台湾KT|@ripaojiedian
   password: oiwym4ovI4Yb
@@ -25,16 +15,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-45.121.48.17...
-  network: tcp
-  port: '10001'
-  server: 45.121.48.172
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
-- alterId: 0
-  cipher: auto
   name: 13|台湾vmess③
   network: ws
   port: '80'
@@ -46,6 +26,48 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|台湾vmess②
+  network: ws
+  port: '80'
+  server: scadn.yydsii.com
+  tls: false
+  type: vmess
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|台湾vmess①
+  network: ws
+  port: '80'
+  server: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-45.121.48.17...
+  network: tcp
+  port: '10001'
+  server: 45.121.48.172
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
+- cipher: aes-128-gcm
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: oiwym4ovI4Yb
+  port: 81
+  server: 61.224.107.28
+  type: ss
 - name: 15|🇹🇼 台湾2|@ripaojiedian
   password: 57101ded-8147-4098-ab54-31d9b23692ba
   port: 10835
@@ -53,19 +75,3 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省新北市中华电信 1
-  network: tcp
-  port: '12002'
-  server: nb22.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
-- cipher: aes-128-gcm
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: oiwym4ovI4Yb
-  port: 81
-  server: 61.224.107.28
-  type: ss
