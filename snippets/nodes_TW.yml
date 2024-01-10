@@ -1,27 +1,34 @@
 proxies:
+- name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 57101ded-8147-4098-ab54-31d9b23692ba
+  port: 10835
+  server: xibaozi.19890604.day
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|台湾
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
+  name: 11,12|台湾省新北市中华电信 1
+  network: tcp
+  port: '12002'
+  server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: 103.159.206.35
-    path: /
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
 - alterId: 0
   cipher: auto
-  name: 13|YouTube面具人哈乐_台湾_7
-  network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
+  name: 13|台湾vmess⑤
+  network: ws
+  port: '80'
+  server: zfc.windowsupdate1.com
   tls: false
   type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|台湾vmess③
@@ -37,14 +44,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|github.com/freefq - 台湾省台北市中华电信...
+  name: 13|YouTube面具人哈乐_台湾_7
   network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  servername: ''
+  port: 6122
+  server: c12.twtc.dynu.net
   tls: false
   type: vmess
   uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+- alterId: 0
+  cipher: auto
+  name: 13|台湾
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: 103.159.206.35
+    path: /
 - cipher: aes-128-gcm
   name: 15|🇹🇼 台湾|@ripaojiedian
   password: oiwym4ovI4Yb
@@ -53,10 +73,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|github.com/freefq - 台湾省新北市中华电信...
+  name: 11,12|台湾省台北市中华电信 3
   network: tcp
-  port: '12002'
-  server: nb22.ntbq.dynu.net
+  port: '4443'
+  server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -75,36 +95,3 @@ proxies:
   port: 443
   server: 61.224.118.240
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|台湾vmess⑤
-  network: ws
-  port: '80'
-  server: zfc.windowsupdate1.com
-  tls: false
-  type: vmess
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|台湾vmess①
-  network: ws
-  port: '80'
-  server: kkyx.yydsii.com
-  tls: false
-  type: vmess
-  uuid: 2b0c5996-216f-4933-9aed-92458ff4988f
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 57101ded-8147-4098-ab54-31d9b23692ba
-  port: 10835
-  server: xibaozi.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan

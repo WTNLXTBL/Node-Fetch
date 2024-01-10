@@ -1,6 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇫🇷 FR-51.91.39.11:3...
+  network: ws
+  port: '35066'
+  server: 51.91.39.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5c9099d2-eb85-4d2b-ab53-5912c22506e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.208.28
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 13|法国 - 格拉沃利讷 - OVH SAS - 2
   network: tcp
   port: 8080
@@ -19,17 +42,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9b3b40c1-3b11-4094-8553-a02f2e01f24c
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇫🇷 FR-51.91.39.11:3...
-  network: ws
-  port: '35066'
-  server: 51.91.39.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5c9099d2-eb85-4d2b-ab53-5912c22506e3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
