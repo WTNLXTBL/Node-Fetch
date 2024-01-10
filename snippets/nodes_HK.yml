@@ -13,21 +13,15 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港B|@ripaojiedian
-  network: tcp
-  port: '53300'
-  server: 112.28.208.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
-  port: 50530
-  server: zhejiang.wandacloud.xyz
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
   type: ss
 - alterId: 0
   cipher: auto
@@ -43,6 +37,34 @@ proxies:
     headers:
       Host: 95.164.84.131
     path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
+  port: 50530
+  server: zhejiang.wandacloud.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
+  port: 19511
+  server: nc.cn2.go002.xyz
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港B|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.28.208.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: MZ7ldA
+  port: 56005
+  server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
+  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港A|@ripaojiedian
@@ -53,25 +75,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
-  port: 19511
-  server: nc.cn2.go002.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: MZ7ldA
-  port: 56005
-  server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
