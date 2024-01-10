@@ -1,4 +1,13 @@
 proxies:
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.208.28
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇫🇷 FR-141.94.86.92...
@@ -9,12 +18,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 9b3b40c1-3b11-4094-8553-a02f2e01f24c
-- name: 1|_FR_
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.38.208.28
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true

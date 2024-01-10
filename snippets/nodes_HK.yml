@@ -1,4 +1,26 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
+  port: 50530
+  server: zhejiang.wandacloud.xyz
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港B|@ripaojiedian
+  network: tcp
+  port: '53300'
+  server: 112.28.208.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
+  port: 19511
+  server: nc.cn2.go002.xyz
+  type: ss
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -8,20 +30,6 @@ proxies:
     mode: http
   port: 80
   server: 8.217.217.138
-  type: ss
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -42,12 +50,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
-  port: 50530
-  server: zhejiang.wandacloud.xyz
-  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港A|@ripaojiedian
@@ -58,19 +60,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港B|@ripaojiedian
-  network: tcp
-  port: '53300'
-  server: 112.28.208.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
-  port: 19511
-  server: nc.cn2.go002.xyz
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
   type: ss
