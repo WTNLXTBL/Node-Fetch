@@ -1,23 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,13|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '2083'
-  server: 104.19.180.169
-  tls: true
-  type: vmess
-  uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad
-  ws-opts:
-    headers:
-      Host: kingofilter2.hamedgeek.sbs
-    path: /
-- alterId: 0
-  cipher: auto
   name: 0,7|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
   network: ws
   port: '80'
   server: glasco.fx-trader.shop
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,6,7,11,12,17|🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  network: ws
+  port: 80
+  server: 104.17.2.183
   tls: false
   type: vmess
   uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
@@ -40,19 +40,6 @@ proxies:
     path: /centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6,7,11,12,17|🇺🇸_US_美国->🇺🇦_UA_乌克兰
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_UA_
   network: ws
   port: 80
@@ -64,4 +51,17 @@ proxies:
   ws-opts:
     headers:
       host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '2083'
+  server: 104.19.180.169
+  tls: true
+  type: vmess
+  uuid: b36e93b8-21b4-4495-ac81-0109f65cb1ad
+  ws-opts:
+    headers:
+      Host: kingofilter2.hamedgeek.sbs
     path: /
