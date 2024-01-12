@@ -1,24 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  name: 13|🇨🇦加拿大4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.4
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 00cf794f-0dca-4026-ae3b-c26f765fe470
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦加拿大04
@@ -28,4 +21,27 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ce1a42f8-6d0c-4569-b34f-129c709f6782
+  uuid: caf1319b-3922-4802-abd2-867150ac0b9b
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 90dc8e98-f3f7-46bf-a1ae-c6a63e39f722
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
