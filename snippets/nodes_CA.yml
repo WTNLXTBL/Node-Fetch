@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  name: 13|加拿大-蒙特利尔2 | 1x
+  network: ws
+  port: 2095
+  server: camtlebb.76898102.xyz
+  servername: vsoinxa.76898102.xyz
+  tls: false
   type: vmess
-  uuid: c087ee74-46ee-4cfb-b03b-3e597acf777a
+  uuid: e7663aaf-bf76-3b8d-8cd5-29791ec136f6
+  ws-opts:
+    headers:
+      Host: vsoinxa.76898102.xyz
+    path: /funsdfrh
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦加拿大04
@@ -18,4 +22,14 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fedcf275-94fb-4e96-ae44-4e9191177df8
+  uuid: 0d5dedd3-ff8f-4178-930e-3ff9eafde5ee
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d57f3d89-bedd-4d2e-8337-5ddb3f098e84
