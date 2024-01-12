@@ -1,4 +1,31 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13| 🇭🇰 香港 HK03
+  network: ws
+  port: '80'
+  server: hk03.xpoti.online
+  tls: false
+  type: vmess
+  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
+  ws-opts:
+    headers:
+      Host: hk03.xpoti.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 80
+  server: nv1wt598e45j.sanfen006.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /zh-cn
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -36,19 +63,6 @@ proxies:
     headers:
       Host: hk02.xpoti.online
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13| 🇭🇰 香港 HK03
-  network: ws
-  port: '80'
-  server: hk03.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
-  ws-opts:
-    headers:
-      Host: hk03.xpoti.online
-    path: /
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -63,17 +77,3 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 80
-  server: nv1wt598e45j.sanfen006.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /zh-cn
