@@ -1,4 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰|HK|香港|@wxgqlfx|6
+  network: tcp
+  port: 26389
+  server: 34.92.50.99
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -13,23 +32,3 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c

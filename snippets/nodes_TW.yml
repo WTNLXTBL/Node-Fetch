@@ -1,6 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,12,13|台湾省新北市 中华电信
+  network: tcp
+  port: 2024
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
+- cipher: aes-256-cfb
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: qwerREWQ@@
+  port: 2003
+  server: e001.panda003.net
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 11,12|台湾省彰化县 中华电信
   network: tcp
   port: 6122
@@ -20,40 +36,7 @@ proxies:
   uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac
 - alterId: 0
   cipher: auto
-  name: 13|🇹🇼|TW|台湾|@wxgqlfx|2
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
-- alterId: 0
-  cipher: auto
-  name: 11,12,13|台湾省新北市 中华电信
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a36db716-c6d0-4bc2-bd76-69e278215124
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,12,13,16|台湾省中华电信(HiNet)数据中心 7
+  name: 11,12,16|台湾省中华电信(HiNet)数据中心 7
   network: tcp
   port: 12002
   server: nb22.ntbq.dynu.net
@@ -61,9 +44,3 @@ proxies:
   tls: false
   type: vmess
   uuid: a36db716-c6d0-4bc2-bd76-69e278215124
-- cipher: aes-256-cfb
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: qwerREWQ@@
-  port: 2003
-  server: e001.panda003.net
-  type: ss
