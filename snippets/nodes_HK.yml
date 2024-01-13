@@ -9,16 +9,6 @@ proxies:
   type: vmess
   uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
 - cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
-- cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -32,3 +22,27 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12,13|github.com/freefq - 香港Google云计...
+  network: ws
+  port: 80
+  server: 34.92.119.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      Host: hk-hy02.changding.tech
+    path: /vm-tls0?ed=2048
