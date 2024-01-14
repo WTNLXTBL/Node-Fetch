@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '13|Channel id: @ShadowProxy66🇨🇦'
+  network: ws
+  port: '443'
+  server: adenc35.fixedlfoat.top
+  servername: adenc35.fixedlfoat.top
+  tls: true
+  type: vmess
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  ws-opts:
+    headers:
+      Host: adenc35.fixedlfoat.top
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -8,7 +22,20 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b3275d89-5219-4357-bce0-8b33c6b07f75
+  uuid: ed2fabff-97f0-4fef-854d-6cecd279b606
+- alterId: 64
+  cipher: auto
+  name: 7,11,12,13|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 142.171.237.214
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23168499.xyz
+    path: /path/221312281009
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦加拿大04
@@ -18,18 +45,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f5c56561-0bc3-4876-96ad-565b5a5f453c
-- alterId: 64
-  cipher: auto
-  name: 11,12,13|加拿大  2
-  network: ws
-  port: 443
-  server: 142.171.237.214
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23168499.xyz
-    path: /path/221312281009
+  uuid: e145f9c0-e06d-48c8-8407-24c68e88e630

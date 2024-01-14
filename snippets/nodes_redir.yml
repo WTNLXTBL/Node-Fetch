@@ -1,33 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_LY_->_TR_
-  network: ws
-  port: 80
-  server: 197.215.140.234
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  ws-opts:
-    headers:
-      host: softiri.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 13|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 443
-  server: tgju.org
-  tls: true
-  type: vmess
-  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
-  ws-opts:
-    headers:
-      Host: cdn.pokerad.fun
-    path: /fa
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_UA_
   network: ws
   port: 80
@@ -42,60 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,7,11,17|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其
-  network: ws
-  port: '80'
-  server: 197.215.140.234
-  tls: false
-  type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  ws-opts:
-    headers:
-      Host: softiri.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_CA__1
-  network: ws
-  port: 80
-  server: 162.159.200.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,11,12|🇸🇪_SE_瑞典->🇳🇱_NL_荷兰
-  network: ws
-  port: 8880
-  server: 185.146.173.27
-  tls: false
-  type: vmess
-  uuid: 8ec29f7f-edee-4065-bec5-b31d10c2d7e4
-  ws-opts:
-    headers:
-      Host: telegram.shadowbrowse.online
-    path: /main
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,7,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: '80'
-  server: 162.159.200.3
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,7,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
+  name: 0,2,3,4,6,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
   network: ws
   port: '80'
   server: 104.17.2.183
@@ -105,6 +25,32 @@ proxies:
   ws-opts:
     headers:
       Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,12|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其
+  network: ws
+  port: 443
+  server: 130.193.166.2
+  tls: true
+  type: vmess
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  ws-opts:
+    headers:
+      Host: soft8989.redirectme.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: '80'
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
     path: /
 - grpc-opts:
     grpc-service-name: mahanvip.mahantu.top
@@ -134,10 +80,64 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,7,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
+  name: 1|_LY_->_TR_
+  network: ws
+  port: 80
+  server: 197.215.140.234
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  ws-opts:
+    headers:
+      host: softiri.serveirc.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
+  network: ws
+  port: 56120
+  server: 156.251.226.142
+  tls: true
+  type: vmess
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  ws-opts:
+    headers:
+      Host: hk-300.changding.tech
+    path: /changding-tls1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 7,13|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 443
+  server: tgju.org
+  tls: true
+  type: vmess
+  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
+  ws-opts:
+    headers:
+      Host: cdn.pokerad.fun
+    path: /fa
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_CA__1
+  network: ws
+  port: 80
+  server: 162.159.200.3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大
   network: ws
   port: '80'
-  server: 162.159.200.4
+  server: 162.159.200.3
   tls: false
   type: vmess
   uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
@@ -145,3 +145,16 @@ proxies:
     headers:
       Host: ca3.889611.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,7,11,17|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其
+  network: ws
+  port: '80'
+  server: 197.215.140.234
+  tls: false
+  type: vmess
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  ws-opts:
+    headers:
+      Host: softiri.serveirc.com
+    path: /@forwardv2ray
