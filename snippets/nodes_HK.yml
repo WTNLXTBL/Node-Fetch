@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
-  port: 21001
-  server: service.ouluyun9803.com
-  type: ss
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -15,16 +9,6 @@ proxies:
   port: 80
   server: 8.217.217.138
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
 - alterId: 0
   cipher: auto
   name: 15,16|🇭🇰 香港4|@ripaojiedian
@@ -72,3 +56,19 @@ proxies:
   tls: false
   type: vmess
   uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
+  port: 21001
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
