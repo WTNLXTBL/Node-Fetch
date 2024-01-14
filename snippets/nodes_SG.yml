@@ -1,10 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
-  port: 20109
-  server: service.ouluyun9803.com
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬 Singapore D - Unlocked 🔓
+  network: ws
+  port: '80'
+  server: sgd.kalaa.online
+  tls: false
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sgd.kalaa.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -14,7 +21,103 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f6281304-f0a6-48f7-a691-980ee4b3830b
+  uuid: aeb97661-1970-4b3d-8073-4c67adb7b7af
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: aeb97661-1970-4b3d-8073-4c67adb7b7af
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
+  port: 20109
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 51727
+  server: 146.190.100.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7cfe06b4-8130-4b30-9338-9de63be9a04f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: aeb97661-1970-4b3d-8073-4c67adb7b7af
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬 Singapore C - Unlocked 🔓
+  network: ws
+  port: '80'
+  server: sgc.kalaa.online
+  tls: false
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sgc.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ba9ce80c-c141-46c3-87f0-c5095a9cc413
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ba9ce80c-c141-46c3-87f0-c5095a9cc413
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.218.115
+  type: ss
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.158.34
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬 Singapore B - Unlocked 🔓
+  network: ws
+  port: '80'
+  server: sgb.kalaa.online
+  tls: false
+  type: vmess
+  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
+  ws-opts:
+    headers:
+      Host: sgb.kalaa.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
@@ -31,41 +134,6 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬 Singapore D - Unlocked 🔓
-  network: ws
-  port: '80'
-  server: sgd.kalaa.online
-  tls: false
-  type: vmess
-  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
-  ws-opts:
-    headers:
-      Host: sgd.kalaa.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2f9f8aaa-5c2b-4b17-a55b-6d8810e6da15
-- alterId: 0
-  cipher: auto
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 51727
-  server: 146.190.100.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 7cfe06b4-8130-4b30-9338-9de63be9a04f
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -73,75 +141,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f9f8aaa-5c2b-4b17-a55b-6d8810e6da15
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f6281304-f0a6-48f7-a691-980ee4b3830b
-- cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.180.158.34
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f6281304-f0a6-48f7-a691-980ee4b3830b
-- cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.218.115
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2f9f8aaa-5c2b-4b17-a55b-6d8810e6da15
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬 Singapore B - Unlocked 🔓
-  network: ws
-  port: '80'
-  server: sgb.kalaa.online
-  tls: false
-  type: vmess
-  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
-  ws-opts:
-    headers:
-      Host: sgb.kalaa.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬 Singapore C - Unlocked 🔓
-  network: ws
-  port: '80'
-  server: sgc.kalaa.online
-  tls: false
-  type: vmess
-  uuid: af177c19-b869-4ead-9436-88d8ed8c98af
-  ws-opts:
-    headers:
-      Host: sgc.kalaa.online
-    path: /
+  uuid: ba9ce80c-c141-46c3-87f0-c5095a9cc413
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 Singapore A - Unlocked 🔓

@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 2|🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  network: ws
+  port: 80
+  server: 104.17.2.183
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1|_SC_->_HK_
   network: ws
   port: 56120
@@ -28,18 +41,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE_
+  name: 0,3,4,6,7,17|🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港
   network: ws
-  port: 443
-  server: tgju.org
-  skip-cert-verify: true
+  port: '56120'
+  server: 156.251.226.142
   tls: true
   type: vmess
-  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
   ws-opts:
     headers:
-      host: cdn.pokerad.fun
-    path: /fa
+      Host: hk-300.changding.tech
+    path: /changding-tls1?ed=2048
 - alterId: 0
   cipher: auto
   name: 2|🇺🇸_US_美国->🇨🇦_CA_加拿大
@@ -55,6 +67,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 7|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其
+  network: ws
+  port: 443
+  server: 130.193.166.2
+  tls: true
+  type: vmess
+  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  ws-opts:
+    headers:
+      Host: soft8989.redirectme.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
   name: 0,3,4,6,7,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '443'
@@ -68,40 +93,15 @@ proxies:
     path: /fa
 - alterId: 0
   cipher: auto
-  name: 2|🇺🇸_US_美国->🇺🇦_UA_乌克兰
-  network: ws
-  port: 80
-  server: 104.17.2.183
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,11|🇮🇶_IQ_伊拉克->🇹🇷_TR_土耳其
+  name: 1|_US_->_DE_
   network: ws
   port: 443
-  server: 130.193.166.2
+  server: tgju.org
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
   ws-opts:
     headers:
-      Host: soft8989.redirectme.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,7,17|🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港
-  network: ws
-  port: '56120'
-  server: 156.251.226.142
-  tls: true
-  type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-  ws-opts:
-    headers:
-      Host: hk-300.changding.tech
-    path: /changding-tls1?ed=2048
+      host: cdn.pokerad.fun
+    path: /fa

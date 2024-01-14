@@ -13,6 +13,16 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰 HongKong C - Unlocked 🔓
@@ -28,45 +38,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 15,16|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 2086
-  server: go.wumaojichang.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d17fc866-2858-4a92-a85a-30ae348d3818
-  ws-opts:
-    headers:
-      Host: hk.wumaojichang.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
-  port: 21001
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
-  server: 38.147.191.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- alterId: 0
-  cipher: auto
   name: 13|🇭🇰 HongKong A - Unlocked 🔓
   network: ws
   port: '80'
@@ -78,16 +49,12 @@ proxies:
     headers:
       Host: hka.kalaa.online
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
+  port: 21001
+  server: service.ouluyun9803.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰 HongKong D - Unlocked 🔓
@@ -113,4 +80,37 @@ proxies:
   ws-opts:
     headers:
       Host: hkb.kalaa.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
+  server: 38.147.191.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 15,16|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 2086
+  server: go.wumaojichang.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d17fc866-2858-4a92-a85a-30ae348d3818
+  ws-opts:
+    headers:
+      Host: hk.wumaojichang.com
     path: /
