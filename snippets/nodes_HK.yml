@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -11,25 +21,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 15,16|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 2086
-  server: go.wumaojichang.com
-  skip-cert-verify: false
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
   tls: false
   type: vmess
-  uuid: d17fc866-2858-4a92-a85a-30ae348d3818
-  ws-opts:
-    headers:
-      Host: hk.wumaojichang.com
-    path: /
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
 - alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
   server: 38.147.191.185
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
@@ -49,26 +54,21 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
-  server: 38.147.191.185
+  name: 15,16|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+  uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
+  ws-opts:
+    headers:
+      Host: yvhnbevxhk1.yofnhkfc.xyz
+    path: /video/34kKXbLM
 - cipher: chacha20-ietf-poly1305
   name: 15|🇭🇰 香港|@ripaojiedian
-  password: 70f97d7a-7eef-4637-b2fc-c9cb9f79869b
+  password: 451a39bb-fc9c-4ef7-b0ef-19de25d9279a
   port: 21001
   server: service.ouluyun9803.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
