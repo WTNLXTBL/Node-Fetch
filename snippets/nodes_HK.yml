@@ -1,36 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
-  server: 38.147.191.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港4丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.200.5
-  tls: false
-  type: vmess
-  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -66,27 +34,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰香港1丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 104.18.15.147
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
   tls: false
   type: vmess
-  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-TLS 🇭🇰 HK-38.207.161.1...
@@ -103,10 +58,55 @@ proxies:
     path: /ImUT5xAj/
 - alterId: 0
   cipher: auto
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
+  server: 38.147.191.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.18.15.147
+  tls: false
+  type: vmess
+  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|🇭🇰香港2丨白嫖机场.com
   network: ws
   port: '80'
   server: 104.18.15.148
+  tls: false
+  type: vmess
+  uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港4丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 162.159.200.5
   tls: false
   type: vmess
   uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
