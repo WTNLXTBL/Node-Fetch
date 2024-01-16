@@ -1,71 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-38.207.161.1...
-  network: ws
-  port: '36632'
-  server: 38.207.161.127
-  servername: testray.zanylee.uk
-  tls: true
-  type: vmess
-  uuid: 8716d6e0-7032-43ad-9196-7427220e2850
-  ws-opts:
-    headers:
-      Host: testray.zanylee.uk
-    path: /ImUT5xAj/
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '63010'
-  server: in06.myqq2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89387c02-4f9f-33fc-8c50-a9941ed226be
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港4丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.200.5
-  tls: false
-  type: vmess
-  uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - alterId: 0
   cipher: auto
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -91,6 +24,50 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13,16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-38.207.161.1...
+  network: ws
+  port: '36632'
+  server: 38.207.161.127
+  servername: testray.zanylee.uk
+  tls: true
+  type: vmess
+  uuid: 8716d6e0-7032-43ad-9196-7427220e2850
+  ws-opts:
+    headers:
+      Host: testray.zanylee.uk
+    path: /ImUT5xAj/
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '63010'
+  server: in06.myqq2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 89387c02-4f9f-33fc-8c50-a9941ed226be
+- alterId: 0
+  cipher: auto
   name: 15,16|🇭🇰 香港5|@ripaojiedian
   network: ws
   port: 41698
@@ -103,16 +80,3 @@ proxies:
     headers:
       Host: hk123.5201314.cfd
     path: /argox-vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 12,13|github.com/freefq - 香港Amazon数据...
-  network: ws
-  port: 80
-  server: ap-northeast-anycast.lnaspiring.com
-  tls: false
-  type: vmess
-  uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
-  ws-opts:
-    headers:
-      Host: jpli.edge.233.tw
-    path: /geg/45?ed=2048
