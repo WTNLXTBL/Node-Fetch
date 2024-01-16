@@ -1,6 +1,44 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-38.207.161.1...
+  network: ws
+  port: '36632'
+  server: 38.207.161.127
+  servername: testray.zanylee.uk
+  tls: true
+  type: vmess
+  uuid: 8716d6e0-7032-43ad-9196-7427220e2850
+  ws-opts:
+    headers:
+      Host: testray.zanylee.uk
+    path: /ImUT5xAj/
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+- alterId: 0
+  cipher: auto
+  name: 15,16|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
+  ws-opts:
+    headers:
+      Host: yvhnbevxhk1.yofnhkfc.xyz
+    path: /video/34kKXbLM
+- alterId: 0
+  cipher: auto
   name: 15|🇭🇰 香港2|@ripaojiedian
   port: 10241
   server: 38.147.191.185
@@ -8,6 +46,44 @@ proxies:
   tls: false
   type: vmess
   uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 41698
+  server: 23.225.133.79
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 0f2b40f5-4233-4280-b021-75afb1a62849
+  ws-opts:
+    headers:
+      Host: hk123.5201314.cfd
+    path: /argox-vm?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -27,52 +103,4 @@ proxies:
     mode: http
   port: 80
   server: 8.217.217.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 41698
-  server: 23.225.133.79
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 0f2b40f5-4233-4280-b021-75afb1a62849
-  ws-opts:
-    headers:
-      Host: hk123.5201314.cfd
-    path: /argox-vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
-  network: tcp
-  port: '26389'
-  server: 34.92.50.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
   type: ss
