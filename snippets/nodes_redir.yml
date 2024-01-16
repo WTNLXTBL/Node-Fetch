@@ -1,8 +1,22 @@
 proxies:
-- name: 1|_CN_->_US__1
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_DE__11
+  network: ws
+  port: 8080
+  server: hamrahaval.asan3a.shop
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
+  ws-opts:
+    headers:
+      host: asan3.azad2.tech
+    path: /
+- name: 1|_CN_->_UA_
   network: tcp
   password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10837
+  port: 10845
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -20,37 +34,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 1|_CN_->_US__2
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_UA_
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10845
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_AU_->_US_
-  network: ws
-  password: b59ee60f-9fa4-4770-b6a7-288620147f60
-  port: 443
-  server: 192.65.217.247
-  skip-cert-verify: true
-  sni: k5us2.yfjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: k5us2.yfjc.sbs
-    path: /yfjc/kus2
 - name: 1|_CN_->_AT_
   network: tcp
   password: a34db467-5757-4a39-bfed-d89a6501973e
@@ -62,17 +45,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其
+  name: '3,4,6,7,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
   network: ws
-  port: '80'
-  server: 82.213.5.50
+  port: '8080'
+  server: hamrahaval.asan3a.shop
   tls: false
   type: vmess
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
   ws-opts:
     headers:
-      Host: irisoft.servecounterstrike.com
-    path: /@forwardv2ray
+      Host: asan3.azad2.tech
+    path: /
 - name: 1|_CN_->_US__4
   network: tcp
   password: a34db467-5757-4a39-bfed-d89a6501973e
@@ -95,32 +78,10 @@ proxies:
     headers:
       Host: periodically-microwave-firms-abc.trycloudflare.com
     path: ae8e857abf1d?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '3,4,6,7,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '8080'
-  server: hamrahaval.asan3a.shop
-  tls: false
-  type: vmess
-  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-  ws-opts:
-    headers:
-      Host: asan3.azad2.tech
-    path: /
-- name: 1|_CN_->_US__3
+- name: 1|_CN_->_US__2
   network: tcp
   password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10838
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_CZ_
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10846
+  port: 10850
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -128,17 +89,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,11,17|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 0|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其
   network: ws
-  port: '8080'
-  server: 104.17.30.111
+  port: '80'
+  server: 82.213.5.50
   tls: false
   type: vmess
-  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
   ws-opts:
     headers:
-      Host: asan3.azad2.tech
-    path: /
+      Host: irisoft.servecounterstrike.com
+    path: /@forwardv2ray
 - grpc-opts:
     grpc-service-name: 443trojan
   name: 1|_US_->_DE__13
@@ -162,17 +123,56 @@ proxies:
   udp: true
   ws-opts:
     path: /
+- name: 1|_AU_->_US_
+  network: ws
+  password: b59ee60f-9fa4-4770-b6a7-288620147f60
+  port: 443
+  server: 192.65.217.247
+  skip-cert-verify: true
+  sni: k5us2.yfjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: k5us2.yfjc.sbs
+    path: /yfjc/kus2
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_DE__11
+  name: 3,11,17|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
-  port: 8080
-  server: hamrahaval.asan3a.shop
-  skip-cert-verify: true
+  port: '8080'
+  server: 104.17.30.111
   tls: false
   type: vmess
   uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
   ws-opts:
     headers:
-      host: asan3.azad2.tech
+      Host: asan3.azad2.tech
     path: /
+- name: 1|_CN_->_CZ_
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10846
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_US__3
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10838
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_US__1
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10837
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
