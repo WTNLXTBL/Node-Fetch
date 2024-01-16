@@ -1,4 +1,101 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其
+  network: ws
+  port: '80'
+  server: 82.213.5.50
+  tls: false
+  type: vmess
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  ws-opts:
+    headers:
+      Host: irisoft.servecounterstrike.com
+    path: /@forwardv2ray
+- name: 1|_AU_->_US_
+  network: ws
+  password: b59ee60f-9fa4-4770-b6a7-288620147f60
+  port: 443
+  server: 192.65.217.247
+  skip-cert-verify: true
+  sni: k5us2.yfjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: k5us2.yfjc.sbs
+    path: /yfjc/kus2
+- name: 1|_CN_->_US__3
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10838
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_US__1
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10837
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,17|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '80'
+  server: 104.21.79.143
+  tls: false
+  type: vmess
+  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
+  ws-opts:
+    headers:
+      Host: periodically-microwave-firms-abc.trycloudflare.com
+    path: ae8e857abf1d?ed=2048
+- name: 1|_CN_->_US__4
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10847
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,12,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '8080'
+  server: 104.17.30.111
+  tls: false
+  type: vmess
+  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
+  ws-opts:
+    headers:
+      Host: asan3.azad2.tech
+    path: /
+- name: 1|_CN_->_US__2
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10850
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_UA_
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10845
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
 - grpc-opts:
     grpc-service-name: mahanvip.mahantu.top
   name: 1|_US_->_DE__5
@@ -9,6 +106,26 @@ proxies:
   skip-cert-verify: false
   sni: mahanvip.mahantu.top
   tls: true
+  type: trojan
+  udp: true
+- name: 1|_US_->_RU_
+  network: ws
+  password: gviRoLVUKA5kBX2M0gJSvg
+  port: 2083
+  server: cdn-16.cdn2cdn.com
+  skip-cert-verify: true
+  sni: cdn16.cdn2cdn.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /
+- name: 1|_CN_->_AT_
+  network: tcp
+  password: a34db467-5757-4a39-bfed-d89a6501973e
+  port: 10848
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
 - alterId: 0
@@ -25,10 +142,10 @@ proxies:
     headers:
       host: asan3.azad2.tech
     path: /
-- name: 1|_CN_->_US__1
+- name: 1|_CN_->_CZ_
   network: tcp
   password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10837
+  port: 10846
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -36,7 +153,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '3,4,7,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  name: '3,4,6,7,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: '8080'
   server: hamrahaval.asan3a.shop
@@ -47,112 +164,6 @@ proxies:
     headers:
       Host: asan3.azad2.tech
     path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其
-  network: ws
-  port: '80'
-  server: 82.213.5.50
-  tls: false
-  type: vmess
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-  ws-opts:
-    headers:
-      Host: irisoft.servecounterstrike.com
-    path: /@forwardv2ray
-- name: 1|_CN_->_CZ_
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10846
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_UA_
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10845
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_US__2
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_US__4
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_US__3
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10838
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 80
-  server: 172.67.146.69
-  tls: false
-  type: vmess
-  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
-  ws-opts:
-    headers:
-      Host: periodically-microwave-firms-abc.trycloudflare.com
-    path: ae8e857abf1d?ed=2048
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: a34db467-5757-4a39-bfed-d89a6501973e
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 3,12,17|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '8080'
-  server: 104.17.30.111
-  tls: false
-  type: vmess
-  uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-  ws-opts:
-    headers:
-      Host: asan3.azad2.tech
-    path: /
-- name: 1|_AU_->_US_
-  network: ws
-  password: b59ee60f-9fa4-4770-b6a7-288620147f60
-  port: 443
-  server: 192.65.217.247
-  skip-cert-verify: true
-  sni: k5us2.yfjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: k5us2.yfjc.sbs
-    path: /yfjc/kus2
 - grpc-opts:
     grpc-service-name: 443trojan
   name: 1|_US_->_DE__13
@@ -165,27 +176,3 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 1|_US_->_RU_
-  network: ws
-  password: gviRoLVUKA5kBX2M0gJSvg
-  port: 2083
-  server: cdn-16.cdn2cdn.com
-  skip-cert-verify: true
-  sni: cdn16.cdn2cdn.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,6,17|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '80'
-  server: 104.21.79.143
-  tls: false
-  type: vmess
-  uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
-  ws-opts:
-    headers:
-      Host: periodically-microwave-firms-abc.trycloudflare.com
-    path: ae8e857abf1d?ed=2048
