@@ -1,5 +1,11 @@
 proxies:
 - cipher: aes-256-cfb
+  name: 1|_FR__2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
+- cipher: aes-256-cfb
   name: 1|_FR__1
   password: f8f7aCzcPKbsF8p3
   port: 989
@@ -7,7 +13,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,12,13|法国OVH 16
+  name: 11,13|法国 国际航空电讯集团公司(SITA)
+  network: tcp
+  port: 8080
+  server: 57.129.16.96
+  tls: false
+  type: vmess
+  uuid: d059bdd0-5dfc-5496-9ac1-025dffb1520b
+- alterId: 0
+  cipher: auto
+  name: 11|法国OVH 16
   network: ws
   port: '10000'
   server: 51.77.200.55
@@ -19,18 +34,3 @@ proxies:
     headers:
       Host: ''
     path: /vpnjantit
-- alterId: 0
-  cipher: auto
-  name: 11,13|法国 国际航空电讯集团公司(SITA)
-  network: tcp
-  port: 8080
-  server: 57.129.16.96
-  tls: false
-  type: vmess
-  uuid: d059bdd0-5dfc-5496-9ac1-025dffb1520b
-- cipher: aes-256-cfb
-  name: 1|_FR__2
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.159.111.208
-  type: ss
