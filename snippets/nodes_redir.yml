@@ -1,28 +1,57 @@
 proxies:
-- name: 1|_AU_->_US__2
+- alterId: 0
+  cipher: auto
+  name: 1|_SC_->_HK_
   network: ws
-  password: b59ee60f-9fa4-4770-b6a7-288620147f60
-  port: 443
-  server: 192.65.217.200
+  port: 1111
+  server: 156.251.226.106
   skip-cert-verify: true
-  sni: k6us1.yfjc.sbs
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
   ws-opts:
     headers:
-      host: k6us1.yfjc.sbs
-    path: /yfjc/kus1
-- name: 1|_AU_->_US__1
+      host: hk-300.changding.tech
+    path: /changding-tls0?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,7,17|🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港
   network: ws
-  password: b59ee60f-9fa4-4770-b6a7-288620147f60
-  port: 443
-  server: 192.65.217.247
-  skip-cert-verify: true
-  sni: k5us2.yfjc.sbs
-  type: trojan
-  udp: true
+  port: '1111'
+  server: 156.251.226.106
+  tls: false
+  type: vmess
+  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
   ws-opts:
-    path: /yfjc/kus2
+    headers:
+      Host: hk-300.changding.tech
+    path: /changding-tls0?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,7,11,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
+  network: ws
+  port: '80'
+  server: glasco.fx-trader.shop
+  tls: false
+  type: vmess
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  ws-opts:
+    headers:
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,7,17|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其
+  network: ws
+  port: '80'
+  server: 82.213.5.50
+  tls: false
+  type: vmess
+  uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
+  ws-opts:
+    headers:
+      Host: tabyan205.serveftp.com
+    path: /@forwardv2ray
 - grpc-opts:
     grpc-service-name: 443trojan
   name: 1|_US_->_DE__3
@@ -35,20 +64,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_UA_
-  network: ws
-  port: 80
-  server: glasco.fx-trader.shop
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-  ws-opts:
-    headers:
-      host: v3ra3do.wakeuptimerap.shop
-    path: /
 - alterId: 0
   cipher: auto
   name: 1|_PS_->_TR_
@@ -86,19 +101,30 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,7,11,12,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
+- name: 1|_AU_->_US__1
   network: ws
-  port: '80'
-  server: glasco.fx-trader.shop
-  tls: false
-  type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  password: b59ee60f-9fa4-4770-b6a7-288620147f60
+  port: 443
+  server: 192.65.217.247
+  skip-cert-verify: true
+  sni: k5us2.yfjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /yfjc/kus2
+- name: 1|_AU_->_US__2
+  network: ws
+  password: b59ee60f-9fa4-4770-b6a7-288620147f60
+  port: 443
+  server: 192.65.217.200
+  skip-cert-verify: true
+  sni: k6us1.yfjc.sbs
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
+      host: k6us1.yfjc.sbs
+    path: /yfjc/kus1
 - alterId: 0
   cipher: auto
   name: 7|🇺🇸_US_美国->🇺🇦_UA_乌克兰
@@ -114,41 +140,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,17|🇹🇷 _PS_巴勒斯坦->🇹🇷_TR_土耳其
+  name: 1|_US_->_UA_
   network: ws
-  port: '80'
-  server: 82.213.5.50
-  tls: false
-  type: vmess
-  uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
-  ws-opts:
-    headers:
-      Host: tabyan205.serveftp.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 1|_SC_->_HK_
-  network: ws
-  port: 1111
-  server: 156.251.226.106
+  port: 80
+  server: glasco.fx-trader.shop
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   ws-opts:
     headers:
-      host: hk-300.changding.tech
-    path: /changding-tls0?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,7,17|🇭🇰 _SC_塞舌尔->🇭🇰_HK_香港
-  network: ws
-  port: '1111'
-  server: 156.251.226.106
-  tls: false
-  type: vmess
-  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
-  ws-opts:
-    headers:
-      Host: hk-300.changding.tech
-    path: /changding-tls0?ed=2048
+      host: v3ra3do.wakeuptimerap.shop
+    path: /
