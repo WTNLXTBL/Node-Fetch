@@ -1,4 +1,33 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
+  server: 38.147.191.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '40702'
+  server: 112.28.208.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 15,16|🇭🇰 香港4|@ripaojiedian
@@ -15,51 +44,6 @@ proxies:
       Host: www.46130221.xyz
     path: /path/143534141104
 - cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,13|🇭🇰_HK_香港
-  network: ws
-  port: 443
-  server: 199.15.76.35
-  tls: true
-  type: vmess
-  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
-  ws-opts:
-    headers:
-      Host: hk-300.changding.tech
-    path: /changding-tls1?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
-  port: 19511
-  server: nc.cn2.go002.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  password: bfgph2xwr4q
-  port: 56001
-  server: ef30833c.h2m5m5m7s3-fb-hk01.6pzfwf.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -73,35 +57,52 @@ proxies:
   port: 443
   server: 1.65.139.54
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: bfgph2xwr4q
+  port: 56001
+  server: ef30833c.h2m5m5m7s3-fb-hk01.6pzfwf.com
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
-  server: 38.147.191.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '40702'
-  server: 112.28.208.14
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港 Amazon数据中心
+  name: 1|_HK_
   network: ws
-  port: 80
-  server: ap-northeast-anycast.lnaspiring.com
-  tls: false
+  port: 443
+  server: 199.15.76.35
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
+  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
   ws-opts:
     headers:
-      Host: jpli.edge.233.tw
-    path: /geg/45?ed=2048
+      host: hk-300.changding.tech
+    path: /changding-tls1?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,7,11,13|🇭🇰 _HK_香港
+  network: ws
+  port: '443'
+  server: 199.15.76.35
+  tls: true
+  type: vmess
+  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
+  ws-opts:
+    headers:
+      Host: hk-300.changding.tech
+    path: /changding-tls1?ed=2048
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
+  port: 19511
+  server: nc.cn2.go002.xyz
+  type: ss
