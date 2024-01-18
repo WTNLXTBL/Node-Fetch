@@ -1,10 +1,44 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: a1e5cc7:108142
+    mode: tls
+  port: 2377
+  server: 125.227.83.24
+  type: ss
+- cipher: aes-128-gcm
+  name: 15|🇹🇼 台湾KT|@ripaojiedian
+  password: oiwym4ovI4Yb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 122.118.171.6
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 12,13|github.com/freefq - 台湾省新北市中华电信...
+  name: 11|台湾省新竹市 中华电信
   network: tcp
-  port: '12002'
-  server: nb22.ntbq.dynu.net
+  port: 2024
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
+- alterId: 0
+  cipher: auto
+  name: 12,16|github.com/freefq - 台湾省台中市中华电信...
+  network: tcp
+  port: '6122'
+  server: c12.twtc.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -19,12 +53,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 99e39047-9298-404e-b632-1867f7ed1b37
-  port: 7773
-  server: b13.ntbq.dynu.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11|台湾省台北市 中华电信
@@ -35,37 +63,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省新竹市 中华电信
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-- alterId: 0
-  cipher: auto
-  name: 12,13|github.com/freefq - 台湾省台中市中华电信...
-  network: tcp
-  port: '6122'
-  server: c12.twtc.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 60ab817e-0566-44cb-becd-6b51698d5672
-- cipher: aes-128-gcm
-  name: 15|🇹🇼 台湾KT|@ripaojiedian
-  password: oiwym4ovI4Yb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 122.118.169.169
-  type: ss
