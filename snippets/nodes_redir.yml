@@ -1,7 +1,16 @@
 proxies:
+- name: 1|_CN_->_US__4
+  network: tcp
+  password: 66c899df-785c-4290-9c10-74a62b3ddd2b
+  port: 10847
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,11|🇺🇸_US_美国->🇺🇦_UA_乌克兰
+  name: 7|🇺🇸_US_美国->🇺🇦_UA_乌克兰
   network: ws
   port: 80
   server: glasco.fx-trader.shop
@@ -14,21 +23,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,17|🇹🇷 _UA_乌克兰->🇹🇷_TR_土耳其
+  name: '7|🇺🇸_US_美国->🇺🇦_UA_乌克兰 #1'
   network: ws
-  port: '80'
-  server: 185.158.211.186
+  port: 80
+  server: 104.17.2.183
   tls: false
   type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   ws-opts:
     headers:
-      Host: softiri.serveirc.com
-    path: /@forwardv2ray
-- name: 1|_CN_->_US__3
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
+- name: 1|_CN_->_CZ_
   network: tcp
   password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-  port: 10850
+  port: 10846
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -43,37 +52,19 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-- name: 1|_CN_->_US__4
-  network: tcp
-  password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '7,11|🇺🇸_US_美国->🇺🇦_UA_乌克兰 #1'
+  name: 0,3,4,6,7,17|🇹🇷 _UA_乌克兰->🇹🇷_TR_土耳其
   network: ws
-  port: 80
-  server: 104.17.2.183
+  port: '80'
+  server: 185.158.211.186
   tls: false
   type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
   ws-opts:
     headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
+      Host: softiri.serveirc.com
+    path: /@forwardv2ray
 - name: 1|_CN_->_UA_
   network: tcp
   password: 66c899df-785c-4290-9c10-74a62b3ddd2b
@@ -87,6 +78,15 @@ proxies:
   network: tcp
   password: 66c899df-785c-4290-9c10-74a62b3ddd2b
   port: 10837
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_AT_
+  network: tcp
+  password: 66c899df-785c-4290-9c10-74a62b3ddd2b
+  port: 10848
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -106,10 +106,10 @@ proxies:
     headers:
       host: softiri.serveirc.com
     path: /@forwardv2ray
-- name: 1|_CN_->_CZ_
+- name: 1|_CN_->_US__3
   network: tcp
   password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-  port: 10846
+  port: 10850
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
