@@ -1,10 +1,21 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '41492'
+  server: 120.232.242.91
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
   server: 38.147.191.185
-  skip-cert-verify: false
+  servername: ''
   tls: false
   type: vmess
   uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
@@ -18,22 +29,6 @@ proxies:
   port: 80
   server: 8.217.53.93
   type: ss
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: f0a383b8-7c0e-429d-bda8-06d1cf08b0f5
-  port: 42336
-  server: gaosu.laotiehj6.top
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '41492'
-  server: 120.232.242.91
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -50,11 +45,16 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
   server: 38.147.191.185
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: f0a383b8-7c0e-429d-bda8-06d1cf08b0f5
+  port: 42336
+  server: gaosu.laotiehj6.top
+  type: ss
