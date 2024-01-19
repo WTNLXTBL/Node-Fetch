@@ -1,37 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7|🇺🇸_US_美国
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
+  name: 10|🇺🇸美国04
+  network: tcp
+  port: '36501'
+  server: 3u1s04.abzoones.xyz
+  servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: 93e03d23-2a3d-4ea1-99e7-c25119b47c06
+- alterId: 0
+  cipher: auto
+  name: 12,13|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: '8080'
+  server: world4.freedomisnear.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 030cfa27-c17a-4f74-8de7-aaeb1a0d8d43
   ws-opts:
     headers:
-      Host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+      Host: world4.freedomisnear.fun
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】美国 05 | 1x US
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
   network: tcp
-  port: '31506'
-  server: 4a2u0a05.m1k2s.xyz
-  servername: us05.lovemc.xyz
-  tls: true
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 5cb092ca-7468-458f-8a7c-2fb661d7de66
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸美国06
-  network: tcp
-  port: '36511'
-  server: 3u1s06.abzoones.xyz
-  servername: us06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4a3fc7d8-4dec-4f81-b8ab-411c65e9c87b
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸|US|美国|@wxgqlfx|6
@@ -48,6 +49,77 @@ proxies:
     path: /geg/44?ed=2048
 - alterId: 0
   cipher: auto
+  name: 10|🇺🇸美国05
+  network: tcp
+  port: '36506'
+  server: 3u1s05.abzoones.xyz
+  servername: us05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 93e03d23-2a3d-4ea1-99e7-c25119b47c06
+- alterId: 0
+  cipher: auto
+  name: 10|🇺🇸美国06
+  network: tcp
+  port: '36511'
+  server: 3u1s06.abzoones.xyz
+  servername: us06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 93e03d23-2a3d-4ea1-99e7-c25119b47c06
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|7
+  network: ws
+  port: '2052'
+  server: world120.freedomisnear.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95a06bf3-7cf0-40f2-bab1-3da4cae7c4f5
+  ws-opts:
+    headers:
+      Host: world120.freedomisnear.fun
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 7|🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      Host: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|5
+  network: ws
+  port: '2052'
+  server: world8.freedomisnear.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3209459-5d66-4082-a70d-472811aff2b3
+  ws-opts:
+    headers:
+      Host: world8.freedomisnear.fun
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】美国 04 | 1x US
+  network: tcp
+  port: '31501'
+  server: 4a2u0a04.m1k2s.xyz
+  servername: us04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 56c78b90-427d-4eea-a02d-98898e646f24
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】美国 06 | 1x US
   network: tcp
   port: '31511'
@@ -55,21 +127,31 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5cb092ca-7468-458f-8a7c-2fb661d7de66
+  uuid: 56c78b90-427d-4eea-a02d-98898e646f24
 - alterId: 0
-  cipher: auto
-  name: 13,15,16|🇺🇸|US|美国|@wxgqlfx|9
+  cipher: aes-128-gcm
+  name: 11,12,15,16|美国CloudFlare公司CDN节点 9
   network: ws
-  port: '2082'
-  server: cfcdn1.sanfencdn9.com
+  port: '80'
+  server: glaSco.fx-trAder.shop
   servername: ''
   tls: false
   type: vmess
-  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
   ws-opts:
     headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-    path: /video/CuTy87zAzV/
+      Host: vvv2vayo2.everythingisreve.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】美国 05 | 1x US
+  network: tcp
+  port: '31506'
+  server: 4a2u0a05.m1k2s.xyz
+  servername: us05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 56c78b90-427d-4eea-a02d-98898e646f24
 - alterId: 0
   cipher: auto
   name: 8,9|🇺🇸 United States 01 @nodpai
@@ -85,35 +167,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|4
-  network: ws
-  port: '8080'
-  server: world4.freedomisnear.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 030cfa27-c17a-4f74-8de7-aaeb1a0d8d43
-  ws-opts:
-    headers:
-      Host: world4.freedomisnear.fun
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 11,15,16|美国CloudFlare公司CDN节点 9
-  network: ws
-  port: '80'
-  server: glaSco.fx-trAder.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-  ws-opts:
-    headers:
-      Host: vvv2vayo2.everythingisreve.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,12,15,16|美国CloudFlare节点 10
+  name: 11,15,16|美国CloudFlare节点 10
   network: ws
   port: 2052
   server: cfcdn3.sanfencdn9.com
@@ -140,6 +194,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13,15,16|🇺🇸|US|美国|@wxgqlfx|9
+  network: ws
+  port: '2082'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  ws-opts:
+    headers:
+      Host: us4Bb5oSgJA.fzbqfrse.xyz
+    path: /video/CuTy87zAzV/
+- alterId: 0
+  cipher: auto
   name: 13|🇺🇸|US|美国|@wxgqlfx|8
   network: ws
   port: 2082
@@ -153,50 +221,6 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】美国 04 | 1x US
-  network: tcp
-  port: '31501'
-  server: 4a2u0a04.m1k2s.xyz
-  servername: us04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5cb092ca-7468-458f-8a7c-2fb661d7de66
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|5
-  network: ws
-  port: '2052'
-  server: world8.freedomisnear.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3209459-5d66-4082-a70d-472811aff2b3
-  ws-opts:
-    headers:
-      Host: world8.freedomisnear.fun
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸美国04
-  network: tcp
-  port: '36501'
-  server: 3u1s04.abzoones.xyz
-  servername: us04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4a3fc7d8-4dec-4f81-b8ab-411c65e9c87b
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
   network: tcp
   port: '22324'
@@ -205,27 +229,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 10|🇺🇸美国05
-  network: tcp
-  port: '36506'
-  server: 3u1s05.abzoones.xyz
-  servername: us05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4a3fc7d8-4dec-4f81-b8ab-411c65e9c87b
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|7
-  network: ws
-  port: '2052'
-  server: world120.freedomisnear.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95a06bf3-7cf0-40f2-bab1-3da4cae7c4f5
-  ws-opts:
-    headers:
-      Host: world120.freedomisnear.fun
-    path: /@forwardv2ray
