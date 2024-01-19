@@ -1,18 +1,13 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
+  server: 38.147.191.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -29,15 +24,6 @@ proxies:
   port: 42336
   server: gaosu.laotiehj6.top
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
-  server: 38.147.191.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - alterId: 64
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -48,6 +34,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.139.54
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
