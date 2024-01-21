@@ -1,26 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: f8npKgNzdkss2ytn
-  port: 9088
-  server: 103.172.116.79
-  type: ss
-- cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.142.250.63
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 02de5ee4-7521-4a7c-a4ab-1ac760c514da
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -30,7 +8,43 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8548e0fc-7267-4780-9b4e-d3cfca6afb13
+  uuid: f2644194-b6d1-4561-9708-778f179d6671
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 18be0286-c25f-4eda-96b1-6e1661f00d62
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  server: 103.172.116.79
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f2644194-b6d1-4561-9708-778f179d6671
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f2644194-b6d1-4561-9708-778f179d6671
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇸🇬 SG-8.219.80.233...
@@ -41,46 +55,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 0c0c1706-19cb-4c87-a8d9-70059699efa3
-- cipher: aes-256-cfb
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.1.194.182
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 02de5ee4-7521-4a7c-a4ab-1ac760c514da
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 8548e0fc-7267-4780-9b4e-d3cfca6afb13
-- alterId: 0
-  cipher: auto
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 80
-  server: 104.17.25.2
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
-  ws-opts:
-    headers:
-      Host: sgvpn.catnipballs.gay
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
@@ -97,21 +71,47 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 80
+  server: 104.17.25.2
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 02de5ee4-7521-4a7c-a4ab-1ac760c514da
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  ws-opts:
+    headers:
+      Host: sgvpn.catnipballs.gay
+    path: /
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.1.194.182
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8548e0fc-7267-4780-9b4e-d3cfca6afb13
+  uuid: 18be0286-c25f-4eda-96b1-6e1661f00d62
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.142.250.63
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 18be0286-c25f-4eda-96b1-6e1661f00d62
