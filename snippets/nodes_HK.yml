@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '10241'
-  server: 38.147.191.185
+  port: '30515'
+  server: 103.30.76.173
   servername: ''
   tls: false
   type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+  uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -23,6 +23,25 @@ proxies:
   port: 443
   server: 1.65.223.223
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 30515
+  server: 103.30.76.173
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -47,36 +66,3 @@ proxies:
   tls: false
   type: vmess
   uuid: fd9f5a81-4d40-40b3-eb2f-dfe0a4e7bb2a
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 30515
-  server: 103.30.76.173
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
-- alterId: 0
-  cipher: auto
-  name: 15,16|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
-  ws-opts:
-    headers:
-      Host: yvhnbevxhk1.yofnhkfc.xyz
-    path: /video/34kKXbLM
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '30515'
-  server: 103.30.76.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
