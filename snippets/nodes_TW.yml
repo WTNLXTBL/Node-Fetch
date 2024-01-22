@@ -1,6 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,12,16|台湾省桃园市中华电信 6
+  network: tcp
+  port: 21353
+  server: 1.162.139.104
+  tls: false
+  type: vmess
+  uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
+- alterId: 0
+  cipher: auto
+  name: 11,12,13|台湾省新北市中华电信 5
+  network: tcp
+  port: 4443
+  server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+- alterId: 0
+  cipher: auto
   name: 11,13|台湾省新北市中华电信 17
   network: tcp
   port: 2024
@@ -14,6 +33,16 @@ proxies:
   network: tcp
   port: '6122'
   server: c12.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+- alterId: 0
+  cipher: auto
+  name: 11,13|台湾省新竹市中华电信 1
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -39,34 +68,5 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 61.224.106.215
+  server: 61.224.79.197
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省桃园市中华电信 6
-  network: tcp
-  port: 21353
-  server: 1.162.139.104
-  tls: false
-  type: vmess
-  uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
-- alterId: 0
-  cipher: auto
-  name: 11,12|台湾省新北市中华电信 5
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
-- alterId: 0
-  cipher: auto
-  name: 11,13|台湾省新竹市中华电信 1
-  network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
