@@ -1,13 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🇹🇼|TW|台湾|@wxgqlfx|6
+  name: 11,16|台湾省桃园市中华电信 5
   network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
+  port: 21353
+  server: 1.162.139.104
+  tls: false
+  type: vmess
+  uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
+- alterId: 0
+  cipher: auto
+  name: 12,13|github.com/freefq - 台湾省晟崴科技股份有...
+  network: ws
+  port: '80'
+  server: 3SAO.5GTOCDOCAO.COM
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: lienquan.garena.vn
+    path: /5gtocdocao.com
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 13|台湾-166.2KB/s
+  network: tcp
+  port: 6122
+  server: c12.twtc.dynu.net
   tls: false
   type: vmess
   uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
+- alterId: 0
+  cipher: auto
+  name: 11,12,13|台湾省新竹市 中华电信
+  network: tcp
+  port: '4443'
+  server: nb24.ntbq.dynu.net
+  tls: false
+  type: vmess
+  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
 - cipher: aes-128-gcm
   name: 15|🇹🇼 台湾KT|@ripaojiedian
   password: oiwym4ovI4Yb
@@ -24,39 +56,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|台湾省新竹市 中华电信
+  name: 13|台湾【TG：@ccbaohe】定时更新节点订阅
   network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 台湾省南投县中华电信...
-  network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 台湾省中华电信(Hi...
-  network: tcp
-  port: 2024
+  port: '2024'
   server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
   uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
-- alterId: 0
-  cipher: auto
-  name: 11,16|台湾省桃园市中华电信 5
-  network: tcp
-  port: 21353
-  server: 1.162.139.104
-  tls: false
-  type: vmess
-  uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
