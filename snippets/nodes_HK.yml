@@ -1,18 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.243.59.144
-  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -32,17 +18,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-82.153.1.40:8...
-  network: ws
-  port: '80'
-  server: 82.153.1.40
-  tls: false
-  type: vmess
-  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
-  ws-opts:
-    path: /4regrdfvx
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -67,3 +42,17 @@ proxies:
   tls: false
   type: vmess
   uuid: d027cd70-ed8b-4cb6-98f3-fc6b974d086c
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.243.59.144
+  type: ss
