@@ -1,4 +1,57 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,11,17|🇩🇪 _DE_德国->🇫🇷_FR_法国
+  network: ws
+  port: '443'
+  server: yx.zhke.cf
+  tls: true
+  type: vmess
+  uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
+  ws-opts:
+    headers:
+      Host: h196-fr.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R
+- name: 1|_US_->_CA__1
+  network: ws
+  password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+  port: 443
+  server: 167.68.11.221
+  skip-cert-verify: true
+  sni: k6us3.djjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: k6us3.djjc.sbs
+    path: /djjc/us3
+- name: 1|_US_->_DE_
+  network: ws
+  password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+  port: 443
+  server: 209.46.30.106
+  skip-cert-verify: true
+  sni: nl4.djjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: nl4.djjc.sbs
+    path: /djjc/nl1
+- alterId: 0
+  cipher: auto
+  name: 1|_LU_->_TR_
+  network: ws
+  port: 80
+  server: 202.78.162.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  ws-opts:
+    headers:
+      host: irisoft.servecounterstrike.com
+    path: /@forwardv2ray
 - name: 1|_CN_->_US__3
   network: tcp
   password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
@@ -8,15 +61,19 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-- name: 1|_CN_->_CZ_
-  network: tcp
-  password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
-  port: 10846
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,17|🇱🇺 _LU_卢森堡->🇹🇷_TR_土耳其
+  network: ws
+  port: '80'
+  server: 202.78.162.6
+  tls: false
+  type: vmess
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  ws-opts:
+    headers:
+      Host: irisoft.servecounterstrike.com
+    path: /@forwardv2ray
 - name: 1|_US_->_CA__2
   network: ws
   password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
@@ -45,58 +102,6 @@ proxies:
     path: /djjc/de1
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,12,17|🇱🇺 _LU_卢森堡->🇹🇷_TR_土耳其
-  network: ws
-  port: '80'
-  server: 202.78.162.6
-  tls: false
-  type: vmess
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-  ws-opts:
-    headers:
-      Host: irisoft.servecounterstrike.com
-    path: /@forwardv2ray
-- name: 1|_LU_->_CA_
-  network: ws
-  password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
-  port: 443
-  server: 188.42.145.11
-  skip-cert-verify: true
-  sni: k2us2.djjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: k2us2.djjc.sbs
-    path: /djjc/us2
-- name: 1|_US_->_DE_
-  network: ws
-  password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
-  port: 443
-  server: 209.46.30.106
-  skip-cert-verify: true
-  sni: nl4.djjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nl4.djjc.sbs
-    path: /djjc/nl1
-- name: 1|_US_->_CA__1
-  network: ws
-  password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
-  port: 443
-  server: 167.68.11.221
-  skip-cert-verify: true
-  sni: k6us3.djjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: k6us3.djjc.sbs
-    path: /djjc/us3
-- alterId: 0
-  cipher: auto
   name: 1|_DE_->_FR_
   network: ws
   port: 443
@@ -118,20 +123,6 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_LU_->_TR_
-  network: ws
-  port: 80
-  server: 202.78.162.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-  ws-opts:
-    headers:
-      host: irisoft.servecounterstrike.com
-    path: /@forwardv2ray
 - name: 1|_CN_->_UA_
   network: tcp
   password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
@@ -141,19 +132,28 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,7,11,12,17|🇩🇪 _DE_德国->🇫🇷_FR_法国
+- name: 1|_LU_->_CA_
   network: ws
-  port: '443'
-  server: yx.zhke.cf
-  tls: true
-  type: vmess
-  uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
+  password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+  port: 443
+  server: 188.42.145.11
+  skip-cert-verify: true
+  sni: k2us2.djjc.sbs
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: h196-fr.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
+      host: k2us2.djjc.sbs
+    path: /djjc/us2
+- name: 1|_CN_->_CZ_
+  network: tcp
+  password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
+  port: 10846
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
 - name: 1|_CN_->_US__1
   network: tcp
   password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
@@ -163,3 +163,16 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,11,12|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
