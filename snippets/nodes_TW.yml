@@ -1,25 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|台湾省新北市中华电信 1
-  network: tcp
-  port: '4443'
-  server: 61.228.149.57
-  tls: false
-  type: vmess
-  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
-- alterId: 0
-  cipher: auto
-  name: 11,12,13|台湾省新北市中华电信 11
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
-- alterId: 0
-  cipher: auto
   name: 12,13|github.com/freefq - 台湾省中华电信(Hi...
   network: tcp
   port: 2024
@@ -27,17 +8,16 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
+  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
 - alterId: 0
   cipher: auto
-  name: 12,13|github.com/freefq - 台湾省新竹市中华电信...
+  name: 13|🇹🇼|TW|台湾|@wxgqlfx|1
   network: tcp
-  port: '12002'
-  server: nb22.ntbq.dynu.net
-  servername: ''
+  port: 12002
+  server: 114.37.155.245
   tls: false
   type: vmess
-  uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
+  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
 - cipher: aes-128-gcm
   name: 15|🇹🇼 台湾KT|@ripaojiedian
   password: oiwym4ovI4Yb
@@ -54,10 +34,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇹🇼|TW|台湾|@wxgqlfx|1
+  name: 11,13|台湾省新北市中华电信 11
   network: tcp
-  port: 12002
-  server: 114.37.155.245
+  port: 4443
+  server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
+- alterId: 0
+  cipher: auto
+  name: 11|台湾省新北市中华电信 1
+  network: tcp
+  port: '4443'
+  server: 61.228.149.57
   tls: false
   type: vmess
   uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
