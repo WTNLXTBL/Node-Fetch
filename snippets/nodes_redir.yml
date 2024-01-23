@@ -1,8 +1,8 @@
 proxies:
-- name: 1|_CN_->_US_
+- name: 1|_CN_->_AT_
   network: tcp
   password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
-  port: 10847
+  port: 10848
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -21,6 +21,21 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- name: 1|_CN_->_US_
+  network: tcp
+  password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
+  port: 10847
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|_CN_->_IN_
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 21003
+  server: service.ouluyun9803.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 1|_US_->_FR_
@@ -35,18 +50,3 @@ proxies:
     headers:
       host: s1c.v2.v001sss.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 1|_CN_->_IN_
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 21003
-  server: service.ouluyun9803.com
-  type: ss
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
