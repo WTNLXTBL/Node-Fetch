@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 3,6,17|🇩🇪 _DE_德国->🇫🇷_FR_法国
-  network: ws
-  port: '443'
-  server: yx.zhke.cf
-  tls: true
-  type: vmess
-  uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
-  ws-opts:
-    headers:
-      Host: h196-fr.kxnn.eu.org
-    path: /D26xvdqUdCpvvPTz4R
 - name: 1|_CN_->_AT_
   network: tcp
   password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
@@ -21,6 +8,60 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 6|🇱🇺_LU_卢森堡->🇹🇷_TR_土耳其
+  network: ws
+  port: 80
+  server: 202.78.162.6
+  tls: false
+  type: vmess
+  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+  ws-opts:
+    headers:
+      Host: irisoft.servecounterstrike.com
+    path: /@forwardv2ray
+- name: 1|_CN_->_US_
+  network: tcp
+  password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
+  port: 10847
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|_CN_->_IN_
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 21003
+  server: service.ouluyun9803.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,7,11,12,17|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: s1c.v2.v001sss.xyz
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6|🇩🇪_DE_德国->🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: yx.zhke.cf
+  tls: true
+  type: vmess
+  uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
+  ws-opts:
+    headers:
+      Host: h196-fr.kxnn.eu.org
+    path: /D26xvdqUdCpvvPTz4R
 - alterId: 0
   cipher: auto
   name: 1,11|_US_->_FR_
@@ -35,44 +76,3 @@ proxies:
     headers:
       host: s1c.v2.v001sss.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 3,6,17|🇱🇺 _LU_卢森堡->🇹🇷_TR_土耳其
-  network: ws
-  port: '80'
-  server: 202.78.162.6
-  tls: false
-  type: vmess
-  uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-  ws-opts:
-    headers:
-      Host: irisoft.servecounterstrike.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 0,4,7,11,12|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 1|_CN_->_IN_
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 21003
-  server: service.ouluyun9803.com
-  type: ss
-- name: 1|_CN_->_US_
-  network: tcp
-  password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
