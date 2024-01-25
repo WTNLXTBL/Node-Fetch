@@ -1,17 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-52.184.85.1...
-  network: ws
-  port: 14572
-  server: 52.184.85.135
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
   tls: false
   type: vmess
-  uuid: 5deb517b-2512-42bb-f48d-9267327efa4e
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /xROAST
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+- alterId: 0
+  cipher: auto
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 10241
+  server: 38.147.191.185
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -42,20 +48,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '10241'
-  server: 38.147.191.185
-  servername: ''
+  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-52.184.85.1...
+  network: ws
+  port: 14572
+  server: 52.184.85.135
   tls: false
   type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
-- alterId: 0
-  cipher: auto
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 10241
-  server: 38.147.191.185
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
+  uuid: 5deb517b-2512-42bb-f48d-9267327efa4e
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /xROAST
