@@ -1,11 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-114.37.142.2...
+  name: 11,12|台湾省南投县 中华电信
   network: tcp
-  port: 4443
-  server: 114.37.142.251
-  servername: ''
+  port: 6122
+  server: 36.232.158.210
+  tls: false
+  type: vmess
+  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
+- alterId: 0
+  cipher: auto
+  name: '11,12,13,16|台湾省南投县 中华电信 #1'
+  network: tcp
+  port: 6122
+  server: c12.twtc.dynu.net
   tls: false
   type: vmess
   uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
@@ -21,26 +29,27 @@ proxies:
   uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef
 - alterId: 0
   cipher: auto
-  name: 13|台湾【TG：@ccbaohe】定时更新节点订阅 2
+  name: 13|台湾【TG：@ccbaohe】定时更新节点订阅 6
   network: tcp
   port: 4443
   server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
+  uuid: b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4
 - alterId: 0
   cipher: auto
-  name: '11,12,13,16|台湾省南投县 中华电信 #1'
+  name: 11,13|台湾省 中华电信(HiNet)数据中心
   network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
+  port: 12002
+  server: 118.167.69.122
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
+  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
 - alterId: 0
   cipher: auto
-  name: 11,12,16|台湾省中华电信(HiNet)数据中心 3
+  name: 11,12,13|台湾省中华电信(HiNet)数据中心 3
   network: tcp
   port: 2024
   server: 118.167.76.233
@@ -54,25 +63,6 @@ proxies:
   port: 2024
   server: b23.ntbq.dynu.net
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-- alterId: 0
-  cipher: auto
-  name: 11,13|台湾省 中华电信(HiNet)数据中心
-  network: tcp
-  port: 12002
-  server: 118.167.69.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
-- alterId: 0
-  cipher: auto
-  name: 11,12,13,16|台湾省南投县 中华电信
-  network: tcp
-  port: 6122
-  server: 36.232.158.210
   tls: false
   type: vmess
   uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
