@@ -13,6 +13,20 @@ proxies:
   port: 443
   server: 47.243.59.144
   type: ss
+- cipher: aes-128-gcm
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.223.223
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -23,20 +37,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
-- alterId: 0
-  cipher: auto
-  name: 15,16|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 80
-  server: 104.156.85.242
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d5dc4073-06c1-40d6-96df-2df86f0ad713
-  ws-opts:
-    headers:
-      Host: zhejiang2024.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -56,17 +56,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
-- cipher: aes-128-gcm
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.223.223
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15,16|🇭🇰 香港4|@ripaojiedian
+  network: ws
+  port: 80
+  server: 104.156.85.242
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d5dc4073-06c1-40d6-96df-2df86f0ad713
+  ws-opts:
+    headers:
+      Host: zhejiang2024.com
+    path: /
