@@ -1,23 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.70.2...
-  network: tcp
-  port: '12002'
-  server: 118.167.70.229
-  servername: ''
+  name: 11,12|台湾省 晟崴科技股份有限公司
+  network: ws
+  port: '80'
+  server: 103.118.29.229
   tls: false
   type: vmess
-  uuid: 04b694b2-7022-4767-801b-6d21611f548b
-- alterId: 0
-  cipher: auto
-  name: 11,12,16|台湾省中华电信(HiNet)数据中心 11
-  network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
-  tls: false
-  type: vmess
-  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: lienquan.garena.vn
+    path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
   name: 13|🇹🇼|TW|台湾|@wxgqlfx|1
@@ -29,17 +23,13 @@ proxies:
   uuid: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
 - alterId: 0
   cipher: auto
-  name: 11|台湾省 晟崴科技股份有限公司
-  network: ws
-  port: '80'
-  server: 103.118.29.229
+  name: 11,12,16|台湾省中华电信(HiNet)数据中心 11
+  network: tcp
+  port: 6122
+  server: c12.twtc.dynu.net
   tls: false
   type: vmess
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  ws-opts:
-    headers:
-      Host: lienquan.garena.vn
-    path: /5gtocdocao.com
+  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
 - alterId: 0
   cipher: auto
   name: 16|台湾|@ripaojiedian
@@ -61,6 +51,12 @@ proxies:
   type: vmess
   uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
 - cipher: aes-128-gcm
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 91491792-77B1-4ED6-BD01-52DC46B81AD0
+  port: 10027
+  server: taiwan.speed-mitce.top
+  type: ss
+- cipher: aes-128-gcm
   name: 15|🇹🇼 台湾KT|@ripaojiedian
   password: oiwym4ovI4Yb
   plugin: v2ray-plugin
@@ -74,9 +70,13 @@ proxies:
   port: 443
   server: 122.118.138.244
   type: ss
-- cipher: aes-128-gcm
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 91491792-77B1-4ED6-BD01-52DC46B81AD0
-  port: 10027
-  server: taiwan.speed-mitce.top
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.70.2...
+  network: tcp
+  port: '12002'
+  server: 118.167.70.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04b694b2-7022-4767-801b-6d21611f548b
