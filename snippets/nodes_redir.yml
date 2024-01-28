@@ -1,55 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_RU_
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: '2082'
-  server: 104.18.202.250
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /nina.bond/linkvws
-- alterId: 0
-  cipher: auto
-  name: 0,1,4,6,7|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: '50005'
-  server: 05.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
-- alterId: 0
-  cipher: auto
-  name: 0,4,6,7|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '8080'
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
   name: 0,4,6,7|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
   network: ws
   port: '80'
@@ -63,31 +14,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,13|_US_->_IR__1
+  name: 0,4,6,7,13|🇺🇸 _US_美国->🇮🇷_IR_伊朗
   network: ws
-  port: 8080
+  port: '8080'
   server: www.darkroom.lol
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: www.darkroom.lol
+      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7,11,12,13|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
-  network: ws
-  port: '8080'
-  server: www.crispyrainbow.biz
+  name: 0|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+  network: tcp
+  port: '18287'
+  server: 185.213.165.194
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
+  uuid: 644350df-352f-4d9f-97a0-8dea21d7019d
+- alterId: 0
+  cipher: auto
+  name: 0,1,4,6,7|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: '50005'
+  server: 05.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IR__2
@@ -104,10 +59,55 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-  network: tcp
-  port: '18287'
-  server: 185.213.165.194
+  name: 1|_US_->_IR__1
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 644350df-352f-4d9f-97a0-8dea21d7019d
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,4,6,7,11,13|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
+  network: ws
+  port: '8080'
+  server: www.crispyrainbow.biz
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: '2082'
+  server: 104.18.202.250
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /nina.bond/linkvws
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_RU_
+  network: ws
+  port: 80
+  server: 104.18.15.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  ws-opts:
+    headers:
+      host: er3.889611.com
+    path: /

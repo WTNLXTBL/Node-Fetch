@@ -1,6 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,12,13|台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: '4443'
+  server: nb24.ntbq.dynu.net
+  tls: false
+  type: vmess
+  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
+- alterId: 0
+  cipher: auto
+  name: 13|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: '6122'
+  server: c12.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
+- alterId: 0
+  cipher: auto
   name: 11,12,13|台湾省新竹市 中华电信
   network: tcp
   port: 2024
@@ -8,19 +27,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
-- alterId: 0
-  cipher: auto
-  name: 11,12,13|台湾省晟崴科技股份有限公司 11
-  network: ws
-  port: 80
-  server: 103.118.29.229
-  tls: false
-  type: vmess
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  ws-opts:
-    headers:
-      Host: lienquan.garena.vn
-    path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
   name: '11,12,13,16|台湾省 中华电信(HiNet)数据中心 #1'
@@ -32,19 +38,10 @@ proxies:
   uuid: 04b694b2-7022-4767-801b-6d21611f548b
 - alterId: 0
   cipher: auto
-  name: 11,12,13|台湾省 中华电信(HiNet)数据中心
-  network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
-- alterId: 0
-  cipher: auto
-  name: 13|台湾(yudou66.com 玉豆免费节点)_1
+  name: 11,13|台湾省晟崴科技股份有限公司 11
   network: ws
   port: 80
-  server: 3SAO.5GTOCDOCAO.COM
+  server: 103.118.29.229
   tls: false
   type: vmess
   uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
@@ -64,6 +61,15 @@ proxies:
   uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.77.5...
+  network: tcp
+  port: '4443'
+  server: 118.167.77.5
+  tls: false
+  type: vmess
+  uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
+- alterId: 0
+  cipher: auto
   name: 16|台湾2|@ripaojiedian
   network: tcp
   port: '38011'
@@ -72,3 +78,12 @@ proxies:
   tls: false
   type: vmess
   uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
+- alterId: 0
+  cipher: auto
+  name: 13|🇹🇼|TW|台湾|@wxgqlfx|9
+  network: tcp
+  port: 6122
+  server: 125.224.144.24
+  tls: false
+  type: vmess
+  uuid: 46a8c6ce-0095-4229-9e35-238d6634feca
