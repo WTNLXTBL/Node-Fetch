@@ -1,7 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12,13|github.com/freefq - 台湾省晟崴科技股份有...
+  name: 11,12,13|台湾省新竹市 中华电信
+  network: tcp
+  port: 2024
+  server: 114.37.139.157
+  tls: false
+  type: vmess
+  uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
+- alterId: 0
+  cipher: auto
+  name: 11,12,13|台湾省晟崴科技股份有限公司 11
   network: ws
   port: 80
   server: 103.118.29.229
@@ -14,11 +23,19 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: '12,13|github.com/freefq - 台湾省中华电信(Hi... #1'
+  name: '11,12,13,16|台湾省 中华电信(HiNet)数据中心 #1'
+  network: tcp
+  port: '12002'
+  server: 118.167.70.229
+  tls: false
+  type: vmess
+  uuid: 04b694b2-7022-4767-801b-6d21611f548b
+- alterId: 0
+  cipher: auto
+  name: 11,12,13|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: '4443'
   server: nb24.ntbq.dynu.net
-  servername: ''
   tls: false
   type: vmess
   uuid: bc22f8b6-a366-4c09-812f-64da5a6a15b1
@@ -37,10 +54,10 @@ proxies:
     path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: '12,13|github.com/freefq - 台湾省新竹市中华电信... #1'
+  name: 11,12|台湾省新竹市中华电信 15
   network: tcp
   port: '2024'
-  server: 114.37.139.157
+  server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -55,23 +72,3 @@ proxies:
   tls: false
   type: vmess
   uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 台湾省新竹市中华电信...
-  network: tcp
-  port: '2024'
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 38ff99d8-dbaf-430a-867e-200b89f4c70a
-- alterId: 0
-  cipher: auto
-  name: 12,13,16|github.com/freefq - 台湾省中华电信(Hi...
-  network: tcp
-  port: '12002'
-  server: 118.167.70.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 46a8c6ce-0095-4229-9e35-238d6634feca
