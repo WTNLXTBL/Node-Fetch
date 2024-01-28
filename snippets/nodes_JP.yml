@@ -1,10 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 100222a9-95bf-48f1-8e85-73336bf5fabc
-  port: 26668
-  server: service.ouluyun9803.com
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -14,77 +8,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a6a65767-bb1f-4dab-bbb5-d4f60ae6af39
-- cipher: aes-128-gcm
-  name: 15|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 10016
-  server: 61.224.76.138
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9bd6fbb0-fa71-484d-a133-b778d711ecb7
-- alterId: 0
-  cipher: auto
-  name: 13,16|日本1|@ripaojiedian
-  network: tcp
-  port: '43713'
-  server: 103.20.198.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9bd6fbb0-fa71-484d-a133-b778d711ecb7
-- cipher: aes-256-cfb
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.197.98
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.m1k2s.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a6a65767-bb1f-4dab-bbb5-d4f60ae6af39
-- alterId: 0
-  cipher: auto
-  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: 84c9b610-ad64-47db-a3da-39d7090641a5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -94,7 +18,17 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a6a65767-bb1f-4dab-bbb5-d4f60ae6af39
+  uuid: 84c9b610-ad64-47db-a3da-39d7090641a5
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.m1k2s.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 84c9b610-ad64-47db-a3da-39d7090641a5
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -104,7 +38,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9bd6fbb0-fa71-484d-a133-b778d711ecb7
+  uuid: 418f3809-3798-42e1-98c7-3352f3accb78
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
@@ -119,3 +53,75 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10016
+  server: 61.224.67.62
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 418f3809-3798-42e1-98c7-3352f3accb78
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 2f5a7217-f8c1-4d0f-98df-e11f9ff902e2
+  port: 20007
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13,16|日本1|@ripaojiedian
+  network: tcp
+  port: '43713'
+  server: 103.20.198.51
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a
+- alterId: 0
+  cipher: auto
+  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 418f3809-3798-42e1-98c7-3352f3accb78
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.194.252.137
+  tfo: false
+  type: ss

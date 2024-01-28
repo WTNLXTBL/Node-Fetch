@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,4,6,7,11,13|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  name: 0,4,6,7,11|🇺🇸 _US_美国->🇮🇷_IR_伊朗
   network: ws
   port: '8080'
   server: www.darkroom.lol
@@ -11,19 +11,6 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,4,6,7|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: '80'
-  server: 104.18.15.149
-  tls: false
-  type: vmess
-  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
-  ws-opts:
-    headers:
-      Host: er3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -47,34 +34,6 @@ proxies:
   ws-opts:
     headers:
       host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__2
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -104,6 +63,19 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
+  name: 0,4,6,7|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: '80'
+  server: 104.18.15.149
+  tls: false
+  type: vmess
+  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 0,1,4,6,7|🇺🇸 _CN_中国->🇺🇸_US_美国
   network: tcp
   port: '50005'
@@ -111,3 +83,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+- alterId: 0
+  cipher: auto
+  name: 1,13|_US_->_IR__1
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_IR__2
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.biz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
