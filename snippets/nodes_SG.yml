@@ -1,35 +1,45 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 10|🇸🇬新加坡05
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39acaa2b-b581-41ac-b51c-4d461ecc921d
-- cipher: aes-256-cfb
+  uuid: 3d5ed1f7-f90d-482e-8dd5-eed7272c50e1
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  server: 103.172.116.79
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 62566655-72cf-4c31-b66d-2b3acb7425a7
+  port: 26602
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-54.179.12.166...
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 267e0f09-cfec-4ffc-98cf-eee7a9817108
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬|SG|新加坡|@wxgqlfx|26
   network: ws
-  port: '40737'
-  server: 54.179.12.166
+  port: '55081'
+  server: 45.76.144.158
   servername: ''
   tls: false
   type: vmess
-  uuid: e098bb9c-6c85-411f-bb33-ea7e3bd6a527
+  uuid: 9c659458-b937-4297-95bd-3cc571c53032
   ws-opts:
     headers:
-      Host: ''
+      Host: m.zoom.us
     path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -39,6 +49,20 @@ proxies:
   server: 43.203.119.237
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
+  network: ws
+  port: '42338'
+  server: 128.199.128.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13e5d814-834b-473a-a87a-15459987f181
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
@@ -56,65 +80,39 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f617cf8-81ae-493e-b73d-4c0a6f4fea5a
+  uuid: 267e0f09-cfec-4ffc-98cf-eee7a9817108
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6f617cf8-81ae-493e-b73d-4c0a6f4fea5a
+  uuid: 3d5ed1f7-f90d-482e-8dd5-eed7272c50e1
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬|SG|新加坡|@wxgqlfx|26
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-54.179.12.166...
   network: ws
-  port: '55081'
-  server: 45.76.144.158
+  port: '40737'
+  server: 54.179.12.166
   servername: ''
   tls: false
   type: vmess
-  uuid: 9c659458-b937-4297-95bd-3cc571c53032
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 39acaa2b-b581-41ac-b51c-4d461ecc921d
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 39acaa2b-b581-41ac-b51c-4d461ecc921d
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
-  network: ws
-  port: '42338'
-  server: 128.199.128.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13e5d814-834b-473a-a87a-15459987f181
+  uuid: e098bb9c-6c85-411f-bb33-ea7e3bd6a527
   ws-opts:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: y9VURyNzJWNRYEGQ
+  port: 9008
+  server: 103.172.116.79
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -124,12 +122,14 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f617cf8-81ae-493e-b73d-4c0a6f4fea5a
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 62566655-72cf-4c31-b66d-2b3acb7425a7
-  port: 26602
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  uuid: 267e0f09-cfec-4ffc-98cf-eee7a9817108
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3d5ed1f7-f90d-482e-8dd5-eed7272c50e1
