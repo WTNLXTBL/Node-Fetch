@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1701712a-ba0c-4a53-be0d-539e2940c7a8
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-TLS 🇨🇦 CA-107.174.241....
   network: ws
   port: '3443'
@@ -15,15 +25,14 @@ proxies:
     path: /gzogws
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦|CA|加拿大|@wxgqlfx|25
-  network: ws
-  port: 27490
-  server: jkgd.sbs
-  tls: false
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
-  ws-opts:
-    path: /
+  uuid: bcb0a9d2-50d0-43e6-b6b2-75f64c7446c0
 - alterId: 0
   cipher: auto
   name: 13|CA_speednode_0005
@@ -40,35 +49,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12|github.com/freefq - 加拿大魁北克省博阿努...
+  name: 13|🇨🇦加拿大5丨电报群@bp520
   network: ws
-  port: '27490'
-  server: 149.56.7.123
-  servername: ''
+  port: '80'
+  server: 162.159.200.5
   tls: false
   type: vmess
-  uuid: 3722f77b-21b0-4892-b9f7-79c33b76e733
+  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
   ws-opts:
     headers:
-      Host: jkgd.sbs
+      Host: ca3.889611.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f75243ce-9ca5-4c59-8940-863bd373bf46
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4dd63171-3c62-46af-a2b5-864fd140d7b8
