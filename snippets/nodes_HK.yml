@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 3e16157f38b24faea46ddbf88754a268
+  port: 443
+  server: 220.246.88.197
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -31,27 +39,6 @@ proxies:
   server: 1.65.223.223
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 3e16157f38b24faea46ddbf88754a268
-  port: 443
-  server: 220.246.88.197
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 Hongkong 2
-  network: ws
-  port: '2086'
-  server: dl1.fanqiecloud.top
-  tls: false
-  type: vmess
-  uuid: 4f10f797-cdf0-41fc-a5bd-a2179165b594
-  ws-opts:
-    headers:
-      Host: cf-hk2.fanqiecloud.top
-    path: /sssddd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
