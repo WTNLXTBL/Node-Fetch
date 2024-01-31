@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.144.158...
-  network: ws
-  port: '30899'
-  server: 45.76.144.158
-  servername: ''
-  tls: false
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 4a503125-b6bd-427a-87d0-55d41308d977
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
+  uuid: be9e2304-507e-4c44-a2c6-01608213c27a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -31,34 +27,28 @@ proxies:
     path: /video/c9efxRCi
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡06
+  name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db09aa83-e53e-485f-a147-6db451478490
+  uuid: be9e2304-507e-4c44-a2c6-01608213c27a
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
+  name: 13|🇸🇬｜SG｜新加坡｜@wxgqlfx｜151
+  network: ws
+  port: '27263'
+  server: 207.148.64.32
+  servername: ''
+  tls: false
   type: vmess
-  uuid: db09aa83-e53e-485f-a147-6db451478490
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cfe61161-54e8-434e-9bb3-a2f03604f29d
+  uuid: c064e17e-ac67-4595-be9d-58e8903aec2c
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /DIALOGZOOM
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -68,7 +58,35 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cfe61161-54e8-434e-9bb3-a2f03604f29d
+  uuid: be9e2304-507e-4c44-a2c6-01608213c27a
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
+  port: 26601
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee0706a6-d94f-4d25-bf19-881c156391b4
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ee0706a6-d94f-4d25-bf19-881c156391b4
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -87,56 +105,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
+  name: 10|🇸🇬新加坡06
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: db09aa83-e53e-485f-a147-6db451478490
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
-  port: 26601
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cfe61161-54e8-434e-9bb3-a2f03604f29d
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.186.33:...
-  network: ws
-  port: '46850'
-  server: 45.76.186.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8beec910-578b-4d07-be4d-69e893f94f97
-  ws-opts:
-    headers:
-      Host: m.instagram.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-207.148.64....
-  network: ws
-  port: 27263
-  server: 207.148.64.32
-  tls: false
-  type: vmess
-  uuid: c064e17e-ac67-4595-be9d-58e8903aec2c
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /DIALOGZOOM
+  uuid: ee0706a6-d94f-4d25-bf19-881c156391b4
