@@ -1,4 +1,48 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: db09aa83-e53e-485f-a147-6db451478490
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: db09aa83-e53e-485f-a147-6db451478490
+- alterId: 0
+  cipher: none
+  name: 11,12,13|日本  4
+  network: ws
+  port: '20326'
+  server: 146.56.108.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b338c13-f975-4e85-b1b5-6ff2fb0f14b3
+  ws-opts:
+    headers:
+      Host: youku.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: db09aa83-e53e-485f-a147-6db451478490
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -7,16 +51,14 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.m1k2s.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f197cf5b-e8f0-460c-9b79-7220b3899f69
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.194.44
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -35,44 +77,6 @@ proxies:
     path: /video/Zo98PYfE
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.m1k2s.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f197cf5b-e8f0-460c-9b79-7220b3899f69
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.194.44
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 92fcb2ff-7973-4fc0-982a-31794efd34f1
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.m1k2s.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f197cf5b-e8f0-460c-9b79-7220b3899f69
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
   port: '14935'
@@ -83,14 +87,24 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵日本06
+  name: 14|【BGP】日本 04  | 1x JP
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '31116'
+  server: 6w7j3p04.m1k2s.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 92fcb2ff-7973-4fc0-982a-31794efd34f1
+  uuid: cfe61161-54e8-434e-9bb3-a2f03604f29d
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m1k2s.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cfe61161-54e8-434e-9bb3-a2f03604f29d
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本KT|@ripaojiedian
@@ -109,25 +123,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵日本04
+  name: 14|【BGP】日本 05  | 1x JP
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '31106'
+  server: 6w7j3p05.m1k2s.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 92fcb2ff-7973-4fc0-982a-31794efd34f1
-- alterId: 0
-  cipher: none
-  name: 12,13|github.com/freefq - 日本  4
-  network: ws
-  port: '20326'
-  server: 146.56.108.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b338c13-f975-4e85-b1b5-6ff2fb0f14b3
-  ws-opts:
-    headers:
-      Host: youku.com
-    path: /
+  uuid: cfe61161-54e8-434e-9bb3-a2f03604f29d
