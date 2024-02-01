@@ -1,54 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,17|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '2082'
-  server: cf-cdn.981545.xyz
-  tls: false
-  type: vmess
-  uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10
-  ws-opts:
-    headers:
-      Host: cfydmm.981545.xyz
-    path: /index?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_RU__5
-  network: ws
-  port: 80
-  server: 162.159.200.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,11,12|🇨🇳_CN_中国->🇮🇳_IN_印度
+  name: 0,1,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩
   network: tcp
-  port: 30128
-  server: 183.232.170.22
+  port: '443'
+  server: 173.249.197.176
   tls: false
   type: vmess
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
-    path: /
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
 - alterId: 0
   cipher: auto
   name: 0,3,4,6,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗
@@ -61,6 +20,32 @@ proxies:
   ws-opts:
     headers:
       Host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #2'
+  network: ws
+  port: '80'
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
+  network: ws
+  port: '8080'
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
@@ -78,42 +63,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #2'
+  name: 1|_US_->_IR__1
   network: ws
-  port: '80'
-  server: 104.18.15.148
+  port: 8080
+  server: www.crispyrainbow.biz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: er3.889611.com
+      host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #1'
+  name: 1|_US_->_RU__5
   network: ws
-  port: '80'
-  server: 162.159.200.7
+  port: 80
+  server: 162.159.200.6
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
   ws-opts:
     headers:
-      Host: er3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: '80'
-  server: 162.159.200.3
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      Host: ca3.visaapp.top
+      host: er3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -131,29 +105,75 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
+  name: 1|_US_->_IN_
   network: ws
-  port: '8080'
-  server: www.darkroom.lol
+  port: 2082
+  server: cf-cdn.981545.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10
   ws-opts:
     headers:
-      Host: www.darkroom.lol
-    path: /
+      host: cfydmm.981545.xyz
+    path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #4'
+  name: 0,3,4,6,7,13,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大
   network: ws
   port: '80'
-  server: 162.159.200.6
+  server: 162.159.200.5
   tls: false
   type: vmess
   uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
   ws-opts:
     headers:
-      Host: er3.889611.com
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,1,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #1'
+  network: tcp
+  port: '443'
+  server: pitcairn.ednovas.org
+  tls: false
+  type: vmess
+  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+- alterId: 0
+  cipher: auto
+  name: '0,3,4,6,7,11,13,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: '80'
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      Host: ca3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,3,4,6,7,17|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: '11114'
+  server: dx-us.85413.xyz
+  tls: false
+  type: vmess
+  uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_RU__2
+  network: ws
+  port: 80
+  server: 162.159.200.7
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: er3.visaapp.top
     path: /
 - alterId: 0
   cipher: auto
@@ -171,68 +191,53 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN_
+  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #4'
   network: ws
-  port: 2082
+  port: '80'
+  server: 162.159.200.6
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,7,17|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '2082'
   server: cf-cdn.981545.xyz
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10
   ws-opts:
     headers:
-      host: cfydmm.981545.xyz
+      Host: cfydmm.981545.xyz
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__2
-  network: ws
-  port: 80
-  server: 162.159.200.3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: ca3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_RU__2
-  network: ws
-  port: 80
-  server: 162.159.200.7
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      host: er3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,7,13,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: '80'
-  server: 162.159.200.5
-  tls: false
-  type: vmess
-  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,1,3,4,6,7,12,13,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #1'
+  name: 7,11,12|🇨🇳_CN_中国->🇮🇳_IN_印度
   network: tcp
-  port: '443'
-  server: pitcairn.ednovas.org
+  port: 30128
+  server: 183.232.170.22
   tls: false
   type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_CA__1
+  network: ws
+  port: 80
+  server: 162.159.200.5
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      host: ca3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
@@ -248,25 +253,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,3,4,6,7,17|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: '11114'
-  server: dx-us.85413.xyz
-  tls: false
-  type: vmess
-  uuid: 1f7c4a0b-3fd0-4b19-bbc6-d09fc89a4c10
-- alterId: 0
-  cipher: auto
-  name: 0,1,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩
-  network: tcp
-  port: '443'
-  server: 173.249.197.176
-  tls: false
-  type: vmess
-  uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #3'
+  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #3'
   network: ws
   port: '80'
   server: 104.18.15.150
@@ -279,17 +266,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__1
+  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #1'
+  network: ws
+  port: '80'
+  server: 162.159.200.7
+  tls: false
+  type: vmess
+  uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
+  ws-opts:
+    headers:
+      Host: er3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_CA__2
   network: ws
   port: 80
-  server: 162.159.200.5
+  server: 162.159.200.3
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
   ws-opts:
     headers:
-      host: ca3.889611.com
+      host: ca3.visaapp.top
     path: /
 - alterId: 0
   cipher: auto
