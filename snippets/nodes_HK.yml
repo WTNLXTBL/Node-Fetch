@@ -1,4 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: 0daacf462cdd4de19168d09c4373a980
+  port: 443
+  server: 183.179.168.53
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '10241'
+  server: 38.147.191.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e820d6f7-57ef-4575-99da-bcd7d318c742
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -33,18 +51,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|github.com/freefq - 香港Microsof...
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-8.217.93.104...
   network: ws
-  port: '10510'
-  server: 23.99.120.52
-  servername: ''
-  tls: false
+  port: 443
+  server: 8.217.93.104
+  servername: sptufp5n3o19imic.iwebsocket.com
+  tls: true
   type: vmess
-  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
+  uuid: dcd70249-06fa-4fe7-aaed-cbba86ac125b
   ws-opts:
     headers:
-      Host: www.alipay.com
-    path: /
+      Host: sptufp5n3o19imic.iwebsocket.com
+    path: /stream
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -53,11 +71,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  password: 0daacf462cdd4de19168d09c4373a980
-  port: 443
-  server: 183.179.168.53
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
