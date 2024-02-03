@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,12,13|台湾省中华电信(HiNet)数据中心 1
+  name: 11|台湾省中华电信(HiNet)数据中心 1
   network: tcp
   port: 12002
   server: nb22.ntbq.dynu.net
@@ -11,20 +11,20 @@ proxies:
   uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
 - alterId: 0
   cipher: auto
-  name: 11,12|台湾省新竹市中华电信 19
+  name: 16|台湾2|@ripaojiedian
   network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
+  port: '6122'
+  server: 36.233.233.65
   servername: ''
   tls: false
   type: vmess
   uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
 - alterId: 0
   cipher: auto
-  name: 13,16|TG@ZDYZ2 🇹🇼 TW 49
+  name: 11|台湾省新竹市中华电信 19
   network: tcp
-  port: 6122
-  server: 36.233.233.65
+  port: 2024
+  server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
@@ -37,3 +37,17 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|台湾【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: 8443
+  server: 35.185.165.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 57c3bfd6-09d1-4954-9b67-3a7580adc14f
+  ws-opts:
+    headers:
+      Host: wapv62g.gorun.tech
+    path: /ebffd932-3fb9-460e-dc98-700b592bfb9c
