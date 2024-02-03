@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 VGA香港15TB纪念版
+  network: ws
+  port: '10510'
+  server: 23.99.120.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
+  ws-opts:
+    headers:
+      Host: www.alipay.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -13,6 +27,14 @@ proxies:
     tls: false
   port: 443
   server: 47.243.196.229
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
+  port: 20001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -39,25 +61,3 @@ proxies:
   server: 8.210.196.224
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 VGA香港15TB纪念版
-  network: ws
-  port: '10510'
-  server: 23.99.120.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
-  ws-opts:
-    headers:
-      Host: www.alipay.com
-    path: /

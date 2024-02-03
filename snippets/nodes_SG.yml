@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 595eabbd-753d-42cf-8673-ae9ae9172436
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -18,7 +8,15 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af38d02d-914f-4c49-8154-b4b0122bcc2c
+  uuid: 754e95b1-800d-4ec7-b637-9d7d0679219d
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.64.47
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -28,7 +26,59 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af38d02d-914f-4c49-8154-b4b0122bcc2c
+  uuid: 754e95b1-800d-4ec7-b637-9d7d0679219d
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 754e95b1-800d-4ec7-b637-9d7d0679219d
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8b6767cb-14c1-4274-8445-21f00af7ba5d
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8b6767cb-14c1-4274-8445-21f00af7ba5d
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.186.33:...
+  network: ws
+  port: '46850'
+  server: 45.76.186.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8beec910-578b-4d07-be4d-69e893f94f97
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.91.34.93
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡1|@ripaojiedian
@@ -46,54 +96,4 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 595eabbd-753d-42cf-8673-ae9ae9172436
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 595eabbd-753d-42cf-8673-ae9ae9172436
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.91.34.93
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: af38d02d-914f-4c49-8154-b4b0122bcc2c
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.64.47
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.186.33:...
-  network: ws
-  port: '46850'
-  server: 45.76.186.33
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8beec910-578b-4d07-be4d-69e893f94f97
-  ws-opts:
-    headers:
-      Host: m.instagram.com
-    path: /
+  uuid: 8b6767cb-14c1-4274-8445-21f00af7ba5d
