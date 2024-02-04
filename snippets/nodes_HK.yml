@@ -1,4 +1,28 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.196.224
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: Rain8240
+  port: 56006
+  server: 36.151.192.38
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -24,20 +48,6 @@ proxies:
   skip-cert-verify: false
   sni: www.gpt123.one
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 VGA香港15TB纪念版
-  network: ws
-  port: '10510'
-  server: 23.99.120.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
-  ws-opts:
-    headers:
-      Host: www.alipay.com
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -52,29 +62,5 @@ proxies:
     tls: false
   port: 443
   server: 47.243.196.229
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  password: Rain8240
-  port: 56006
-  server: 36.151.192.38
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.196.224
   tfo: false
   type: ss
