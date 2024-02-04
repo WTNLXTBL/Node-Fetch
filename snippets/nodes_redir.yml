@@ -1,18 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_RO_
+  name: 1|_US_->_IR__1
   network: ws
-  port: 80
-  server: 104.17.25.1
+  port: 8080
+  server: www.crispyrainbow.biz
   skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,7,11,12,17|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚
+  network: ws
+  port: '80'
+  server: 104.17.25.1
   tls: false
   type: vmess
   uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
   ws-opts:
     headers:
-      host: lmnyvpn.catnipballs.gay
+      Host: lmnyvpn.catnipballs.gay
     path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳_CN_中国->🇮🇳_IN_印度
+  network: tcp
+  port: 30128
+  server: 183.232.170.22
+  tls: false
+  type: vmess
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
   name: '0,3,4,6,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
@@ -26,15 +48,6 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
-- name: 1|_CN_->_US__1
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - name: 1|_CN_->_US__2
   network: tcp
   password: e8977c57-c5c2-478f-a67a-5af7ba873eac
@@ -44,29 +57,6 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-- name: 1|_CN_->_CZ_
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10846
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__1
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.crispyrainbow.biz
-    path: /
 - name: 1|_CN_->_US__4
   network: tcp
   password: e8977c57-c5c2-478f-a67a-5af7ba873eac
@@ -76,10 +66,10 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
-- name: 1|_CN_->_AT_
+- name: 1|_CN_->_UA_
   network: tcp
   password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10848
+  port: 10845
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -99,37 +89,6 @@ proxies:
     headers:
       host: www.darkroom.lol
     path: /
-- name: 1|_CN_->_UA_
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10845
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '8080'
-  server: www.crispyrainbow.biz
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇳_CN_中国->🇮🇳_IN_印度
-  network: tcp
-  port: 30128
-  server: 183.232.170.22
-  tls: false
-  type: vmess
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
   name: 7|🇪🇸_ES_西班牙->🇭🇰_HK_香港
@@ -145,21 +104,62 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚
+  name: 0,3,4,6,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗
   network: ws
-  port: '80'
-  server: 104.17.25.1
+  port: '8080'
+  server: www.crispyrainbow.biz
   tls: false
   type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: lmnyvpn.catnipballs.gay
+      Host: www.crispyrainbow.biz
     path: /
 - name: 1|_CN_->_US__3
   network: tcp
   password: e8977c57-c5c2-478f-a67a-5af7ba873eac
   port: 10847
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_AT_
+  network: tcp
+  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
+  port: 10848
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_RO_
+  network: ws
+  port: 80
+  server: 104.17.25.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
+  ws-opts:
+    headers:
+      host: lmnyvpn.catnipballs.gay
+    path: /
+- name: 1|_CN_->_CZ_
+  network: tcp
+  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
+  port: 10846
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
+- name: 1|_CN_->_US__1
+  network: tcp
+  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
+  port: 10850
   server: xibaozi.19890604.day
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
