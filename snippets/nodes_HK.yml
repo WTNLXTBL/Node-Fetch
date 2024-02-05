@@ -1,24 +1,12 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|香港2
-  network: tcp
-  port: '54137'
-  server: 112.28.208.16
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港3
-  network: tcp
-  port: '54002'
-  server: 183.237.20.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 6b55d668206e4a91a63d437d22d3936d
+  port: 443
+  server: 220.246.88.197
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-23.99.120.52:...
@@ -65,11 +53,3 @@ proxies:
   server: 8.210.196.224
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 7522e2c27233459aab8d0f1d715828d0
-  port: 443
-  server: 183.179.168.53
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
