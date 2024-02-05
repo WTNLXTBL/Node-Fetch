@@ -9,6 +9,48 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 13|[宇航员] 香港 80免流 04
+  network: ws
+  port: '80'
+  server: hke9016a-9c15-ce43.xn--jsrz0o258a.online
+  tls: false
+  type: vmess
+  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
+  ws-opts:
+    headers:
+      Host: bilibili.com
+    path: /?ed=2048
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.243.196.229
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12,13|github.com/freefq - 香港Google云计...
+  network: ws
+  port: '80'
+  server: hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online
+  tls: false
+  type: vmess
+  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
+  ws-opts:
+    headers:
+      Host: bilibili.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-23.99.120.52:...
   network: ws
   port: '10510'
@@ -35,47 +77,5 @@ proxies:
     tls: false
   port: 443
   server: 8.210.196.224
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|[宇航员] 香港 80免流 04
-  network: ws
-  port: '80'
-  server: hke9016a-9c15-ce43.xn--jsrz0o258a.online
-  tls: false
-  type: vmess
-  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
-  ws-opts:
-    headers:
-      Host: bilibili.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|[宇航员] 香港 80免流 01
-  network: ws
-  port: '80'
-  server: hkb12a8e-36fc-a36f-5a2.xn--jsrz0o258a.online
-  tls: false
-  type: vmess
-  uuid: aaf1e0a7-5616-4e67-bb4b-c706b8a32b01
-  ws-opts:
-    headers:
-      Host: bilibili.com
-    path: /?ed=2048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.243.196.229
   tfo: false
   type: ss
