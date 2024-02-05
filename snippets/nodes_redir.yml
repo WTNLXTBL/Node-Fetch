@@ -1,112 +1,4 @@
 proxies:
-- name: 1|_CN_->_CZ_
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10846
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IR__2
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_RO_
-  network: ws
-  port: 80
-  server: 104.17.25.1
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
-  ws-opts:
-    headers:
-      host: lmnyvpn.catnipballs.gay
-    path: /
-- name: 1|_CN_->_UA_
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10845
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_US__4
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10838
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_US__1
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10850
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_US__2
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10837
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10848
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0,3,4,6,7,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '8080'
-  server: www.crispyrainbow.biz
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,13|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦
-  network: ws
-  port: 2083
-  server: 104.18.202.232
-  tls: true
-  type: vmess
-  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
-  ws-opts:
-    headers:
-      Host: joooin.golestan-vpn.link
-    path: /@golestan_vpn
 - alterId: 0
   cipher: auto
   name: 7|🇨🇳_CN_中国->🇮🇳_IN_印度
@@ -118,23 +10,64 @@ proxies:
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IR__1
+  name: 1|_US_->_RU_
   network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
+  port: 2083
+  server: 104.18.202.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
+  ws-opts:
+    headers:
+      host: joooin.golestan-vpn.link
+    path: /@golestan_vpn
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_NL_
+  network: ws
+  port: 2095
+  server: 172.67.185.208
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 3c1cca21-1373-4707-a575-195e9da0fb71
   ws-opts:
     headers:
-      host: www.crispyrainbow.biz
+      host: ebiii.fozool76.lol
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|🇪🇸_ES_西班牙->🇭🇰_HK_香港
+  name: 1|_ES_->_HK_
   network: ws
   port: 8002
+  server: 185.214.103.249
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+  ws-opts:
+    headers:
+      host: cache-hk-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇺🇸_US_美国->🇷🇴_RO_罗马尼亚
+  network: ws
+  port: 80
+  server: 104.17.25.1
+  tls: false
+  type: vmess
+  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
+  ws-opts:
+    headers:
+      Host: lmnyvpn.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,7|🇭🇰 _ES_西班牙->🇭🇰_HK_香港
+  network: ws
+  port: '8002'
   server: 185.214.103.249
   tls: false
   type: vmess
@@ -145,22 +78,9 @@ proxies:
     path: /db00
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #1'
+  name: 0,3,4,7,13|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
-  port: '8080'
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,13|🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 2095
+  port: '2095'
   server: 172.67.185.208
   tls: false
   type: vmess
@@ -171,23 +91,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,11,17|🇺🇸 _US_美国->🇷🇴_RO_罗马尼亚
+  name: 0,3,4,7,13|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
   network: ws
-  port: '80'
-  server: 104.17.25.1
-  tls: false
+  port: '2083'
+  server: 104.18.202.232
+  tls: true
   type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
+  uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
   ws-opts:
     headers:
-      Host: lmnyvpn.catnipballs.gay
-    path: /
-- name: 1|_CN_->_US__3
-  network: tcp
-  password: e8977c57-c5c2-478f-a67a-5af7ba873eac
-  port: 10847
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
+      Host: joooin.golestan-vpn.link
+    path: /@golestan_vpn
