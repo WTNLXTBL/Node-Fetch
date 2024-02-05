@@ -1,26 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 6b55d668206e4a91a63d437d22d3936d
-  port: 443
-  server: 220.246.88.197
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-23.99.120.52:...
-  network: ws
-  port: '10510'
-  server: 23.99.120.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
-  ws-opts:
-    headers:
-      Host: www.alipay.com
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -53,3 +31,25 @@ proxies:
   server: 8.210.196.224
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 6b55d668206e4a91a63d437d22d3936d
+  port: 443
+  server: 220.246.88.197
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-23.99.120.52:...
+  network: ws
+  port: '10510'
+  server: 23.99.120.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
+  ws-opts:
+    headers:
+      Host: www.alipay.com
+    path: /
