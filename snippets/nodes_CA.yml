@@ -1,76 +1,36 @@
 proxies:
+- name: 1|_CA__1
+  network: ws
+  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
+  port: 443
+  server: 23.227.38.46
+  skip-cert-verify: true
+  sni: jus3.jsjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: jus3.jsjc.sbs
+    path: /jsjc/us3
+- name: 1|_CA__2
+  network: ws
+  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
+  port: 443
+  server: 23.227.38.18
+  skip-cert-verify: true
+  sni: jus1.jsjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: jus1.jsjc.sbs
+    path: /jsjc/us1
 - alterId: 0
   cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f225f827-8a6d-44a0-9d22-6d429b66bbc1
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 055
+  name: 13|加拿大 053
   network: ws
   port: 443
-  server: 104.26.9.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 045
-  network: ws
-  port: 8080
-  server: 172.67.75.172
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e315854-9066-4775-fee9-a54b34148ab0
-  ws-opts:
-    headers:
-      Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '80'
-  server: 172.67.187.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8
-  ws-opts:
-    headers:
-      Host: ee1.xv2ray.net
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 030
-  network: ws
-  port: 443
-  server: government.se
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b53b3f4-3fb0-42ec-aa73-b4efdf075dbc
-  ws-opts:
-    headers:
-      Host: main.pooljim.tk
-    path: /vmess?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 052
-  network: ws
-  port: 443
-  server: 172.67.68.246
+  server: 104.26.8.202
   servername: ''
   tls: true
   type: vmess
@@ -93,19 +53,6 @@ proxies:
     headers:
       Host: mianfei-jp-0001.bpjc.site
     path: /?ed
-- name: 1|_CA__3
-  network: ws
-  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
-  port: 443
-  server: 23.227.38.30
-  skip-cert-verify: true
-  sni: jus2.jsjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: jus2.jsjc.sbs
-    path: /jsjc/us2
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -115,34 +62,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3aef984b-4890-4fd7-8e36-786b6e4c024d
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 053
-  network: ws
-  port: 443
-  server: 104.26.8.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- name: 1|_CA__1
-  network: ws
-  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
-  port: 443
-  server: 23.227.38.46
-  skip-cert-verify: true
-  sni: jus3.jsjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: jus3.jsjc.sbs
-    path: /jsjc/us3
+  uuid: 5d2133ff-cf39-4130-8f8a-5f329a6f3477
 - alterId: 0
   cipher: auto
   name: 13|加拿大 031
@@ -157,16 +77,54 @@ proxies:
     headers:
       Host: vip2323.cfd
     path: /linkvws
-- name: 1|_CA__2
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 055
+  network: ws
+  port: 443
+  server: 104.26.9.202
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d66fa0b4-ff77-44cd-bac6-045cc0264c21
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 052
+  network: ws
+  port: 443
+  server: 172.67.68.246
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- name: 1|_CA__3
   network: ws
   password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
   port: 443
-  server: 23.227.38.18
+  server: 23.227.38.30
   skip-cert-verify: true
-  sni: jus1.jsjc.sbs
+  sni: jus2.jsjc.sbs
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: jus1.jsjc.sbs
-    path: /jsjc/us1
+      host: jus2.jsjc.sbs
+    path: /jsjc/us2
