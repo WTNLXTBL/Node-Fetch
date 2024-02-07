@@ -8,15 +8,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
-- name: 1|_CN_->_CZ_
-  network: tcp
-  password: 4623e7ff-47b4-41d6-8f5a-33c8e6ac3fd5
-  port: 10846
-  server: xibaozi.19890604.day
-  skip-cert-verify: true
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-  udp: true
 - name: 1|_US_->_DE_
   network: ws
   password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
@@ -30,3 +21,12 @@ proxies:
     headers:
       host: jnl1.jsjc.sbs
     path: /jsjc/nl1
+- name: 1|_CN_->_CZ_
+  network: tcp
+  password: 4623e7ff-47b4-41d6-8f5a-33c8e6ac3fd5
+  port: 10846
+  server: xibaozi.19890604.day
+  skip-cert-verify: true
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+  udp: true
