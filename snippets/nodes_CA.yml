@@ -1,18 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '80'
-  server: 172.67.229.14
+  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 1|_CA__1
+  network: ws
+  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
+  port: 443
+  server: 23.227.38.46
+  skip-cert-verify: true
+  sni: jus3.jsjc.sbs
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: fr9.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+      host: jus3.jsjc.sbs
+    path: /jsjc/us3
 - alterId: 0
   cipher: auto
   name: 13|加拿大 071
@@ -29,6 +38,16 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 40792ff8-9d00-48e9-b6b9-095db7ff60af
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 064
   network: ws
   port: 8880
@@ -41,6 +60,57 @@ proxies:
     headers:
       Host: nla.yj2022.gq
     path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 016
+  network: ws
+  port: 443
+  server: chrome.cloudflare-dns.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 7f14e42a-f453-4c39-a762-019ee493237d
+  ws-opts:
+    headers:
+      Host: a4.bbbbbbbb.tk
+    path: /argox-vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cf3d8ae9-823b-4a49-b32e-300b37052862
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 053
+  network: ws
+  port: 443
+  server: 104.26.8.202
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- name: 1|_CA__2
+  network: ws
+  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
+  port: 443
+  server: 23.227.38.18
+  skip-cert-verify: true
+  sni: jus1.jsjc.sbs
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: jus1.jsjc.sbs
+    path: /jsjc/us1
 - alterId: 0
   cipher: auto
   name: 13|加拿大 013
@@ -57,79 +127,18 @@ proxies:
     path: /?ed
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 016
+  name: '13|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
-  port: 443
-  server: chrome.cloudflare-dns.com
+  port: '80'
+  server: 172.67.229.14
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 7f14e42a-f453-4c39-a762-019ee493237d
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
   ws-opts:
     headers:
-      Host: a4.bbbbbbbb.tk
-    path: /argox-vm?ed=2048
-- name: 1|_CA__1
-  network: ws
-  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
-  port: 443
-  server: 23.227.38.46
-  skip-cert-verify: true
-  sni: jus3.jsjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: jus3.jsjc.sbs
-    path: /jsjc/us3
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 031
-  network: ws
-  port: 443
-  server: vip2323.cfd
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: be7af8c6-03c8-48e2-9143-8f6c0554e2f1
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 052
-  network: ws
-  port: 443
-  server: 172.67.68.246
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 109e9a6a-0e53-459b-8fcb-c2ddc40e4008
+      Host: fr9.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
   name: 13|加拿大 068
@@ -146,6 +155,34 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 058
+  network: ws
+  port: 443
+  server: 104.21.20.155
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9
+  ws-opts:
+    headers:
+      Host: hdfy6c3.foriran.trade
+    path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 052
+  network: ws
+  port: 443
+  server: 172.67.68.246
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 062
   network: ws
   port: 2053
@@ -160,40 +197,18 @@ proxies:
     path: /vVNUJOgb/
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 058
+  name: 13|加拿大 031
   network: ws
   port: 443
-  server: 104.21.20.155
+  server: vip2323.cfd
   servername: ''
   tls: true
   type: vmess
-  uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: hdfy6c3.foriran.trade
-    path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
-- name: 1|_CA__3
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.97.94.114
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
-- name: 1|_CA__2
-  network: ws
-  password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
-  port: 443
-  server: 23.227.38.18
-  skip-cert-verify: true
-  sni: jus1.jsjc.sbs
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: jus1.jsjc.sbs
-    path: /jsjc/us1
+      Host: vip2323.cfd
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 055
@@ -208,27 +223,12 @@ proxies:
     headers:
       Host: vip2323.cfd
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+- name: 1|_CA__3
   network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 053
-  network: ws
-  port: 443
-  server: 104.26.8.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.97.94.114
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
