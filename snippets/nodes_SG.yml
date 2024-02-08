@@ -1,4 +1,59 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡SG1-动态IP-x1
+  network: ws
+  port: 80
+  server: s9.956256.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
+  ws-opts:
+    headers:
+      Host: caonimashabiwanyi5.daxiongda.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3e73acf8-d0ee-41fd-ae6e-14d87e1e92d3
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|🇸🇬新加坡SG2-动态IP-x1
+  network: ws
+  port: '80'
+  server: s10.956256.xyz
+  tls: false
+  type: vmess
+  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
+  ws-opts:
+    headers:
+      Host: caonimashabiwanyi5.daxiongda.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 50001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3e73acf8-d0ee-41fd-ae6e-14d87e1e92d3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -9,14 +64,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3e424b84-e8b4-4f29-8052-9aff3e819e91
+  uuid: 42f663e0-737c-4abd-9ce5-537909a701ee
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 42f663e0-737c-4abd-9ce5-537909a701ee
 - alterId: 0
   cipher: auto
   name: 13|新加坡 006
@@ -40,35 +105,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 861e6f44-201c-443a-9488-8e71d6faf45d
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 861e6f44-201c-443a-9488-8e71d6faf45d
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 3e424b84-e8b4-4f29-8052-9aff3e819e91
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 50001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  uuid: 42f663e0-737c-4abd-9ce5-537909a701ee
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -77,19 +114,6 @@ proxies:
   server: 57.180.18.181
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬新加坡SG1-动态IP-x1
-  network: ws
-  port: '80'
-  server: s9.956256.xyz
-  tls: false
-  type: vmess
-  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
-  ws-opts:
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
@@ -100,48 +124,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 861e6f44-201c-443a-9488-8e71d6faf45d
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
-  network: ws
-  port: '2052'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: 13,15,16|🇸🇬新加坡SG2-动态IP-x1
-  network: ws
-  port: '80'
-  server: s10.956256.xyz
-  tls: false
-  type: vmess
-  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
-  ws-opts:
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 3e424b84-e8b4-4f29-8052-9aff3e819e91
+  uuid: 3e73acf8-d0ee-41fd-ae6e-14d87e1e92d3
