@@ -1,22 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
+  name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2afdea12-7396-4194-b583-02ba6ef77c34
+  uuid: 22261940-4004-4950-8674-d09a0419d939
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.18.181
+  server: 3.1.103.57
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.16...
+  network: ws
+  port: '27249'
+  server: 146.190.99.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58a7e71e-05a7-4406-b8d5-8d69bc4d009c
+  ws-opts:
+    headers:
+      Host: 146.190.99.160
+    path: /MOBITEL
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -26,25 +40,15 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1882c5b2-9b3c-4142-b5d8-26f361380442
-- cipher: chacha20-ietf-poly1305
+  uuid: 6eaa272c-bbad-4493-a9ca-f8e751067b90
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 50001
-  server: service.ouluyun9803.com
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.0.78.235
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1882c5b2-9b3c-4142-b5d8-26f361380442
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -55,38 +59,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡1|@ripaojiedian
-  network: ws
-  port: 80
-  server: s10.956256.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
-  ws-opts:
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.197.236.198
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
+  name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2afdea12-7396-4194-b583-02ba6ef77c34
+  uuid: 22261940-4004-4950-8674-d09a0419d939
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -96,7 +76,31 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1882c5b2-9b3c-4142-b5d8-26f361380442
+  uuid: 6eaa272c-bbad-4493-a9ca-f8e751067b90
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 006
+  network: ws
+  port: 80
+  server: 172.105.117.129
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f686f0c9-e69c-412c-bc5d-cb296705a2c4
+  ws-opts:
+    headers:
+      Host: www.tesla.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6eaa272c-bbad-4493-a9ca-f8e751067b90
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -106,4 +110,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2afdea12-7396-4194-b583-02ba6ef77c34
+  uuid: 22261940-4004-4950-8674-d09a0419d939
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 26601
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡1|@ripaojiedian
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 103.172.116.79
+  tfo: false
+  type: ss
