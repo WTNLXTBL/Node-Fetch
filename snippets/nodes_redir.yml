@@ -1,4 +1,40 @@
 proxies:
+- grpc-opts:
+    grpc-service-name: 443trojan
+  name: 1|_US_->_RU_
+  network: grpc
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  port: 443
+  server: 172.67.204.84
+  skip-cert-verify: true
+  sni: cdn-21.gsmxreality.com
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: '----------telegram:vpn_xw----------'
+  name: 1|_US_->_NL__1
+  network: grpc
+  password: RtOGIC4aSC
+  port: 2096
+  server: 104.21.42.52
+  skip-cert-verify: true
+  sni: ngo.topoppongroup.space
+  tls: true
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: '----------telegram:vpn_xw----------'
+  name: 1|_US_->_NL__2
+  network: grpc
+  password: RtOGIC4aSC
+  port: 2096
+  server: 172.67.157.8
+  skip-cert-verify: true
+  sni: ngo.topoppongroup.space
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 3,17|🇪🇸_ES_西班牙->🇭🇰_HK_香港
@@ -12,30 +48,16 @@ proxies:
     headers:
       Host: cache-hk-1.cn-db.top
     path: /db00
-- grpc-opts:
-    grpc-service-name: '----------telegram:vpn_xw----------'
-  name: 1|_US_->_NL_
-  network: grpc
-  password: RtOGIC4aSC
-  port: 2096
-  server: 172.67.157.8
+- alterId: 0
+  cipher: auto
+  name: 1,4,7|_CN_->_IN_
+  network: tcp
+  port: 30128
+  server: 183.232.170.22
   skip-cert-verify: true
-  sni: ngo.topoppongroup.space
-  tls: true
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: 443trojan
-  name: 1|_US_->_RU_
-  network: grpc
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  port: 443
-  server: 172.67.204.84
-  skip-cert-verify: true
-  sni: cdn-21.gsmxreality.com
-  tls: true
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - alterId: 0
   cipher: auto
   name: 3,13,17|🇸🇬_SG_新加坡->🇷🇺_RU_俄罗斯联邦
