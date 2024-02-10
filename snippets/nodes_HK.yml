@@ -1,15 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 39c6e97577.microsoft.com
-  password: ygUo3W
-  port: 9011
-  protocol: auth_aes128_md5
-  protocol-param: 97577:998244353
-  server: cnamepc-d2zdrzg6ilecsynk.qiwawangzi1188.com
-  type: ssr
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -26,36 +15,17 @@ proxies:
   server: 8.218.71.80
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-23.99.120.52:...
-  network: ws
-  port: '10510'
-  server: 23.99.120.52
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
-  ws-opts:
-    headers:
-      Host: www.alipay.com
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: RufD69QZ4JTCpzu7
-  port: 7511
-  server: cnamepc-d2zdrzg6ilecsynk.kujiguaji235.com
-  tfo: false
-  type: ss
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  obfs: http_simple
+  obfs-param: 39c6e97577.microsoft.com
+  password: ygUo3W
+  port: 9011
+  protocol: auth_aes128_md5
+  protocol-param: 97577:998244353
+  server: cnamepc-d2zdrzg6ilecsynk.qiwawangzi1188.com
+  type: ssr
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -72,6 +42,14 @@ proxies:
   server: 47.243.196.229
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: RufD69QZ4JTCpzu7
+  port: 7511
+  server: cnamepc-d2zdrzg6ilecsynk.kujiguaji235.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 13|香港 004
@@ -86,3 +64,39 @@ proxies:
     headers:
       Host: www.28717411.xyz
     path: /path/340323081726
+- alterId: 64
+  cipher: auto
+  name: 13|HK香港(mibei77.com 米贝节点分享)
+  network: ws
+  port: '41000'
+  server: 156.245.8.242
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
+  ws-opts:
+    headers:
+      Host: www.47523375.xyz
+    path: /path/1707212417349
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-23.99.120.52:...
+  network: ws
+  port: '10510'
+  server: 23.99.120.52
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 619d8b66-469f-4dce-fc71-b74f05810212
+  ws-opts:
+    headers:
+      Host: www.alipay.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 21001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
