@@ -1,4 +1,15 @@
 proxies:
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  obfs: http_simple
+  obfs-param: 39c6e97577.microsoft.com
+  password: ygUo3W
+  port: 9011
+  protocol: auth_aes128_md5
+  protocol-param: 97577:998244353
+  server: cnamepc-d2zdrzg6ilecsynk.qiwawangzi1188.com
+  type: ssr
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -15,33 +26,6 @@ proxies:
   server: 47.243.196.229
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.71.80
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 39c6e97577.microsoft.com
-  password: ygUo3W
-  port: 9011
-  protocol: auth_aes128_md5
-  protocol-param: 97577:998244353
-  server: cnamepc-d2zdrzg6ilecsynk.qiwawangzi1188.com
-  type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -56,5 +40,21 @@ proxies:
   password: RufD69QZ4JTCpzu7
   port: 7511
   server: cnamepc-d2zdrzg6ilecsynk.kujiguaji235.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.71.80
   tfo: false
   type: ss
