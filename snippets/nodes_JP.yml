@@ -1,4 +1,34 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.m1k2s.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a0e52382-d700-444a-a6b3-93acef540383
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e9b55e27-2868-4322-920b-09261e7211c5
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -10,6 +40,16 @@ proxies:
   protocol-param: 30031:ZDe5ic
   server: jp.12138.one
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m1k2s.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a0e52382-d700-444a-a6b3-93acef540383
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -36,54 +76,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 64c0f97c-4308-4cd3-8673-25ab72f20c49
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 64c0f97c-4308-4cd3-8673-25ab72f20c49
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 50005
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.m1k2s.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 000526f0-6295-4996-bef6-2aac2460ab5a
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 64c0f97c-4308-4cd3-8673-25ab72f20c49
-- alterId: 0
-  cipher: auto
   name: 13|日本 001
   network: tcp
   port: 37368
@@ -94,14 +86,42 @@ proxies:
   uuid: 7b72983c-84a3-46ba-9b6d-d4c55c73db8c
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
+  name: 14|【BGP】日本 05  | 1x JP
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.m1k2s.xyz
-  servername: jp04.lovemc.xyz
+  port: '31106'
+  server: 6w7j3p05.m1k2s.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 000526f0-6295-4996-bef6-2aac2460ab5a
+  uuid: a0e52382-d700-444a-a6b3-93acef540383
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e9b55e27-2868-4322-920b-09261e7211c5
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 50005
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e9b55e27-2868-4322-920b-09261e7211c5
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -110,23 +130,3 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.m1k2s.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 000526f0-6295-4996-bef6-2aac2460ab5a
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
