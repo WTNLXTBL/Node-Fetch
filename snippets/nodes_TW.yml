@@ -1,4 +1,22 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: qwerREWQ@@
+  port: 2003
+  server: e001.panda003.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.68.1...
+  network: tcp
+  port: '12002'
+  server: 118.167.68.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
 - alterId: 0
   cipher: auto
   name: 13|台湾【TG：@ccbaohe】定时更新节点订阅
@@ -17,31 +35,3 @@ proxies:
   skip-cert-verify: false
   sni: 45.32.28.232
   type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: qwerREWQ@@
-  port: 2003
-  server: e001.panda003.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.68.3...
-  network: tcp
-  port: '4443'
-  server: 118.167.68.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.68.1...
-  network: tcp
-  port: '12002'
-  server: 118.167.68.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
