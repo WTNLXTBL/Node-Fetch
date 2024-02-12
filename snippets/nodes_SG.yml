@@ -1,30 +1,30 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 20009
-  server: service.ouluyun9803.com
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.203.195.243
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.238.189.9
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
+  name: 14|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 042e6cd5-7e1f-4b37-bc98-d3a7870758de
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 26601
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  uuid: 3b01f447-ccc2-4908-9a4a-9b71ac6a3271
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
@@ -39,16 +39,22 @@ proxies:
     headers:
       Host: android.googleapis.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f196cfa8-14d5-45eb-a075-286ffc113f4c
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 26601
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -58,7 +64,17 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f196cfa8-14d5-45eb-a075-286ffc113f4c
+  uuid: 3b01f447-ccc2-4908-9a4a-9b71ac6a3271
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3b01f447-ccc2-4908-9a4a-9b71ac6a3271
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡04
@@ -68,29 +84,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 042e6cd5-7e1f-4b37-bc98-d3a7870758de
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-207.148.123...
-  network: ws
-  port: '24569'
-  server: 207.148.123.132
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e0cab20a-7859-40ae-867d-593277c0d5ad
-  ws-opts:
-    headers:
-      Host: m.instagram.com
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.203.195.243
-  tfo: false
-  type: ss
+  uuid: ed9eecbe-b93f-4ffa-8afa-a77d06a4cf8c
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -100,35 +94,14 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 042e6cd5-7e1f-4b37-bc98-d3a7870758de
+  uuid: ed9eecbe-b93f-4ffa-8afa-a77d06a4cf8c
 - alterId: 0
   cipher: auto
-  name: 13|SG_youtube@资源分享师_294
-  network: ws
-  port: 80
-  server: sg03.hajimihajimihajimi.online
-  tls: false
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  ws-opts:
-    headers:
-      Host: sg03.hajimihajimihajimi.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
+  name: 10|🇸🇬新加坡05
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f196cfa8-14d5-45eb-a075-286ffc113f4c
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.238.189.9
-  tfo: false
-  type: ss
+  uuid: ed9eecbe-b93f-4ffa-8afa-a77d06a4cf8c
