@@ -1,12 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 18d443f9-ad28-3c96-b13d-9127c46e06b7
-  port: 8443
-  server: official.taipeicitygovernment.ivano-frankivsk.ua
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇹🇼 台湾3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
   skip-cert-verify: false
-  sni: 45.32.28.232
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c752a139-42cd-48db-a4d5-ff9b5df86808
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
@@ -15,6 +23,14 @@ proxies:
   server: e001.panda003.net
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 18d443f9-ad28-3c96-b13d-9127c46e06b7
+  port: 8443
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  skip-cert-verify: false
+  sni: 45.32.28.232
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 13|台湾【TG：@ccbaohe】定时更新节点订阅
@@ -24,4 +40,4 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+  uuid: 60ab817e-0566-44cb-becd-6b51698d5672
