@@ -1,30 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a2c4101a-94bd-4440-b79f-159bb45800d5
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 030
-  network: ws
-  port: 443
-  server: vip2323.cfd
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 016
   network: ws
   port: 443
@@ -37,86 +13,6 @@ proxies:
     headers:
       Host: a4.bbbbbbbb.tk
     path: /argox-vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 085
-  network: ws
-  port: 443
-  server: 104.21.13.125
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
-  ws-opts:
-    headers:
-      Host: pl1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 104
-  network: ws
-  port: 443
-  server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 052
-  network: ws
-  port: 443
-  server: 104.26.8.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 115
-  network: ws
-  port: 443
-  server: 104.21.46.63
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: marien.motorcycles
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: dbb325f9-f4a8-4324-a2fd-9cbf58866504
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 100
-  network: ws
-  port: 443
-  server: janett.click
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: janett.click
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 077
@@ -133,32 +29,28 @@ proxies:
     path: /kwhmvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 129
+  name: 13|加拿大 104
   network: ws
   port: 443
-  server: 104.21.66.23
+  server: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
   servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: kristin.makeup
-    path: /linkvws
+      Host: 56c5d2b1-575f-4718-ad37-4cb1fb0d44dc.asoul-ava.top
+    path: /azumase.ren
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 106
-  network: ws
-  port: 443
-  server: 104.21.75.244
-  servername: ''
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: janett.click
-    path: /linkvws
+  uuid: c296f1bd-63bd-4dbf-a957-2aae5afb11e4
 - alterId: 0
   cipher: auto
   name: 13|加拿大 101
@@ -173,15 +65,19 @@ proxies:
     headers:
       Host: nelly.homes
     path: /linkvws
-- name: 1|_CA_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.98.190.49
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6,7|🇨🇦_CA_加拿大
+  network: ws
+  port: 45627
+  server: 20.220.192.220
+  tls: false
+  type: vmess
+  uuid: 33609fe4-5965-46cc-9fbc-01b84d4b8dbb
+  ws-opts:
+    headers:
+      Host: www.alipay.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 109
@@ -198,6 +94,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 100
+  network: ws
+  port: 443
+  server: janett.click
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: janett.click
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 054
   network: ws
   port: 443
@@ -210,16 +120,106 @@ proxies:
     headers:
       Host: vip2323.cfd
     path: /linkvws
+- name: 1|_CA_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.98.190.49
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 6,7|🇨🇦_CA_加拿大
+  name: 13|加拿大 115
   network: ws
-  port: 45627
-  server: 20.220.192.220
-  tls: false
+  port: 443
+  server: 104.21.46.63
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 33609fe4-5965-46cc-9fbc-01b84d4b8dbb
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: www.alipay.com
-    path: /
+      Host: marien.motorcycles
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 030
+  network: ws
+  port: 443
+  server: vip2323.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 052
+  network: ws
+  port: 443
+  server: 104.26.8.202
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 129
+  network: ws
+  port: 443
+  server: 104.21.66.23
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kristin.makeup
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 085
+  network: ws
+  port: 443
+  server: 104.21.13.125
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  ws-opts:
+    headers:
+      Host: pl1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 106
+  network: ws
+  port: 443
+  server: 104.21.75.244
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: janett.click
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d5180f6c-890f-4199-b273-51ca2d79db9b
