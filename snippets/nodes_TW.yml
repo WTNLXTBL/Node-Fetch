@@ -1,6 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇹🇼 台湾3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c752a139-42cd-48db-a4d5-ff9b5df86808
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 18d443f9-ad28-3c96-b13d-9127c46e06b7
+  port: 8443
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  skip-cert-verify: false
+  sni: 45.32.28.232
+  type: trojan
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.68.3...
   network: tcp
   port: '4443'
@@ -27,27 +51,3 @@ proxies:
   server: e001.panda003.net
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 18d443f9-ad28-3c96-b13d-9127c46e06b7
-  port: 8443
-  server: official.taipeicitygovernment.ivano-frankivsk.ua
-  skip-cert-verify: false
-  sni: 45.32.28.232
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇹🇼 台湾3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c752a139-42cd-48db-a4d5-ff9b5df86808
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
