@@ -1,14 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.65.8...
-  network: tcp
-  port: '12002'
-  server: 118.167.65.80
-  servername: ''
+  client-fingerprint: chrome
+  name: 15,16|🇹🇼 台湾3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
+  uuid: c752a139-42cd-48db-a4d5-ff9b5df86808
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
@@ -28,17 +34,11 @@ proxies:
   uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇹🇼 台湾3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
+  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.65.8...
+  network: tcp
+  port: '12002'
+  server: 118.167.65.80
+  servername: ''
   tls: false
   type: vmess
-  uuid: c752a139-42cd-48db-a4d5-ff9b5df86808
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
