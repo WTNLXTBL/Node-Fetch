@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: qwerREWQ@@
-  port: 2003
-  server: e001.panda003.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 13|🔒 VM-TCP-NONE 🇹🇼 TW-61.228.170...
@@ -16,6 +8,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: qwerREWQ@@
+  port: 2003
+  server: e001.panda003.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  obfs: plain
+  obfs-param: 69666175910.microsoft.com
+  password: bxsnucrgk6hfish
+  port: 1076
+  protocol: auth_aes128_sha1
+  protocol-param: 175910:AcKdLc
+  server: yd-03.paofunlink.com
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.65.8...
