@@ -1,30 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港1丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 104.18.15.147
-  tls: false
-  type: vmess
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港2丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 212.192.12.231
-  tls: false
-  type: vmess
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -41,16 +15,6 @@ proxies:
   server: 47.243.196.229
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '3389'
-  server: 185.244.208.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -77,15 +41,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 3389
-  server: 185.244.208.61
-  skip-cert-verify: false
-  tfo: false
+  name: 13|🇭🇰香港1丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 104.18.15.147
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  ws-opts:
+    headers:
+      Host: hk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港2丨白嫖机场.com
+  network: ws
+  port: '80'
+  server: 212.192.12.231
+  tls: false
+  type: vmess
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰香港3丨白嫖机场.com
@@ -99,3 +78,24 @@ proxies:
     headers:
       Host: hk3.visaapp.top
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 3389
+  server: 185.244.208.61
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '3389'
+  server: 185.244.208.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7

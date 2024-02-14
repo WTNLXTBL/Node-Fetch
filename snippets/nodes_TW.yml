@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: qwerREWQ@@
+  port: 2003
+  server: e001.panda003.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 13|台湾-4.61MB/s
@@ -19,14 +27,16 @@ proxies:
   protocol-param: 175910:AcKdLc
   server: yd-03.paofunlink.com
   type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: qwerREWQ@@
-  port: 2003
-  server: e001.panda003.net
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.71.1...
+  network: tcp
+  port: '4443'
+  server: 118.167.71.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: de9558f3-d11b-410e-ab27-26956dde256d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -43,13 +53,3 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇹🇼 TW-118.167.71.1...
-  network: tcp
-  port: '4443'
-  server: 118.167.71.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
