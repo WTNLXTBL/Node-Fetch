@@ -12,7 +12,7 @@ proxies:
   cipher: auto
   name: 13|台湾【TG：@ccbaohe】定时更新节点订阅 18
   network: ws
-  port: 18840
+  port: '18840'
   server: www.dtku40.xyz
   servername: ''
   tls: false
@@ -24,14 +24,18 @@ proxies:
     path: /9tEYTPFN/
 - alterId: 0
   cipher: auto
-  name: 16|台北|@ripaojiedian
-  network: tcp
-  port: '15109'
-  server: shdx.pmxu.link
+  name: 13|🔒 VM-WS-NA 🇹🇼 TW-1.162.134.176...
+  network: ws
+  port: 18810
+  server: 1.162.134.176
   servername: ''
   tls: false
   type: vmess
-  uuid: 88b3fe23-06ef-3ac4-a6e2-65380ed8c034
+  uuid: afb1ad76-0f6f-4cb8-983a-95f5b4708321
+  ws-opts:
+    headers:
+      Host: www.dtku40.xyz
+    path: /9tEYTPFN/
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -50,24 +54,11 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇹🇼 TW-1.162.134.176...
-  network: ws
-  port: 18810
-  server: 1.162.134.176
+  name: 16|台北|@ripaojiedian
+  network: tcp
+  port: '15109'
+  server: shdx.pmxu.link
   servername: ''
   tls: false
   type: vmess
-  uuid: afb1ad76-0f6f-4cb8-983a-95f5b4708321
-  ws-opts:
-    headers:
-      Host: www.dtku40.xyz
-    path: /9tEYTPFN/
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 13|台湾-4.61MB/s
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  tls: false
-  type: vmess
-  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
+  uuid: 88b3fe23-06ef-3ac4-a6e2-65380ed8c034
