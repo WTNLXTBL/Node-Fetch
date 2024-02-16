@@ -1,6 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,12|广东省移动 7
+  network: ws
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: 13|中国 025
+  network: tcp
+  port: 4443
+  server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
+- alterId: 0
+  cipher: auto
   name: 13|中国 041
   network: ws
   port: 40011
@@ -23,27 +47,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
-- alterId: 0
-  cipher: auto
-  name: 13|中国 025
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4e488e23-d1e5-40ee-8ffb-22bd95e80d0a
-- alterId: 0
-  cipher: auto
-  name: 11,12|广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
