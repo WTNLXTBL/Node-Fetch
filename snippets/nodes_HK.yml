@@ -1,39 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|香港B
-  network: tcp
-  port: '54137'
-  server: 183.236.51.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 2770a662-61db-40ed-a17c-783e521084ce
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港A
-  network: ws
-  port: 443
-  server: 27.124.6.148
-  servername: www.37327255.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.37327255.xyz
-    path: /path/340323081726
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -77,22 +42,14 @@ proxies:
   server: 8.218.71.80
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 19979
-  server: 101.89.154.94
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 2770a662-61db-40ed-a17c-783e521084ce
+  port: 21001
+  server: service.ouluyun9803.com
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
-  ws-opts:
-    headers:
-      Host: cache-hk-2.cn-db.top
-    path: /db00
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港3|@ripaojiedian
