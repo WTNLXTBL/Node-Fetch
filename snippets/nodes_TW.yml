@@ -1,13 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,11|🇹🇼_TW_台湾
+  name: 11,13|台湾省新竹市 中华电信
   network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
   tls: false
   type: vmess
-  uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
+  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
+- alterId: 1
+  cipher: auto
+  name: 13|🇹🇼 [V2]台湾台北Hinet Premier/NF
+  network: ws
+  port: 80
+  server: hinet.ddddns.xyz
+  tls: false
+  type: vmess
+  uuid: 21bb35ea-4e67-38c1-8d01-67fb2d64aa12
+  ws-opts:
+    headers:
+      Host: hinet.12jieke.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 16|台湾2|@ripaojiedian
+  network: tcp
+  port: '21353'
+  server: 1.162.150.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
 - alterId: 0
   cipher: auto
   name: '7,16|🇹🇼_TW_台湾 #1'
@@ -19,34 +43,10 @@ proxies:
   uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
 - alterId: 0
   cipher: auto
-  name: 11,13|台湾省新竹市 中华电信
+  name: 7,11|🇹🇼_TW_台湾
   network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  servername: ''
+  port: 2024
+  server: b23.ntbq.dynu.net
   tls: false
   type: vmess
-  uuid: d3f5c39d-610c-4b98-9b01-d5b847033cf9
-- alterId: 1
-  cipher: auto
-  name: 13|🇹🇼 [V2/尊享]台湾 无限流量/NF
-  network: ws
-  port: 80
-  server: hinet.ddddns.xyz
-  tls: false
-  type: vmess
-  uuid: 21bb35ea-4e67-38c1-8d01-67fb2d64aa12
-  ws-opts:
-    headers:
-      Host: hinet.12jieke.com
-    path: /exclusive
-- alterId: 0
-  cipher: auto
-  name: 16|台湾2|@ripaojiedian
-  network: tcp
-  port: '21353'
-  server: 1.162.150.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
+  uuid: 8907aeec-189d-48d9-b557-fb242a4d8127
