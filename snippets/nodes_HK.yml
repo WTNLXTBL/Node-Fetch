@@ -1,7 +1,7 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -12,25 +12,9 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 8.217.145.134
+  server: 42.2.118.117
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港B|@ripaojiedian
-  network: ws
-  port: 80
-  server: hk01.hajimihajimihajimi.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e46c0ad2-2ce8-41e2-a055-2fd402638a38
-  ws-opts:
-    headers:
-      Host: hk01.hajimihajimihajimi.online
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -55,22 +39,22 @@ proxies:
   server: c.skrspc.org
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.118.117
+  name: 15,16|🇭🇰 香港B|@ripaojiedian
+  network: ws
+  port: 80
+  server: hk01.hajimihajimihajimi.online
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e46c0ad2-2ce8-41e2-a055-2fd402638a38
+  ws-opts:
+    headers:
+      Host: hk01.hajimihajimihajimi.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -81,14 +65,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 2770a662-61db-40ed-a17c-783e521084ce
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -100,3 +76,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.217.145.134
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 2770a662-61db-40ed-a17c-783e521084ce
+  port: 21001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
