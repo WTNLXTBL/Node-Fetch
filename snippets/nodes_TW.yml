@@ -1,27 +1,42 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '7|🇹🇼_TW_台湾 #1'
-  network: tcp
-  port: 3278
-  server: 118.167.81.140
-  tls: false
-  type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
-- cipher: chacha20-ietf-poly1305
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 2770a662-61db-40ed-a17c-783e521084ce
-  port: 20005
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  name: 15|🇹🇼 台湾R|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 8443f83013.www.gov.hk
+  password: di15PV
+  port: 6502
+  protocol: auth_aes128_md5
+  protocol-param: 83013:lrh5bO
+  server: mysql.accessconnect.cc
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 7,16|🇹🇼_TW_台湾
+  name: 13|21|TW-板桥2-3(TCP) - 麻雀加速器 Sparr...
   network: tcp
   port: 5681
-  server: 118.167.66.25
+  server: b23.ntbq.dynu.net
+  servername: ''
   tls: false
   type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
+  uuid: 814879ae-a670-4423-be9d-f4cbf4923ada
+- alterId: 0
+  cipher: auto
+  name: 13|⚡️@DeamNet 🇹🇼Taiwan 4
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
+- alterId: 0
+  cipher: auto
+  name: 1,4|_TW_
+  network: tcp
+  port: 3278
+  server: 118.167.69.188
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
