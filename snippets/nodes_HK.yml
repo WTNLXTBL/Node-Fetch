@@ -1,34 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-212.192.12.23...
-  network: ws
-  port: '80'
-  server: 212.192.12.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港3丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 162.159.200.4
-  tls: false
-  type: vmess
-  uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65
-  ws-opts:
-    headers:
-      Host: hk3.visaapp.top
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -39,7 +12,7 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 8.217.145.134
+  server: 42.2.118.117
   tfo: false
   type: ss
 - alterId: 0
@@ -58,30 +31,9 @@ proxies:
     headers:
       Host: cache-hk-2.cn-db.top
     path: /db00
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 21001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港1丨白嫖机场.com
-  network: ws
-  port: '80'
-  server: 104.18.15.147
-  tls: false
-  type: vmess
-  uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
@@ -92,7 +44,7 @@ proxies:
     skip-cert-verify: true
     tls: false
   port: 443
-  server: 42.2.118.117
+  server: 8.217.145.134
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -101,5 +53,13 @@ proxies:
   password: 1e381f55-4ee9-48fe-a939-0aa75d0d463d
   port: 45611
   server: aca.xn--fiqr9egvchy8d.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 21001
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
