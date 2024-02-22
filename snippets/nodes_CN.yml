@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|广东省 移动
+  network: ws
+  port: 16622
+  server: m.cnmjcn.com
+  tls: false
+  type: vmess
+  uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3
+  ws-opts:
+    headers:
+      Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,12|广东省移动 7
   network: ws
   port: '20401'
@@ -13,16 +26,3 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 11|广东省 移动
-  network: ws
-  port: 16622
-  server: m.cnmjcn.com
-  tls: false
-  type: vmess
-  uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3
-  ws-opts:
-    headers:
-      Host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
-    path: /
