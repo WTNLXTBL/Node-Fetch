@@ -1,10 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.36.61.58
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 26668
+  server: service.ouluyun9803.com
   tfo: false
   type: ss
 - alterId: 0
@@ -16,7 +16,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: abd696cd-9d6a-4dfb-8033-5a0812fcb7dc
+  uuid: e5617424-2a89-4ae4-aef5-77db1e2b681c
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -26,27 +26,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: abd696cd-9d6a-4dfb-8033-5a0812fcb7dc
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c8823d7b-bdf2-4e1a-9ca4-2060deee65ec
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.m1k2s.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: abd696cd-9d6a-4dfb-8033-5a0812fcb7dc
+  uuid: e5617424-2a89-4ae4-aef5-77db1e2b681c
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -56,27 +36,23 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c8823d7b-bdf2-4e1a-9ca4-2060deee65ec
+  uuid: 69eca33a-d78d-4fb4-a681-6948a8106f9f
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Fastly节点
-  network: ws
-  port: '80'
-  server: miracle.bilibili.ovh
-  servername: ''
-  tls: false
+  name: 10|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: a6e1d100-dab4-445e-bb15-7e362f6c2f75
-  ws-opts:
-    headers:
-      Host: huawei.mil.kp
-    path: /aries?ed=2048
-- cipher: chacha20-ietf-poly1305
+  uuid: 69eca33a-d78d-4fb4-a681-6948a8106f9f
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 26668
-  server: service.ouluyun9803.com
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.36.61.58
   tfo: false
   type: ss
 - alterId: 0
@@ -88,4 +64,28 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c8823d7b-bdf2-4e1a-9ca4-2060deee65ec
+  uuid: 69eca33a-d78d-4fb4-a681-6948a8106f9f
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m1k2s.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e5617424-2a89-4ae4-aef5-77db1e2b681c
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京Fastly节点
+  network: ws
+  port: 80
+  server: fastly.alipay.ovh
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 041f0d5b-c647-4a8d-8e4e-fa7f3526a490
+  ws-opts:
+    headers:
+      Host: mihoyo.gov.kp
+    path: /aries?ed=2048
