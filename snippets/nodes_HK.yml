@@ -15,26 +15,6 @@ proxies:
   server: 42.2.118.117
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: e04823e1c68e40a3ab04aba1fc3ba3a1
-  port: 443
-  server: 202.64.1.167
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -49,6 +29,18 @@ proxies:
     tls: false
   port: 443
   server: 8.217.145.134
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
   tfo: false
   type: ss
 - alterId: 0
@@ -68,3 +60,11 @@ proxies:
     headers:
       Host: doxinjiapo.5201314.cfd
     path: /0987ff95
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: e04823e1c68e40a3ab04aba1fc3ba3a1
+  port: 443
+  server: 202.64.1.167
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
