@@ -1,18 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: e04823e1c68e40a3ab04aba1fc3ba3a1
+  port: 443
+  server: 202.64.1.167
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
+  name: 15|🇭🇰 香港3|@ripaojiedian
   password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
+  plugin: obfs
   plugin-opts:
     host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.217.145.134
+    mode: http
+  port: 80
+  server: 47.76.185.99
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -33,14 +37,18 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
-  plugin: obfs
+  plugin: v2ray-plugin
   plugin-opts:
     host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.217.145.134
   tfo: false
   type: ss
 - alterId: 0
@@ -60,21 +68,3 @@ proxies:
     headers:
       Host: doxinjiapo.5201314.cfd
     path: /0987ff95
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: e04823e1c68e40a3ab04aba1fc3ba3a1
-  port: 443
-  server: 202.64.1.167
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|标准|香港05解锁
-  network: tcp
-  port: 26014
-  server: ppy-hkv1.02fx5jcyxg.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 81a6e0cd-5a8a-3500-997d-d7b3b73465d3
