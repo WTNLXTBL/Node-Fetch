@@ -9,6 +9,14 @@ proxies:
   type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: 293ec37c942a47938231d849a5dca9bd
+  port: 40086
+  server: 7690-hk45.hmbcloud-client.com
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: obfs
@@ -17,30 +25,6 @@ proxies:
     mode: http
   port: 80
   server: 47.76.185.99
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.217.145.134
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  password: 293ec37c942a47938231d849a5dca9bd
-  port: 40086
-  server: 7690-hk45.hmbcloud-client.com
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -57,5 +41,21 @@ proxies:
     tls: false
   port: 443
   server: 42.2.118.117
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.217.145.134
   tfo: false
   type: ss
