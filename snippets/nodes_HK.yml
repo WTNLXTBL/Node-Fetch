@@ -1,25 +1,20 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
-  plugin: obfs
+  plugin: v2ray-plugin
   plugin-opts:
     host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.82.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港 | V1 | 直连
-  network: tcp
-  port: 39589
-  server: line.acetace.com
-  tls: false
-  type: vmess
-  uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -36,6 +31,18 @@ proxies:
   server: 42.2.118.117
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: 649d4021-f37f-4143-8630-6959b0f92627
@@ -44,19 +51,3 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.82.85
-  tfo: false
-  type: ss
