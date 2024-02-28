@@ -1,8 +1,8 @@
 proxies:
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  password: 649d4021-f37f-4143-8630-6959b0f92627
-  port: 10805
+  password: e15e0386-7cf9-46ca-aea2-3c754d411d3b
+  port: 10808
   server: tiananmen.19890604.day
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
@@ -21,22 +21,6 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.118.117
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -51,3 +35,29 @@ proxies:
   server: 8.218.82.85
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.118.117
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '42540'
+  server: 38.147.188.102
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 908188f4-c035-47e9-b351-7d0bfdafec1b
