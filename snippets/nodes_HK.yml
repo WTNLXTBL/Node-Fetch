@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: e15e0386-7cf9-46ca-aea2-3c754d411d3b
-  port: 10808
-  server: tiananmen.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -23,6 +15,26 @@ proxies:
   server: 42.2.118.117
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: e15e0386-7cf9-46ca-aea2-3c754d411d3b
+  port: 10808
+  server: tiananmen.19890604.day
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 16|香港1|@ripaojiedian
@@ -47,17 +59,5 @@ proxies:
     tls: false
   port: 443
   server: 8.218.82.85
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
   tfo: false
   type: ss
