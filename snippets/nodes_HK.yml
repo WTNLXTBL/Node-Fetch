@@ -1,14 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
-  network: tcp
-  port: '42540'
-  server: 38.147.188.102
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 908188f4-c035-47e9-b351-7d0bfdafec1b
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 10a1325c3ffa4da584029843dbffb2c3
+  port: 443
+  server: 220.246.88.197
+  skip-cert-verify: false
+  sni: www.gpt123.one
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -25,14 +35,14 @@ proxies:
   server: 8.218.82.85
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  password: e15e0386-7cf9-46ca-aea2-3c754d411d3b
-  port: 10808
-  server: tiananmen.19890604.day
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
+  password: 10a1325c3ffa4da584029843dbffb2c3
+  port: 42102
+  server: 7690-hk45.hmbcloud-client.com
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -47,17 +57,5 @@ proxies:
     tls: false
   port: 443
   server: 42.2.118.117
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
   tfo: false
   type: ss
