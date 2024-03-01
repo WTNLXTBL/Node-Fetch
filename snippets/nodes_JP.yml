@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e2c87393-3532-4b79-a907-ce670c3df918
+- alterId: 0
+  cipher: auto
   name: 10|🇯🇵日本06
   network: tcp
   port: '36111'
@@ -8,7 +18,27 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: e2c87393-3532-4b79-a907-ce670c3df918
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m1k2s.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3429772d-7090-4804-b448-6ef9a0516219
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.m1k2s.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3429772d-7090-4804-b448-6ef9a0516219
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -19,26 +49,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.m1k2s.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
   network: tcp
   port: '31106'
@@ -46,7 +56,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 3429772d-7090-4804-b448-6ef9a0516219
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本04
@@ -56,14 +66,20 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: e2c87393-3532-4b79-a907-ce670c3df918
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.m1k2s.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
