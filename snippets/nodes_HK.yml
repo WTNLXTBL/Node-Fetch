@@ -7,14 +7,20 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: ec94e82c-5d2b-45c4-a139-c5f591ec7754
-  port: 51008
-  server: behbwombrmfotezo.oneoneoneoneoneoneoneoneoneone.one
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-141.11.90.1...
+  network: ws
+  port: '15344'
+  server: 141.11.90.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6d669cf5-b6d5-4974-db22-f9e73a3fd8ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /aaaaa
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -59,17 +65,24 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: ec94e82c-5d2b-45c4-a139-c5f591ec7754
+  port: 51008
+  server: behbwombrmfotezo.oneoneoneoneoneoneoneoneoneone.one
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-141.11.90.1...
+  name: 13|🇭🇰香港1丨白嫖机场.com
   network: ws
-  port: '15344'
-  server: 141.11.90.163
-  servername: ''
+  port: '80'
+  server: 104.18.15.147
   tls: false
   type: vmess
-  uuid: 6d669cf5-b6d5-4974-db22-f9e73a3fd8ca
+  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
   ws-opts:
     headers:
-      Host: ''
-    path: /aaaaa
+      Host: hk3.889611.com
+    path: /
