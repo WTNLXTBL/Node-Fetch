@@ -1,28 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: ec94e82c-5d2b-45c4-a139-c5f591ec7754
-  port: 51008
-  server: behbwombrmfotezo.oneoneoneoneoneoneoneoneoneone.one
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: 01bf864c-b3e9-4c5c-a0ca-c283225bc0e1
@@ -33,14 +9,10 @@ proxies:
   type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: ec94e82c-5d2b-45c4-a139-c5f591ec7754
+  port: 51008
+  server: behbwombrmfotezo.oneoneoneoneoneoneoneoneoneone.one
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -59,3 +31,45 @@ proxies:
   server: 8.218.82.85
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.115.231
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-141.11.90.1...
+  network: ws
+  port: '15344'
+  server: 141.11.90.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6d669cf5-b6d5-4974-db22-f9e73a3fd8ca
+  ws-opts:
+    headers:
+      Host: ''
+    path: /aaaaa
