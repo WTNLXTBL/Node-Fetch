@@ -1,13 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NONE 🇸🇬 SG-47.236.230...
-  network: tcp
-  port: 34620
-  server: 47.236.230.128
+  name: 13|SG_youtube@资源分享师_120
+  network: ws
+  port: 80
+  server: sg03.beautifulprimavera.online
   tls: false
   type: vmess
-  uuid: ea431b9c-d733-4d6f-e5a6-be000b4a8a33
+  uuid: 064c67c0-ba22-4d94-96e8-be43245fd29b
+  ws-opts:
+    headers:
+      Host: sg03.beautifulprimavera.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -17,7 +21,59 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6eebbe42-5560-4dc0-97d9-fadc5c15df0d
+  uuid: 70ba8bd2-3f42-4a67-963a-15bd5728d143
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6614d436-49ab-4055-9c69-bfdd74b5e393
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 70ba8bd2-3f42-4a67-963a-15bd5728d143
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.97.15...
+  network: ws
+  port: '42722'
+  server: 146.190.97.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3e1dc18e-4e52-4ab1-b679-b7bd1dc98fc8
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /Shalana
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 70ba8bd2-3f42-4a67-963a-15bd5728d143
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.79.137.45
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|10M  新加坡
@@ -28,26 +84,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1e1a3389-8ef6-411d-dc3c-17bee9fd19e7
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6eebbe42-5560-4dc0-97d9-fadc5c15df0d
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1afc0e12-5e99-45f7-9b99-3e65b5edf9fa
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -66,14 +102,14 @@ proxies:
     path: /video/3YKfzGw4
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
+  name: 10|🇸🇬新加坡06
   network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1afc0e12-5e99-45f7-9b99-3e65b5edf9fa
+  uuid: 6614d436-49ab-4055-9c69-bfdd74b5e393
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡04
@@ -83,51 +119,4 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1afc0e12-5e99-45f7-9b99-3e65b5edf9fa
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.79.137.45
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|SG_youtube@资源分享师_120
-  network: ws
-  port: 80
-  server: sg03.beautifulprimavera.online
-  tls: false
-  type: vmess
-  uuid: 064c67c0-ba22-4d94-96e8-be43245fd29b
-  ws-opts:
-    headers:
-      Host: sg03.beautifulprimavera.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6eebbe42-5560-4dc0-97d9-fadc5c15df0d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d7d5e92a-8899-4ebd-92e5-f85c24d8e9ab
-  ws-opts:
-    headers:
-      Host: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
+  uuid: 6614d436-49ab-4055-9c69-bfdd74b5e393
