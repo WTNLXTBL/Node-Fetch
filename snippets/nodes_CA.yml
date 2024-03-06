@@ -1,10 +1,68 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 018
+  network: tcp
+  port: 443
+  server: 216.128.184.239
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.a3b5wy.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 34e08372-6ee2-46c1-aed3-af8b2ffc43fe
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 016
+  network: ws
+  port: 443
+  server: 104.16.217.241
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nelly.homes
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m3c5wy.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9d8a760d-56a7-4c87-9887-0515024896c9
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 015
   network: ws
   port: 2052
   server: 104.21.23.231
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 009
+  network: ws
+  port: 2052
+  server: onea.flha.ru
   servername: ''
   tls: false
   type: vmess
@@ -23,61 +81,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m3c5wy.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 05e4a8fa-9604-42e1-b507-f35066e1c68a
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 009
-  network: ws
-  port: 2052
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 016
-  network: ws
-  port: 443
-  server: 104.16.217.241
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 018
-  network: tcp
-  port: 443
-  server: 216.128.184.239
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.a3b5wy.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ab46cc3e-e884-4e67-b998-d6a97fee1970
