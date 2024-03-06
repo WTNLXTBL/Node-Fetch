@@ -1,12 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 41f96983-1ab9-4634-a916-98ef1b557cb4
+  port: 39210
+  server: lsgy.lanxingyun.cn
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
-  password: mai9t5nk91
+  password: 48jteov83q2
   port: 56005
   server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '44602'
+  server: 183.237.20.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇭🇰 HK-185.242.232....
@@ -17,6 +35,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 784e7466-c926-4c50-dbf4-f07fe8eaf77d
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -33,28 +63,6 @@ proxies:
   server: 8.218.82.85
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '44602'
-  server: 183.237.20.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
