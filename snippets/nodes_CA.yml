@@ -1,18 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 011
+  name: 1|_CA_
   network: ws
-  port: 443
-  server: 104.20.39.186
-  servername: ''
-  tls: true
+  port: 8080
+  server: 23.227.38.22
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
   ws-opts:
     headers:
-      Host: vmess.taxar71054.workers.dev
-    path: /ivideos.sbs/linkws
+      host: per-essex-patterns-bowling.trycloudflare.com
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m3c5wy.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a820e28a-07d5-4136-afbf-904462cbb506
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 021
+  network: ws
+  port: '80'
+  server: 104.16.67.38
+  tls: false
+  type: vmess
+  uuid: f8c92b3b-5447-44a5-9e54-23cdc269cb93
+  ws-opts:
+    headers:
+      Host: aq.daozhang.link
+    path: f8c92b3b
 - alterId: 0
   cipher: auto
   name: 13|加拿大 016
@@ -29,14 +52,17 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m3c5wy.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  name: 0,3,4,6,7,11,17|🇨🇦 _CA_加拿大
+  network: ws
+  port: '8080'
+  server: 23.227.38.22
+  tls: false
   type: vmess
-  uuid: 9e094e6c-a424-4270-b280-32a0d70f8f92
+  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦加拿大04
@@ -46,7 +72,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d0cb3485-6b96-420a-a394-11831bf952c1
+  uuid: c73fe3a7-3b4b-4d74-a8c7-6d208a451b49
 - alterId: 0
   cipher: auto
   name: 13|加拿大 014
@@ -63,38 +89,29 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,17|🇨🇦 _CA_加拿大
+  name: 13|加拿大 020
   network: ws
-  port: '8080'
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  port: 443
+  server: 104.24.0.11
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 1|_CA_
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e9d23b60-6e44-45a2-b24f-c8521c04c310
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-    path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 011
+  network: ws
+  port: 443
+  server: 104.20.39.186
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: vmess.taxar71054.workers.dev
+    path: /ivideos.sbs/linkws
