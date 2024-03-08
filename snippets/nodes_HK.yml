@@ -7,31 +7,6 @@ proxies:
   skip-cert-verify: false
   sni: sst.onlineweb.work
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  network: ws
-  port: 2053
-  server: 47.76.80.72
-  servername: cfhk.393930.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 949f7542-7240-43ba-a3cc-dcf7c7b2e6b7
-  port: 44552
-  server: hk03.jjjjjj.icu
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -48,6 +23,19 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13,15|🇭🇰 香港 001
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -68,20 +56,6 @@ proxies:
   server: 4cc3.e2s.buzz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -98,20 +72,11 @@ proxies:
   server: 8.218.82.85
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 4431
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 949f7542-7240-43ba-a3cc-dcf7c7b2e6b7
+  port: 44552
+  server: hk03.jjjjjj.icu
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
+  type: ss
