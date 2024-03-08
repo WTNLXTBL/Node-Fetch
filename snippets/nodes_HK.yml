@@ -17,6 +17,18 @@ proxies:
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 47.76.185.99
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
@@ -33,22 +45,18 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
   password: a-wym4ovY4Yw
-  plugin: obfs
+  plugin: v2ray-plugin
   plugin-opts:
     host: ''
-    mode: http
-  port: 80
-  server: 47.76.185.99
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 949f7542-7240-43ba-a3cc-dcf7c7b2e6b7
-  port: 44552
-  server: hk03.jjjjjj.icu
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.115.231
   tfo: false
   type: ss
 - alterId: 0
@@ -64,19 +72,11 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 949f7542-7240-43ba-a3cc-dcf7c7b2e6b7
+  port: 44552
+  server: hk03.jjjjjj.icu
   tfo: false
   type: ss
