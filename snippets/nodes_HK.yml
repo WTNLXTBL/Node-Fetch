@@ -1,40 +1,27 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: da0d870c-6545-4866-8591-3cdebf00f546
-  port: 443
-  server: sst.onlineweb.work
-  skip-cert-verify: false
-  sni: sst.onlineweb.work
-  type: trojan
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 949f7542-7240-43ba-a3cc-dcf7c7b2e6b7
+  port: 44552
+  server: hk03.jjjjjj.icu
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,15|🇭🇰 香港 001
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
   network: ws
-  port: '4431'
-  server: 152.32.190.239
-  tls: true
+  port: 48316
+  server: wtt1.hkg.hypernat.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  uuid: a44863f7-e332-4b0f-99e5-148564712c24
   ws-opts:
     headers:
-      Host: cfhk.393930.xyz
+      Host: wtt1.hkg.hypernat.com
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -50,10 +37,18 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: d1d6ea15-0223-4a39-9091-7fbf3fd462f9
-  port: 12372
-  server: 4cc3.e2s.buzz
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.115.231
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -72,11 +67,17 @@ proxies:
   server: 8.218.82.85
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 949f7542-7240-43ba-a3cc-dcf7c7b2e6b7
-  port: 44552
-  server: hk03.jjjjjj.icu
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港 001
+  network: ws
+  port: 4431
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
