@@ -1,28 +1,4 @@
 proxies:
-- name: 1|_CA_->_US_
-  network: ws
-  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-  port: 443
-  server: 23.227.38.11
-  skip-cert-verify: true
-  sni: syndication-statutes-wanted-logo.trycloudflare.com
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /argox-tr
-- alterId: 0
-  cipher: auto
-  name: 0,3,4|🇺🇸 _US_美国->🇮🇹_IT_意大利
-  network: ws
-  port: '2052'
-  server: frcc.digicert.pp.ua
-  tls: false
-  type: vmess
-  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
-  ws-opts:
-    headers:
-      Host: asdfas.qkhbyf.tech
-    path: /apopsdsssaop
 - grpc-opts:
     grpc-service-name: lK1wclmJRbMxj4FxIzvwxUDoX
   name: 1|_US_->_RU_
@@ -37,16 +13,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0,3,4,6,7,13,17|🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+  name: 0,3,4,6,7,17|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
-  port: '8880'
-  server: 94.140.0.110
+  port: '8080'
+  server: www.visa.co.jp
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
   ws-opts:
     headers:
-      Host: food.zhaal.ir
+      Host: ydmmamd1.mac2win.top
     path: /
 - alterId: 0
   cipher: auto
@@ -64,43 +40,55 @@ proxies:
     path: /apopop
 - alterId: 0
   cipher: auto
-  name: 0,3,4,13|🇺🇸 _US_美国->🇮🇳_IN_印度
+  name: 0,3,4,6,7,17|🇺🇸 _US_美国->🇮🇹_IT_意大利
   network: ws
-  port: '8080'
-  server: www.visa.co.jp
+  port: '2052'
+  server: frcc.digicert.pp.ua
   tls: false
   type: vmess
-  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
+  uuid: 5cc3a871-6eeb-4b87-b4e4-4f2611eb5441
   ws-opts:
     headers:
-      Host: ydmmamd1.mac2win.top
-    path: /
+      Host: asdfas.qkhbyf.tech
+    path: /apopsdsssaop
 - alterId: 0
   cipher: auto
-  name: '0,3,4,11,13|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: www.visa.com.hk
-  tls: false
-  type: vmess
-  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
-  ws-opts:
-    headers:
-      Host: ydmmamd2.mac2win.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: 1|_US_->_IN__1
   network: ws
   port: 8080
-  server: fbi.gov
+  server: www.visa.co.jp
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b1e5c55d-e59b-42c4-aeb9-393e18525cca
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
   ws-opts:
     headers:
-      Host: nest-emily-healing-h.trycloudflare.com
-    path: b1e5c55d-e59b-42c4-aeb9-393e18525cca-vm
+      host: ydmmamd1.mac2win.top
+    path: /
+- name: 1|_CA_->_US_
+  network: ws
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+  port: 443
+  server: 23.227.38.11
+  skip-cert-verify: true
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /argox-tr
+- alterId: 0
+  cipher: auto
+  name: 0,3,4,6,7,17|🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+  network: ws
+  port: '8880'
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_US_->_IT_
@@ -117,20 +105,6 @@ proxies:
     path: /apopsdsssaop
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN__2
-  network: ws
-  port: 80
-  server: www.visa.com.hk
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
-  ws-opts:
-    headers:
-      host: ydmmamd2.mac2win.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 1|_AE_->_GB_
   network: ws
   port: 8880
@@ -145,34 +119,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_IN__1
+  name: 1|_US_->_IN__2
   network: ws
-  port: 8080
-  server: www.visa.co.jp
+  port: 80
+  server: www.visa.com.hk
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
   ws-opts:
     headers:
-      host: ydmmamd1.mac2win.top
+      host: ydmmamd2.mac2win.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,17|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
   network: ws
-  port: 2082
-  server: 172.67.130.140
+  port: '80'
+  server: www.visa.com.hk
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: e184e964-518c-4ddf-ab05-f0a2ecff2f42
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: ydmmamd2.mac2win.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,4|🇺🇸 _US_美国->🇦🇪_AE_阿联酋
+  name: 0,3,4,6,17|🇺🇸 _US_美国->🇦🇪_AE_阿联酋
   network: ws
   port: '2052'
   server: asdad.cxzntq.tech
