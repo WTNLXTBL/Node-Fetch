@@ -1,15 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 50022
-  server: 50022.baidu-cdn.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -26,20 +15,33 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '50022'
+  server: 50022.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 50022
+  server: 50022.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 06a4d7d1-8169-4bd1-9726-d68d5c2fe92a
+  port: 44606
+  server: hk.1.thap.xyz
   tfo: false
   type: ss
 - alterId: 0
@@ -56,12 +58,20 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 06a4d7d1-8169-4bd1-9726-d68d5c2fe92a
-  port: 44606
-  server: hk.1.thap.xyz
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.115.231
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -72,13 +82,3 @@ proxies:
   server: hk05.jjjjjj.icu
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '50022'
-  server: 50022.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
