@@ -1,4 +1,34 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 07d1caeb-1357-48fc-9dd6-19d70024e0fd
+  port: 43217
+  server: hk05.jjjjjj.icu
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港 001
+  network: ws
+  port: 4431
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 06a4d7d1-8169-4bd1-9726-d68d5c2fe92a
+  port: 44606
+  server: hk.1.thap.xyz
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -15,22 +45,17 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 07d1caeb-1357-48fc-9dd6-19d70024e0fd
-  port: 43217
-  server: hk05.jjjjjj.icu
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 50022
+  server: 50022.baidu-cdn.top
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 06a4d7d1-8169-4bd1-9726-d68d5c2fe92a
-  port: 44606
-  server: hk.1.thap.xyz
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -47,28 +72,3 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 50022
-  server: 50022.baidu-cdn.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
-- alterId: 0
-  cipher: auto
-  name: 13|香港 001
-  network: ws
-  port: 4431
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
