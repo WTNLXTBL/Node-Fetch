@@ -1,6 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|香港 001
+  network: ws
+  port: 4431
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 069e43cb-15cd-4d3c-9710-6aeb074a5b18
+  port: 43217
+  server: hk05.jjjjjj.icu
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   port: 50022
@@ -40,38 +62,6 @@ proxies:
     tls: false
   port: 443
   server: 42.2.115.231
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '25469'
-  server: 103.30.76.87
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
-- alterId: 0
-  cipher: auto
-  name: 13|香港 001
-  network: ws
-  port: 4431
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 069e43cb-15cd-4d3c-9710-6aeb074a5b18
-  port: 43217
-  server: hk05.jjjjjj.icu
   tfo: false
   type: ss
 - alterId: 0
