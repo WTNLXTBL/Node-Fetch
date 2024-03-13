@@ -10,6 +10,40 @@ proxies:
   tls: false
   type: vmess
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 0d87a83e-1c78-4702-affc-52f4b8651945
+  port: 43217
+  server: hk05.jjjjjj.icu
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '25469'
+  server: 103.30.76.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.2.115.231
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -42,37 +76,3 @@ proxies:
     headers:
       Host: 193.25.215.160
     path: /niuniu
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '25469'
-  server: 103.30.76.87
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 0d87a83e-1c78-4702-affc-52f4b8651945
-  port: 43217
-  server: hk05.jjjjjj.icu
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.2.115.231
-  tfo: false
-  type: ss
