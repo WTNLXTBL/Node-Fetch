@@ -1,12 +1,30 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 4fe17892-492f-4fda-8309-83b6296830a5
-  port: 43217
-  server: hk05.jjjjjj.icu
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 47.76.185.99
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '44602'
+  server: 120.232.242.77
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -15,16 +33,6 @@ proxies:
   server: 183.236.51.50
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '51702'
-  server: 183.236.51.50
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -44,38 +52,20 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 47.76.185.99
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 4fe17892-492f-4fda-8309-83b6296830a5
+  port: 43217
+  server: hk05.jjjjjj.icu
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '25469'
-  server: 103.30.76.87
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '44602'
-  server: 120.232.242.77
+  port: '51702'
+  server: 183.236.51.50
   servername: ''
   tls: false
   type: vmess
