@@ -1,20 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: cb0s3xr4av
-  port: 56005
-  server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: d04e5e2f-49f2-4eee-8f40-5f0c6485a509
-  port: 43217
-  server: hk05.jjjjjj.icu
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -50,6 +34,17 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 25469
+  server: 103.30.76.87
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 15,16|🇭🇰 香港2|@ripaojiedian
   network: ws
   port: 16627
@@ -65,17 +60,6 @@ proxies:
     path: /niuniu
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  port: 25469
-  server: 103.30.76.87
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
-- alterId: 0
-  cipher: auto
   name: 16|香港3|@ripaojiedian
   network: tcp
   port: '25469'
@@ -84,3 +68,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 8691b44b-3736-4576-b2d1-b70e4bea5044
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: cb0s3xr4av
+  port: 56005
+  server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: d04e5e2f-49f2-4eee-8f40-5f0c6485a509
+  port: 43217
+  server: hk05.jjjjjj.icu
+  tfo: false
+  type: ss
