@@ -1,28 +1,14 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港1|@ripaojiedian
   network: tcp
-  port: '51702'
-  server: 183.236.51.51
+  port: '32996'
+  server: 120.232.242.96
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰香港 02
-  network: ws
-  port: '443'
-  server: cf.335570.xyz
-  servername: hk01.cao.gay
-  tls: true
-  type: vmess
-  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
-  ws-opts:
-    headers:
-      Host: hk01.cao.gay
-    path: /ws?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -39,6 +25,17 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 12696
+  server: 154.198.227.34
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a2f6696a-bf90-43ae-960b-c5bdc1fe947a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -47,6 +44,20 @@ proxies:
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港 02
+  network: ws
+  port: '443'
+  server: cf.335570.xyz
+  servername: hk01.cao.gay
+  tls: true
+  type: vmess
+  uuid: bfef2469-9d59-4111-b54b-4d58e819a808
+  ws-opts:
+    headers:
+      Host: hk01.cao.gay
+    path: /ws?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -73,16 +84,6 @@ proxies:
   server: 42.2.115.231
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
-  network: tcp
-  port: '32996'
-  server: 120.232.242.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
@@ -91,14 +92,13 @@ proxies:
   server: hk05.jjjjjj.icu
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 12696
-  server: 154.198.227.34
-  skip-cert-verify: false
-  tfo: false
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51702'
+  server: 183.236.51.51
+  servername: ''
   tls: false
   type: vmess
-  uuid: a2f6696a-bf90-43ae-960b-c5bdc1fe947a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
