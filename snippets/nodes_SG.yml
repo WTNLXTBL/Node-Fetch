@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.a3b5wy.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
-- alterId: 0
-  cipher: auto
   name: 10|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -21,6 +11,19 @@ proxies:
   uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-165.232.170...
+  network: ws
+  port: 44479
+  server: 165.232.170.209
+  tls: false
+  type: vmess
+  uuid: a17272e8-3d27-4dd3-a25f-2ddbc70953c1
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -28,17 +31,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1dc1cb9f-5588-4087-83aa-0194caab56b3
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m3c5wy.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1dc1cb9f-5588-4087-83aa-0194caab56b3
+  uuid: bcbefbd3-b8a4-4fa6-b333-072fe02b3ba3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -49,16 +42,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m3c5wy.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1dc1cb9f-5588-4087-83aa-0194caab56b3
-- alterId: 0
-  cipher: auto
   name: 10|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -67,6 +50,16 @@ proxies:
   tls: true
   type: vmess
   uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m3c5wy.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bcbefbd3-b8a4-4fa6-b333-072fe02b3ba3
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -88,14 +81,21 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-165.232.170...
-  network: ws
-  port: 44479
-  server: 165.232.170.209
-  tls: false
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.a3b5wy.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: a17272e8-3d27-4dd3-a25f-2ddbc70953c1
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /
+  uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m3c5wy.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bcbefbd3-b8a4-4fa6-b333-072fe02b3ba3
