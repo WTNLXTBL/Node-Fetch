@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
+  port: 43217
+  server: hk05.jjjjjj.icu
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -10,14 +18,19 @@ proxies:
   protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
-  port: 43217
-  server: hk05.jjjjjj.icu
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港高速接入点-01
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd0a88d8-989b-4500-adb1-94889d6862c2
+  ws-opts:
+    headers:
+      Host: yvhnbevxhk1.yofnhkfc.xyz
+    path: /video/34kKXbLM
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -34,16 +47,6 @@ proxies:
   server: 8.218.196.35
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '44827'
-  server: hkjcdn03.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -60,6 +63,26 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '54882'
+  server: 120.238.122.199
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '44827'
+  server: hkjcdn03.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -71,13 +94,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '54882'
-  server: 120.238.122.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
