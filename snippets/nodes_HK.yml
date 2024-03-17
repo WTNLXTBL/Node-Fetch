@@ -1,50 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 44827
-  server: hkjcdn03.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-62.216.92.70...
+  network: tcp
+  port: '1001'
+  server: 62.216.92.70
+  servername: ''
   tls: false
   type: vmess
-  uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.196.35
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
-  port: 43217
-  server: hk05.jjjjjj.icu
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: b91a022997.microsoft.com
-  password: Fhbe0z
-  port: 11802
-  protocol: auth_aes128_sha1
-  protocol-param: 22997:JeHHT2
-  server: vip.basicnode.host
-  type: ssr
+  uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -61,16 +25,6 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-62.216.92.70...
-  network: tcp
-  port: '1001'
-  server: 62.216.92.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0927b72f-8f1c-38f7-8a86-cb977dba6b83
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -91,3 +45,49 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.196.35
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 44827
+  server: hkjcdn03.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
+  port: 43217
+  server: hk05.jjjjjj.icu
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: b91a022997.microsoft.com
+  password: Fhbe0z
+  port: 11802
+  protocol: auth_aes128_sha1
+  protocol-param: 22997:JeHHT2
+  server: vip.basicnode.host
+  type: ssr
