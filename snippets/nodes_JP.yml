@@ -1,10 +1,10 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
-  port: 20007
-  server: ddns.olucloud.subapi.cc
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.142.56.221
   tfo: false
   type: ss
 - alterId: 0
@@ -16,25 +16,33 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 76186dbb-e9d7-4005-878a-45611b112930
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
-  port: 30207
-  server: jp01.jjjjjj.icu
-  tfo: false
-  type: ss
+  uuid: 1bfd38f9-ede9-4d74-9db1-80a85c3ea74e
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  name: 14|【BGP】日本 05  | 1x JP
   network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
+  port: '31106'
+  server: 6w7j3p05.m3c5wy.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
+  uuid: 1bfd38f9-ede9-4d74-9db1-80a85c3ea74e
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
+  port: 50004
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
+  port: 20007
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -53,6 +61,37 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  network: ws
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 4ecba9e5-8b95-45c5-841e-72be05566d57
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 64
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
+  port: 30207
+  server: jp01.jjjjjj.icu
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 10|🇯🇵日本05
   network: tcp
   port: '36106'
@@ -60,15 +99,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9fc694e2-3927-4071-ad9e-6509b601b718
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
-  port: 50004
-  server: ddns.olucloud.subapi.cc
-  tfo: false
-  type: ss
+  uuid: 7312b6f8-72db-471a-a010-8e949fd4f5ba
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -78,17 +109,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9fc694e2-3927-4071-ad9e-6509b601b718
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.m3c5wy.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 76186dbb-e9d7-4005-878a-45611b112930
+  uuid: 7312b6f8-72db-471a-a010-8e949fd4f5ba
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本04
@@ -98,7 +119,20 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9fc694e2-3927-4071-ad9e-6509b601b718
+  uuid: 7312b6f8-72db-471a-a010-8e949fd4f5ba
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵日本高速接入点-04
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd0a88d8-989b-4500-adb1-94889d6862c2
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -108,12 +142,4 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 76186dbb-e9d7-4005-878a-45611b112930
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.142.56.221
-  tfo: false
-  type: ss
+  uuid: 1bfd38f9-ede9-4d74-9db1-80a85c3ea74e
