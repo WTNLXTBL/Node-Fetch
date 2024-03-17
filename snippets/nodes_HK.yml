@@ -10,6 +10,42 @@ proxies:
   tls: false
   type: vmess
   uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '54882'
+  server: 120.238.122.199
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '44827'
+  server: hkjcdn03.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.196.35
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇭🇰香港下载10G专线
@@ -23,16 +59,6 @@ proxies:
     headers:
       Host: ''
     path: /qwe123321ewq
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '44827'
-  server: hkjcdn03.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 40c58958-2432-4f60-9b5d-746f9cded85f
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -60,32 +86,6 @@ proxies:
   protocol-param: 22997:JeHHT2
   server: vip.basicnode.host
   type: ssr
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.196.35
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '54882'
-  server: 120.238.122.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
