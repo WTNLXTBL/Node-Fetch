@@ -1,4 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 21033
+  server: hk.lianjianode.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f4548f9-e342-460c-8eb4-0ca81d24d41c
+  ws-opts:
+    headers:
+      Host: hk1.luodi.xyz
+    path: /hongkong
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -31,47 +47,6 @@ proxies:
   server: 8.218.196.35
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 443
-  server: hkcft01.xqc.best
-  servername: drplky41bs67j.cloudfront.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: d52ac80d-4bf9-4505-b67a-e0b781b3b2bb
-  ws-opts:
-    headers:
-      Host: drplky41bs67j.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 21033
-  server: hk.lianjianode.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f4548f9-e342-460c-8eb4-0ca81d24d41c
-  ws-opts:
-    headers:
-      Host: hk1.luodi.xyz
-    path: /hongkong
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
@@ -91,3 +66,28 @@ proxies:
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 443
+  server: hkcft01.xqc.best
+  servername: drplky41bs67j.cloudfront.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d52ac80d-4bf9-4505-b67a-e0b781b3b2bb
+  ws-opts:
+    headers:
+      Host: drplky41bs67j.cloudfront.net
+    path: /stream
