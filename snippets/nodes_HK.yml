@@ -1,4 +1,14 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '41492'
+  server: 120.232.242.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -15,48 +25,6 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: 5db9910182.microsoft.com
-  password: Fhbe0z
-  port: 11420
-  protocol: auth_aes128_sha1
-  protocol-param: 10182:Ed7u0G
-  server: vip3.niuniupremium.xyz
-  type: ssr
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '41492'
-  server: 120.232.242.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
-  network: tcp
-  port: '54402'
-  server: 120.233.43.20
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 41492
-  server: 120.232.242.126
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -74,22 +42,17 @@ proxies:
     headers:
       Host: cfhk.393930.xyz
     path: /
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.196.35
-  tfo: false
-  type: ss
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 5db9910182.microsoft.com
+  password: Fhbe0z
+  port: 11420
+  protocol: auth_aes128_sha1
+  protocol-param: 10182:Ed7u0G
+  server: vip3.niuniupremium.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -108,3 +71,40 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.196.35
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 41492
+  server: 120.232.242.126
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '54402'
+  server: 120.233.43.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
