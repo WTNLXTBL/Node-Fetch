@@ -1,30 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 21032
-  server: hk.lianjianode.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2e009a5a-5329-46cc-a69e-097b94323328
-  ws-opts:
-    headers:
-      Host: hk1.luodi.xyz
-    path: /hongkong
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 66e030b0-e51c-11ee-b858-086e190000d9
-  port: 20002
-  server: hk2.mhw7e2.online
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
   network: ws
   port: '24101'
@@ -39,30 +15,14 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 16|香港1|@ripaojiedian
+  name: 16|香港2|@ripaojiedian
   network: tcp
-  port: '42055'
-  server: 120.238.122.151
+  port: '54100'
+  server: 183.236.51.62
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.196.35
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
@@ -74,24 +34,21 @@ proxies:
   protocol-param: 9890:cqtnFi
   server: 183.240.220.84
   type: ssr
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 66e030b0-e51c-11ee-b858-086e190000d9
+  port: 20002
+  server: hk2.mhw7e2.online
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '54100'
+  port: '45020'
   server: 183.236.51.62
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 45020
-  server: 183.236.51.62
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -111,12 +68,55 @@ proxies:
   server: 47.76.185.99
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.196.35
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 21032
+  server: hk.lianjianode.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2e009a5a-5329-46cc-a69e-097b94323328
+  ws-opts:
+    headers:
+      Host: hk1.luodi.xyz
+    path: /hongkong
 - alterId: 64
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '45020'
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 45020
   server: 183.236.51.62
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.238.122.151
   servername: ''
   tls: false
   type: vmess
