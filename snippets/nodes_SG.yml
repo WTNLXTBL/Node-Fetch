@@ -1,4 +1,30 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.181.36.85
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m3c5wy.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 66e030b0-e51c-11ee-b858-086e190000d9
+  port: 20009
+  server: sg1.mhw7e2.online
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -8,15 +34,38 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
-- cipher: chacha20-ietf-poly1305
+  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 66e030b0-e51c-11ee-b858-086e190000d9
-  port: 20009
-  server: sg1.mhw7e2.online
-  tfo: false
-  type: ss
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ac3669890.microsoft.com
+  password: Fhbe0z
+  port: 11846
+  protocol: auth_aes128_sha1
+  protocol-param: 9890:cqtnFi
+  server: 183.240.220.84
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.a3b5wy.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.a3b5wy.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -25,6 +74,26 @@ proxies:
   server: gtm1.ktmwan.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.a3b5wy.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6e42e6db-e526-476d-bbc2-b4efb32e7567
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m3c5wy.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0c136460-82f0-4077-bf4a-8c434267e128
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -39,72 +108,3 @@ proxies:
     headers:
       Host: m.instagram.com
     path: /
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ac3669890.microsoft.com
-  password: Fhbe0z
-  port: 11846
-  protocol: auth_aes128_sha1
-  protocol-param: 9890:cqtnFi
-  server: 183.240.220.84
-  type: ssr
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 57.181.36.85
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.a3b5wy.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m3c5wy.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.a3b5wy.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.a3b5wy.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: aec679ee-b9bc-43b6-912e-3e9e7590ab95
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m3c5wy.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 23456f31-5372-42fb-953a-6fe8bb4b3d89
