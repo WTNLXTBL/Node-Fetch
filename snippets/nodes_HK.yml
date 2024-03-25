@@ -1,39 +1,21 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 16|香港1|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '37078'
-  server: 38.147.189.180
+  port: '42055'
+  server: 120.238.122.251
   servername: ''
   tls: false
   type: vmess
-  uuid: d5e16a28-afa8-4b64-a459-db32d14cd4d1
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 2053
-  server: 8.218.142.253
-  servername: cfhk.393930.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 42055
-  server: 120.238.122.251
-  skip-cert-verify: false
-  tfo: false
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -69,23 +51,41 @@ proxies:
   server: 1.65.218.52
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 2053
+  server: 8.218.142.253
+  servername: cfhk.393930.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
 - alterId: 64
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '42055'
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 42055
   server: 120.238.122.251
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
+  name: 16|香港1|@ripaojiedian
   network: tcp
-  port: '54437'
-  server: 183.236.51.59
+  port: '37078'
+  server: 38.147.189.180
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d5e16a28-afa8-4b64-a459-db32d14cd4d1
