@@ -1,37 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,3,6,7,17|_CA__4
-  network: http
-  port: 3389
-  server: 134.122.41.160
+  name: 1|_CA__5
+  network: ws
+  port: 8080
+  server: 23.227.38.23
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '6,13|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 8080
-  server: 108.181.23.161
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      Host: internet.life.com.by
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.a3b5wy.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fa994140-d413-4a0c-87a7-49ae443b9c8c
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
   name: 13|加拿大 132
@@ -48,20 +29,33 @@ proxies:
     path: /u04
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m3c5wy.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ba6e5721-2373-4b1a-a710-7a14cf681224
-- alterId: 0
-  cipher: auto
-  name: 1|_CA__1
+  name: 6|🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.a3b5wy.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 745731ec-98b7-440d-830d-0776199aec98
+- alterId: 0
+  cipher: auto
+  name: 1|_CA__2
+  network: ws
+  port: 8080
+  server: 23.227.38.22
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -70,60 +64,6 @@ proxies:
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: '6,7,11|🇨🇦_CA_加拿大 #2'
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 164
-  network: ws
-  port: 443
-  server: 104.26.8.210
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 206259fd-09af-46ee-ec6d-5ac8a8291d6d
-  ws-opts:
-    headers:
-      Host: uyhgiuyfewdrgf-to12345.xiaohhh.xyz
-    path: /66
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 070
-  network: ws
-  port: 2087
-  server: 104.21.10.205
-  servername: api.cdn-tgju.org
-  tls: true
-  type: vmess
-  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
-  ws-opts:
-    headers:
-      Host: api.cdn-tgju.org
-    path: /ows
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 177
-  network: ws
-  port: '2053'
-  server: 104.21.94.20
-  tls: true
-  type: vmess
-  uuid: 9e649329-c23a-4b57-a6b2-41d9aee8ed8e
-  ws-opts:
-    headers:
-      Host: GK0005.nnaotexiongditkgroup.top
-    path: /GK0005
 - alterId: 0
   cipher: auto
   name: 13|加拿大 184
@@ -154,45 +94,41 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 121
+  name: 13|加拿大 164
   network: ws
-  port: '2053'
-  server: 104.21.80.53
+  port: 443
+  server: 104.26.8.210
+  servername: ''
   tls: true
   type: vmess
-  uuid: 3ce0722e-1e03-4b05-9875-d7592b6c9f1c
+  uuid: 206259fd-09af-46ee-ec6d-5ac8a8291d6d
   ws-opts:
     headers:
-      Host: qin20.rong1104.uk
-    path: /qin20
+      Host: uyhgiuyfewdrgf-to12345.xiaohhh.xyz
+    path: /66
 - alterId: 0
   cipher: auto
-  name: 1|_CA__5
-  network: ws
-  port: 8080
-  server: 23.227.38.23
+  name: 1,3,6,7,17|_CA__4
+  network: http
+  port: 3389
+  server: 134.122.41.160
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 180
+  name: '6,13|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
-  server: lanmaoyunvm.ksr.free.hr
-  servername: ''
+  server: 108.181.23.161
   tls: false
   type: vmess
-  uuid: 3b52fe01-aa51-49f7-b4e7-31b683ffb2a7
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
-      Host: lanmaoyunvm.ksr.free.hr
-    path: /
+      Host: internet.life.com.by
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
   name: 13|加拿大 003
@@ -209,31 +145,31 @@ proxies:
     path: /v149-dskds65
 - alterId: 0
   cipher: auto
-  name: 6|🇨🇦_CA_加拿大
+  name: 13|加拿大 180
   network: ws
   port: 8080
-  server: 23.227.39.24
+  server: lanmaoyunvm.ksr.free.hr
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: 3b52fe01-aa51-49f7-b4e7-31b683ffb2a7
   ws-opts:
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+      Host: lanmaoyunvm.ksr.free.hr
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 122
+  name: 13|🇨🇦 加拿大 177
   network: ws
-  port: 2053
-  server: 104.21.67.246
-  servername: ''
+  port: '2053'
+  server: 104.21.94.20
   tls: true
   type: vmess
-  uuid: ffde13b1-e66e-4b2a-9392-4ed9a826aec6
+  uuid: 9e649329-c23a-4b57-a6b2-41d9aee8ed8e
   ws-opts:
     headers:
-      Host: mg013.tk4433.com
-    path: /mg013.tk4433.com
+      Host: GK0005.nnaotexiongditkgroup.top
+    path: /GK0005
 - alterId: 0
   cipher: auto
   name: 1|_CA__3
@@ -250,10 +186,47 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 1|_CA__2
+  name: 13|加拿大 070
+  network: ws
+  port: 2087
+  server: 104.21.10.205
+  servername: api.cdn-tgju.org
+  tls: true
+  type: vmess
+  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
+  ws-opts:
+    headers:
+      Host: api.cdn-tgju.org
+    path: /ows
+- alterId: 0
+  cipher: auto
+  name: '6,7|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
-  server: 23.227.38.22
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m3c5wy.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cc524bc9-fff4-40c1-8bc0-fa5d61f2f0cc
+- alterId: 0
+  cipher: auto
+  name: 1|_CA__1
+  network: ws
+  port: 8080
+  server: 23.227.39.24
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -262,3 +235,30 @@ proxies:
     headers:
       host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 121
+  network: ws
+  port: '2053'
+  server: 104.21.80.53
+  tls: true
+  type: vmess
+  uuid: 3ce0722e-1e03-4b05-9875-d7592b6c9f1c
+  ws-opts:
+    headers:
+      Host: qin20.rong1104.uk
+    path: /qin20
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 122
+  network: ws
+  port: 2053
+  server: 104.21.67.246
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ffde13b1-e66e-4b2a-9392-4ed9a826aec6
+  ws-opts:
+    headers:
+      Host: mg013.tk4433.com
+    path: /mg013.tk4433.com
