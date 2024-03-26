@@ -1,28 +1,50 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|香港2
+  network: tcp
+  port: '10288'
+  server: zz1.xmfvpn.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7bec82b7-6dfa-3120-ac3d-196784723bf0
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港|@ripaojiedian
   network: tcp
-  port: '34602'
-  server: 120.232.242.88
+  port: '40002'
+  server: 120.238.122.246
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-182.16.1.194:...
-  network: ws
-  port: 80
-  server: 182.16.1.194
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '53942'
+  server: 120.238.122.147
   servername: ''
   tls: false
   type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: ''
-    path: /opt/video/images
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -41,46 +63,12 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '44602'
-  server: 120.232.242.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  port: 34602
-  server: 120.232.242.88
+  port: 40002
+  server: 120.238.122.246
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 20001
-  server: ddns.olucloud.subapi.cc
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
-  tfo: false
-  type: ss
