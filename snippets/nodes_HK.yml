@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 36acffd6bb2fd049%40525113083387973
+  port: 24136
+  server: 216.83.41.85
+  skip-cert-verify: false
+  sni: node.kgvsogr.xyz
+  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -13,36 +21,6 @@ proxies:
     tls: false
   port: 443
   server: 1.65.218.52
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
   tfo: false
   type: ss
 - alterId: 0
@@ -62,23 +40,47 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
   network: ws
-  port: '24101'
-  server: 47.76.35.246
+  port: 2095
+  server: onea.flha.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: onea.flha.ru
   servername: ''
   tls: false
   type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
       Host: ''
     path: /
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 36acffd6bb2fd049%40525113083387973
-  port: 24136
-  server: 216.83.41.85
-  skip-cert-verify: false
-  sni: node.kgvsogr.xyz
-  type: trojan
