@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
   password: 36acffd6bb2fd049%40525113083387973
@@ -7,21 +23,6 @@ proxies:
   skip-cert-verify: false
   sni: node.kgvsogr.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 8080
-  server: 185.14.47.145
-  servername: hk-12.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -40,48 +41,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
-  network: ws
-  port: '24101'
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
+  name: 15,16|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 185.14.47.145
+  servername: hk-12.trollfunny.net
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -97,4 +69,32 @@ proxies:
   ws-opts:
     headers:
       Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  network: ws
+  port: '24101'
+  server: 47.76.35.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
     path: /
