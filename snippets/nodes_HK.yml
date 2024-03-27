@@ -7,6 +7,21 @@ proxies:
   skip-cert-verify: false
   sni: node.kgvsogr.xyz
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 185.14.47.145
+  servername: hk-12.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -25,18 +40,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港2|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: ws
-  port: 8080
-  server: 185.14.47.145
-  servername: hk-12.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: '2095'
+  server: onea.flha.ru
+  servername: ''
+  tls: false
   type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -70,17 +84,3 @@ proxies:
   server: 8.210.33.152
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
