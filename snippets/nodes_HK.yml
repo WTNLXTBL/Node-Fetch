@@ -1,28 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 36acffd6bb2fd049%40525113083387973
-  port: 26584
-  server: 143.92.53.176
-  skip-cert-verify: false
-  sni: node.gxysdll.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,20 +15,30 @@ proxies:
     headers:
       Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
     path: /niuniu
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 29928
-  server: 45.92.218.249
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 36acffd6bb2fd049%40525113083387973
+  port: 26584
+  server: 143.92.53.176
   skip-cert-verify: false
+  sni: node.gxysdll.xyz
+  type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
   tfo: false
-  tls: false
-  type: vmess
-  uuid: ceb251d4-277d-4f43-b381-c5103172a990
-  ws-opts:
-    path: /ceb251d4
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -69,3 +55,17 @@ proxies:
   server: 1.65.218.52
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 29928
+  server: 45.92.218.249
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ceb251d4-277d-4f43-b381-c5103172a990
+  ws-opts:
+    path: /ceb251d4
