@@ -1,28 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 36acffd6bb2fd049%40525113083387973
-  port: 26584
-  server: 143.92.53.176
-  skip-cert-verify: false
-  sni: node.gxysdll.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 16627
-  server: 183.240.220.84
-  skip-cert-verify: false
-  tfo: false
+  name: 16|香港1|@ripaojiedian
+  network: tcp
+  port: '57310'
+  server: 156.251.217.24
+  servername: ''
   tls: false
   type: vmess
-  uuid: c65afb39-dcc6-36c0-aca2-22399101273d
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /niuniu
+  uuid: b080b33d-c598-4cb0-8381-1ac467540a89
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -39,20 +25,6 @@ proxies:
   server: 8.210.33.152
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 29928
-  server: 45.92.218.249
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ceb251d4-277d-4f43-b381-c5103172a990
-  ws-opts:
-    path: /ceb251d4
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -69,3 +41,40 @@ proxies:
   server: 1.65.218.52
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 185.14.47.99
+  servername: hk-6.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: e0e3524.microsoft.com
+  password: Fhbe0z
+  port: 11810
+  protocol: auth_aes128_sha1
+  protocol-param: 24:ZxbF8f
+  server: 183.240.220.84
+  type: ssr
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  port: 57310
+  server: 156.251.217.24
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b080b33d-c598-4cb0-8381-1ac467540a89
