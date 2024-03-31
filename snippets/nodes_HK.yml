@@ -1,57 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 40259
-  server: 120.238.122.148
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港1|@ripaojiedian
-  network: ws
-  port: 50080
-  server: 223.113.130.58
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 842bca7e-7fae-3e92-ba62-8c5e010c24cf
-  ws-opts:
-    headers:
-      Host: cache-hk-1.cn-db.top
-    path: /db00
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -68,3 +15,63 @@ proxies:
   server: 1.65.218.52
   tfo: false
   type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: d9c577328fb349fe
+  port: 47034
+  server: bff6ce3.xvvrkb.lol
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 194.99.79.178
+  servername: hk-11.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '41492'
+  server: 120.232.242.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 41492
+  server: 120.232.242.117
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
