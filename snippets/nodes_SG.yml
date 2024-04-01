@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m3c5wy.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9c0399a6-b29d-4aae-9106-a8568325fdb0
-- alterId: 0
-  cipher: auto
   name: 10|🇸🇬新加坡06
   network: tcp
   port: '36211'
@@ -18,69 +8,35 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 496906e2-0b76-40b1-a18d-df592c62b8cc
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-45.32.99.83...
-  network: ws
-  port: 28051
-  server: 45.32.99.83
-  tls: false
-  type: vmess
-  uuid: bcf27281-d173-4404-a1ce-7513e4337622
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m3c5wy.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9c0399a6-b29d-4aae-9106-a8568325fdb0
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.a3b5wy.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 496906e2-0b76-40b1-a18d-df592c62b8cc
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.32.99.83:1...
-  network: ws
-  port: '18275'
-  server: 45.32.99.83
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 386e5066-5078-4bef-96bf-4c25e422eabf
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
-- alterId: 64
-  cipher: auto
+  uuid: 20aa1863-0bd8-4c6f-ab20-bfd36903ec7d
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 134.122.184.63
-  servername: www.36224588.xyz
-  skip-cert-verify: false
+  server: 43.203.192.6
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.a3b5wy.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.36224588.xyz
-    path: /path/311227222808
+  uuid: 20aa1863-0bd8-4c6f-ab20-bfd36903ec7d
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m3c5wy.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fb6882fe-d110-49d8-80ce-a884c2ea12ba
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -90,7 +46,31 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9c0399a6-b29d-4aae-9106-a8568325fdb0
+  uuid: fb6882fe-d110-49d8-80ce-a884c2ea12ba
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m3c5wy.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fb6882fe-d110-49d8-80ce-a884c2ea12ba
+- alterId: 0
+  cipher: auto
+  name: 13|SG_粉爱福利节点_2
+  network: ws
+  port: 80
+  server: sg5g.xn--vhq70hxyat50h6wk.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -108,19 +88,28 @@ proxies:
   uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.a3b5wy.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.a3b5wy.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 496906e2-0b76-40b1-a18d-df592c62b8cc
-- cipher: aes-256-cfb
+  uuid: 20aa1863-0bd8-4c6f-ab20-bfd36903ec7d
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
   port: 443
-  server: 43.203.192.6
+  server: 134.122.184.63
+  servername: www.36224588.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.36224588.xyz
+    path: /path/311227222808
