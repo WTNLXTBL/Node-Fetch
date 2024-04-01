@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '50180'
-  server: k8Wy0w.gov.goldliond.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3aa5da73-fa0b-41a7-85e3-df10579130ad
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇹🇼 台湾2|@ripaojiedian
   network: ws
@@ -25,3 +15,19 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇹🇼 台湾1|@ripaojiedian
+  network: ws
+  port: 21003
+  server: tw.lianjianode.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e472a610-a7de-4fce-befc-5c11c31a9246
+  ws-opts:
+    headers:
+      Host: hinet.luodi.xyz
+    path: /hinet
