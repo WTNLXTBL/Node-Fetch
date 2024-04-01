@@ -1,6 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 194.99.79.178
+  servername: hk-11.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 22212159-1be2-4c81-afbb-6203b6a51739
+  port: 35998
+  server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 13|香港4 c
   network: ws
   port: '2053'
@@ -23,80 +46,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港2 c
-  network: ws
-  port: '2053'
-  server: c.caobi.onflashdrive.app
-  servername: cf4.caobi.onflashdrive.app
-  tls: true
-  type: vmess
-  uuid: e8ad0181-6cdd-4e6f-83cf-f2984d484527
-  ws-opts:
-    headers:
-      Host: cf4.caobi.onflashdrive.app
-    path: /cf
-- alterId: 0
-  cipher: auto
-  name: 13|HK_speednode_0057
-  network: ws
-  port: 8080
-  server: 194.99.79.178
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: 194.99.79.178
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
-  network: ws
-  port: '24101'
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 46038
-  server: mf838f.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3
-  ws-opts:
-    headers:
-      Host: mf838f.micloud.buzz
-    path: /zh-cn
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.33.152
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -108,14 +57,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 22212159-1be2-4c81-afbb-6203b6a51739
-  port: 35998
-  server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -134,16 +75,74 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  network: ws
+  port: '24101'
+  server: 47.76.35.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.33.152
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46038
+  server: mf838f.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3
+  ws-opts:
+    headers:
+      Host: mf838f.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 13|HK_speednode_0057
   network: ws
   port: 8080
   server: 194.99.79.178
-  servername: hk-11.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: true
   type: vmess
   uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
+    headers:
+      Host: 194.99.79.178
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 香港 ThinkDream数据中心
+  network: ws
+  port: '2086'
+  server: 27.50.48.72
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
