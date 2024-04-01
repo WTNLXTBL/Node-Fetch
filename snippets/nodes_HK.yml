@@ -1,28 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 22212159-1be2-4c81-afbb-6203b6a51739
-  port: 35998
-  server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 46038
-  server: mf838f.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3
-  ws-opts:
-    headers:
-      Host: mf838f.micloud.buzz
-    path: /zh-cn
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -54,6 +30,14 @@ proxies:
   uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 22212159-1be2-4c81-afbb-6203b6a51739
+  port: 35998
+  server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|香港 ThinkDream数据中心
@@ -70,6 +54,32 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46038
+  server: mf838f.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b9fa74bc-3559-4ff7-942d-6c6cd5770dc3
+  ws-opts:
+    headers:
+      Host: mf838f.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '31778'
+  server: 120.232.242.118
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
   network: ws
   port: '24101'
@@ -82,27 +92,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '31778'
-  server: 120.232.242.118
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 31778
-  server: 120.232.242.118
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -119,3 +108,14 @@ proxies:
   server: 1.65.218.52
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 31778
+  server: 120.232.242.118
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
