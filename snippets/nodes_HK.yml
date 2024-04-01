@@ -1,4 +1,45 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 50055
+  server: 120.238.122.252
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '33575'
+  server: xctransfer1st.cokecloud.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db3c3fbc-983c-4dc6-96c3-8e8dd9f67fe6
+- alterId: 64
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '50055'
+  server: 120.238.122.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT2|@ripaojiedian
@@ -15,32 +56,20 @@ proxies:
   server: 8.210.33.152
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.57
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  network: ws
+  port: '24101'
+  server: 47.76.35.246
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.218.52
-  tfo: false
-  type: ss
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,25 +86,20 @@ proxies:
     headers:
       Host: mf838f.micloud.buzz
     path: /zh-cn
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 477df3ae-ce9a-44f7-9ace-187e4061eb57
-  port: 13000
-  server: 106.75.176.75
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 50055
-  server: 120.238.122.252
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 13|HK_speednode_0057
+  network: ws
+  port: 8080
+  server: 194.99.79.178
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 194.99.79.178
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -91,23 +115,27 @@ proxies:
   uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
     path: /
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '50055'
-  server: 120.238.122.252
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '33575'
-  server: xctransfer1st.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: db3c3fbc-983c-4dc6-96c3-8e8dd9f67fe6
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 477df3ae-ce9a-44f7-9ace-187e4061eb57
+  port: 13000
+  server: 106.75.176.75
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 1.65.218.52
+  tfo: false
+  type: ss
