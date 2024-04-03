@@ -1,34 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  password: Rad35baG
-  port: 10001
-  server: 121.43.117.216
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: fcdn.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
-  port: 10061
-  server: v3-js-hk.as9929.uk
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -47,6 +17,50 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: ws
+  port: '2095'
+  server: fcdn.flha.ru
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.218.82.85
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港 001
+  network: ws
+  port: 8080
+  server: 194.99.79.178
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 194.99.79.178
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
   network: ws
   port: '24101'
@@ -59,21 +73,14 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 8080
-  server: 185.244.208.61
-  servername: hk-17.trollfunny.net
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: Rad35baG
+  port: 10001
+  server: 121.43.117.216
   tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    path: /
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -92,17 +99,24 @@ proxies:
   type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.218.82.85
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: e41b8b00-d940-4006-80ff-bc7865b3b5e0
+  port: 10061
+  server: v3-js-hk.as9929.uk
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 185.244.208.61
+  servername: hk-17.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
