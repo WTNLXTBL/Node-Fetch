@@ -1,6 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 10|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.a3b5wy.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-47.74.6.16:20...
+  network: ws
+  port: '2052'
+  server: 47.74.6.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.254.167.160
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.m3c5wy.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
+- alterId: 0
+  cipher: auto
   name: 16|日本|@ripaojiedian
   network: ws
   port: '46001'
@@ -15,6 +57,15 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
+  name: 13|RU_分享日记_8
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
   name: 10|🇯🇵日本05
   network: tcp
   port: '36106'
@@ -22,21 +73,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
-- alterId: 0
-  cipher: auto
-  name: 13|日本 004
-  network: ws
-  port: 8080
-  server: kkyx.yydsii.com
-  servername: kkyx.yydsii.com
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   name: 13|RU_分享日记_15
@@ -48,38 +85,6 @@ proxies:
   uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_8
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: 13|JP_youtube@资源分享师_32
-  network: ws
-  port: 80
-  server: jp03.victorialouisa.online
-  tls: false
-  type: vmess
-  uuid: f6125b2b-1c0d-4cb9-9c39-d00b437fc342
-  ws-opts:
-    headers:
-      Host: jp03.victorialouisa.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.m3c5wy.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
 - alterId: 0
   cipher: auto
   name: 13|日本 002
@@ -94,33 +99,29 @@ proxies:
     headers:
       Host: 87.120.204.64
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.254.167.160
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵日本06
+  name: 14|【BGP】日本 05  | 1x JP
   network: tcp
-  port: '36111'
-  server: 1j8p06.a3b5wy.xyz
-  servername: jp06.abpilot.xyz
+  port: '31106'
+  server: 6w7j3p05.m3c5wy.xyz
+  servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
 - alterId: 0
   cipher: auto
-  name: 13|KZ_分享日记_4
-  network: tcp
-  port: 16179
-  server: 45.152.84.131
+  name: 13|JP_youtube@资源分享师_32
+  network: ws
+  port: 80
+  server: jp03.victorialouisa.online
   tls: false
   type: vmess
-  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
+  uuid: f6125b2b-1c0d-4cb9-9c39-d00b437fc342
+  ws-opts:
+    headers:
+      Host: jp03.victorialouisa.online
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -138,20 +139,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-47.74.6.16:20...
-  network: ws
-  port: '2052'
-  server: 47.74.6.16
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
-  ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
-- alterId: 0
-  cipher: auto
   name: 10|🇯🇵日本04
   network: tcp
   port: '36116'
@@ -159,27 +146,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2131fdfd-bd0e-4d28-83ce-631b0abc6815
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.m3c5wy.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.m3c5wy.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 987ccaa2-73b5-4f93-aee0-10c778676938
+  uuid: 8508684d-5128-4439-b775-74d77ee160c7
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -196,3 +163,36 @@ proxies:
     headers:
       Host: mf411f.micloud.buzz
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 13|日本 004
+  network: ws
+  port: 8080
+  server: kkyx.yydsii.com
+  servername: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|KZ_分享日记_4
+  network: tcp
+  port: 16179
+  server: 45.152.84.131
+  tls: false
+  type: vmess
+  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.m3c5wy.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0b52928e-db56-4e85-a9ec-44eeb887c5fc
