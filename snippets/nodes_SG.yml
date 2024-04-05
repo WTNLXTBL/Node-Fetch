@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.a3b5wy.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -18,17 +8,52 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
+  uuid: ef2a7ef3-2182-4879-b540-8e9f5b27b9e9
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
+  name: 13|SG_youtube@资源分享师_217
+  network: ws
+  port: 80
+  server: sg03.oliviapretty.online
+  tls: false
+  type: vmess
+  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
+  ws-opts:
+    headers:
+      Host: sg03.oliviapretty.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '36206'
-  server: 9s5g05.a3b5wy.xyz
-  servername: sg05.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.a3b5wy.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.214.212.171
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -38,7 +63,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
+  uuid: ef2a7ef3-2182-4879-b540-8e9f5b27b9e9
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -48,7 +73,31 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7e78ecef-43b3-49f1-9977-8e337f92648d
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.a3b5wy.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 475852fa-1fc6-450a-b49d-3316a9d1ca4f
+- alterId: 0
+  cipher: auto
+  name: 13|SG_speednode_0087
+  network: ws
+  port: 80
+  server: sg04.victorialouisa.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ecbc3680-a5f0-4ac2-b790-2ed6e72564f3
+  ws-opts:
+    headers:
+      Host: sg04.victorialouisa.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -58,12 +107,4 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 26b8091e-af09-44e2-9e30-a283f7282f93
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.214.212.171
-  tfo: false
-  type: ss
+  uuid: ef2a7ef3-2182-4879-b540-8e9f5b27b9e9
