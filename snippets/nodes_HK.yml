@@ -1,82 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: Rad33xaT
-  port: 10001
-  server: 47.96.69.161
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '41492'
-  server: 120.232.242.117
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.98.119.98
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT2|@ripaojiedian
-  password: oiwym4ovI4Yb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 61.224.79.46
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 8080
-  server: 185.244.208.216
-  servername: hk-7.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|YouTube面具人哈乐_香港_34
-  network: ws
-  port: 2052
-  server: hk.wish.ml
-  tls: false
-  type: vmess
-  uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75
-  ws-opts:
-    headers:
-      Host: us6.wish.ml
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -90,17 +12,17 @@ proxies:
   uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  name: 13|🇭🇰|HK|香港|@wxgqlfx|157
   network: ws
-  port: 24101
-  server: 47.76.35.246
-  servername: ''
-  tls: false
+  port: '443'
+  server: 43.154.96.33
+  servername: cfhk.393930.xyz
+  tls: true
   type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: ''
+      Host: cfhk.393930.xyz
     path: /
 - alterId: 64
   cipher: auto
@@ -135,13 +57,105 @@ proxies:
     headers:
       Host: hk.lalayunssl.xyz
     path: /v2ray
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 42.98.119.98
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: Rad33xaT
+  port: 10001
+  server: 47.96.69.161
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  network: ws
+  port: 24101
+  server: 47.76.35.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|YouTube面具人哈乐_香港_137
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  tls: false
+  type: vmess
+  uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT2|@ripaojiedian
+  password: oiwym4ovI4Yb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 61.224.79.46
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 8080
+  server: 185.244.208.216
+  servername: hk-7.trollfunny.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 13,16|-1242-HK【ccbaohe.com〗 永久免费节点机场
   network: tcp
-  port: 80
+  port: '80'
   server: UNLIMITED.HUY.0.SRL
   servername: ''
   tls: false
   type: vmess
   uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '41492'
+  server: 120.232.242.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
