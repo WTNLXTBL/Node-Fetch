@@ -1,20 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 10163
-  server: zf.lalayun.cyou
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: Rad33xaT
+  port: 10001
+  server: 47.96.69.161
   tfo: false
-  tls: false
-  type: vmess
-  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
-  ws-opts:
-    headers:
-      Host: hk.lalayunssl.xyz
-    path: /v2ray
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -29,52 +21,6 @@ proxies:
   type: vmess
   uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 80
-  server: UNLIMITED.HUY.0.SRL
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: Rad33xaT
-  port: 10001
-  server: 47.96.69.161
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|YouTube面具人哈乐_香港_137
-  network: ws
-  port: 2052
-  server: hk.wish.ml
-  tls: false
-  type: vmess
-  uuid: d396f102-c26b-4f1a-b7bc-f66e5b16bb75
-  ws-opts:
-    headers:
-      Host: in3.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰|HK|香港|@wxgqlfx|157
-  network: ws
-  port: '443'
-  server: 43.154.96.33
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -109,24 +55,30 @@ proxies:
     path: /path/311227222808
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 10163
+  server: zf.lalayun.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
+  ws-opts:
+    headers:
+      Host: hk.lalayunssl.xyz
+    path: /v2ray
+- alterId: 0
+  cipher: auto
   name: 13,16|-1242-HK【ccbaohe.com〗 永久免费节点机场
   network: tcp
-  port: '80'
+  port: 80
   server: UNLIMITED.HUY.0.SRL
   servername: ''
   tls: false
   type: vmess
   uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '41492'
-  server: 120.232.242.117
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -159,3 +111,24 @@ proxies:
   server: 61.224.79.46
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 80
+  server: UNLIMITED.HUY.0.SRL
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f0d23e27-d3cf-4476-b75b-87552f9eee1a
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '41492'
+  server: 120.232.242.117
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
