@@ -16,22 +16,15 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 54437
   server: 183.236.51.59
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: a-wym4ovY4Yw
-  port: 81
-  server: 47.243.45.101
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
@@ -56,22 +49,13 @@ proxies:
   server: 42.98.119.98
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: Rad33xaT
-  port: 10001
-  server: 47.96.69.161
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 54437
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
   server: 183.236.51.59
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -85,6 +69,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 47.243.45.101
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: Rad33xaT
+  port: 10001
+  server: 47.96.69.161
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
