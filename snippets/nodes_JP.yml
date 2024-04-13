@@ -1,14 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|RU_分享日记
+  name: 10|🇯🇵日本06
   network: tcp
-  port: '30705'
-  server: 185.22.154.94
+  port: '36111'
+  server: free.2weradf.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e5141770-eaf9-4275-ae34-c276a3393d80
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
   servername: ''
   tls: false
   type: vmess
-  uuid: 70c39b54-78ae-4a3c-8d8c-eb2196a829e2
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: free.2weradf.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e5141770-eaf9-4275-ae34-c276a3393d80
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本 001
@@ -24,104 +44,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '13|RU_分享日记 #1'
-  network: tcp
-  port: '47555'
-  server: 46.29.166.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
-- alterId: 0
-  cipher: auto
-  name: 13|CR_分享日记
-  network: ws
-  port: '443'
-  server: 190.93.247.155
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: marien.motorcycles
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: free.2weradf.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 02159988-bc94-4f96-8728-e100539e1572
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: free.2weradf.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 02159988-bc94-4f96-8728-e100539e1572
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.47.36
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|GB_分享日记
+  name: 13|DE_分享日记
   network: ws
   port: '80'
-  server: www.wwbio.top
+  server: 80.71.157.105
   servername: ''
   tls: false
   type: vmess
-  uuid: 4f864ae4-6c08-4537-a9f3-75ce3121b8e9
+  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|VN_分享日记 #1'
-  network: ws
-  port: '80'
-  server: 103.75.185.221
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
-  ws-opts:
-    headers:
-      Host: 103.75.185.221
-    path: /bs
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -136,6 +70,52 @@ proxies:
     headers:
       Host: ''
     path: /bb
+- alterId: 0
+  cipher: auto
+  name: '13|RU_分享日记 #1'
+  network: tcp
+  port: '47555'
+  server: 46.29.166.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.77.187
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|VN_分享日记
+  network: ws
+  port: '80'
+  server: bs4.loadingip.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  ws-opts:
+    headers:
+      Host: bs4.loadingip.com
+    path: /bs
+- alterId: 0
+  cipher: auto
+  name: '13|VN_分享日记 #1'
+  network: ws
+  port: '80'
+  server: 103.75.185.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
+  ws-opts:
+    headers:
+      Host: 103.75.185.221
+    path: /bs
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -154,6 +134,40 @@ proxies:
     path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
+  name: 10|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: free.2weradf.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e5141770-eaf9-4275-ae34-c276a3393d80
+- alterId: 0
+  cipher: auto
+  name: 13|GB_分享日记
+  network: ws
+  port: '80'
+  server: www.wwbio.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f864ae4-6c08-4537-a9f3-75ce3121b8e9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 47737281-fd21-4966-8413-2edfce65265f
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
   network: tcp
   port: '31111'
@@ -161,75 +175,56 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
+  uuid: 47737281-fd21-4966-8413-2edfce65265f
 - alterId: 0
   cipher: auto
-  name: 13|DE_分享日记
-  network: ws
-  port: '80'
-  server: 80.71.157.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b656b441-2cfd-44b8-9b2e-646e9925f8f6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|VN_分享日记
-  network: ws
-  port: '80'
-  server: bs4.loadingip.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e5999ba-870a-46b1-8500-37c640371ec6
-  ws-opts:
-    headers:
-      Host: bs4.loadingip.com
-    path: /bs
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本06
+  name: 14|【BGP】日本 04  | 1x JP
   network: tcp
-  port: '36111'
-  server: free.2weradf.xyz
-  servername: jp06.abpilot.xyz
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 02159988-bc94-4f96-8728-e100539e1572
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 8080
-  server: 87.120.204.6
-  servername: jp-10.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    path: /
+  uuid: 47737281-fd21-4966-8413-2edfce65265f
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
+  name: 15|🇯🇵 日本1|@ripaojiedian
   password: 4feb33c2-cb06-4371-a572-243d47b789d9
-  port: 26668
+  port: 50005
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  name: 16|日本|@ripaojiedian
   network: tcp
-  port: '14935'
-  server: 167.179.111.237
+  port: '13820'
+  server: c76s4.portablesubmarines.com
   servername: ''
   tls: false
   type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
+  uuid: f094f632-5113-4f1c-8398-25077be216b0
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记
+  network: tcp
+  port: '30705'
+  server: 185.22.154.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 70c39b54-78ae-4a3c-8d8c-eb2196a829e2
+- alterId: 0
+  cipher: auto
+  name: 13|CR_分享日记
+  network: ws
+  port: '443'
+  server: 190.93.247.155
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: marien.motorcycles
+    path: /linkvws
