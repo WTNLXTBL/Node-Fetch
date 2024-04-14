@@ -25,6 +25,14 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: f04b7244-2d04-44ee-8f3b-cc2aebc0dbb9
+  port: 48001
+  server: k1.b99.buzz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港4|@ripaojiedian
@@ -49,12 +57,12 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: f04b7244-2d04-44ee-8f3b-cc2aebc0dbb9
-  port: 48001
-  server: k1.b99.buzz
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: cff22fc2-7b50-4353-a695-158ac3a2738d
+  port: 35021
+  server: hk.4.thap.xyz
   tfo: false
   type: ss
 - alterId: 64
@@ -68,11 +76,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: cff22fc2-7b50-4353-a695-158ac3a2738d
-  port: 35021
-  server: hk.4.thap.xyz
-  tfo: false
-  type: ss
