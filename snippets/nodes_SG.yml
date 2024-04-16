@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.180.65.163
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -8,7 +16,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f18be59-800c-44bd-98de-f245a6e84881
+  uuid: 15b63c7a-076e-4164-9388-fa7ef0d4d1e1
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -18,27 +26,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a70706b-efc0-49c3-a230-fd7174fe61ca
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: free.2apzhfa.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 6a70706b-efc0-49c3-a230-fd7174fe61ca
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: free.2weradf.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2f18be59-800c-44bd-98de-f245a6e84881
+  uuid: ad9d144a-64f9-4d9d-8a42-51280dede4aa
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -48,7 +36,17 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a70706b-efc0-49c3-a230-fd7174fe61ca
+  uuid: ad9d144a-64f9-4d9d-8a42-51280dede4aa
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: free.2weradf.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 15b63c7a-076e-4164-9388-fa7ef0d4d1e1
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -58,7 +56,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f18be59-800c-44bd-98de-f245a6e84881
+  uuid: 15b63c7a-076e-4164-9388-fa7ef0d4d1e1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -75,11 +73,13 @@ proxies:
     headers:
       Host: sg1.luodi.xyz
     path: /singapore
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 57.180.65.163
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: free.2apzhfa.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ad9d144a-64f9-4d9d-8a42-51280dede4aa
