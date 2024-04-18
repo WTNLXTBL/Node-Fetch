@@ -1,22 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 14|【BGP】新加坡 05 | 1x SG
   network: tcp
-  port: '36201'
-  server: free.2weradf.xyz
-  servername: sg04.abpilot.xyz
+  port: '31206'
+  server: free.2apzhfa.xyz
+  servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 45f592f8-8caa-43b6-8f49-3b233eee6689
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.91.54.169
-  tfo: false
-  type: ss
+  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+- client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: false
+  sni: sg01.520s.pro
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: /520JICHANG
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -26,43 +31,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b1959c5e-7cab-4362-930a-fc2bf541ad14
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: free.2weradf.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 45f592f8-8caa-43b6-8f49-3b233eee6689
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: free.2weradf.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 45f592f8-8caa-43b6-8f49-3b233eee6689
+  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
@@ -78,31 +47,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 443
-  server: 43b8d.cnbete.xyz
-  servername: 43b8d.cnbete.xyz
-  skip-cert-verify: false
-  tfo: false
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: free.2weradf.xyz
+  servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8ac4cc04-b1fa-419f-b436-270456fcff86
-  ws-opts:
-    headers:
-      Host: 43b8d.cnbete.xyz
-    path: /vmess
+  uuid: bd7ad508-e155-44f2-a47b-5c587e8afce5
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.218.182
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
+  name: 10|🇸🇬新加坡06
   network: tcp
-  port: '31206'
-  server: free.2apzhfa.xyz
-  servername: sg05.lovemc.xyz
+  port: '36211'
+  server: free.2weradf.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b1959c5e-7cab-4362-930a-fc2bf541ad14
+  uuid: bd7ad508-e155-44f2-a47b-5c587e8afce5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -112,4 +82,30 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b1959c5e-7cab-4362-930a-fc2bf541ad14
+  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: free.2weradf.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: bd7ad508-e155-44f2-a47b-5c587e8afce5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c3f3c04a-dc99-4bca-9853-be30de9085e5
+  ws-opts:
+    headers:
+      Host: six.nekoneko.buzz
+    path: /cctv13/hd.m3u8
