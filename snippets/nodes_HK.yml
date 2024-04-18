@@ -2,19 +2,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  name: 15,16|🇭🇰 香港3|@ripaojiedian
   network: ws
-  port: 20206
-  server: data-hk-v1.usabooks.com.cn
+  port: 443
+  server: n1709457297.aaigefm.cn
+  servername: n1709457297.aaigefm.cn
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  uuid: 4cbaa418-9762-41d4-b144-835922d2deba
   ws-opts:
     headers:
-      Host: data-hk-v1.usabooks.com.cn
-    path: /debian
+      Host: n1709457297.aaigefm.cn
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
@@ -28,43 +29,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '42055'
-  server: 120.238.122.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港4|@ripaojiedian
-  network: ws
-  port: 443
-  server: n1710825489.aaigefm.cn
-  servername: n1710825489.aaigefm.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 0dd3ac59-78e9-43d5-bd3f-53f2863cffd7
-  ws-opts:
-    headers:
-      Host: n1710825489.aaigefm.cn
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -103,20 +67,96 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.238.122.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
+  network: ws
+  port: 26639
+  server: 91.149.236.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13/hd.m3u8/
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港3|@ripaojiedian
+  name: 15,16|🇭🇰 香港4|@ripaojiedian
   network: ws
   port: 443
-  server: n1709457297.aaigefm.cn
-  servername: n1709457297.aaigefm.cn
+  server: n1710825489.aaigefm.cn
+  servername: n1710825489.aaigefm.cn
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 4cbaa418-9762-41d4-b144-835922d2deba
+  uuid: 0dd3ac59-78e9-43d5-bd3f-53f2863cffd7
   ws-opts:
     headers:
-      Host: n1709457297.aaigefm.cn
+      Host: n1710825489.aaigefm.cn
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 HongKong D - Unlocked
+  network: ws
+  port: '80'
+  server: hk04.kingeldwin.online
+  tls: false
+  type: vmess
+  uuid: 9223aef7-642d-4047-8d3a-dd2bcb9e2e69
+  ws-opts:
+    headers:
+      Host: hk04.kingeldwin.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 HongKong B - Unlocked
+  network: ws
+  port: '80'
+  server: hk02.kingeldwin.online
+  tls: false
+  type: vmess
+  uuid: 9223aef7-642d-4047-8d3a-dd2bcb9e2e69
+  ws-opts:
+    headers:
+      Host: hk02.kingeldwin.online
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  network: ws
+  port: 20206
+  server: data-hk-v1.usabooks.com.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

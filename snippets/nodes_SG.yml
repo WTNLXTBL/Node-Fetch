@@ -1,22 +1,73 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.218.182
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
+  client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c3f3c04a-dc99-4bca-9853-be30de9085e5
+  ws-opts:
+    headers:
+      Host: six.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
   network: tcp
-  port: '31201'
+  port: '31211'
   server: free.2apzhfa.xyz
-  servername: sg04.lovemc.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5029cc7e-745d-40fa-90cb-180153f126c1
+  uuid: 8be9fc85-9e09-48d7-80ee-cdd909640012
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: free.2weradf.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 30cd9f36-180e-47e2-bc3a-5375c19d41e8
+- client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: false
+  sni: sg01.520s.pro
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: /520JICHANG
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: free.2weradf.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 30cd9f36-180e-47e2-bc3a-5375c19d41e8
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: free.2apzhfa.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8be9fc85-9e09-48d7-80ee-cdd909640012
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
@@ -40,36 +91,20 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f9c2b3c6-7209-4654-b4c4-7a609dad1ef8
+  uuid: 30cd9f36-180e-47e2-bc3a-5375c19d41e8
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 80
-  server: vps789.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c3f3c04a-dc99-4bca-9853-be30de9085e5
-  ws-opts:
-    headers:
-      Host: six.nekoneko.buzz
-    path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
+  name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '36211'
-  server: free.2weradf.xyz
-  servername: sg06.abpilot.xyz
+  port: '31201'
+  server: free.2apzhfa.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f9c2b3c6-7209-4654-b4c4-7a609dad1ef8
+  uuid: 8be9fc85-9e09-48d7-80ee-cdd909640012
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
   network: ws
   port: 443
   server: sg2-full.privateip.net
@@ -81,42 +116,17 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.218.182
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: free.2apzhfa.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5029cc7e-745d-40fa-90cb-180153f126c1
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: free.2apzhfa.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5029cc7e-745d-40fa-90cb-180153f126c1
-- client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
-  port: 37508
-  server: sg1.520s.pro
-  skip-cert-verify: false
-  sni: sg01.520s.pro
-  type: trojan
-  ws-opts:
-    headers:
-      Host: sg01.520s.pro
-    path: /520JICHANG
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
   network: ws
   port: 443
   server: sg-full.privateip.net
@@ -128,13 +138,3 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: free.2weradf.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f9c2b3c6-7209-4654-b4c4-7a609dad1ef8
