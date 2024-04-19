@@ -12,34 +12,16 @@ proxies:
     headers:
       Host: duo.freeapp.buzz
     path: /gd3245vd2S32cr
-- alterId: 0
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
-  network: ws
-  port: 20206
-  server: data-hk-v1.usabooks.com.cn
-  skip-cert-verify: false
-  tfo: false
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
   tls: false
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.usabooks.com.cn
-    path: /debian
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 21858-jiuzhou722.download.microsoft.com
-    mode: http
-  port: 8101
-  server: cn01.mynode.me
-  tfo: false
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|香港优选-要经常刷新
@@ -69,6 +51,17 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 54437
+  server: 183.236.51.59
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -93,24 +86,31 @@ proxies:
     headers:
       Host: ''
     path: /cctv13/hd.m3u8/
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 54437
-  server: 183.236.51.59
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  network: ws
+  port: 20206
+  server: data-hk-v1.usabooks.com.cn
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 21858-jiuzhou722.download.microsoft.com
+    mode: http
+  port: 8101
+  server: cn01.mynode.me
+  tfo: false
+  type: ss
