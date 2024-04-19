@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|香港1-优选 0.1X
-  network: ws
-  port: '8080'
-  server: cfzl1.freeapp.buzz
-  tls: false
-  type: vmess
-  uuid: 8039a2d3-f942-4a44-a336-4464324c11d9
-  ws-opts:
-    headers:
-      Host: duo.freeapp.buzz
-    path: /gd3245vd2S32cr
 - alterId: 64
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -22,19 +9,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 21858-jiuzhou722.download.microsoft.com
+    mode: http
+  port: 8101
+  server: cn01.mynode.me
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港优选-要经常刷新
+  name: 13|香港1-优选 0.1X
   network: ws
-  port: '13080'
-  server: 159.138.139.236
+  port: '8080'
+  server: cfzl1.freeapp.buzz
   tls: false
   type: vmess
   uuid: db6ba805-b96b-4364-becc-6df3805ffc65
   ws-opts:
     headers:
-      Host: ww1.kcjs.me
-    path: /fdsffgfdgdfgdf
+      Host: duo.freeapp.buzz
+    path: /gd3245vd2S32cr
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -51,6 +50,22 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  network: ws
+  port: 20206
+  server: data-hk-v1.usabooks.com.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-hk-v1.usabooks.com.cn
+    path: /debian
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -74,43 +89,14 @@ proxies:
   uuid: 9d9d01a5-1e0c-432e-818a-d26cd04314b5
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
+  name: 13|香港优选-要经常刷新
   network: ws
-  port: 26639
-  server: 91.149.236.44
-  servername: ''
+  port: '13080'
+  server: 159.138.139.236
   tls: false
   type: vmess
-  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
+  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
   ws-opts:
     headers:
-      Host: ''
-    path: /cctv13/hd.m3u8/
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
-  network: ws
-  port: 20206
-  server: data-hk-v1.usabooks.com.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v1.usabooks.com.cn
-    path: /debian
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 21858-jiuzhou722.download.microsoft.com
-    mode: http
-  port: 8101
-  server: cn01.mynode.me
-  tfo: false
-  type: ss
+      Host: ww1.kcjs.me
+    path: /fdsffgfdgdfgdf
