@@ -1,31 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本|@ripaojiedian
+  name: 13|JP_分享日记_8
   network: ws
   port: 2052
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
+  server: 47.74.13.239
   tls: false
   type: vmess
-  uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
   ws-opts:
     headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
-- alterId: 0
-  cipher: auto
-  name: 13|DE_分享日记_13
-  network: ws
-  port: 443
-  server: de-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 63f2261a-17d8-44f8-bf93-837f1738b81c
-  ws-opts:
-    path: /RACEVPN
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
 - alterId: 0
   cipher: auto
   name: 13|JP_分享日记_4
@@ -48,26 +34,6 @@ proxies:
   uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
   ws-opts:
     path: /cctv13/hd.m3u8/
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 21858-jiuzhou722.download.microsoft.com
-    mode: http
-  port: 8802
-  server: cn00.mynode.me
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.179.167.94
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
@@ -80,17 +46,22 @@ proxies:
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: 13|DE_分享日记_12
-  network: ws
-  port: 80
-  server: 92.223.124.36
-  tls: false
+  name: 10|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: free.2weradf.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
-  ws-opts:
-    headers:
-      Host: mehdi600.3utilities.com
-    path: /@forwardv2ray
+  uuid: fcda79b1-33ed-4b15-a833-ab2542bfc87a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.179.167.94
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇯🇵'
@@ -103,6 +74,27 @@ proxies:
   uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6
 - alterId: 0
   cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a48b71de-8853-4b03-ba96-2d26a708072d
+- alterId: 0
+  cipher: auto
+  name: 13|GB_分享日记_9
+  network: ws
+  port: 443
+  server: uk-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 2f024052-9128-4d8e-944c-124ae738c0d7
+  ws-opts:
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
   name: 13|JP_分享日记_11
   network: tcp
   port: 14935
@@ -112,14 +104,27 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
+  name: 13|DE_分享日记_13
+  network: ws
+  port: 443
+  server: de-full.privateip.net
   tls: true
   type: vmess
-  uuid: bef69387-7f7c-4620-b2d6-f92322005324
+  uuid: 63f2261a-17d8-44f8-bf93-837f1738b81c
+  ws-opts:
+    path: /RACEVPN
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 21858-jiuzhou722.download.microsoft.com
+    mode: http
+  port: 8802
+  server: cn00.mynode.me
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|JP_分享日记_7
@@ -135,47 +140,6 @@ proxies:
     path: /039fc4e4
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: bef69387-7f7c-4620-b2d6-f92322005324
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: free.2weradf.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5ea9dc66-f6d6-4f90-9750-07ff5fc09742
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: bef69387-7f7c-4620-b2d6-f92322005324
-- alterId: 0
-  cipher: auto
-  name: 13|GB_分享日记_9
-  network: ws
-  port: 443
-  server: uk-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 2f024052-9128-4d8e-944c-124ae738c0d7
-  ws-opts:
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
   name: 10|🇯🇵日本05
   network: tcp
   port: '36106'
@@ -183,7 +147,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5ea9dc66-f6d6-4f90-9750-07ff5fc09742
+  uuid: fcda79b1-33ed-4b15-a833-ab2542bfc87a
 - alterId: 0
   cipher: auto
   name: 13|NL_分享日记_25
@@ -197,24 +161,60 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 13|JP_分享日记_8
-  network: ws
-  port: 2052
-  server: 47.74.13.239
-  tls: false
-  type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
-  ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本04
+  name: 14|【BGP】日本 06  | 1x JP
   network: tcp
-  port: '36116'
-  server: free.2weradf.xyz
-  servername: jp04.abpilot.xyz
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5ea9dc66-f6d6-4f90-9750-07ff5fc09742
+  uuid: a48b71de-8853-4b03-ba96-2d26a708072d
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a48b71de-8853-4b03-ba96-2d26a708072d
+- alterId: 0
+  cipher: auto
+  name: 13|DE_分享日记_12
+  network: ws
+  port: 80
+  server: 92.223.124.36
+  tls: false
+  type: vmess
+  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
+  ws-opts:
+    headers:
+      Host: mehdi600.3utilities.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 50e701c6-a7f1-41f0-9255-28e95c57d49c
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  name: 10|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: free.2weradf.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fcda79b1-33ed-4b15-a833-ab2542bfc87a
