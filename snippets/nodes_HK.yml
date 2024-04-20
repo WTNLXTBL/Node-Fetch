@@ -1,32 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|香港【TG：@ccbaohe】定时更新节点订阅 14
-  network: ws
-  port: 2053
-  server: 47.242.155.183
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|香港 阿里云
-  network: ws
-  port: '443'
-  server: n1710825489.aaigefm.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0dd3ac59-78e9-43d5-bd3f-53f2863cffd7
-  ws-opts:
-    headers:
-      Host: n1710825489.aaigefm.cn
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -45,17 +17,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-182.16.1.194:...
-  network: ws
-  port: '80'
-  server: 182.16.1.194
-  tls: false
+  name: 13|CyberAirport-HK-01
+  network: tcp
+  port: '39999'
+  server: twgnjby3f.kw1030v8.xyz
+  servername: twgnjby3f.kw1030v8.xyz
+  tls: true
   type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: 182.16.1.194
-    path: /opt/video/images
+  uuid: 37fc2344-b008-32da-a9eb-9431625c4d38
 - alterId: 64
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -107,3 +76,17 @@ proxies:
     headers:
       Host: hk08.susulian.sbs
     path: /sulink
+- alterId: 0
+  cipher: auto
+  name: 11|香港 阿里云
+  network: ws
+  port: '443'
+  server: n1710825489.aaigefm.cn
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0dd3ac59-78e9-43d5-bd3f-53f2863cffd7
+  ws-opts:
+    headers:
+      Host: n1710825489.aaigefm.cn
+    path: /
