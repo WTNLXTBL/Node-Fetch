@@ -1,4 +1,14 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -15,27 +25,16 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港|@ripaojiedian
+  name: 13|CyberAirport-HK-01
   network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
+  port: '39999'
+  server: twgnjby3f.kw1030v8.xyz
+  servername: twgnjby3f.kw1030v8.xyz
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 54437
-  server: 183.236.51.59
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 37fc2344-b008-32da-a9eb-9431625c4d38
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -54,6 +53,20 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  network: ws
+  port: 28681
+  server: 47.242.22.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港2|@ripaojiedian
   network: ws
@@ -68,27 +81,14 @@ proxies:
     headers:
       Host: hk08.susulian.sbs
     path: /sulink
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|CyberAirport-HK-01
-  network: tcp
-  port: '39999'
-  server: twgnjby3f.kw1030v8.xyz
-  servername: twgnjby3f.kw1030v8.xyz
-  tls: true
-  type: vmess
-  uuid: 37fc2344-b008-32da-a9eb-9431625c4d38
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 54437
+  server: 183.236.51.59
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
