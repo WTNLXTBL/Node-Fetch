@@ -1,7 +1,18 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 54437
+  server: 183.236.51.59
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港海洋世界⚡️0.1X
+  name: 13|香港蘭桂坊⚡️1X
   network: ws
   port: '80'
   server: 47.245.7.212
@@ -12,6 +23,14 @@ proxies:
     headers:
       Host: needayhk1.renwox.xyz
     path: /needay?ed=2048
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 32b29d7b-6e50-40b7-8f0a-49bd50bcbe0d
+  port: 41878
+  server: hk.1.thap.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -67,22 +86,29 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 54437
-  server: 183.236.51.59
-  skip-cert-verify: false
-  tfo: false
+  name: 13|香港銅鑼灣⚡️1X
+  network: ws
+  port: '80'
+  server: 8.217.159.210
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 32b29d7b-6e50-40b7-8f0a-49bd50bcbe0d
-  port: 41878
-  server: hk.1.thap.xyz
-  tfo: false
-  type: ss
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|CyberAirport-HK-03
+  network: ws
+  port: '8880'
+  server: de01.iepl1.me
+  tls: false
+  type: vmess
+  uuid: ff18ee7d-e5c3-499f-b098-bd67c9232a79
+  ws-opts:
+    headers:
+      Host: de01.iepl1.me
+    path: /CAT
