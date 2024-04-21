@@ -1,20 +1,17 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h2.dspp.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.198.153
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港海洋世界⚡️0.1X
+  network: ws
+  port: '80'
+  server: 47.245.7.212
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -33,18 +30,43 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '44805'
+  server: hkscdn02.dorabbb.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  uuid: 44bc69e1-57c2-4310-901d-fa55f41cbe94
+- alterId: 0
+  cipher: auto
+  name: 13|香港迪士尼樂園⚡️0.1X
+  network: ws
+  port: '80'
+  server: 8.217.49.34
+  tls: false
+  type: vmess
+  uuid: 99376337-6500-40ae-8a3a-3d4eeccef4a1
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h2.dspp.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.198.153
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -64,26 +86,3 @@ proxies:
   server: hk.1.thap.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|CyberAirport-HK-03
-  network: ws
-  port: '8880'
-  server: de01.iepl1.me
-  tls: false
-  type: vmess
-  uuid: ff18ee7d-e5c3-499f-b098-bd67c9232a79
-  ws-opts:
-    headers:
-      Host: de01.iepl1.me
-    path: /CAT
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '44805'
-  server: hkscdn02.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 44bc69e1-57c2-4310-901d-fa55f41cbe94
