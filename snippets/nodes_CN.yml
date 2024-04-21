@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15|上海市 电信
-  network: ws
-  port: 46036
-  server: mmus36.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 92e7a057-88aa-4101-9cbd-18b8c90a2b1b
-  ws-opts:
-    headers:
-      Host: mmus36.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 11,12|广东省移动 7
   network: ws
   port: '20401'
@@ -26,3 +13,16 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 11,15|上海市 电信
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 92e7a057-88aa-4101-9cbd-18b8c90a2b1b
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
