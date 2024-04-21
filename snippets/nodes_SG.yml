@@ -1,44 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: free.2weradf.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fc6f4b47-7f09-4ae2-a8a4-d1c3a3e5d965
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
-  network: ws
-  port: 26012
-  server: 146.190.84.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 10|🇸🇬新加坡05
   network: tcp
   port: '36206'
@@ -46,17 +8,17 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fc6f4b47-7f09-4ae2-a8a4-d1c3a3e5d965
+  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '31211'
-  server: free.2apzhfa.xyz
-  servername: sg06.lovemc.xyz
+  port: '36201'
+  server: free.2weradf.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f02c4dd8-eeb2-4778-bf32-2ae0c11eed04
+  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -66,25 +28,17 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f02c4dd8-eeb2-4778-bf32-2ae0c11eed04
+  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
+  name: 10|🇸🇬新加坡06
   network: tcp
-  port: '31201'
-  server: free.2apzhfa.xyz
-  servername: sg04.lovemc.xyz
+  port: '36211'
+  server: free.2weradf.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f02c4dd8-eeb2-4778-bf32-2ae0c11eed04
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.199.117.47
-  tfo: false
-  type: ss
+  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
 - alterId: 0
   cipher: auto
   name: 13,15,16|新加坡〖电报：@ccbaohe】免费节点定时更新
@@ -101,6 +55,30 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
+  name: 16|新加坡2|@ripaojiedian
+  network: ws
+  port: '46016'
+  server: mmsg16.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: free.2apzhfa.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
   network: ws
@@ -115,13 +93,35 @@ proxies:
     headers:
       Host: mmsg16.micloud.buzz
     path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.199.117.47
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '36201'
-  server: free.2weradf.xyz
-  servername: sg04.abpilot.xyz
+  port: '31201'
+  server: free.2apzhfa.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fc6f4b47-7f09-4ae2-a8a4-d1c3a3e5d965
+  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
