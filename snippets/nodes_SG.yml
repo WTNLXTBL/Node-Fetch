@@ -1,106 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: free.2weradf.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
+  name: 13|新加坡 01 三网优化 1x
+  network: ws
+  port: '80'
+  server: 13.212.19.111
+  tls: false
   type: vmess
-  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
+  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
-  port: '36201'
-  server: free.2weradf.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
+  port: '31201'
   server: free.2apzhfa.xyz
-  servername: sg05.lovemc.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: free.2weradf.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b8c5cab2-0b9a-4d59-81ee-cf341a67f962
-- alterId: 0
-  cipher: auto
-  name: 13,15,16|新加坡〖电报：@ccbaohe】免费节点定时更新
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: free.2apzhfa.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3bfbc47b-cb43-46ec-8036-ff83560a8b0e
-  ws-opts:
-    headers:
-      Host: mmsg16.micloud.buzz
-    path: /zh-cn
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.199.117.47
-  tfo: false
-  type: ss
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
@@ -115,13 +36,85 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.195.189.211
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '31201'
-  server: free.2apzhfa.xyz
-  servername: sg04.lovemc.xyz
+  port: '36201'
+  server: free.2weradf.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2cd2a94-4173-4f13-a47b-a0c761534051
+  uuid: 5b155503-3413-4a0e-9ac3-783902c6ca77
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: free.2weradf.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5b155503-3413-4a0e-9ac3-783902c6ca77
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: free.2apzhfa.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.218.5...
+  network: tcp
+  port: '80'
+  server: 152.42.218.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: free.2apzhfa.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 63918964-7563-4841-a87e-a1a2f2331361
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: free.2weradf.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5b155503-3413-4a0e-9ac3-783902c6ca77
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|新加坡〖电报：@ccbaohe】免费节点定时更新
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
