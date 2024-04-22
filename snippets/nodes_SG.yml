@@ -1,6 +1,67 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.218.5...
+  network: tcp
+  port: '80'
+  server: 152.42.218.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.86....
+  network: ws
+  port: 35010
+  server: 146.190.86.66
+  tls: false
+  type: vmess
+  uuid: 9fbd6d59-dee1-4f1a-be58-53f0ed32356a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: free.2apzhfa.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e2c032eb-0f6a-45e8-88c0-ed89985f1cc4
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: free.2apzhfa.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e2c032eb-0f6a-45e8-88c0-ed89985f1cc4
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: free.2apzhfa.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e2c032eb-0f6a-45e8-88c0-ed89985f1cc4
+- alterId: 0
+  cipher: auto
+  name: 10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: free.2weradf.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6a68c3be-f87a-419a-ba78-e4d4fdc74785
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-68.183.180.24...
   network: ws
   port: '29185'
@@ -15,101 +76,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡05
+  name: 10|🇸🇬新加坡04
   network: tcp
-  port: '36206'
+  port: '36201'
   server: free.2weradf.xyz
-  servername: sg05.abpilot.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 48a9f5b3-d0bb-4b70-8ba9-587a70dabe38
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: free.2apzhfa.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ccd5fd04-fce8-46f2-9e85-422aebdcb682
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.86....
-  network: ws
-  port: 35010
-  server: 146.190.86.66
-  tls: false
-  type: vmess
-  uuid: 9fbd6d59-dee1-4f1a-be58-53f0ed32356a
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 10|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: free.2weradf.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 48a9f5b3-d0bb-4b70-8ba9-587a70dabe38
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: free.2apzhfa.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ccd5fd04-fce8-46f2-9e85-422aebdcb682
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
-  network: ws
-  port: 26012
-  server: 146.190.84.34
-  tls: false
-  type: vmess
-  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.218.5...
-  network: tcp
-  port: '80'
-  server: 152.42.218.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: free.2apzhfa.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ccd5fd04-fce8-46f2-9e85-422aebdcb682
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬 新加坡 001
-  network: ws
-  port: '37765'
-  server: xinjiapo.jinchanbaby.shop
-  tls: true
-  type: vmess
-  uuid: 3a7b80b6-2b54-425e-dabf-fa91b549103f
-  ws-opts:
-    headers:
-      Host: xinjiapo.jinchanbaby.shop
-    path: /
+  uuid: 6a68c3be-f87a-419a-ba78-e4d4fdc74785
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -120,11 +94,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|🇸🇬新加坡04
+  name: 10|🇸🇬新加坡06
   network: tcp
-  port: '36201'
+  port: '36211'
   server: free.2weradf.xyz
-  servername: sg04.abpilot.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 48a9f5b3-d0bb-4b70-8ba9-587a70dabe38
+  uuid: 6a68c3be-f87a-419a-ba78-e4d4fdc74785
