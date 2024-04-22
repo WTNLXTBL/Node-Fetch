@@ -1,26 +1,15 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 54437
+  server: 183.236.51.59
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 38aa65c2-cb16-48a8-be74-163e45523a43
-  port: 10002
-  server: zjcm0328.sstr2024.cc
-  tfo: false
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -37,19 +26,32 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|CyberAirport-HK-03
-  network: ws
-  port: '8880'
-  server: de01.iepl1.me
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
   tls: false
   type: vmess
-  uuid: ff18ee7d-e5c3-499f-b098-bd67c9232a79
-  ws-opts:
-    headers:
-      Host: de01.iepl1.me
-    path: /CAT
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 4a6fd9d0-f724-4e1f-a92d-63f86778d379
+  port: 12042
+  server: rk.izoizoizo.top
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 38aa65c2-cb16-48a8-be74-163e45523a43
+  port: 10002
+  server: zjcm0328.sstr2024.cc
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -82,32 +84,3 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 54437
-  server: 183.236.51.59
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 4a6fd9d0-f724-4e1f-a92d-63f86778d379
-  port: 12042
-  server: rk.izoizoizo.top
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
