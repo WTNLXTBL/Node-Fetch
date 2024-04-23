@@ -1,17 +1,57 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|LU_分享日记_1
-  network: ws
-  port: 80
-  server: 92.38.145.145
+  name: 10|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: free.2weradf.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b3edd405-6566-4b7c-953f-bd5f27434a53
+- alterId: 0
+  cipher: auto
+  name: 13|DE_分享日记_1
+  network: tcp
+  port: 15843
+  server: 156.253.5.63
   tls: false
   type: vmess
-  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
+  uuid: 63d39605-332b-4e67-aa33-aa142d897730
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_4
+  network: ws
+  port: 30000
+  server: 51.89.2.48
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
   ws-opts:
     headers:
-      Host: mehdi600.3utilities.com
-    path: /@forwardv2ray
+      Host: www.25311731.xyz
+    path: /path/203113182529
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.243.77
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|NL_分享日记_5
+  network: ws
+  port: 80
+  server: 77.91.123.101
+  tls: false
+  type: vmess
+  uuid: 149e424e-3c6d-40a1-910e-b4a120629526
+  ws-opts:
+    headers:
+      Host: hu2.xv2ray.net
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 13|NL_分享日记_3
@@ -27,16 +67,6 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c8d1cd9b-8c5c-4a47-9809-729e5d7fd257
-- alterId: 0
-  cipher: auto
   name: 13|VN_分享日记_1
   network: ws
   port: 80
@@ -46,73 +76,6 @@ proxies:
   uuid: 37f45886-18bd-4dcf-8166-3a513335eead
   ws-opts:
     path: /4ghatde.com
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.243.77
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- alterId: 0
-  cipher: auto
-  name: 13|NL_分享日记_5
-  network: ws
-  port: 80
-  server: 77.91.123.101
-  tls: false
-  type: vmess
-  uuid: 149e424e-3c6d-40a1-910e-b4a120629526
-  ws-opts:
-    headers:
-      Host: hu2.xv2ray.net
-    path: /vmess
-- alterId: 64
-  cipher: auto
-  name: 13|GB_分享日记_4
-  network: ws
-  port: 30000
-  server: 51.89.2.48
-  tls: true
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-opts:
-    headers:
-      Host: www.25311731.xyz
-    path: /path/203113182529
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '11022'
-  server: dotu-jpv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- alterId: 0
-  cipher: auto
-  name: 13|GB_分享日记_1
-  network: tcp
-  port: 22324
-  server: 172.99.190.12
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 13|CZ_分享日记_1
@@ -126,37 +89,46 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 13|DE_分享日记_9
-  network: ws
-  port: 80
-  server: 92.223.124.36
+  name: 13|GB_分享日记_2
+  network: tcp
+  port: 22324
+  server: 172.99.190.12
   tls: false
   type: vmess
-  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 224acdc4-46ed-4205-92b8-4c98fff33173
+- alterId: 64
+  cipher: auto
+  name: 13|NO_分享日记_2
+  network: ws
+  port: 443
+  server: 46.29.219.42
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: mehdi600.3utilities.com
-    path: /@forwardv2ray
+      Host: www.19935376.xyz
+    path: /path/180401120101
 - alterId: 0
   cipher: auto
-  name: 10|🇯🇵日本06
+  name: 16|日本3|@ripaojiedian
   network: tcp
-  port: '36111'
-  server: free.2weradf.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
+  port: '11022'
+  server: dotu-jpv1.03ezhg0qsa.download
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 6bc8fede-ad6c-4d83-b525-19615f3d468f
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c8d1cd9b-8c5c-4a47-9809-729e5d7fd257
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本04
@@ -166,7 +138,28 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6bc8fede-ad6c-4d83-b525-19615f3d468f
+  uuid: b3edd405-6566-4b7c-953f-bd5f27434a53
+- alterId: 0
+  cipher: auto
+  name: 13|ZA_分享日记_1
+  network: ws
+  port: 55600
+  server: 129.151.164.152
+  tls: false
+  type: vmess
+  uuid: e30f8588-2555-48b8-c354-c8e63f57232d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 224acdc4-46ed-4205-92b8-4c98fff33173
 - alterId: 0
   cipher: auto
   name: 13|IN_分享日记_1
@@ -182,44 +175,32 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵 日本 - 1
+  name: 13|JP_分享日记_4
   network: ws
-  port: '80'
-  server: jp01.malcolmgraham.online
+  port: 12345
+  server: 152.69.197.74
   tls: false
   type: vmess
-  uuid: c61eae8f-0c7e-41a6-b70f-69172382cc67
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
   ws-opts:
-    headers:
-      Host: jp01.malcolmgraham.online
-    path: /
+    path: /bb
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
+  name: 10|🇯🇵日本06
   network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c8d1cd9b-8c5c-4a47-9809-729e5d7fd257
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: 10|🇯🇵日本05
-  network: tcp
-  port: '36106'
+  port: '36111'
   server: free.2weradf.xyz
-  servername: jp05.abpilot.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6bc8fede-ad6c-4d83-b525-19615f3d468f
+  uuid: b3edd405-6566-4b7c-953f-bd5f27434a53
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 224acdc4-46ed-4205-92b8-4c98fff33173
