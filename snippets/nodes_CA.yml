@@ -1,14 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: free.2weradf.xyz
-  servername: ca04.abpilot.xyz
+  name: 13|CA_speednode_0002
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
   tls: true
   type: vmess
-  uuid: 81098322-7936-4843-b63a-fb3fff9c820e
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 11,13|加拿大 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '6,17|🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -18,7 +46,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8181af81-d3d3-405f-abf6-d6011021b794
+  uuid: 7cf05784-3fd4-4f73-8ecb-02a35111b2ec
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 2
@@ -33,19 +61,6 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 6|🇨🇦_CA_加拿大
-  network: ws
-  port: 8080
-  server: 23.227.39.24
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
   name: '6|🇨🇦_CA_加拿大 #2'
@@ -70,33 +85,6 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '6,17|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 13|CA_speednode_0002
-  network: ws
-  port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: '6,7|🇨🇦_CA_加拿大 #4'
   network: ws
   port: 8080
@@ -110,12 +98,38 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 11,13|加拿大 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 158.51.121.36
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: free.2weradf.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: cd054e86-db32-4062-af22-93734d37a708
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦[CDN]加拿大
+  network: ws
+  port: '8443'
+  server: ca-0.899994.xyz
+  servername: ca-0.899994.xyz
+  tls: true
+  type: vmess
+  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
   ws-opts:
-    path: /linkvws
+    headers:
+      Host: ca-0.899994.xyz
+    path: /ca-0?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 6|🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
