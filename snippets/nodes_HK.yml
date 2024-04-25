@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
-  network: ws
-  port: 18356
-  server: 45.144.3.204
-  tls: false
-  type: vmess
-  uuid: f36b128b-99b2-4e58-bd96-7a075cdb2b0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港7|@ripaojiedian
   network: ws
@@ -28,6 +15,29 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
+  network: ws
+  port: 18356
+  server: 45.144.3.204
+  tls: false
+  type: vmess
+  uuid: f36b128b-99b2-4e58-bd96-7a075cdb2b0a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '40259'
+  server: 120.238.122.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -39,40 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -89,16 +65,26 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|🇭🇰[直连]香港|BGP|广播|VMESS
-  network: ws
-  port: '8081'
-  server: 141.11.75.68
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
   tls: false
   type: vmess
-  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港 02 三网优化 1x
+  network: ws
+  port: '80'
+  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
+  tls: false
+  type: vmess
+  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: baidu.com
+    path: /?ed=2048
