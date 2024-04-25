@@ -1,48 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '11004'
-  server: dotu-hkv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '11003'
-  server: dotu-hkv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -69,17 +25,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰[直连]香港|BGP|广播|VMESS
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
   network: ws
-  port: '8081'
-  server: 141.11.75.68
-  tls: false
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
   type: vmess
-  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '54437'
+  server: 183.236.51.59
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -96,20 +63,6 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -126,3 +79,16 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰[直连]香港|BGP|广播|VMESS
+  network: ws
+  port: '8081'
+  server: 141.11.75.68
+  tls: false
+  type: vmess
+  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
