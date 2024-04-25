@@ -1,30 +1,9 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.78.184.192
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
-  network: ws
-  port: 47390
-  server: 146.190.84.34
-  tls: false
-  type: vmess
-  uuid: 7c99b0a1-3fe6-40b6-95a6-40f33fe00bce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬新加坡01|1.5x
+  name: 13|🇸🇬新加坡04|1.5x
   network: tcp
-  port: '47762'
+  port: '47765'
   server: gy.youaremygod.top
   tls: false
   type: vmess
@@ -40,6 +19,16 @@ proxies:
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.171.2...
+  network: tcp
+  port: '80'
+  server: 152.42.171.253
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 408705bb-2a17-46d6-daea-2ba30b300353
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.86.66...
   network: ws
   port: '35010'
@@ -52,6 +41,14 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.78.184.192
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡02|1.5x
@@ -63,20 +60,14 @@ proxies:
   uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬新加坡04|1.5x
-  network: tcp
-  port: '47765'
-  server: gy.youaremygod.top
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
+  network: ws
+  port: 47390
+  server: 146.190.84.34
   tls: false
   type: vmess
-  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.171.2...
-  network: tcp
-  port: '80'
-  server: 152.42.171.253
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 408705bb-2a17-46d6-daea-2ba30b300353
+  uuid: 7c99b0a1-3fe6-40b6-95a6-40f33fe00bce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
