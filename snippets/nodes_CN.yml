@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇳 中国 阿里云
+  network: ws
+  port: '80'
+  server: 8.218.126.53
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
   name: 11,12|广东省移动 7
   network: ws
   port: '20401'
@@ -15,6 +28,16 @@ proxies:
     path: /debian
 - alterId: 0
   cipher: auto
+  name: 11|广东省 移动
+  network: tcp
+  port: '11029'
+  server: dotu-usv1.03ezhg0qsa.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
+- alterId: 0
+  cipher: auto
   name: 11|广东省深圳市 移动
   network: ws
   port: '20301'
@@ -27,26 +50,3 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇳 中国 阿里云
-  network: ws
-  port: '80'
-  server: 8.218.126.53
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11|广东省 移动
-  network: tcp
-  port: '11029'
-  server: dotu-usv1.03ezhg0qsa.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1f3b35-1d03-3a85-beab-258d8f23edc6
