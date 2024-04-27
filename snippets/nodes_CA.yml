@@ -1,20 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: free.2apzhfa.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  name: '6,7,17|🇨🇦_CA_加拿大 #3'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
   type: vmess
-  uuid: 261660c8-a049-4466-9d9c-fa87f2928b8e
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 6|🇨🇦_CA_加拿大
+  name: '6,17|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
-  server: 23.227.39.24
+  server: 23.227.38.22
   tls: false
   type: vmess
   uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
@@ -38,6 +37,39 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '6,7|🇨🇦_CA_加拿大 #4'
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: free.2weradf.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 64753198-d6f1-4bb5-81e9-296bd9e0f495
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: free.2apzhfa.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b7d77159-2aa1-432b-950c-f05383bf9bc2
+- alterId: 0
+  cipher: auto
   name: '6|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
@@ -51,29 +83,10 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇨🇦_CA_加拿大 #3'
-  network: http
-  port: 3389
-  server: 134.122.41.160
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: free.2weradf.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 56713156-fce3-4f9f-a7a7-1cba74a5881c
-- alterId: 0
-  cipher: auto
-  name: '6,17|🇨🇦_CA_加拿大 #1'
+  name: 6|🇨🇦_CA_加拿大
   network: ws
   port: 8080
-  server: 23.227.38.22
+  server: 23.227.39.24
   tls: false
   type: vmess
   uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
@@ -81,16 +94,3 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: '6,7|🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
