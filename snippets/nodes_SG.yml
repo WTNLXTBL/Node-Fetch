@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬|SG|新加坡|@wxgqlfx|46
+  network: ws
+  port: '80'
+  server: 8.219.67.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: needayhk1.renwox.xyz
+    path: /needay?ed=2048
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡3|@ripaojiedian
@@ -23,28 +37,6 @@ proxies:
     path: /needay?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬|SG|新加坡|@wxgqlfx|46
-  network: ws
-  port: '80'
-  server: 8.219.67.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: needayhk1.renwox.xyz
-    path: /needay?ed=2048
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.78.184.192
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇸🇬 新加坡2|@ripaojiedian
   network: ws
@@ -59,3 +51,11 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.78.184.192
+  tfo: false
+  type: ss
