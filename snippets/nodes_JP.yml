@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 08a06c2b-ad49-42ab-a173-d71f685fe7d1
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 80
-  server: cf1.ftclashcloud.site
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
-  ws-opts:
-    headers:
-      Host: churrosjp01.ftclashcloud.online
-    path: /ws?ed
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -34,7 +8,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08a06c2b-ad49-42ab-a173-d71f685fe7d1
+  uuid: 2474b40a-b989-46ee-baba-39e44194c470
 - alterId: 0
   cipher: auto
   name: 13|DE_分享日记_13
@@ -48,19 +22,25 @@ proxies:
     headers:
       Host: mehdi600.3utilities.com
     path: /@forwardv2ray
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13|GB_分享日记_5
+  name: 13|JP_分享日记_1
   network: ws
-  port: 30000
-  server: 51.89.2.48
-  tls: true
+  port: 12345
+  server: 152.69.197.74
+  tls: false
   type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
   ws-opts:
-    headers:
-      Host: www.25311731.xyz
-    path: /path/203113182529
+    path: /bb
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.34.246
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|NL_分享日记_3
@@ -76,30 +56,14 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 13|NL_分享日记_2
-  network: ws
-  port: 443
-  server: 188.114.97.3
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: afrhms16v.bestxray.buzz
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|DE_分享日记_15
-  network: ws
-  port: 80
-  server: 92.223.124.24
-  tls: false
-  type: vmess
-  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
-  ws-opts:
-    headers:
-      Host: mehdi600.3utilities.com
-    path: /@forwardv2ray
+  uuid: 2474b40a-b989-46ee-baba-39e44194c470
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -118,17 +82,6 @@ proxies:
     path: /video/Zo98PYfE
 - alterId: 0
   cipher: auto
-  name: 13|JP_分享日记_1
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    path: /bb
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
   port: '14935'
@@ -139,6 +92,48 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 80
+  server: cf1.ftclashcloud.site
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
+  ws-opts:
+    headers:
+      Host: churrosjp01.ftclashcloud.online
+    path: /ws?ed
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_5
+  network: ws
+  port: 30000
+  server: 51.89.2.48
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-opts:
+    headers:
+      Host: www.25311731.xyz
+    path: /path/203113182529
+- alterId: 0
+  cipher: auto
+  name: 13|NL_分享日记_2
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
   network: tcp
   port: '31106'
@@ -146,15 +141,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08a06c2b-ad49-42ab-a173-d71f685fe7d1
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.34.246
-  tfo: false
-  type: ss
+  uuid: 2474b40a-b989-46ee-baba-39e44194c470
 - alterId: 0
   cipher: auto
   name: 13|DE_分享日记_16
@@ -166,3 +153,16 @@ proxies:
   uuid: 3f599734-3f70-4b94-ae40-10abdd5a3954
   ws-opts:
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|DE_分享日记_15
+  network: ws
+  port: 80
+  server: 92.223.124.24
+  tls: false
+  type: vmess
+  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
+  ws-opts:
+    headers:
+      Host: mehdi600.3utilities.com
+    path: /@forwardv2ray

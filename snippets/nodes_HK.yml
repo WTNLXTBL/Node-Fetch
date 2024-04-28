@@ -1,4 +1,28 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 40259
+  server: 120.238.122.243
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
+  network: ws
+  port: 16222
+  server: 45.144.3.204
+  tls: false
+  type: vmess
+  uuid: 37e2e6fa-c9a0-42f5-97d6-d6e7b29e4ab9
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,45 +47,6 @@ proxies:
   server: 36.212.233.209
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h2.dspp.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.198.153
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
-  network: ws
-  port: 16222
-  server: 45.144.3.204
-  tls: false
-  type: vmess
-  uuid: 37e2e6fa-c9a0-42f5-97d6-d6e7b29e4ab9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -80,12 +65,27 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 40259
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '40259'
   server: 120.238.122.243
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h2.dspp.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.198.153
+  tfo: false
+  type: ss
