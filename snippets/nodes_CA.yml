@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '6,17|🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
   name: 11|加拿大 v2rayfree.eu.org
   network: ws
   port: 22751
@@ -14,24 +27,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: free.2weradf.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: '6,7,17|🇨🇦_CA_加拿大 #3'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
   type: vmess
-  uuid: 7b34ea75-f15d-4b8d-8528-b68745f2f7db
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: free.2apzhfa.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 929e2c7e-1d09-4fde-b62a-c15e31b4f5bb
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 13|CA_08 |14.88Mb
@@ -74,26 +76,14 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇨🇦_CA_加拿大 #3'
-  network: http
-  port: 3389
-  server: 134.122.41.160
-  tls: false
+  name: 14|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: free.2apzhfa.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '6,17|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+  uuid: 68b8e758-e358-4913-a6bf-a32da7180c03
 - alterId: 0
   cipher: auto
   name: '6,7|🇨🇦_CA_加拿大 #4'
@@ -107,3 +97,13 @@ proxies:
     headers:
       Host: uh-lawyers-instruments-kernel.trycloudflare.com
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 10|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: free.2weradf.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 75e756cf-0e8f-4e88-ae0e-c50fbce656ba
