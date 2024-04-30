@@ -1,24 +1,47 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
+  name: 13|KR_分享日记_2
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  tls: false
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
+  name: 14|【BGP】日本 06  | 1x JP
   network: tcp
-  port: '31116'
+  port: '31111'
   server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: cee9c641-203e-47db-bbea-9f69b38aa0f3
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记_1
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  password: g76wex
+  port: 443
+  server: aws-jp-tokyo-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-jp-tokyo-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-jp-tokyo-1.f1cflined.com
+    path: /f1rocket
 - alterId: 64
   cipher: auto
   name: 13|GB_分享日记_1
@@ -34,30 +57,24 @@ proxies:
     path: /path/203113182529
 - alterId: 0
   cipher: auto
-  name: 13|JP_分享日记_1
+  name: 14|【BGP】日本 05  | 1x JP
   network: tcp
-  port: 14935
-  server: 167.179.111.237
-  tls: false
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.34.246
-  tfo: false
-  type: ss
+  uuid: cee9c641-203e-47db-bbea-9f69b38aa0f3
 - alterId: 0
   cipher: auto
-  name: 13|RU_分享日记_1
+  name: 14|【BGP】日本 04  | 1x JP
   network: tcp
-  port: 47555
-  server: 46.29.166.237
-  tls: false
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+  uuid: cee9c641-203e-47db-bbea-9f69b38aa0f3
 - alterId: 0
   cipher: auto
   name: 13|NL_分享日记_4
@@ -73,14 +90,28 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
+  name: 13|JP_分享日记_4
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    path: /bb
+- alterId: 64
+  cipher: auto
+  name: 13|NO_分享日记_1
+  network: ws
+  port: 443
+  server: 46.29.219.42
   tls: true
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.19935376.xyz
+    path: /path/180401120101
 - alterId: 0
   cipher: auto
   name: 13|SE_分享日记
@@ -96,15 +127,13 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
-  name: 13|JP_分享日记_4
-  network: ws
-  port: 12345
-  server: 152.69.197.74
+  name: 13|JP_分享日记_1
+  network: tcp
+  port: 14935
+  server: 167.179.111.237
   tls: false
   type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    path: /bb
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -121,27 +150,11 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
-- alterId: 64
-  cipher: auto
-  name: 13|NO_分享日记_1
-  network: ws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 46.29.219.42
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.19935376.xyz
-    path: /path/180401120101
-- alterId: 0
-  cipher: auto
-  name: 13|KR_分享日记_2
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    path: /
+  server: 43.207.104.148
+  tfo: false
+  type: ss
