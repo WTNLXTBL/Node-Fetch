@@ -1,18 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|新加坡|@ripaojiedian
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
   network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
-  servername: ''
+  port: 45890
+  server: 146.190.84.34
   tls: false
   type: vmess
-  uuid: e4e6bc46-a03f-47e3-94ba-fb535f3ab83d
+  uuid: af479244-6386-49e2-99a7-2e1d7aee4b2d
   ws-opts:
     headers:
       Host: ''
-    path: /zh-cn
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -29,6 +28,20 @@ proxies:
     headers:
       Host: mmsg16.micloud.buzz
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|@ripaojiedian
+  network: ws
+  port: '46016'
+  server: mmsg16.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e4e6bc46-a03f-47e3-94ba-fb535f3ab83d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -37,16 +50,3 @@ proxies:
   server: 54.65.132.51
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
-  network: ws
-  port: 47390
-  server: 146.190.84.34
-  tls: false
-  type: vmess
-  uuid: 7c99b0a1-3fe6-40b6-95a6-40f33fe00bce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
