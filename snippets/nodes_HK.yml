@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '15607'
+  server: 183.232.199.59
   servername: ''
   tls: false
   type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -29,48 +25,19 @@ proxies:
   server: 172.67.198.153
   tfo: false
   type: ss
-- alterId: 32
-  cipher: auto
-  name: 13|Hong Kong
-  network: ws
-  port: 80
-  server: hrgdvpn.flycdnedc55.vip
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
   network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+      Host: cfhk.393930.xyz
     path: /
 - alterId: 64
   cipher: auto
@@ -88,14 +55,34 @@ proxies:
     path: /opt/video/images
 - alterId: 0
   cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '15607'
-  server: 183.232.199.59
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  network: ws
+  port: 28681
+  server: 47.242.22.171
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -107,30 +94,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
-  network: ws
-  port: '4431'
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.240.179.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -147,3 +110,14 @@ proxies:
     headers:
       Host: data-hk-v1.usabooks.com.cn
     path: /debian
+- alterId: 32
+  cipher: auto
+  name: 13|Hong Kong
+  network: ws
+  port: 80
+  server: hrgdvpn.flycdnedc55.vip
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    path: /opt/video/images
