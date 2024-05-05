@@ -1,31 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h2.dspp.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.198.153
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 40259
-  server: 120.238.122.243
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|香港8|@ripaojiedian
@@ -36,9 +9,9 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 32
+- alterId: 64
   cipher: auto
-  name: 13|Hong Kong
+  name: 13|🇭🇰 HK_2046 |13.30Mb
   network: ws
   port: 80
   server: hrgdvpn.flycdnedc55.vip
@@ -60,22 +33,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 15,16|🇭🇰 香港5|@ripaojiedian
   network: ws
   port: 16632
@@ -89,3 +46,46 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h2.dspp.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.198.153
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 40259
+  server: 120.238.122.243
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
