@@ -1,18 +1,41 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 40259
+  server: 120.238.122.243
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h4.podds.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 47.243.45.101
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
-  network: ws
-  port: 26639
-  server: 91.149.236.44
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
-  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13/hd.m3u8/
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -29,16 +52,16 @@ proxies:
     headers:
       Host: azhk01.ftclashcloud.online
     path: /ws?ed
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 16|香港6|@ripaojiedian
+  name: 16|香港7|@ripaojiedian
   network: tcp
-  port: '15601'
-  server: 183.240.179.195
+  port: '32998'
+  server: 120.232.242.122
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,48 +80,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|香港8|@ripaojiedian
+  name: 16|香港6|@ripaojiedian
   network: tcp
-  port: '15603'
-  server: 183.232.199.61
+  port: '15601'
+  server: 183.240.179.195
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h4.podds.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 47.243.45.101
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 40259
-  server: 120.238.122.243
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '32998'
-  server: 120.232.242.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
