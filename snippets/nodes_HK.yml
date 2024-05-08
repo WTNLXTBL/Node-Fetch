@@ -11,66 +11,6 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
-  network: ws
-  port: 26639
-  server: 91.149.236.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13/hd.m3u8/
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 40259
-  server: 120.238.122.243
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: 3567f27e-60aa-4494-8e5f-3b1328b83390
-  port: 33578
-  server: hk.4.thap.xyz
-  tfo: false
-  type: ss
-- alterId: 32
-  cipher: auto
-  name: 13|0142+10—🇭🇰—HK—15
-  network: ws
-  port: '80'
-  server: 182.16.1.194
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h4.podds.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 47.243.45.101
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
   network: ws
   port: 28681
@@ -99,3 +39,38 @@ proxies:
     headers:
       Host: 193.25.215.160
     path: /niuniu
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h4.podds.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 47.243.45.101
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 40259
+  server: 120.238.122.243
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 3567f27e-60aa-4494-8e5f-3b1328b83390
+  port: 33578
+  server: hk.4.thap.xyz
+  tfo: false
+  type: ss
