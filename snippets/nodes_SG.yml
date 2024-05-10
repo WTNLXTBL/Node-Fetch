@@ -7,6 +7,19 @@ proxies:
   server: 18.143.93.163
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  password: e81d213d-8dd5-4207-9445-24d8903ffe0c
+  port: 2248
+  server: awssg.cfyun.top
+  skip-cert-verify: false
+  sni: lmtsg2.cfyun01.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: lmtsg2.cfyun01.sbs
+    path: /CFYUN
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
@@ -21,16 +34,3 @@ proxies:
     headers:
       Host: ''
     path: /v2ray
-- client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  password: e81d213d-8dd5-4207-9445-24d8903ffe0c
-  port: 2248
-  server: awssg.cfyun.top
-  skip-cert-verify: false
-  sni: lmtsg2.cfyun01.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: lmtsg2.cfyun01.sbs
-    path: /CFYUN
