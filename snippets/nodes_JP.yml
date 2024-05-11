@@ -1,64 +1,24 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13|GB_分享日记_16
+  name: 13|RU_分享日记_17
   network: ws
-  port: 30000
-  server: 51.89.2.48
+  port: 443
+  server: hk-full.privateip.net
   servername: ''
   tls: true
   type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
   ws-opts:
     headers:
       Host: ''
-    path: /path/203113182529
-- alterId: 64
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '51707'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '61002'
-  server: 183.240.179.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a193c734-d2e8-4408-bca4-14bfcd888f16
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a193c734-d2e8-4408-bca4-14bfcd888f16
-- cipher: aes-256-cfb
+    path: /RACEVPN
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.88.161.5
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: peWQ2LOeVWb9qvOz
+  port: 24820
+  server: gd1-jp.fwcloud.cc
   tfo: false
   type: ss
 - alterId: 0
@@ -84,7 +44,35 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a193c734-d2e8-4408-bca4-14bfcd888f16
+  uuid: ed3f25ac-119b-46e4-9fde-9d8c81099207
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.124.178.1
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ed3f25ac-119b-46e4-9fde-9d8c81099207
+- alterId: 0
+  cipher: auto
+  name: 16|日本2|@ripaojiedian
+  network: tcp
+  port: '61002'
+  server: 183.232.142.179
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵JP-183.181.36.194-0388
@@ -96,6 +84,39 @@ proxies:
   uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
   ws-opts:
     path: ''
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_16
+  network: ws
+  port: 30000
+  server: 51.89.2.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/203113182529
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ed3f25ac-119b-46e4-9fde-9d8c81099207
+- alterId: 64
+  cipher: auto
+  name: 13|🇯🇵_电报https://t.me/chykj_83
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 64
   cipher: auto
   name: 13|NO_分享日记
@@ -110,15 +131,6 @@ proxies:
     headers:
       Host: ''
     path: /path/180401120101
-- alterId: 64
-  cipher: auto
-  name: 13|🇯🇵_电报https://t.me/chykj_83
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 13|JP_分享日记_2
@@ -133,17 +145,13 @@ proxies:
     headers:
       Host: ''
     path: /rongseven?ed=2048
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|RU_分享日记_17
-  network: ws
-  port: 443
-  server: hk-full.privateip.net
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '51707'
+  server: 183.236.51.59
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
