@@ -15,33 +15,14 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 2052
-  server: hk.wish.ml
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4168440c-41a1-4671-a5b2-8abfe318e1bb
-  ws-opts:
-    headers:
-      Host: hk2.wish.ml
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 40259
-  server: 120.238.122.243
+  password: 918eba0d3ff04abc803fb00e18d0fcb5
+  port: 443
+  server: 202.64.1.143
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  sni: www.gpt123.one
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,20 +38,6 @@ proxies:
   ws-opts:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -88,13 +55,33 @@ proxies:
   server: 8.210.229.184
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '40259'
-  server: 120.238.122.243
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  network: ws
+  port: 28681
+  server: 47.242.22.171
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4168440c-41a1-4671-a5b2-8abfe318e1bb
+  ws-opts:
+    headers:
+      Host: hk2.wish.ml
+    path: /
