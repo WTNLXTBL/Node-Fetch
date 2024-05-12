@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 48a41425-5fcb-4260-9ffa-e83260aee594
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 48a41425-5fcb-4260-9ffa-e83260aee594
+- alterId: 0
+  cipher: auto
   name: 16|日本2|@ripaojiedian
   network: tcp
   port: '61002'
@@ -9,16 +29,23 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.54.243
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
+  name: 13|🇯🇵_电报https://t.me/chykj_83
   network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
+  port: 24445
+  server: 140.83.63.38
+  tls: false
   type: vmess
-  uuid: 641f3370-2c10-474f-9a08-0099691f5d20
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵JP-183.181.36.194-0388
@@ -30,76 +57,6 @@ proxies:
   uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
   ws-opts:
     path: ''
-- alterId: 64
-  cipher: auto
-  name: 13|NO_分享日记
-  network: ws
-  port: 443
-  server: 46.29.219.42
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/180401120101
-- alterId: 64
-  cipher: auto
-  name: 13|GB_分享日记_16
-  network: ws
-  port: 30000
-  server: 51.89.2.48
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/203113182529
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.54.243
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 641f3370-2c10-474f-9a08-0099691f5d20
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 641f3370-2c10-474f-9a08-0099691f5d20
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_17
-  network: ws
-  port: 443
-  server: hk-full.privateip.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: 13|日本 002
@@ -116,13 +73,56 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 13|🇯🇵_电报https://t.me/chykj_83
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  tls: false
+  name: 13|NO_分享日记
+  network: ws
+  port: 443
+  server: 46.29.219.42
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/180401120101
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记_17
+  network: ws
+  port: 443
+  server: hk-full.privateip.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 48a41425-5fcb-4260-9ffa-e83260aee594
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_16
+  network: ws
+  port: 30000
+  server: 51.89.2.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/203113182529
 - alterId: 0
   cipher: auto
   name: 13|JP_分享日记_2
