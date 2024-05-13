@@ -1,19 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
   network: ws
-  port: 2052
-  server: hk.wish.ml
-  skip-cert-verify: false
-  tfo: false
+  port: 28681
+  server: 47.242.22.171
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4168440c-41a1-4671-a5b2-8abfe318e1bb
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
     headers:
-      Host: hk2.wish.ml
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -37,16 +35,6 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '15603'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港7|@ripaojiedian
   network: ws
@@ -63,41 +51,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 918eba0d3ff04abc803fb00e18d0fcb5
-  port: 443
-  server: 202.64.1.143
-  skip-cert-verify: false
-  sni: www.gpt123.one
-  type: trojan
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  name: 15,16|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: 16632
-  server: m.cnmjin.net
+  port: 80
+  server: hk01.beautifulprimavera.online
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
   ws-opts:
     headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+      Host: hk01.beautifulprimavera.online
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
@@ -115,3 +91,38 @@ proxies:
   server: 8.210.229.184
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: a33a1a32-5bfe-44d5-a900-d6a1f8440d93
+  port: 51203
+  server: zsnat.wwwq.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 8443
+  server: 120.232.240.38
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
