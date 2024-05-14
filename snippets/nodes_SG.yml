@@ -1,30 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.95.164.206
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: cb8bd04c-3e95-472c-bb3b-d0313def9d75
-  port: 50006
-  server: iepl2.forlive.live
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡|@ripaojiedian
-  network: tcp
-  port: '37997'
-  server: 8789-kf49kc85w.uy2w4vf-sg03.my777999.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6399ac7d-8265-436d-b348-299df4b735a5
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
@@ -39,3 +13,27 @@ proxies:
     headers:
       Host: ''
     path: /v2ray
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.95.163.121
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0a208887-f5d4-40eb-ac7f-7bbc6584f9d7
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
