@@ -1,36 +1,15 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|JP_分享日记_2
+  name: 13|🇯🇵JP-183.181.36.194-0388
   network: ws
-  port: 57557
-  server: jp-tokyo-oracle-5a26da.ip1.shop
-  servername: ''
+  port: 41597
+  server: 183.181.36.194
   tls: false
   type: vmess
-  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
   ws-opts:
-    headers:
-      Host: ''
-    path: /rongseven?ed=2048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 918eba0d3ff04abc803fb00e18d0fcb5
-  port: 40010
-  server: 61.172.229.17
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d65c707a-01de-41d2-bdf0-eb1a78199dca
+    path: ''
 - alterId: 0
   cipher: auto
   name: 13|日本 002
@@ -47,15 +26,70 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵JP-183.181.36.194-0388
+  name: 13|RU_分享日记_17
   network: ws
-  port: 41597
-  server: 183.181.36.194
+  port: 443
+  server: hk-full.privateip.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|JP_分享日记_2
+  network: ws
+  port: 57557
+  server: jp-tokyo-oracle-5a26da.ip1.shop
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  uuid: f1b91a7d-a5e2-4684-a183-d2d656400ca1
   ws-opts:
-    path: ''
+    headers:
+      Host: ''
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42a23e29-7f14-47a1-a6a4-d75daa03b02c
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 918eba0d3ff04abc803fb00e18d0fcb5
+  port: 40010
+  server: 61.172.229.17
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: free.2apzhfa.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42a23e29-7f14-47a1-a6a4-d75daa03b02c
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42a23e29-7f14-47a1-a6a4-d75daa03b02c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -64,6 +98,20 @@ proxies:
   server: 18.182.6.181
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_16
+  network: ws
+  port: 30000
+  server: 51.89.2.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/203113182529
 - alterId: 64
   cipher: auto
   name: 13|NO_分享日记
@@ -95,51 +143,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: free.2apzhfa.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d65c707a-01de-41d2-bdf0-eb1a78199dca
-- alterId: 64
-  cipher: auto
-  name: 13|GB_分享日记_16
-  network: ws
-  port: 30000
-  server: 51.89.2.48
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/203113182529
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d65c707a-01de-41d2-bdf0-eb1a78199dca
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_17
-  network: ws
-  port: 443
-  server: hk-full.privateip.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
