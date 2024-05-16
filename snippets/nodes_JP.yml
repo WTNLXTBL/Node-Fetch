@@ -1,6 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.182.6.181
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: free.2apzhfa.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 76cdcde9-b6ad-4767-a39e-bd8d24c60a6e
+- alterId: 0
+  cipher: auto
   name: 13|日本 002
   network: ws
   port: 8080
@@ -13,6 +47,15 @@ proxies:
     headers:
       Host: 87.120.204.6
     path: /
+- alterId: 64
+  cipher: auto
+  name: 13|🇯🇵_电报https://t.me/chykj_83
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 13|JP_分享日记_2
@@ -29,23 +72,28 @@ proxies:
     path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵JP-183.181.36.194-0388
-  network: ws
-  port: 41597
-  server: 183.181.36.194
-  tls: false
+  name: 14|【BGP】日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: free.2apzhfa.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  uuid: 76cdcde9-b6ad-4767-a39e-bd8d24c60a6e
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_16
+  network: ws
+  port: 30000
+  server: 51.89.2.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
   ws-opts:
-    path: ''
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.182.6.181
-  tfo: false
-  type: ss
+    headers:
+      Host: ''
+    path: /path/203113182529
 - alterId: 64
   cipher: auto
   name: 13|NO_分享日记
@@ -62,16 +110,6 @@ proxies:
     path: /path/180401120101
 - alterId: 0
   cipher: auto
-  name: 14|【BGP】日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: free.2apzhfa.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 640aad50-241c-4f52-a998-0f49baafad0e
-- alterId: 0
-  cipher: auto
   name: 13|RU_分享日记_17
   network: ws
   port: 443
@@ -84,41 +122,6 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- alterId: 64
-  cipher: auto
-  name: 13|🇯🇵_电报https://t.me/chykj_83
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 55444c8f-fdeb-4af4-98ee-7cf5f4667659
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: free.2apzhfa.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 640aad50-241c-4f52-a998-0f49baafad0e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -128,18 +131,15 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 640aad50-241c-4f52-a998-0f49baafad0e
-- alterId: 64
+  uuid: 76cdcde9-b6ad-4767-a39e-bd8d24c60a6e
+- alterId: 0
   cipher: auto
-  name: 13|GB_分享日记_16
+  name: 13|🇯🇵JP-183.181.36.194-0388
   network: ws
-  port: 30000
-  server: 51.89.2.48
-  servername: ''
-  tls: true
+  port: 41597
+  server: 183.181.36.194
+  tls: false
   type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
   ws-opts:
-    headers:
-      Host: ''
-    path: /path/203113182529
+    path: ''
