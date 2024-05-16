@@ -1,28 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 15603
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '15601'
   server: 183.240.179.195
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
@@ -38,38 +21,30 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 11|香港 环球全域电讯
-  network: ws
-  port: '12909'
-  server: 210.3.159.224
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
   servername: ''
   tls: true
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.240.179.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '15603'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -88,14 +63,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
+  name: 16|香港8|@ripaojiedian
   network: tcp
-  port: '8443'
-  server: 120.232.240.38
+  port: '15603'
+  server: 183.232.199.61
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
@@ -110,3 +85,28 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|香港 环球全域电讯
+  network: ws
+  port: '12909'
+  server: 210.3.159.224
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 15603
+  server: 183.240.179.195
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
