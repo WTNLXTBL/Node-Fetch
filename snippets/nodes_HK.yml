@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 15603
-  server: 183.240.179.195
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -44,20 +17,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港9|@ripaojiedian
-  network: ws
-  port: 21949
-  server: sui.forlive.live
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '8443'
+  server: 120.232.240.38
+  servername: ''
+  tls: true
   type: vmess
-  uuid: f71e9cfc-ada7-46b9-bc87-3281644f6dce
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -76,14 +43,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '8443'
-  server: 120.232.240.38
-  servername: ''
-  tls: true
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港9|@ripaojiedian
+  network: ws
+  port: 21949
+  server: sui.forlive.live
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931
+  uuid: f71e9cfc-ada7-46b9-bc87-3281644f6dce
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -96,11 +69,22 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 16|香港8|@ripaojiedian
+  name: 16|香港6|@ripaojiedian
   network: tcp
-  port: '15603'
-  server: 183.232.199.61
+  port: '15601'
+  server: 183.240.179.195
   servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 15603
+  server: 183.240.179.195
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
@@ -120,6 +104,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港2|@ripaojiedian
   network: ws
@@ -134,13 +128,3 @@ proxies:
     headers:
       Host: hk2.wish.ml
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.240.179.195
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
