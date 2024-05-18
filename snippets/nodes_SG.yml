@@ -1,28 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡|@ripaojiedian
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
   network: ws
-  port: 80
-  server: hsj.lbxjc.online
-  skip-cert-verify: false
-  tfo: false
+  port: '99'
+  server: 128.199.161.230
+  servername: ''
   tls: false
   type: vmess
-  uuid: eee2a535-93f1-4640-9cf1-38c9c8c352a7
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
   ws-opts:
     headers:
-      Host: newsg413.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.91.178.223
-  tfo: false
-  type: ss
+      Host: ''
+    path: /v2ray
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,17 +29,27 @@ proxies:
     headers:
       Host: sg2.wish.ml
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.91.178.223
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
+  client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '99'
-  server: 128.199.161.230
-  servername: ''
+  port: 80
+  server: hsj.lbxjc.online
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  uuid: eee2a535-93f1-4640-9cf1-38c9c8c352a7
   ws-opts:
     headers:
-      Host: ''
-    path: /v2ray
+      Host: newsg413.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
