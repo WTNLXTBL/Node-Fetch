@@ -1,34 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,12|广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 0
-  cipher: auto
-  name: 11,16|广东省佛山市 移动
+  name: '11|广东省佛山市 移动 #2'
   network: tcp
-  port: '42001'
-  server: 183.232.199.28
+  port: '61001'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: '11|广东省佛山市 移动 #2'
+  name: 11,16|广东省佛山市 移动
   network: tcp
-  port: '61001'
-  server: 183.232.199.61
+  port: '42001'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
@@ -45,6 +31,16 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
+  name: '11,16|广东省佛山市 移动 #3'
+  network: tcp
+  port: '15611'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
   name: 11|广东省汕头市 移动
   network: tcp
   port: '30127'
@@ -55,11 +51,15 @@ proxies:
   uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
 - alterId: 0
   cipher: auto
-  name: '11,16|广东省佛山市 移动 #3'
-  network: tcp
-  port: '15611'
-  server: 183.232.170.47
+  name: 11,12|广东省移动 7
+  network: ws
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
