@@ -1,6 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
+  network: ws
+  port: '99'
+  server: 128.199.161.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.179.9.170
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 16|新加坡|@ripaojiedian
   network: tcp
   port: '37997'
@@ -23,25 +45,3 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.179.9.170
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
-  network: ws
-  port: '99'
-  server: 128.199.161.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
