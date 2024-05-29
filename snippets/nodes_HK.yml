@@ -1,42 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: any.ktsfd.shop
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.124.123
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 4a6fd9d0-f724-4e1f-a92d-63f86778d379
-  port: 46091
-  server: rk.izoizoizo.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -45,32 +7,6 @@ proxies:
   server: 183.232.199.28
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
-  network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '15603'
-  server: 183.232.199.61
-  servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
@@ -100,5 +36,69 @@ proxies:
   password: 44616c04-57e1-491a-9239-80b805b8d770
   port: 50001
   server: iepl1.forlive.live
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 4a6fd9d0-f724-4e1f-a92d-63f86778d379
+  port: 46091
+  server: rk.izoizoizo.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  network: ws
+  port: 28681
+  server: 47.242.22.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: any.ktsfd.shop
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.124.123
   tfo: false
   type: ss
