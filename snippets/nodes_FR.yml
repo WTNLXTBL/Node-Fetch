@@ -1,21 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 6,17|🇫🇷_FR_法国
-  network: http
-  port: 3389
-  server: 51.159.155.52
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- name: 1|_FR__2
-  network: tcp
-  password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb
-  port: 443
-  server: fr-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 1|_FR__1
   network: tcp
   password: telegram-id-privatevpns
@@ -25,3 +8,20 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+- name: 1|_FR__2
+  network: tcp
+  password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb
+  port: 443
+  server: fr-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇫🇷_FR_法国
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
