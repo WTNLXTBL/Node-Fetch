@@ -1,4 +1,15 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 15605
+  server: 183.232.199.28
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -9,25 +20,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
   network: ws
   port: 16632
-  server: yes.cnmjcn.net
+  server: m.cnmjin.net
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -56,21 +53,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 15605
-  server: 183.232.199.28
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
   network: ws
   port: 16632
-  server: m.cnmjin.net
+  server: yes.cnmjcn.net
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -82,9 +68,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  network: ws
+  port: 28681
+  server: 47.242.22.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '15603'
+  port: '15605'
   server: 183.232.199.28
   servername: ''
   tls: false
@@ -96,16 +96,6 @@ proxies:
   network: tcp
   port: '15601'
   server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '15605'
-  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
