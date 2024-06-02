@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '15606'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   port: 15605
@@ -26,11 +36,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  name: 15,16|🇭🇰 香港8|@ripaojiedian
   network: ws
   port: 16632
-  server: yes.cnmjcn.net
+  server: m.cnmjin.net
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -42,10 +62,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
+  name: 16|香港2|@ripaojiedian
   network: tcp
-  port: '15606'
-  server: 183.232.170.47
+  port: '15601'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
@@ -62,14 +82,20 @@ proxies:
   uuid: 33aefd89-3285-4347-9083-6249711f02e9
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '15603'
-  server: 183.232.199.28
-  servername: ''
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -96,29 +122,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港8|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
