@@ -1,18 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_IN_
+- name: 1|_US_->_AU__1
   network: ws
-  port: 2052
-  server: 104.17.156.224
+  password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
+  port: 443
+  server: 104.20.19.168
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  sni: golinkwuxian.top
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      host: in4.wish.ml
-    path: /
+      host: 555.golinkwuxian.top
+    path: /apple
 - alterId: 0
   cipher: auto
   name: 7,17|🇺🇸_US_美国->🇫🇷_FR_法国
@@ -28,10 +27,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  name: 3|🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 2052
+  server: 104.17.156.224
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in4.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: 8080
-  server: 162.159.1.33
+  server: 162.159.5.6
   tls: false
   type: vmess
   uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
@@ -39,6 +51,19 @@ proxies:
     headers:
       Host: pcs-referenced-camera-concerns.trycloudflare.com
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
@@ -52,6 +77,19 @@ proxies:
     headers:
       Host: larger-marketing-amounts-skin.trycloudflare.com
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- name: 1|_US_->_AU__3
+  network: ws
+  password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
+  port: 443
+  server: 104.20.18.168
+  skip-cert-verify: true
+  sni: golinkwuxian.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 555.golinkwuxian.top
+    path: /apple
 - alterId: 0
   cipher: auto
   name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
@@ -65,19 +103,6 @@ proxies:
     headers:
       Host: nest-emily-healing-h.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- name: 1|_US_->_AU__1
-  network: ws
-  password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
-  port: 443
-  server: 104.20.19.168
-  skip-cert-verify: true
-  sni: golinkwuxian.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 555.golinkwuxian.top
-    path: /apple
 - name: 1|_US_->_AU__2
   network: ws
   password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
@@ -93,17 +118,17 @@ proxies:
     path: /apple
 - alterId: 0
   cipher: auto
-  name: 3,13|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
-  port: 2052
-  server: cdncdncdncdn.784654.xyz
+  port: 8080
+  server: 162.159.1.33
   tls: false
   type: vmess
-  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
   ws-opts:
     headers:
-      Host: ca-cfcdn.aikunapp.com
-    path: /index?ed=2048
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
   name: 1|_US_->_CA_
@@ -120,53 +145,28 @@ proxies:
     path: /index?ed=2048
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: 8080
-  server: 162.159.5.6
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: 1|_US_->_IN_
   network: ws
   port: 2052
   server: 104.17.156.224
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
-      Host: in4.wish.ml
+      host: in4.wish.ml
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  name: 3,13|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
-  port: 8880
-  server: 94.140.0.110
+  port: 2052
+  server: cdncdncdncdn.784654.xyz
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1
   ws-opts:
     headers:
-      Host: food.zhaal.ir
-    path: /
-- name: 1|_US_->_AU__3
-  network: ws
-  password: 50e10abd-3920-42a6-ad0c-6ec731d8c826
-  port: 443
-  server: 104.20.18.168
-  skip-cert-verify: true
-  sni: golinkwuxian.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 555.golinkwuxian.top
-    path: /apple
+      Host: ca-cfcdn.aikunapp.com
+    path: /index?ed=2048
