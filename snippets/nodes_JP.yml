@@ -1,4 +1,21 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 13|🇯🇵_电报https://t.me/chykj_83
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.151.219.143
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|RU_分享日记_17
@@ -13,6 +30,20 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|日本 002
+  network: ws
+  port: 8080
+  server: 87.120.204.6
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 87.120.204.6
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|JP_分享日记_2
@@ -41,6 +72,17 @@ proxies:
     headers:
       Host: ''
     path: /path/203113182529
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵JP-183.181.36.194-0388
+  network: ws
+  port: 41597
+  server: 183.181.36.194
+  tls: false
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    path: ''
 - alterId: 64
   cipher: auto
   name: 13|NO_分享日记
@@ -55,45 +97,3 @@ proxies:
     headers:
       Host: ''
     path: /path/180401120101
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.151.219.143
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 13|🇯🇵_电报https://t.me/chykj_83
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 13|日本 002
-  network: ws
-  port: 8080
-  server: 87.120.204.6
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: 87.120.204.6
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵JP-183.181.36.194-0388
-  network: ws
-  port: 41597
-  server: 183.181.36.194
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    path: ''
