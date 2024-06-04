@@ -1,10 +1,58 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港|@ripaojiedian
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|HongKong Aliyun HK
+  network: ws
+  port: '2052'
+  server: web.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a1ec3211-b1ff-4e53-a729-e5b7b55567eb
+  ws-opts:
+    headers:
+      Host: aliyun_hk1.cn2.free.hr
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
   network: tcp
-  port: '15607'
-  server: 183.232.199.61
+  port: '15604'
+  server: 183.232.170.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港7|@ripaojiedian
+  network: tcp
+  port: '15610'
+  server: 183.232.170.47
   servername: ''
   tls: false
   type: vmess
@@ -22,20 +70,14 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '15610'
+  server: 183.232.199.28
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -46,20 +88,6 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 13|HongKong Aliyun HK
-  network: ws
-  port: '2052'
-  server: web.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a1ec3211-b1ff-4e53-a729-e5b7b55567eb
-  ws-opts:
-    headers:
-      Host: aliyun_hk1.cn2.free.hr
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -78,38 +106,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '15610'
-  server: 183.232.199.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '15610'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '15604'
-  server: 183.232.170.47
+  port: '15607'
+  server: 183.232.199.61
   servername: ''
   tls: false
   type: vmess
