@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  network: tcp
+  port: '2083'
+  server: jp-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3a0c6a81-236b-4e73-ac22-a580549edbf9
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -9,7 +19,39 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
+  name: 16|日本5|@ripaojiedian
+  network: tcp
+  port: '38997'
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 33aefd89-3285-4347-9083-6249711f02e9
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.43.179
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
+  network: ws
+  port: '12345'
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
   network: ws
   port: 80
   server: jp5g.forlive.live
@@ -21,40 +63,6 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|日本5|@ripaojiedian
-  network: tcp
-  port: '38997'
-  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 33aefd89-3285-4347-9083-6249711f02e9
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
-  network: tcp
-  port: '2083'
-  server: jp-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3a0c6a81-236b-4e73-ac22-a580549edbf9
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -69,24 +77,3 @@ proxies:
   uuid: 1a331b20-4822-4c5f-b1ec-206a86d51b7c
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵日本-1
-  network: ws
-  port: '2086'
-  server: hsj108k.mm-cc.top
-  tls: false
-  type: vmess
-  uuid: 912e72b1-91c9-42b1-b16f-c4a823171388
-  ws-opts:
-    headers:
-      Host: akjp1um.mmaccc.top
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.43.179
-  tfo: false
-  type: ss
