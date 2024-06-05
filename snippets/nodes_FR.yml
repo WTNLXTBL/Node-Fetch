@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,17|🇫🇷_FR_法国
-  network: http
-  port: 3389
-  server: 51.159.155.52
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇫🇷 FR-162.19.25.20...
   network: tcp
   port: '44513'
@@ -18,6 +9,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇫🇷_FR_法国
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 64
+  cipher: auto
+  name: 13|[VMess] 🇫🇷 法国 V2CROSS.COM
+  network: ws
+  port: 30000
+  server: 51.89.122.175
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/323127100515
 - name: 1|_FR_
   network: tcp
   password: telegram-id-privatevpns
