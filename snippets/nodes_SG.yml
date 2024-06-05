@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: tcp
-  port: '30002'
-  server: 183.232.199.28
+  name: 13,15,16|🇸🇬 新加坡3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09
+  ws-opts:
+    headers:
+      Host: rpmlybgzsg2.yofnhkfc.xyz
+    path: /video/3YKfzGw4
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-54.169.158....
@@ -25,18 +29,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13,15,16|🇸🇬 新加坡3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
+  name: 16|新加坡2|@ripaojiedian
+  network: tcp
+  port: '30002'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
-  uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09
-  ws-opts:
-    headers:
-      Host: rpmlybgzsg2.yofnhkfc.xyz
-    path: /video/3YKfzGw4
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
