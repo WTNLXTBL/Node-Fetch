@@ -1,40 +1,37 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '15610'
-  server: 183.232.199.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '15604'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: any.ktsfd.shop
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.124.123
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 15607
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '15601'
   server: 183.232.199.61
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '15601'
+  server: 183.232.199.28
+  servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
@@ -56,27 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '15604'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '15607'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
+  name: 16|香港8|@ripaojiedian
   network: tcp
   port: '15610'
   server: 183.232.170.47
@@ -84,19 +61,69 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: any.ktsfd.shop
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.124.123
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港 11
+  network: ws
+  port: 12909
+  server: 210.3.159.224
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 210.3.159.224
+    path: /
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  password: moist
+  port: 2083
+  server: 47.243.67.28
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 16|香港7|@ripaojiedian
+  network: tcp
+  port: '15605'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '15603'
+  server: 183.232.199.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 15601
+  server: 183.232.199.28
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
