@@ -1,31 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰HK-210.3.159.224-0159
-  network: ws
-  port: 12909
-  server: 210.3.159.224
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 210.3.159.224
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3|🇭🇰_HK_香港
-  network: ws
-  port: 12909
-  server: 210.3.159.224
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港6|@ripaojiedian
   network: ws
@@ -40,73 +15,59 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.232.199.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  port: 15601
-  server: 183.232.199.28
-  skip-cert-verify: false
+  password: 0de41793-cd10-4e5f-93ac-0ca82fe4e8c9
+  port: 34000
+  server: 124.225.86.196
   tfo: false
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '15601'
-  server: 183.232.199.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '15610'
-  server: 183.232.170.47
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港7|@ripaojiedian
   network: tcp
-  port: '15605'
-  server: 183.232.199.28
+  port: '44805'
+  server: hkscdn02.dorabbb.top
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 2e315d3b-c76d-4f62-bed1-f08a140fa4c1
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
+  name: 3|🇭🇰_HK_香港
+  network: ws
+  port: 12909
+  server: 210.3.159.224
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
   network: tcp
-  port: '15603'
-  server: 183.232.199.28
+  port: '51193'
+  server: 183.238.202.173
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
+  name: 15|🇭🇰 香港5|@ripaojiedian
   network: ws
   password: moist
-  port: 2083
-  server: 47.243.67.28
+  port: 2087
+  server: 8.210.203.7
   skip-cert-verify: false
   sni: trojan.freenods.sbs
   type: trojan
@@ -114,6 +75,17 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -130,11 +102,27 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰HK-210.3.159.224-0159
+  network: ws
+  port: 12909
+  server: 210.3.159.224
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 210.3.159.224
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
