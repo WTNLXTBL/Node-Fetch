@@ -1,4 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|香港5_网页
+  network: tcp
+  port: '14255'
+  server: ooo.jjjbnode.top
+  tls: false
+  type: vmess
+  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
   network: ws
@@ -12,6 +32,106 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|香港3
+  network: tcp
+  port: '14253'
+  server: ooo.jjjbnode.top
+  tls: false
+  type: vmess
+  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰HK-210.3.159.224-0767
+  network: ws
+  port: 12909
+  server: 210.3.159.224
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 210.3.159.224
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|香港4
+  network: tcp
+  port: '14154'
+  server: ooo.jjjbnode.top
+  tls: false
+  type: vmess
+  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
+- alterId: 0
+  cipher: auto
+  name: 13|香港2_YouTube
+  network: tcp
+  port: '14252'
+  server: ooo.jjjbnode.top
+  tls: false
+  type: vmess
+  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
+- alterId: 0
+  cipher: auto
+  name: 13|香港1_NF
+  network: tcp
+  port: '14251'
+  server: ooo.jjjbnode.top
+  tls: false
+  type: vmess
+  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -38,91 +158,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港3
-  network: tcp
-  port: '14253'
-  server: ooo.jjjbnode.top
-  tls: false
-  type: vmess
-  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
-- alterId: 0
-  cipher: auto
-  name: 13|香港1_NF
-  network: tcp
-  port: '14251'
-  server: ooo.jjjbnode.top
-  tls: false
-  type: vmess
-  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
-- alterId: 0
-  cipher: auto
-  name: 13|香港2_YouTube
-  network: tcp
-  port: '14252'
-  server: ooo.jjjbnode.top
-  tls: false
-  type: vmess
-  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰HK-210.3.159.224-0767
-  network: ws
-  port: 12909
-  server: 210.3.159.224
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 210.3.159.224
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 51193
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港5_网页
-  network: tcp
-  port: '14255'
-  server: ooo.jjjbnode.top
-  tls: false
-  type: vmess
-  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -131,38 +166,3 @@ proxies:
   server: rk2.izoizoizo.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|香港4
-  network: tcp
-  port: '14154'
-  server: ooo.jjjbnode.top
-  tls: false
-  type: vmess
-  uuid: 55a4f1da-21f7-41e2-97cc-1c7d8231c0b7
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '51193'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
