@@ -1,28 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 51193
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  network: ws
-  password: moist
-  port: 2096
-  server: 8.210.100.23
-  skip-cert-verify: false
-  sni: trojan.freenods.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -55,14 +31,6 @@ proxies:
   server: 172.67.124.123
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 4aa5bc5a-5574-4ec6-9c34-d2a5e9ee1d53
-  port: 46091
-  server: rk2.izoizoizo.top
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -83,6 +51,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  network: ws
+  password: moist
+  port: 2096
+  server: 8.210.100.23
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -91,9 +83,17 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 4aa5bc5a-5574-4ec6-9c34-d2a5e9ee1d53
+  port: 46091
+  server: rk2.izoizoizo.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇭🇰HK-210.3.159.224-0063
+  name: 13|[VMess] 🇭🇰 香港 环球全域电讯
   network: ws
   port: 12909
   server: 210.3.159.224

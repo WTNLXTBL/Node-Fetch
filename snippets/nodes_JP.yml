@@ -1,18 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|日本【TG：@ccbaohe】定时更新节点订阅
-  network: ws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 141.147.174.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
+  server: 13.113.204.156
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -23,18 +17,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,15,16|🇯🇵 日本2|@ripaojiedian
+  name: 13|🇯🇵JP-18.181.190.41-0122
   network: ws
-  port: 2052
-  server: cfcdn3.sanfencdn9.com
+  port: 80
+  server: jp5g.forlive.live
   servername: ''
   tls: false
   type: vmess
-  uuid: bf475e6c-a607-415e-a7f7-45c889320633
+  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
   ws-opts:
     headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -65,23 +59,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵JP-18.181.190.41-0122
+  name: 13,15,16|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: 80
-  server: jp5g.forlive.live
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
   servername: ''
   tls: false
   type: vmess
-  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.113.204.156
-  tfo: false
-  type: ss
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
