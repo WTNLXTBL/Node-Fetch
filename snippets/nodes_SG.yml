@@ -1,6 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: '443'
+  server: sg-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: fa3c063e-a5eb-416b-882b-852d40a3ee09
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.17.220
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 13|新加坡 SH 03
   network: ws
   port: '80'
@@ -27,32 +48,6 @@ proxies:
     path: /ws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
-  network: ws
-  port: '443'
-  server: sg-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: fa3c063e-a5eb-416b-882b-852d40a3ee09
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 SH 02
-  network: ws
-  port: '80'
-  server: cf2.ftclashcloud.site
-  tls: false
-  type: vmess
-  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
-  ws-opts:
-    headers:
-      Host: shsg01.ftclashcloud.online
-    path: /ws?ed=2560
-- alterId: 0
-  cipher: auto
   name: 13|新加坡 SH 01
   network: ws
   port: '80'
@@ -64,14 +59,6 @@ proxies:
     headers:
       Host: shsg01.ftclashcloud.online
     path: /ws?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.17.220
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -88,3 +75,16 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 SH 02
+  network: ws
+  port: '80'
+  server: cf2.ftclashcloud.site
+  tls: false
+  type: vmess
+  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
+  ws-opts:
+    headers:
+      Host: shsg01.ftclashcloud.online
+    path: /ws?ed=2560
