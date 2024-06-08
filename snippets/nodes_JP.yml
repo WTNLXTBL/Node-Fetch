@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵JP-18.181.190.41-0752
+  network: ws
+  port: 80
+  server: jp5g.forlive.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -37,17 +51,3 @@ proxies:
   server: deepf.hjkdsak2.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵JP-18.181.190.41-0752
-  network: ws
-  port: 80
-  server: jp5g.forlive.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
