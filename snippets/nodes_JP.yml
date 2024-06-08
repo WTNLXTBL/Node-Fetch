@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.230.217
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
@@ -13,41 +29,19 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 50004
+  server: deepf.hjkdsak2.com
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
+  name: 13|🇯🇵JP-18.181.190.41-0752
   network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.180.230.217
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
-  network: ws
-  port: '80'
+  port: 80
   server: jp5g.forlive.live
   servername: ''
   tls: false
@@ -57,11 +51,3 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 50004
-  server: deepf.hjkdsak2.com
-  tfo: false
-  type: ss
