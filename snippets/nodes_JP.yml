@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.230.217
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
@@ -9,43 +17,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵JP-141.147.174.244-0142
-  network: ws
-  port: 443
-  server: 141.147.174.244
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #3'
-  network: ws
-  port: '49232'
-  server: 167.88.184.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1a331b20-4822-4c5f-b1ec-206a86d51b7c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.180.230.217
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
   port: 12345
   server: 152.69.197.74
@@ -67,28 +39,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
+  name: 13|🇯🇵JP-141.147.174.244-0142
   network: ws
-  port: '80'
-  server: jp5g.forlive.live
+  port: 443
+  server: 141.147.174.244
   servername: ''
   tls: false
   type: vmess
-  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
+  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: gw.alicdn.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
-  network: ws
-  port: '443'
-  server: jp-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 124fe4ff-0ee4-4189-bd99-ed1a317b42dd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
