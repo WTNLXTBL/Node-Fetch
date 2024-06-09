@@ -1,66 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸US | 🟢 | vmess | @v2Line | 3
-  network: ws
-  port: '443'
-  server: caretaker.com
-  servername: mikasa.yaemiko.cloudns.org
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: mikasa.yaemiko.cloudns.org
-    path: /ivideos.sbs/linkws
-- alterId: 64
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-142.0.134.24...
-  network: tcp
-  port: '45017'
-  server: 142.0.134.241
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '13|美国【TG：@ccbaohe】定时更新节点订阅 #3'
-  network: ws
-  port: '8080'
-  server: 104.19.44.150
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5
-  ws-opts:
-    headers:
-      Host: amd2.720208.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
-- alterId: 0
-  cipher: auto
-  name: 13|Youtube顺丰资源  US122
+  name: 13|🇺🇸US-155.138.242.207-0171
   network: ws
   port: 80
-  server: 104.19.37.106
+  server: 155.138.242.207
+  servername: ''
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: 81f40c2c-e3e8-4e0a-cb51-33db25e20b97
   ws-opts:
     headers:
-      Host: akjp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_84
-  network: ws
+      Host: ''
+    path: /
+- grpc-opts:
+    grpc-service-name: 443trojan
+  name: 1|_US__4
+  network: grpc
+  password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
-  server: id-full.privateip.net
+  server: 104.16.1.10
+  skip-cert-verify: true
+  sni: cdn-21.gsmxreality.com
   tls: true
-  type: vmess
-  uuid: 0bac1c07-cf4c-4f35-a8d1-1e9b60a68a9e
-  ws-opts:
-    path: /RACEVPN
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '6,7|🇺🇸_US_美国 #5'
@@ -76,68 +40,54 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国 #1'
+  name: 3|🇺🇸_US_美国
   network: ws
-  port: 2052
-  server: 172.67.152.170
+  port: 80
+  server: speed.cloudflare.com
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
   ws-opts:
     headers:
-      Host: mahilu.site
-    path: /
+      Host: freevpn878.hamidimorteza680.workers.dev
+    path: /glweidf.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国 #4'
+  name: 13|🇺🇸US | 🟢 | vmess | @ShadowProx...
   network: ws
-  port: 2052
-  server: 104.21.82.39
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸US | 🟢 | vmess | @oneclickvp...
-  network: tcp
-  port: '22324'
-  server: 162.251.62.115
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '12|github.com/freefq - 美国CloudFla... #3'
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      Host: server32.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 13|美国 047
-  network: ws
-  port: 38001
-  server: 38.33.34.17
-  servername: www.78274451.xyz
+  port: '443'
+  server: caretaker.com
+  servername: mikasa.yaemiko.cloudns.org
   tls: true
   type: vmess
-  uuid: b65da4af-a12a-4a59-9316-4549e12ba62c
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
-      Host: ''
-    path: /path/150907203104
+      Host: mikasa.yaemiko.cloudns.org
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 0
+  cipher: auto
+  name: '6|🇺🇸_US_美国 #7'
+  network: ws
+  port: 2086
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
   name: '7|🇺🇸_US_美国 #14'
@@ -151,71 +101,14 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: '17|🇺🇸_US_美国 #18'
-  network: ws
-  port: 2095
-  server: 104.26.4.57
-  tls: false
-  type: vmess
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: '6,7,17|🇺🇸_US_美国 #6'
-  network: ws
-  port: 8080
-  server: fbi.gov
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: '7|🇺🇸_US_美国 #15'
-  network: ws
-  port: 443
-  server: hms082.gwdef.sbs
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|Youtube顺丰资源  US165
-  network: ws
-  port: 80
-  server: 104.19.33.152
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: sgv6.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16058
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -231,95 +124,72 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '13|美国【TG：@ccbaohe】定时更新节点订阅 #1'
-  network: ws
-  port: '8080'
-  server: 104.19.44.194
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
   servername: ''
   tls: false
   type: vmess
-  uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5
-  ws-opts:
-    headers:
-      Host: amd2.720208.xyz
-    path: '/?ed=2048&Telegram🇨🇳 '
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
-  name: '12|github.com/freefq - 美国CloudFla... #1'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
+  name: 13|美国 加利福尼亚
+  network: tcp
+  port: '3389'
+  server: 64.176.15.74
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
-  cipher: none
-  name: '13|🇺🇸_US_美国 #17'
+  cipher: auto
+  name: '7|🇺🇸_US_美国 #12'
   network: ws
   port: 80
-  server: zula.ir
+  server: 172.67.116.48
   tls: false
   type: vmess
-  uuid: 9b485f57-c54b-40d0-bee7-13cee16f1e42
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
   ws-opts:
     headers:
-      Host: De2.vmess.site.
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸US-64.23.196.139-0103
-  network: ws
-  port: 13337
-  server: 64.23.196.139
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
+      Host: wap.hostmjj.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-198.2.218.10...
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-174.136.205....
   network: tcp
-  port: '41400'
-  server: 198.2.218.102
+  port: '39027'
+  server: 174.136.205.46
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国 #8'
+  name: '6,7,17|🇺🇸_US_美国 #6'
   network: ws
   port: 8080
-  server: 162.159.134.23
+  server: fbi.gov
   tls: false
   type: vmess
-  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      Host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: 13|Youtube顺丰资源  US139
+  name: 13|US_youtube@资源分享师_65
   network: ws
   port: 80
-  server: 104.19.33.249
+  server: 104.19.33.224
   tls: false
   type: vmess
   uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
   ws-opts:
     headers:
       Host: sgv6.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
   name: '12|github.com/freefq - 美国CloudFla... #2'
@@ -336,31 +206,257 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2...
+  name: '7|🇺🇸_US_美国 #13'
   network: ws
-  port: '54316'
-  server: 155.138.242.207
+  port: 8080
+  server: yh1.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-2.58.87.221:...
+  network: tcp
+  port: '46628'
+  server: 2.58.87.221
   servername: ''
   tls: false
   type: vmess
-  uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd
+  uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.114.114.207
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-198.2.218.10...
+  network: tcp
+  port: '41400'
+  server: 198.2.218.102
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- grpc-opts:
+    grpc-service-name: grpc
+  name: 1|_US__2
+  network: grpc
+  password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
+  port: 2087
+  server: 104.21.20.148
+  skip-cert-verify: true
+  sni: us1.trojanvpn.de
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-50.114.243.6...
+  network: tcp
+  port: '43834'
+  server: 50.114.243.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b246e34d-bbd1-4016-8f74-ea461c37e411
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸US-64.23.196.139-0186
+  network: ws
+  port: 13337
+  server: 64.23.196.139
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|Youtube顺丰资源  US154
-  network: ws
-  port: 80
-  server: 104.19.33.137
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
+  network: tcp
+  port: '22324'
+  server: 38.75.137.27
+  servername: ''
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: '6|🇺🇸_US_美国 #3'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|US_youtube@资源分享师_20
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: bf475e6c-a607-415e-a7f7-45c889320633
   ws-opts:
     headers:
-      Host: sgv6.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国 #15'
+  network: ws
+  port: 443
+  server: hms082.gwdef.sbs
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2...
+  network: ws
+  port: 54316
+  server: 155.138.242.207
+  tls: false
+  type: vmess
+  uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd
+  ws-opts:
+    headers:
+      Host: 155.138.242.207
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '12|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,7|🇺🇸_US_美国 #8'
+  network: ws
+  port: 8080
+  server: 162.159.134.23
+  tls: false
+  type: vmess
+  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+  ws-opts:
+    headers:
+      Host: championship-bidding-oxygen-brochure.trycloudflare.com
+    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #17'
+  network: ws
+  port: 2095
+  server: 104.26.4.57
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '6,17|🇺🇸_US_美国 #2'
+  network: ws
+  port: 2095
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      Host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 64
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-142.0.134.24...
+  network: tcp
+  port: '45017'
+  server: 142.0.134.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- grpc-opts:
+    grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
+  name: 1|_US__3
+  network: grpc
+  password: f91f38bb-72d5-4f3e-8311-1788986293f5
+  port: 443
+  server: 172.67.215.180
+  skip-cert-verify: true
+  sni: iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpnc.iran-mehr14.ir
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|رایگان | VMESS | @ROMAX_VPN | ...
+  network: ws
+  port: '443'
+  server: upload.ir
+  servername: afrhms16v.bestxray.buzz
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 12|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 1|_US__5
+  network: ws
+  port: 80
+  server: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      host: freevpn878.hamidimorteza680.workers.dev
+    path: /glweidf.cfd/linkws
 - alterId: 0
   cipher: auto
   name: 1,3|_US__1
@@ -373,78 +469,77 @@ proxies:
   uuid: acab06f2-d134-4989-9bf6-7b868b0b4aba
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸US | 🟢 | vmess | @ROMAX_VPN ...
-  network: ws
-  port: '443'
-  server: zula.ir
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  name: 13|🇺🇸US | 🟢 | vmess | @DeamNet_Pr...
   network: tcp
-  port: '52408'
-  server: 129.146.46.181
+  port: '31433'
+  server: 205.234.231.35
+  tls: false
+  type: vmess
+  uuid: 50e82581-bd14-4527-f7d6-e7824cd26f57
+- alterId: 0
+  cipher: auto
+  name: '6|🇺🇸_US_美国 #11'
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '12|github.com/freefq - 美国CloudFla... #3'
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
   servername: ''
   tls: false
   type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: '13|美国【TG：@ccbaohe】定时更新节点订阅 #2'
-  network: ws
-  port: '80'
-  server: 172.66.40.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85b2515e-5373-3cec-b6ae-4750693b7e2b
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
   ws-opts:
     headers:
-      Host: tk-000.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|Youtube顺丰资源  US120
-  network: ws
-  port: 80
-  server: 104.19.37.75
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: akjp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+      Host: server32.beheshtbaneh.com
+    path: /
 - alterId: 64
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-107.148.192....
+  name: 13|🇺🇸US-170.178.179.190-1064
+  network: ws
+  port: 443
+  server: 170.178.179.190
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/182320181512
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-162.251.62.1...
   network: tcp
-  port: '41911'
-  server: 107.148.192.156
+  port: '22324'
+  server: 162.251.62.115
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_62
+  name: '6,7|🇺🇸_US_美国 #4'
   network: ws
-  port: 80
-  server: 104.19.33.214
+  port: 2052
+  server: 104.21.82.39
   tls: false
   type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: sgv6.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+      Host: mahilu.site
+    path: /
 - alterId: 0
   cipher: auto
   name: '7|🇺🇸_US_美国 #16'
@@ -460,47 +555,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #13'
+  name: '6,7|🇺🇸_US_美国 #10'
   network: ws
-  port: 8080
-  server: yh1.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- grpc-opts:
-    grpc-service-name: grpc
-  name: 1|_US__2
-  network: grpc
-  password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
-  port: 2087
-  server: 104.21.20.148
-  skip-cert-verify: true
-  sni: us1.trojanvpn.de
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_167
-  network: ws
-  port: 80
-  server: 103.28.68.181
-  tls: false
-  type: vmess
-  uuid: c5d6bf0d-fb4b-4f3d-a825-9e824789d798
-  ws-opts:
-    headers:
-      Host: 103.28.68.181
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6,17|🇺🇸_US_美国 #2'
-  network: ws
-  port: 2095
+  port: 8880
   server: russia.com
   tls: false
   type: vmess
@@ -509,32 +566,6 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
     path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_65
-  network: ws
-  port: 80
-  server: 104.19.33.224
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: sgv6.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: '2086'
-  server: kr01.appleid.bf
-  tls: false
-  type: vmess
-  uuid: dbf6ac3d-17b9-4b31-8635-a402da9b22ed
-  ws-opts:
-    headers:
-      Host: kr01.appleid.bf
-    path: /ws?ed=2048
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇺🇸 美国3|@ripaojiedian
@@ -570,236 +601,41 @@ proxies:
     headers:
       Host: widescreen-instruction-breakdown-postage.trycloudflare.com
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16058
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- grpc-opts:
-    grpc-service-name: 443trojan
-  name: 1|_US__4
-  network: grpc
-  password: qj1Dz1CJmFQRhWr1SP80aA
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_84
+  network: ws
   port: 443
-  server: 104.16.1.10
-  skip-cert-verify: true
-  sni: cdn-21.gsmxreality.com
+  server: id-full.privateip.net
   tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 3|🇺🇸_US_美国
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
-  tls: false
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  uuid: 0bac1c07-cf4c-4f35-a8d1-1e9b60a68a9e
   ws-opts:
-    headers:
-      Host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: '8080'
-  server: cdnikuancdnikuan.internetcdn.ggff.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c0189bd-ae17-4569-83cc-b2466ecb29a6
-  ws-opts:
-    headers:
-      Host: 26022940dc1234123455cf1.us.pisces.eu.org
-    path: /Microsoftupdate?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-174.136.205....
-  network: tcp
-  port: '39027'
-  server: 174.136.205.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
-- alterId: 0
-  cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 22
+  name: '6,7|🇺🇸_US_美国 #1'
   network: ws
   port: 2052
-  server: de-cdn.internetcdn.ggff.net
-  servername: ''
+  server: 172.67.152.170
   tls: false
   type: vmess
-  uuid: 2c0189bd-ae17-4569-83cc-b2466ecb29a6
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   ws-opts:
     headers:
-      Host: de05-v6.us.pisces.eu.org
-    path: /microsoftvideo/HEAC?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|Youtube顺丰资源  US84
-  network: ws
-  port: 80
-  server: 104.19.37.17
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: akjp.xlb8.eu.org
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国 #3'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国 #11'
-  network: ws
-  port: 8080
-  server: yh2.freeh1.xyz
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸US美国18 509.9KB/s
-  network: ws
-  port: '2052'
-  server: 104.16.55.139
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bf475e6c-a607-415e-a7f7-45c889320633
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
-- alterId: 0
-  cipher: auto
-  name: 13|US460 855.8KB/s
-  network: ws
-  port: '80'
-  server: us3e-mmnnfr9dop0.v2freevpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /v118-fccxmxm35
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国 #7'
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: '6,7|🇺🇸_US_美国 #10'
-  network: ws
-  port: 8880
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
-  ws-opts:
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: '7|🇺🇸_US_美国 #12'
-  network: ws
-  port: 80
-  server: 172.67.116.48
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      Host: wap.hostmjj.com
+      Host: mahilu.site
     path: /
-- grpc-opts:
-    grpc-service-name: 2pxF1YL0obWgOVYsTfLJX3ihXJUp
-  name: 1|_US__3
-  network: grpc
-  password: f91f38bb-72d5-4f3e-8311-1788986293f5
-  port: 443
-  server: 172.67.215.180
-  skip-cert-verify: true
-  sni: iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpn_iran_mehr_vpnc.iran-mehr14.ir
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.114.114.207
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 13|🇺🇸US-170.178.179.190-1064
+  name: 13|🇺🇸US-23.154.136.2-0385
   network: ws
   port: 443
-  server: 170.178.179.190
+  server: 23.154.136.2
   servername: ''
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: ''
-    path: /path/182320181512
-- alterId: 0
-  cipher: auto
-  name: 1|_US__5
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
+    path: /linkvws
