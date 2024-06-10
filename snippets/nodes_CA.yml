@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
+  network: tcp
+  port: '443'
+  server: ca-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 15437838-18d2-44bf-98f4-0f2dbb6b3cdc
 - name: 1|_CA__1
   network: tcp
   password: telegram-id-directvpn
@@ -10,17 +20,27 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '6,17|🇨🇦_CA_加拿大 #1'
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
   network: ws
-  port: 8080
-  server: 23.227.38.22
+  port: '80'
+  server: 104.16.60.8
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
   ws-opts:
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+      Host: us4e-20240111.v2freevpn.com
+    path: /v149-dskds65
+- name: 1|_CA__2
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.99.22.75
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '6,7,17|🇨🇦_CA_加拿大 #3'
@@ -45,50 +65,17 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #2'
+  name: '6,17|🇨🇦_CA_加拿大 #1'
   network: ws
   port: 8080
-  server: 108.181.23.161
+  server: 23.227.38.22
   tls: false
   type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   ws-opts:
     headers:
-      Host: internet.life.com.by
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
-  network: tcp
-  port: '443'
-  server: ca-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 15437838-18d2-44bf-98f4-0f2dbb6b3cdc
-- name: 1|_CA__2
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.99.22.75
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
-  network: ws
-  port: '80'
-  server: 104.16.60.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us4e-20240111.v2freevpn.com
-    path: /v149-dskds65
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
   name: 6|🇨🇦_CA_加拿大
@@ -102,3 +89,16 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '6|🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /1IKYjV0r/
