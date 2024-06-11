@@ -1,32 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京Fastly节点
+  name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
   network: ws
-  port: '80'
-  server: www.hkbu.edu.hk
-  servername: ''
-  tls: false
+  port: '888'
+  server: 103.168.155.26
+  servername: cdn.cjhh.lol
+  tls: true
   type: vmess
-  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
+  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
   ws-opts:
     headers:
-      Host: nmsl.kp
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13,15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
-  ws-opts:
-    headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
@@ -43,6 +29,34 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13,15,16|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a91c3fbf-0a68-474b-ac24-bf801db981f6
+  ws-opts:
+    headers:
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京Fastly节点
+  network: ws
+  port: '80'
+  server: www.hkbu.edu.hk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
   name: '13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155.... #1'
   network: ws
   port: '888'
@@ -57,31 +71,17 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.180.230.217
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
-  network: ws
-  port: '888'
-  server: 103.168.155.26
-  servername: cdn.cjhh.lol
-  tls: true
-  type: vmess
-  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.230.217
   tfo: false
   type: ss
