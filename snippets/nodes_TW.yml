@@ -13,19 +13,20 @@ proxies:
     headers:
       Host: ''
     path: /
-- client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  name: 13|Relay_🏁ZZ-🇹🇼TW_161 | 4.30Mb
   network: ws
-  password: moist
-  port: 12031
-  server: 60.248.63.88
-  skip-cert-verify: false
-  sni: trojan.freenods.sbs
-  type: trojan
+  port: 8080
+  server: 104.19.47.13
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: trojan.freenods.sbs
-    path: /?ed=2560
+      Host: oiictw.yydsii.com
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇹🇼 TW-34.80.125.2...
@@ -39,3 +40,26 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 16|台湾2|@ripaojiedian
+  network: tcp
+  port: '32012'
+  server: alm2.the-galgo.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
+- client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  password: moist
+  port: 12031
+  server: 60.248.63.88
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
