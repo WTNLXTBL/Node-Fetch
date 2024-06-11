@@ -1,12 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 8ca2d58e-9a1d-4756-842e-df4fd7a656a7
-  port: 42028
-  server: dcl1.forlive.live
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: '443'
+  server: sg2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 8bf15470-19d5-43c6-8084-bf0a6178d066
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: 13|新加坡_华伪云专线_知更鸟的无毛粉色白虎大批
@@ -21,6 +26,36 @@ proxies:
     headers:
       Host: oci-sg.968968.xyz
     path: /index?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.130.46
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
+  network: ws
+  port: '99'
+  server: 128.199.161.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 8ca2d58e-9a1d-4756-842e-df4fd7a656a7
+  port: 42028
+  server: dcl1.forlive.live
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,38 +72,3 @@ proxies:
     headers:
       Host: rpmlybgzsg2.yofnhkfc.xyz
     path: /video/3YKfzGw4
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
-  network: ws
-  port: '443'
-  server: sg2-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 8bf15470-19d5-43c6-8084-bf0a6178d066
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
-  network: ws
-  port: '99'
-  server: 128.199.161.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.183.130.46
-  tfo: false
-  type: ss
