@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|广东省揭阳市 移动
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 1|_CN__1
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
@@ -33,6 +19,20 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|广东省揭阳市 移动
+  network: ws
+  port: '16632'
+  server: m.cnmjin.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 1|_CN__2
   password: 853a4d4c-153f-4897-9a9b-8528b2bfafb2
