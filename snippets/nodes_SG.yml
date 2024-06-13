@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 8d4aa9b5-6305-30ce-b8ee-b240c632ae52
-  port: 50105
-  server: iepl2.forlive.live
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,23 +15,14 @@ proxies:
     headers:
       Host: rpmlybgzsg2.yofnhkfc.xyz
     path: /video/3YKfzGw4
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.79.247.2
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 8d4aa9b5-6305-30ce-b8ee-b240c632ae52
+  port: 50105
+  server: iepl2.forlive.live
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|SG_youtube@资源分享师_36
-  network: tcp
-  port: 2083
-  server: sg2-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: 8b4a8393-bc84-4087-8ad0-f7b4517b389a
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
@@ -56,6 +39,15 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
+  name: 13|SG_youtube@资源分享师_36
+  network: tcp
+  port: 2083
+  server: sg2-v2ray.ipracevpn.com
+  tls: true
+  type: vmess
+  uuid: 8b4a8393-bc84-4087-8ad0-f7b4517b389a
+- alterId: 0
+  cipher: auto
   name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
   network: ws
   port: '443'
@@ -67,3 +59,11 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.79.247.2
+  tfo: false
+  type: ss
