@@ -1,4 +1,33 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -18,43 +47,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 8080
-  server: cfd.ipa.monster
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e608f1bb-e26d-4bc2-8f68-ac0e8a073c7f
-  ws-opts:
-    headers:
-      Host: hkapper.a1t.top
-    path: /itdog?ed=2560
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 51193
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 15,16|🇭🇰 香港5|@ripaojiedian
   network: ws
   port: 16632
@@ -70,28 +62,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: '28681'
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|香港 022
   network: ws
   port: 443
@@ -104,6 +74,22 @@ proxies:
     headers:
       Host: hk1.connectnaif.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 8080
+  server: cfd.ipa.monster
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e608f1bb-e26d-4bc2-8f68-ac0e8a073c7f
+  ws-opts:
+    headers:
+      Host: hkapper.a1t.top
+    path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
