@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  password: moist
-  port: 12031
-  server: 60.248.63.88
-  skip-cert-verify: false
-  sni: trojan.freenods.sbs
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojan.freenods.sbs
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
@@ -36,3 +23,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 3a988367-5daa-4beb-be62-aaba3e79534a
+- client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  password: moist
+  port: 12031
+  server: 60.248.63.88
+  skip-cert-verify: false
+  sni: trojan.freenods.sbs
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.freenods.sbs
+    path: /?ed=2560
