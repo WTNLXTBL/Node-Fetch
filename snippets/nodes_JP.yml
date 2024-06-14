@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.194.225.73
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
@@ -13,6 +21,20 @@ proxies:
     headers:
       Host: cdn.cjhh.lol
     path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
 - alterId: 64
   cipher: chacha20-poly1305
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
@@ -45,25 +67,3 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.194.225.73
-  tfo: false
-  type: ss

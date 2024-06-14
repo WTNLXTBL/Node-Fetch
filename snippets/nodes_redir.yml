@@ -1,12 +1,4 @@
 proxies:
-- name: 1|_CN_->_US__1
-  network: tcp
-  password: gkviEOYc
-  port: 50611
-  server: 183.232.139.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
@@ -35,68 +27,62 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  name: 13|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
-  port: 8080
-  server: 162.159.5.6
+  port: 80
+  server: zula.ir
   tls: false
   type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
   ws-opts:
     headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+      Host: Uk2.vmess.site.
+    path: /vmess @hopev2ray
 - alterId: 0
   cipher: auto
-  name: 6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   network: ws
-  port: 8080
-  server: 162.159.1.33
+  port: 8880
+  server: 94.140.0.110
   tls: false
   type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- cipher: chacha20-ietf-poly1305
-  name: 1|_CN_->_DE_
-  password: 54d73e4b-054d-4148-bab6-22646f4431a9
-  port: 60033
-  server: 5.forlive.live
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,17|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: food.zhaal.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
-  network: ws
-  port: 8080
-  server: yh3.freeh1.xyz
-  tls: false
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  ws-opts:
-    headers:
-      Host: larger-marketing-amounts-skin.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - cipher: aes-256-cfb
   name: 1,15|_CN_->_US__2
   password: hGkQ6915tD
   port: 16058
   server: 59.56.77.178
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_DE__1
+  network: ws
+  port: 2095
+  server: 104.26.14.85
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
+  ws-opts:
+    headers:
+      host: Yakuza.unique69.com
+    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
+- grpc-opts:
+    grpc-service-name: trojan
+  name: 1|_US_->_DE__2
+  network: grpc
+  password: A9l6_eMgylRZu0YiSqunsQ
+  port: 2096
+  server: 104.21.34.77
+  skip-cert-verify: false
+  sni: usa.iwontletgo.cloud
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1|_US_->_DE__3
@@ -113,56 +99,70 @@ proxies:
     path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸_US_美国->🇬🇧_GB_英国
+  name: 7,17|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: 80
-  server: zula.ir
+  port: 2082
+  server: 104.21.8.157
   tls: false
   type: vmess
-  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: Uk2.vmess.site.
-    path: /vmess @hopev2ray
-- grpc-opts:
-    grpc-service-name: trojan
-  name: 1|_US_->_DE__2
-  network: grpc
-  password: A9l6_eMgylRZu0YiSqunsQ
-  port: 2096
-  server: 104.21.34.77
-  skip-cert-verify: false
-  sni: usa.iwontletgo.cloud
-  tls: true
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|_CN_->_DE_
+  password: 54d73e4b-054d-4148-bab6-22646f4431a9
+  port: 60033
+  server: 5.forlive.live
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- name: 1|_CN_->_US__1
+  network: tcp
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
+  skip-cert-verify: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
   network: ws
-  port: 8880
-  server: 94.140.0.110
+  port: 8080
+  server: yh3.freeh1.xyz
   tls: false
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
   ws-opts:
     headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_DE__1
-  network: ws
-  port: 2095
-  server: 104.26.14.85
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3e540874-0730-452a-8b2e-e719b5d34470
-  ws-opts:
-    headers:
-      host: Yakuza.unique69.com
-    path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
   name: 1|_US_->_AT_
