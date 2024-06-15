@@ -1,22 +1,36 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  network: ws
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 16627
+  server: 120.232.240.46
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+    path: /niuniu
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -43,22 +57,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
-  network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -70,22 +76,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 16627
-  server: 120.232.240.46
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /niuniu
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -102,3 +92,13 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
