@@ -1,18 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
+  network: ws
+  port: 888
+  server: 103.168.155.40
+  servername: cdn.cjhh.lol
+  tls: true
+  type: vmess
+  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
   password: hGkQ6915tD
   port: 15084
   server: 59.56.77.178
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.171.228
   tfo: false
   type: ss
 - alterId: 0
@@ -31,17 +37,11 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
-  network: ws
-  port: 888
-  server: 103.168.155.40
-  servername: cdn.cjhh.lol
-  tls: true
-  type: vmess
-  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.171.228
+  tfo: false
+  type: ss
