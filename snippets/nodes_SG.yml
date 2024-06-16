@@ -9,28 +9,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  name: 16|新加坡2|@ripaojiedian
   network: tcp
-  port: '2083'
-  server: sg2-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2121db3a-f6f9-4963-a41d-6b239f3d88cf
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬SG-128.199.161.230-0218
-  network: ws
-  port: 99
-  server: 128.199.161.230
+  port: '35014'
+  server: 120.232.153.86
   servername: ''
   tls: false
   type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
+  uuid: 6844b3e1-7cf9-3b41-b80e-ee4632e63820
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -49,6 +35,29 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  network: ws
+  port: '443'
+  server: sg2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 8bf15470-19d5-43c6-8084-bf0a6178d066
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2121db3a-f6f9-4963-a41d-6b239f3d88cf
+- alterId: 0
+  cipher: auto
   name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #2'
   network: ws
   port: '443'
@@ -62,24 +71,15 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: tcp
-  port: '35014'
-  server: 120.232.153.86
+  name: 13|🇸🇬SG-128.199.161.230-0218
+  network: ws
+  port: 99
+  server: 128.199.161.230
   servername: ''
   tls: false
   type: vmess
-  uuid: 6844b3e1-7cf9-3b41-b80e-ee4632e63820
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
-  network: ws
-  port: '443'
-  server: sg2-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 8bf15470-19d5-43c6-8084-bf0a6178d066
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
   ws-opts:
     headers:
       Host: ''
-    path: /RACEVPN
+    path: /v2ray

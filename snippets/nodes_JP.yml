@@ -1,6 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|l日本-2
+  network: ws
+  port: '2052'
+  server: yx2.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 2c8ba46c-7bb9-4f80-8d58-5aef9629b09f
+  ws-opts:
+    headers:
+      Host: lrb1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵日本-01|1.0x
+  network: ws
+  port: '2052'
+  server: usus.diao.icu
+  tls: false
+  type: vmess
+  uuid: 4000219a-a199-441d-abc7-70359c60ed44
+  ws-opts:
+    headers:
+      Host: jp.diao.icu
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: tcp
   port: '2083'
@@ -9,27 +35,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 12b51b7d-49e1-4f41-8fe9-e3ec654fb50e
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.171.228
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
-  network: ws
-  port: '443'
-  server: jp-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 7c8c641f-c970-471b-9785-08817a305b0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
@@ -60,6 +65,27 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
+  network: ws
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 7c8c641f-c970-471b-9785-08817a305b0a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.171.228
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -70,36 +96,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵日本-01|1.0x
-  network: ws
-  port: '2052'
-  server: usus.diao.icu
-  tls: false
-  type: vmess
-  uuid: 4000219a-a199-441d-abc7-70359c60ed44
-  ws-opts:
-    headers:
-      Host: jp.diao.icu
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|l日本-1
   network: ws
   port: '2052'
   server: yx1.gyyun.top
-  tls: false
-  type: vmess
-  uuid: 2c8ba46c-7bb9-4f80-8d58-5aef9629b09f
-  ws-opts:
-    headers:
-      Host: lrb1.gyyun.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|l日本-2
-  network: ws
-  port: '2052'
-  server: yx2.gyyun.top
   tls: false
   type: vmess
   uuid: 2c8ba46c-7bb9-4f80-8d58-5aef9629b09f
