@@ -1,4 +1,36 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.20.95
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2121db3a-f6f9-4963-a41d-6b239f3d88cf
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬SG-128.199.161.230-0218
+  network: ws
+  port: 99
+  server: 128.199.161.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /v2ray
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -17,34 +49,30 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬SG-128.199.161.230-0218
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #2'
   network: ws
-  port: 99
-  server: 128.199.161.230
-  servername: ''
-  tls: false
+  port: '443'
+  server: sg-full.privateip.net
+  tls: true
   type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  uuid: 328861dd-b949-4e19-9988-c53b07620646
   ws-opts:
     headers:
       Host: ''
-    path: /v2ray
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 13|l新加坡-2
-  network: ws
-  port: '8880'
-  server: yx2.gyyun.top
+  name: 16|新加坡2|@ripaojiedian
+  network: tcp
+  port: '35014'
+  server: 120.232.153.86
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2c8ba46c-7bb9-4f80-8d58-5aef9629b09f
-  ws-opts:
-    headers:
-      Host: lxjp1.gyyun.top
-    path: /?ed=2048
+  uuid: 6844b3e1-7cf9-3b41-b80e-ee4632e63820
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
   network: ws
   port: '443'
   server: sg2-full.privateip.net
@@ -55,11 +83,3 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.42.155.81
-  tfo: false
-  type: ss
