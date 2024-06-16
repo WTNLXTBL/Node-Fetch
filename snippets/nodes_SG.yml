@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.20.95
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 16|新加坡2|@ripaojiedian
@@ -17,48 +9,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 6844b3e1-7cf9-3b41-b80e-ee4632e63820
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.20.95
   tfo: false
-  tls: false
-  type: vmess
-  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
+  type: ss
 - alterId: 0
   cipher: auto
   name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
-  network: ws
-  port: '443'
-  server: sg2-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 8bf15470-19d5-43c6-8084-bf0a6178d066
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
-  network: tcp
-  port: '2083'
-  server: sg2-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2121db3a-f6f9-4963-a41d-6b239f3d88cf
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #2'
   network: ws
   port: '443'
   server: sg-full.privateip.net
@@ -71,9 +32,33 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬SG-128.199.161.230-0218
+  name: 13,15,16|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: 99
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2121db3a-f6f9-4963-a41d-6b239f3d88cf
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
+  network: ws
+  port: '99'
   server: 128.199.161.230
   servername: ''
   tls: false
