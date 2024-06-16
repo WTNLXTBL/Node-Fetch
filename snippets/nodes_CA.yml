@@ -1,8 +1,8 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 1|_CA__1
-  password: g5MeD6Ft3CWlJId
-  port: 5004
+  name: 1|_CA__2
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 23.162.200.130
   type: ss
 - alterId: 0
@@ -27,6 +27,53 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 1|_CA__1
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 23.162.200.130
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 115
+  network: ws
+  port: 80
+  server: 104.16.67.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /v118-fccxmxm35
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
+  network: ws
+  port: '80'
+  server: speed.cloudflare.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us4e-20240111.v2freevpn.com
+    path: /v149-dskds65
+- alterId: 0
+  cipher: auto
+  name: '6|🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: 108.181.23.161
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
   name: '6,17|🇨🇦_CA_加拿大 #1'
@@ -54,53 +101,6 @@ proxies:
     headers:
       Host: ''
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
-  network: ws
-  port: '80'
-  server: speed.cloudflare.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us4e-20240111.v2freevpn.com
-    path: /v149-dskds65
-- cipher: aes-256-gcm
-  name: 1|_CA__2
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.162.200.130
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #2'
-  network: ws
-  port: 8080
-  server: 108.181.23.161
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 115
-  network: ws
-  port: 80
-  server: 104.16.67.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 052
