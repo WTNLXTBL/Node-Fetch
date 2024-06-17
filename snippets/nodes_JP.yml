@@ -1,4 +1,61 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵日本-01|1.0x
+  network: ws
+  port: '2052'
+  server: usus.diao.icu
+  tls: false
+  type: vmess
+  uuid: 4000219a-a199-441d-abc7-70359c60ed44
+  ws-opts:
+    headers:
+      Host: jp.diao.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 46b17624-fa76-4c85-b8bd-8a66cf0ae17a
+  ws-opts:
+    headers:
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.40.133
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|公测|日本 01 1x
+  network: ws
+  port: 80
+  server: baobaojichang.bbjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
+  ws-opts:
+    headers:
+      Host: riben.mojc.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
@@ -15,23 +72,10 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵日本-01|1.0x
+  name: 13|l日本-3
   network: ws
   port: '2052'
-  server: usus.diao.icu
-  tls: false
-  type: vmess
-  uuid: 4000219a-a199-441d-abc7-70359c60ed44
-  ws-opts:
-    headers:
-      Host: jp.diao.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|l日本-1
-  network: ws
-  port: '2052'
-  server: yx1.gyyun.top
+  server: yx3.gyyun.top
   tls: false
   type: vmess
   uuid: 56a9b039-eca8-40de-9b71-9b7cff56ecea
@@ -41,9 +85,9 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|公测|日本 03 1x
+  name: 13|公测|日本 02 1x
   network: ws
-  port: '8880'
+  port: 8080
   server: baobaojichang.bbjc.xyz
   servername: ''
   tls: false
@@ -53,61 +97,12 @@ proxies:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
-- alterId: 64
-  cipher: chacha20-poly1305
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
-  network: tcp
-  port: '38296'
-  server: 210.230.206.25
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 18648ee3-e06a-82bf-5a48-2d976b41febd
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
-  network: tcp
-  port: '2083'
-  server: jp-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 12b51b7d-49e1-4f41-8fe9-e3ec654fb50e
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.40.133
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|公测|日本 04 1x
+  name: 13|l日本-1
   network: ws
   port: '2052'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
-  ws-opts:
-    headers:
-      Host: riben.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|l日本-3
-  network: ws
-  port: '2052'
-  server: yx3.gyyun.top
+  server: yx1.gyyun.top
   tls: false
   type: vmess
   uuid: 56a9b039-eca8-40de-9b71-9b7cff56ecea
@@ -128,3 +123,13 @@ proxies:
     headers:
       Host: lrb1.gyyun.top
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  network: tcp
+  port: '2083'
+  server: jp-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 12b51b7d-49e1-4f41-8fe9-e3ec654fb50e

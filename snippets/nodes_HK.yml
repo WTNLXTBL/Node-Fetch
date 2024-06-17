@@ -1,4 +1,24 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '48883'
+  server: game1.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -12,24 +32,20 @@ proxies:
   uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34
 - alterId: 0
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '48883'
-  server: game1.dorabbb.top
-  servername: ''
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -48,27 +64,11 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港3|@ripaojiedian
   network: tcp
-  port: '51193'
-  server: 183.238.202.173
+  port: '50004'
+  server: 112.132.212.19
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
