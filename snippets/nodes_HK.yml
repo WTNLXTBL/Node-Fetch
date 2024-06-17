@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a4.wagaga.online
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.114.125
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -9,6 +25,40 @@ proxies:
   tls: false
   type: vmess
   uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
+  network: ws
+  port: '28681'
+  server: 47.242.22.171
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -36,39 +86,16 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a4.wagaga.online
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.114.125
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '51193'
-  server: 183.238.202.173
-  servername: ''
+  name: 13|公测|香港 02 1x
+  network: ws
+  port: '8080'
+  server: baobaojichang.bbjc.xyz
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
