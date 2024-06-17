@@ -1,17 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
-  network: ws
-  port: '443'
-  server: jp-full.privateip.net
+  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
+  network: tcp
+  port: '2083'
+  server: jp-v2ray.ipracevpn.com
+  servername: ''
   tls: true
   type: vmess
-  uuid: 7c8c641f-c970-471b-9785-08817a305b0a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
+  uuid: 12b51b7d-49e1-4f41-8fe9-e3ec654fb50e
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -28,6 +25,16 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- alterId: 64
+  cipher: chacha20-poly1305
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
+  network: tcp
+  port: '38296'
+  server: 210.230.206.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 18648ee3-e06a-82bf-5a48-2d976b41febd
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -50,16 +57,27 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 64
-  cipher: chacha20-poly1305
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
-  network: tcp
-  port: '38296'
-  server: 210.230.206.25
-  servername: ''
-  tls: false
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
+  network: ws
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
   type: vmess
-  uuid: 18648ee3-e06a-82bf-5a48-2d976b41febd
+  uuid: 7c8c641f-c970-471b-9785-08817a305b0a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.202.40.133
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
@@ -76,16 +94,6 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #2'
-  network: tcp
-  port: '2083'
-  server: jp-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 12b51b7d-49e1-4f41-8fe9-e3ec654fb50e
-- alterId: 0
-  cipher: auto
   name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
   port: 12345
@@ -98,11 +106,3 @@ proxies:
     headers:
       Host: ''
     path: /bb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.202.40.133
-  tfo: false
-  type: ss
