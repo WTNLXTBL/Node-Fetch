@@ -1,18 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|公测|日本 04 1x
+  name: 13|公测|日本 03 1x
   network: ws
-  port: '2052'
+  port: '8880'
   server: baobaojichang.bbjc.xyz
-  servername: ''
   tls: false
   type: vmess
-  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
+  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
   ws-opts:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
+  network: ws
+  port: 888
+  server: 103.168.155.26
+  servername: cdn.cjhh.lol
+  tls: true
+  type: vmess
+  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.203.126.152
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|公测|日本 02 1x
@@ -47,6 +68,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 18648ee3-e06a-82bf-5a48-2d976b41febd
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|公测|日本 04 1x
+  network: ws
+  port: '2052'
+  server: baobaojichang.bbjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
+  ws-opts:
+    headers:
+      Host: riben.mojc.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵 日本 V2CROSS.COM
@@ -60,46 +103,3 @@ proxies:
     headers:
       Host: jp03.rosemarytrustworthy.icu
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.203.126.152
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇯🇵 JP-103.168.155....
-  network: ws
-  port: 888
-  server: 103.168.155.26
-  servername: cdn.cjhh.lol
-  tls: true
-  type: vmess
-  uuid: 8d994cc0-a8a7-4f66-b1e4-771c7e7c6ecd
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 13|公测|日本 03 1x
-  network: ws
-  port: '8880'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 94282f95-994a-441e-93b5-68d2c9f866ba
-  ws-opts:
-    headers:
-      Host: riben.mojc.xyz
-    path: /?ed=2048

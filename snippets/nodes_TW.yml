@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|台湾|@ripaojiedian
+  network: tcp
+  port: '35072'
+  server: 120.232.153.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6844b3e1-7cf9-3b41-b80e-ee4632e63820
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
   network: ws
   port: '31945'
@@ -15,10 +25,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|Relay_🏁ZZ-🇹🇼TW_333 |20.16Mb
+  name: 13|Relay_🏁ZZ-🇹🇼TW_331 | 4.75Mb
   network: ws
   port: '8080'
-  server: 104.18.189.19
+  server: 104.19.47.155
   servername: ''
   tls: false
   type: vmess
@@ -26,17 +36,7 @@ proxies:
   ws-opts:
     headers:
       Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '35072'
-  server: 120.232.153.85
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6844b3e1-7cf9-3b41-b80e-ee4632e63820
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
   network: ws
@@ -52,10 +52,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|Relay_🏁ZZ-🇹🇼TW_331 | 4.75Mb
+  name: 13|Relay_🏁ZZ-🇹🇼TW_333 |20.16Mb
   network: ws
   port: '8080'
-  server: 104.19.47.155
+  server: 104.18.189.19
   servername: ''
   tls: false
   type: vmess
@@ -63,4 +63,4 @@ proxies:
   ws-opts:
     headers:
       Host: oiictw.yydsii.com
-    path: /?ed=2048
+    path: /
