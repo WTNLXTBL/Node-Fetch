@@ -1,10 +1,37 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 1|_CA__4
-  password: RexnBgU7EV5ADxG
-  port: 7001
+  name: 1|_CA__8
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 23.162.200.181
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 097
+  network: ws
+  port: 2086
+  server: fbi.gov
+  servername: ip002.dtku47.xyz
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 075
+  network: ws
+  port: '2095'
+  server: 104.19.38.88
+  tls: false
+  type: vmess
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
 - cipher: aes-256-gcm
   name: 1|_CA__9
   password: kDWvXYZoTBcGkC4
@@ -13,56 +40,51 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
+  name: 13|[VMess] 🇨🇦 加拿大 072
   network: ws
-  port: '443'
-  server: ca-full.privateip.net
+  port: 2086
+  server: 162.159.136.33
+  servername: ip002.dtku47.xyz
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
+- cipher: aes-256-gcm
+  name: 1|_CA__11
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 23.162.200.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '6,7|🇨🇦_CA_加拿大 #4'
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦CA-158.51.121.36-3231
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
   tls: true
   type: vmess
-  uuid: 29ae1b78-76a6-4894-af76-15804af6154b
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
       Host: ''
-    path: /RACEVPN
-- cipher: aes-256-gcm
-  name: 1|_CA__8
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 23.162.200.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #2'
-  network: ws
-  port: '80'
-  server: speed.cloudflare.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us4e-20240111.v2freevpn.com
-    path: /v149-dskds65
-- cipher: aes-256-gcm
-  name: 1|_CA__7
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 23.162.200.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 076
-  network: ws
-  port: '2095'
-  server: 172.64.144.66
-  tls: false
-  type: vmess
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48
-  ws-opts:
-    headers:
-      Host: ip5.dtku47.xyz
-    path: /WNh8bXQv/
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '6|🇨🇦_CA_加拿大 #2'
@@ -78,32 +100,44 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 072
-  network: ws
-  port: 2086
-  server: 162.159.136.33
-  servername: ip002.dtku47.xyz
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 038
+  name: 6|🇨🇦_CA_加拿大
   network: ws
   port: 8080
-  server: 104.19.47.132
-  servername: oiictw.yydsii.com
+  server: 23.227.39.24
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   ws-opts:
     headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
+  network: ws
+  port: '443'
+  server: ca-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 29ae1b78-76a6-4894-af76-15804af6154b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 076
+  network: ws
+  port: 2095
+  server: 172.64.144.66
+  servername: ip5.dtku47.xyz
+  tls: false
+  type: vmess
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
 - alterId: 0
   cipher: auto
   name: 13|加拿大 074
@@ -134,69 +168,6 @@ proxies:
     path: /WNh8bXQv/
 - alterId: 0
   cipher: auto
-  name: '6,7|🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
-- name: 1|_CA__2
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.156.141.38
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 1|_CA__3
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.162.200.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '6,7,17|🇨🇦_CA_加拿大 #3'
-  network: http
-  port: 3389
-  server: 134.122.41.160
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  name: 1|_CA__5
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 23.162.200.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦CA-158.51.121.36-3231
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- cipher: aes-256-gcm
-  name: 1|_CA__6
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 23.162.200.181
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 073
   network: ws
   port: 8080
@@ -217,55 +188,76 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 6|🇨🇦_CA_加拿大
+  name: 13|[VMess] 🇨🇦 加拿大 109
   network: ws
   port: 8080
-  server: 23.227.39.24
+  server: baobaojichang.bbjc.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
   ws-opts:
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 098
-  network: ws
-  port: 2086
-  server: fbi.gov
-  servername: ip002.dtku47.xyz
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip002.dtku47.xyz
-    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 075
-  network: ws
-  port: 2095
-  server: 104.19.38.88
-  servername: ip5.dtku47.xyz
-  tls: false
-  type: vmess
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48
-  ws-opts:
-    headers:
-      Host: ip5.dtku47.xyz
-    path: /WNh8bXQv/
+      Host: riben.mojc.xyz
+    path: /?ed=2048
+- name: 1|_CA__2
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.156.141.38
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: 1|_CA__11
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 1|_CA__5
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 23.162.200.181
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
+  network: tcp
+  port: '443'
+  server: ca-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d8f08061-b050-4fe2-8f99-cf3b04846c35
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 032
+  network: ws
+  port: 2095
+  server: 104.26.5.32
+  servername: ybr.redbullplus.xyz
+  tls: false
+  type: vmess
+  uuid: a5dc7082-3433-48ad-9216-ddc9768e5160
+  ws-opts:
+    headers:
+      Host: ybr.redbullplus.xyz
+    path: /DDD
 - cipher: aes-256-gcm
-  name: 1|_CA__1
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: 1|_CA__7
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 23.162.200.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '6,7,17|🇨🇦_CA_加拿大 #3'
+  network: http
+  port: 3389
+  server: 134.122.41.160
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 1|_CA__3
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 23.162.200.181
   type: ss
 - alterId: 0
@@ -281,13 +273,21 @@ proxies:
     headers:
       Host: per-essex-patterns-bowling.trycloudflare.com
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
-  network: tcp
-  port: '443'
-  server: ca-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d8f08061-b050-4fe2-8f99-cf3b04846c35
+- cipher: aes-256-gcm
+  name: 1|_CA__1
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|_CA__6
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 23.162.200.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|_CA__4
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 23.162.200.181
+  type: ss
