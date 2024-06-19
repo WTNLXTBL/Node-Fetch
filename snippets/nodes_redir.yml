@@ -1,137 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,11,15,16|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: '3,7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
-  network: ws
-  port: 8080
-  server: 162.159.5.6
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
-  network: ws
-  port: 8080
-  server: yh3.freeh1.xyz
-  tls: false
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  ws-opts:
-    headers:
-      Host: larger-marketing-amounts-skin.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US_->_FR__3
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 8080
-  server: 162.159.1.33
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 3,7,17|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_CN_->_US_
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts:
-    headers:
-      host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- grpc-opts:
-    grpc-service-name: 443trojan
-  name: 1|_US_->_RU_
-  network: grpc
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  port: 443
-  server: 104.16.1.10
-  skip-cert-verify: true
-  sni: cdn-21.gsmxreality.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 1|_US_->_FR__2
   network: ws
   port: 2082
@@ -159,17 +28,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_FR__1
+  name: 1|_CN_->_US_
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 3,7,17|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2082
   server: 104.21.8.157
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
+      Host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -184,3 +66,121 @@ proxies:
     headers:
       Host: nest-emily-healing-h.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_FR__1
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 3,11,15,16|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1|_US_->_FR__3
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- grpc-opts:
+    grpc-service-name: 443trojan
+  name: 1|_US_->_RU_
+  network: grpc
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  port: 443
+  server: 104.16.1.10
+  skip-cert-verify: true
+  sni: cdn-21.gsmxreality.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '3,7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
