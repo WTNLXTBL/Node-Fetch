@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|公测|香港 02 1x
+  name: 13|公测|香港 04 1x
   network: ws
-  port: '8080'
+  port: '2052'
   server: baobaojichang.bbjc.xyz
   tls: false
   type: vmess
@@ -23,19 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|公测|香港 05 1x
-  network: ws
-  port: '2082'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -54,20 +41,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港7|@ripaojiedian
+  name: 13|公测|香港 05 1x
   network: ws
-  port: 16632
-  server: yes.cnmjcn.net
-  skip-cert-verify: false
-  tfo: false
+  port: '2082'
+  server: baobaojichang.bbjc.xyz
   tls: false
   type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
   ws-opts:
     headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|公测|香港 02 1x
+  network: ws
+  port: '8080'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|公测|香港 03 1x
@@ -81,6 +78,22 @@ proxies:
     headers:
       Host: xianggang.mojc.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|香港 01
@@ -97,16 +110,6 @@ proxies:
     path: /?ed=2048
 - alterId: 64
   cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '51193'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 16|香港3|@ripaojiedian
   network: tcp
   port: '50004'
@@ -117,14 +120,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|公测|香港 04 1x
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港7|@ripaojiedian
   network: ws
-  port: '2052'
-  server: baobaojichang.bbjc.xyz
+  port: 16632
+  server: yes.cnmjcn.net
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3e4a5997-fc81-4f29-b938-c249cc1ac55f
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
