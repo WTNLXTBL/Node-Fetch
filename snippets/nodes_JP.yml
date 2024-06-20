@@ -1,36 +1,12 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.206.232.169
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -45,19 +21,42 @@ proxies:
     headers:
       Host: ''
     path: /bb
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|公测|日本 02 1x
+  name: 13|公测|日本 01 1x
   network: ws
-  port: '8080'
+  port: 80
   server: baobaojichang.bbjc.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: c3572b9c-db66-4656-91b2-853750a422ef
+  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
   ws-opts:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
 - alterId: 64
   cipher: chacha20-poly1305
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
