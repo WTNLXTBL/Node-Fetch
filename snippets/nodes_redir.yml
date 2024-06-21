@@ -1,42 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: '7,11,17|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
   network: ws
-  port: 8080
-  server: 162.159.1.33
+  port: 2082
+  server: 172.67.130.140
   tls: false
   type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- grpc-opts:
-    grpc-service-name: 443trojan
-  name: 1|_US_->_RU_
-  network: grpc
-  password: qj1Dz1CJmFQRhWr1SP80aA
-  port: 443
-  server: 104.16.1.10
-  skip-cert-verify: true
-  sni: cdn-21.gsmxreality.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: 8080
-  server: 172.64.97.235
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: luther-soon-uploaded-anxiety.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+      Host: s1c.v2.v001sss.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
@@ -52,30 +27,78 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,11,17|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  name: 1|_US_->_FR_
   network: ws
   port: 2082
-  server: 172.67.130.140
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      host: s1c.v2.v001sss.xyz
     path: /
+- grpc-opts:
+    grpc-service-name: 443trojan
+  name: 1|_US_->_RU_
+  network: grpc
+  password: qj1Dz1CJmFQRhWr1SP80aA
+  port: 443
+  server: 104.16.1.10
+  skip-cert-verify: true
+  sni: cdn-21.gsmxreality.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 162.159.1.33
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
+  name: 1|_FI_->_DE_
+  network: ws
+  port: 2053
+  server: 65.109.226.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
+  ws-opts:
+    headers:
+      host: divar.ir
+    path: /@V2RayyNGvpn
+- name: 1|_CN_->_US_
+  network: tcp
+  password: gkviEOYc
+  port: 50611
+  server: 183.232.139.22
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 3,13|🇫🇮_FI_芬兰->🇩🇪_DE_德国
+  network: ws
+  port: 2053
+  server: 65.109.226.6
+  tls: false
+  type: vmess
+  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
+  ws-opts:
+    headers:
+      Host: divar.ir
+    path: /@V2RayyNGvpn
 - alterId: 0
   cipher: auto
   name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
@@ -89,14 +112,6 @@ proxies:
     headers:
       Host: larger-marketing-amounts-skin.trycloudflare.com
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
-- name: 1|_CN_->_US_
-  network: tcp
-  password: gkviEOYc
-  port: 50611
-  server: 183.232.139.22
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
@@ -112,35 +127,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_FR_
-  network: ws
-  port: 2082
-  server: s1c.v2.v001sss.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_FI_->_DE_
-  network: ws
-  port: 2053
-  server: 65.109.226.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
-  ws-opts:
-    headers:
-      host: divar.ir
-    path: /@V2RayyNGvpn
-- alterId: 0
-  cipher: auto
-  name: 3,11|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 3,11,13|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -153,14 +140,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,13|🇫🇮_FI_芬兰->🇩🇪_DE_德国
+  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   network: ws
-  port: 2053
-  server: 65.109.226.6
+  port: 8880
+  server: 94.140.0.110
   tls: false
   type: vmess
-  uuid: d862cdd6-3dd6-4adc-83ca-99bf0ce86bee
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      Host: divar.ir
-    path: /@V2RayyNGvpn
+      Host: food.zhaal.ir
+    path: /
