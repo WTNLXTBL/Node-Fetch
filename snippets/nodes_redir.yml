@@ -1,4 +1,56 @@
 proxies:
+- name: 1|_US_->_AT__1
+  network: ws
+  password: BO7e2KO_KlAjuJY-HYoabQ
+  port: 443
+  server: 172.67.131.41
+  sni: n21-at.netzrun.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1,3|_US_->_CA_
+  network: ws
+  port: 8080
+  server: 172.64.97.235
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+- alterId: 0
+  cipher: auto
+  name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: 8080
+  server: yh3.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 8080
+  server: 162.159.137.249
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: 1,3|_CN_->_US_
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
 - name: 1|_US_->_RU_
   network: grpc
   password: qj1Dz1CJmFQRhWr1SP80aA
@@ -23,56 +75,17 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: 1,3|_CN_->_US_
+  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
   network: ws
-  port: 16928
-  server: 120.232.240.56
+  port: 8880
+  server: 94.140.0.110
   tls: false
   type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-- alterId: 0
-  cipher: auto
-  name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 8080
-  server: 162.159.137.249
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   ws-opts:
     headers:
-      Host: nest-emily-healing-h.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
-  network: ws
-  port: 8080
-  server: 162.159.5.6
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: 1,3|_US_->_CA_
-  network: ws
-  port: 8080
-  server: 172.64.97.235
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-- name: 1|_US_->_AT__2
-  network: ws
-  password: BO7e2KO_KlAjuJY-HYoabQ
-  port: 443
-  server: 104.21.3.201
-  sni: n37-at.netzrun.com
-  type: trojan
-  udp: true
+      Host: food.zhaal.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: '7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
@@ -88,6 +101,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  network: ws
+  port: 8080
+  server: 162.159.5.6
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+- alterId: 0
+  cipher: auto
   name: 7,17|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2082
@@ -99,40 +125,14 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- name: 1|_US_->_AT__1
+- name: 1|_US_->_AT__2
   network: ws
   password: BO7e2KO_KlAjuJY-HYoabQ
   port: 443
-  server: 172.67.131.41
-  sni: n21-at.netzrun.com
+  server: 104.21.3.201
+  sni: n37-at.netzrun.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6,7,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
-  network: ws
-  port: 8080
-  server: yh3.freeh1.xyz
-  tls: false
-  type: vmess
-  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
-  ws-opts:
-    headers:
-      Host: larger-marketing-amounts-skin.trycloudflare.com
-    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - cipher: chacha20-ietf-poly1305
   name: 1|_CN_->_DE_
   password: 4c0e5766-0d17-318b-bff2-046c14cb27b5
