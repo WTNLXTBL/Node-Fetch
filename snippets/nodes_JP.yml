@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.39.251.119
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,25 +31,38 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.39.251.119
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  name: 13|公测|日本 03 1x
   network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
+  port: '8880'
+  server: baobaojichang.bbjc.xyz
   tls: false
   type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  uuid: c3572b9c-db66-4656-91b2-853750a422ef
   ws-opts:
     headers:
-      Host: ''
-    path: /bb
+      Host: riben.mojc.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|JP6 伊里户结女
+  network: tcp
+  port: '23234'
+  server: jp6.mmmmmmmmmm.cfd
+  tls: false
+  type: vmess
+  uuid: 8391af38-2bc3-4514-ad16-44b5fcc5cbcf
+- alterId: 0
+  cipher: auto
+  name: 13|公测|日本 04 1x
+  network: ws
+  port: '2052'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: c3572b9c-db66-4656-91b2-853750a422ef
+  ws-opts:
+    headers:
+      Host: riben.mojc.xyz
+    path: /?ed=2048

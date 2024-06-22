@@ -1,4 +1,25 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -15,6 +36,19 @@ proxies:
   server: 172.67.114.125
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|公测|香港 04 1x
+  network: ws
+  port: '2052'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 36662862-9cb7-4d67-9561-f05b328155ba
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -23,6 +57,15 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|HK1 喵内
+  network: tcp
+  port: '34180'
+  server: hk1.mmmmmmmmmm.cfd
+  tls: false
+  type: vmess
+  uuid: 8391af38-2bc3-4514-ad16-44b5fcc5cbcf
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -41,32 +84,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 16|香港2|@ripaojiedian
   network: tcp
   port: '51193'
   server: 183.238.202.173
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 51193
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
