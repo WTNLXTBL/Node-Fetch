@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,23 +31,20 @@ proxies:
   server: 54.199.71.126
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 7385cf6a-6ba9-4de2-87bb-b7aac0e710b4
-  port: 50108
-  server: free-big.themars.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|日本 东京都Amazon数据中心
-  network: tcp
-  port: 41001
-  server: bgroup.node1.v.nodelist-gfwairport2.top
+  name: 13,15,16|日本3〖电报：@ccbaohe】免费节点定时更新
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
+  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
+  ws-opts:
+    headers:
+      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
+    path: /video/X37qXHip
 - alterId: 0
   cipher: auto
   name: 13|[VMess] 🇯🇵 日本 008
@@ -68,28 +73,14 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 7385cf6a-6ba9-4de2-87bb-b7aac0e710b4
+  port: 50108
+  server: free-big.themars.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵JP-152.69.197.74-2537
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵JP-141.147.174.244-0431
@@ -106,15 +97,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13,15,16|日本3〖电报：@ccbaohe】免费节点定时更新
+  name: 13|🇯🇵JP-152.69.197.74-2537
   network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
+  port: 12345
+  server: 152.69.197.74
   servername: ''
   tls: false
   type: vmess
-  uuid: fec25e7b-3e30-4702-9b93-62ed3849a9d7
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
   ws-opts:
     headers:
-      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
-    path: /video/X37qXHip
+      Host: ''
+    path: /bb
