@@ -1,66 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 41169
-  server: 154.198.227.114
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ebc31ff4-0c12-4356-bbf4-57988c6ea320
-- alterId: 0
-  cipher: auto
-  name: 13|公测|香港 04 1x
-  network: ws
-  port: '2052'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: f12fdb99-29e3-46cc-96f5-392db4889792
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a4.wagaga.online
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 172.67.114.125
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '41169'
-  server: 154.198.227.114
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ebc31ff4-0c12-4356-bbf4-57988c6ea320
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '26954'
-  server: 38.147.188.136
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bd3025c3-113d-49c1-bef3-2523e8db8520
-- alterId: 0
-  cipher: auto
   name: 13|公测|香港 03 1x
   network: ws
   port: '8880'
@@ -68,19 +8,6 @@ proxies:
   tls: false
   type: vmess
   uuid: c3572b9c-db66-4656-91b2-853750a422ef
-  ws-opts:
-    headers:
-      Host: xianggang.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|公测|香港 05 1x
-  network: ws
-  port: '2082'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660
   ws-opts:
     headers:
       Host: xianggang.mojc.xyz
@@ -99,24 +26,27 @@ proxies:
     headers:
       Host: ''
     path: /opt/video/images
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 41169
+  server: 154.198.227.114
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ebc31ff4-0c12-4356-bbf4-57988c6ea320
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '51193'
-  server: 183.238.202.173
+  port: '41169'
+  server: 154.198.227.114
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
+  uuid: ebc31ff4-0c12-4356-bbf4-57988c6ea320
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -127,3 +57,73 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|公测|香港 05 1x
+  network: ws
+  port: '2082'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 8dabd1c3-572e-493b-8185-a3a5c87d5660
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a4.wagaga.online
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 172.67.114.125
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '26954'
+  server: 38.147.188.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bd3025c3-113d-49c1-bef3-2523e8db8520
+- alterId: 0
+  cipher: auto
+  name: 13|公测|香港 04 1x
+  network: ws
+  port: '2052'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: f12fdb99-29e3-46cc-96f5-392db4889792
+  ws-opts:
+    headers:
+      Host: xianggang.mojc.xyz
+    path: /?ed=2048
