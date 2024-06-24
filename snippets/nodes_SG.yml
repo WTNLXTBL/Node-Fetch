@@ -1,40 +1,56 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|GODADDY-SG-shrc5y97
-  network: ws
-  port: '80'
-  server: 118.139.164.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 67777dbe-d463-4d04-9a97-c9233d263477
-  ws-opts:
-    headers:
-      Host: ''
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
-  network: ws
-  port: 99
-  server: 128.199.161.230
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
-  ws-opts:
-    headers:
-      Host: ''
-    path: /v2ray
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: f3712882-7319-440d-91bb-05b6b21af72b
-  port: 50105
-  server: free-big.themars.top
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 46016
+  server: mmsg16.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.254.211
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 008
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
+  tls: false
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: 443
+  server: sg-full.privateip.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ecb90d6e-1bbf-42ec-a742-822fad6936da
+  ws-opts:
+    headers:
+      Host: sg-full.privateip.net
+    path: /RACEVPN
 - alterId: 0
   cipher: auto
   name: 16|新加坡|@ripaojiedian
@@ -51,23 +67,21 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
   network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
+  port: 99
+  server: 128.199.161.230
+  servername: ''
   tls: false
   type: vmess
-  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
   ws-opts:
     headers:
-      Host: mmsg16.micloud.buzz
-    path: /zh-cn
+      Host: ''
+    path: /v2ray
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #2'
   network: tcp
   port: '2083'
   server: sg2-v2ray.ipracevpn.com
@@ -75,14 +89,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.211
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-152.42.174....
@@ -96,3 +102,11 @@ proxies:
     headers:
       Host: ''
     path: /RushTeam_Srilanka_Unlimited
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: f3712882-7319-440d-91bb-05b6b21af72b
+  port: 50105
+  server: free-big.themars.top
+  tfo: false
+  type: ss
