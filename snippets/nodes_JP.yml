@@ -1,20 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 7385cf6a-6ba9-4de2-87bb-b7aac0e710b4
-  port: 50108
-  server: free-big.themars.top
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -23,6 +7,19 @@ proxies:
   server: 54.199.71.126
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|bbjc.xyz tg@bbjc52|日本 02
+  network: ws
+  port: '8080'
+  server: baobaojichang.bbjc.xyz
+  tls: false
+  type: vmess
+  uuid: 9f4b982c-9db1-4dd0-b44c-1f9376d0ee2c
+  ws-opts:
+    headers:
+      Host: riben.mojc.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 16|日本4|@ripaojiedian
@@ -39,6 +36,32 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
+  name: 16|日本5|@ripaojiedian
+  network: tcp
+  port: '49455'
+  server: 167.88.184.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 46dc80bd-4883-4021-8c37-f3c6d6c46a34
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 7385cf6a-6ba9-4de2-87bb-b7aac0e710b4
+  port: 50108
+  server: free-big.themars.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
   network: ws
@@ -53,26 +76,3 @@ proxies:
     headers:
       Host: mmjp11.micloud.buzz
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 16|日本5|@ripaojiedian
-  network: tcp
-  port: '49455'
-  server: 167.88.184.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 46dc80bd-4883-4021-8c37-f3c6d6c46a34
-- alterId: 0
-  cipher: auto
-  name: 13|bbjc.xyz tg@bbjc52|日本 02
-  network: ws
-  port: '8080'
-  server: baobaojichang.bbjc.xyz
-  tls: false
-  type: vmess
-  uuid: 9f4b982c-9db1-4dd0-b44c-1f9376d0ee2c
-  ws-opts:
-    headers:
-      Host: riben.mojc.xyz
-    path: /?ed=2048
