@@ -1,4 +1,14 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -15,90 +25,6 @@ proxies:
   server: 172.67.114.125
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '51193'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|香港-HK-2
-  network: ws
-  port: 443
-  server: 162.159.133.160
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6738344c-12e4-4285-8423-2b4519e97b70
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: 13|香港-HK-1
-  network: ws
-  port: '443'
-  server: 162.159.128.17
-  servername: v2ray.ryin.vip
-  tls: true
-  type: vmess
-  uuid: 6738344c-12e4-4285-8423-2b4519e97b70
-  ws-opts:
-    headers:
-      Host: v2ray.ryin.vip
-    path: /ryinsocksv2board
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '32008'
-  server: alm2.the-galgo.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3
-- alterId: 0
-  cipher: auto
-  name: 13|TG BBJC52|香港 02 2
-  network: ws
-  port: 8080
-  server: baobaojichang.bbjc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 59749da1-a41a-4286-8723-68c9f40ec4fc
-  ws-opts:
-    headers:
-      Host: hongkong.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|TG BBJC52|香港 01
-  network: ws
-  port: '80'
-  server: baobaojichang.bbjc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 36439149-a7ee-42fe-824e-2d23a0eeaaa7
-  ws-opts:
-    headers:
-      Host: hongkong.mojc.xyz
-    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -109,16 +35,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|bbjc.xyz tg@bbjc52|香港 04
-  network: ws
-  port: '2052'
-  server: baobaojichang.bbjc.xyz
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '32008'
+  server: alm2.the-galgo.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9f4b982c-9db1-4dd0-b44c-1f9376d0ee2c
-  ws-opts:
-    headers:
-      Host: hongkong.mojc.xyz
-    path: /?ed=2048
+  uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3
