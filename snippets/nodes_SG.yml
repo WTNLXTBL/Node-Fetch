@@ -1,12 +1,20 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 155be64c-75ec-4a44-a1a3-344b10676ef6
-  port: 50106
-  server: free-big.themars.top
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 46016
+  server: mmsg16.micloud.buzz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
@@ -27,22 +35,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
-  ws-opts:
-    headers:
-      Host: mmsg16.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
   network: ws
   port: '99'
@@ -57,6 +49,19 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-152.42.174....
+  network: ws
+  port: 17704
+  server: 152.42.174.134
+  tls: false
+  type: vmess
+  uuid: 542bc39c-3518-467d-b7ac-2163bcc5ae7e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RushTeam_Srilanka_Unlimited
+- alterId: 0
+  cipher: auto
   name: 16|新加坡|@ripaojiedian
   network: ws
   port: '46016'
@@ -69,16 +74,25 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 155be64c-75ec-4a44-a1a3-344b10676ef6
+  port: 50106
+  server: free-big.themars.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-152.42.174....
+  name: 13|新加坡 008
   network: ws
-  port: 17704
-  server: 152.42.174.134
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
   tls: false
   type: vmess
-  uuid: 542bc39c-3518-467d-b7ac-2163bcc5ae7e
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
   ws-opts:
     headers:
-      Host: ''
-    path: /RushTeam_Srilanka_Unlimited
+      Host: dl.kgvn.garenanow.com
+    path: /
