@@ -1,10 +1,33 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|p香港-2
+  network: ws
+  port: '8880'
+  server: yx2.gyyun.top
+  tls: false
+  type: vmess
+  uuid: ef0af2fa-edd2-4be3-b350-1710abc9ec70
+  ws-opts:
+    headers:
+      Host: pqxg1.gyyun.top
+    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
   network: tcp
   port: '50004'
   server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '51193'
+  server: 183.238.202.173
   servername: ''
   tls: false
   type: vmess
@@ -25,24 +48,6 @@ proxies:
   server: 172.67.114.125
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '51193'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -53,3 +58,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss

@@ -12,6 +12,14 @@ proxies:
     headers:
       Host: ''
     path: /RushTeam_Srilanka_Unlimited
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 155be64c-75ec-4a44-a1a3-344b10676ef6
+  port: 50106
+  server: free-big.themars.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.161.2...
@@ -26,14 +34,6 @@ proxies:
     headers:
       Host: ''
     path: /v2ray
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 155be64c-75ec-4a44-a1a3-344b10676ef6
-  port: 50106
-  server: free-big.themars.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 16|新加坡|@ripaojiedian
@@ -48,6 +48,29 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬 新加坡 008
+  network: ws
+  port: '80'
+  server: 213.35.113.150
+  tls: false
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -56,31 +79,3 @@ proxies:
   server: 34.222.10.233
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 008
-  network: ws
-  port: 80
-  server: 213.35.113.150
-  servername: dl.kgvn.garenanow.com
-  tls: false
-  type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡SG
-  network: ws
-  port: '80'
-  server: sg1.ludou.us.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 44f74d0b-4859-41b1-986d-43a06e898926
-  ws-opts:
-    headers:
-      Host: sg.ludou.us.kg
-    path: /?ed=2048
