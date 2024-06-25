@@ -1,22 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '32008'
-  server: alm2.the-galgo.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -27,19 +9,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 13|p香港-3
-  network: ws
-  port: '8880'
-  server: yx3.gyyun.top
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
   tls: false
   type: vmess
-  uuid: 1087ecd6-69a3-4379-beee-87406099bbc6
-  ws-opts:
-    headers:
-      Host: pqxg1.gyyun.top
-    path: /?ed=2048
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '32008'
+  server: alm2.the-galgo.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3880784d-b3c1-483a-ac90-cc6633d7d4a3
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -56,26 +53,3 @@ proxies:
   server: 172.67.114.125
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|p香港-2
-  network: ws
-  port: '8880'
-  server: yx2.gyyun.top
-  tls: false
-  type: vmess
-  uuid: 1087ecd6-69a3-4379-beee-87406099bbc6
-  ws-opts:
-    headers:
-      Host: pqxg1.gyyun.top
-    path: /?ed=2048
