@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '42680'
+  server: 38.147.188.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 190cbbd5-2a42-4ed9-8e39-79b11e3a59c0
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -7,6 +17,30 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|香港 Amazon数据中心
+  network: ws
+  port: '22352'
+  server: 18.166.63.26
+  servername: 0000000000000000000000000063.cgroup-node-for-bigairport.sbs
+  tls: true
+  type: vmess
+  uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -24,20 +58,6 @@ proxies:
     headers:
       Host: hk-1.trollfunny.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|TG BBJC52|香港 03
-  network: ws
-  port: 8880
-  server: baobaojichang.bbjc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2144429-a47f-4917-a9de-dc70b2f60b50
-  ws-opts:
-    headers:
-      Host: hongkong.mojc.xyz
-    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -56,49 +76,29 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|TG BBJC52|香港 04 4
+  name: 13|TG BBJC52|香港 04
   network: ws
-  port: 2052
+  port: '2052'
   server: baobaojichang.bbjc.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 36439149-a7ee-42fe-824e-2d23a0eeaaa7
+  uuid: 07354247-4a9d-4b09-a7fe-4918c6e9dfb5
   ws-opts:
     headers:
       Host: hongkong.mojc.xyz
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '42680'
-  server: 38.147.188.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 190cbbd5-2a42-4ed9-8e39-79b11e3a59c0
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|香港 Amazon数据中心
+  name: 13|TG BBJC52|香港 01 7
   network: ws
-  port: '22352'
-  server: 18.166.63.26
-  servername: 0000000000000000000000000063.cgroup-node-for-bigairport.sbs
-  tls: true
+  port: 80
+  server: baobaojichang.bbjc.xyz
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 247faa95-f929-4f49-95a3-0e0582e50cf5
+  uuid: 07354247-4a9d-4b09-a7fe-4918c6e9dfb5
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: hongkong.mojc.xyz
+    path: /?ed=2048
