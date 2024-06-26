@@ -1,24 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '42680'
-  server: 38.147.188.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 190cbbd5-2a42-4ed9-8e39-79b11e3a59c0
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 11|香港 Amazon数据中心
   network: ws
   port: '22352'
@@ -31,6 +13,16 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '42680'
+  server: 38.147.188.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 190cbbd5-2a42-4ed9-8e39-79b11e3a59c0
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -41,6 +33,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a1.wagaga.online
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 36.232.6.20
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -58,47 +74,3 @@ proxies:
     headers:
       Host: hk-1.trollfunny.net
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a1.wagaga.online
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 36.232.6.20
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|TG BBJC52|香港 04
-  network: ws
-  port: '2052'
-  server: baobaojichang.bbjc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07354247-4a9d-4b09-a7fe-4918c6e9dfb5
-  ws-opts:
-    headers:
-      Host: hongkong.mojc.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|TG BBJC52|香港 01 7
-  network: ws
-  port: 80
-  server: baobaojichang.bbjc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07354247-4a9d-4b09-a7fe-4918c6e9dfb5
-  ws-opts:
-    headers:
-      Host: hongkong.mojc.xyz
-    path: /?ed=2048
