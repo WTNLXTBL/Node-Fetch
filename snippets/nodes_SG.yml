@@ -1,6 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|新加坡 008
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
+  tls: false
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.141.239.48
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
   network: ws
@@ -17,28 +39,26 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
-  network: tcp
-  port: '2083'
-  server: sg2-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 008
+  name: 16|新加坡|@ripaojiedian
   network: ws
-  port: 80
-  server: 213.35.113.150
-  servername: dl.kgvn.garenanow.com
+  port: '46016'
+  server: mmsg16.micloud.buzz
+  servername: ''
   tls: false
   type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
   ws-opts:
     headers:
-      Host: dl.kgvn.garenanow.com
-    path: /
+      Host: ''
+    path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬SG | 🟢 | vmess | @Hope_Net |...
@@ -52,33 +72,13 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
-  port: 443
-  server: 172.104.49.76
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.239.48
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|新加坡|@ripaojiedian
-  network: ws
-  port: '46016'
-  server: mmsg16.micloud.buzz
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+  uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3
