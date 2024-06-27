@@ -1,20 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
+  name: 13|[VMess] 🇸🇬 新加坡 008
   network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
+  port: 80
+  server: 213.35.113.150
+  servername: dl.kgvn.garenanow.com
   tls: false
   type: vmess
-  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
   ws-opts:
     headers:
-      Host: mmsg16.micloud.buzz
-    path: /zh-cn
+      Host: dl.kgvn.garenanow.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|新加坡|@ripaojiedian
@@ -31,39 +37,12 @@ proxies:
     path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 172.104.49.76
+  server: 18.141.239.48
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬SG | 🟢 | vmess | @Hope_Net |...
-  network: ws
-  port: '443'
-  server: sg-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: ecb90d6e-1bbf-42ec-a742-822fad6936da
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 008
-  network: ws
-  port: 80
-  server: 213.35.113.150
-  servername: dl.kgvn.garenanow.com
-  tls: false
-  type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-152.42.174....
@@ -77,11 +56,55 @@ proxies:
     headers:
       Host: ''
     path: /RushTeam_Srilanka_Unlimited
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.239.48
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 46016
+  server: mmsg16.micloud.buzz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+  ws-opts:
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: '443'
+  server: sg-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: ecb90d6e-1bbf-42ec-a742-822fad6936da
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 509f7d68-ee8d-4d03-865d-de854a5000a3
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #2'
+  network: ws
+  port: '443'
+  server: sg2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 83236f74-e29e-4b9d-a5c7-fff83b5e3039
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
