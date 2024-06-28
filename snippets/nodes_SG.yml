@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1,15|_SG_
-  password: amazonskr05
-  port: 443
-  server: 18.141.239.48
-  type: ss
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
@@ -18,14 +12,6 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
-  port: 443
-  server: 172.104.49.76
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
   network: ws
@@ -39,3 +25,17 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 1,15|_SG_
+  password: amazonskr05
+  port: 443
+  server: 18.141.239.48
+  type: ss
