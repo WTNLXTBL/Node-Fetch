@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.141.239.48
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|新加坡_IPLC专线_明懂的麻花辫
@@ -13,22 +21,6 @@ proxies:
     headers:
       Host: sg-1-pzz03vm5.2819v2rhzb56.download
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
-  port: 443
-  server: 172.104.49.76
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.239.48
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
   network: ws
@@ -42,11 +34,19 @@ proxies:
     headers:
       Host: trojan.freenods.sbs
     path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|@QYJC2024  狮城 Singapore 05
+  name: 13|@QYJC2024  狮城 Singapore 01
   network: ws
-  port: 2086
+  port: 8080
   server: tgqyjc2024.qyjc.xyz
   servername: ''
   tls: false
@@ -56,17 +56,3 @@ proxies:
     headers:
       Host: singapore.tgqyjc2024.qyjc666.xyz
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡_IEPL专线_托帕的猫耳
-  network: ws
-  port: '80'
-  server: sg-3-pzz03vm5.2819v2rhzb56.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 64edb453-b497-43b9-a8f7-c474c604e28b
-  ws-opts:
-    headers:
-      Host: sg-3-pzz03vm5.2819v2rhzb56.download
-    path: /
