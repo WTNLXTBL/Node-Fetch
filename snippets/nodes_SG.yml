@@ -1,4 +1,28 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,13|新加坡 Linode数据中心
+  network: tcp
+  port: '2083'
+  server: sg2-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 52.77.246.165
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
@@ -12,24 +36,6 @@ proxies:
     headers:
       Host: ''
     path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
-  network: tcp
-  port: '2083'
-  server: sg2-v2ray.ipracevpn.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
-  port: 443
-  server: 172.104.49.76
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
