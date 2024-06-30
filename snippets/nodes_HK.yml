@@ -1,20 +1,14 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a111.illos.site
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 80
-  server: 47.243.99.111
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|PRO 香港HKT01 | 4x 原生IP
+  network: tcp
+  port: 3141
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -35,24 +29,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- alterId: 0
-  cipher: auto
-  name: 13|PRO 香港HKBGP01 | 4x
-  network: tcp
-  port: 3021
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
@@ -61,11 +37,19 @@ proxies:
   server: iepl1.forlive.live
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|PRO 香港A 2x
+  name: 13|PRO 香港HKBGP01 | 4x
   network: tcp
-  port: 3281
+  port: 3021
   server: pro01.dns2024.org
   servername: ''
   tls: true
@@ -93,15 +77,27 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|@QYJC2024 香港 Hongkong 05
-  network: ws
-  port: 2086
-  server: tgqyjc2024.qyjc.xyz
+  name: 13|PRO 香港HKT04 | 4x 原生IP
+  network: tcp
+  port: 3201
+  server: pro01.dns2024.org
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 8e553755-5d34-4c10-9023-e37eee9948cd
-  ws-opts:
-    headers:
-      Host: hongkong.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a111.illos.site
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 80
+  server: 47.243.99.111
+  tfo: false
+  type: ss
