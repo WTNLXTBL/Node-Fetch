@@ -1,10 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  network: ws
+  port: 2052
+  server: 206.238.236.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 52.77.246.165
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 172.104.49.76
+  server: 52.221.223.215
   tfo: false
   type: ss
 - alterId: 0
@@ -17,25 +37,34 @@ proxies:
   tls: true
   type: vmess
   uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 52.77.246.165
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
+  name: 13|PRO 新加坡03 | 4x
   network: ws
-  port: '443'
-  server: sg2-full.privateip.net
+  port: 3041
+  server: pro01.dns2024.org
+  servername: ''
   tls: true
   type: vmess
-  uuid: 8114a974-d3c2-466e-9475-748aba41c307
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
   ws-opts:
     headers:
-      Host: ''
-    path: /RACEVPN
+      Host: sg03.li.nbsd.us
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|@QYJC2024  狮城 Singapore 02
+  network: ws
+  port: 8880
+  server: tgqyjc2024.qyjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e553755-5d34-4c10-9023-e37eee9948cd
+  ws-opts:
+    headers:
+      Host: singapore.tgqyjc2024.qyjc666.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -52,11 +81,68 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡06 套娃 中继 | 1.3x
+  network: tcp
+  port: 61008
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- alterId: 0
+  cipher: auto
+  name: 13|@QYJC2024  狮城 Singapore 01
+  network: ws
+  port: 8080
+  server: tgqyjc2024.qyjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e553755-5d34-4c10-9023-e37eee9948cd
+  ws-opts:
+    headers:
+      Host: singapore.tgqyjc2024.qyjc666.xyz
+    path: /?ed=2048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
   port: 443
-  server: 52.221.223.215
+  server: 172.104.49.76
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  network: ws
+  port: '443'
+  server: sg2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 8114a974-d3c2-466e-9475-748aba41c307
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|PRO 新加坡05 | 4x 原生IP
+  network: tcp
+  port: 3051
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡 隧道 均衡负载 动态IP 1.2x
+  network: tcp
+  port: 61012
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
