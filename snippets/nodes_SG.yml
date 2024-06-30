@@ -1,26 +1,18 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: zoogvpn
-  port: 443
-  server: 172.104.49.76
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.221.223.215
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 52.77.246.165
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡_明懂砖线_海豚的避孕套
+  network: ws
+  port: 8880
+  server: tgqyjc2024.qyjc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e3e82b2-36c0-44aa-80ad-5c3f693824f1
+  ws-opts:
+    headers:
+      Host: singapore.tgqyjc2024.qyjc666.xyz
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -39,20 +31,6 @@ proxies:
     path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
-  name: 13|新加坡_明懂砖线_海豚的避孕套
-  network: ws
-  port: 8880
-  server: tgqyjc2024.qyjc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1e3e82b2-36c0-44aa-80ad-5c3f693824f1
-  ws-opts:
-    headers:
-      Host: singapore.tgqyjc2024.qyjc666.xyz
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
   network: tcp
   port: '2083'
@@ -61,3 +39,25 @@ proxies:
   tls: true
   type: vmess
   uuid: 0eb76650-5dda-4466-a142-b2097b93c50a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: zoogvpn
+  port: 443
+  server: 172.104.49.76
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 52.77.246.165
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.221.223.215
+  tfo: false
+  type: ss
