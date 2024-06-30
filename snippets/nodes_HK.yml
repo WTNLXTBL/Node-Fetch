@@ -1,4 +1,66 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a111.illos.site
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 80
+  server: 47.243.99.111
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|PRO 香港HKT04 | 4x 原生IP
+  network: tcp
+  port: 3201
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 8aff4b6a-3b2c-3cfd-b2d9-a013cf5f9b48
+  port: 50001
+  server: iepl1.forlive.live
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|香港B 隧道 1.2x
+  network: tcp
+  port: 61010
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
 - alterId: 0
   cipher: auto
   name: 13|PRO 香港HKT01 | 4x 原生IP
@@ -19,85 +81,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 27af8997-972a-4ac5-8aff-c0e535d2515d
-- alterId: 0
-  cipher: auto
-  name: 13|香港 HKT03 隧道 1.3x
-  network: tcp
-  port: 61082
-  server: in06.dns2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: 8aff4b6a-3b2c-3cfd-b2d9-a013cf5f9b48
-  port: 50001
-  server: iepl1.forlive.live
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|PRO 香港HKBGP01 | 4x
-  network: tcp
-  port: 3021
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- alterId: 0
-  cipher: auto
-  name: 13|PRO 香港HKG01 | 4x 原生IP
-  network: tcp
-  port: 3111
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|PRO 香港HKT04 | 4x 原生IP
-  network: tcp
-  port: 3201
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b804301-23ce-378f-87df-af85f73c611f
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a111.illos.site
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 80
-  server: 47.243.99.111
-  tfo: false
-  type: ss
