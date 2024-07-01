@@ -8,14 +8,16 @@ proxies:
   tls: false
   type: vmess
   uuid: f6195be4-37bc-3cc8-917e-50c704e2f974
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 13|HK 03-【ccbaohe.com】免费资源导航
@@ -30,22 +32,6 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a111.illos.site
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 80
-  server: 47.243.99.111
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -62,13 +48,27 @@ proxies:
     headers:
       Host: zifstzamhk1.yofnhkfc.xyz
     path: /video/VuDFdktz
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a111.illos.site
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 80
+  server: 47.243.99.111
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
