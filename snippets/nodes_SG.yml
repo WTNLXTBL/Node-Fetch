@@ -1,17 +1,51 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.124.244.90
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
   password: zoogvpn
   port: 443
   server: 172.104.49.76
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|PRO 新加坡03 | 4x
+  network: ws
+  port: 3041
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+  ws-opts:
+    headers:
+      Host: sg03.li.nbsd.us
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|PRO 新加坡05 | 4x 原生IP
+  network: tcp
+  port: 3051
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.124.244.90
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡06 套娃 中继 | 1.3x
+  network: tcp
+  port: 61008
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b804301-23ce-378f-87df-af85f73c611f
