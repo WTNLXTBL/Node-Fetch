@@ -7,19 +7,6 @@ proxies:
   server: 13.124.244.90
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: g76wex
-  port: 443
-  server: aws-jp-tokyo-1.f1cflined.com
-  skip-cert-verify: false
-  sni: aws-jp-tokyo-1.f1cflined.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aws-jp-tokyo-1.f1cflined.com
-    path: /f1rocket
 - alterId: 0
   cipher: auto
   name: 13,15,16|🇯🇵 日本3|@ripaojiedian
@@ -34,17 +21,16 @@ proxies:
     headers:
       Host: 6Sn8mFtTjp3.yofnhkfc.xyz
     path: /video/X37qXHip
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
   network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  password: g76wex
+  port: 443
+  server: aws-jp-tokyo-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-jp-tokyo-1.f1cflined.com
+  type: trojan
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: aws-jp-tokyo-1.f1cflined.com
+    path: /f1rocket
