@@ -1,4 +1,36 @@
 proxies:
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f41b24.microsoft.com
+  password: Fhbe0z
+  port: 11810
+  protocol: auth_aes128_sha1
+  protocol-param: 24:SpYUtPeJYhRk4FWC
+  server: 120.232.240.46
+  type: ssr
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|HK香港-05-HKT家宽|X5.0
+  network: ws
+  port: '2052'
+  server: ss.moonriver.sbs
+  tls: false
+  type: vmess
+  uuid: bb24b8e1-7a1d-49bc-a5f2-69dc5787ef2e
+  ws-opts:
+    headers:
+      Host: hk105.moonriver.cfd
+    path: /ssB
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -15,41 +47,6 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|HK香港-05-HKT家宽|X5.0
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
-  tls: false
-  type: vmess
-  uuid: bb24b8e1-7a1d-49bc-a5f2-69dc5787ef2e
-  ws-opts:
-    headers:
-      Host: hk105.moonriver.cfd
-    path: /ssB
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: '28681'
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -60,14 +57,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f41b24.microsoft.com
-  password: Fhbe0z
-  port: 11810
-  protocol: auth_aes128_sha1
-  protocol-param: 24:SpYUtPeJYhRk4FWC
-  server: 120.232.240.46
-  type: ssr
