@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: g76wex
-  port: 443
-  server: aws-jp-tokyo-1.f1cflined.com
-  skip-cert-verify: false
-  sni: aws-jp-tokyo-1.f1cflined.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aws-jp-tokyo-1.f1cflined.com
-    path: /f1rocket
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -34,3 +21,16 @@ proxies:
     headers:
       Host: ''
     path: /
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  password: g76wex
+  port: 443
+  server: aws-jp-tokyo-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-jp-tokyo-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-jp-tokyo-1.f1cflined.com
+    path: /f1rocket
