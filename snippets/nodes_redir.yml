@@ -14,6 +14,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 7|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
   name: 7|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 2082
@@ -25,19 +38,6 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 7|🇨🇦_CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  tls: false
-  type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
   name: 7|🇦🇪_AE_阿联酋->🇬🇧_GB_英国
@@ -53,14 +53,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: 7|🇨🇦_CA_加拿大->🇺🇸_US_美国
   network: ws
   port: 8080
-  server: fbi.gov
+  server: 23.227.38.23
   tls: false
   type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
