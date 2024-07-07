@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -17,16 +9,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
+  name: 11|香港 特别行政区
   network: tcp
-  port: '45972'
-  server: 120.232.153.71
-  servername: ''
+  port: 19901
+  server: xg.dashuai.cyou
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 0763d364-e5fc-417a-90c9-d516ce936d0d
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 31778
+  server: 183.240.235.166
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -43,17 +45,14 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 31778
-  server: 183.240.235.166
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港3|@ripaojiedian
