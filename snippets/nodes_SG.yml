@@ -1,46 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|新加坡SG
+  name: 13|新加坡🇸🇬01
   network: ws
-  port: 80
-  server: sg1.ludou.us.kg
-  servername: ''
+  port: '20080'
+  server: sgaws01.moluo.xyz
   tls: false
   type: vmess
-  uuid: 397f4b2a-fb2e-4291-a394-2b1d45cb79e9
+  uuid: 6142f6f8-5f50-4445-a5ec-61fa9b8c12de
   ws-opts:
     headers:
-      Host: sg.ludou.us.kg
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.110.249
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡2
-  network: ws
-  port: '80'
-  server: sg0214551.ludou.us.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89a1b386-3d96-40dd-b22f-15e19e093cfc
-  ws-opts:
-    headers:
-      Host: sg002afa.ludou.us.kg
-    path: /?ed=2048
+      Host: ''
+    path: ''
 - client-fingerprint: chrome
   name: 15|🇸🇬 新加坡3|@ripaojiedian
   network: ws
@@ -64,3 +35,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 4e55ce40-9f8e-417d-f8ae-aa6af97a7097
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡🇸🇬02
+  network: ws
+  port: '20080'
+  server: sgaws02.moluo.xyz
+  tls: false
+  type: vmess
+  uuid: 6142f6f8-5f50-4445-a5ec-61fa9b8c12de
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.139.110.249
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss

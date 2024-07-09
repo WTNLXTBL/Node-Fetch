@@ -1,28 +1,17 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '31778'
-  server: 183.240.235.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|HK 香港 I IEPL
+  name: 13|香港🇭🇰01
   network: ws
-  port: 5073
-  server: api-hk1.veadev.com
-  servername: ''
-  tls: true
+  port: '20080'
+  server: hk5.moluo.xyz
+  tls: false
   type: vmess
-  uuid: 9fab6e68-dc37-4282-b384-41c4154bb24b
+  uuid: 6142f6f8-5f50-4445-a5ec-61fa9b8c12de
   ws-opts:
     headers:
-      Host: api-hk1.veadev.com
-    path: /config
+      Host: ''
+    path: ''
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -31,17 +20,6 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 31778
-  server: 183.240.235.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -60,11 +38,59 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '31778'
+  server: 183.240.235.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|香港🇭🇰02
+  network: ws
+  port: '20080'
+  server: hk6.moluo.xyz
+  tls: false
+  type: vmess
+  uuid: 6142f6f8-5f50-4445-a5ec-61fa9b8c12de
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21...
+  network: ws
+  port: '12909'
+  server: 210.0.158.219
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 19.lwdh.us
+    path: ''
+- alterId: 64
+  cipher: auto
   name: 16|香港3|@ripaojiedian
   network: tcp
   port: '50004'
   server: 112.132.212.19
   servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 31778
+  server: 183.240.235.166
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
