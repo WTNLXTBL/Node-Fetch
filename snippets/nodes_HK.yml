@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cdn.awscft.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a14fd489-6bf4-40bb-fb74-efb137ac1d42
+  ws-opts:
+    headers:
+      Host: hk.insbot.filegear-sg.me
+    path: /aa
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -15,26 +29,6 @@ proxies:
   server: 47.243.99.111
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '31778'
-  server: 183.240.235.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 112.132.212.19
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -45,29 +39,24 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 31778
-  server: 183.240.235.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cdn.awscft.eu.org
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
   servername: ''
   tls: false
   type: vmess
-  uuid: a14fd489-6bf4-40bb-fb74-efb137ac1d42
-  ws-opts:
-    headers:
-      Host: hk.insbot.filegear-sg.me
-    path: /aa
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '45972'
+  server: 120.232.153.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
 - alterId: 0
   cipher: auto
   name: 13|香港〖电报：@ccbaohe】免费节点定时更新
@@ -84,11 +73,12 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '45972'
-  server: 120.232.153.71
-  servername: ''
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 31778
+  server: 183.240.235.166
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
