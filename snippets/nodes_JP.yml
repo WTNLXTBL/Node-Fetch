@@ -1,34 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.152.101
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵JP-152.69.197.74-2764
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
@@ -39,14 +9,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '46249'
-  server: 45.159.51.6
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 1fe35721-be3a-485c-a2aa-eeb785eb827e
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-212.50.254.55...
@@ -63,6 +37,36 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|🇯🇵JP-152.69.197.74-2764
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本5|@ripaojiedian
+  password: 764f7bbd-259c-43b1-996d-bf595ab21618
+  port: 22638
+  server: shcub.donghui.tech
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇯🇵 日本2|@ripaojiedian
   network: ws
@@ -77,11 +81,21 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
     path: /video/ibCT6z55
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
+  name: 16|日本4|@ripaojiedian
+  network: tcp
+  port: '46249'
+  server: 45.159.51.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1fe35721-be3a-485c-a2aa-eeb785eb827e
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本5|@ripaojiedian
-  password: 764f7bbd-259c-43b1-996d-bf595ab21618
-  port: 22638
-  server: shcub.donghui.tech
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.152.101
   tfo: false
   type: ss
