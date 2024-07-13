@@ -1,6 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-212.50.254.55...
+  network: ws
+  port: '56893'
+  server: 212.50.254.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a59a60b-526e-4378-f9cb-3485e688aa9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|日本3
+  network: ws
+  port: '45222'
+  server: jd-rb3.yqh168.top
+  tls: false
+  type: vmess
+  uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /websitego
+- alterId: 0
+  cipher: auto
   name: 13|日本4
   network: ws
   port: '45223'
@@ -12,6 +39,41 @@ proxies:
     headers:
       Host: www.bing.com
     path: /websitego
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+  network: ws
+  port: '41597'
+  server: 183.181.36.194
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|日本1
+  network: ws
+  port: '45220'
+  server: jd-rb1.yqh168.top
+  tls: false
+  type: vmess
+  uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /websitego
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.152.101
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -30,23 +92,24 @@ proxies:
     path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
-  name: 13|日本3
+  name: 13|🇯🇵JP-152.69.197.74-2652
   network: ws
-  port: '45222'
-  server: jd-rb3.yqh168.top
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
   tls: false
   type: vmess
-  uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
   ws-opts:
     headers:
-      Host: www.bing.com
-    path: /websitego
-- cipher: aes-256-cfb
+      Host: ''
+    path: /bb
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 5bc60592-aa74-48c1-baad-15bfa9b939d9
+  port: 29803
+  server: 2a53.ens3.buzz
   tfo: false
   type: ss
 - alterId: 0
@@ -59,20 +122,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 1fe35721-be3a-485c-a2aa-eeb785eb827e
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 5bc60592-aa74-48c1-baad-15bfa9b939d9
-  port: 29803
-  server: 2a53.ens3.buzz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本1
+  name: 13|日本2
   network: ws
-  port: '45220'
-  server: jd-rb1.yqh168.top
+  port: '45221'
+  server: jd-rb2.yqh168.top
   tls: false
   type: vmess
   uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
@@ -93,41 +148,6 @@ proxies:
     headers:
       Host: www.bing.com
     path: /websitego
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵JP-152.69.197.74-2652
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.152.101
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|日本2
-  network: ws
-  port: '45221'
-  server: jd-rb2.yqh168.top
-  tls: false
-  type: vmess
-  uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /websitego
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -136,31 +156,11 @@ proxies:
   server: shcub.donghui.tech
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
-  network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-212.50.254.55...
-  network: ws
-  port: '56893'
-  server: 212.50.254.55
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0a59a60b-526e-4378-f9cb-3485e688aa9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss

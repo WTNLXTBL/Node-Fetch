@@ -1,12 +1,25 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.95.211.49
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: fe3038e9-5653-4ec1-be64-04532782d8b0
+  port: 50046
+  server: 123.88.148.9
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡5
+  network: ws
+  port: '45229'
+  server: jd-xjp5.yqh168.top
+  tls: false
+  type: vmess
+  uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /websitego
 - alterId: 0
   cipher: auto
   name: 13|新加坡3
@@ -22,10 +35,10 @@ proxies:
     path: /websitego
 - alterId: 0
   cipher: auto
-  name: 13|新加坡2
+  name: 13|新加坡1
   network: ws
-  port: '45226'
-  server: jd-xjp2.yqh168.top
+  port: '45225'
+  server: jd-xjp1.yqh168.top
   tls: false
   type: vmess
   uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
@@ -48,31 +61,10 @@ proxies:
     path: /websitego
 - alterId: 0
   cipher: auto
-  name: 13|新加坡1
+  name: 13|新加坡2
   network: ws
-  port: '45225'
-  server: jd-xjp1.yqh168.top
-  tls: false
-  type: vmess
-  uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /websitego
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: fe3038e9-5653-4ec1-be64-04532782d8b0
-  port: 50046
-  server: 123.88.148.9
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡5
-  network: ws
-  port: '45229'
-  server: jd-xjp5.yqh168.top
+  port: '45226'
+  server: jd-xjp2.yqh168.top
   tls: false
   type: vmess
   uuid: 45d2fe72-545d-4014-aa48-65d47df93da2
@@ -85,4 +77,12 @@ proxies:
   password: amazonskr05
   port: 443
   server: 54.179.87.28
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.95.211.49
+  tfo: false
   type: ss
