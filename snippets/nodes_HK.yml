@@ -19,31 +19,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港高速1最新官网地址：https://one.moonri...
-  network: ws
-  port: '2052'
-  server: ss.moonriver.sbs
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '29767'
+  server: gvip.hongxingdl.vip
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9f104453-9e04-4150-b851-768990422e01
-  ws-opts:
-    headers:
-      Host: hkgs01.moonriver.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21...
-  network: ws
-  port: '12909'
-  server: 210.0.158.219
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 19.lwdh.us
-    path: ''
+  uuid: db5022dd-0d7c-4ef4-8451-f7c7a558bba7
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -60,6 +43,17 @@ proxies:
   server: 36.232.27.161
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 51193
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|香港5|@ripaojiedian
@@ -72,14 +66,17 @@ proxies:
   uuid: 7345a163-c47b-47b3-8675-bf12b85ce364
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: gvip.hongxingdl.vip
-  servername: ''
+  name: 13|香港高速2
+  network: ws
+  port: '2052'
+  server: ss.moonriver.sbs
   tls: false
   type: vmess
-  uuid: db5022dd-0d7c-4ef4-8451-f7c7a558bba7
+  uuid: 9f104453-9e04-4150-b851-768990422e01
+  ws-opts:
+    headers:
+      Host: hkgs02.moonriver.sbs
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -88,14 +85,3 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 51193
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
