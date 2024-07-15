@@ -1,44 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d
-  port: 65045
-  server: 123.88.148.9
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '45449'
-  server: xctransfer1st.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f63b367e-214f-4710-9e5b-80f43daa8368
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21...
-  network: ws
-  port: '12909'
-  server: 210.0.158.219
-  servername: 19.lwdh.us
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    headers:
-      Host: 19.lwdh.us
-    path: ''
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -55,6 +15,30 @@ proxies:
   server: 172.67.141.111
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 6f3562c7-904f-417e-818b-dcd49b564078
+  port: 30001
+  server: 115.239.225.217
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d
+  port: 65045
+  server: 123.88.148.9
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -66,6 +50,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-210.0.158.21...
+  network: ws
+  port: '12909'
+  server: 210.0.158.219
+  servername: 19.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 19.lwdh.us
+    path: ''
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -76,19 +74,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|香港【TG：@ccbaohe】定时更新节点订阅
+  name: 16|香港5|@ripaojiedian
   network: tcp
-  port: '63090'
-  server: in06.dns2024.org
+  port: '45449'
+  server: xctransfer1st.cokecloud.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 6f3562c7-904f-417e-818b-dcd49b564078
-  port: 30001
-  server: 115.239.225.217
-  tfo: false
-  type: ss
+  uuid: f63b367e-214f-4710-9e5b-80f43daa8368
