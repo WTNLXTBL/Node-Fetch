@@ -1,10 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-212.50.254.55...
+  network: ws
+  port: '56893'
+  server: 212.50.254.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a59a60b-526e-4378-f9cb-3485e688aa9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 34.221.97.62
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
   tfo: false
   type: ss
 - alterId: 0
@@ -31,14 +53,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 16|日本2|@ripaojiedian
@@ -49,3 +63,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 0b27b36a-15c0-4699-a25f-223650f23537
+- alterId: 0
+  cipher: auto
+  name: 13|GB_分享日记
+  network: ws
+  port: '443'
+  server: 102.724064.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 8f33df9e-0255-4341-bea5-93ccc9f62fa7
+  ws-opts:
+    headers:
+      Host: 102.724064.xyz
+    path: /oqpsvws

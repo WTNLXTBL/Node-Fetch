@@ -1,18 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇹🇼 TW-188.253.6.227...
-  network: ws
-  port: '19281'
-  server: 188.253.6.227
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7bbaec59-058e-49f7-a7a5-030d6920adc9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv3/hd.m3u8
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 6f3562c7-904f-417e-818b-dcd49b564078
+  port: 30003
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
   network: ws
@@ -28,31 +22,19 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 6f3562c7-904f-417e-818b-dcd49b564078
-  port: 30003
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 13|-1080-TW【ccbaohe.com〗 永久免费节点机场
   network: tcp
   port: '63090'
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6cf559be-8e10-3c59-ad8c-7345fa164ab8
+- alterId: 0
+  cipher: auto
+  name: 13|-0716-TW【ccbaohe.com〗 永久免费节点机场
+  network: tcp
+  port: '63097'
   server: in06.dns2024.org
   servername: ''
   tls: false
