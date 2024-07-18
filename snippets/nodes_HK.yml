@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '3293'
+  server: pro01.dns2024.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: 15bc9e79-5ba0-388a-8804-67f203ee4487
@@ -7,6 +17,22 @@ proxies:
   skip-cert-verify: true
   sni: ip2648428075.mobgslb.tbcache.com
   type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: h1.fjdd.store
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 172.67.141.111
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -25,29 +51,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: h1.fjdd.store
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 172.67.141.111
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '3293'
-  server: pro01.dns2024.org
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4ff0df2c-2092-36ab-882f-29e46fea089c
