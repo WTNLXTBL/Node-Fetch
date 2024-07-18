@@ -1,26 +1,17 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡 Amazon数据中心
-  network: tcp
-  port: 60001
-  server: bgroup.node3.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.250.73.149
   tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
   type: ss
 - alterId: 0
   cipher: auto
@@ -38,3 +29,12 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  name: 11|新加坡 Amazon数据中心
+  network: tcp
+  port: 60001
+  server: bgroup.node3.v.nodelist-airport.com
+  tls: false
+  type: vmess
+  uuid: 2155145a-b1b5-443a-8977-670f6bd10f02
