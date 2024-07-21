@@ -1,32 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: HuTaoCloud
-  plugin: obfs
-  plugin-opts:
-    host: 36a1a32505.microsoft.com
-    mode: http
-  port: 12556
-  server: cm1-tw.hutaonode3.top
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇹🇼 台湾3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -43,3 +15,31 @@ proxies:
     headers:
       Host: tw001.moonriver.sbs
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇹🇼 台湾3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: HuTaoCloud
+  plugin: obfs
+  plugin-opts:
+    host: 36a1a32505.microsoft.com
+    mode: http
+  port: 12556
+  server: cm1-tw.hutaonode3.top
+  tfo: false
+  type: ss

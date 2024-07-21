@@ -23,6 +23,14 @@ proxies:
     headers:
       Host: hk3.889611.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: XoYrrEfZYxxHL3AI
+  port: 16985
+  server: a1.45s6e224gdr.shop
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -31,6 +39,15 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港 电讯盈科
+  network: tcp
+  port: 20003
+  server: shdxus.aikunapp.com
+  tls: false
+  type: vmess
+  uuid: a45201e7-7a4a-41ad-b7e1-8cbac19234ef
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -56,33 +73,5 @@ proxies:
     tls: true
   port: 443
   server: 36.232.15.45
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '20003'
-  server: shdxus.aikunapp.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a45201e7-7a4a-41ad-b7e1-8cbac19234ef
-- alterId: 64
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '45020'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: XoYrrEfZYxxHL3AI
-  port: 16985
-  server: a1.45s6e224gdr.shop
   tfo: false
   type: ss
