@@ -1,30 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '20003'
-  server: shdxus.aikunapp.com
+  port: '29767'
+  server: bvip.hongxingdl.vip
   servername: ''
   tls: false
   type: vmess
-  uuid: a45201e7-7a4a-41ad-b7e1-8cbac19234ef
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: XoYrrEfZYxxHL3AI
-  port: 16985
-  server: a1.45s6e224gdr.shop
-  tfo: false
-  type: ss
+  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -35,54 +19,48 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '53061'
+  server: 38.147.188.102
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6f7ad57a-b1c8-4f83-988a-668a927d494e
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: XoYrrEfZYxxHL3AI
-  port: 46983
-  server: kis7as.9sjd2dkesl2.shop
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 29767
+  server: bvip.hongxingdl.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: h2.wagaga.online
+    host: a1.wagaga.online
     mode: websocket
     mux: true
     path: ''
     skip-cert-verify: false
     tls: true
-  port: 443
-  server: 36.232.15.45
+  port: 8443
+  server: 36.232.14.119
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 45020
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 80
-  server: 104.19.173.68
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b30dd940-b88e-4459-aac8-ec6f25c1112f
-  ws-opts:
-    headers:
-      Host: hk3.889611.com
-    path: /
