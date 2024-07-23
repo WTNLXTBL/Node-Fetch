@@ -1,20 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇹🇼 台湾2|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  name: 16|台湾3|@ripaojiedian
+  network: tcp
+  port: '3283'
+  server: tw99.jinkela2024vpn.xyz
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
@@ -29,11 +23,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|台湾3|@ripaojiedian
-  network: tcp
-  port: '3283'
-  server: tw99.jinkela2024vpn.xyz
-  servername: ''
-  tls: true
+  client-fingerprint: chrome
+  name: 15,16|🇹🇼 台湾2|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
