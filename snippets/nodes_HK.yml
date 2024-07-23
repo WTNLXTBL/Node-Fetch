@@ -1,4 +1,39 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: a1.wagaga.online
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 36.232.31.218
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 63099
+  server: in06.dns2024.org
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -19,38 +54,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 63099
-  server: in06.dns2024.org
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: a1.wagaga.online
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: false
-    tls: true
-  port: 8443
-  server: 36.232.31.218
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
