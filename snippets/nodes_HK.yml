@@ -1,23 +1,15 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 63099
-  server: in06.dns2024.org
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -28,6 +20,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: b0549224-831d-4cba-bab9-94fdc6a1327e
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -46,11 +46,25 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '63099'
-  server: in06.dns2024.org
-  servername: ''
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: 22.6bnw.top
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: polohk.6bnw.top
+    path: /cctv?ed=2048
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
