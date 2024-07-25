@@ -1,21 +1,19 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.194.250.138
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  port: 19529
+  server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
+  name: 11,15,16|10,11|日本2|@ripaojiedian
   network: ws
-  port: 63011
+  port: '63011'
   server: in06.dns2024.org
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
@@ -31,11 +29,11 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
-  port: 19529
-  server: aa01gg.sssyun.xyz
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.194.250.138
   tfo: false
   type: ss
