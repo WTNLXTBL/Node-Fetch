@@ -1,4 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|日本2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 22.6bkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  ws-opts:
+    headers:
+      Host: xzjp.6bkc.top
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.69.37.205
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -15,25 +37,3 @@ proxies:
   server: dudu02.ddnsguru.com
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.69.37.205
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|日本2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 22.6bkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
-  ws-opts:
-    headers:
-      Host: xzjp.6bkc.top
-    path: /?ed=2560
