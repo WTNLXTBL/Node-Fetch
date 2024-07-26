@@ -1,4 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|日本2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 22.6bkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  ws-opts:
+    headers:
+      Host: xzjp.6bkc.top
+    path: /?ed=2560
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -15,41 +37,3 @@ proxies:
   server: dudu02.ddnsguru.com
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.178
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 2052
-  server: 22.6bkc.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
-  ws-opts:
-    headers:
-      Host: xzjp.6bkc.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|日本2|@ripaojiedian
-  network: ws
-  port: '63011'
-  server: in06.dns2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
-  ws-opts:
-    headers:
-      Host: jp-a-mugua.weibo-cdn.best
-    path: /
