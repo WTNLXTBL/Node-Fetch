@@ -1,4 +1,15 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -9,13 +20,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港8|@ripaojiedian
+  name: 11,15,16|10,11|香港8|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: a223af01-b481-4abf-a305-60d60587d1e4
@@ -23,31 +32,6 @@ proxies:
     headers:
       Host: zifstzamhk1.yofnhkfc.xyz
     path: /video/VuDFdktz
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 2052
-  server: 33.6bnw.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -56,6 +40,20 @@ proxies:
   server: a1.45s6e224gdr.shop
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港5|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 33.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇭🇰 香港3|@ripaojiedian
@@ -71,12 +69,10 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
+  network: tcp
   port: 45020
   server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
