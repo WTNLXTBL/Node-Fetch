@@ -1,7 +1,21 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: b0549224-831d-4cba-bab9-94fdc6a1327e
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|新加坡2|@ripaojiedian
+  name: 11|10,11|新加坡2|@ripaojiedian
   network: ws
   port: '80'
   server: 104.19.173.168
@@ -14,24 +28,10 @@ proxies:
       Host: sg3.889611.com
     path: /
 - cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
-  port: 39204
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.236.64
+  server: 52.69.70.123
   tfo: false
   type: ss
