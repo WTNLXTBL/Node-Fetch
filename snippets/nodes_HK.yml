@@ -12,14 +12,6 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: XoYrrEfZYxxHL3AI
-  port: 17873
-  server: a1.45s6e224gdr.shop
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|香港5|@ripaojiedian
@@ -34,29 +26,14 @@ proxies:
     headers:
       Host: hkbn.6bnw.top
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|香港8|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15001
+  server: 59.56.77.178
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -76,14 +53,23 @@ proxies:
   server: kis7as.9sjd2dkesl2.shop
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15001
-  server: 59.56.77.178
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: XoYrrEfZYxxHL3AI
+  port: 17873
+  server: a1.45s6e224gdr.shop
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港3|@ripaojiedian
@@ -98,3 +84,17 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港8|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
+  ws-opts:
+    headers:
+      Host: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
