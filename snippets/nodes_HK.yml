@@ -1,4 +1,15 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港3|@ripaojiedian
@@ -13,39 +24,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: b5abc4c0-b518-4195-88b4-57900f16fb65
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|香港6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 4.6bnw.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 45020
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -54,6 +32,15 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|香港8|@ripaojiedian
@@ -68,15 +55,14 @@ proxies:
     headers:
       Host: zifstzamhk1.yofnhkfc.xyz
     path: /video/VuDFdktz
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: b5abc4c0-b518-4195-88b4-57900f16fb65
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇭🇰 香港3|@ripaojiedian
@@ -98,3 +84,17 @@ proxies:
   server: kis7as.9sjd2dkesl2.shop
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港6|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 4.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
