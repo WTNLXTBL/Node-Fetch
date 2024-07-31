@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 3293037f-210e-4f64-8542-2af0141b8d43
+  port: 48801
+  server: jp01.network-cdn-gw.cc
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇯🇵 日本5|@ripaojiedian
@@ -12,22 +20,6 @@ proxies:
     headers:
       Host: mmjp11.micloud.buzz
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 3293037f-210e-4f64-8542-2af0141b8d43
-  port: 48801
-  server: jp01.network-cdn-gw.cc
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.69.70.123
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|11|日本5|@ripaojiedian
@@ -42,3 +34,11 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.69.70.123
+  tfo: false
+  type: ss
