@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -22,21 +9,32 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
   network: tcp
-  port: 45020
+  port: 54104
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港9|@ripaojiedian
-  password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc
-  port: 39301
-  server: aa01gg.sssyun.xyz
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 3293037f-210e-4f64-8542-2af0141b8d43
+  port: 48810
+  server: hkp11.network-cdn-gw.cc
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 42055
+  server: 120.232.153.37
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港3|@ripaojiedian
@@ -53,6 +51,15 @@ proxies:
     path: /zh-cn
 - alterId: 64
   cipher: auto
+  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: 11,16|10|🇭🇰 香港|@ripaojiedian
   network: tcp
   port: 42055
@@ -60,23 +67,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 3293037f-210e-4f64-8542-2af0141b8d43
-  port: 48810
-  server: hkp11.network-cdn-gw.cc
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
+  name: 11,15|10|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港9|@ripaojiedian
+  password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -93,14 +104,3 @@ proxies:
   server: 172.67.141.111
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 42055
-  server: 120.232.153.37
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
