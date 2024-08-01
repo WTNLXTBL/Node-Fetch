@@ -1,4 +1,12 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: gquuangc27.xyz
+  skip-cert-verify: false
+  sni: gquuangc27.xyz
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
@@ -8,6 +16,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港9|@ripaojiedian
+  password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 60066
+  server: hk0069.alibabaokz.com
+  tls: false
+  type: vmess
+  uuid: 38571ca6-6692-4559-b901-0bc5826b7661
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 218.250.217.111
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|10|🇭🇰 香港6|@ripaojiedian
@@ -26,39 +59,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  port: 81
-  server: 218.250.217.111
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 60066
-  server: hk0069.alibabaokz.com
-  tls: false
-  type: vmess
-  uuid: 38571ca6-6692-4559-b901-0bc5826b7661
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港9|@ripaojiedian
-  password: c7f2cbc9-00c6-4948-9a72-c77ff72e69dc
-  port: 39301
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
-  password: NUeBvQHox0BmnHpu
-  port: 443
-  server: gquuangc27.xyz
-  skip-cert-verify: false
-  sni: gquuangc27.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港3|@ripaojiedian
