@@ -7,14 +7,15 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
-  port: 40023
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 29767
+  server: iepl.hongxingdl.vip
+  tls: false
+  type: vmess
+  uuid: 47205b34-a0d2-462a-b603-438f62ad8027
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,42 +24,6 @@ proxies:
   server: iepl.hongxingdl.vip
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 47205b34-a0d2-462a-b603-438f62ad8027
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|香港3|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mmhk01.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 29767
-  server: iepl.hongxingdl.vip
   tls: false
   type: vmess
   uuid: 47205b34-a0d2-462a-b603-438f62ad8027
@@ -76,6 +41,41 @@ proxies:
     headers:
       Host: oiichk.yydsii.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|香港3|@ripaojiedian
+  network: ws
+  port: '46001'
+  server: mmhk01.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
+  port: 40023
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
