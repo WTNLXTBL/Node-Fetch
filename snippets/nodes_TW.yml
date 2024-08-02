@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|台湾3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: v4.cfnode.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
@@ -7,19 +21,3 @@ proxies:
   server: tw04.51feitu.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇹🇼 台湾3|@ripaojiedian
-  network: ws
-  port: 80
-  server: v4.cfnode.eu.org
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
