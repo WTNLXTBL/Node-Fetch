@@ -1,4 +1,13 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -10,6 +19,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 47205b34-a0d2-462a-b603-438f62ad8027
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇭🇰 香港3|@ripaojiedian
@@ -37,6 +54,14 @@ proxies:
     headers:
       Host: oiichk.yydsii.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
+  port: 40023
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港3|@ripaojiedian
@@ -60,28 +85,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 47205b34-a0d2-462a-b603-438f62ad8027
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
-  port: 40023
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
