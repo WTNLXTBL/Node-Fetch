@@ -1,14 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: NUeBvQHox0BmnHpu
-  port: 33368
-  server: guangguang01.xyz
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
   name: 15|🇹🇼 台湾3|@ripaojiedian
   password: VktroSoMbaFIFFhndcUqaSuGoHygMvg9kmTQzZeGB7BF
   plugin: obfs
@@ -19,6 +11,19 @@ proxies:
   server: 166.0.199.245
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|10|🇹🇼 台湾3|@ripaojiedian
+  network: ws
+  port: 80
+  server: v4.cfnode.eu.org
+  tls: false
+  type: vmess
+  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
@@ -27,17 +32,11 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|台湾3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: v4.cfnode.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: NUeBvQHox0BmnHpu
+  port: 33368
+  server: guangguang01.xyz
+  tfo: false
+  type: ss
