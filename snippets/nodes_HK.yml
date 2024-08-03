@@ -1,18 +1,38 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|香港6|@ripaojiedian
-  network: ws
-  port: '50185'
-  server: hkt1.hkg.hypernat.com
-  servername: ''
+  name: 11,16|10|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 10184
+  server: 36.139.183.164
   tls: false
   type: vmess
   uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
-  ws-opts:
-    headers:
-      Host: hkt1.hkg.hypernat.com
-    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港10|@ripaojiedian
+  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: NUeBvQHox0BmnHpu
+  port: 443
+  server: gnmktnwq58.xyz
+  skip-cert-verify: false
+  sni: gnmktnwq58.xyz
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇭🇰 香港3|@ripaojiedian
@@ -26,39 +46,6 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: NUeBvQHox0BmnHpu
-  port: 443
-  server: gnmktnwq58.xyz
-  skip-cert-verify: false
-  sni: gnmktnwq58.xyz
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港10|@ripaojiedian
-  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
-  port: 39301
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
-  port: 40023
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港3|@ripaojiedian
@@ -73,12 +60,25 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 356cd62f-a0ea-4630-8d67-847b6f2b3321
+  port: 40023
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|10|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 10184
-  server: 36.139.183.164
+  name: 11,15,16|10,11|香港6|@ripaojiedian
+  network: ws
+  port: '50185'
+  server: hkt1.hkg.hypernat.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
+  ws-opts:
+    headers:
+      Host: hkt1.hkg.hypernat.com
+    path: /
