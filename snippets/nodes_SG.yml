@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|新加坡|@ripaojiedian
@@ -19,27 +13,6 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.142.246.19
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: mmsg16.micloud.buzz
-    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 11,16|11|新加坡2|@ripaojiedian
@@ -54,3 +27,30 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 46016
+  server: mmsg16.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  ws-opts:
+    headers:
+      Host: mmsg16.micloud.buzz
+    path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.142.246.19
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
