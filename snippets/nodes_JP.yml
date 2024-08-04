@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  password: f2191442-1436-3d79-801e-80d8de896c73
-  port: 443
-  server: jp1-july.88888802.xyz
-  skip-cert-verify: false
-  sni: jp1-july.88888802.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jp1-july.88888802.xyz
-    path: /91838f3b905c42c7aa5b664b27d8193b
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本6|@ripaojiedian
@@ -28,18 +15,18 @@ proxies:
     path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|日本4|@ripaojiedian
+  name: 11,16|11|日本5|@ripaojiedian
   network: ws
-  port: '80'
-  server: sc.yydspp.cc
+  port: '46011'
+  server: mmjp11.micloud.buzz
   servername: ''
   tls: false
   type: vmess
-  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
   ws-opts:
     headers:
-      Host: oiicjp.yydsii.com
-    path: /
+      Host: ''
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -74,17 +61,30 @@ proxies:
     headers:
       Host: jp2-july.88888802.xyz
     path: /91838f3b905c42c7aa5b664b27d8193b
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  port: 443
+  server: jp1-july.88888802.xyz
+  skip-cert-verify: false
+  sni: jp1-july.88888802.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jp1-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
 - alterId: 0
   cipher: auto
-  name: 11,16|11|日本5|@ripaojiedian
+  name: 11,15,16|10,11|日本4|@ripaojiedian
   network: ws
-  port: '46011'
-  server: mmjp11.micloud.buzz
+  port: '80'
+  server: sc.yydspp.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
+  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
   ws-opts:
     headers:
-      Host: ''
-    path: /zh-cn
+      Host: oiicjp.yydsii.com
+    path: /
