@@ -1,7 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|日本2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本6|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22ec0027-5230-462c-8100-ef7d489caaef
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  port: 443
+  server: jp1-july.88888802.xyz
+  skip-cert-verify: false
+  sni: jp1-july.88888802.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jp1-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
+- alterId: 0
+  cipher: auto
+  name: 11|10,11|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -13,14 +42,22 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
     path: /video/ibCT6z55
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.255.211.19
+  name: 15,16|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 80
+  server: sc.yydspp.cc
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 4929f0ca-2793-4aa3-b2d0-7445447097f6
+  ws-opts:
+    headers:
+      Host: oiicjp.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇯🇵 日本5|@ripaojiedian
@@ -34,6 +71,27 @@ proxies:
     headers:
       Host: mmjp11.micloud.buzz
     path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.231.36.179
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  password: f2191442-1436-3d79-801e-80d8de896c73
+  port: 443
+  server: jp2-july.88888802.xyz
+  skip-cert-verify: false
+  sni: jp2-july.88888802.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jp2-july.88888802.xyz
+    path: /91838f3b905c42c7aa5b664b27d8193b
 - alterId: 0
   cipher: auto
   name: 11,16|11|日本5|@ripaojiedian
