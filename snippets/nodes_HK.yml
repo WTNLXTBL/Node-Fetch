@@ -1,15 +1,23 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11
-  port: 19527
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇭🇰 香港3|@ripaojiedian
+  name: 11|10|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 10184
+  server: 36.139.183.164
+  tls: false
+  type: vmess
+  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
+- alterId: 0
+  cipher: auto
+  name: 11|10|🇭🇰 香港3|@ripaojiedian
   network: ws
   port: 46001
   server: mmhk01.micloud.buzz
@@ -20,9 +28,34 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11
+  port: 19527
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|11|香港3|@ripaojiedian
+  name: 11|11|香港3|@ripaojiedian
   network: ws
   port: '46001'
   server: mmhk01.micloud.buzz
@@ -36,36 +69,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11,16|10|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 10184
-  server: 36.139.183.164
-  tls: false
-  type: vmess
-  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 10184
-  server: 36.139.183.164
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港6|@ripaojiedian
+  name: 11|10|🇭🇰 香港6|@ripaojiedian
   network: tcp
   port: 29767
   server: svip.hongxingdl.vip
