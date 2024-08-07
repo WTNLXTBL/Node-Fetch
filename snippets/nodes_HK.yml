@@ -1,32 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|11|香港2|@ripaojiedian
   network: ws
-  port: 46001
+  port: '46001'
   server: mmhk01.micloud.buzz
+  servername: ''
   tls: false
   type: vmess
   uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     headers:
-      Host: mmhk01.micloud.buzz
+      Host: ''
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: llyEnxJlVC
-  port: 51017
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 11,15,16|10,11|香港3|@ripaojiedian
@@ -41,20 +27,6 @@ proxies:
     headers:
       Host: www.59795160.xyz
     path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|香港2|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mmhk01.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
@@ -63,6 +35,19 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
@@ -80,3 +65,18 @@ proxies:
   server: 36.139.183.164
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
