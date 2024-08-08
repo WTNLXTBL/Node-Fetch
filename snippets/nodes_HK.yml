@@ -1,4 +1,68 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港7|@ripaojiedian
+  network: ws
+  port: '2083'
+  server: 104.16.205.187
+  servername: xg2.sux.lol
+  tls: true
+  type: vmess
+  uuid: 366496ee-03e4-4fd0-9fec-8cf20637f65b
+  ws-opts:
+    headers:
+      Host: xg2.sux.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港3|@ripaojiedian
+  network: ws
+  port: '10184'
+  server: 36.139.183.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbf73243-836e-4994-9d66-bc8b311a4491
+  ws-opts:
+    headers:
+      Host: ''
+    path: /name
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: c0623f02-6b3a-4742-b34f-f6763581b8ce
+  port: 29527
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港9|@ripaojiedian
@@ -21,70 +85,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|香港3|@ripaojiedian
-  network: ws
-  port: '10184'
-  server: 36.139.183.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbf73243-836e-4994-9d66-bc8b311a4491
-  ws-opts:
-    headers:
-      Host: ''
-    path: /name
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: c0623f02-6b3a-4742-b34f-f6763581b8ce
-  port: 29527
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: llyEnxJlVC
-  port: 51017
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|香港7|@ripaojiedian
-  network: ws
-  port: '2083'
-  server: 104.16.205.187
-  servername: xg2.sux.lol
-  tls: true
-  type: vmess
-  uuid: 366496ee-03e4-4fd0-9fec-8cf20637f65b
-  ws-opts:
-    headers:
-      Host: xg2.sux.lol
-    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
