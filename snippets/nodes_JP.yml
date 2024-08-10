@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,15,16|10,11|日本4|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: pgrpxewcjptest.yofnhkfc.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
+  ws-opts:
+    headers:
+      Host: pgrpxewcjptest.yofnhkfc.xyz
+    path: /video/KaUwgzfU
+- alterId: 0
+  cipher: auto
   name: 11,15|10|🇯🇵 日本5|@ripaojiedian
   network: ws
   port: 46011
@@ -12,6 +26,14 @@ proxies:
     headers:
       Host: mmjp11.micloud.buzz
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 01479b69-268a-4900-854f-83737c5e34fc
+  port: 19529
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -34,25 +56,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|日本4|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: pgrpxewcjptest.yofnhkfc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
-  ws-opts:
-    headers:
-      Host: pgrpxewcjptest.yofnhkfc.xyz
-    path: /video/KaUwgzfU
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 01479b69-268a-4900-854f-83737c5e34fc
-  port: 19529
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
