@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 11,15,16|10,11|日本4|@ripaojiedian
   network: ws
   port: '80'
@@ -26,12 +13,12 @@ proxies:
     headers:
       Host: 6Sn8mFtTjp3.yofnhkfc.xyz
     path: /video/X37qXHip
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.194.250.138
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 49207
+  server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0
@@ -48,11 +35,24 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 713366e0-20b8-4d5d-be5d-988317e086c7
-  port: 49207
-  server: aa01gg.sssyun.xyz
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.194.250.138
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇯🇵 日本5|@ripaojiedian
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
