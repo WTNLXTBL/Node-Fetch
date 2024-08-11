@@ -1,12 +1,17 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 713366e0-20b8-4d5d-be5d-988317e086c7
-  port: 19527
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -38,19 +43,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
   password: llyEnxJlVC
@@ -58,3 +50,11 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 713366e0-20b8-4d5d-be5d-988317e086c7
+  port: 19527
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
