@@ -1,12 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 8fc4337b-4636-44a2-a160-9d360436aa57
-  port: 13006
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
+  port: 40012
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|11|香港6|@ripaojiedian
@@ -21,22 +21,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
-  port: 40011
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
-  port: 40012
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
@@ -46,3 +30,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 8fc4337b-4636-44a2-a160-9d360436aa57
+  port: 13006
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
+  port: 40011
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
