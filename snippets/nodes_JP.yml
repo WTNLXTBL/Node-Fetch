@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
-  port: 49207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇯🇵 日本5|@ripaojiedian
@@ -22,20 +14,6 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11,16|11|日本5|@ripaojiedian
-  network: ws
-  port: '46011'
-  server: mmjp11.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 11,15,16|10,11|日本4|@ripaojiedian
   network: ws
   port: '80'
@@ -48,6 +26,14 @@ proxies:
     headers:
       Host: 6Sn8mFtTjp3.yofnhkfc.xyz
     path: /video/X37qXHip
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
+  port: 49207
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -56,3 +42,17 @@ proxies:
   server: 52.194.188.15
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|日本5|@ripaojiedian
+  network: ws
+  port: '46011'
+  server: mmjp11.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
