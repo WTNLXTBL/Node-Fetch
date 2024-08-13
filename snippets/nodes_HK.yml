@@ -1,16 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|11|香港2|@ripaojiedian
   network: ws
-  port: 46002
+  port: '46002'
   server: biedazjyd.zhangwei.li
+  servername: ''
   tls: false
   type: vmess
   uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
   ws-opts:
     headers:
-      Host: biedazjyd.zhangwei.li
+      Host: ''
     path: /zh-cn
 - alterId: 64
   cipher: auto
@@ -29,14 +30,6 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 8fc4337b-4636-44a2-a160-9d360436aa57
-  port: 13006
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
@@ -56,6 +49,20 @@ proxies:
   uuid: 9ab3ef7a-2348-4452-8e4a-548fc8a980d9
 - alterId: 0
   cipher: auto
+  name: 11,16|11|香港3|@ripaojiedian
+  network: ws
+  port: '46001'
+  server: mmhk01.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 11,15|10|🇭🇰 香港3|@ripaojiedian
   network: ws
   port: 46001
@@ -69,29 +76,22 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11,16|11|香港2|@ripaojiedian
+  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: '46002'
+  port: 46002
   server: biedazjyd.zhangwei.li
-  servername: ''
   tls: false
   type: vmess
   uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
   ws-opts:
     headers:
-      Host: ''
+      Host: biedazjyd.zhangwei.li
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|香港3|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mmhk01.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 8fc4337b-4636-44a2-a160-9d360436aa57
+  port: 13006
+  server: naiu-hk.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
