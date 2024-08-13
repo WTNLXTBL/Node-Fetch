@@ -1,6 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '44815'
+  server: ambxxid02hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9ab3ef7a-2348-4452-8e4a-548fc8a980d9
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 11,16|11|香港6|@ripaojiedian
   network: ws
   port: '46001'
@@ -15,10 +41,34 @@ proxies:
     path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 309f6157-8f68-488c-a6a8-b0f5d7106088
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
-  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
-  port: 40012
-  server: gg01.6bnw.top
+  network: ws
+  port: 46002
+  server: biedazjyd.zhangwei.li
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
+  ws-opts:
+    headers:
+      Host: biedazjyd.zhangwei.li
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 309f6157-8f68-488c-a6a8-b0f5d7106088
+  port: 19527
+  server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 64
@@ -30,6 +80,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: ws
+  port: '46002'
+  server: biedazjyd.zhangwei.li
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: 8fc4337b-4636-44a2-a160-9d360436aa57
@@ -38,11 +102,3 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: bd76eeb6-0c0a-44ea-b177-a8742e72029f
-  port: 40011
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
