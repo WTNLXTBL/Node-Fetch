@@ -1,4 +1,20 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 309f6157-8f68-488c-a6a8-b0f5d7106088
+  port: 49207
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.207.118.251
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇯🇵 日本2|@ripaojiedian
@@ -12,14 +28,6 @@ proxies:
     headers:
       Host: cc1mm2vip.yushen.buzz
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 309f6157-8f68-488c-a6a8-b0f5d7106088
-  port: 49207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|11|日本2|@ripaojiedian
@@ -34,11 +42,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.118.251
-  tfo: false
-  type: ss
