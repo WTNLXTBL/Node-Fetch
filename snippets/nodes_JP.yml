@@ -1,63 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.74
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
-  ws-opts:
-    headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
-- alterId: 0
-  cipher: auto
-  name: 11|11|日本2|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: cc1mm2vip.yushen.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|10|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 46015
-  server: cc1mm2vip.yushen.buzz
-  tls: false
-  type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
-  ws-opts:
-    headers:
-      Host: cc1mm2vip.yushen.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: KghfbM3nBQA+OuD7
-  port: 1666
-  server: 108.61.162.23
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -72,5 +13,35 @@ proxies:
   password: 663e1816-6e95-4f9c-a90e-ba62b16ba9c1
   port: 19529
   server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|日本5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: KghfbM3nBQA+OuD7
+  port: 1666
+  server: 108.61.162.23
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.254.74
   tfo: false
   type: ss
