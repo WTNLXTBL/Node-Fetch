@@ -1,29 +1,29 @@
 proxies:
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 176.34.0.69
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 309f6157-8f68-488c-a6a8-b0f5d7106088
-  port: 39204
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
   name: 1|_SG_
   password: amazonskr05
   port: 443
   server: 54.179.87.28
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 663e1816-6e95-4f9c-a90e-ba62b16ba9c1
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: a7f1334b28f9ad77
+  port: 61254
+  server: 45.130.146.135
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|新加坡2|@ripaojiedian
+  name: 11|10,11|新加坡2|@ripaojiedian
   network: ws
   port: '47408'
   server: 103.30.78.3
@@ -35,3 +35,21 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.34.140
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡3|@ripaojiedian
+  network: tcp
+  port: '10420'
+  server: xcsgp.cokecloud.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
