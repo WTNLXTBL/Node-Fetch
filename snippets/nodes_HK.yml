@@ -1,12 +1,25 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 1ac92503-318a-4d8a-a4e5-fca30166f059
-  port: 40012
-  server: gg01.6bnw.top
+  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 33722
+  server: 103.30.76.172
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -15,14 +28,22 @@ proxies:
   server: 103.97.131.204
   tfo: false
   type: ss
-- client-fingerprint: chrome
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
-  password: de4a493f-5fd9-46e7-bde2-46b9cc3a6d9b
-  port: 21042
-  server: 103.6.220.71
-  skip-cert-verify: false
-  sni: k3.tudou211.com
-  type: trojan
+  password: c054d9f9-be86-4fb1-a03c-b3476d3c9672
+  port: 40011
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: c054d9f9-be86-4fb1-a03c-b3476d3c9672
+  port: 39301
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
@@ -32,11 +53,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 1ac92503-318a-4d8a-a4e5-fca30166f059
-  port: 36993
-  server: 6bhz.6bnw.top
-  tfo: false
-  type: ss
