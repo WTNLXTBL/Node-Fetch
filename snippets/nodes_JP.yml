@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: c054d9f9-be86-4fb1-a03c-b3476d3c9672
+  port: 40019
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -9,35 +17,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|10,11|日本5|@ripaojiedian
+  name: 11,15,16|10,11|日本|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
-  ws-opts:
-    headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: c054d9f9-be86-4fb1-a03c-b3476d3c9672
-  port: 40019
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: c3d4cd98-a316-45d2-9725-d9be48ed8963
