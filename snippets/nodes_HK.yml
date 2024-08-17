@@ -1,4 +1,33 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: ab6c6d06-8315-4ab8-80c2-786e8645b412
+  port: 36993
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: ab6c6d06-8315-4ab8-80c2-786e8645b412
+  port: 29527
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
@@ -8,23 +37,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: ebae2ae3-5bb1-4dea-a834-b0427cbd4147
+  port: 59681
+  server: gdcub.yunnode.win
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|10,11|香港6|@ripaojiedian
-  network: ws
-  port: '33722'
-  server: 103.30.76.172
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
+  name: 11,16|11|香港|@ripaojiedian
   network: ws
   port: '46001'
   server: mmhk01.micloud.buzz
@@ -36,30 +59,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: ebae2ae3-5bb1-4dea-a834-b0427cbd4147
-  port: 59681
-  server: gdcub.yunnode.win
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
   password: llyEnxJlVC
@@ -67,19 +66,3 @@ proxies:
   server: 183.232.139.24
   skip-cert-verify: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: ab6c6d06-8315-4ab8-80c2-786e8645b412
-  port: 29527
-  server: 6bhz.6bnw.top
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: ab6c6d06-8315-4ab8-80c2-786e8645b412
-  port: 36993
-  server: 6bhz.6bnw.top
-  tfo: false
-  type: ss
