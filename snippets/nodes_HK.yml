@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|香港|@ripaojiedian
-  network: ws
-  port: '46001'
-  server: mmhk01.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港5|@ripaojiedian
@@ -24,13 +10,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|10|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 29767
-  server: iepl.hongxingdl.vip
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: fce9f624-b3c0-41ed-8327-13b85dbd2693
+  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
+- alterId: 0
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  tls: false
+  type: vmess
+  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇭🇰 香港|@ripaojiedian
@@ -46,22 +43,15 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '44806'
-  server: ambxxic01hk.dorabbb.top
+  name: 11,16|11|香港|@ripaojiedian
+  network: ws
+  port: '46001'
+  server: mmhk01.micloud.buzz
   servername: ''
   tls: false
   type: vmess
-  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
