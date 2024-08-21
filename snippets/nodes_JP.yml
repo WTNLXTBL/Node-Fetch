@@ -1,32 +1,10 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.7.26
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|日本|@ripaojiedian
-  network: ws
-  port: '2083'
-  server: rnus1.uaqserver.icu
-  servername: rnus1.uaqserver.icu
-  tls: true
-  type: vmess
-  uuid: 9e60f0f6-fb98-4edb-a191-e25b1cdbfcb0
-  ws-opts:
-    headers:
-      Host: rnus1.uaqserver.icu
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 25e4414e-b6ab-46c0-a9ec-0a51cd9750f4
-  port: 61762
-  server: 404.jjynb.com
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 9bc3d207-3f67-4283-905a-f88e275ac842
+  port: 19529
+  server: 6bhz.6bnw.top
   tfo: false
   type: ss
 - alterId: 0
@@ -43,11 +21,19 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 9bc3d207-3f67-4283-905a-f88e275ac842
-  port: 19529
-  server: 6bhz.6bnw.top
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 25e4414e-b6ab-46c0-a9ec-0a51cd9750f4
+  port: 61762
+  server: 404.jjynb.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.7.26
   tfo: false
   type: ss
