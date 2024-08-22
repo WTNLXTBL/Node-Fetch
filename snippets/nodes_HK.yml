@@ -1,12 +1,19 @@
 proxies:
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
   port: 40890
   server: 183.238.90.3
-  skip-cert-verify: false
-  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -26,10 +33,12 @@ proxies:
     path: /?ed=2560
 - alterId: 64
   cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 40890
+  server: 183.238.90.3
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -47,12 +56,3 @@ proxies:
     headers:
       Host: hkbn.6bnw.top
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 40890
-  server: 183.238.90.3
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
