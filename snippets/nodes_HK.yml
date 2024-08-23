@@ -1,25 +1,7 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 40890
-  server: 183.238.90.3
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|香港3|@ripaojiedian
+  name: 11|10,11|香港3|@ripaojiedian
   network: ws
   port: '2052'
   server: 33.6bnw.top
@@ -31,20 +13,24 @@ proxies:
     headers:
       Host: hkbn.6bnw.top
     path: /?ed=2560
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11,15,16|10,11|香港2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 22.6bnw.top
-  servername: ''
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 40890
+  server: 183.238.90.3
   tls: false
   type: vmess
-  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -56,3 +42,43 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|10,11|香港2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: 22.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c
+  ws-opts:
+    headers:
+      Host: hkbn.6bnw.top
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8
+  port: 36993
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 16|香港7|@ripaojiedian
+  network: tcp
+  port: '51000'
+  server: iepl2.airtcp.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: cefe8a8f-7d88-4973-bcd2-fbf023d5e1c8
+  port: 29527
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
