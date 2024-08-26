@@ -1,13 +1,12 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 54104
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: de50dfe4-16b8-4f81-8089-09673edfe43a
+  port: 58811
+  server: zx.1010520.shop
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港|@ripaojiedian
@@ -17,14 +16,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: de50dfe4-16b8-4f81-8089-09673edfe43a
-  port: 58811
-  server: zx.1010520.shop
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|香港8|@ripaojiedian
@@ -39,22 +30,26 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 54104
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
-  port: 19527
-  server: 6bhz.6bnw.top
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 235dcf76-d202-4730-9e42-d8582646ca98
-  port: 563
-  server: cmrefhk1.exitlag.xyz
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|香港3|@ripaojiedian
@@ -69,14 +64,19 @@ proxies:
     headers:
       Host: akhksm.6bnw.top
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 45020
-  server: 183.236.51.23
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 235dcf76-d202-4730-9e42-d8582646ca98
+  port: 563
+  server: cmrefhk1.exitlag.xyz
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
+  port: 19527
+  server: 6bhz.6bnw.top
+  tfo: false
+  type: ss
