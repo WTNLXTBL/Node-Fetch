@@ -1,10 +1,23 @@
 proxies:
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 5601
+  server: v1.cdn.ddnschiyun.xyz
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.197.108.167
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -15,12 +28,12 @@ proxies:
   server: sh.cn2.tianschool.cn
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.197.108.167
   tfo: false
   type: ss
 - alterId: 0
@@ -36,17 +49,4 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 5601
-  server: v1.cdn.ddnschiyun.xyz
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
     path: /
