@@ -1,15 +1,45 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|台湾2|@ripaojiedian
+  network: ws
+  port: '5203'
+  server: ovhsg.v4.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
+  name: 15|🇹🇼 台湾|@ripaojiedian
   password: 515fe89b-473a-4fee-bc39-6a797011e27e
-  port: 32207
-  server: 6bhz.6bnw.top
+  port: 40018
+  server: gg01.6bnw.top
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|台湾|@ripaojiedian
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  network: ws
+  port: 5203
+  server: ovhsg.v4.ddnsjifeng.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: ovhsg.v4.ddnsjifeng.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|10,11|台湾|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
