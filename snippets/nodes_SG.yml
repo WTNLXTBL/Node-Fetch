@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|新加坡2|@ripaojiedian
+  name: 11,15|10|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 5502
+  server: v1.cdn.ddnschiyun.xyz
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|新加坡2|@ripaojiedian
   network: ws
   port: '5502'
   server: v1.cdn.ddnschiyun.xyz
@@ -13,6 +26,12 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -22,28 +41,6 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 5502
-  server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -51,17 +48,3 @@ proxies:
   server: 3.112.240.59
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|新加坡2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW

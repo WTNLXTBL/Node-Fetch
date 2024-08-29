@@ -1,35 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|11|日本2|@ripaojiedian
+  name: 11,15,16|10,11|日本3|@ripaojiedian
   network: ws
-  port: '5601'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 80
+  port: '80'
   server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218
@@ -50,6 +26,14 @@ proxies:
     headers:
       Host: v1.cdn.ddnschiyun.xyz
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -58,3 +42,17 @@ proxies:
   server: 18.183.138.196
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|日本2|@ripaojiedian
+  network: ws
+  port: '5601'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
