@@ -1,16 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|新加坡2|@ripaojiedian
+  network: ws
+  port: '5502'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
-  name: 1|_SG_
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 515fe89b-473a-4fee-bc39-6a797011e27e
-  port: 40013
-  server: gg01.6bnw.top
+  server: 3.112.240.59
   tfo: false
   type: ss
 - alterId: 0
@@ -26,25 +34,17 @@ proxies:
     headers:
       Host: v1.cdn.ddnschiyun.xyz
     path: /
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.240.59
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 515fe89b-473a-4fee-bc39-6a797011e27e
+  port: 40013
+  server: gg01.6bnw.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|新加坡2|@ripaojiedian
-  network: ws
-  port: '5502'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
