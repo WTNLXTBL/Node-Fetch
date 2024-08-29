@@ -1,6 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 5601
+  server: v1.cdn.ddnschiyun.xyz
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|日本2|@ripaojiedian
+  network: ws
+  port: '5601'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,15,16|10,11|日本3|@ripaojiedian
   network: ws
   port: '80'
@@ -13,19 +40,6 @@ proxies:
     headers:
       Host: 6Sn8mFtTjp3.yofnhkfc.xyz
     path: /video/X37qXHip
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 5601
-  server: v1.cdn.ddnschiyun.xyz
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -42,17 +56,3 @@ proxies:
   server: 18.183.138.196
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|日本2|@ripaojiedian
-  network: ws
-  port: '5601'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
