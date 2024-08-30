@@ -1,23 +1,25 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|新加坡3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
 - cipher: aes-256-cfb
   name: 1|_SG_
   password: amazonskr05
   port: 443
   server: 54.179.87.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡4|@ripaojiedian
+  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
+  port: 40013
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.240.59
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -33,6 +35,14 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: fbebeaa2-e5e3-40fa-8a29-83e88ffd0fcd
+  port: 29440
+  server: zf.1010520.shop
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15|10|🇸🇬 新加坡|@ripaojiedian
@@ -46,27 +56,17 @@ proxies:
     headers:
       Host: v1.cdn.ddnschiyun.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡4|@ripaojiedian
-  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
-  port: 40013
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: fbebeaa2-e5e3-40fa-8a29-83e88ffd0fcd
-  port: 29440
-  server: zf.1010520.shop
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.240.59
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|新加坡3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
