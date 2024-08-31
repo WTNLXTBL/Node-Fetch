@@ -1,26 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.35.169.129
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|新加坡3|@ripaojiedian
-  network: ws
-  port: '2082'
-  server: 22.6bnw.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
-  ws-opts:
-    headers:
-      Host: aksg.6bnw.top
-    path: /cctv?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -42,4 +20,26 @@ proxies:
   password: amazonskr05
   port: 443
   server: 54.179.87.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|新加坡3|@ripaojiedian
+  network: ws
+  port: '2082'
+  server: 22.6bnw.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
+  ws-opts:
+    headers:
+      Host: aksg.6bnw.top
+    path: /cctv?ed=2048
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.35.169.129
+  tfo: false
   type: ss
