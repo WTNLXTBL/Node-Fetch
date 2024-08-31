@@ -10,44 +10,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港6|@ripaojiedian
-  network: ws
-  port: '5101'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: fbebeaa2-e5e3-40fa-8a29-83e88ffd0fcd
-  port: 58811
-  server: zx.1010520.shop
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 40046
-  server: shhkt.cdn-sgp.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
-  ws-opts:
-    headers:
-      Host: shhkt.cdn-sgp.xyz
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -65,31 +27,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|10|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 5101
-  server: v1.cdn.ddnschiyun.xyz
-  tls: false
-  type: vmess
-  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 11,16|11|香港2|@ripaojiedian
   network: ws
   port: '40046'
   server: shhkt.cdn-sgp.xyz
@@ -101,3 +41,33 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 40046
+  server: shhkt.cdn-sgp.xyz
+  tls: false
+  type: vmess
+  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
+  ws-opts:
+    headers:
+      Host: shhkt.cdn-sgp.xyz
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: fbebeaa2-e5e3-40fa-8a29-83e88ffd0fcd
+  port: 58811
+  server: zx.1010520.shop
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
