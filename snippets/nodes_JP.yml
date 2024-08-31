@@ -1,7 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|日本3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 63911f91-bc91-4b71-8d40-9ba99e7043e0
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: a4e0dffc-5059-4c27-83c8-7a02f297ff3b
+  port: 50042
+  server: lmnode-08b37ac4.ixd3fh2v5uq1v3z-lmjp.lma1b2.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|10,11|日本3|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -13,25 +45,25 @@ proxies:
     headers:
       Host: 6Sn8mFtTjp3.yofnhkfc.xyz
     path: /video/X37qXHip
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: a4e0dffc-5059-4c27-83c8-7a02f297ff3b
+  port: 50045
+  server: lmnode-08b37ac4.ixd3fh2v5uq1v3z-lmjp.lma1b2.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.183.138.196
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
+  server: 54.180.243.72
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|11|日本2|@ripaojiedian
+  name: 11|11|日本2|@ripaojiedian
   network: ws
   port: '5601'
   server: v1.cdn.ddnschiyun.xyz
@@ -45,7 +77,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
+  name: 11|10|🇯🇵 日本2|@ripaojiedian
   network: ws
   port: 5601
   server: v1.cdn.ddnschiyun.xyz
