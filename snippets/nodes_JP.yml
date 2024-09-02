@@ -1,45 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 5603
-  server: v1.cdn.ddnschiyun.xyz
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|日本2|@ripaojiedian
-  network: ws
-  port: '5606'
-  server: ovhsg.v4.ddnsjifeng.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|日本3|@ripaojiedian
-  network: ws
-  port: '5603'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 34.208.60.66
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本4|@ripaojiedian
@@ -64,6 +31,47 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 11,16|11|日本2|@ripaojiedian
+  network: ws
+  port: '5606'
+  server: ovhsg.v4.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 5603
+  server: v1.cdn.ddnschiyun.xyz
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|日本3|@ripaojiedian
+  network: ws
+  port: '5603'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,15|10|🇯🇵 日本2|@ripaojiedian
   network: ws
   port: 5606
@@ -75,11 +83,3 @@ proxies:
     headers:
       Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 34.208.60.66
-  tfo: false
-  type: ss
