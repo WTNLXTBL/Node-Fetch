@@ -1,45 +1,20 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
+  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: 5603
-  server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
+  port: 5606
+  server: ovhsg.v4.ddnsjifeng.xyz
   tls: false
   type: vmess
   uuid: a95f159e-df58-452c-8484-f3571174d55a
   ws-opts:
     headers:
-      Host: v1.cdn.ddnschiyun.xyz
+      Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63911f91-bc91-4b71-8d40-9ba99e7043e0
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
+  name: 11,16|11|日本2|@ripaojiedian
   network: ws
   port: '5606'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -51,9 +26,44 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|日本3|@ripaojiedian
+  name: 11,15,16|10,11|日本4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7928c5c4-f653-4733-8409-9b1ca0a117a1
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: 11,15|10|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 5603
+  server: v1.cdn.ddnschiyun.xyz
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|日本3|@ripaojiedian
   network: ws
   port: '5603'
   server: v1.cdn.ddnschiyun.xyz
@@ -64,22 +74,6 @@ proxies:
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 5606
-  server: ovhsg.v4.ddnsjifeng.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
