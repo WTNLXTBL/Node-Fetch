@@ -1,16 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
+  name: 11,15|10|🇯🇵 日本3|@ripaojiedian
   network: ws
-  port: 5606
-  server: ovhsg.v4.ddnsjifeng.xyz
+  port: 5603
+  server: v1.cdn.ddnschiyun.xyz
   tls: false
   type: vmess
   uuid: a95f159e-df58-452c-8484-f3571174d55a
   ws-opts:
     headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
+      Host: v1.cdn.ddnschiyun.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -26,14 +26,20 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|11|日本3|@ripaojiedian
+  network: ws
+  port: '5603'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本4|@ripaojiedian
@@ -48,32 +54,26 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15|10|🇯🇵 日本3|@ripaojiedian
+  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
   network: ws
-  port: 5603
-  server: v1.cdn.ddnschiyun.xyz
+  port: 5606
+  server: ovhsg.v4.ddnsjifeng.xyz
   tls: false
   type: vmess
   uuid: a95f159e-df58-452c-8484-f3571174d55a
   ws-opts:
     headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|日本3|@ripaojiedian
-  network: ws
-  port: '5603'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
+      Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
