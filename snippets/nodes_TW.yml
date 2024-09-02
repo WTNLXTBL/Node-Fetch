@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|台湾|@ripaojiedian
+  network: ws
+  port: '5202'
+  server: ovhsg.v4.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
@@ -7,11 +21,19 @@ proxies:
   server: microsoft-680deb75.nbaqz0v1meo0k3d-tw.fcnode.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 5a88940e-e7f8-475b-8157-35863345eccf
-  port: 40017
-  server: hzhz2.sssyun.xyz
+  network: ws
+  port: 5202
+  server: ovhsg.v4.ddnsjifeng.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ovhsg.v4.ddnsjifeng.xyz
+    path: /

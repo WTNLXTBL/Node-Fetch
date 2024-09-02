@@ -7,22 +7,22 @@ proxies:
   server: yd1.qianggewangluo.buzz
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
-  port: 50242
-  server: microsoft-680deb75.nbaqz0v1meo0k3d-jp.fcnode.net
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 5603
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.116.207
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本3|@ripaojiedian
@@ -37,11 +37,55 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
+  name: 16|日本2|@ripaojiedian
+  network: ws
+  port: '5606'
+  server: ovhsg.v4.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: ws
+  port: '5603'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
-  port: 50245
-  server: microsoft-680deb75.nbaqz0v1meo0k3d-jp.fcnode.net
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 5606
+  server: ovhsg.v4.ddnsjifeng.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ovhsg.v4.ddnsjifeng.xyz
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 34.208.60.66
   tfo: false
   type: ss
