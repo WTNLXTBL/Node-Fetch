@@ -13,14 +13,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|11|日本3|@ripaojiedian
@@ -37,6 +29,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 5606
+  server: ovhsg.v4.ddnsjifeng.xyz
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: ovhsg.v4.ddnsjifeng.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,15|10|🇯🇵 日本3|@ripaojiedian
   network: ws
   port: 5603
@@ -48,6 +53,14 @@ proxies:
     headers:
       Host: v1.cdn.ddnschiyun.xyz
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 34.208.60.66
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本4|@ripaojiedian
@@ -62,24 +75,11 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 34.208.60.66
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15|10|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 5606
-  server: ovhsg.v4.ddnsjifeng.xyz
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ovhsg.v4.ddnsjifeng.xyz
-    path: /
