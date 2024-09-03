@@ -1,18 +1,15 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11,15,16|10,11|香港2|@ripaojiedian
-  network: ws
-  port: '30068'
-  server: 220.246.57.161
-  servername: ''
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|10|🇭🇰 香港|@ripaojiedian
@@ -24,14 +21,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|香港3|@ripaojiedian
+  name: 11,15,16|10,11|香港2|@ripaojiedian
   network: ws
-  port: '10001'
-  server: 62.72.163.54
+  port: '30068'
+  server: 220.246.57.161
   servername: ''
   tls: false
   type: vmess
-  uuid: 40a5e6cc-9a01-43d2-837a-b829a9820efc
+  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
   ws-opts:
     headers:
       Host: ''
@@ -52,14 +49,17 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 45020
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
+  name: 11,15,16|10,11|香港3|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 40a5e6cc-9a01-43d2-837a-b829a9820efc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
