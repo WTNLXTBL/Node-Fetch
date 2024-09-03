@@ -1,56 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|香港3|@ripaojiedian
-  network: ws
-  port: '10001'
-  server: 62.72.163.54
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 40a5e6cc-9a01-43d2-837a-b829a9820efc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20001
-  server: hk1.mhw7e2.online
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: d3f674e2-b985-49d2-8654-4b8d53e20217
-  port: 1342
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 45020
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 11,15,16|10,11|香港2|@ripaojiedian
   network: ws
   port: '30068'
@@ -63,3 +13,53 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 45020
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港3|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40a5e6cc-9a01-43d2-837a-b829a9820efc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: d3f674e2-b985-49d2-8654-4b8d53e20217
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20001
+  server: hk1.mhw7e2.online
+  tfo: false
+  type: ss

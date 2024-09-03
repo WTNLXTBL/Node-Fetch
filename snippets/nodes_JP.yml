@@ -1,18 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15,16|10,11|日本4|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
+  name: 11,16|10|🇯🇵 日本3|@ripaojiedian
+  network: tcp
+  port: 42048
+  server: 45.77.128.224
   tls: false
   type: vmess
-  uuid: 7928c5c4-f653-4733-8409-9b1ca0a117a1
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
+  uuid: 61177f92-95e5-424d-b07c-38d3d1ef9675
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -31,18 +34,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|10|🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  port: 42048
-  server: 45.77.128.224
+  name: 11,15,16|10,11|日本4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 61177f92-95e5-424d-b07c-38d3d1ef9675
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
+  uuid: 7928c5c4-f653-4733-8409-9b1ca0a117a1
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
