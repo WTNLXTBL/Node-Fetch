@@ -1,6 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,15,16|10,11|日本2|@ripaojiedian
+  network: ws
+  port: '30001'
+  server: jpgmo02.naizi.vip
+  servername: jpgmo02.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 63b37069-ade8-4d4c-a6dc-1161df539069
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 11,15,16|10,11|日本3|@ripaojiedian
   network: ws
   port: '80'
@@ -21,25 +43,3 @@ proxies:
   server: 35.93.25.21
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|日本2|@ripaojiedian
-  network: ws
-  port: '30001'
-  server: jpgmo02.naizi.vip
-  servername: jpgmo02.naizi.vip
-  tls: true
-  type: vmess
-  uuid: 63b37069-ade8-4d4c-a6dc-1161df539069
-  ws-opts:
-    headers:
-      Host: www.python.org
-    path: /nishidashabi
