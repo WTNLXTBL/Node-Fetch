@@ -1,4 +1,26 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.93.25.21
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7786bd51-a965-4ae9-aac4-a224f9457243
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本2|@ripaojiedian
@@ -19,27 +41,5 @@ proxies:
   password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
   port: 10809
   server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7786bd51-a965-4ae9-aac4-a224f9457243
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.93.25.21
   tfo: false
   type: ss
