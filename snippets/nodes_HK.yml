@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港7|@ripaojiedian
+  network: ws
+  port: '54433'
+  server: 103.255.209.108
+  servername: hk2.aisupermall.com
+  tls: true
+  type: vmess
+  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
+  ws-opts:
+    headers:
+      Host: unknown
+    path: /axsxzA
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -10,15 +24,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
+  name: 11,15,16|10,11|香港5|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|10|🇭🇰 香港8|@ripaojiedian
@@ -36,20 +55,6 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|香港5|@ripaojiedian
-  network: ws
-  port: '10001'
-  server: 62.72.163.54
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -66,17 +71,12 @@ proxies:
   server: gdyddx500.xiyunchen.cn
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11,15,16|10,11|香港7|@ripaojiedian
-  network: ws
-  port: '54433'
-  server: 103.255.209.108
-  servername: hk2.aisupermall.com
-  tls: true
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
   type: vmess
-  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
-  ws-opts:
-    headers:
-      Host: unknown
-    path: /axsxzA
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
