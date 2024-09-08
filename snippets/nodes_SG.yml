@@ -1,9 +1,11 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|_SG_
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.87.28
+  server: 54.169.246.181
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -18,14 +20,6 @@ proxies:
     headers:
       Host: sgdo.vipcasper.com
     path: /vmess
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.169.246.181
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|新加坡|@ripaojiedian
@@ -40,3 +34,9 @@ proxies:
     headers:
       Host: syjsq.sg1.flyidc.top
     path: /syjsq/data
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
