@@ -1,26 +1,12 @@
 proxies:
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 42b6588e-7bf7-4aff-b0ce-074adb29bca7
-  port: 41888
-  server: 6ad1ae37883fcbf8.cdn.jiashule.com
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 63b37069-ade8-4d4c-a6dc-1161df539069
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|香港8|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 16.163.143.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk2.flyidc.top
-    path: /syjsq/data
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|香港7|@ripaojiedian
@@ -35,23 +21,28 @@ proxies:
     headers:
       Host: syjsq.hk1.flyidc.top
     path: /syjsq/data
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 63b37069-ade8-4d4c-a6dc-1161df539069
-  port: 1342
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11,16|10|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 45020
-  server: 183.236.51.23
+  name: 11,15,16|10,11|香港8|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 16.163.143.214
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk2.flyidc.top
+    path: /syjsq/data
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 42b6588e-7bf7-4aff-b0ce-074adb29bca7
+  port: 41888
+  server: 6ad1ae37883fcbf8.cdn.jiashule.com
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -74,6 +65,15 @@ proxies:
     headers:
       Host: syjsq.hk5.flyidc.top
     path: /syjsq/data
+- alterId: 64
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 45020
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
