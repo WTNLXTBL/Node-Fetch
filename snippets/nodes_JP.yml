@@ -7,23 +7,6 @@ proxies:
   server: office-3ed49ffb70.f9umiigcm1awo6o-jp.qytnode.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|10|🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 11767
-  server: 212.50.253.146
-  tls: false
-  type: vmess
-  uuid: 7269ac36-82da-43f9-86b8-ea57bef8f1e7
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.93.25.21
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -34,6 +17,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 20|日本_由快嘴科技提供：kkzui.com日本_158_由快嘴...
+  network: ws
+  port: 443
+  server: tls.99.node-for-bigairport.win
+  tls: true
+  type: vmess
+  uuid: ef5fca10-41bc-4623-87a3-1170a7b51827
+  ws-opts:
+    headers:
+      Host: tls.99.node-for-bigairport.win
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,16|10|🇯🇵 日本3|@ripaojiedian
   network: tcp
   port: 16718
@@ -41,3 +37,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.93.25.21
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|10|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 11767
+  server: 212.50.253.146
+  tls: false
+  type: vmess
+  uuid: 7269ac36-82da-43f9-86b8-ea57bef8f1e7
