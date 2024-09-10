@@ -1,30 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44
-  ws-opts:
-    headers:
-      Host: CfwMEEhvjp3.wzjwkqya.xyz
-    path: /video/qTjvEqix
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.78.200.155
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 20|日本_由快嘴科技提供：kkzui.com日本_158_由快嘴...
   network: ws
   port: 443
@@ -38,27 +14,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|10|🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 11767
-  server: 212.50.253.146
+  name: 11,15,16|10,11|日本|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7269ac36-82da-43f9-86b8-ea57bef8f1e7
-- alterId: 0
-  cipher: auto
-  name: 11|10|🇯🇵 日本3|@ripaojiedian
-  network: tcp
-  port: 16718
-  server: relay.gz.flyidc.top
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  uuid: de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44
+  ws-opts:
+    headers:
+      Host: CfwMEEhvjp3.wzjwkqya.xyz
+    path: /video/qTjvEqix
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
   password: 45c4d39d-9f8d-4188-96bf-dedd1f8fac38
   port: 11024
   server: group-east-01.nutbit-node.lat
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.78.200.155
   tfo: false
   type: ss
