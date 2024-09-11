@@ -1,20 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c
-  port: 23335
-  server: link.karleynetwork.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.203.141.142
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|10,11|日本|@ripaojiedian
@@ -35,5 +19,21 @@ proxies:
   password: 5014dfd8-cbef-46d8-b96a-b75565be73ab
   port: 11020
   server: group-east-01.nutbit-node.lat
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.203.141.142
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c
+  port: 23335
+  server: link.karleynetwork.xyz
   tfo: false
   type: ss
