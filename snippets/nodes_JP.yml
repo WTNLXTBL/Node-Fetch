@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 103.161.255.195
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|10|🇯🇵 日本3|@ripaojiedian
@@ -8,17 +16,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15,16,20|10,11|日本2|@ripaojiedian
+  name: 11,20|10,11|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -32,17 +32,17 @@ proxies:
     path: /video/VDXcaM7r
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 103.161.255.195
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.93.123.44
+  server: 35.93.26.5
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: d1Q123CsJzqx
+  port: 8388
+  server: 103.106.0.10
   tfo: false
   type: ss
