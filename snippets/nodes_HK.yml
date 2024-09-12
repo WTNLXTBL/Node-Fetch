@@ -7,25 +7,6 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.221.193.173
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -37,26 +18,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 80
-  server: 38.207.142.31
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk6.flyidc.top
-    path: /syjsq/data
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '44806'
-  server: ambxxic01hk.dorabbb.top
-  servername: ''
   tls: false
   type: vmess
   uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
@@ -68,3 +34,34 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.221.193.173
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  tls: false
+  type: vmess
+  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 38.207.142.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk6.flyidc.top
+    path: /syjsq/data

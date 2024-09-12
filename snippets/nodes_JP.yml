@@ -1,22 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '14661'
-  server: relay.js.flyidc.top
+  name: 11,15,16|10,11|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
-  port: 10809
-  server: yd1.qianggewangluo.buzz
-  tfo: false
-  type: ss
+  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -27,20 +23,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
+  name: 11,16|10|🇯🇵 日本3|@ripaojiedian
+  network: tcp
+  port: 14661
+  server: relay.js.flyidc.top
   tls: false
   type: vmess
-  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -49,17 +38,11 @@ proxies:
   server: 35.93.123.44
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|日本|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44
-  ws-opts:
-    headers:
-      Host: CfwMEEhvjp3.wzjwkqya.xyz
-    path: /video/qTjvEqix
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 36fdc73d-0bff-4d66-9759-e81c63de16b6
+  port: 10809
+  server: yd1.qianggewangluo.buzz
+  tfo: false
+  type: ss
