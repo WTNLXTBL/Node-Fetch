@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 63b37069-ade8-4d4c-a6dc-1161df539069
-  port: 1342
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -15,6 +7,23 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 63b37069-ade8-4d4c-a6dc-1161df539069
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|10|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 21971
+  server: 38.147.189.150
+  tls: false
+  type: vmess
+  uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,15 +32,6 @@ proxies:
   server: 38.147.189.150
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
-- alterId: 0
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 21971
-  server: 38.147.189.150
   tls: false
   type: vmess
   uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
