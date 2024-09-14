@@ -1,18 +1,29 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
+  name: 11|10|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  tls: false
+  type: vmess
+  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '21971'
+  server: 38.147.189.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  password: ce19c839-49d3-4b65-bd5d-201862ead65b
-  port: 40000
-  server: cnamepc01-drwtbltc3xwmfzhd.coffeehouse.wiki
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: sacQKAwXBLMR
-  port: 7568
-  server: 103.97.131.204
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11001
+  server: group-south-01.nutbit-node.lat
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -23,51 +34,22 @@ proxies:
   server: gdyddx500.xiyunchen.cn
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 67FxYtanE2g5
-  port: 8388
-  server: 103.97.128.45
+  port: 21971
+  server: 38.147.189.150
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
   password: hGkQ6915tD
   port: 16088
   server: 103.161.255.195
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: lNOcIAxy
-  port: 55314
-  server: 36.151.195.83
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.159.184
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|10|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
-  tls: false
-  type: vmess
-  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: ce19c839-49d3-4b65-bd5d-201862ead65b
-  port: 40000
-  server: cname-heyck2gkxig6ajkp.bestruisleipa.com
   tfo: false
   type: ss
