@@ -1,10 +1,32 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|10,11|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
+  ws-opts:
+    headers:
+      Host: zqWukzdtjp1.wzjwkqya.xyz
+    path: /video/RPKZwKFW
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: YCxWVzJ5291c
+  port: 6259
+  server: 154.205.139.44
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.108.128
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 103.161.255.195
   tfo: false
   type: ss
 - alterId: 0
@@ -26,31 +48,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 103.161.255.195
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.108.128
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: YCxWVzJ5291c
-  port: 6259
-  server: 154.205.139.44
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|10,11|日本2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
-  ws-opts:
-    headers:
-      Host: zqWukzdtjp1.wzjwkqya.xyz
-    path: /video/RPKZwKFW
