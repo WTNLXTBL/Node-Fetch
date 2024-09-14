@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 63b37069-ade8-4d4c-a6dc-1161df539069
+  port: 1342
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -18,22 +26,6 @@ proxies:
   tls: false
   type: vmess
   uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
-  port: 11001
-  server: group-south-01.nutbit-node.lat
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 63b37069-ade8-4d4c-a6dc-1161df539069
-  port: 1342
-  server: gdyddx500.xiyunchen.cn
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|10|🇭🇰 香港3|@ripaojiedian
@@ -43,3 +35,11 @@ proxies:
   tls: false
   type: vmess
   uuid: ce69ee1c-293e-45cf-aa8a-9fd05b4da2d3
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
+  port: 11001
+  server: group-south-01.nutbit-node.lat
+  tfo: false
+  type: ss
