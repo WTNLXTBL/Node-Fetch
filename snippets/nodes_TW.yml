@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,15,16|13,14|台湾2|@ripaojiedian
+  name: 11|13,14|台湾2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -13,11 +13,19 @@ proxies:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
-  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
-  port: 11011
-  server: group-south-01.nutbit-node.lat
+  password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
+  port: 33121
+  server: 14.29.215.158
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
+  port: 33114
+  server: cm.guguyun.pw
   tfo: false
   type: ss

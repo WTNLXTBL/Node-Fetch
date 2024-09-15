@@ -1,40 +1,32 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: e825e523-a6e5-4a1a-bd46-48c797a62e49
-  port: 11022
-  server: group-east-01.nutbit-node.lat
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: YCxWVzJ5291c
-  port: 6259
-  server: 154.205.139.44
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|13|🇯🇵 日本4|@ripaojiedian
+  name: 11|13|🇯🇵 日本4|@ripaojiedian
   network: tcp
   port: 16718
   server: relay.gz.flyidc.top
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.108.128
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15,16|13,14|日本2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 472628d9-f89c-4891-bb60-4161bc2583d5
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: 11|13,14|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -46,6 +38,30 @@ proxies:
     headers:
       Host: zqWukzdtjp1.wzjwkqya.xyz
     path: /video/RPKZwKFW
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 03c2b193-6d48-4ed5-b412-0eb8477b5e8f
+  port: 33102
+  server: 14.29.215.158
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: YCxWVzJ5291c
+  port: 6259
+  server: 154.205.139.44
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.254.211
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
