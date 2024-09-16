@@ -1,28 +1,34 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 103.161.255.195
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.8.92
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本5|@ripaojiedian
-  network: tcp
-  port: '40783'
-  server: 45.159.50.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f0d69524-a2cf-4627-c27f-89bbbd8a8c29
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
   password: Qy5kX6RHtVojfW72ce
   port: 3591
   server: 155.138.227.208
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 103.161.255.195
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 901309dd-566b-4725-8877-11901fba992f
+  port: 11022
+  server: group-east-01.nutbit-node.lat
   tfo: false
   type: ss
 - alterId: 0
@@ -39,19 +45,12 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 901309dd-566b-4725-8877-11901fba992f
-  port: 11022
-  server: group-east-01.nutbit-node.lat
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.8.92
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇯🇵 日本5|@ripaojiedian
+  network: tcp
+  port: 40783
+  server: 45.159.50.24
+  tls: false
+  type: vmess
+  uuid: f0d69524-a2cf-4627-c27f-89bbbd8a8c29
