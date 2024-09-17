@@ -1,4 +1,27 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: lNOcIAxy
+  port: 12009
+  server: 36.151.192.196
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 05174439-6643-4c44-b16c-2fd7d700f1ba
+  port: 33107
+  server: cm.guguyun.pw
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 103.161.255.195
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -9,35 +32,20 @@ proxies:
   type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 38.147.190.72
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   password: asd123456
   port: 8388
   server: 38.147.190.25
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 05174439-6643-4c44-b16c-2fd7d700f1ba
-  port: 33107
-  server: cm.guguyun.pw
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 38.147.190.72
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: lNOcIAxy
-  port: 12009
-  server: 36.151.192.196
-  skip-cert-verify: true
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇭🇰 香港5|@ripaojiedian
@@ -47,11 +55,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 3e9c91df-9b92-4714-844d-239d42f1d573
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 103.161.255.195
-  tfo: false
-  type: ss
