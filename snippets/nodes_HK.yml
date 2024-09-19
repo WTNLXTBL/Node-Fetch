@@ -1,4 +1,21 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 9d8f1194-3798-49eb-99c0-cb3132b7591f
+  port: 50652
+  server: zf02.yydz.one
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港|@ripaojiedian
+  network: tcp
+  port: 44801
+  server: ambxxic01hk.dorabbb.top
+  tls: false
+  type: vmess
+  uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -17,10 +34,18 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
+  name: 15|🇭🇰 香港2|@ripaojiedian
   password: 9d8f1194-3798-49eb-99c0-cb3132b7591f
-  port: 50652
+  port: 46881
   server: zf02.yydz.one
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 154.197.98.64
   tfo: false
   type: ss
 - alterId: 0
@@ -34,29 +59,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '44801'
-  server: ambxxic01hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.98.64
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 9d8f1194-3798-49eb-99c0-cb3132b7591f
-  port: 46881
-  server: zf02.yydz.one
-  tfo: false
-  type: ss
