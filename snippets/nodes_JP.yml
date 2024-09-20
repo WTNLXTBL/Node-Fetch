@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.1.202.81
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|13,14|日本2|@ripaojiedian
@@ -23,20 +15,6 @@ proxies:
     path: /nishidashabi
 - alterId: 0
   cipher: auto
-  name: 11,15,16|13,14|日本4|@ripaojiedian
-  network: ws
-  port: '10005'
-  server: jplux01-1.naizi.vip
-  servername: jplux01-1.naizi.vip
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: tv.cctv.com
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
   name: 11,15,16|13,14|日本3|@ripaojiedian
   network: ws
   port: '80'
@@ -49,6 +27,28 @@ proxies:
     headers:
       Host: zqWukzdtjp1.wzjwkqya.xyz
     path: /video/RPKZwKFW
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|日本4|@ripaojiedian
+  network: ws
+  port: '10005'
+  server: jplux01-1.naizi.vip
+  servername: jplux01-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: tv.cctv.com
+    path: /nishidashabi
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.1.202.81
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
