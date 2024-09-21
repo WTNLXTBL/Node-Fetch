@@ -1,97 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|13,14|日本2|@ripaojiedian
-  network: ws
-  port: '20002'
-  server: yxvmjp02-1.naizi.vip
-  servername: yxvmjp02-1.naizi.vip
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: www.python.org
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  port: 10002
-  server: yxvmjp03-1.naizi.vip
-  servername: yxvmjp03-1.naizi.vip
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: www.python.org
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  port: 10005
-  server: jplux02-1.naizi.vip
-  servername: jplux02-1.naizi.vip
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: tv.cctv.com
-    path: /nishidashabi
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|日本3|@ripaojiedian
+  name: 11,15,16|13,14|日本2|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
-  tls: false
-  type: vmess
-  uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
-  ws-opts:
-    headers:
-      Host: zqWukzdtjp1.wzjwkqya.xyz
-    path: /video/RPKZwKFW
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|日本4|@ripaojiedian
-  network: ws
-  port: '10005'
-  server: jplux01-1.naizi.vip
-  servername: jplux01-1.naizi.vip
-  tls: true
-  type: vmess
-  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
-  ws-opts:
-    headers:
-      Host: tv.cctv.com
-    path: /nishidashabi
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.255.150.206
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 01dee9d8-7147-44b4-b3df-b4fe053d18d5
@@ -99,6 +13,28 @@ proxies:
     headers:
       Host: sFcCXgBijp2.wzjwkqya.xyz
     path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|日本5|@ripaojiedian
+  network: ws
+  port: '10005'
+  server: jplux02-1.naizi.vip
+  servername: jplux02-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: tv.cctv.com
+    path: /nishidashabi
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 7e4a5437-9a8f-49d2-9061-11b6d5006d7e
+  port: 11019
+  server: group-east-01.nutbit-node.lat
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -107,11 +43,25 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|日本4|@ripaojiedian
+  network: ws
+  port: '10002'
+  server: yxvmjp03-1.naizi.vip
+  servername: yxvmjp03-1.naizi.vip
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 7e4a5437-9a8f-49d2-9061-11b6d5006d7e
-  port: 11019
-  server: group-east-01.nutbit-node.lat
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.255.150.206
   tfo: false
   type: ss
