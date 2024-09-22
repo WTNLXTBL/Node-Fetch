@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 8c8c0e0a-8be4-401b-87ca-cc03abca6a50
-  port: 34508
-  server: ct2.xcone.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇯🇵 日本4|@ripaojiedian
@@ -16,6 +8,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 220a3d95-cd76-475e-acc3-2c18b78e0dd6
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.62.188
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -24,11 +24,11 @@ proxies:
   server: 107.148.1.194
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.62.188
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 8c8c0e0a-8be4-401b-87ca-cc03abca6a50
+  port: 34508
+  server: ct2.xcone.xyz
   tfo: false
   type: ss
