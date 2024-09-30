@@ -14,22 +14,27 @@ proxies:
     path: /a3ca0380-8a17-403a-a5b3-a9f6e59be193
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
+  name: 11|香港 电讯盈科有限公司
+  network: ws
+  port: 16302
+  server: 220.246.57.32
+  tls: false
+  type: vmess
+  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
   network: tcp
-  port: '50026'
-  server: 149.104.15.120
+  port: '35601'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
-  uuid: f18a05e8-6c40-4a4a-9d3a-a356e5579c3a
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: WfmxKX2FBJRU0Ie9VLIYDL
-  port: 20012
-  server: 141.98.234.93
-  tfo: false
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
   password: c471ef32-798d-40a0-a57c-acf3475a204e
@@ -38,6 +43,14 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: WfmxKX2FBJRU0Ie9VLIYDL
+  port: 20012
+  server: 141.98.234.93
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -46,3 +59,13 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '50026'
+  server: 149.104.15.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f18a05e8-6c40-4a4a-9d3a-a356e5579c3a
