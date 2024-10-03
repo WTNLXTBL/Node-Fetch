@@ -1,14 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 103.161.255.195
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
   password: c471ef32-798d-40a0-a57c-acf3475a204e
@@ -27,37 +25,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|香港 电讯盈科有限公司
-  network: ws
-  port: 677
-  server: 220.246.57.32
-  tls: false
-  type: vmess
-  uuid: 6074a3b0-f2a0-4b05-b1c9-4066e8b876c2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 103.161.255.195
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港3|@ripaojiedian
   network: ws
@@ -72,3 +39,13 @@ proxies:
     headers:
       Host: hk22.laoliu.store
     path: /downloads_hk22
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '44826'
+  server: ambxxid02hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
