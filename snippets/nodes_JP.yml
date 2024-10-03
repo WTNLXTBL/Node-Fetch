@@ -1,20 +1,20 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本6|@ripaojiedian
-  network: ws
-  port: 59501
-  server: cm.laoliu.live
-  skip-cert-verify: false
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.206.194.56
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 10933bdb-ed0e-410c-a019-91c1f33eff25
-  ws-opts:
-    headers:
-      Host: jp12.laoliu.store
-    path: /downloads_jp12
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
+  port: 38404
+  server: whcm.v6v.eu
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -32,19 +32,19 @@ proxies:
     headers:
       Host: mncsdmeujptest.wzjwkqya.xyz
     path: /video/EFkRECxp
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.206.194.56
+  name: 15,16|🇯🇵 日本6|@ripaojiedian
+  network: ws
+  port: 59501
+  server: cm.laoliu.live
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
-  port: 38404
-  server: whcm.v6v.eu
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 10933bdb-ed0e-410c-a019-91c1f33eff25
+  ws-opts:
+    headers:
+      Host: jp12.laoliu.store
+    path: /downloads_jp12
