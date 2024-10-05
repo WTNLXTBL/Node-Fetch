@@ -1,14 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|日本|@ripaojiedian
-  network: tcp
-  port: '31184'
-  server: 45.159.50.80
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 15,16|🇯🇵 日本6|@ripaojiedian
+  network: ws
+  port: 12000
+  server: 172.234.86.166
+  servername: 172.234.86.166
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 1852247b-8284-43d6-b0c7-d687464333a6
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  ws-opts:
+    headers:
+      Host: 172.234.86.166
+    path: /FhmYLiiu
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -25,23 +32,6 @@ proxies:
     headers:
       Host: jp02.knt6y4bjx.buzz
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本6|@ripaojiedian
-  network: ws
-  port: 12000
-  server: 172.234.86.166
-  servername: 172.234.86.166
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
-  ws-opts:
-    headers:
-      Host: 172.234.86.166
-    path: /FhmYLiiu
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -58,3 +48,13 @@ proxies:
   server: jp2.mhw7e2.online
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本|@ripaojiedian
+  network: tcp
+  port: '31184'
+  server: 45.159.50.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1852247b-8284-43d6-b0c7-d687464333a6
