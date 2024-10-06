@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|新加坡 Linode数据中心
-  network: ws
-  port: 2052
-  server: 172.104.189.84
-  tls: true
-  type: vmess
-  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
-  ws-opts:
-    headers:
-      Host: 172.104.189.84
-    path: /video/QqzfRGNq
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -26,6 +13,23 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 2052
+  server: 172.104.189.84
+  servername: 172.104.189.84
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
+  ws-opts:
+    headers:
+      Host: 172.104.189.84
+    path: /video/QqzfRGNq
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian

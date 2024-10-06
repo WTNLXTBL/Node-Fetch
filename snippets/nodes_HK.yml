@@ -1,20 +1,25 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
-  port: 40023
-  server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  port: 35601
-  server: 120.232.153.40
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46001
+  server: 223.244.26.216
   skip-cert-verify: false
   tfo: false
+  tls: false
+  type: vmess
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -24,6 +29,22 @@ proxies:
   password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
   port: 39301
   server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 145ed409-7726-4471-a0ad-c8299c545535
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
+  port: 40023
+  server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0
@@ -36,11 +57,14 @@ proxies:
   tls: false
   type: vmess
   uuid: ee05e267-1e79-472c-95e6-28a07c91f5ac
-- cipher: chacha20-ietf-poly1305
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 145ed409-7726-4471-a0ad-c8299c545535
-  port: 11001
-  server: 183.240.255.75
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  port: 35601
+  server: 120.232.153.40
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

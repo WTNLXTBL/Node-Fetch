@@ -1,6 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20014
@@ -15,14 +23,19 @@ proxies:
   server: 43.201.61.86
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 0c7dac8f-070d-44e0-9e8c-f25fa4604fe9
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京Fastly节点
+  network: ws
+  port: 443
+  server: live.theworldwidewolf.com
+  tls: true
+  type: vmess
+  uuid: 2415a0a8-2570-4c0d-80c0-36288654481a
+  ws-opts:
+    headers:
+      Host: Dbdjhiw72ebsu272hs519j.com
+    path: ws/?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
