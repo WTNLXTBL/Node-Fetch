@@ -1,23 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '11|日本 v2rayfree.eu.org #2'
-  network: ws
-  port: 21021
-  server: ent1.imyourdaddy.top
-  tls: false
-  type: vmess
-  uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
   password: 3a6ef384-c224-40b6-b329-78a0b1cfb7b6
   port: 11001
   server: 61.172.235.22
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.38.102.189
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20014
+  server: jp2.mhw7e2.online
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -28,58 +31,3 @@ proxies:
   server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|日本 东京Fastly节点
-  network: ws
-  port: 443
-  server: live.989bull.com
-  tls: true
-  type: vmess
-  uuid: 6d7e68de-14a5-458d-b903-956665b9fa8f
-  ws-opts:
-    headers:
-      Host: Dbdjhiw72ebsu272hs519j.com
-    path: ws/?ed=2048
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.38.102.189
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|日本 v2rayfree.eu.org
-  network: ws
-  port: 21026
-  server: ent1.imyourdaddy.top
-  tls: false
-  type: vmess
-  uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20014
-  server: jp2.mhw7e2.online
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '11|日本 v2rayfree.eu.org #1'
-  network: ws
-  port: 21027
-  server: ent1.imyourdaddy.top
-  tls: false
-  type: vmess
-  uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
