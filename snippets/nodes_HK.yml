@@ -1,36 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 46001
-  server: 223.244.26.216
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
-  ws-opts:
-    path: /zh-cn
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
-  port: 27102
-  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
@@ -47,3 +15,25 @@ proxies:
   server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
+  port: 27102
+  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港|@ripaojiedian
+  network: ws
+  port: 46001
+  server: 223.244.26.216
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    path: /zh-cn
