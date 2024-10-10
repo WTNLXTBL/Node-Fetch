@@ -1,15 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 38359
-  server: 38.147.188.228
-  skip-cert-verify: false
-  tfo: false
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
   tls: false
   type: vmess
-  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
@@ -23,19 +22,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 38359
+  server: 38.147.188.228
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-  ws-opts:
-    headers:
-      Host: JLzEaUkxhk1.xqyhvpee.xyz
-    path: /video/ceZeGNoE
+  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -55,6 +49,22 @@ proxies:
     path: /path/351212081517
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  ws-opts:
+    headers:
+      Host: JLzEaUkxhk1.xqyhvpee.xyz
+    path: /video/ceZeGNoE
+- alterId: 0
+  cipher: auto
   name: 16|香港6|@ripaojiedian
   network: tcp
   port: '12960'
@@ -63,13 +73,3 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 64
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

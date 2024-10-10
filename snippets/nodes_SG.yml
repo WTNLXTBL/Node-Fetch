@@ -1,10 +1,21 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡|@ripaojiedian
+  network: ws
   port: 443
-  server: 54.179.87.28
-  type: ss
+  server: 192.53.114.166
+  servername: 192.53.114.166
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: fa3c2911-613a-480e-9b2d-aa3762c3a311
+  ws-opts:
+    headers:
+      Host: 192.53.114.166
+    path: /QusAEjFA
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -23,6 +34,12 @@ proxies:
       Host: 192.53.114.167
     path: /BqVwBioP
 - cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -30,20 +47,3 @@ proxies:
   server: 43.201.254.211
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡|@ripaojiedian
-  network: ws
-  port: 443
-  server: 192.53.114.166
-  servername: 192.53.114.166
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: fa3c2911-613a-480e-9b2d-aa3762c3a311
-  ws-opts:
-    headers:
-      Host: 192.53.114.166
-    path: /QusAEjFA
