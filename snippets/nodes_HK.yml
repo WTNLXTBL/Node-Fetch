@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '12960'
+  server: z3.fragranceninja.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15,16|🇭🇰 香港3|@ripaojiedian
   network: ws
@@ -17,14 +27,25 @@ proxies:
     path: /video/ceZeGNoE
 - alterId: 0
   cipher: auto
-  name: 16|香港6|@ripaojiedian
+  name: 16|香港|@ripaojiedian
   network: tcp
-  port: '12960'
-  server: z3.fragranceninja.com
+  port: '38359'
+  server: 38.147.188.228
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
+  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 38359
+  server: 38.147.188.228
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -42,24 +63,13 @@ proxies:
     headers:
       Host: www.85515806.xyz
     path: /path/351212081517
-- alterId: 0
+- alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 38359
-  server: 38.147.188.228
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
+  name: 16|香港4|@ripaojiedian
   network: tcp
-  port: '38359'
-  server: 38.147.188.228
+  port: '35601'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
-  uuid: cf3ee494-eefc-4d9c-8303-1dd7069c406f
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
