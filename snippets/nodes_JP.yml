@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.12.74.84
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -7,22 +15,6 @@ proxies:
   server: soonjp.soon.guru
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 80
-  server: kz3bw.c6tu5uwk9.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
-  ws-opts:
-    headers:
-      Host: jp01.1761d77fead15f193490a0f11b83f3a4.buzz
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -40,11 +32,19 @@ proxies:
     headers:
       Host: 172.234.94.163
     path: /fkPaQhPT
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.12.74.84
+  name: 15,16|🇯🇵 日本|@ripaojiedian
+  network: ws
+  port: 80
+  server: kz3bw.c6tu5uwk9.buzz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 219eb7ea-8f9a-4af8-857b-4b4b564224ef
+  ws-opts:
+    headers:
+      Host: jp01.1761d77fead15f193490a0f11b83f3a4.buzz
+    path: /
