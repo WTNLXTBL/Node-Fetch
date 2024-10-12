@@ -1,15 +1,5 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '12960'
-  server: z3.fragranceninja.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
   cipher: none
   name: 16|香港3|@ripaojiedian
   network: tcp
@@ -19,16 +9,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 74eb53ef-46dd-418d-f09a-98f31e7eea3a
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '35601'
-  server: 120.232.153.40
-  servername: ''
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 18210
+  server: 149.104.20.212
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f
 - alterId: 0
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -39,6 +30,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f
+- alterId: 64
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '35601'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -55,14 +56,3 @@ proxies:
     headers:
       Host: gbdzxvumhk1.xqyhvpee.xyz
     path: /ifBUEjhG
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 18210
-  server: 149.104.20.212
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d57c4ac9-f43b-4856-ac46-4987a08e1f6f
