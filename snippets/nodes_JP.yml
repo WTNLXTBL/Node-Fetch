@@ -1,12 +1,30 @@
 proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.82.24
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
   password: JpTYrOJnIhNMXqli
   port: 23801
   server: 221.181.185.71
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本2|@ripaojiedian
+  network: tcp
+  port: '51127'
+  server: 45.159.50.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -32,21 +50,3 @@ proxies:
   server: soonjp.soon.guru
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.82.24
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '51127'
-  server: 45.159.50.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ab67e1dc-14ba-4638-9817-7cb68895a4be
