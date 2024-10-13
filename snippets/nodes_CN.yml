@@ -1,23 +1,7 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|广东省 移动
-  network: tcp
-  port: '12960'
-  server: z3.fragranceninja.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
 - alterId: 64
   cipher: auto
-  name: 3,17|🇨🇳_CN_中国
+  name: 3|🇨🇳_CN_中国
   network: tcp
   port: 54882
   server: 183.240.235.162
@@ -38,3 +22,9 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
