@@ -2,6 +2,26 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
+  network: ws
+  port: 80
+  server: 47.84.66.79
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9caa711c-2490-4041-812d-edbcb994fd18
+  ws-opts:
+    path: /9caa711c
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 15,16|🇸🇬 新加坡|@ripaojiedian
   network: ws
   port: 443
@@ -16,20 +36,6 @@ proxies:
     headers:
       Host: 192.53.172.172
     path: /nrMnVTFq
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 80
-  server: 47.84.66.79
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 9caa711c-2490-4041-812d-edbcb994fd18
-  ws-opts:
-    path: /9caa711c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -37,10 +43,4 @@ proxies:
   port: 443
   server: 54.250.103.70
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
   type: ss
