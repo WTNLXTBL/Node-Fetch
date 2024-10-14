@@ -11,14 +11,23 @@ proxies:
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '51272'
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 51272
   server: 38.147.188.98
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cd7c66cf-aad9-4646-b979-7555aa124b93
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 030b7ede-55e5-4e1f-b509-efcacc1877e1
+  port: 21017
+  server: tt07.51feitu.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港6|@ripaojiedian
@@ -29,25 +38,6 @@ proxies:
   tls: true
   type: vmess
   uuid: a32313ad-5e39-4f9a-9cad-512041790050
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  port: 51272
-  server: 38.147.188.98
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cd7c66cf-aad9-4646-b979-7555aa124b93
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
-  port: 10004
-  server: cdn.node1.lilisi.link
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: 16|香港4|@ripaojiedian
@@ -58,11 +48,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 030b7ede-55e5-4e1f-b509-efcacc1877e1
-  port: 21017
-  server: tt07.51feitu.com
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 26f959e3-1a5e-3b3d-b4cd-fe04c80902bd
+  port: 10004
+  server: cdn.node1.lilisi.link
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '51272'
+  server: 38.147.188.98
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd7c66cf-aad9-4646-b979-7555aa124b93
