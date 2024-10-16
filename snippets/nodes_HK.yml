@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '2902'
+  server: 143.92.42.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -7,33 +17,6 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 8c052d7a-d5da-495a-abee-93f4bef380e1
-  port: 54937
-  server: jioawdm.zhangwei.li
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: b6979cfa-bab9-4303-b10c-cd350fbea326
-  port: 27263
-  server: gtm1.ktmwan.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  port: 2902
-  server: 143.92.42.65
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
   name: 16|香港6|@ripaojiedian
@@ -52,13 +35,30 @@ proxies:
   server: 183.240.255.75
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 8c052d7a-d5da-495a-abee-93f4bef380e1
+  port: 54937
+  server: jioawdm.zhangwei.li
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '2902'
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  port: 2902
   server: 143.92.42.65
-  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: b6979cfa-bab9-4303-b10c-cd350fbea326
+  port: 27263
+  server: gtm1.ktmwan.com
+  tfo: false
+  type: ss
