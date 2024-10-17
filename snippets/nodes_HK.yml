@@ -1,4 +1,23 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 4b3391e1-3cc6-4e82-816c-6b7bf516c12b
+  port: 29527
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 50023
+  server: 50023.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
 - alterId: 0
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -9,6 +28,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港 电讯盈科有限公司
+  network: tcp
+  port: '30251'
+  server: hkt2.bika.hk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - alterId: 0
   cipher: auto
   name: 16|香港5|@ripaojiedian
@@ -35,32 +64,3 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 4b3391e1-3cc6-4e82-816c-6b7bf516c12b
-  port: 29527
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  port: 50023
-  server: 50023.baidu-cdn.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '30251'
-  server: hkt2.bika.hk
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e88a10b-655c-5120-89d0-408634169561
