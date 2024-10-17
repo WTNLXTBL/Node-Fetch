@@ -1,14 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '50032'
-  server: 50032.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: hGkQ6915tD
+  port: 15084
+  server: 120.232.81.50
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: none
   name: 16|日本5|@ripaojiedian
@@ -19,14 +17,6 @@ proxies:
   tls: false
   type: vmess
   uuid: dccaf5fa-5482-49cb-8519-5434af52ccbc
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.45.212
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
@@ -35,11 +25,21 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '50032'
+  server: 50032.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0900abc9-29a4-4f70-98de-336b5d4b79d6
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 120.232.81.50
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.45.212
   tfo: false
   type: ss
