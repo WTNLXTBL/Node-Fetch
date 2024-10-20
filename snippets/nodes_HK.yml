@@ -1,10 +1,45 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: giving-marmoset.opossum872.cfd
+  skip-cert-verify: false
+  sni: giving-marmoset.opossum872.cfd
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 11|香港 电讯盈科有限公司
+  network: tcp
+  port: 30251
+  server: 1.65.205.116
+  tls: false
+  type: vmess
+  uuid: 9e88a10b-655c-5120-89d0-408634169561
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   password: 91797a4c-47cb-4bf1-bc04-a3f2da51ef20
   port: 11001
   server: 183.232.229.165
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '35011'
+  server: tanz-hk.01byx31qzn.download
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 548ff3c1-d8c8-3110-a65a-fb55573380c7
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: dac09e78-6d93-431d-97fe-802854d87b17
+  port: 40012
+  server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
 - alterId: 0
@@ -25,14 +60,6 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: giving-marmoset.opossum872.cfd
-  skip-cert-verify: false
-  sni: giving-marmoset.opossum872.cfd
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 16|香港5|@ripaojiedian
@@ -43,21 +70,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: dac09e78-6d93-431d-97fe-802854d87b17
-  port: 40012
-  server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '35011'
-  server: tanz-hk.01byx31qzn.download
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 548ff3c1-d8c8-3110-a65a-fb55573380c7
