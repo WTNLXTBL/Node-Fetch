@@ -1,12 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 44826
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '44826'
   server: ambxxid02hk.dorabbb.top
-  skip-cert-verify: false
-  tfo: false
+  servername: ''
   tls: false
   type: vmess
   uuid: 21ebc5e2-e41a-47bc-92f8-bd06aef95579
@@ -16,14 +15,6 @@ proxies:
   password: 624f20fd-ab32-43a7-ac2a-f006909ce7c8
   port: 10017
   server: rhsdrhwa.cfprefer1.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 76dze09gQEvqS_jOuo
-  port: 3913
-  server: 144.202.112.106
   tfo: false
   type: ss
 - cipher: chacha20-ietf
@@ -36,16 +27,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '44826'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21ebc5e2-e41a-47bc-92f8-bd06aef95579
-- alterId: 0
-  cipher: auto
   name: 16|香港5|@ripaojiedian
   network: tcp
   port: '2902'
@@ -54,3 +35,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 44826
+  server: ambxxid02hk.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21ebc5e2-e41a-47bc-92f8-bd06aef95579
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 76dze09gQEvqS_jOuo
+  port: 3913
+  server: 144.202.112.106
+  tfo: false
+  type: ss
