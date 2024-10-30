@@ -16,17 +16,6 @@ proxies:
     headers:
       Host: z3.fragranceninja.com
     path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港R|@ripaojiedian
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40206
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 7438974b54cf5c57.cdn.jiashule.com
-  type: ssr
 - alterId: 0
   cipher: auto
   name: 16|香港5|@ripaojiedian
@@ -39,30 +28,28 @@ proxies:
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '45219'
-  server: 103.224.80.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac134134-87e5-42b5-8805-565395a30acc
-- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 38.147.190.72
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  port: 45219
-  server: 103.224.80.27
+  name: 15,16|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: ac134134-87e5-42b5-8805-565395a30acc
+  uuid: aaa1b350-15f7-4837-9a08-2129ff9c6d1e
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  port: 2902
+  server: 143.92.42.65
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
