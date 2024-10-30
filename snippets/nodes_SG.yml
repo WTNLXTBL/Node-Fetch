@@ -1,9 +1,25 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: bebfbeb0-2797-4996-a8ef-c360bc457f15
+  port: 53661
+  server: a.putaotnt.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: 1|_SG_
   password: amazonskr05
   port: 443
   server: 54.179.87.28
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 43.201.254.211
+  tfo: false
   type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -15,21 +31,5 @@ proxies:
     mode: http
   port: 1190
   server: 163.177.58.179
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.254.211
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: bebfbeb0-2797-4996-a8ef-c360bc457f15
-  port: 53661
-  server: a.putaotnt.com
   tfo: false
   type: ss
