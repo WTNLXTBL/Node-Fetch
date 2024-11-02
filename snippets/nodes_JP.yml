@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇯🇵 日本2|@ripaojiedian
@@ -16,12 +8,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 4947b7ee-a191-4b23-aa2a-7c22d20d5308
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: bea6b53a-420e-4098-af95-fab651ed6008
-  port: 11001
-  server: 61.172.235.22
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.213.30.242
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
   tfo: false
   type: ss
 - alterId: 64
@@ -38,11 +38,11 @@ proxies:
     headers:
       Host: www.37727754.xyz
     path: /path/351212081517
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.213.30.242
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: bea6b53a-420e-4098-af95-fab651ed6008
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
