@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|香港6|@ripaojiedian
+  name: 16|香港5|@ripaojiedian
   network: tcp
-  port: '16372'
-  server: 38.147.188.106
+  port: '2902'
+  server: 143.92.42.65
   servername: ''
   tls: false
   type: vmess
-  uuid: ee422749-bb89-423b-9d2e-66acbe22bef1
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
@@ -17,6 +17,16 @@ proxies:
   server: 38.147.190.72
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: '16|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '50037'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -34,24 +44,6 @@ proxies:
     headers:
       Host: www.90980549.xyz
     path: /path/351212081517
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港9|@ripaojiedian
-  password: bea6b53a-420e-4098-af95-fab651ed6008
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: '16|香港3|@ripaojiedian #1'
-  network: tcp
-  port: '50037'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 16|香港7|@ripaojiedian
@@ -95,11 +87,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 16|香港5|@ripaojiedian
+  name: 16|香港6|@ripaojiedian
   network: tcp
-  port: '2902'
-  server: 143.92.42.65
+  port: '16372'
+  server: 38.147.188.106
   servername: ''
   tls: false
   type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  uuid: ee422749-bb89-423b-9d2e-66acbe22bef1
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港9|@ripaojiedian
+  password: bea6b53a-420e-4098-af95-fab651ed6008
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
