@@ -1,22 +1,18 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: bea6b53a-420e-4098-af95-fab651ed6008
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '15433'
-  server: 45.159.51.138
-  servername: ''
-  tls: false
+  name: 11,15,16|13,14|日本|@ripaojiedian
+  network: ws
+  port: '30002'
+  server: 134.122.196.66
+  servername: www.37727754.xyz
+  tls: true
   type: vmess
-  uuid: 4947b7ee-a191-4b23-aa2a-7c22d20d5308
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.37727754.xyz
+    path: /path/351212081517
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
@@ -25,23 +21,14 @@ proxies:
   server: 149.22.87.240
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本|@ripaojiedian
-  network: ws
-  port: 30002
-  server: 134.122.196.66
-  servername: www.37727754.xyz
-  skip-cert-verify: false
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: bea6b53a-420e-4098-af95-fab651ed6008
+  port: 11001
+  server: 61.172.235.22
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.37727754.xyz
-    path: /path/351212081517
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -50,3 +37,12 @@ proxies:
   server: 13.213.30.242
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇯🇵 日本2|@ripaojiedian
+  network: tcp
+  port: 15433
+  server: 45.159.51.138
+  tls: false
+  type: vmess
+  uuid: 4947b7ee-a191-4b23-aa2a-7c22d20d5308
