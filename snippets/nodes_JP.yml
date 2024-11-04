@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇯🇵 日本|@ripaojiedian
@@ -16,6 +8,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.198.194.170
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
@@ -24,11 +24,11 @@ proxies:
   server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.198.194.170
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
