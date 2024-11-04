@@ -1,21 +1,19 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港4|@ripaojiedian
   network: tcp
-  port: 34565
-  server: 120.232.153.71
+  port: 50037
+  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
+  network: tcp
   port: 34565
   server: 120.232.153.71
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -37,37 +35,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 69e0e169-0702-4454-9d88-259d08e57926
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 206.119.175.50
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 44826
-  server: ambxxid02hk.dorabbb.top
-  tls: false
-  type: vmess
-  uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港4|@ripaojiedian
-  network: tcp
-  port: 50037
-  server: 183.236.51.23
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 34565
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -80,3 +55,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 206.119.175.50
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 44826
+  server: ambxxid02hk.dorabbb.top
+  tls: false
+  type: vmess
+  uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
