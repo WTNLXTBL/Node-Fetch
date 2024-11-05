@@ -1,24 +1,21 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 48009
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  port: 48009
-  server: 183.236.51.23
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 813e5b6e-76c7-4ed3-a913-7cfcb7490424
+  port: 11001
+  server: 183.240.255.75
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 2902
+  server: 143.92.42.65
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港2|@ripaojiedian
@@ -36,14 +33,17 @@ proxies:
   server: gdcub.yunnode.win
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 813e5b6e-76c7-4ed3-a913-7cfcb7490424
-  port: 11001
-  server: 183.240.255.75
+  name: 15|🇭🇰 香港|@ripaojiedian
+  port: 48009
+  server: 183.236.51.23
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
@@ -52,12 +52,12 @@ proxies:
   server: gdcub.yunnode.win
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港|@ripaojiedian
   network: tcp
-  port: 2902
-  server: 143.92.42.65
+  port: 48009
+  server: 183.236.51.23
   tls: false
   type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
