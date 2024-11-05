@@ -1,4 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
+  port: 31672
+  server: gdcub.yunnode.win
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 50dd31ce-2e8c-45e2-be8b-cba8a6eee621
+  port: 35631
+  server: gdcub.yunnode.win
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 813e5b6e-76c7-4ed3-a913-7cfcb7490424
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -10,39 +34,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 50dd31ce-2e8c-45e2-be8b-cba8a6eee621
-  port: 35631
-  server: gdcub.yunnode.win
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 01ec0aea-686e-4c3a-8276-cf3f145b5304
-  port: 31672
-  server: gdcub.yunnode.win
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 56601
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 813e5b6e-76c7-4ed3-a913-7cfcb7490424
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇭🇰 香港5|@ripaojiedian
@@ -57,6 +48,15 @@ proxies:
   name: 11,16|13|🇭🇰 香港|@ripaojiedian
   network: tcp
   port: 48009
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 56601
   server: 183.236.51.23
   tls: false
   type: vmess
