@@ -1,12 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 13391662-0c19-44cd-a283-2aaa91d87254
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 17763
+  server: 45.159.50.245
+  tls: false
+  type: vmess
+  uuid: e6d7ed00-84fa-4c07-b106-28c757b0e6d9
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -15,23 +16,20 @@ proxies:
   server: 44.243.225.84
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: 13391662-0c19-44cd-a283-2aaa91d87254
+  port: 11001
+  server: 61.172.235.22
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|日本3|@ripaojiedian
+  name: 11,16|13|🇯🇵 日本3|@ripaojiedian
   network: tcp
-  port: '20219'
+  port: 20219
   server: 107.148.1.76
-  servername: ''
   tls: false
   type: vmess
   uuid: c9f5b2aa-d50c-48e0-fd7d-d4cdc325d905
-- alterId: 0
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '17763'
-  server: 45.159.50.245
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e6d7ed00-84fa-4c07-b106-28c757b0e6d9
