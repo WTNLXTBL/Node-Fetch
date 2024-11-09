@@ -1,10 +1,46 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 34169
+  server: 38.147.189.161
+  tls: false
+  type: vmess
+  uuid: b7edcefb-9720-4829-8257-842b9a29f8fc
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 5d7cd009-e16d-4a8f-9d23-01395a4e6467
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港2|@ripaojiedian
   network: tcp
   port: 56601
   server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 4322aee9-98c9-4cf6-8cc5-4b3a9bc3a8ec
+  port: 11001
+  server: 183.232.229.165
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 56601
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -25,39 +61,3 @@ proxies:
   server: 120.241.45.50
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 34169
-  server: 38.147.189.161
-  tls: false
-  type: vmess
-  uuid: b7edcefb-9720-4829-8257-842b9a29f8fc
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 4322aee9-98c9-4cf6-8cc5-4b3a9bc3a8ec
-  port: 11001
-  server: 183.232.229.165
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 5d7cd009-e16d-4a8f-9d23-01395a4e6467
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 56601
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
