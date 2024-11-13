@@ -1,9 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 173c0893-5ab2-4223-88ce-b6e8d512306b
+  port: 53062
+  server: 183.232.159.51
+  tfo: false
   type: ss
 - alterId: 64
   cipher: auto
@@ -22,11 +24,9 @@ proxies:
   server: 43.207.113.77
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 173c0893-5ab2-4223-88ce-b6e8d512306b
-  port: 53062
-  server: 183.232.159.51
-  tfo: false
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
   type: ss
