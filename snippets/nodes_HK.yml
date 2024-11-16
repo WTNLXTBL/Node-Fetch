@@ -1,12 +1,18 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 1S4F61F85M49UAJP
+  port: 15003
+  server: 58.63.250.61
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
+  network: tcp
   port: 56601
   server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -19,12 +25,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5
+  port: 30474
+  server: ll-hg.mtls.xyz
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 58002
-  server: 120.232.153.27
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 56601
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -38,26 +54,10 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港2|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
   network: tcp
-  port: 56601
-  server: 183.236.51.23
+  port: 58002
+  server: 120.232.153.27
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5
-  port: 30474
-  server: ll-hg.mtls.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 1S4F61F85M49UAJP
-  port: 15003
-  server: 58.63.250.61
-  tfo: false
-  type: ss
