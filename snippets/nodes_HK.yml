@@ -1,26 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: QwwHvrnN
-  port: 14505
-  server: 36.151.192.242
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 53002
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
-  port: 30017
-  server: 117.176.203.229
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  port: 49897
+  server: 4.api-catssr.catcloud.host
   tfo: false
   type: ss
 - alterId: 64
@@ -32,6 +16,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
+  port: 30017
+  server: 117.176.203.229
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 38c4951c-4975-4737-a5d4-7faad420b4c5
+  port: 11001
+  server: 183.240.255.75
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: QwwHvrnN
+  port: 14505
+  server: 36.151.192.242
+  skip-cert-verify: true
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
@@ -43,19 +50,12 @@ proxies:
   protocol-param: 102946:2LUBMA
   server: 28b09af269781f9b.cdn.jiashule.com
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  password: bb741d28-cd11-4ce8-8799-459407bacde8
-  port: 49897
-  server: 4.api-catssr.catcloud.host
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 38c4951c-4975-4737-a5d4-7faad420b4c5
-  port: 11001
-  server: 183.240.255.75
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 53002
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
