@@ -1,32 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 53002
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40239
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 28b09af269781f9b.cdn.jiashule.com
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: bb741d28-cd11-4ce8-8799-459407bacde8
-  port: 13274
-  server: 2.api-catssr.catcloud.host
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
@@ -42,6 +14,23 @@ proxies:
   server: 36.151.192.242
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: bb741d28-cd11-4ce8-8799-459407bacde8
+  port: 13274
+  server: 2.api-catssr.catcloud.host
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 53002
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港5|@ripaojiedian
@@ -51,3 +40,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  obfs: plain
+  obfs-param: 8195986416.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40239
+  protocol: auth_aes128_md5
+  protocol-param: 86416:SlZFuy
+  server: 28b09af269781f9b.cdn.jiashule.com
+  type: ssr
