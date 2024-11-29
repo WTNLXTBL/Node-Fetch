@@ -1,4 +1,29 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 58831
+  server: 183.236.48.163
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 53002
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: QwwHvrnN
+  port: 34185
+  server: 36.151.192.201
+  skip-cert-verify: true
+  type: trojan
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -18,28 +43,3 @@ proxies:
   server: soonhk.soon.guru
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 53002
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 58831
-  server: 183.236.48.163
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: QwwHvrnN
-  port: 34185
-  server: 36.151.192.201
-  skip-cert-verify: true
-  type: trojan
