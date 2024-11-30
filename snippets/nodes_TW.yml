@@ -1,15 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: F585FCDB-6351-48D4-82C1-599B5447A589
-  port: 40020
-  server: soontw.soon.guru
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,15,16|13,14|台湾|@ripaojiedian
+  name: 11|13,14|台湾|@ripaojiedian
   network: ws
   port: '443'
   server: hk.xn--vpn-rw7eh25o.com
@@ -21,3 +13,11 @@ proxies:
     headers:
       Host: hk.xn--vpn-rw7eh25o.com
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: db6de241-8d8f-4c04-93f8-97e5ee13b349
+  port: 11011
+  server: group-aipop-81492.nutbit-node.lat
+  tfo: false
+  type: ss
