@@ -7,6 +7,19 @@ proxies:
   server: j-p04.loveroise.com
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 16800
+  server: 152.70.101.24
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
@@ -23,16 +36,3 @@ proxies:
   server: 18.183.146.147
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 16800
-  server: 152.70.101.24
-  skip-cert-verify: false
-  sni: tr.koiok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koiok.us.kg
-    path: /?ed=2560
