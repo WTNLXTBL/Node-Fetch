@@ -1,27 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54000
-  server: h-k01.loveroise.com
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: DNUMdmnJ
-  port: 42395
-  server: 36.151.192.239
-  skip-cert-verify: true
-  type: trojan
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
   network: ws
@@ -35,15 +12,21 @@ proxies:
     headers:
       Host: tr.koiok.us.kg
     path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: 11|13|🇭🇰 香港9|@ripaojiedian
-  network: tcp
-  port: 41490
-  server: 183.236.48.143
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: DNUMdmnJ
+  port: 42395
+  server: 36.151.192.239
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54000
+  server: h-k01.loveroise.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港5|@ripaojiedian
@@ -55,11 +38,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
   network: tcp
-  port: '39041'
+  port: 39041
   server: hk1.tiljkc.top
-  servername: ''
   tls: false
   type: vmess
   uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
@@ -72,3 +54,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54002
+  server: h-k02.loveroise.com
+  tfo: false
+  type: ss
