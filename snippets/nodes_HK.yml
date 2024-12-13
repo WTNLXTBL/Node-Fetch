@@ -1,24 +1,22 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 18443
-  server: 18.162.246.4
-  skip-cert-verify: false
-  sni: tr.koiok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koiok.us.kg
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: DNUMdmnJ
-  port: 42395
-  server: 36.151.192.239
-  skip-cert-verify: true
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54002
+  server: h-k02.loveroise.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|香港3|@ripaojiedian
+  network: http
+  port: '41002'
+  server: hk1.tiljkc.top
+  servername: urydh.ljricbrd.top
+  tls: true
+  type: vmess
+  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
@@ -35,24 +33,26 @@ proxies:
   server: h-k01.loveroise.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|13,14|香港3|@ripaojiedian
-  network: http
-  port: '41002'
-  server: hk1.tiljkc.top
-  servername: urydh.ljricbrd.top
-  tls: true
-  type: vmess
-  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54002
-  server: h-k02.loveroise.com
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: DNUMdmnJ
+  port: 42395
+  server: 36.151.192.239
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 18443
+  server: 18.162.246.4
+  skip-cert-verify: false
+  sni: tr.koiok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koiok.us.kg
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港7|@ripaojiedian
