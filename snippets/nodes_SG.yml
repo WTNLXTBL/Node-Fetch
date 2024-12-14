@@ -1,11 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -27,6 +21,14 @@ proxies:
     headers:
       Host: down.dingtalk.com
     path: /bby
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: OWLCP6DOQ4PZ5M7G
+  port: 16015
+  server: 219.135.227.209
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|13,14|新加坡2|@ripaojiedian
@@ -37,11 +39,9 @@ proxies:
   tls: true
   type: vmess
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: OWLCP6DOQ4PZ5M7G
-  port: 16015
-  server: 219.135.227.209
-  tfo: false
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
   type: ss
