@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|日本|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: www.visa.com.tw
+  servername: jk.htg8866.us.kg
+  tls: true
+  type: vmess
+  uuid: 6e064e59-b61c-4b9d-9455-7f143df84ec0
+  ws-opts:
+    headers:
+      Host: jk.htg8866.us.kg
+    path: /65hsr6
 - alterId: 64
   cipher: auto
   name: 11,15,16|13,14|日本3|@ripaojiedian
@@ -13,6 +27,38 @@ proxies:
     headers:
       Host: www.42266451.xyz
     path: /path/240811062813
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: N2YMKAZFC2O29JGP
+  port: 18002
+  server: 156.231.104.12
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本5|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本7|@ripaojiedian
+  password: D8Q8HROCQRCZCSVC
+  port: 18009
+  server: 156.231.104.19
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本8|@ripaojiedian
+  password: OIGGYGR002SRGG33
+  port: 18003
+  server: 156.231.104.13
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -35,36 +81,6 @@ proxies:
     headers:
       Host: www.80347320.xyz
     path: /path/240811062813
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本5|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本7|@ripaojiedian
-  password: D8Q8HROCQRCZCSVC
-  port: 18009
-  server: 156.231.104.19
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|13,14|日本|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: www.visa.com.tw
-  servername: jk.htg8866.us.kg
-  tls: true
-  type: vmess
-  uuid: 6e064e59-b61c-4b9d-9455-7f143df84ec0
-  ws-opts:
-    headers:
-      Host: jk.htg8866.us.kg
-    path: /65hsr6
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇯🇵 日本6|@ripaojiedian
@@ -74,19 +90,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: N2YMKAZFC2O29JGP
-  port: 18002
-  server: 156.231.104.12
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本8|@ripaojiedian
-  password: OIGGYGR002SRGG33
-  port: 18003
-  server: 156.231.104.13
-  tfo: false
-  type: ss
