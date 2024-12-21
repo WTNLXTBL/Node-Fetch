@@ -1,4 +1,29 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本5|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇯🇵 日本6|@ripaojiedian
+  network: tcp
+  port: 38953
+  server: jp1.tiljkc.top
+  tls: false
+  type: vmess
+  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: N2YMKAZFC2O29JGP
+  port: 18002
+  server: 156.231.104.12
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|13,14|日本|@ripaojiedian
@@ -15,6 +40,20 @@ proxies:
     path: /65hsr6
 - alterId: 64
   cipher: auto
+  name: 11,15,16|13,14|日本2|@ripaojiedian
+  network: ws
+  port: '30005'
+  server: 89.163.231.19
+  servername: www.80347320.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.80347320.xyz
+    path: /path/240811062813
+- alterId: 64
+  cipher: auto
   name: 11,15,16|13,14|日本3|@ripaojiedian
   network: ws
   port: '47778'
@@ -27,20 +66,12 @@ proxies:
     headers:
       Host: www.42266451.xyz
     path: /path/240811062813
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: N2YMKAZFC2O29JGP
-  port: 18002
-  server: 156.231.104.12
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本5|@ripaojiedian
-  password: shadowsocks
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
   port: 443
-  server: 149.22.87.204
+  server: 52.32.68.164
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -59,34 +90,3 @@ proxies:
   server: 156.231.104.13
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.32.68.164
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,15,16|13,14|日本2|@ripaojiedian
-  network: ws
-  port: '30005'
-  server: 89.163.231.19
-  servername: www.80347320.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.80347320.xyz
-    path: /path/240811062813
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|🇯🇵 日本6|@ripaojiedian
-  network: tcp
-  port: 38953
-  server: jp1.tiljkc.top
-  tls: false
-  type: vmess
-  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
