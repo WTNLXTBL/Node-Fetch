@@ -1,26 +1,64 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: ZpeGa4
-  port: 56018
-  server: db59a98b.b8z9y9a5g9-fb-hk18.6pzfwf.com
+  name: 15,16|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 51201
+  server: b.naiun.node-is.green
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 2d570475-a7a6-4242-b733-d5300305b615
+  ws-opts:
+    headers:
+      Host: live.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|13|🇭🇰 香港8|@ripaojiedian
+  network: tcp
+  port: 39041
+  server: hk1.tiljkc.top
+  tls: false
+  type: vmess
+  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: DNUMdmnJ
+  port: 42395
+  server: 36.151.192.239
+  skip-cert-verify: true
+  type: trojan
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  name: 11|13,14|香港6|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 170.178.186.12
+  servername: www.59477189.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59477189.xyz
+    path: /path/240811062813
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港7|@ripaojiedian
   network: tcp
-  port: 51704
+  port: 46602
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港7|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
   network: tcp
-  port: 46602
+  port: 51704
   server: 183.236.51.23
   tls: false
   type: vmess
@@ -34,33 +72,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港8|@ripaojiedian
-  network: tcp
-  port: 39041
-  server: hk1.tiljkc.top
-  tls: false
-  type: vmess
-  uuid: 24a13b6a-be32-3c9b-9d71-c3613da5390e
-- alterId: 64
-  cipher: auto
-  name: 11,15,16|13,14|香港6|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 170.178.186.12
-  servername: www.59477189.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59477189.xyz
-    path: /path/240811062813
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: DNUMdmnJ
-  port: 42395
-  server: 36.151.192.239
-  skip-cert-verify: true
-  type: trojan
