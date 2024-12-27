@@ -1,18 +1,27 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港7|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
   network: tcp
-  port: 46602
+  port: 51704
   server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
   network: tcp
-  port: 51704
+  port: 52908
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 46602
   server: 183.236.51.23
   tls: false
   type: vmess
@@ -26,15 +35,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 52908
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: lidnBTGb
@@ -42,9 +42,17 @@ proxies:
   server: 223.113.54.149
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 154.197.26.120
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
+  name: 11|13|🇭🇰 香港6|@ripaojiedian
   network: tcp
   port: 34728
   server: 149.104.15.104

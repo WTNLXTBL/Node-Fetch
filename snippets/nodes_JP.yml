@@ -1,10 +1,19 @@
 proxies:
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|🇯🇵 日本2|@ripaojiedian
+  network: tcp
+  port: 38953
+  server: jpp1.pfdsddla.com
+  tls: false
+  type: vmess
+  uuid: 426d4ed6-fde6-3751-9a5b-ec4220c52abb
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.232.228
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -15,12 +24,11 @@ proxies:
   server: 149.22.87.204
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  port: 38953
-  server: jpp1.pfdsddla.com
-  tls: false
-  type: vmess
-  uuid: 426d4ed6-fde6-3751-9a5b-ec4220c52abb
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.181.42.233
+  tfo: false
+  type: ss
