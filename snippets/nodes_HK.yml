@@ -1,13 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 51704
-  server: 183.236.51.23
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇭🇰 香港8|@ripaojiedian
@@ -18,12 +9,41 @@ proxies:
   type: vmess
   uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
 - cipher: chacha20-ietf-poly1305
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 7243745919d6de49a5db
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45578
+  server: console.02.aliyun.aq.kunlunaqs.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 15|🇭🇰 香港6|@ripaojiedian
   password: a8ac2fb2-4487-4685-aa33-7a19a9cb99f3
   port: 35502
   server: gw.liangyuandianwan.com
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 52908
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 51704
+  server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港4|@ripaojiedian
@@ -40,23 +60,3 @@ proxies:
   skip-cert-verify: false
   tfo: true
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 52908
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
