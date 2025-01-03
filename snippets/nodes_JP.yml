@@ -1,4 +1,17 @@
 proxies:
+- name: 15|🇯🇵 日本|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 18.183.158.211
+  skip-cert-verify: false
+  sni: tr.koxok.us.kg
+  tfo: false
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: /?ed=2560
 - cipher: aes-256-cfb
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
@@ -13,16 +26,3 @@ proxies:
   server: 156.231.104.14
   tfo: false
   type: ss
-- name: 15|🇯🇵 日本|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 443
-  server: 18.183.158.211
-  skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  tfo: false
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
