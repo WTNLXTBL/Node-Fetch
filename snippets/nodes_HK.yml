@@ -1,33 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 202.162.109.169
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 52908
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: vzhXXZVw
@@ -35,6 +6,22 @@ proxies:
   server: 36.150.215.196
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 80
+  server: 619d3460-e201-be79-d7f9-b8c85f7ba8e4.castlepeakhospital.moe
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ef29bee2-2169-450b-804b-598b1e963109
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港4|@ripaojiedian
@@ -50,6 +37,15 @@ proxies:
   network: tcp
   port: 51704
   server: 183.236.51.23
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 52908
+  server: 120.234.102.229
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
