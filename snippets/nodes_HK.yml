@@ -1,12 +1,28 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: qwerREWQ@@
-  port: 4231
-  server: 112.213.102.228
+  name: 15|🇭🇰 香港9|@ripaojiedian
+  password: Y4JZ69NZ4IMSVWMC
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: vzhXXZVw
+  port: 18681
+  server: 36.150.215.196
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 52908
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港4|@ripaojiedian
@@ -25,6 +41,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
@@ -33,27 +57,3 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 52908
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港9|@ripaojiedian
-  password: Y4JZ69NZ4IMSVWMC
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: vzhXXZVw
-  port: 18681
-  server: 36.150.215.196
-  skip-cert-verify: true
-  type: trojan
