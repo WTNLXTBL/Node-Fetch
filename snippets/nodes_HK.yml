@@ -1,4 +1,19 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: D8TQ0D993NS6XK0K
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: phXKwfrd
+  port: 36442
+  server: 223.113.54.145
+  skip-cert-verify: true
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港4|@ripaojiedian
@@ -8,22 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: K09H5MS4WFZH4414
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: D8TQ0D993NS6XK0K
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|13,14|香港3|@ripaojiedian
@@ -38,10 +37,11 @@ proxies:
     headers:
       Host: v12.emovpn.buzz
     path: /
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: phXKwfrd
-  port: 36442
-  server: 223.113.54.145
-  skip-cert-verify: true
-  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: K09H5MS4WFZH4414
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
