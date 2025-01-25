@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 103.44.255.81
+  skip-cert-verify: false
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -12,15 +25,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 44614
-  server: 120.198.71.219
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 11,16|13|🇭🇰 香港4|@ripaojiedian
   network: tcp
   port: 53002
@@ -28,6 +32,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 5KM1ZLFIVE4AVS2A
+  port: 15011
+  server: 183.232.239.172
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港3|@ripaojiedian
@@ -46,24 +58,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 443
-  server: 103.44.255.81
-  skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: 5KM1ZLFIVE4AVS2A
-  port: 15011
-  server: 183.232.239.172
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 44614
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
