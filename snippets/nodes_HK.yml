@@ -1,15 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 44614
-  server: 120.198.71.219
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 11,16|13|🇭🇰 香港2|@ripaojiedian
   network: tcp
   port: 48109
@@ -19,12 +10,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 48109
+  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 44614
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 54104
   server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -43,10 +41,12 @@ proxies:
     path: /?ed=2560
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 54104
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 48109
   server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
