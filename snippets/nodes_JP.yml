@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.180.250.244
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
   network: ws
@@ -20,14 +12,6 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 9e2a92c6-bbe6-49fa-a280-e6f8f3eed7c5
-  port: 19550
-  server: prejp.capoonetwork.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇯🇵 日本|@ripaojiedian
@@ -37,3 +21,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 9e2a92c6-bbe6-49fa-a280-e6f8f3eed7c5
+  port: 19550
+  server: prejp.capoonetwork.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.180.250.244
+  tfo: false
+  type: ss
