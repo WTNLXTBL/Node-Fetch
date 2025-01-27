@@ -1,15 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 45017
-  server: 142.0.134.242
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   port: 45017
@@ -19,26 +10,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|13,14|香港2|@ripaojiedian
-  network: ws
-  port: '23532'
-  server: 212.192.12.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5549a8c5-5d90-4abb-b1df-3182009206a0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港4|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
   network: tcp
-  port: 40565
-  server: 120.232.153.63
+  port: 44614
+  server: 120.198.71.219
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -53,10 +30,19 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港4|@ripaojiedian
   network: tcp
-  port: 44614
-  server: 120.198.71.219
+  port: 40565
+  server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 45017
+  server: 142.0.134.242
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -73,3 +59,17 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|香港2|@ripaojiedian
+  network: ws
+  port: '23532'
+  server: 212.192.12.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5549a8c5-5d90-4abb-b1df-3182009206a0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
