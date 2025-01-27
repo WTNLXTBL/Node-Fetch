@@ -1,24 +1,26 @@
 proxies:
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  port: 45017
-  server: 142.0.134.242
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
   network: tcp
-  port: 45017
-  server: 142.0.134.242
+  port: 51037
+  server: 183.236.51.23
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  network: ws
+  password: ouo
+  port: 443
+  server: 103.44.255.81
+  skip-cert-verify: false
+  sni: tr.koxok.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tr.koxok.us.kg
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 11,15,16|13,14|香港2|@ripaojiedian
@@ -33,25 +35,23 @@ proxies:
     headers:
       Host: ''
     path: /
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  network: ws
-  password: ouo
-  port: 443
-  server: 103.44.255.81
-  skip-cert-verify: false
-  sni: tr.koxok.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tr.koxok.us.kg
-    path: /?ed=2560
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
   network: tcp
-  port: 51037
-  server: 183.236.51.23
+  port: 44614
+  server: 120.198.71.219
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 45017
+  server: 142.0.134.242
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -66,10 +66,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|13|🇭🇰 香港6|@ripaojiedian
+  name: 11,16|13|🇭🇰 香港3|@ripaojiedian
   network: tcp
-  port: 44614
-  server: 120.198.71.219
+  port: 45017
+  server: 142.0.134.242
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
