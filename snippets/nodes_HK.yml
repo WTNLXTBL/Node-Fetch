@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: BND0FYT11KNZX6YW
-  port: 15012
-  server: 219.135.227.210
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇭🇰 香港4|@ripaojiedian
@@ -18,10 +10,18 @@ proxies:
   uuid: 6106cf31-69b3-4509-b0ad-7d0d5ea4688f
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: JXLGR5HZIOG59EE6
-  port: 15006
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: BND0FYT11KNZX6YW
+  port: 15012
   server: 219.135.227.210
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
   tfo: false
   type: ss
 - alterId: 64
@@ -33,6 +33,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: JXLGR5HZIOG59EE6
+  port: 15006
+  server: 219.135.227.210
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -44,11 +52,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 6106cf31-69b3-4509-b0ad-7d0d5ea4688f
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  tfo: false
-  type: ss
