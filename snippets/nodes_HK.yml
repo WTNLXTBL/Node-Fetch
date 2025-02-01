@@ -1,21 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 75e1e3ca-01c0-431d-a03b-836449aa973f
-  port: 11735
-  server: lm.kaiqsz.com
-  skip-cert-verify: false
-  sni: yg01.redapricotcloud.com
-  type: trojan
-- alterId: 64
-  cipher: auto
-  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 40565
-  server: 120.232.153.63
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|13|🇭🇰 香港2|@ripaojiedian
@@ -25,6 +8,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 0549b941-23f0-4802-ab15-264402d3b6be
+- alterId: 64
+  cipher: auto
+  name: 11,16|13|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 40565
+  server: 120.232.153.63
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -33,3 +25,11 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 75e1e3ca-01c0-431d-a03b-836449aa973f
+  port: 11735
+  server: lm.kaiqsz.com
+  skip-cert-verify: false
+  sni: yg01.redapricotcloud.com
+  type: trojan
