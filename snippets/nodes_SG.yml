@@ -1,17 +1,11 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: 103.216.253.197
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: QEV5BG4YLEABW6LB
+  port: 16012
+  server: 154.196.244.22
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -19,6 +13,23 @@ proxies:
   password: amazonskr05
   port: 443
   server: 54.248.40.18
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇸🇬2 |  3.6MB/s
+  network: tcp
+  port: 50012
+  server: 50012.baidu-cdn.top
+  tls: false
+  type: vmess
+  uuid: 540a5d31-cd1f-41bd-b5bd-92126f2cdc85
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: 103.216.253.197
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -29,11 +40,9 @@ proxies:
   server: 154.196.244.13
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: QEV5BG4YLEABW6LB
-  port: 16012
-  server: 154.196.244.22
-  tfo: false
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
   type: ss
