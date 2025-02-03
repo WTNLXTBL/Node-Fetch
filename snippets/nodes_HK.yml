@@ -1,30 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇭🇰1 |  4.4MB/s
-  network: tcp
-  port: 45051
-  server: xdd.dashuai.cyou
-  tls: false
-  type: vmess
-  uuid: 94e76aaf-a5cb-4d08-9872-cb389bcd4a57
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: E5OU5DTSKBZCOFIQ
-  port: 15012
-  server: 156.245.190.21
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|13|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 50028
-  server: 50028.baidu-cdn.top
-  tls: false
-  type: vmess
-  uuid: 63e90ac2-b431-421d-9262-b6c4ce488908
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -33,22 +7,14 @@ proxies:
   server: 156.245.190.24
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15,16|🇭🇰 香港|@ripaojiedian
-  network: ws
-  port: 80
-  server: 111.47.212.184
-  skip-cert-verify: false
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: E5OU5DTSKBZCOFIQ
+  port: 15012
+  server: 156.245.190.21
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -60,6 +26,28 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 120.232.81.50
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|13,14|香港|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 111.47.212.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港5|@ripaojiedian
@@ -69,11 +57,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: hGkQ6915tD
-  port: 16088
-  server: 120.232.81.50
-  tfo: false
-  type: ss
