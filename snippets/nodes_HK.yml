@@ -1,12 +1,33 @@
 proxies:
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: E5OU5DTSKBZCOFIQ
-  port: 15012
-  server: 156.245.190.21
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 50028
+  server: 50028.baidu-cdn.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12008
+  server: mdss-hk.04z3susick.download
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '50028'
+  server: 50028.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
 - alterId: 64
   cipher: auto
   name: 11,16|13|🇭🇰 香港5|@ripaojiedian
@@ -18,7 +39,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,15,16|13,14|香港|@ripaojiedian
+  name: 11|13,14|香港|@ripaojiedian
   network: ws
   port: '80'
   server: 111.47.212.184
@@ -38,22 +59,3 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: B6FC093YFC5P71QH
-  port: 15015
-  server: 156.245.190.24
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  port: 40565
-  server: 120.232.153.63
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
