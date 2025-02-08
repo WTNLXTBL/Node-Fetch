@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡3|@ripaojiedian
@@ -7,39 +13,20 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇸🇬1 |  8.6MB/s
-  network: ws
-  port: 80
-  server: awssg1.072659.xyz
-  tls: false
-  type: vmess
-  uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /?ed=2048
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: UEC9F1QB458GMQEK
-  port: 16010
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
   password: 2XZNFVL28OOLLELR
   port: 16005
   server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: UEC9F1QB458GMQEK
+  port: 16010
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-cfb
