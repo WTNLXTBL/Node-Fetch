@@ -1,20 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 25775
-  server: tttxbmsm.fask511.cfd
-  skip-cert-verify: false
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.192.7.214
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /?ed=1024
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|日本|@ripaojiedian
@@ -36,11 +28,19 @@ proxies:
   protocol-param: ''
   server: cn14.closeai.one
   type: ssr
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.192.7.214
+  name: 15,16|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 25775
+  server: tttxbmsm.fask511.cfd
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 0663228f-646a-4c7c-b14a-bde613c0c237
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /?ed=1024
