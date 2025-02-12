@@ -1,32 +1,22 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '49691'
+  server: 193.42.25.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: 7243745919d6de49a5db
-  plugin: obfs
-  plugin-opts:
-    host: 215996dd9f1c3db1e54b.microsoft.com
-    mode: http
-  port: 45578
-  server: console.02.aliyun.aq.kunlunaqs.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  obfs: http_simple
-  obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com
-  password: passwd
-  port: 8123
-  protocol: origin
-  protocol-param: ''
-  server: cn05.closeai.one
-  type: ssr
-- client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  password: a4eb528a0de18c7d7083aeec1a9abcb6
-  port: 58237
-  server: 8.138.35.67
-  skip-cert-verify: true
-  sni: apps.mzstatic.com
-  type: trojan
+  port: 49691
+  server: 193.42.25.242
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c7e04382-01be-40ab-b174-4dbff44b5cf4
