@@ -1,28 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 8f9ee4d3-f070-43ab-a0cd-b708d9e8de10
-  port: 12017
-  server: mdss-sg.04z3susick.download
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 43e5eeacbad3032bfe4c25a2f011b6b7
-  port: 443
-  server: 104.251.227.182
-  skip-cert-verify: true
-  sni: hezijiasuqi.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
-  port: 52149
-  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -33,5 +9,29 @@ proxies:
     mode: http
   port: 3601
   server: 59.42.247.247
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 7c28b43c-41c4-4af1-81c4-48690133d1cd
+  port: 52149
+  server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 43e5eeacbad3032bfe4c25a2f011b6b7
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 8f9ee4d3-f070-43ab-a0cd-b708d9e8de10
+  port: 12017
+  server: mdss-sg.04z3susick.download
   tfo: false
   type: ss
