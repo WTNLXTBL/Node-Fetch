@@ -1,29 +1,5 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|16|新加坡3|@ripaojiedian
-  network: tcp
-  port: '10564'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
-- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -31,17 +7,9 @@ proxies:
   server: 52.195.220.7
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: none
-  name: 11|11|11,15,16|新加坡|@ripaojiedian
+  name: 11|11|11|11,15,16|新加坡|@ripaojiedi...
   network: ws
   port: '8967'
   server: 31.58.142.221
@@ -53,3 +21,35 @@ proxies:
     headers:
       Host: neo.nicme.me
     path: /BONRyKGhDE
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 3FB23A19-9424-40C7-9139-3540228283FA
+  port: 40005
+  server: sgp.fastsoonlink.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|11,16|新加坡3|@ripaojiedian
+  network: tcp
+  port: '10564'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
