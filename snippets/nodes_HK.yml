@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: AYC4MQ5DSGJ4QOKG
+  port: 15010
+  server: 156.245.190.19
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港3|@ripaojiedian
@@ -9,35 +17,27 @@ proxies:
   tls: false
   type: vmess
   uuid: aede82af-c2ca-425d-9423-c68490ab2277
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '37349'
-  server: 38.147.188.81
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f5d9c282-cee4-479b-98d6-deecd4f70482
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 37349
-  server: 38.147.188.81
-  skip-cert-verify: false
+  password: UQ62K8G88VGBNZXO
+  port: 15015
+  server: 156.245.190.24
   tfo: false
-  tls: false
-  type: vmess
-  uuid: f5d9c282-cee4-479b-98d6-deecd4f70482
-- cipher: rc4-md5
-  client-fingerprint: chrome
+  type: ss
+- client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40206
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: 2MNBVYYYB23ZF03Z
+  port: 15002
+  server: 92.113.116.11
+  tfo: false
+  type: ss
