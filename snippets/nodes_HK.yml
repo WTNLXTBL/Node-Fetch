@@ -1,4 +1,40 @@
 proxies:
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港10|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40208
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: RBN1UNGVPF1BQXPK
+  port: 15006
+  server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港9|@ripaojiedian
+  network: tcp
+  port: 13264
+  server: 38.147.189.130
+  tls: false
+  type: vmess
+  uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: LZQ0R9BL69GCC6FS
+  port: 15005
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -23,34 +59,6 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|🇭🇰 香港9|@ripaojiedian
-  network: tcp
-  port: 13264
-  server: 38.147.189.130
-  tls: false
-  type: vmess
-  uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 1e63e585ab2fef3adcc9ea75a62abc23
-  port: 443
-  server: 104.251.227.182
-  skip-cert-verify: true
-  sni: hezijiasuqi.com
-  type: trojan
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港10|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40208
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
@@ -59,19 +67,11 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: RBN1UNGVPF1BQXPK
-  port: 15006
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: LZQ0R9BL69GCC6FS
-  port: 15005
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 1e63e585ab2fef3adcc9ea75a62abc23
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
