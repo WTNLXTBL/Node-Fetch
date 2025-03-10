@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: TCEL1H0XD7TWAKI0
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
   password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
@@ -15,14 +7,19 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  network: ws
+  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
+  port: 40021
+  server: vt-bana2-cn-11.ghpgwqswodgzv.com
+  skip-cert-verify: false
+  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
+    path: /dl_media
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
@@ -39,19 +36,22 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  network: ws
-  password: a38c9e28-9960-4e31-9f18-ed2495a756aa
-  port: 40021
-  server: vt-bana2-cn-11.ghpgwqswodgzv.com
-  skip-cert-verify: false
-  sni: vt-bana2-cn-11.ghpgwqswodgzv.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: vt-bana2-cn-11.ghpgwqswodgzv.com
-    path: /dl_media
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 2H98UZT9LT1TE3X9
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: TCEL1H0XD7TWAKI0
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
