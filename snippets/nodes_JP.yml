@@ -1,6 +1,18 @@
 proxies:
 - cipher: rc4-md5
   client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+    mode: http
+  port: 8761
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
@@ -11,6 +23,19 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15|12|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 46015
+  server: fadawtawd.zhangwei.li
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: fadawtawd.zhangwei.li
+    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -21,23 +46,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 46015
-  server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
+  name: 11,16|13|日本3|@ripaojiedian
   network: ws
   port: '46015'
   server: fadawtawd.zhangwei.li
@@ -49,15 +58,3 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
-    mode: http
-  port: 8761
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
