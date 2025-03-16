@@ -1,10 +1,14 @@
 proxies:
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.34.253.95
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
+    mode: http
+  port: 8761
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -27,15 +31,11 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: rc4-md5
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
-    mode: http
-  port: 8761
-  server: cn01.efan8867801.xyz
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.34.253.95
   tfo: false
   type: ss
