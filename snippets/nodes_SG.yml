@@ -1,54 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 16|新加坡2|@ripaojiedian
+  name: 11,16|12|🇸🇬 新加坡2|@ripaojiedian
   network: tcp
-  port: '11003'
+  port: 11003
   server: bgp1.bgp1.miaomiaowu114514.org
-  servername: ''
   tls: false
   type: vmess
   uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇸🇬3 |  1.8MB/s
-  network: ws
-  port: 23617
-  server: 17.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 96bbef31-5f63-3d0b-bb90-7626b78b057e
-  ws-opts:
-    headers:
-      Host: 17.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|12|🇸🇬 新加坡3|@ripaojiedian
-  network: ws
-  port: 46019
-  server: fadawtawd.zhangwei.li
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|13|新加坡3|@ripaojiedian
-  network: ws
-  port: '46019'
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -64,10 +29,4 @@ proxies:
   port: 443
   server: 3.0.54.96
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
   type: ss
