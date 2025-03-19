@@ -1,10 +1,20 @@
 proxies:
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|日本A|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本5|@ripaojiedian
-  password: TAH8LSOHMUULFDU2
-  port: 18001
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.179.8.12
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -13,26 +23,6 @@ proxies:
   password: 9C116R8CIYNP4JMJ
   port: 18014
   server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: l3ESwpOSN3FYFAR93RYe6SAyxa0XSFC2zlSaqTClDZ4OAanXOxweCDZznRc28DyY3yTID
-  port: 28334
-  server: sakoku.meijireform.com
-  skip-cert-verify: false
-  sni: sakoku.meijireform.com
-  type: trojan
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
-    mode: http
-  port: 8761
-  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -47,21 +37,31 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
+  name: 15|🇯🇵 日本5|@ripaojiedian
+  password: TAH8LSOHMUULFDU2
+  port: 18001
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|日本A|@ripaojiedian
-  network: kcp
-  port: '58490'
-  server: 8.209.203.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    mode: http
+  port: 8761
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: l3ESwpOSN3FYFAR93RYe6SAyxa0XSFC2zlSaqTClDZ4OAanXOxweCDZznRc28DyY3yTID
+  port: 28334
+  server: sakoku.meijireform.com
+  skip-cert-verify: false
+  sni: sakoku.meijireform.com
+  type: trojan
