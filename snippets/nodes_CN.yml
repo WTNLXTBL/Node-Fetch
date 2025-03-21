@@ -1,4 +1,19 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 3,17|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 广东省移动 7
@@ -13,18 +28,9 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
-- alterId: 64
-  cipher: auto
-  name: 3,17|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|1|🌀6-CN |  4.4MB/s
+  name: 11|2|🌀5-CN |  1.8MB/s
   network: ws
   port: 21022
   server: 212.192.13.110
@@ -33,9 +39,3 @@ proxies:
   uuid: 2b6bead8-60e6-4168-96be-ebdb7a19830c
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
