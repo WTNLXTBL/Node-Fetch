@@ -1,24 +1,4 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 3,17|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|2|🌀4-CN |  1.5MB/s
-  network: ws
-  port: 23025
-  server: 212.192.13.68
-  tls: false
-  type: vmess
-  uuid: 345145c7-a396-4a21-95d0-ac47f3676f9d
-  ws-opts:
-    path: /
 - cipher: aes-256-cfb
   name: 1|_CN_
   password: hGkQ6915tD
@@ -39,3 +19,23 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 3,17|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|2|🌀4-CN |  1.5MB/s
+  network: ws
+  port: 23025
+  server: 212.192.13.68
+  tls: false
+  type: vmess
+  uuid: 345145c7-a396-4a21-95d0-ac47f3676f9d
+  ws-opts:
+    path: /
