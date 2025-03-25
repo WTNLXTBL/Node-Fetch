@@ -1,10 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: CQ6E6S8LBSRMG7AF
-  port: 18012
-  server: 156.231.104.22
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-V0ONnI0Viy.download.microsoft.com
+    mode: http
+  port: 8764
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -19,16 +23,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|日本A|@ripaojiedian
-  network: kcp
-  port: '58490'
-  server: 8.209.203.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
@@ -45,15 +39,21 @@ proxies:
   server: 3.35.138.170
   tfo: false
   type: ss
-- cipher: rc4-md5
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-V0ONnI0Viy.download.microsoft.com
-    mode: http
-  port: 8764
-  server: cn01.efan8867801.xyz
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: CQ6E6S8LBSRMG7AF
+  port: 18012
+  server: 156.231.104.22
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|日本A|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
