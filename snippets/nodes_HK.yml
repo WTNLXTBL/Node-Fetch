@@ -1,13 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇭🇰 香港4|@ripaojiedian
+  name: 11|12|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 47231
+  server: 38.147.188.96
+  tls: false
+  type: vmess
+  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
+- alterId: 0
+  cipher: auto
+  name: 11|12|🇭🇰 香港4|@ripaojiedian
   network: tcp
   port: 14601
   server: stan.pythoncdn.com
   tls: false
   type: vmess
   uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  skip-cert-verify: false
+  sni: hk06.run.place
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 11,16|13|香港A|@ripaojiedian
@@ -18,31 +35,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 47231
-  server: 38.147.188.96
-  tls: false
-  type: vmess
-  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 103.149.182.191
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: e935efa8-ede3-4fc5-8e2a-7d63b1090452
-  port: 23987
-  server: xg1.gywanglug.xyz
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -51,20 +43,25 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  port: 51182
-  server: 120.232.153.40
-  skip-cert-verify: false
+  password: UMG49G7UX0FPLALB
+  port: 15016
+  server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: UVKL67AXW56ZCNT3
+  port: 15004
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇭🇰 香港|@ripaojiedian
+  name: 11|12|🇭🇰 香港|@ripaojiedian
   network: tcp
   port: 51182
   server: 120.232.153.40
