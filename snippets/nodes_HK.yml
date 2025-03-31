@@ -1,4 +1,20 @@
 proxies:
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 154.197.26.237
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: b13c1e89-60af-4462-8932-4acf1d604a19
+  port: 27103
+  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: false
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 11,16|13|香港A|@ripaojiedian
@@ -9,28 +25,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- alterId: 0
-  cipher: auto
-  name: 11|12|🇭🇰 香港|@ripaojiedian
-  network: tcp
-  port: 10295
-  server: 103.30.78.24
-  tls: false
-  type: vmess
-  uuid: 9a948e66-2cad-4064-9585-6c37840c62dc
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: b13c1e89-60af-4462-8932-4acf1d604a19
-  port: 27103
-  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  tfo: false
-  type: ss
