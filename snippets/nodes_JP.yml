@@ -1,12 +1,13 @@
 proxies:
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 57.181.29.160
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|1,12|🇯🇵 日本|@ripaojiedian
+  network: tcp
+  port: 29206
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
 - alterId: 0
   cipher: auto
   name: 11,16|13|日本A|@ripaojiedian
@@ -17,12 +18,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.181.29.160
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇯🇵 日本|@ripaojiedian
-  network: tcp
-  port: 29206
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  name: 11|1|🇯🇵12 |  6.1MB/s
+  network: ws
+  port: 3774
+  server: v9.emovpn.buzz
   tls: false
   type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
+  uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
+  ws-opts:
+    headers:
+      Host: v9.emovpn.buzz
+    path: /
