@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本|@ripaojiedian
+  network: tcp
+  port: 29206
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -9,31 +18,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵1 |  2.5MB/s
-  network: ws
-  port: '11184'
-  server: 175.215.154.208
-  tls: true
-  type: vmess
-  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇯🇵2 |  3.6MB/s
-  network: ws
-  port: 12134
-  server: 221.165.128.234
-  servername: oracleipv4.till.nyc.mn
-  tls: true
-  type: vmess
-  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
-  ws-opts:
-    headers:
-      Host: oracleipv4.till.nyc.mn
-    path: /123
-- alterId: 0
-  cipher: auto
   name: 11,16|13|日本A|@ripaojiedian
   network: kcp
   port: '58490'
@@ -42,12 +26,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇯🇵 日本|@ripaojiedian
-  network: tcp
-  port: 29206
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  tls: false
-  type: vmess
-  uuid: fb6d6c7b-79ae-4ea5-aea1-b50cc0267552
