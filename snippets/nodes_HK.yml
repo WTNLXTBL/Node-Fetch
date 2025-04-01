@@ -1,4 +1,45 @@
 proxies:
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+  port: 20105
+  server: 5.2gyh5ybsic.xyz
+  skip-cert-verify: false
+  sni: 5.2gyh5ybsic.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: MQ6J7FHRWL2EBDKX
+  port: 15015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: HU1AA5DVZP3V8PZD
+  port: 15004
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 8443
+  server: hk.ggpdx.ggff.net
+  servername: hk.ggpdx.ggff.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 0c08b87c-67d7-401e-93dc-7bcda12e795b
+  ws-opts:
+    headers:
+      Host: hk.ggpdx.ggff.net
+    path: 0c08b87c-67d7-401e-93dc-7bcda12e795b-vm
 - alterId: 0
   cipher: auto
   name: 11,16|13|香港A|@ripaojiedian
@@ -9,14 +50,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '10032'
+  server: v2-hk1-zx.netcar.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
+- alterId: 0
+  cipher: auto
+  name: 16|香港9|@ripaojiedian
+  network: tcp
+  port: '4136'
+  server: ac9d3c3c-su2dc0-sv9ymy-dezg.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 952f0a9a-097d-11f0-aa52-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '41002'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11|1|🇭🇰6 |  5.2MB/s
@@ -29,11 +92,15 @@ proxies:
   uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
   ws-opts:
     path: ''
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: b13c1e89-60af-4462-8932-4acf1d604a19
-  port: 27103
-  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 4ec7af9f9f.m.ctrip.com
+    mode: http
+  port: 10001
+  server: south.inmysecretlife.xyz
+  tfo: false
+  type: ss
