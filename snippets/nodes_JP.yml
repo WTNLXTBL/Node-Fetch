@@ -1,13 +1,40 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 44.247.247.209
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 11|2|🇯🇵16 |  5.3MB/s
+  network: tcp
+  port: 28788
+  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 36001
-  server: v2-hk2-zf2.netcar.live
+  name: 11,16|13|日本A|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
   tls: false
   type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: QSM88IU0D1Y77F3O
+  port: 18003
+  server: 156.231.104.13
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,15,16|12,13|日本3|@ripaojiedian
@@ -22,54 +49,6 @@ proxies:
     headers:
       Host: lc.loc.cc
     path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: QSM88IU0D1Y77F3O
-  port: 18003
-  server: 156.231.104.13
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 11|2|🇯🇵16 |  5.3MB/s
-  network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|13|日本A|@ripaojiedian
-  network: kcp
-  port: '58490'
-  server: 8.209.203.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 44.247.247.209
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -79,6 +58,27 @@ proxies:
     host: 202503170996717-G8dQXiDzfv.download.microsoft.com
     mode: http
   port: 8769
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 36001
+  server: v2-hk2-zf2.netcar.live
+  tls: false
+  type: vmess
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    mode: http
+  port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
