@@ -1,4 +1,25 @@
 proxies:
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 36001
+  server: v2-hk2-zf2.netcar.live
+  tls: false
+  type: vmess
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -7,16 +28,20 @@ proxies:
   server: 44.247.247.209
   tfo: false
   type: ss
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵16 |  5.3MB/s
-  network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  name: 11,15,16|12,13|日本3|@ripaojiedian
+  network: ws
+  port: '19608'
+  server: lc.loc.cc
+  servername: lc.loc.cc
   tls: true
   type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+  uuid: 3a5ca001-9884-4d96-a002-2b04f306747e
+  ws-opts:
+    headers:
+      Host: lc.loc.cc
+    path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
 - alterId: 0
   cipher: auto
   name: 11,16|13|日本A|@ripaojiedian
@@ -35,20 +60,6 @@ proxies:
   server: 156.231.104.13
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|12,13|日本3|@ripaojiedian
-  network: ws
-  port: '19608'
-  server: lc.loc.cc
-  servername: lc.loc.cc
-  tls: true
-  type: vmess
-  uuid: 3a5ca001-9884-4d96-a002-2b04f306747e
-  ws-opts:
-    headers:
-      Host: lc.loc.cc
-    path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -58,27 +69,6 @@ proxies:
     host: 202503170996717-G8dQXiDzfv.download.microsoft.com
     mode: http
   port: 8769
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 36001
-  server: v2-hk2-zf2.netcar.live
-  tls: false
-  type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
-    mode: http
-  port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
