@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,16|13|香港A|@ripaojiedian
+  network: kcp
+  port: '26706'
+  server: 47.239.242.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3949be3c-f862-4081-afca-9979bd189648
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -9,17 +19,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|12|香港A|@ripaojiedian
-  network: kcp
-  port: '26706'
-  server: 47.239.242.136
-  servername: ''
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 10032
+  server: v2-hk1-zx.netcar.live
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3949be3c-f862-4081-afca-9979bd189648
+  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
 - alterId: 0
   cipher: auto
-  name: 11,15,16|11,12|香港|@ripaojiedian
+  name: 11,15,16|12,13|香港|@ripaojiedian
   network: ws
   port: '8880'
   server: 107.151.245.175
@@ -31,24 +42,6 @@ proxies:
     headers:
       Host: www.bing.com
     path: cd92310f-afcf-4861-ac10-aaa20aa2e0dc-vm
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 10032
-  server: v2-hk1-zx.netcar.live
-  tls: false
-  type: vmess
-  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -67,12 +60,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 11,16|12|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港3|@ripaojiedian
+  network: tcp
   port: 10032
   server: v2-hk1-zx.netcar.live
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
