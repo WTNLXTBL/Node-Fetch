@@ -1,12 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,16|12|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 9b0ea2c9-c013-4b13-9ba6-fceae06e69f4
+  port: 19873
+  server: rk1.nynode0.cc
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
   port: 18279
   server: 103.30.76.96
   skip-cert-verify: false
   tfo: false
+  tls: false
+  type: vmess
+  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 18279
+  server: 103.30.76.96
   tls: false
   type: vmess
   uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
@@ -18,29 +44,3 @@ proxies:
   server: bgp-xdd.blue-bgp.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 9b0ea2c9-c013-4b13-9ba6-fceae06e69f4
-  port: 19873
-  server: rk1.nynode0.cc
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,16|11|🇭🇰 香港2|@ripaojiedian
-  network: tcp
-  port: 18279
-  server: 103.30.76.96
-  tls: false
-  type: vmess
-  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
