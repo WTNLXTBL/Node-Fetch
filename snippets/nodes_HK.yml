@@ -1,42 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: f203200f-f6a4-49d8-893e-6559804d79ae
-  port: 50103
-  server: bgp-xdd.blue-bgp.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|12|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 10032
-  server: v2-hk1-zx.netcar.live
-  tls: false
-  type: vmess
-  uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '18279'
-  server: 103.30.76.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港5|@ripaojiedian
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   password: 9b0ea2c9-c013-4b13-9ba6-fceae06e69f4
   port: 19873
@@ -54,27 +18,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: f203200f-f6a4-49d8-893e-6559804d79ae
+  port: 50103
+  server: bgp-xdd.blue-bgp.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|12,13|香港|@ripaojiedian
-  network: ws
-  port: '8880'
-  server: 107.151.245.175
-  servername: ''
+  name: 11,16|12|🇭🇰 香港5|@ripaojiedian
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
   tls: false
   type: vmess
-  uuid: cd92310f-afcf-4861-ac10-aaa20aa2e0dc
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: cd92310f-afcf-4861-ac10-aaa20aa2e0dc-vm
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|13|香港A|@ripaojiedian
-  network: kcp
-  port: '26706'
-  server: 47.239.242.136
-  servername: ''
+  name: 11,16|12|🇭🇰 香港2|@ripaojiedian
+  network: tcp
+  port: 18279
+  server: 103.30.76.96
   tls: false
   type: vmess
-  uuid: 3949be3c-f862-4081-afca-9979bd189648
+  uuid: 05ad1fb1-fb21-47c2-b036-22d163eef3a7
