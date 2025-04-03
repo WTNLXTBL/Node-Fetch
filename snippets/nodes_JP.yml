@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|12,13|日本2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: u2.huvicloud.com
-  servername: u2.huvicloud.com
-  tls: true
-  type: vmess
-  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
-  ws-opts:
-    headers:
-      Host: u2.huvicloud.com
-    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -23,14 +9,6 @@ proxies:
     mode: http
   port: 8769
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 9d1ca3a4-fe0f-4afc-ab10-66a0476093cc
-  port: 22094
-  server: rk2.nynode0.cc
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -45,11 +23,33 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|11,12|日本2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: u2.huvicloud.com
+  servername: u2.huvicloud.com
+  tls: true
+  type: vmess
+  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
+  ws-opts:
+    headers:
+      Host: u2.huvicloud.com
+    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.229.48.116
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 9d1ca3a4-fe0f-4afc-ab10-66a0476093cc
+  port: 22094
+  server: rk2.nynode0.cc
   tfo: false
   type: ss
