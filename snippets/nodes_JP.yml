@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 28588
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -20,6 +11,36 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: LC0JUMZIUL16S24B
+  port: 18012
+  server: 156.231.104.22
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇯🇵2 |  2.4MB/s
+  network: ws
+  port: 422
+  server: 9c9ed1dd-submo0-sy5h80-37m3.tky02.east.189ti.com
+  tls: false
+  type: vmess
+  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
+  ws-opts:
+    headers:
+      Host: webrtcpunch.video.qq.com
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -52,13 +73,5 @@ proxies:
   password: amazonskr05
   port: 443
   server: 13.229.210.217
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: LC0JUMZIUL16S24B
-  port: 18012
-  server: 156.231.104.22
   tfo: false
   type: ss
