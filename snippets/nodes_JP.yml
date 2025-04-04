@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.210.217
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -9,14 +17,6 @@ proxies:
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.210.217
   tfo: false
   type: ss
 - alterId: 0
@@ -41,6 +41,15 @@ proxies:
   server: 156.231.104.22
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -53,12 +62,3 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇯🇵 日本4|@ripaojiedian
-  network: tcp
-  port: 28588
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
