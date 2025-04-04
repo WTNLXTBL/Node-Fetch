@@ -1,4 +1,16 @@
 proxies:
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -9,14 +21,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '28588'
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
+  name: 11,15,16|2,12,13|日本2|@ripaojiedian
+  network: ws
+  port: '10390'
+  server: 222.104.240.250
+  servername: oracleipv4.till.nyc.mn
+  tls: true
   type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
+  ws-opts:
+    headers:
+      Host: oracleipv4.till.nyc.mn
+    path: /123
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -37,46 +53,12 @@ proxies:
   server: 156.231.104.22
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 10390
-  server: 222.104.240.250
-  servername: oracleipv4.till.nyc.mn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: 11,16|2,12|🇯🇵 日本4|@ripaojiedian
+  network: tcp
+  port: 28588
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  tls: false
   type: vmess
-  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
-  ws-opts:
-    headers:
-      Host: oracleipv4.till.nyc.mn
-    path: /123
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|日本2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: u2.huvicloud.com
-  servername: u2.huvicloud.com
-  tls: true
-  type: vmess
-  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
-  ws-opts:
-    headers:
-      Host: u2.huvicloud.com
-    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
