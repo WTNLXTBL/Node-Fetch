@@ -1,19 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇯🇵 日本8|@ripaojiedian
-  network: tcp
-  port: 33184
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  tls: false
-  type: vmess
-  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
+  name: 11|1|🇯🇵1 |  1.4MB/s
+  network: ws
   port: 443
-  server: 47.129.238.196
+  server: ip4-jp1.vp1000.net
+  tls: true
+  type: vmess
+  uuid: 6f1e1c1a-667f-4dbb-b089-4e2a355c21ce
+  ws-opts:
+    headers:
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - alterId: 0
@@ -33,14 +41,19 @@ proxies:
   server: 183.236.51.167
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 8JLSTR4973MMT8E3
-  port: 18001
-  server: 120.233.205.203
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵2 |  1.4MB/s
+  network: ws
+  port: 443
+  server: ip6-jp2.vp1000.net
+  tls: true
+  type: vmess
+  uuid: 6f1e1c1a-667f-4dbb-b089-4e2a355c21ce
+  ws-opts:
+    headers:
+      Host: ip4-jp2.vp1000.net
+    path: /pulicpaylfastpDisney
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -53,15 +66,28 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: rc4-md5
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本8|@ripaojiedian
+  network: tcp
+  port: 33184
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 8JLSTR4973MMT8E3
+  port: 18001
+  server: 120.233.205.203
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.238.196
   tfo: false
   type: ss
