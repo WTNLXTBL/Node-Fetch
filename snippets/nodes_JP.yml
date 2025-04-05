@@ -1,4 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本8|@ripaojiedian
+  network: tcp
+  port: 33184
+  server: gzhmbkqt.xn--fiqs8sjz2bull.com
+  tls: false
+  type: vmess
+  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵13 |  2.3MB/s
+  network: tcp
+  port: 3684
+  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 8JLSTR4973MMT8E3
+  port: 18001
+  server: 120.233.205.203
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
@@ -7,74 +33,23 @@ proxies:
   server: 183.236.51.167
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇯🇵2 |  2.4MB/s
-  network: ws
-  port: 422
-  server: 9c9ed1dd-submo0-sy5h80-37m3.tky02.east.189ti.com
-  tls: false
-  type: vmess
-  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
-  ws-opts:
-    headers:
-      Host: webrtcpunch.video.qq.com
-    path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|12|🇯🇵 日本4|@ripaojiedian
+  name: 11,16|12|🇯🇵 日本7|@ripaojiedian
   network: tcp
-  port: 28588
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|日本2|@ripaojiedian
-  network: ws
-  port: '10390'
-  server: 222.104.240.250
-  servername: oracleipv4.till.nyc.mn
-  tls: true
-  type: vmess
-  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
-  ws-opts:
-    headers:
-      Host: oracleipv4.till.nyc.mn
-    path: /123
-- alterId: 0
-  cipher: auto
-  name: 16|日本7|@ripaojiedian
-  network: tcp
-  port: '4151'
+  port: 4151
   server: c50e5830-submo0-t23v18-6wpo.c.volczijie.com
-  servername: ''
   tls: false
   type: vmess
   uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 16|日本8|@ripaojiedian
-  network: tcp
-  port: '33184'
-  server: gzhmbkqt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 65639009-9ea3-4b5b-8f6e-bba5ef17e350
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 47.129.238.196
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -87,19 +62,15 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 47.129.238.196
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 8JLSTR4973MMT8E3
-  port: 18001
-  server: 120.233.205.203
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
   tfo: false
   type: ss
