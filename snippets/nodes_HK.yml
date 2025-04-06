@@ -1,4 +1,38 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: R5SXA70P3ARNBUBO
+  port: 15012
+  server: 156.245.190.21
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 4136
+  server: 26025dd1-sudhc0-t33mcq-4tx.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: d0a9b5ea-bf85-11ee-b758-f23c93136cb3
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: cda0b6dc-d188-4896-83ce-6b055b799792
+  port: 12006
+  server: mdss-hk.04z3susick.download
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 11,15,16|12,13|香港4|@ripaojiedian
@@ -13,22 +47,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: cda0b6dc-d188-4896-83ce-6b055b799792
-  port: 12006
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: R5SXA70P3ARNBUBO
-  port: 15012
-  server: 156.245.190.21
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,24 +55,6 @@ proxies:
   server: 120.232.153.40
   skip-cert-verify: false
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 4136
-  server: 26025dd1-sudhc0-t33mcq-4tx.d.volczijie.com
-  tls: false
-  type: vmess
-  uuid: d0a9b5ea-bf85-11ee-b758-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
