@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: cda0b6dc-d188-4896-83ce-6b055b799792
-  port: 12006
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|12|🇭🇰 香港3|@ripaojiedian
@@ -18,15 +10,6 @@ proxies:
   uuid: d0a9b5ea-bf85-11ee-b758-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
   port: 41002
@@ -36,14 +19,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  password: R5SXA70P3ARNBUBO
-  port: 15012
-  server: 156.245.190.21
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   name: 11,15,16|12,13|香港4|@ripaojiedian
@@ -58,17 +33,28 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰9 |  3.2MB/s
-  network: ws
-  port: 80
-  server: 49c660d6-sucv40-svb30a-150lf.hk.p5pv.com
-  servername: ''
+  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
   tls: false
   type: vmess
-  uuid: 3035b36e-679f-11ed-87fd-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: R5SXA70P3ARNBUBO
+  port: 15012
+  server: 156.245.190.21
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: cda0b6dc-d188-4896-83ce-6b055b799792
+  port: 12006
+  server: mdss-hk.04z3susick.download
+  tfo: false
+  type: ss
