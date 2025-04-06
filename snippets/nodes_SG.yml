@@ -1,10 +1,22 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬10 |  1.4MB/s
+  network: tcp
+  port: 4137
+  server: fd89b2da-sudhc0-svibx4-1s4a.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬9 |  3.7MB/s
+  network: tcp
+  port: 4135
+  server: 637b7bc9-sudhc0-svibx4-1s4a.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 337cb930-073d-11ee-8120-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 11,16|12|🇸🇬 新加坡|@ripaojiedian
@@ -14,15 +26,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬4 |  1.5MB/s
-  network: tcp
-  port: 35542
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -30,4 +33,10 @@ proxies:
   port: 443
   server: 54.199.64.156
   tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
   type: ss
