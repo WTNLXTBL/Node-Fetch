@@ -1,24 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  port: 41002
-  server: 120.232.153.40
-  skip-cert-verify: false
-  tfo: false
+  name: 11,15,16|12,13|香港4|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 41002
-  server: 120.232.153.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -37,6 +31,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  port: 41002
+  server: 120.232.153.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   name: 11,16|12|🇭🇰 香港3|@ripaojiedian
   network: tcp
   port: 4136
@@ -44,17 +49,12 @@ proxies:
   tls: false
   type: vmess
   uuid: d0a9b5ea-bf85-11ee-b758-f23c93136cb3
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11,15,16|12,13|香港4|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
+  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
+  network: tcp
+  port: 41002
+  server: 120.232.153.40
   tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
