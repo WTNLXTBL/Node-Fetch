@@ -1,4 +1,24 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  port: 30251
+  server: 35.220.230.251
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+- alterId: 64
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 11,15,16|12,13|香港4|@ripaojiedian
@@ -26,42 +46,19 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
+  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
+  network: tcp
   port: 30251
   server: 35.220.230.251
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇭🇰4 |  2.1MB/s
-  network: ws
-  port: 23002
-  server: 212.192.12.154
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 361d4055-e74d-4b39-a6b4-ef2030b134ef
-  ws-opts:
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: c46ba905-31de-4090-8153-ec7d2e063079
-  port: 30001
-  server: 45.207.157.83
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - alterId: 0
@@ -75,14 +72,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
@@ -91,10 +80,21 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇭🇰 香港6|@ripaojiedian
-  network: tcp
-  port: 30251
-  server: 35.220.230.251
+  name: 11|0|🇭🇰4 |  2.1MB/s
+  network: ws
+  port: 23002
+  server: 212.192.12.154
+  servername: ''
   tls: false
   type: vmess
-  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+  uuid: 361d4055-e74d-4b39-a6b4-ef2030b134ef
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: c46ba905-31de-4090-8153-ec7d2e063079
+  port: 30001
+  server: 45.207.157.83
+  tfo: false
+  type: ss
