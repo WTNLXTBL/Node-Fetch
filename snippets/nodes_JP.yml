@@ -1,4 +1,12 @@
 proxies:
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: thisgou
+  port: 80
+  server: 18.183.101.244
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -13,10 +21,10 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  name: 15|🇯🇵 东京特殊|@ripaojiedian
   password: thisgou
   port: 80
-  server: 18.183.101.244
+  server: 13.230.226.50
   tfo: false
   type: ss
 - alterId: 0
@@ -28,11 +36,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 东京特殊|@ripaojiedian
-  password: thisgou
-  port: 80
-  server: 13.230.226.50
-  tfo: false
-  type: ss
