@@ -1,4 +1,21 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇯🇵 日本2|@ripaojiedian
+  network: tcp
+  port: 35575
+  server: 45.159.50.12
+  tls: false
+  type: vmess
+  uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: thisgou
+  port: 80
+  server: 18.183.101.244
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -11,15 +28,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇯🇵 日本2|@ripaojiedian
-  network: tcp
-  port: 35575
-  server: 45.159.50.12
-  tls: false
-  type: vmess
-  uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 东京特殊|@ripaojiedian
@@ -28,25 +36,3 @@ proxies:
   server: 13.230.226.50
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: thisgou
-  port: 80
-  server: 18.183.101.244
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇯🇵6 |  1.1MB/s
-  network: ws
-  port: 11184
-  server: 175.215.154.208
-  servername: oracle2ipv4.till.nyc.mn
-  tls: true
-  type: vmess
-  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
-  ws-opts:
-    headers:
-      Host: oracle2ipv4.till.nyc.mn
-    path: /

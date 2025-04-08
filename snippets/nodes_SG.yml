@@ -1,10 +1,16 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇸🇬1 |  4.7MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  servername: sg02s.de15-5483-d16b.sbs
+  tls: false
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,15,16|12,13|新加坡|@ripaojiedian
@@ -19,6 +25,12 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,16|12|🇸🇬 新加坡2|@ripaojiedian
