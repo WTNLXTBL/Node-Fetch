@@ -5,11 +5,29 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.241.11
+  name: 15,16|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 16618
+  server: yes.mojcn.com
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
+  ws-opts:
+    headers:
+      Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡2|@ripaojiedian
+  network: tcp
+  port: '4137'
+  server: 41158001-suh6o0-sv6d5y-ddgs.c.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
