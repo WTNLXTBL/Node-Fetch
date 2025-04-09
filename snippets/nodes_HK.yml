@@ -1,15 +1,4 @@
 proxies:
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40239
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 3.link-hub.click
-  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港10|@ripaojiedian
@@ -26,15 +15,6 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港8|@ripaojiedian
-  network: tcp
-  port: 31998
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -43,23 +23,6 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港9|@ripaojiedian
-  password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
-  port: 46602
-  server: xg-jd.huidu51.com
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 11,16|12|🇭🇰 香港7|@ripaojiedian
-  network: tcp
-  port: 50002
-  server: 47.104.186.133
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
   password: 4467ae8518abf1ef321618c0bfb5549c
@@ -82,3 +45,40 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40239
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 3.link-hub.click
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港8|@ripaojiedian
+  network: tcp
+  port: 31998
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|12|🇭🇰 香港7|@ripaojiedian
+  network: tcp
+  port: 50002
+  server: 47.104.186.133
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港9|@ripaojiedian
+  password: ed0ca0bd-3aa3-4d3a-81b0-eadcd1083a4d
+  port: 46602
+  server: xg-jd.huidu51.com
+  tfo: false
+  type: ss
