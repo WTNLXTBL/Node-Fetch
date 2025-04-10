@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 2cb27b35-25da-458c-9545-dff29bf7b12d
-  port: 38726
-  server: gy.tangu.win
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -17,15 +9,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵7 |  2.2MB/s
-  network: tcp
-  port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-- alterId: 0
-  cipher: auto
   name: 11|1|🇯🇵2 |  2.0MB/s
   network: tcp
   port: 17233
@@ -33,6 +16,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 2cb27b35-25da-458c-9545-dff29bf7b12d
+  port: 38726
+  server: gy.tangu.win
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵5 |  6.3MB/s
+  network: tcp
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -47,10 +47,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵5 |  6.3MB/s
+  name: 11|1|🇯🇵7 |  2.2MB/s
   network: tcp
   port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d

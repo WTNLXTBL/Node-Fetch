@@ -1,10 +1,15 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬1 |  5.0MB/s
+  network: ws
+  port: '80'
+  server: fbf248.de15-5483-d16b.sbs
+  tls: false
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -13,15 +18,21 @@ proxies:
   server: 52.78.247.197
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|12|🇸🇬 新加坡|@ripaojiedian
+  name: 11|1|🇸🇬3 |  1.6MB/s
   network: tcp
-  port: 3681
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
+  port: 17231
+  server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11|1|🇸🇬2 |  5.2MB/s
@@ -37,21 +48,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬1 |  5.0MB/s
-  network: ws
-  port: '80'
-  server: fbf248.de15-5483-d16b.sbs
-  tls: false
-  type: vmess
-  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬3 |  1.6MB/s
+  name: 11,16|12|🇸🇬 新加坡|@ripaojiedian
   network: tcp
-  port: 17231
-  server: 03d929ef-suk9s0-tcmdts-1mmu6.cm5.p5pv.com
+  port: 3681
+  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
