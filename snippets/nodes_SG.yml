@@ -1,32 +1,12 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: cdc48a7a-b618-45af-a831-5afbd686b02f
-  port: 13203
-  server: gg21.hangfengjiasu.com
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
-  name: 1|_SG_
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.87.28
+  server: 13.125.238.108
+  tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇸🇬4 |  5.0MB/s
-  network: ws
-  port: 80
-  server: fbf248.de15-5483-d16b.sbs
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
-  ws-opts:
-    headers:
-      Host: sg02s.de15-5483-d16b.sbs
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -36,10 +16,25 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  name: 1|_SG_
   password: amazonskr05
   port: 443
-  server: 13.125.238.108
+  server: 54.179.87.28
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 13203
+  server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇸🇬4 |  6.2MB/s
+  network: tcp
+  port: 17231
+  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
