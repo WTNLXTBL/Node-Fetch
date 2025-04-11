@@ -1,20 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: cdc48a7a-b618-45af-a831-5afbd686b02f
-  port: 12202
-  server: gg21.hangfengjiasu.com
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 1601e3c29c8db1a88942cf0cad731bf3
-  port: 3306
-  server: 129.226.58.228
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   name: 11|2|🇭🇰5 |  3.7MB/s
@@ -29,28 +13,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰1 |  2.0MB/s
-  network: ws
-  port: 80
-  server: c0f2688d-sutj40-sydwhg-1s2ks.hgc1.tcpbbr.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52612
-  server: hk02.x.quickcht3.club
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
@@ -78,10 +40,40 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 12202
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 1601e3c29c8db1a88942cf0cad731bf3
+  port: 3306
+  server: 129.226.58.228
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰1 |  2.0MB/s
+  network: ws
+  port: 80
+  server: c0f2688d-sutj40-sydwhg-1s2ks.hgc1.tcpbbr.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a664d16a-4e47-11ef-9d7e-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
-  server: 111.29.57.125
+  server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: chacha20-ietf
@@ -90,5 +82,13 @@ proxies:
   password: asd123456
   port: 8388
   server: 103.149.182.191
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
   tfo: false
   type: ss
