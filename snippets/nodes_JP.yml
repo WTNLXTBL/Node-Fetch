@@ -1,15 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵12 |  4.9MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
   name: 11|1|🇯🇵11 |  4.8MB/s
   network: tcp
   port: 17233
@@ -17,14 +8,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 2cb27b35-25da-458c-9545-dff29bf7b12d
-  port: 38726
-  server: gy.tangu.win
+  port: 45402
+  server: 112.65.92.20
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
   name: 11|1|🇯🇵10 |  1.0MB/s
@@ -34,12 +28,31 @@ proxies:
   tls: false
   type: vmess
   uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵12 |  4.9MB/s
+  network: tcp
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '45402'
+  server: 112.65.92.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.13.121.24
+  server: 54.92.121.89
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -48,9 +61,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-c4zHT87iGG.download.microsoft.com
+    host: 202504031266665-eDq1Iqw40p.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 54.199.242.76
   tfo: false
   type: ss
